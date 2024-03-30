@@ -12,13 +12,15 @@ function crash_method(_ex)
 		ossafe_file_delete("crash.log");
 	crashFileHandle = ossafe_file_text_open_write("crash.log");
 	
+	
+	var date_time = date_current_datetime();
 	ossafe_file_text_write_string(crashFileHandle, $"--------------------------------------------------------------");
 	ossafe_file_text_writeln(crashFileHandle);
 	ossafe_file_text_write_string(crashFileHandle, $"An Unhandled Exception has occured!");
 	ossafe_file_text_writeln(crashFileHandle);
 	ossafe_file_text_write_string(crashFileHandle, $"--------------------------------------------------------------");
 	ossafe_file_text_writeln(crashFileHandle);
-	ossafe_file_text_write_string(crashFileHandle, $"Time: {date_current_datetime()}");
+	ossafe_file_text_write_string(crashFileHandle, $"Date-Time: {date_get_hour(date_time)}:{date_get_minute(date_time)}:{date_get_second(date_time)} ({date_get_timezone()}) - {date_get_day(date_time)}/{date_get_month(date_time)}/{date_get_year(date_time)}");
 	ossafe_file_text_writeln(crashFileHandle);
 	ossafe_file_text_write_string(crashFileHandle, $"Line {_ex.line} in script: \"{_ex.script}\"");
 	ossafe_file_text_writeln(crashFileHandle);
