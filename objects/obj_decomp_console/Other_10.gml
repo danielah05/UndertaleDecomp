@@ -35,6 +35,7 @@ command_register("pos_show", "Toggles the position overlay", [ ]);
 command_register("pos_set", "Sets the position of the player", [ "x", "y" ]);
 
 command_register("random_encounters", "Toggles random monster encounters");
+command_register("game_restart", "Restarts the game");
 
 #region Argument hints 
 
