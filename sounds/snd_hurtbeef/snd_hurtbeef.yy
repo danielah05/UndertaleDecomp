@@ -12,8 +12,8 @@
   "duration":0.428,
   "name":"snd_hurtbeef",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Hurt",
+    "path":"folders/Sounds/SoundFX/Battle/Hurt.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

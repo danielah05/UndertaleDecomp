@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.168,
+  "duration":1.168254,
   "name":"snd_oddtalk1",
   "parent":{
     "name":"SoundFX",

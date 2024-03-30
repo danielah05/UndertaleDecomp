@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.471,
+  "duration":0.471655,
   "name":"snd_bell",
   "parent":{
     "name":"SoundFX",

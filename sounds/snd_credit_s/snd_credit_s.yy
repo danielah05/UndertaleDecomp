@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.055,
+  "duration":0.055442,
   "name":"snd_credit_s",
   "parent":{
     "name":"SoundFX",

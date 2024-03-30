@@ -12,8 +12,8 @@
   "duration":0.094,
   "name":"snd_txtund4",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Text",
+    "path":"folders/Sounds/SoundFX/Text.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

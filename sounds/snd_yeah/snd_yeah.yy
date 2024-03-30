@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.87,
+  "duration":0.870748,
   "name":"snd_yeah",
   "parent":{
     "name":"SoundFX",

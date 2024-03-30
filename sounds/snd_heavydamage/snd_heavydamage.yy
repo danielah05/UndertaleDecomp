@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":1.722,
+  "duration":1.72263,
   "name":"snd_heavydamage",
   "parent":{
     "name":"SoundFX",

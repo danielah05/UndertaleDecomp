@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.361,
+  "duration":0.36161,
   "name":"snd_lightswitch",
   "parent":{
     "name":"SoundFX",

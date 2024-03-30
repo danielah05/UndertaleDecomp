@@ -12,8 +12,8 @@
   "duration":0.759002,
   "name":"mus_sfx_ahh",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/SoundFX/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",
