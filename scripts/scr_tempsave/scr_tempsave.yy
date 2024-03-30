@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_tempsave",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_tempsave",
+  "parent":{
+    "name":"Save",
+    "path":"folders/Scripts/Common/Save.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

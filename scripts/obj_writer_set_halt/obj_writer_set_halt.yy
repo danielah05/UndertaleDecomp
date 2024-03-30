@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"obj_writer_set_halt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"obj_writer_set_halt",
+  "parent":{
+    "name":"Decomp",
+    "path":"folders/Scripts/Decomp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

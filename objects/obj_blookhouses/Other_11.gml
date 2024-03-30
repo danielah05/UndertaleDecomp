@@ -1,0 +1,5 @@
+with (interacter)
+    instance_destroy()
+with (solider)
+    instance_destroy()
+doorer = instance_create(172, 112, obj_doorCmusicfade)

@@ -1,0 +1,11 @@
+level = 0
+levelpic[1] = spr_spaghot_b
+levelpic[2] = spr_spaghot_c
+levelpic[3] = spr_spaghot_d
+levelpic[4] = spr_spaghot_e
+levelpic[5] = spr_spaghot_f
+levelpic[6] = spr_spaghot_g
+levelpic[7] = spr_spaghot_h
+levelpic[8] = spr_spaghot_i
+levelpic[9] = spr_spaghot_i
+image_speed = 0.334

@@ -1,0 +1,2 @@
+x -= hspeed
+hspeed = (-hspeed)

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_shop_draw_status",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_shop_draw_status",
+  "parent":{
+    "name":"Shop",
+    "path":"folders/Scripts/Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

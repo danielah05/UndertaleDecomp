@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_wngdng6",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.071,
+  "name":"snd_wngdng6",
+  "parent":{
+    "name":"SoundFX",
+    "path":"folders/Sounds/SoundFX.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_wngdng6",
+  "type":0,
+  "volume":0.83,
+}

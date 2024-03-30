@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_x_undyne_pre",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":13.714286,
+  "name":"mus_x_undyne_pre",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Sounds/Music/Battle.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_x_undyne_pre.ogg",
+  "type":1,
+  "volume":1.0,
+}

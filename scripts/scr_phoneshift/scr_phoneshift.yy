@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_phoneshift",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_phoneshift",
+  "parent":{
+    "name":"Phone",
+    "path":"folders/Scripts/UI/Phone.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,45 @@
+shakex = 0
+shakey = 0
+shaketimer = 0
+shaketime = 0
+image_xscale = 2
+image_yscale = 2
+image_speed = 0
+depth = 10
+tail_timer = 0
+hitcon = 0
+hit_timer = 0
+hitcount = 0
+attack_mode = 0
+attack_timer = 0
+attack_msg = 0
+msg_num = 0
+heady = 0
+headx = 0
+headrot = 0
+head = 0
+x = 220
+y = 40
+vx = 0
+vy = 0
+global.faceemotion = 0
+swingtimer = 0
+aqua_blue = merge_color(c_blue, c_aqua, 0.8)
+joycon_red = merge_color(c_red, c_fuchsia, 0.2)
+global.joycon_color[0] = aqua_blue
+global.joycon_color[1] = joycon_red
+pattern = 0
+for (i = 0; i < 5; i += 1)
+{
+    xpos[i] = 314
+    ypos[i] = 300
+    peg_alpha[i] = 0
+}
+xpos[0] += -50
+xpos[2] += 50
+ypos[3] += -50
+ypos[4] += 50
+true_battle = 0
+hit_special = 0
+whitefade = 0
+whiteval = 0

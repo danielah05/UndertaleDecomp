@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"command_writeline",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"command_writeline",
+  "parent":{
+    "name":"Console",
+    "path":"folders/Scripts/Decomp/Console.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

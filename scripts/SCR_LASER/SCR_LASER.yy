@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"SCR_LASER",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"SCR_LASER",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

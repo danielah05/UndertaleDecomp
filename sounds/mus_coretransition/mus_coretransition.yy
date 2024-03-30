@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_coretransition",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":11.901678,
+  "name":"mus_coretransition",
+  "parent":{
+    "name":"Core",
+    "path":"folders/Sounds/Music/Hotland/Core.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_coretransition.ogg",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,0 +1,10 @@
+if (hspeed > 0 && x > (global.idealborder[1] + 20))
+    event_user(0)
+if (hspeed < 0 && x < (global.idealborder[0] - 100))
+    event_user(0)
+if (vspeed < 0 && y < (global.idealborder[2] - 100))
+    event_user(0)
+if (vspeed > 0 && y > (global.idealborder[3] + 20))
+    event_user(0)
+if (image_alpha < 1)
+    image_alpha += 0.2

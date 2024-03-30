@@ -1,0 +1,14 @@
+heady = (y - 30)
+armory = (y + 10)
+pantsy = (y + 100)
+shoesy = (y + 142)
+siner = 0
+arm1 = (y + 40)
+arm2 = (y + 60)
+hand = (y + 80)
+pause = 0
+shaker = 0
+hand1pic = spr_barafist
+hand2pic = spr_barafalchion
+headpic = spr_barahead1
+bodypic = spr_baraarmor

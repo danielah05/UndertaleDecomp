@@ -1,0 +1,10 @@
+dmg = 0
+type = 0
+side = 0
+move_towards_point(obj_heart.x, obj_heart.y, 2)
+angel = direction
+speed = 0.001
+image_speed = 0
+part = 0
+visible = false
+alarm[1] = 1

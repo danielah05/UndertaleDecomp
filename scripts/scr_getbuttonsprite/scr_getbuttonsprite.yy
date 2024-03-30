@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_getbuttonsprite",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_getbuttonsprite",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"menu_option",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"menu_option",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Scripts/Decomp/Menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

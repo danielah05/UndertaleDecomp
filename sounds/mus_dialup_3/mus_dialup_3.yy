@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_dialup_3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.551,
+  "name":"mus_dialup_3",
+  "parent":{
+    "name":"SoundFX",
+    "path":"folders/Sounds/SoundFX.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_dialup_3",
+  "type":1,
+  "volume":1.0,
+}

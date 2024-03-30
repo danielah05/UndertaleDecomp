@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_elecdoor_close",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.508,
+  "name":"snd_elecdoor_close",
+  "parent":{
+    "name":"SoundFX",
+    "path":"folders/Sounds/SoundFX.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_elecdoor_close",
+  "type":1,
+  "volume":1.0,
+}

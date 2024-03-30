@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"random_ranger",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"random_ranger",
+  "parent":{
+    "name":"Text",
+    "path":"folders/Scripts/Text.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

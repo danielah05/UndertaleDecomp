@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_buzzing",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":3.43,
+  "name":"snd_buzzing",
+  "parent":{
+    "name":"SoundFX",
+    "path":"folders/Sounds/SoundFX.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_buzzing",
+  "type":1,
+  "volume":1.0,
+}

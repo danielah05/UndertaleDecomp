@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"cmd_game_crash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cmd_game_crash",
+  "parent":{
+    "name":"Game",
+    "path":"folders/Scripts/Decomp/Console/Commands/Game.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

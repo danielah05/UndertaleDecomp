@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_enable_alphablend",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"draw_enable_alphablend",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

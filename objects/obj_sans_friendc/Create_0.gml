@@ -1,0 +1,13 @@
+dsprite = spr_sans_dt
+usprite = spr_sans_u
+lsprite = spr_sans_l
+rsprite = spr_sans_r
+dtsprite = spr_sans_dt
+utsprite = spr_sans_u
+ltsprite = spr_sans_l
+rtsprite = spr_sans_r
+myinteract = 0
+facing = Direction.Right
+direction = 270
+talkedto = 0
+fun = false

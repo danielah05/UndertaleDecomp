@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_rumble_hd",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_rumble_hd",
+  "parent":{
+    "name":"Switch",
+    "path":"folders/Scripts/Console/Switch.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

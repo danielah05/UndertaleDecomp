@@ -1,0 +1,1 @@
+attacked = 2

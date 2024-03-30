@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_musfadeout",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_musfadeout",
+  "parent":{
+    "name":"Audio",
+    "path":"folders/Scripts/Common/Audio.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"joystick_buttons",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"joystick_buttons",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Common/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

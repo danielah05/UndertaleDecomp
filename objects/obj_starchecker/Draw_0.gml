@@ -1,0 +1,6 @@
+draw_sprite(sprite_index, image_index, x, y)
+draw_set_color(c_black)
+ossafe_fill_rectangle(0, 0, 1200, bbox_top)
+ossafe_fill_rectangle(0, 1200, 1200, bbox_bottom)
+ossafe_fill_rectangle(0, 0, bbox_left, 1200)
+ossafe_fill_rectangle(bbox_right, 0, 1200, 1200)

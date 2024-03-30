@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"caster_pause",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"caster_pause",
+  "parent":{
+    "name":"Audio",
+    "path":"folders/Scripts/Common/Audio.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

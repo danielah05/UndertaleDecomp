@@ -1,0 +1,1 @@
+inithspeed = hspeed

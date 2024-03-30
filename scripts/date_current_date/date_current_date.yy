@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"date_current_date",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"date_current_date",
+  "parent":{
+    "name":"Unused",
+    "path":"folders/Scripts/Unused.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

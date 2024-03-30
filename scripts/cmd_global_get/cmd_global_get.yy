@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"cmd_global_get",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cmd_global_get",
+  "parent":{
+    "name":"Variable",
+    "path":"folders/Scripts/Decomp/Console/Commands/Variable.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

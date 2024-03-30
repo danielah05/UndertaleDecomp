@@ -1,0 +1,12 @@
+alarm[0] = 1
+site = choose(0, 1, 2, 3)
+down = 0
+image_speed = 0
+countdown = instance_number(object_index)
+if (countdown <= 1)
+    image_index = 1
+speedmod = 1
+alphoid = 0
+image_alpha = 0
+object0 = obj_spearblocker
+dmg = 7

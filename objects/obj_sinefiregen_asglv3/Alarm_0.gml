@@ -1,0 +1,15 @@
+s += 2
+fire = instance_create(((global.idealborder[0] + ((global.idealborder[1] - global.idealborder[0]) / 2)) + (cos((off / 6)) * 20)), ((130 + (sin((off / 5)) * 12)) + (sin((off / 5)) * 12)), obj_sinefire_asghelix)
+fire.sf = 5
+fire.vspeed = 5
+fire.s = s
+side += 1
+if (side >= 4)
+    side = choose(-2, -1)
+if (side <= 1)
+    fire.sv = 9
+if (side >= 1)
+    fire.sv = -9
+alarm[0] = 6
+off += 1
+fire.vspeed += (sin((off / 6)) * 0.2)

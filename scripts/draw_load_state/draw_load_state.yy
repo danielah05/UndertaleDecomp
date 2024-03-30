@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_load_state",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_load_state",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Decomp/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

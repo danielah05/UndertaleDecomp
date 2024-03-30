@@ -1,0 +1,27 @@
+# Ignore vanilla assets
+# These must not be included in the repo
+
+fonts/*/*
+!fonts/*/*.yy
+
+sounds/*/*
+!sounds/*/*.yy
+
+sprites/*/*
+!sprites/*/*.yy
+
+tilesets/*/*
+!tilesets/*/*.yy
+
+# Unignore decomp custom assets
+# These should be okay to include
+
+!sounds/mus_decomp_settings/**/*
+!sounds/sfx_crash/**/*
+
+!sprites/spr_achievement_trophy/**/*
+!sprites/spr_daniela/**/*
+
+# GameMaker stuff
+
+*.resource_order

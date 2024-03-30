@@ -1,0 +1,2 @@
+y -= vspeed
+vspeed = (-vspeed)

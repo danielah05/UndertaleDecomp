@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_textskip",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_textskip",
+  "parent":{
+    "name":"Text",
+    "path":"folders/Scripts/Text.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

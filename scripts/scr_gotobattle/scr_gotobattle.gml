@@ -1,0 +1,3 @@
+function scr_gotobattle()
+{
+}

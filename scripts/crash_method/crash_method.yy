@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"crash_method",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"crash_method",
+  "parent":{
+    "name":"Decomp",
+    "path":"folders/Scripts/Decomp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

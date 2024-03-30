@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_sr",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_sr",
+  "parent":{
+    "name":"Undyne",
+    "path":"folders/Scripts/Battle/Undyne.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

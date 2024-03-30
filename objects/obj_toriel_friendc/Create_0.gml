@@ -1,0 +1,14 @@
+dsprite = spr_toriel_dt
+usprite = spr_toriel_ut
+lsprite = spr_toriel_lt
+rsprite = spr_toriel_rt
+dtsprite = spr_toriel_dt
+utsprite = spr_toriel_ut
+ltsprite = spr_toriel_lt
+rtsprite = spr_toriel_rt
+myinteract = 0
+facing = Direction.Right
+direction = 270
+talkedto = 0
+fun = false
+FL_AlphysExpression = 0

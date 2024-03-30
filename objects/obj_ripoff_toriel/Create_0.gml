@@ -1,0 +1,33 @@
+scr_monstersetup()
+image_speed = 0
+global.faceemotion = 15
+part1 = obj_torielbody
+mypart1 = instance_create(x, y, part1)
+with (part1)
+    depth = 16
+mypart1.pause = 0
+alarm[9] = 8
+hurtanim = 0
+hurtsound = snd_vulkinhurt
+talked = false
+whatiheard = -1
+attacked = 0
+killed = 0
+global.heard = 0
+takedamage = 0
+mercymod = -999999
+sha = 0
+shb = 0
+turns = 0
+mercyno = 0
+talkt = 0
+saved = 0
+totalmercy = 0
+turnoff = 0
+turns = 0
+turnoff = 0
+dont = 0
+ttttt = 0
+st = instance_create((x + 66), (y - 30), obj_strangetangle)
+ht = 160
+wd = 150

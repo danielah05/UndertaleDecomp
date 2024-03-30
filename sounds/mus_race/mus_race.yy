@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_race",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":41.61016,
+  "name":"mus_race",
+  "parent":{
+    "name":"Waterfall",
+    "path":"folders/Sounds/Music/Waterfall.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_race.ogg",
+  "type":1,
+  "volume":1.0,
+}

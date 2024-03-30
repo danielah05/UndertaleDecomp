@@ -1,0 +1,23 @@
+blcon = instance_create(blconx, blcony, obj_blconwdflowey)
+gg = floor(random(3))
+mycommand = round(random(100))
+global.msg[0] = scr_gettext("obj_undynebattle2_275")
+if (turnt == 0)
+    global.msg[0] = scr_gettext("obj_undynebattle2_278")
+if (turnt == 1)
+    global.msg[0] = scr_gettext("obj_undynebattle2_282")
+if (turnt == 2)
+    global.msg[0] = scr_gettext("obj_undynebattle2_286")
+if (turnt == 3)
+    global.msg[0] = scr_gettext("obj_undynebattle2_290")
+if (turnt == 4)
+    global.msg[0] = scr_gettext("obj_undynebattle2_293")
+if (turnt == 5)
+    global.msg[0] = scr_gettext("obj_undynebattle2_295")
+turnt += 1
+global.msg[1] = scr_gettext("obj_undynebattle2_299")
+global.typer = 41
+blconwd = instance_create((blcon.x + 25), (blcon.y + 10), OBJ_NOMSCWRITER)
+global.border = 17
+obj_heart.x = (round(((global.idealborder[0] + global.idealborder[1]) / 2)) - 8)
+obj_heart.y = (round(((global.idealborder[2] + global.idealborder[3]) / 2)) - 8)

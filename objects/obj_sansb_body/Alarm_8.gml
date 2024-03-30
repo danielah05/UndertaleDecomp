@@ -1,0 +1,1 @@
+smashcon += 1

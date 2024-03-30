@@ -1,0 +1,4 @@
+function scr_end()
+{
+	
+}

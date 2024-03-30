@@ -1,0 +1,20 @@
+global.interact = 0
+global.facing = Direction.Down
+dongs = 0
+image_speed = 0
+intromusic = caster_load("music/story.ogg")
+stuck = caster_load("music/story_stuck.ogg")
+vol = 1
+caster_play(intromusic, 1, 0.91)
+global.typer = 112
+global.faceemotion = 0
+global.facechoice = 0
+global.msc = 0
+fadercreator = 0
+skip = false
+global.msg[0] = scr_gettext("obj_gameintro_fake_44")
+global.msg[1] = scr_gettext("obj_gameintro_fake_45")
+global.msg[2] = "%%%"
+mywriter = instance_create(40, 140, obj_flowey_writer)
+alarm[0] = 200
+skipper = 0

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"joystick_ypos",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"joystick_ypos",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Common/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

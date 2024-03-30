@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_setfont",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_setfont",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

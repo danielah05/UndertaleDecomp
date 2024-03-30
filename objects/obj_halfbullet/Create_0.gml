@@ -1,0 +1,13 @@
+type = 0
+visible = true
+ready = 0
+image_blend = c_white
+image_xscale = 2
+image_yscale = 2
+vspeed = 10
+image_speed = 0.25
+depth = -10
+active = true
+image_alpha = 1
+dont_disappear_hspeed = 0
+dmg = 10

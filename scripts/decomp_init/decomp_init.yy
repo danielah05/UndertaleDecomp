@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"decomp_init",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"decomp_init",
+  "parent":{
+    "name":"Decomp",
+    "path":"folders/Scripts/Decomp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

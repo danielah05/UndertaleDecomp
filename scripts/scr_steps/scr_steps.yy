@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_steps",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_steps",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

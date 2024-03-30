@@ -1,0 +1,15 @@
+x_blue = merge_color(c_blue, c_white, 0.25)
+flash = false
+dir = 0
+idealdir = 0
+old = 0
+neg = 0
+lesson = 0
+order = 0
+rating = 10
+refuse = 0
+buffer = 0
+sound0 = snd_bell
+sound1 = snd_hurt1
+idealdir = 270
+dmg = 7

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"SCR_BORDER",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"SCR_BORDER",
+  "parent":{
+    "name":"Unsorted",
+    "path":"folders/Scripts/Common/Unsorted.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_storageget",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_storageget",
+  "parent":{
+    "name":"Storage",
+    "path":"folders/Scripts/Item/Storage.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

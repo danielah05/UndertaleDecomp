@@ -1,0 +1,5 @@
+draw_set_color(c_black)
+ossafe_fill_rectangle(0, 0, 60, 240)
+ossafe_fill_rectangle(260, 0, 320, 240)
+ossafe_fill_rectangle(60, 140, 260, 240)
+ossafe_fill_rectangle(0, 0, 320, 30)

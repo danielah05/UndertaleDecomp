@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"sleep_x",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"sleep_x",
+  "parent":{
+    "name":"Unused",
+    "path":"folders/Scripts/Unused.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

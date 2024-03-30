@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_mewmew",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":67.995285,
+  "name":"mus_mewmew",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Sounds/Music/Battle.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_mewmew.ogg",
+  "type":0,
+  "volume":1.0,
+}

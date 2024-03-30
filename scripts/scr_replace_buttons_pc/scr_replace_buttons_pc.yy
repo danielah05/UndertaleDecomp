@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_replace_buttons_pc",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_replace_buttons_pc",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

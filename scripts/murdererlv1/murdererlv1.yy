@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"murdererlv1",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"murdererlv1",
+  "parent":{
+    "name":"Info",
+    "path":"folders/Scripts/Common/Info.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

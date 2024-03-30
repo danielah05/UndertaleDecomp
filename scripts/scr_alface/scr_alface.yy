@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_alface",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_alface",
+  "parent":{
+    "name":"Faces",
+    "path":"folders/Scripts/Text/Faces.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

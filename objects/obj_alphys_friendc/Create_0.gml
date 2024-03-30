@@ -1,0 +1,15 @@
+dsprite = spr_alphys_dt
+usprite = spr_alphys_ut
+lsprite = spr_alphys_lt
+rsprite = spr_alphys_rt
+dtsprite = spr_alphys_dt
+utsprite = spr_alphys_ut
+ltsprite = spr_alphys_lt
+rtsprite = spr_alphys_rt
+myinteract = 0
+facing = Direction.Right
+direction = 270
+talkedto = 0
+fun = false
+FL_AlphysExpression = 0
+FL_UndyneExpression = 0

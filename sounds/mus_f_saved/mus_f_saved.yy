@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_f_saved",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":6.648163,
+  "name":"mus_f_saved",
+  "parent":{
+    "name":"Flowey Boss",
+    "path":"folders/Sounds/Music/Battle/Flowey Boss.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_f_saved.ogg",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_getideal",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_getideal",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,11 @@
+con = 0
+if (FL_TruePacifist == true)
+    instance_destroy()
+if (FL_FunCallOccurred == 1)
+    instance_destroy()
+if (FL_Fun >= 40)
+    instance_destroy()
+if (FL_Fun <= 1)
+    instance_destroy()
+if (global.plot >= 120)
+    instance_destroy()

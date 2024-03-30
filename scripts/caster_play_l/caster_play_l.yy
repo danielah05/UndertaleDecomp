@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"caster_play_l",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"caster_play_l",
+  "parent":{
+    "name":"Audio",
+    "path":"folders/Scripts/Common/Audio.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

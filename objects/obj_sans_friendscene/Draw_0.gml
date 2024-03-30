@@ -1,0 +1,5 @@
+draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+if (shock == 0)
+    draw_sprite_ext(spr_sans_bface, face, (x + 24), (y - 46), image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+if (shock == 1)
+    draw_sprite_ext(spr_sanswrapface, 0, (x + 24), (y - 46), image_xscale, image_yscale, image_angle, image_blend, image_alpha)

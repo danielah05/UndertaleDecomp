@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_dogcheck",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_dogcheck",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

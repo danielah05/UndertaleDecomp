@@ -1,0 +1,19 @@
+scr_monstersetup(0, 0, 0, 0, 0)
+image_speed = 0
+hurtanim = 0
+hurtsound = snd_damage
+talked = false
+whatiheard = -1
+attacked = 0
+killed = 0
+global.heard = 0
+takedamage = 0
+outside = 0
+mercymod = -40
+scalevalue = -0.01
+stage = 0
+part1 = obj_moldsmalx_body
+mypart1 = instance_create(x, y, part1)
+visible = false
+ht = 100
+wd = 100

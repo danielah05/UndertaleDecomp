@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"getCommandDefIndex",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"getCommandDefIndex",
+  "parent":{
+    "name":"Console",
+    "path":"folders/Scripts/Decomp/Console.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

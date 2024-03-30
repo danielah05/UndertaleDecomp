@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_hplat",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_hplat",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

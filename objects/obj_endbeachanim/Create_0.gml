@@ -1,0 +1,30 @@
+alphys = instance_create(44, 52, obj_npc_marker)
+alphys.image_speed = 0.2
+alphys.sprite_index = spr_alphys_gameboy
+alphys.visible = true
+alphys.depth = (depth + 1)
+headsprite = spr_undyne_head_normal
+head_index = 0
+headx = 0
+heady = 0
+image_speed = 0
+con = 0
+timer = -120
+active = true
+shuffle = 0
+x -= 1
+image_index = 1
+crack = 0
+ctime = 0
+scr_loadendsong()
+caster_play(global.endsong[3], 1, 1)
+global.inbattle = false
+o = scr_marker(18, 175, spr_onionsan_bright)
+o.depth = 200000
+o.image_speed = 0.1
+r = scr_marker(113, 145, spr_lumpdog)
+r.depth = 200000
+r.image_speed = 0.25
+l = scr_marker(23, 131, spr_castledog_a)
+l.depth = 200000
+l.image_speed = 0.2

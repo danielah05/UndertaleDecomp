@@ -1,0 +1,16 @@
+mysprite[0] = spr_mettanchor_shufflepaper
+mysprite[1] = spr_mettanchor_handfold
+mysprite[2] = spr_mettanchor_handraise
+mysprite[3] = spr_mettanchor_fingerup
+mysprite[4] = spr_mettanchor_handsonhead
+mysprite[5] = spr_mettanchor_mepose
+mysprite[6] = spr_mettanchor_evillaugh
+mysprite[7] = spr_mettanchor_fingerup_full
+mysprite[8] = spr_mettanchor_evillaugh_full
+j = 0
+stayx = (xstart - view_xview_get(0))
+stayy = (ystart - view_yview_get(0))
+on = 1
+image_speed = 0.2
+thischara = obj_mainchara
+siner = 0

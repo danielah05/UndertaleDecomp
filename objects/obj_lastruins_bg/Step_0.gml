@@ -1,0 +1,7 @@
+background_x_set(0, (background_x_get(0) + 0.1))
+background_x_set(1, (background_x_get(1) + 0.3))
+background_x_set(2, (background_x_get(2) + 0.5))
+background_x_set(3, (background_x_get(3) + 0.6))
+background_x_set(4, (background_x_get(4) + 1))
+background_x_set(5, (background_x_get(5) + 1.5))
+background_x_set(6, (background_x_get(6) + 2))

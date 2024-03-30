@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_itemshift",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_itemshift",
+  "parent":{
+    "name":"Item",
+    "path":"folders/Scripts/Item.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

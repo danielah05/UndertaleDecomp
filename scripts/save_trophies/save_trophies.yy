@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"save_trophies",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"save_trophies",
+  "parent":{
+    "name":"Save",
+    "path":"folders/Scripts/Decomp/Save.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

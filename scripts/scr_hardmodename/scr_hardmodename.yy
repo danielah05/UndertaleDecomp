@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_hardmodename",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_hardmodename",
+  "parent":{
+    "name":"UI",
+    "path":"folders/Scripts/UI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

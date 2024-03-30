@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"sleep",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sleep",
+  "parent":{
+    "name":"Decomp",
+    "path":"folders/Scripts/Decomp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

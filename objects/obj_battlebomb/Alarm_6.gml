@@ -1,0 +1,18 @@
+blcon = instance_create(200, 100, obj_blconwdflowey)
+blcon.sprite_index = spr_blcontiny
+gg = floor(random(3))
+mycommand = round(random(100))
+global.msg[0] = scr_gettext("obj_battlebomb_217")
+if (mycommand < 75)
+    global.msg[0] = scr_gettext("obj_battlebomb_218")
+if (mycommand < 50)
+    global.msg[0] = scr_gettext("obj_battlebomb_219")
+if (mycommand < 25)
+    global.msg[0] = scr_gettext("obj_battlebomb_220")
+if (bombtype == BombType.Dog)
+    global.msg[0] = scr_gettext("obj_battlebomb_222")
+if (bombtype == BombType.ExtremelyAgileGlassOfWater)
+    global.msg[0] = scr_gettext("obj_battlebomb_223")
+global.msg[1] = scr_gettext("obj_battlebomb_245")
+global.typer = 2
+blconwd = instance_create((blcon.x + 15), (blcon.y + 10), OBJ_NOMSCWRITER)

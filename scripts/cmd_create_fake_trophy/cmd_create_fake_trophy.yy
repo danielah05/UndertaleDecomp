@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"cmd_create_fake_trophy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cmd_create_fake_trophy",
+  "parent":{
+    "name":"Commands",
+    "path":"folders/Scripts/Decomp/Console/Commands.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

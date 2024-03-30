@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_blconmatch",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_blconmatch",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"cmd_fun_set",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cmd_fun_set",
+  "parent":{
+    "name":"Flag",
+    "path":"folders/Scripts/Decomp/Console/Commands/Flag.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

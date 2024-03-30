@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_confession",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":19.80517,
+  "name":"mus_confession",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Sounds/Music/Common.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_confession.ogg",
+  "type":1,
+  "volume":1.0,
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_fakecrash_draw",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_fakecrash_draw",
+  "parent":{
+    "name":"Effect",
+    "path":"folders/Scripts/Drawing/Effect.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
