@@ -107,7 +107,7 @@ if (global.mnfight == 2)
             gen.hspeed = 4
             gen = instance_create((global.idealborder[0] - 320), (global.idealborder[3] - 90), blt_sizebone)
             gen.hspeed = 4
-            gen.blue = 1
+            gen.blue = BulletType.Blue
             gen = instance_create((global.idealborder[1] + 480), (global.idealborder[3] - 60), blt_sizebone)
             gen.hspeed = -4
             gen = instance_create((global.idealborder[1] + 700), (global.idealborder[3] - 30), blt_sizebone)
@@ -130,34 +130,34 @@ if (global.mnfight == 2)
                 global.border = 5
                 gen = instance_create((global.idealborder[1] + 60), (global.idealborder[3] - 80), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 1
+                gen.blue = BulletType.Blue
                 gen = instance_create((global.idealborder[1] + 140), (global.idealborder[3] - 20), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 0
+                gen.blue = BulletType.Normal
                 gen = instance_create((global.idealborder[1] + 220), (global.idealborder[3] - 80), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 1
+                gen.blue = BulletType.Blue
                 gen = instance_create((global.idealborder[1] + 300), (global.idealborder[3] - 20), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 0
+                gen.blue = BulletType.Normal
                 gen = instance_create((global.idealborder[1] + 380), (global.idealborder[3] - 80), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 1
+                gen.blue = BulletType.Blue
                 gen = instance_create((global.idealborder[1] + 460), (global.idealborder[3] - 20), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 0
+                gen.blue = BulletType.Normal
                 gen = instance_create((global.idealborder[1] + 540), (global.idealborder[3] - 80), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 1
+                gen.blue = BulletType.Blue
                 gen = instance_create((global.idealborder[1] + 620), (global.idealborder[3] - 20), blt_sizebone)
                 gen.hspeed = -5
-                gen.blue = 0
+                gen.blue = BulletType.Normal
                 gen = instance_create((global.idealborder[1] + 1250), (global.idealborder[3] - 80), blt_sizebone)
                 gen.hspeed = -7.5
-                gen.blue = 1
+                gen.blue = BulletType.Blue
                 gen = instance_create((global.idealborder[1] + 1330), (global.idealborder[3] - 20), blt_sizebone)
                 gen.hspeed = -7.5
-                gen.blue = 0
+                gen.blue = BulletType.Normal
             }
             else
             {

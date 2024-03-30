@@ -15,6 +15,6 @@ if (abs(hspeed) < 0.2)
 if (abs(vspeed) < 0.2)
     vspeed *= 3
 friction = -0.04
-blue = 0
+blue = BulletType.Normal
 alarm[0] = 4
 offset = 0

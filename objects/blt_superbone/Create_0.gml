@@ -1,6 +1,6 @@
 dmg = 3
 image_speed = 0
-blue = 0
+blue = BulletType.Normal
 osc = 0
 oscmax = 20
 oscmin = 20

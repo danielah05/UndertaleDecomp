@@ -7,6 +7,6 @@ direction = 0
 speed = 4
 idealradius = 10
 anglechange = 1
-blue = 0
+blue = BulletType.Normal
 specialtimer = 999
 cl = 1

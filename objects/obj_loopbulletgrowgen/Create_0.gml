@@ -6,6 +6,6 @@ circ = ((radius * 2) * pi)
 speed = 2
 myself = 0
 alarm[0] = 3
-blue = 0
+blue = BulletType.Normal
 blueone = 999
 specialtimer = 999

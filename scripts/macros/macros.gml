@@ -526,6 +526,22 @@ enum SpBulletType
 	TwoSpiders
 }
 
+// MewMew Bullet Types
+enum MewMewBulletType
+{
+	White,
+	Blue,
+	Red
+}
+
+enum BulletType
+{
+	Normal,
+	Blue,
+	Orange,
+	OneOff
+}
+
 enum Items
 {
 	// 00 - 09
