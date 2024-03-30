@@ -13,6 +13,7 @@ Vultumast - Project Lead - Code Cleanup, Bug Fixing, Some Sorting<br>
 Discord: ``vultumast``<br>
 Email: ``vultumast@gmail.com``<br>
 
+[Discord](https://discord.gg/sfQmY89m9n)<br>
 ## Do you have permission to share this?
 We originally emailed the fangamer UNDERTALE contact for permission, but due to some misunderstanding on both sides, we had to take down this project.<br>
 HOWEVER: after some more communication, fangamer did allow us to make this a public project as long as it does not bundle any UNDERTALE-specific assets.
