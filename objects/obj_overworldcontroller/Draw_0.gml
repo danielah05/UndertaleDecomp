@@ -417,7 +417,7 @@ if (global.interact == 5)
         if (global.menuno == 6)
         {
             global.menuno = 9
-            scr_storageget(global.item[global.menucoord[6]], 300)
+            scr_storageget(global.item[global.menucoord[6]], DimensionBoxAItemStart)
             if (noroom == 0)
             {
                 scr_writetext(16, "x", 0, 0)

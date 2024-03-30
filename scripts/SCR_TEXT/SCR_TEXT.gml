@@ -266,7 +266,7 @@ function SCR_TEXT()
 	        break
 	    case 17:
 	        i = round(random(14))
-	        scr_storagename(300)
+	        scr_storagename(DimensionBoxAItemStart)
 	        if (i <= 12)
 	            global.msg[0] = scr_gettext("item_box_take1", global.itemname[global.menucoord[6]])
 	        if (i > 12)

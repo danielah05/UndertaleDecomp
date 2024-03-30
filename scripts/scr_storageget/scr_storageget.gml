@@ -1,17 +1,20 @@
-function scr_storageget()
+/// @func	scr_storageget(null_item_set, box_flag_offset)
+/// @param	{Constant.Items}	null_item_set
+/// @param	{real}				box_flag_offset		The flag index for the start of the boxes
+function scr_storageget(_null_item_set, _box_flag_offset)
 {
 	i = 0
-	loop = 1
-	noroom = 0
-	global.flag[(argument1 + 10)] = 999
-	while (loop == 1)
+	loop = true
+	noroom = false
+	global.flag[(_box_flag_offset + (DimensionalBoxSize - 1))] = 999
+	while (loop == true)
 	{
-	    if (global.flag[(i + argument1)] == 0)
+	    if (global.flag[(i + _box_flag_offset)] == Items.Null)
 	    {
-	        global.flag[(i + argument1)] = argument0
+	        global.flag[(i + _box_flag_offset)] = _null_item_set
 	        break
 	    }
-	    else if (i == 10)
+	    else if (i == (DimensionalBoxSize - 1))
 	    {
 	        scr_itemnospace()
 	        break
@@ -23,5 +26,5 @@ function scr_storageget()
 	    }
 	}
 	scr_itemnameb()
-	scr_storagename(300)
+	scr_storagename(DimensionBoxAItemStart)
 }
