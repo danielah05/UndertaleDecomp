@@ -1,1 +1,1 @@
-scr_damagestandard(0, 2, 0, 0, 90)
+scr_damagestandard(BulletType.Normal, 2, 0, 0, 90)

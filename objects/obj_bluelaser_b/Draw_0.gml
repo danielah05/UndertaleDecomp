@@ -1,4 +1,4 @@
-if (blue == 1)
+if (blue == BulletType.Blue)
     draw_set_color(c_soulblue)
 if (blue == 2)
     draw_set_color(c_orange)

@@ -1,5 +1,5 @@
 bb = 1
-if (blue == 1)
+if (blue == BulletType.Blue)
 {
     if (obj_heart.xprevious != obj_heart.x || obj_heart.yprevious != obj_heart.y)
         bb = 1

@@ -1,4 +1,4 @@
-blue = 1
+blue = BulletType.Blue
 dmg = 7
 rate = global.firingrate
 alarm[0] = rate

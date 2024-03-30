@@ -1,10 +1,10 @@
 check = 1
-if (blue == 1)
+if (blue == BulletType.Blue)
 {
     if (obj_mainchara.x == obj_mainchara.xprevious && obj_mainchara.y == obj_mainchara.yprevious)
         check = 0
 }
-if (blue == 2)
+if (blue == BulletType.Orange)
 {
     if (obj_mainchara.x != obj_mainchara.xprevious || obj_mainchara.y != obj_mainchara.yprevious)
         check = 0

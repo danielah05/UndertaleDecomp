@@ -1,3 +1,3 @@
 dmg = 0
-blue = 0
+blue = BulletType.Normal
 bb = 0

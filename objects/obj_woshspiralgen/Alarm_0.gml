@@ -8,16 +8,16 @@ if instance_exists(m)
         m.speed /= 1.1
         m.friction /= 1.25
     }
-    if (blue == 1)
+    if (blue == BulletType.Blue)
     {
         m.image_index = 1
-        m.blue = 1
+        m.blue = BulletType.Blue
     }
     m.direction = direction
     if (green == 0 && cleaner == 1)
     {
         m.image_index = 2
-        m.blue = 3
+        m.blue = BulletType.OneOff
         m.friction /= 3
         m.sprite_index = spr_waterbul_mask
     }

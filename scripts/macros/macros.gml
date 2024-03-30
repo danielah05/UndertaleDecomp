@@ -534,6 +534,14 @@ enum MewMewBulletType
 	Red
 }
 
+enum BulletType
+{
+	Normal,
+	Blue,
+	Orange,
+	OneOff
+}
+
 enum Items
 {
 	// 00 - 09

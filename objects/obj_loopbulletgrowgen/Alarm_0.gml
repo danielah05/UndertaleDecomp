@@ -1,4 +1,4 @@
-if (blue == 1)
+if (blue == BulletType.Blue)
     blue = (floor(random(2)) + 1)
 for (i = 0; i < totalbt; i += 1)
 {
@@ -13,13 +13,13 @@ for (i = 0; i < totalbt; i += 1)
     loopbullet.idealradius = idealradius
     loopbullet.dmg = global.monsteratk[myself]
     loopbullet.specialtimer = specialtimer
-    if (blue == 3)
-        blue = 2
-    if (blue == 1)
+    if (blue == BulletType.OneOff)
+        blue = BulletType.Orange
+    if (blue == BulletType.Blue)
     {
-        loopbullet.blue = 1
-        blue = 3
+        loopbullet.blue = BulletType.Blue
+        blue = BulletType.OneOff
     }
-    if (blue == 2)
-        blue = 1
+    if (blue == BulletType.Orange)
+        blue = BulletType.Blue
 }
