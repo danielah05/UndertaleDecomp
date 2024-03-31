@@ -12,8 +12,8 @@
   "duration":6.488526,
   "name":"mus_mett_applause",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Hotland",
+    "path":"folders/Sounds/SoundFX/Overworld/Hotland.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

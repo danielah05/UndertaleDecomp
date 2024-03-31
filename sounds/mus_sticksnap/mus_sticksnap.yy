@@ -12,8 +12,8 @@
   "duration":1.72263,
   "name":"mus_sticksnap",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Snowdin",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

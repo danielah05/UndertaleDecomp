@@ -12,8 +12,8 @@
   "duration":12.940771,
   "name":"mus_sfx_hypergoner_charge",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Asriel",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Asriel.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

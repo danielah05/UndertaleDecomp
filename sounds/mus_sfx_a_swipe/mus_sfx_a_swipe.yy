@@ -12,8 +12,8 @@
   "duration":1.086984,
   "name":"mus_sfx_a_swipe",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Asriel",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Asriel.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.085329,
   "name":"snd_gameover_broken",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Photoshop Flowey",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Photoshop Flowey.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":2.500499,
   "name":"mus_mode",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Title",
+    "path":"folders/Sounds/SoundFX/UI/Title.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

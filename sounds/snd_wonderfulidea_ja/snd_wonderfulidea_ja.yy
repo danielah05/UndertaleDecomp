@@ -12,8 +12,8 @@
   "duration":2.785,
   "name":"snd_wonderfulidea_ja",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Flowey",
+    "path":"folders/Sounds/SoundFX/Overworld/Characters/Flowey.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

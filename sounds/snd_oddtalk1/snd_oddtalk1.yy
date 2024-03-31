@@ -12,8 +12,8 @@
   "duration":1.168254,
   "name":"snd_oddtalk1",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Glow Fly",
+    "path":"folders/Sounds/SoundFX/Common/Glow Fly.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

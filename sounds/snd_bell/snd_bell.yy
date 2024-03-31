@@ -12,8 +12,8 @@
   "duration":0.471655,
   "name":"snd_bell",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Common.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":1.468753,
   "name":"snd_elecdoor_shutheavy",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Common.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":1.714286,
   "name":"snd_chug",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Common.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

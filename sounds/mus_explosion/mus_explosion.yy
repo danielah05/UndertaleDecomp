@@ -12,8 +12,8 @@
   "duration":4.009796,
   "name":"mus_explosion",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Common.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

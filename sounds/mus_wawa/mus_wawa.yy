@@ -12,8 +12,8 @@
   "duration":3.435102,
   "name":"mus_wawa",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Snowdin",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":5.05263,
   "name":"snd_grandpatemi",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Temmie",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Temmie.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

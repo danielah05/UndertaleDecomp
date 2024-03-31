@@ -12,8 +12,8 @@
   "duration":1.043447,
   "name":"mus_sfx_gigapunch",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Photoshop Flowey",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Photoshop Flowey.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

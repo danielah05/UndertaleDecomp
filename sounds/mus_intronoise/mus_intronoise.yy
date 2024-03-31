@@ -12,8 +12,8 @@
   "duration":2.842993,
   "name":"mus_intronoise",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Title",
+    "path":"folders/Sounds/SoundFX/UI/Title.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

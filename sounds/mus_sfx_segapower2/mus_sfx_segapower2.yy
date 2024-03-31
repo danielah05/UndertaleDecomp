@@ -12,8 +12,8 @@
   "duration":1.063764,
   "name":"mus_sfx_segapower2",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Battle/Common.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

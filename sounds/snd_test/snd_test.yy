@@ -12,8 +12,8 @@
   "duration":0.072562,
   "name":"snd_test",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/SoundFX/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

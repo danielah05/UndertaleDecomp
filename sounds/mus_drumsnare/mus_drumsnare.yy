@@ -12,8 +12,8 @@
   "duration":0.433923,
   "name":"mus_drumsnare",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Control Test",
+    "path":"folders/Sounds/SoundFX/UI/Control Test.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

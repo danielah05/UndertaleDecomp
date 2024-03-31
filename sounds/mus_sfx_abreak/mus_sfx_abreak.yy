@@ -12,8 +12,8 @@
   "duration":1.86195,
   "name":"mus_sfx_abreak",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Barrier",
+    "path":"folders/Sounds/SoundFX/Overworld/Barrier.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

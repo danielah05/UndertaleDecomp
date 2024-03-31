@@ -12,8 +12,8 @@
   "duration":0.055442,
   "name":"snd_credit_s",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Credits",
+    "path":"folders/Sounds/SoundFX/UI/Credits.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

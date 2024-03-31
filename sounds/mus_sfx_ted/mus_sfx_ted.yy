@@ -12,8 +12,8 @@
   "duration":0.782222,
   "name":"mus_sfx_ted",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Photoshop Flowey",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Photoshop Flowey.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

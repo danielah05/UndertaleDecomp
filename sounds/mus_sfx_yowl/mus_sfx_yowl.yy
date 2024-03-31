@@ -12,8 +12,8 @@
   "duration":0.991202,
   "name":"mus_sfx_yowl",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"True Lab",
+    "path":"folders/Sounds/SoundFX/Overworld/True Lab.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

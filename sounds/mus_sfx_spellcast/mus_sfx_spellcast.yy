@@ -12,8 +12,8 @@
   "duration":1.365624,
   "name":"mus_sfx_spellcast",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Asriel",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Asriel.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

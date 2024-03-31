@@ -12,8 +12,8 @@
   "duration":0.448,
   "name":"mus_badnote2",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Shyren",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Shyren.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

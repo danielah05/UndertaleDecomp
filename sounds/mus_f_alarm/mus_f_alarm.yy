@@ -12,8 +12,8 @@
   "duration":5.057596,
   "name":"mus_f_alarm",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Photoshop Flowey",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Photoshop Flowey.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

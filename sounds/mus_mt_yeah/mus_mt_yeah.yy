@@ -12,8 +12,8 @@
   "duration":1.030385,
   "name":"mus_mt_yeah",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/SoundFX/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

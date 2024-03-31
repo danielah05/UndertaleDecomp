@@ -12,8 +12,8 @@
   "duration":1.110204,
   "name":"mus_sfx_a_lithit",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Asriel",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Asriel.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

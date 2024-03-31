@@ -12,8 +12,8 @@
   "duration":5.548118,
   "name":"mus_whoopee",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Snowdin",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

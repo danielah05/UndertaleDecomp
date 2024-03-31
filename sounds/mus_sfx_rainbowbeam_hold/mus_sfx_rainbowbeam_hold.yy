@@ -12,8 +12,8 @@
   "duration":1.480272,
   "name":"mus_sfx_rainbowbeam_hold",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Asriel",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Asriel.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

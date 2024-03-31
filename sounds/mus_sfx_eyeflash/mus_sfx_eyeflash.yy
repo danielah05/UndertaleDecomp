@@ -12,8 +12,8 @@
   "duration":0.831565,
   "name":"mus_sfx_eyeflash",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Asgore",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Asgore.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

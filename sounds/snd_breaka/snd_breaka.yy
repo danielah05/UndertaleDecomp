@@ -12,8 +12,8 @@
   "duration":0.38458,
   "name":"snd_breaka",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Mettaton",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Mettaton.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

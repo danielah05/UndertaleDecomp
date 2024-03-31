@@ -12,8 +12,8 @@
   "duration":2.142,
   "name":"mus_piano4",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Piano",
+    "path":"folders/Sounds/SoundFX/Overworld/Waterfall/Piano.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

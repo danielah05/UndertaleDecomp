@@ -12,8 +12,8 @@
   "duration":1.673288,
   "name":"mus_rimshot",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Snowdin",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",
