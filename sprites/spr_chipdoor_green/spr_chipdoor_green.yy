@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Hotland",
+    "path":"folders/Sprites/Overworld/Hotland.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

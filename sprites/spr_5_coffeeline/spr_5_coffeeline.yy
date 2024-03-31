@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Temmie",
+    "path":"folders/Sprites/Shops/Temmie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

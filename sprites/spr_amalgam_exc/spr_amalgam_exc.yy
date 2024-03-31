@@ -36,8 +36,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"True Lab",
+    "path":"folders/Sprites/Overworld/True Lab.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

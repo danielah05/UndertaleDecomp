@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Control Test",
+    "path":"folders/Sprites/UI/Control Test.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

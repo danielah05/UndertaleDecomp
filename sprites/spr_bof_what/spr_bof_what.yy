@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Sans",
+    "path":"folders/Sprites/Battle/Characters/Sans.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

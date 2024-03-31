@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Lemonbread",
+    "path":"folders/Sprites/Battle/Bullets/Lemonbread.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
