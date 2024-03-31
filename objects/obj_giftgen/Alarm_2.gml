@@ -1,6 +1,6 @@
 siner = 0
 blt[bltx].image_index = 1
-blt[bltx].blue = 1
+blt[bltx].blue = BulletType.Blue
 blt_parent.vspeed = -2
 blt_parent.hspeed = 0
 blt_parent.friction = -0.3

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_hb_add",
   "parent":{
-    "name":"Battle",
-    "path":"folders/Scripts/Battle.yy",
+    "name":"Mew Mew",
+    "path":"folders/Scripts/Battle/Mew Mew.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

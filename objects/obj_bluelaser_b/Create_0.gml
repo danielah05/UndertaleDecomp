@@ -1,3 +1,3 @@
 hspeed = -5
-blue = 1
+blue = BulletType.Blue
 dmg = 8

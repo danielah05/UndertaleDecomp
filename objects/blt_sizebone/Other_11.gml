@@ -1,7 +1,7 @@
 if (active == true)
 {
     hit = 1
-    if (blue == 1)
+    if (blue == BulletType.Blue)
     {
         if (scr_blueat() == false)
             hit = 0

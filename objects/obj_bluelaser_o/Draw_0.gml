@@ -10,12 +10,12 @@ if (active != 2)
     }
     else
         image_speed = 0.5
-    if (blue == 1)
+    if (blue == BulletType.Blue)
     {
         draw_set_color(c_soulblue)
         sprite_index = spr_lasermachine_b
     }
-    if (blue == 2)
+    if (blue == BulletType.Orange)
     {
         draw_set_color(c_orange)
         sprite_index = spr_lasermachine_o

@@ -9,4 +9,4 @@ if (global.invc < 1)
 }
 with (obj_undyne_ex)
     hitno += 1
-scr_damagestandard(0, 0, 0, 0, 0)
+scr_damagestandard(BulletType.Normal, 0, 0, 0, 0)

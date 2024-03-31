@@ -1,5 +1,5 @@
 if (green == 0)
-    scr_damagestandard(0, 3, 0, 0, 0)
+    scr_damagestandard(BulletType.Normal, 3, 0, 0, 0)
 if (green == 1)
 {
     if instance_exists(obj_whimsalot)

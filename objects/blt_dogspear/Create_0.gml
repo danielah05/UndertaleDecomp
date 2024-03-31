@@ -1,7 +1,7 @@
 dmg = 7
 bb = 1
 blut = round(random(35))
-blue = 0
+blue = BulletType.Normal
 image_speed = 0
 image_index = 0
 x = (global.idealborder[1] - 16)

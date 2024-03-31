@@ -1,19 +1,19 @@
-check = 1
+check = true
 if instance_exists(obj_fakeheart)
 {
-    if (blue == 1)
+    if (blue == BulletType.Blue)
     {
-        check = 0
+        check = false
         if (abs((obj_fakeheart.xprevious - obj_fakeheart.x)) > 0.01 || abs((obj_fakeheart.yprevious - obj_fakeheart.y)) > 0.01)
-            check = 1
+            check = true
     }
-    if (blue == 2)
+    if (blue == BulletType.Orange)
     {
-        check = 0
+        check = false
         if (abs((obj_fakeheart.xprevious - obj_fakeheart.x)) < 0.01 && abs((obj_fakeheart.yprevious - obj_fakeheart.y)) < 0.01)
-            check = 1
+            check = true
     }
-    scr_damagestandard(3, 3, 0, 0, 0)
+    scr_damagestandard(BulletType.OneOff, 3, 0, 0, 0)
 }
 if instance_exists(obj_heart)
     scr_damagestandard(blue, 3, 0, 0, 0)

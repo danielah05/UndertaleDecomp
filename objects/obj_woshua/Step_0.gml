@@ -102,7 +102,7 @@ if (global.mnfight == 2)
                 gen = instance_create((global.idealborder[0] + (c_borderwidth(0) / 2)), ((global.idealborder[2] - 5) + (c_borderheight(0) / 2)), obj_woshspiralgen)
             if (pop == 1)
             {
-                gen.blue = 0
+                gen.blue = BulletType.Normal
                 if mycommand
                     gen.turn = 6
                 qq = choose(0, 1)

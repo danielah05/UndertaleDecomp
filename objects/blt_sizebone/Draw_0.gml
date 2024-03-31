@@ -22,7 +22,7 @@ if (w > 0 && h > 0)
 {
     if (l < w && t < h)
     {
-        if (blue == 1)
+        if (blue == BulletType.Blue)
             image_index = 1
         draw_sprite_part(spr_bonetop, image_index, l, t, (w - l), (h - t), (x + l), (y + t))
         draw_sprite_part(spr_bonebottom, image_index, l, t, (w - l), (h - t), (x + l), (global.idealborder[3] - 10))
@@ -32,7 +32,7 @@ if (x > (global.idealborder[0] - 5) && x < (global.idealborder[1] - 4))
 {
     drawn = 1
     draw_set_color(c_white)
-    if (blue == 1)
+    if (blue == BulletType.Blue)
         draw_set_color(c_soulblue)
     ossafe_fill_rectangle((x + 3), (y + 4), (x + 9), (global.idealborder[3] - 6))
 }

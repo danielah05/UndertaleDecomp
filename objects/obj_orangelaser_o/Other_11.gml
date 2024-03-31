@@ -1,2 +1,2 @@
-blue = 2
+blue = BulletType.Orange
 sprite_index = spr_lasermachine_o

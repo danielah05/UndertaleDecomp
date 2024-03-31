@@ -2,7 +2,7 @@ image_speed = 0.5
 ex = 0
 active = true
 siner = 0
-blue = 1
+blue = BulletType.Blue
 rememberhspeed = 0
 event_user(1)
 if (room == room_fire_newsreport)

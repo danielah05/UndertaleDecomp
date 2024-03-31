@@ -51,4 +51,4 @@ prev_hit = 0
 prev_pet = 0
 if (global.tempvalue[14] == 1)
     event_user(3)
-FL_FightingAsriel = 0
+FL_FightingAsriel = false

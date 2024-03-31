@@ -104,7 +104,7 @@ void PatchTilesets() {
         .ToList();
 
     int howMany = allSprites.Select(x => ProcessTileset(x)).Count(x => x);
-    logFile.Write($"Patched {howMany} tilesets");
+    logFile.WriteLine($"Patched {howMany} tilesets");
 }
 await Task.Run(PatchTilesets);
 
@@ -136,9 +136,9 @@ foreach (var font in fontsRequired)
     }
 }
 
-logFile.Write($"Found {fontsRequired.Count} fonts required");
-logFile.Write($"Found {fontsAvailable.Count} fonts available");
-logFile.Write($"Found {fontsMatched.Count} font matches");
+logFile.WriteLine($"Found {fontsRequired.Count} fonts required");
+logFile.WriteLine($"Found {fontsAvailable.Count} fonts available");
+logFile.WriteLine($"Found {fontsMatched.Count} font matches");
 mappingsFile.WriteLine($"### Fonts Skipped ###");
 fontsSkipped.ForEach(x => mappingsFile.WriteLine($"{x}"));
 mappingsFile.WriteLine($"### Unmatched Fonts ###");
@@ -211,13 +211,13 @@ foreach ((var path, var frames) in spriteFramesRequired)
     }
 }
 
-logFile.Write($"Found {spriteManifests.Count} sprite manifests");
-logFile.Write($"Found {spritesAvailable.Count} sprites available");
-logFile.Write($"Found {spriteFramesRequired.Count} sprite frames required");
-logFile.Write($"Found {spriteLayersRequired.Count} sprite layers required");
-logFile.Write($"Found {spriteFramesMatched.Count} sprite frame matches");
-logFile.Write($"Found {spriteLayersMatched.Count} sprite layer matches");
-logFile.Write($"Found {spritesSkipped.Count} sprites to skip");
+logFile.WriteLine($"Found {spriteManifests.Count} sprite manifests");
+logFile.WriteLine($"Found {spritesAvailable.Count} sprites available");
+logFile.WriteLine($"Found {spriteFramesRequired.Count} sprite frames required");
+logFile.WriteLine($"Found {spriteLayersRequired.Count} sprite layers required");
+logFile.WriteLine($"Found {spriteFramesMatched.Count} sprite frame matches");
+logFile.WriteLine($"Found {spriteLayersMatched.Count} sprite layer matches");
+logFile.WriteLine($"Found {spritesSkipped.Count} sprites to skip");
 mappingsFile.WriteLine($"### Sprites Skipped ###");
 spritesSkipped.ForEach(x => mappingsFile.WriteLine($"{x}"));
 mappingsFile.WriteLine($"### Unmatched Sprite Frames ###");
@@ -269,10 +269,10 @@ async Task MatchSounds()
 }
 await Task.Run(MatchSounds);
 
-logFile.Write($"Found {audioManifests.Count} audio manifests");
-logFile.Write($"Found {audioAvailable.Count} audio available");
-logFile.Write($"Found {audioMatched.Count} audio matches");
-logFile.Write($"Found {audioSkipped.Count} audio to skip");
+logFile.WriteLine($"Found {audioManifests.Count} audio manifests");
+logFile.WriteLine($"Found {audioAvailable.Count} audio available");
+logFile.WriteLine($"Found {audioMatched.Count} audio matches");
+logFile.WriteLine($"Found {audioSkipped.Count} audio to skip");
 mappingsFile.WriteLine($"### Skipped Audio ###");
 audioSkipped.ForEach(x => mappingsFile.WriteLine($"{x}"));
 mappingsFile.WriteLine($"### Unmatched Audio ###");
@@ -284,28 +284,51 @@ audioMatched.Where(x => x.Value != null).ForEach(x => mappingsFile.WriteLine($"{
 
 var confirmImport = ScriptQuestion(
     "Assets prepared for import:\n" +
-    $"{fontsMatched.Count(x => x.Value != null)} fonts ({fontsMatched.Count(x => x.Value == null)} failed to match)\n" +
-    $"{spriteFramesMatched.Count(x => x.Value != null)} sprite frames ({spriteFramesMatched.Count(x => x.Value == null)} failed to match)\n" +
-    $"{spriteLayersMatched.Count(x => x.Value != null)} sprite frames ({spriteLayersMatched.Count(x => x.Value == null)} failed to match)\n" +
-    $"{audioMatched.Count(x => x.Value != null)} sounds ({audioMatched.Count(x => x.Value == null)} failed to match)\n" +
+    $"{fontsMatched.Count(x => x.Value != null)} fonts ({fontsMatched.Count(x => x.Value == null)} unmatched)\n" +
+    $"{spriteFramesMatched.Count(x => x.Value != null)} sprite frames ({spriteFramesMatched.Count(x => x.Value == null)} unmatched)\n" +
+    $"{spriteLayersMatched.Count(x => x.Value != null)} sprite layers ({spriteLayersMatched.Count(x => x.Value == null)} unmatched)\n" +
+    $"{audioMatched.Count(x => x.Value != null)} sounds ({audioMatched.Count(x => x.Value == null)} unmatched)\n" +
     $"Skipped {fontsSkipped.Count} fonts, {spritesSkipped.Count} sprites, and {audioSkipped.Count} sounds (decomp assets)\n" +
+    $"Unmatched assets will use placeholders if available\n" +
     "Are you sure you want to import assets into the decomp project?\n" +
     "This will overwrite any existing files!"
 );
 
-logFile.Close();
-mappingsFile.Close();
-
 if (!confirmImport) {
     StopProgressBarUpdater();
     HideProgressBar();
+    logFile.Close();
+    mappingsFile.Close();
     return;
 }
 
-fontsMatched = fontsMatched.Where(x => x.Value != null).ToDictionary(x => x.Key, x => x.Value);
-spriteFramesMatched = spriteFramesMatched.Where(x => x.Value != null).ToDictionary(x => x.Key, x => x.Value);
-spriteLayersMatched = spriteLayersMatched.Where(x => x.Value != null).ToDictionary(x => x.Key, x => x.Value);
-audioMatched = audioMatched.Where(x => x.Value != null).ToDictionary(x => x.Key, x => x.Value);
+string placeholderFont = null;  // We don't really have issues with missing fonts
+string placeholderSprite = spritesAvailable.FirstOrDefault(x => x.Contains("spr_tobdogl_still"));
+string placeholderAudio = audioAvailable.FirstOrDefault(x => x.Contains("mus_dogsong"));
+
+logFile.WriteLine($"Using {placeholderFont} as placeholder font texture");
+logFile.WriteLine($"Using {placeholderSprite} as placeholder sprite texture");
+logFile.WriteLine($"Using {placeholderAudio} as placeholder audio file");
+
+fontsMatched = fontsMatched
+    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderFont))
+    .Where(x => x.Value != null)
+    .ToDictionary(x => x.Key, x => x.Value);
+
+spriteFramesMatched = spriteFramesMatched
+    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderSprite))
+    .Where(x => x.Value != null)
+    .ToDictionary(x => x.Key, x => x.Value);
+
+spriteLayersMatched = spriteLayersMatched
+    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderSprite))
+    .Where(x => x.Value != null)
+    .ToDictionary(x => x.Key, x => x.Value);
+
+audioMatched = audioMatched
+    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderAudio))
+    .Where(x => x.Value != null)
+    .ToDictionary(x => x.Key, x => x.Value);
 
 int totalCount = fontsMatched.Count + spriteFramesMatched.Count + spriteLayersMatched.Count + audioMatched.Count;
 
@@ -340,6 +363,9 @@ await Task.Run(() => CopyFiles(audioMatched));
 
 StopProgressBarUpdater();
 HideProgressBar();
+logFile.Close();
+mappingsFile.Close();
+
 ScriptMessage("Import finished successfully!");
 
 // OTHER UTILS

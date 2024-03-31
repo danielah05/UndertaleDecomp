@@ -1,19 +1,26 @@
-function scr_damagestandard()
+/// @func	scr_damagestandard(bullet_type, min_damage, max_damage, override_damage, unknown)
+/// @desc	This script actually handles damaging the player
+/// @param	{Constant.BulletType}	bullet_type			The type of bullet that is damaging the player
+/// @param	{real}					min_damage			The minimum amount of damage that can be given
+/// @param	{real}					max_damage			The maximum amount of damage that can be give
+/// @param	{real}					override_damage		Forced amount of damage to give
+/// @param	{real}					unknown				Dunno
+function scr_damagestandard(_bullet_type, _min_damage, _max_damage, _damage_override, _arg4)
 {
-	if (argument0 != 3)
+	if (_bullet_type != 3)
 	{
-	    check = 1
-	    if (argument0 == 1)
+	    check = true
+	    if (_bullet_type == 1)
 	    {
-	        check = 0
+	        check = false
 	        if (abs((obj_heart.xprevious - obj_heart.x)) > 0.01 || abs((obj_heart.yprevious - obj_heart.y)) > 0.01)
-	            check = 1
+	            check = true
 	    }
-	    if (argument0 == 2)
+	    if (_bullet_type == 2)
 	    {
-	        check = 0
+	        check = false
 	        if (abs((obj_heart.xprevious - obj_heart.x)) < 0.01 && abs((obj_heart.yprevious - obj_heart.y)) < 0.01)
-	            check = 1
+	            check = true
 	    }
 	}
 	puredmg = dmg
@@ -33,15 +40,15 @@ function scr_damagestandard()
 	    dmg += 1
 	if (global.hp >= 90)
 	    dmg += 1
-	if (global.invc < 1 && check == 1)
+	if (global.invc < 1 && check == true)
 	{
 	    dmgamt = round((dmg - ((global.df + global.adef) / 5)))
-	    if (dmgamt < argument1)
-	        dmgamt = argument1
-	    if (argument2 > 0 && dmgamt > argument2)
-	        dmgamt = argument2
-	    if (argument3 > 0)
-	        dmgamt = argument3
+	    if (dmgamt < _min_damage)
+	        dmgamt = _min_damage
+	    if (_max_damage > 0 && dmgamt > _max_damage)
+	        dmgamt = _max_damage
+	    if (_damage_override > 0)
+	        dmgamt = _damage_override
 	    if (dmgamt < 1)
 	        dmgamt = 1
 	    global.hp -= dmgamt
@@ -53,8 +60,8 @@ function scr_damagestandard()
 	    global.vshake = 2
 	    instance_create(0, 0, obj_shaker)
 	    global.invc = global.inv
-	    if (argument4 > 0)
-	        global.invc = ((argument4 / 20) * global.inv)
+	    if (_arg4 > 0)
+	        global.invc = ((_arg4 / 20) * global.inv)
 	    if (global.battlegroup == 22)
 	    {
 	        if (global.hp < 1)

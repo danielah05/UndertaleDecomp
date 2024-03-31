@@ -2,7 +2,7 @@ angle = (direction + 90)
 image_angle = angle
 image_xscale = (speed / 3)
 image_yscale = (speed / 3)
-if (blue == 3)
+if (blue == BulletType.OneOff)
 {
     alarm[7] += 0.5
     image_xscale = (speed / 2)
