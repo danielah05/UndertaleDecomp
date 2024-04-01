@@ -35,8 +35,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Dogi",
+    "path":"folders/Sprites/Battle/Characters/Dogi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

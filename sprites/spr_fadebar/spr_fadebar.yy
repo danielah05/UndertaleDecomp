@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Attacks",
+    "path":"folders/Sprites/Battle/UI/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

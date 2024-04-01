@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Flowey Boss",
+    "path":"folders/Sprites/Battle/Bullets/Flowey Boss.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

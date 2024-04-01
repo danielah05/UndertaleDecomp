@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Mad Dummy",
+    "path":"folders/Sprites/Battle/Bullets/Mad Dummy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

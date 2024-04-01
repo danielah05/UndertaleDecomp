@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Mettaton",
+    "path":"folders/Sprites/Battle/Bullets/Mettaton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

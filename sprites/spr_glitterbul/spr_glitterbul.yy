@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Woshua",
+    "path":"folders/Sprites/Battle/Bullets/Woshua.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

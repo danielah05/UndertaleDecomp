@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Quiz",
+    "path":"folders/Sprites/Battle/Characters/Mettaton/Quiz.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

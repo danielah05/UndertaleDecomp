@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Greater Dog",
+    "path":"folders/Sprites/Battle/Bullets/Greater Dog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

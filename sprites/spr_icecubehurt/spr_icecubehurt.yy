@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Icecap",
+    "path":"folders/Sprites/Battle/Characters/Icecap.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

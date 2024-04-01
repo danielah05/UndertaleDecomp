@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"So Sorry",
+    "path":"folders/Sprites/Battle/Bullets/So Sorry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

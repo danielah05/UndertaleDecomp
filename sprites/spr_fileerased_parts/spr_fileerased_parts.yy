@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Floweys World",
+    "path":"folders/Sprites/Overworld/Floweys World.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
