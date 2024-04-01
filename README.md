@@ -33,8 +33,17 @@ Developers who own a copy of the game should then be able to import the assets f
 2. Clone the repo.
 3. Download the latest version of [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) (GUI, NOT CLI), you will need it to run the asset extractor script.<br>
 4. In the place you extracted the games RomFS to, locate the ``game.win`` file and load it with UndertaleModTool.<br>
-5. After loading the file, in UndertaleModTool, go to ``Scripts -> Run other script...`` and load the ``UndertaleDecompAssetImport.csx`` script that can be found in the ``utils\asset_importer`` folder.
+5. After loading the file, in UndertaleModTool, go to ``Scripts -> Run other script...`` and load the ``UndertaleDecompAssetImport.csx`` script that can be found in the ``utils\asset_importer`` folder.<br>
 6. Once the script is done running, just simply open ``NXTale.yyp`` inside of Gamemaker Studio 2 (latest!)
+
+## How do I obtain the Switch data?
+This repo will not explain how to mod a Switch and how to make dumps from it. If you wanna look into that, here is a list of resources that could help:<br>
+Modding your Switch: https://nh-server.github.io/switch-guide/<br>
+Dumping and Extracting Games: https://github.com/DarkMatterCore/nxdumptool/releases<br>
+<br>
+nxdumptool allows you to directly extract the RomFS onto your SD Card, if you however wanna extract the RomFS outside of your Switch, look into either one of these (this will require a copy of [prod.keys](https://github.com/Ryujinx/Ryujinx/wiki/Keys) too):<br>
+https://github.com/SciresM/hactool/releases<br>
+https://github.com/Myster-Tee/NxFileViewer/releases
 
 ## Can I use this without owning the Switch version of UNDERTALE?
 Yes! But it is HIGHLY recommended to use the Switch version of the game.<br>
