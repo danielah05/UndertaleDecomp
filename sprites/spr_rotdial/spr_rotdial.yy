@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Undynes House",
+    "path":"folders/Sprites/Overworld/Waterfall/Undynes House.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

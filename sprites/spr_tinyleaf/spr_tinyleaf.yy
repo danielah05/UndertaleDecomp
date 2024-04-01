@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Ending Stuff",
+    "path":"folders/Sprites/Overworld/Ending Stuff.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

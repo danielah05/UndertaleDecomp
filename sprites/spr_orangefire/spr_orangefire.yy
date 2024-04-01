@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Pyrope",
+    "path":"folders/Sprites/Battle/Bullets/Pyrope.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Lesser Dog",
+    "path":"folders/Sprites/Battle/Bullets/Lesser Dog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

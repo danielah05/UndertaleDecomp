@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Asgore",
+    "path":"folders/Sprites/Battle/Characters/Asgore.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

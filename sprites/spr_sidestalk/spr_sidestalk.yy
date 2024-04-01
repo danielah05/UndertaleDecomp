@@ -86,8 +86,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Boss",
+    "path":"folders/Sprites/Battle/Characters/Flowey/Boss.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
