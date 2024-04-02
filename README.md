@@ -36,6 +36,11 @@ Developers who own a copy of the game should then be able to import the assets f
 5. After loading the file, in UndertaleModTool, go to ``Scripts -> Run other script...`` and load the ``UndertaleDecompAssetImport.csx`` script that can be found in the ``utils\asset_importer`` folder.
 6. Once the script is done running, just simply open ``NXTale.yyp`` inside of Gamemaker Studio 2 (latest!)
 
+## Can I use this without owning the Switch version of UNDERTALE?
+Yes! But it is HIGHLY recommended to use the Switch version of the game.<br>
+This should work on any version of the game that you own, however any Switch exclusive content will be missing from the project and will instead be replaced with placeholder assets.<br>
+Just run the ``UndertaleDecompAssetImport.csx`` script on whatever version of UNDERTALE you own, just like you would with a Switch copy, and you still should be able to compile.
+
 ## Special Thanks
 [UnderminersTeam](https://github.com/UnderminersTeam) - Made [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool)<br>
 MrPorkchop - Made the Icon<br>
