@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Common",
-    "path":"folders/Sprites/Overworld/Common.yy",
+    "name":"Tile Puzzle",
+    "path":"folders/Sprites/Overworld/Common/Tile Puzzle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

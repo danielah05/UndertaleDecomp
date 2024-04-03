@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Hotland",
-    "path":"folders/Sprites/Overworld/Hotland.yy",
+    "name":"Elevator",
+    "path":"folders/Sprites/Overworld/Hotland/Elevator.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

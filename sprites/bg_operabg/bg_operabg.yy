@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Hotland",
-    "path":"folders/Sprites/Overworld/Hotland.yy",
+    "name":"Opera",
+    "path":"folders/Sprites/Overworld/Hotland/Opera.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
