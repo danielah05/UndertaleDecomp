@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"True Lab",
-    "path":"folders/Sprites/Overworld/True Lab.yy",
+    "name":"Monitors",
+    "path":"folders/Sprites/Overworld/True Lab/Monitors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

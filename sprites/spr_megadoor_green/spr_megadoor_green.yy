@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"True Lab",
-    "path":"folders/Sprites/Overworld/True Lab.yy",
+    "name":"Doors",
+    "path":"folders/Sprites/Overworld/True Lab/Doors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

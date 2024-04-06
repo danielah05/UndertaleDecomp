@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Castle",
-    "path":"folders/Sprites/Overworld/Castle.yy",
+    "name":"Last Corridor",
+    "path":"folders/Sprites/Overworld/Castle/Last Corridor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

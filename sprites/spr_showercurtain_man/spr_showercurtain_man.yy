@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"True Lab",
-    "path":"folders/Sprites/Overworld/True Lab.yy",
+    "name":"Shower",
+    "path":"folders/Sprites/Overworld/True Lab/Shower.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

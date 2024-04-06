@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ending Stuff",
-    "path":"folders/Sprites/Overworld/Ending Stuff.yy",
+    "name":"Beach",
+    "path":"folders/Sprites/Overworld/Ending Stuff/Beach.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

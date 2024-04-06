@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Sprites/Overworld/Ruins/Rooms.yy",
+    "name":"Toriels Home",
+    "path":"folders/Sprites/Overworld/Ruins/Toriels Home.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

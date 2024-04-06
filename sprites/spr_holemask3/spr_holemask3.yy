@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Sprites/Overworld/Ruins.yy",
+    "name":"Hole Masks",
+    "path":"folders/Sprites/Overworld/Ruins/Hole Masks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Castle",
-    "path":"folders/Sprites/Overworld/Castle.yy",
+    "name":"Barrier",
+    "path":"folders/Sprites/Overworld/Castle/Barrier.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

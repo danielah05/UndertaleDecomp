@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Dog Shrine",
-    "path":"folders/Sprites/Overworld/Dog Shrine.yy",
+    "name":"Switch",
+    "path":"folders/Sprites/Overworld/Dog Shrine/Switch.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
