@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sfx_crash",
+  "%Name":"sfx_decomp_crash",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.874921,
-  "name":"sfx_crash",
+  "name":"sfx_decomp_crash",
   "parent":{
     "name":"SoundFX",
     "path":"folders/Sounds/Decomp/SoundFX.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_crash.wav",
+  "soundFile":"sfx_decomp_crash.wav",
   "type":0,
   "volume":1.0,
 }

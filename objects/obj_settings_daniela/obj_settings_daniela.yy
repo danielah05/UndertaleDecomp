@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_daniela",
-    "path":"sprites/spr_daniela/spr_daniela.yy",
+    "name":"spr_decomp_daniela",
+    "path":"sprites/spr_decomp_daniela/spr_decomp_daniela.yy",
   },
   "spriteMaskId":null,
   "visible":true,

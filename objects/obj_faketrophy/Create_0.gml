@@ -1,4 +1,4 @@
-trophy_icon = spr_achievement_trophy;
+trophy_icon = spr_decomp_achievement_trophy;
 trophy_icon_index = 0;
 title = "Trophy earned!";
 text = "Trophy text not set!";

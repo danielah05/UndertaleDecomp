@@ -16,11 +16,8 @@ tilesets/*/*
 # Unignore decomp custom assets
 # These should be okay to include
 
-!sounds/mus_decomp_settings/**/*
-!sounds/sfx_crash/**/*
-
-!sprites/spr_achievement_trophy/**/*
-!sprites/spr_daniela/**/*
+!sounds/*_decomp_*/**/*
+!sprites/*_decomp_*/**/*
 
 # GameMaker stuff
 
