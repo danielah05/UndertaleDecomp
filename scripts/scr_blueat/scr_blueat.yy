@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_blueat",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_blueat",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

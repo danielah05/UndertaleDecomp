@@ -1,0 +1,1 @@
+Place any extra assets that you want to use in the importing process in this folder.

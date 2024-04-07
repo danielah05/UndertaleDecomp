@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_shop_draw_talkmenu",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_shop_draw_talkmenu",
+  "parent":{
+    "name":"Shop",
+    "path":"folders/Scripts/Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

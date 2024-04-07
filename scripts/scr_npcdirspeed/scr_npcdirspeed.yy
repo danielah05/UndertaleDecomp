@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_npcdirspeed",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_npcdirspeed",
+  "parent":{
+    "name":"NPC",
+    "path":"folders/Scripts/NPC.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

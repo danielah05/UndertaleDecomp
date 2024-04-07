@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_sticksnap",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":1.72263,
+  "name":"mus_sticksnap",
+  "parent":{
+    "name":"Snowdin",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_sticksnap.ogg",
+  "type":1,
+  "volume":1.0,
+}

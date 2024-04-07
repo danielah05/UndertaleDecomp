@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_self_border",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"draw_self_border",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

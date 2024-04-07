@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"date_current_time_x",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"date_current_time_x",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

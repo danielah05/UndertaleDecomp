@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_credits_short_draw_name",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_credits_short_draw_name",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

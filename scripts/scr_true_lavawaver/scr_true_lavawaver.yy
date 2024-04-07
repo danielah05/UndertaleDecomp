@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_true_lavawaver",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_true_lavawaver",
+  "parent":{
+    "name":"Effect",
+    "path":"folders/Scripts/Drawing/Effect.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

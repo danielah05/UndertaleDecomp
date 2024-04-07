@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_npc_watch",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_npc_watch",
+  "parent":{
+    "name":"NPC",
+    "path":"folders/Scripts/NPC.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

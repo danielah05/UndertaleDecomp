@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_onscreen",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_onscreen",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

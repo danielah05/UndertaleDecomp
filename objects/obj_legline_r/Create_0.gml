@@ -1,0 +1,9 @@
+myspeed = 8
+myside = 0
+visible = true
+alarm[0] = 1
+con = 0
+eo = 0
+attacklength = 85
+active = false
+shake = 0

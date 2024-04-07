@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_flash",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_flash",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

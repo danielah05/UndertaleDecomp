@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_storageshift",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_storageshift",
+  "parent":{
+    "name":"Storage",
+    "path":"folders/Scripts/Item/Storage.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

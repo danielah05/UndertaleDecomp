@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"joystick_has_pov",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"joystick_has_pov",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Common/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

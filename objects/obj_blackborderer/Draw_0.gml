@@ -1,0 +1,5 @@
+draw_set_color(c_black)
+ossafe_fill_rectangle((global.idealborder[0] - 60), (global.idealborder[3] + 40), (global.idealborder[1] + 60), global.idealborder[3])
+ossafe_fill_rectangle(0, global.idealborder[2], global.idealborder[0], (global.idealborder[3] + 40))
+ossafe_fill_rectangle(640, global.idealborder[2], global.idealborder[1], (global.idealborder[3] + 40))
+scr_binfowrite()

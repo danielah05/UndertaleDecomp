@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_phone_moveup",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_phone_moveup",
+  "parent":{
+    "name":"Phone",
+    "path":"folders/Scripts/UI/Phone.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

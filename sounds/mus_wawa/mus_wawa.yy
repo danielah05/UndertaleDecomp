@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_wawa",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":3.435102,
+  "name":"mus_wawa",
+  "parent":{
+    "name":"Snowdin",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_wawa.ogg",
+  "type":1,
+  "volume":1.0,
+}

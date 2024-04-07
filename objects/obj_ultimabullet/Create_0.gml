@@ -1,0 +1,9 @@
+friction = -0.1
+side = -1
+alarm[1] = 1
+alarm[5] = 140
+huer = random(256)
+image_blend = make_color_hsv(huer % 255, 60, 255)
+trail = instance_create(x, y, obj_ultimatrail)
+trail.depth = (depth + 1)
+trail.image_blend = image_blend

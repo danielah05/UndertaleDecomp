@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_shop",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":49.552834,
+  "name":"mus_shop",
+  "parent":{
+    "name":"Shop",
+    "path":"folders/Sounds/Music/Shop.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_shop.ogg",
+  "type":1,
+  "volume":1.0,
+}

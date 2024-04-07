@@ -1,0 +1,15 @@
+dsprite = spr_papyrus_dt
+usprite = spr_papyrus_ut
+lsprite = spr_papyrus_lt
+rsprite = spr_papyrus_rt
+dtsprite = spr_papyrus_dt
+utsprite = spr_papyrus_ut
+ltsprite = spr_papyrus_lt
+rtsprite = spr_papyrus_rt
+myinteract = 0
+facing = Direction.Right
+direction = 270
+talkedto = 0
+fun = false
+FL_AlphysExpression = 0
+FL_UndyneExpression = 0

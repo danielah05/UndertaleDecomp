@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_hurtgirl",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.740136,
+  "name":"snd_hurtgirl",
+  "parent":{
+    "name":"Hurt",
+    "path":"folders/Sounds/SoundFX/Battle/Hurt.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_hurtgirl",
+  "type":1,
+  "volume":0.86,
+}

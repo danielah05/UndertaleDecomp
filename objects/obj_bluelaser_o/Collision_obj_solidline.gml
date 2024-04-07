@@ -1,0 +1,2 @@
+x = xprevious
+hspeed = (-hspeed)

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_singF",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.716825,
+  "name":"mus_singF",
+  "parent":{
+    "name":"Shyren",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Shyren.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_singF",
+  "type":1,
+  "volume":1.0,
+}

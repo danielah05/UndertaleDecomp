@@ -1,0 +1,1 @@
+canmove = 1

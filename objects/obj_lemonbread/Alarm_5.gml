@@ -1,0 +1,11 @@
+with (blconwd)
+    instance_destroy()
+with (OBJ_WRITER)
+    instance_destroy()
+with (blcon)
+    instance_destroy()
+with (obj_blconsm)
+    instance_destroy()
+with (mypart1)
+    event_user(0)
+alarm[7] = 16

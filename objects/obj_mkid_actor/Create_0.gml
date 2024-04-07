@@ -1,0 +1,21 @@
+scr_depth(0, 0, 0, 0, 0)
+image_speed = 0.334
+dsprite = spr_mkid_d
+usprite = spr_mkid_u
+lsprite = spr_mkid_l
+rsprite = spr_mkid_r
+dtsprite = spr_mkid_dt
+utsprite = spr_mkid_ut
+ltsprite = spr_mkid_lt
+rtsprite = spr_mkid_rt
+myinteract = 0
+facing = Direction.Down
+facing2 = 0
+fun = false
+npcdir = 0
+d = 0
+follow = 0
+talk = 0
+xfer = 0
+yfer = 0
+closemove = 0

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_musfaderesume",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_musfaderesume",
+  "parent":{
+    "name":"Audio",
+    "path":"folders/Scripts/Common/Audio.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

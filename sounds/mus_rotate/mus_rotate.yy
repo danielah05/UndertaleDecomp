@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_rotate",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.448435,
+  "name":"mus_rotate",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Common.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_rotate",
+  "type":1,
+  "volume":1.0,
+}

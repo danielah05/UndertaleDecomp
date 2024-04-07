@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_torface",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_torface",
+  "parent":{
+    "name":"Call",
+    "path":"folders/Scripts/Call.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

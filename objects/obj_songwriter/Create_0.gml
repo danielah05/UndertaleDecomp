@@ -1,0 +1,11 @@
+sting = "What the fuck is wrong "
+active = false
+alarm[1] = 1
+alpha = 0.3
+alarm[2] = 6
+off = 0
+hspeed = 0.2
+newstring = ""
+myfont = fnt_main
+gggg = 0
+can_off = 1

@@ -1,0 +1,2 @@
+speed = myspeed
+rememberhspeed = myspeed

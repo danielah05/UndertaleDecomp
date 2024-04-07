@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_fearsting",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.960726,
+  "name":"mus_fearsting",
+  "parent":{
+    "name":"Waterfall",
+    "path":"folders/Sounds/SoundFX/Overworld/Waterfall.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_fearsting.ogg",
+  "type":1,
+  "volume":1.0,
+}

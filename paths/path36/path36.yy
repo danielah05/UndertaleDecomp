@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"path36",
+  "closed":true,
+  "kind":0,
+  "name":"path36",
+  "parent":{
+    "name":"Unused",
+    "path":"folders/Paths/Unused.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

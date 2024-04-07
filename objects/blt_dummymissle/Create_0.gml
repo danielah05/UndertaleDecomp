@@ -1,0 +1,13 @@
+dmg = 0
+move_towards_point(obj_heart.x, obj_heart.y, 1)
+currentdir = 0
+dirspeed = 6
+speed = 1
+friction = -0.1
+juice = 90
+image_speed = 0
+noboom = 0
+defeat = 0
+create = 0
+destroy = 0
+normal = 0

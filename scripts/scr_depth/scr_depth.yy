@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_depth",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_depth",
+  "parent":{
+    "name":"Extension",
+    "path":"folders/Scripts/Common/Extension.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

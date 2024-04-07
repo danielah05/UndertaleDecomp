@@ -1,0 +1,22 @@
+siner += 1
+army = (sin((siner / 4)) * 1.5)
+x += cos((siner / 6))
+draw_set_alpha(0.2)
+draw_set_color(c_black)
+ossafe_fill_rectangle(-10, 100, 330, 0)
+draw_set_alpha(1)
+draw_set_alpha(0.2)
+draw_set_color(c_black)
+ossafe_fill_rectangle(-10, 80, 330, 0)
+draw_set_alpha(1)
+if (leg == 0)
+    draw_sprite(spr_mett_justwheel, 0, x, (y + sprite_height))
+if (leg == 1)
+{
+    draw_sprite_ext(spr_mett_justleg, 0, ((x + 3) + legx), (y + 17), 1, 1, legrot_r, c_white, 1)
+    draw_sprite_ext(spr_mett_justleg, 0, ((x - 2) + legx), (y + 17), -1, 1, legrot_l, c_white, 1)
+    legx = sin((siner / 4))
+}
+draw_sprite_ext(spr_mett_justarm, 0, (x + 13), (((y + 9) + army) + bodyy), 1, 1, 0, c_white, 1)
+draw_sprite_ext(spr_mett_justarm, 0, (x - 12), (((y + 9) - army) + bodyy), -1, 1, 0, c_white, 1)
+draw_sprite(sprite_index, floor((siner / 6)), x, (y + bodyy))

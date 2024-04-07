@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_reunited",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":282.4809,
+  "name":"mus_reunited",
+  "parent":{
+    "name":"Ending",
+    "path":"folders/Sounds/Music/Ending.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_reunited.ogg",
+  "type":1,
+  "volume":1.0,
+}

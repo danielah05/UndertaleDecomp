@@ -1,0 +1,20 @@
+scr_monstersetup(0, 0, 0, 0, 0)
+hurtanim = 0
+normalgfx = spr_jerry
+hurtgfx = spr_jerryhurt
+hurtsound = snd_damage
+talked = false
+whatiheard = -1
+attacked = 0
+killed = 0
+global.heard = 0
+takedamage = 0
+outside = 0
+mercymod = 65
+image_speed = 0.1
+ditch = 0
+thisturn = 0
+thisturn2 = 0
+mycommand = 0
+ht = 110
+wd = 200

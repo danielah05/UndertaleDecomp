@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_dogshrine_2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":18.014332,
+  "name":"mus_dogshrine_2",
+  "parent":{
+    "name":"Snowdin",
+    "path":"folders/Sounds/Music/Snowdin.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_dogshrine_2.ogg",
+  "type":1,
+  "volume":1.0,
+}

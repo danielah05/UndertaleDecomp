@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"string_to_hiragana",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"string_to_hiragana",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

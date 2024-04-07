@@ -1,0 +1,11 @@
+myinteract = 3
+global.msc = 0
+global.typer = 5
+global.facechoice = 0
+global.faceemotion = 0
+talkedto = 1
+global.msg[0] = scr_gettext("obj_napstablook2_61")
+global.msg[1] = scr_gettext("obj_napstablook2_62")
+global.msg[2] = scr_gettext("obj_napstablook2_63")
+global.msg[3] = scr_gettext("obj_napstablook2_64")
+mydialoguer = instance_create(0, 0, obj_dialoguer)

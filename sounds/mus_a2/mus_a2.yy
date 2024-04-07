@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_a2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":14.222222,
+  "name":"mus_a2",
+  "parent":{
+    "name":"Asriel",
+    "path":"folders/Sounds/Music/Battle/Asriel.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_a2.ogg",
+  "type":0,
+  "volume":1.0,
+}

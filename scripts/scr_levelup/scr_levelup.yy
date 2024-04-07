@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_levelup",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_levelup",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

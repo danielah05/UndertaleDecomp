@@ -1,0 +1,15 @@
+dsprite = spr_undyne_dt
+usprite = spr_undyne_ut
+lsprite = spr_undyne_lt
+rsprite = spr_undyne_rt
+dtsprite = spr_undyne_dt
+utsprite = spr_undyne_ut
+ltsprite = spr_undyne_lt
+rtsprite = spr_undyne_rt
+myinteract = 0
+facing = Direction.Right
+direction = 270
+talkedto = 0
+fun = false
+FL_AlphysExpression = 0
+FL_UndyneExpression = 0

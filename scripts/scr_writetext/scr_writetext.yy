@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_writetext",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_writetext",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_saber3",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.316281,
+  "name":"snd_saber3",
+  "parent":{
+    "name":"Hit",
+    "path":"folders/Sounds/SoundFX/Battle/Hit.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_saber3",
+  "type":1,
+  "volume":0.85,
+}

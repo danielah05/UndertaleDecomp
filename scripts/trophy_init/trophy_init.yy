@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"trophy_init",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"trophy_init",
+  "parent":{
+    "name":"Playstation",
+    "path":"folders/Scripts/Console/Playstation.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

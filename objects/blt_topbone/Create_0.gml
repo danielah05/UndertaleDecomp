@@ -1,0 +1,9 @@
+dmg = 6
+image_speed = 0
+blue = BulletType.Normal
+osc = 0
+oscmax = 20
+oscmin = 20
+drawn = 0
+active = true
+captured = 0

@@ -1,0 +1,10 @@
+dmg = 7
+bb = 1
+blut = round(random(35))
+blue = BulletType.Normal
+image_speed = 0
+image_index = 0
+x = (global.idealborder[1] - 16)
+y = (global.idealborder[3] + 4)
+vspeed = -4
+stage = 0

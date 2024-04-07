@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_arrow",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.660317,
+  "name":"snd_arrow",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Battle/Common.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_arrow",
+  "type":1,
+  "volume":1.0,
+}

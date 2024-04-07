@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_begin",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_begin",
+  "parent":{
+    "name":"Unused",
+    "path":"folders/Scripts/Unused.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

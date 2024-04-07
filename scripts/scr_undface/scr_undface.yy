@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_undface",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_undface",
+  "parent":{
+    "name":"Faces",
+    "path":"folders/Scripts/Text/Faces.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

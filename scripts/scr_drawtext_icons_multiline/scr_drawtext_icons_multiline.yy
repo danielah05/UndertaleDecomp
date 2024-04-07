@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_drawtext_icons_multiline",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_drawtext_icons_multiline",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

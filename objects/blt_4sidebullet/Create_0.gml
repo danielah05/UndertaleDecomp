@@ -1,0 +1,10 @@
+dmg = 0
+l = 0
+parent = obj_backgrounder_parent
+alarm[3] = 2
+startspeed = 0
+image_speed = 0.5
+startdir = 0
+limit = 2
+startgrav = 0
+rotdir = 0

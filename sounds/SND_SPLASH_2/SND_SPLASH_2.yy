@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SND_SPLASH_2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.714286,
+  "name":"SND_SPLASH_2",
+  "parent":{
+    "name":"Unused",
+    "path":"folders/Sounds/SoundFX/Unused.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SND_SPLASH_2",
+  "type":1,
+  "volume":1.0,
+}

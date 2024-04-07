@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"caster_get_pitch",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"caster_get_pitch",
+  "parent":{
+    "name":"Audio",
+    "path":"folders/Scripts/Common/Audio.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

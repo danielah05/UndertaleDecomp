@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_papcall",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_papcall",
+  "parent":{
+    "name":"Call",
+    "path":"folders/Scripts/Call.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

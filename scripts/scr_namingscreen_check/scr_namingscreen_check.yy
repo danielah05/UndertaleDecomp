@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_namingscreen_check",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_namingscreen_check",
+  "parent":{
+    "name":"UI",
+    "path":"folders/Scripts/UI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

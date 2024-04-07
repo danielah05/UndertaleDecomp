@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"c_borderheight",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"c_borderheight",
+  "parent":{
+    "name":"Unsorted",
+    "path":"folders/Scripts/Common/Unsorted.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

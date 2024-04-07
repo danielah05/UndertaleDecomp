@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_shop_infobox_height",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"scr_shop_infobox_height",
+  "parent":{
+    "name":"Shop",
+    "path":"folders/Scripts/Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

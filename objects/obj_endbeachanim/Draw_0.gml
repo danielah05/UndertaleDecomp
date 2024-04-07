@@ -1,0 +1,6 @@
+if (crack > 0)
+    draw_sprite(spr_crackedbeach, (crack - 1), (x + 18), (y + 13))
+draw_sprite(sprite_index, floor(image_index), floor(x), floor(y))
+draw_sprite(headsprite, head_index, floor((x + headx)), floor(((y - 23) + heady)))
+if (timer >= 320 && timer <= 370)
+    draw_sprite(spr_alphys_maxdamage, 0, (alphys.x - 20), (alphys.y - 20))

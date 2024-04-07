@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_intronoise",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":2.842993,
+  "name":"mus_intronoise",
+  "parent":{
+    "name":"Title",
+    "path":"folders/Sounds/SoundFX/UI/Title.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_intronoise.ogg",
+  "type":1,
+  "volume":1.0,
+}

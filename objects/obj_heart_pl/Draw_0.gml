@@ -1,0 +1,6 @@
+draw_sprite(sprite_index, image_index, x, y)
+draw_set_color(c_white)
+draw_rectangle(global.idealborder[0], global.idealborder[2], global.idealborder[1], global.idealborder[3], true)
+draw_set_color(c_red)
+if (shot == 1)
+    ossafe_fill_rectangle((x + 6), (y + 23), (x + 10), (y + 26))

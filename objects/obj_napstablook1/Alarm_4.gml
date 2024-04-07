@@ -1,0 +1,14 @@
+global.interact = 1
+myinteract = 3
+global.msc = 0
+global.typer = 5
+global.facechoice = 0
+global.faceemotion = 0
+global.msg[0] = scr_gettext("obj_napstablook1_62") //* i usually come to the&  RUINS because there's&  nobody around.../
+global.msg[1] = scr_gettext("obj_napstablook1_63") //* but today i met somebody&  nice.../
+global.msg[2] = scr_gettext("obj_napstablook1_64") //* .../
+global.msg[3] = scr_gettext("obj_napstablook1_65") //* oh^1, i'm rambling again/
+global.msg[4] = scr_gettext("obj_napstablook1_66") //* i'll get out of your way/%%
+mydialoguer = instance_create(0, 0, obj_dialoguer)
+global.plot = 10.4
+FL_NapstablookStatus = NapstablookStatus.Spared
