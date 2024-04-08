@@ -22,5 +22,20 @@ if (!global.decomp_vars.VanillaMode)
 			tilemap_set(map_id, data, 32, 1);
 			tilemap_set(map_id, data, 36, 3);
 		break;
+		
+		case room_ruins10:
+			var lay_id = layer_get_id("Tiles_Depth_999999")
+			var map_id = layer_tilemap_get_id(lay_id);
+			data = tile_set_index(ts_ruinseasynam3, 90);
+			tilemap_set(map_id, data, 16, 26);
+			tilemap_set(map_id, data, 22, 31);
+		break;
+		
+		case room_ruins16:
+			var lay_id = layer_get_id("Tiles_Depth_999999")
+			var map_id = layer_tilemap_get_id(lay_id);
+			data = tile_set_index(ts_ruinseasynam3, 90);
+			tilemap_set(map_id, data, 17, 8);
+		break;
 	}
 }
