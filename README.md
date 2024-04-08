@@ -2,6 +2,13 @@
 \- PLEASE NOTE THIS IS STILL A WORK IN PROGRESS! -<br>
 A decompilation of the latest version of UNDERTALE for the Nintendo Switch ported to the latest Gamemaker Studio 2 with many added toggleable enhancements<br>
 (If you are toby fox please hmu I'd love to talk :3)
+
+## Recommended Branches
+Branch | Description
+--------|--------
+[main](https://github.com/danielah05/UndertaleDecomp/tree/main) | Main branch with many enhancements and bug fixes, this is the most recommended one for a stable and improved modding/playing experience.
+[vanilla](https://github.com/danielah05/UndertaleDecomp/tree/vanilla) | Version of the main branch but with any of the decomp exclusive features and enhancements removed. Recommended for a as vanilla as possible UNDERTALE modding experience.
+
 ### Main Contributors
 Vultumast - Project Lead - Code Cleanup, Bug Fixing, Some Sorting<br>
 [Daniela](https://lethallava.land/@daniela) - Main Project assistant - Code Cleanup, Bug Fixing, Most Sorting, Most Testing
