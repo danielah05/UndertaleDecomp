@@ -12,8 +12,8 @@
   "duration":0.982494,
   "name":"mus_sfx_generate",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"True Lab",
+    "path":"folders/Sounds/SoundFX/Overworld/True Lab.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

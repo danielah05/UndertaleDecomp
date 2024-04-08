@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"MTT News",
+    "path":"folders/Sprites/Overworld/Hotland/MTT News.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

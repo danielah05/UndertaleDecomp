@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Undyne",
+    "path":"folders/Sprites/Battle/Bullets/Undyne.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

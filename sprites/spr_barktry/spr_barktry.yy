@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Temmie",
+    "path":"folders/Sprites/Battle/Bullets/Temmie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

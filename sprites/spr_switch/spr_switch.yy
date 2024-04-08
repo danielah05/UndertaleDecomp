@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Common",
+    "path":"folders/Sprites/Overworld/Common.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

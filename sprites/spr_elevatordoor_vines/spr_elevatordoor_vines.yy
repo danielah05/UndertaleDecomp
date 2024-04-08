@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"New Home",
+    "path":"folders/Sprites/Overworld/Castle/New Home.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -63,8 +63,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"NPC",
+    "path":"folders/Sprites/Overworld/NPC.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

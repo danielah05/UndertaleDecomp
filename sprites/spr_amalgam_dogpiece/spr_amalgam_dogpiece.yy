@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Amalgam",
+    "path":"folders/Sprites/Overworld/True Lab/Amalgam.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

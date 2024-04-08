@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Tiles",
-    "path":"folders/Sprites/Overworld/Ruins/Tiles.yy",
+    "name":"Water Tiles",
+    "path":"folders/Sprites/Overworld/Ruins/Water Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Waterfall",
+    "path":"folders/Sprites/Overworld/Waterfall.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

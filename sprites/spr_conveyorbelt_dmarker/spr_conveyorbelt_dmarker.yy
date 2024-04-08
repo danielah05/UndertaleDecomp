@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Conveyor Belts",
+    "path":"folders/Sprites/Overworld/Hotland/Conveyor Belts.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -27,7 +27,7 @@
   "origin":9,
   "parent":{
     "name":"Bombs",
-    "path":"folders/Sprites/Overworld/Hotland/Bombs.yy",
+    "path":"folders/Sprites/Overworld/Hotland/MTT News/Bombs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

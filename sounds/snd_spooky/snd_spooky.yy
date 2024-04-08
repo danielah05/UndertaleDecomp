@@ -12,8 +12,8 @@
   "duration":1.25,
   "name":"snd_spooky",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Items",
+    "path":"folders/Sounds/SoundFX/UI/Items.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

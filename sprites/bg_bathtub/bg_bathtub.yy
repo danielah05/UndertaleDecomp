@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Shower",
+    "path":"folders/Sprites/Overworld/True Lab/Shower.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

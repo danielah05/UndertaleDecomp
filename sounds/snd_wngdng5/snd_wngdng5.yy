@@ -12,8 +12,8 @@
   "duration":0.062,
   "name":"snd_wngdng5",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Text",
+    "path":"folders/Sounds/SoundFX/Text.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

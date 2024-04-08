@@ -12,8 +12,8 @@
   "duration":1.728435,
   "name":"mus_singG",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Shyren",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Shyren.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

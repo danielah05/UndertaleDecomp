@@ -12,8 +12,8 @@
   "duration":9.164626,
   "name":"mus_churchbell",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Castle",
+    "path":"folders/Sounds/SoundFX/Overworld/Castle.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.960726,
   "name":"mus_fearsting",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Waterfall",
+    "path":"folders/Sounds/SoundFX/Overworld/Waterfall.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

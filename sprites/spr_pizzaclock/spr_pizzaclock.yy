@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Cooking Show",
+    "path":"folders/Sprites/Overworld/Hotland/Cooking Show.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

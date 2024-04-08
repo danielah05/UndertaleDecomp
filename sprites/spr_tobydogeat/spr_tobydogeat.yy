@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Papyrus",
+    "path":"folders/Sprites/Battle/Bullets/Papyrus.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

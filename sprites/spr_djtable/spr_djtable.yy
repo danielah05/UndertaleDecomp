@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Stage",
+    "path":"folders/Sprites/Overworld/Ending Stuff/Stage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Tiles",
+    "path":"folders/Sprites/Overworld/Hotland/Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

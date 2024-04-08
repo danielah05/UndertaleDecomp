@@ -12,8 +12,8 @@
   "duration":1.265488,
   "name":"mus_f_orchhit_l",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Photoshop Flowey/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

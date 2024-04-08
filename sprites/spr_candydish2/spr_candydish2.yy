@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Sprites/Overworld/Ruins.yy",
+    "name":"Candy Dish",
+    "path":"folders/Sprites/Overworld/Ruins/Candy Dish.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

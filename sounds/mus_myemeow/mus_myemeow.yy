@@ -12,8 +12,8 @@
   "duration":0.703855,
   "name":"mus_myemeow",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Bratty and Catty",
+    "path":"folders/Sounds/SoundFX/Shops/Bratty and Catty.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

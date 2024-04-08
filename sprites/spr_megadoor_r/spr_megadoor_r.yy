@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Doors",
+    "path":"folders/Sprites/Overworld/True Lab/Doors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

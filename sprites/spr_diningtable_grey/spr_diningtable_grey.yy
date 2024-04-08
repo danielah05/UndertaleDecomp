@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Castle",
-    "path":"folders/Sprites/Overworld/Castle.yy",
+    "name":"Asgores Home",
+    "path":"folders/Sprites/Overworld/Castle/Asgores Home.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

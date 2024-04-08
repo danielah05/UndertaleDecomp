@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Dog Shrine",
-    "path":"folders/Sprites/Overworld/Dog Shrine.yy",
+    "name":"Playstation",
+    "path":"folders/Sprites/Overworld/Dog Shrine/Playstation.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

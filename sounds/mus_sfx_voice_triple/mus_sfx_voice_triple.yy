@@ -12,8 +12,8 @@
   "duration":1.194376,
   "name":"mus_sfx_voice_triple",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/SoundFX/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

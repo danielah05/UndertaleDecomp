@@ -12,8 +12,8 @@
   "duration":1.348209,
   "name":"mus_sfx_frypan",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Hit",
+    "path":"folders/Sounds/SoundFX/Battle/Hit.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

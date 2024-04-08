@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Madjick",
+    "path":"folders/Sprites/Battle/Bullets/Madjick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

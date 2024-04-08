@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":8,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Muffet",
+    "path":"folders/Sprites/Battle/Characters/Muffet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

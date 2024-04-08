@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ending Stuff",
-    "path":"folders/Sprites/Overworld/Ending Stuff.yy",
+    "name":"School",
+    "path":"folders/Sprites/Overworld/Ending Stuff/School.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

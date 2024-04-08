@@ -12,8 +12,8 @@
   "duration":0.098,
   "name":"snd_txttor3",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Text",
+    "path":"folders/Sounds/SoundFX/Text.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Alphys Lab",
+    "path":"folders/Sprites/Overworld/Hotland/Alphys Lab.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

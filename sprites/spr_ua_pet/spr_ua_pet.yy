@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Alphys",
+    "path":"folders/Sprites/Battle/Dates/Alphys.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

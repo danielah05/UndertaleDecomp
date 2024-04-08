@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Heart Container",
+    "path":"folders/Sprites/Overworld/Castle/Heart Container.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Castle",
-    "path":"folders/Sprites/Overworld/Castle.yy",
+    "name":"Throne Room",
+    "path":"folders/Sprites/Overworld/Castle/Throne Room.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

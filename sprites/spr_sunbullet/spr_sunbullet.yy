@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Final Knight",
+    "path":"folders/Sprites/Battle/Bullets/Final Knight.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

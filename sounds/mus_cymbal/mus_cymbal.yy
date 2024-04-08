@@ -12,8 +12,8 @@
   "duration":5.18966,
   "name":"mus_cymbal",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Title",
+    "path":"folders/Sounds/SoundFX/UI/Title.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

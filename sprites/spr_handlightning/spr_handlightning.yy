@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Asriel",
+    "path":"folders/Sprites/Battle/Bullets/Asriel.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

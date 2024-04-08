@@ -12,8 +12,8 @@
   "duration":6.381134,
   "name":"mus_f_newlaugh_low",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Unused",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Photoshop Flowey/Unused.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

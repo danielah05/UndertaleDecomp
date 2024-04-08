@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Chip Doors",
+    "path":"folders/Sprites/Overworld/Hotland/Chip Doors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

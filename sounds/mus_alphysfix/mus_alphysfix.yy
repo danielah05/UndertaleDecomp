@@ -12,8 +12,8 @@
   "duration":3.641179,
   "name":"mus_alphysfix",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Hotland",
+    "path":"folders/Sounds/SoundFX/Overworld/Hotland.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

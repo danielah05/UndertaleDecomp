@@ -12,8 +12,8 @@
   "duration":0.660317,
   "name":"snd_arrow",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Common",
+    "path":"folders/Sounds/SoundFX/Battle/Common.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Papyrus",
+    "path":"folders/Sprites/Battle/Dates/Papyrus.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

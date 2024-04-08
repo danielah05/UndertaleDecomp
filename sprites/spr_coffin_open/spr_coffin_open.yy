@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Castle",
-    "path":"folders/Sprites/Overworld/Castle.yy",
+    "name":"Coffin",
+    "path":"folders/Sprites/Overworld/Castle/Coffin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

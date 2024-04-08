@@ -12,8 +12,8 @@
   "duration":3.490249,
   "name":"mus_harpnoise",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Settings",
+    "path":"folders/Sounds/SoundFX/UI/Settings.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

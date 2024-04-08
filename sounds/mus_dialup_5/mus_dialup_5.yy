@@ -12,8 +12,8 @@
   "duration":1.470113,
   "name":"mus_dialup_5",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Memoryhead",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Memoryhead.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

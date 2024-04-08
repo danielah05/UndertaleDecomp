@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Hotland",
-    "path":"folders/Sprites/Overworld/Hotland.yy",
+    "name":"Alphys Lab",
+    "path":"folders/Sprites/Overworld/Hotland/Alphys Lab.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

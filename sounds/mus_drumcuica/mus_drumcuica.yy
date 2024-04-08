@@ -12,8 +12,8 @@
   "duration":0.439728,
   "name":"mus_drumcuica",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Control Test",
+    "path":"folders/Sounds/SoundFX/UI/Control Test.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

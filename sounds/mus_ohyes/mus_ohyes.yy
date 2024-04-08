@@ -12,8 +12,8 @@
   "duration":4.273923,
   "name":"mus_ohyes",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Mettaton",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Mettaton.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

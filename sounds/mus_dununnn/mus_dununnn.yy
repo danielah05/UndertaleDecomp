@@ -12,8 +12,8 @@
   "duration":1.319184,
   "name":"mus_dununnn",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Waterfall",
+    "path":"folders/Sounds/SoundFX/Overworld/Waterfall.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":1.272744,
   "name":"mus_sfx_bookspin",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Hit",
+    "path":"folders/Sounds/SoundFX/Battle/Hit.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

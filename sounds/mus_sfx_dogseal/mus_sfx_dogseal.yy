@@ -12,8 +12,8 @@
   "duration":5.93415,
   "name":"mus_sfx_dogseal",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Snowdin",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

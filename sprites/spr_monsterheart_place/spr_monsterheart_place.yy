@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Souls",
+    "path":"folders/Sprites/Souls.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

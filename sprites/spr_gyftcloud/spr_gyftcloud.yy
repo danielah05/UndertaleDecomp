@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Gyftrot",
+    "path":"folders/Sprites/Battle/Characters/Gyftrot.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

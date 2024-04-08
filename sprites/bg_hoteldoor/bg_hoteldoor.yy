@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"MTT Resort",
+    "path":"folders/Sprites/Overworld/Hotland/MTT Resort.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

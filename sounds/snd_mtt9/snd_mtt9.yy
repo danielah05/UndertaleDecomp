@@ -12,8 +12,8 @@
   "duration":0.108,
   "name":"snd_mtt9",
   "parent":{
-    "name":"SoundFX",
-    "path":"folders/Sounds/SoundFX.yy",
+    "name":"Text",
+    "path":"folders/Sounds/SoundFX/Text.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

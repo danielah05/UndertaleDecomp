@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"Snowdin",
+    "path":"folders/Sprites/Overworld/Snowdin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

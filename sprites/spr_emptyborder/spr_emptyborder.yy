@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"UI",
+    "path":"folders/Sprites/Battle/UI.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Sprites/unsorted.yy",
+    "name":"NPC",
+    "path":"folders/Sprites/Overworld/NPC.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Sprites/Overworld/Ruins.yy",
+    "name":"Unused",
+    "path":"folders/Sprites/Overworld/Ruins/Unused.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
