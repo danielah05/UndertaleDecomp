@@ -1,3 +1,5 @@
+/// @func	SCR_GAMESTART()
+/// @desc	Script used to initialize various parts of the game.
 function SCR_GAMESTART()
 {
 	randomize()
