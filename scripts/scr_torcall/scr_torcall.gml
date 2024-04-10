@@ -1,3 +1,5 @@
+/// @func	scr_torcall()
+/// @desc	Script used to grab Toriel phone call dialog depending on FL_TorielSMSConvoCounter.
 function scr_torcall()
 {
 	global.typer = 5
