@@ -184,6 +184,7 @@
     {"$GMFolder":"","%Name":"Extension","folderPath":"folders/Scripts/Common/Extension.yy","name":"Extension","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"File IO","folderPath":"folders/Scripts/Common/File IO.yy","name":"File IO","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Info","folderPath":"folders/Scripts/Common/Info.yy","name":"Info","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Unused","folderPath":"folders/Scripts/Common/Info/Unused.yy","name":"Unused","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Init","folderPath":"folders/Scripts/Common/Init.yy","name":"Init","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Save","folderPath":"folders/Scripts/Common/Save.yy","name":"Save","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Unsorted","folderPath":"folders/Scripts/Common/Unsorted.yy","name":"Unsorted","resourceType":"GMFolder","resourceVersion":"2.0",},
