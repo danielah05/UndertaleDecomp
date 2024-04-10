@@ -1,7 +1,11 @@
-function scr_getbuttonsprite()
+/// @func	scr_getbuttonsprite(button_input, icon_type)
+/// @desc	Gets specific controller button sprite.
+/// @arg	{string}	button_input	Button to use
+/// @arg	{real}		icon_type		Icon type to use
+function scr_getbuttonsprite(_button_input, _icon_type)
 {
-	var control = argument0
-	var type = argument1
+	var control = _button_input
+	var type = _icon_type
 	if (control == "A")
 	{
 	    if (os_type == os_ps4)

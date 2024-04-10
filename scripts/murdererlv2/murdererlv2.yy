@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"murdererlv2",
   "parent":{
-    "name":"Info",
-    "path":"folders/Scripts/Common/Info.yy",
+    "name":"Unused",
+    "path":"folders/Scripts/Common/Info/Unused.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
