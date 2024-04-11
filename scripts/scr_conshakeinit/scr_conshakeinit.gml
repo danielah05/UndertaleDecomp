@@ -1,3 +1,5 @@
+/// @func	scr_conshakeinit()
+/// @desc	Initializes screen shake.
 function scr_conshakeinit()
 {
 	conshakex = view_xview_get(0)
