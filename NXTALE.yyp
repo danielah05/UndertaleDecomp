@@ -216,6 +216,7 @@
     {"$GMFolder":"","%Name":"Item","folderPath":"folders/Scripts/Item.yy","name":"Item","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Storage","folderPath":"folders/Scripts/Item/Storage.yy","name":"Storage","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPC","folderPath":"folders/Scripts/NPC.yy","name":"NPC","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Unused","folderPath":"folders/Scripts/NPC/Unused.yy","name":"Unused","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shop","folderPath":"folders/Scripts/Shop.yy","name":"Shop","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Text","folderPath":"folders/Scripts/Text.yy","name":"Text","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Faces","folderPath":"folders/Scripts/Text/Faces.yy","name":"Faces","resourceType":"GMFolder","resourceVersion":"2.0",},
