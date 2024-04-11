@@ -1,6 +1,9 @@
-function tile_layer_hide()
+/// @func	tile_layer_hide(layer_depth)
+/// @desc	Hides tile layer depending on depth.
+/// @arg	{real}	layer_depth	Depth of Layer to hide
+function tile_layer_hide(_layer_depth)
 {
-	var __depth = argument0
+	var __depth = _layer_depth
 	var __layers = layer_get_all()
 	var __numlayers = array_length(__layers)
 	for (var __i = 0; __i < __numlayers; __i++)
@@ -10,8 +13,6 @@ function tile_layer_hide()
 	    }
 	    else
 	    {
-	        layer_set_visible(__layers[__i], false);
-			return;
 			var __els = layer_get_all_elements(__layers[__i])
 	        var __numels = array_length(__els)
 	        for (var __j = 0; __j < __numels; __j++)
