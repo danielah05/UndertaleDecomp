@@ -1,11 +1,17 @@
-function scr_drawtext_icons()
+/// @func	scr_drawtext_icons(x, y, text_string, icon_scale)
+/// @desc	Draws icon in specified text string with adjustable size.
+/// @arg	{real}		x			X Position
+/// @arg	{real}		y			Y Position
+/// @arg	{string}	text_string	Text String
+/// @arg	{real}		icon_scale	Icon scale
+function scr_drawtext_icons(_x, _y, _text_string, _icon_scale)
 {
-	var xx = argument[0]
-	var yy = argument[1]
-	var str = scr_replace_buttons_pc(argument[2])
+	var xx = _x
+	var yy = _y
+	var str = scr_replace_buttons_pc(_text_string)
 	var icon_scale = 1
 	if (argument_count >= 4)
-	    icon_scale = argument[3]
+	    icon_scale = _icon_scale
 	for (var i = string_pos("\\*", str); i != 0; i = string_pos("\\*", str))
 	{
 	    if (i > 1)

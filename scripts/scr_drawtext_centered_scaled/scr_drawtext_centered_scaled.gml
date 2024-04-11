@@ -1,4 +1,10 @@
-
+/// @func	scr_drawtext_centered_scaled(x, y, text, xscale, yscale)
+/// @desc	Draws centered text at specific position with specific scale.
+/// @arg	{real}		x			X Position
+/// @arg	{real}		y			Y Position
+/// @arg	{string}	text		Text String
+/// @arg	{real}		xscale		X Scale
+/// @arg	{real}		yscale		Y Scale
 function scr_drawtext_centered_scaled(_x, _y, _text, _xscale, _yscale)
 {
 	var xx = _x
