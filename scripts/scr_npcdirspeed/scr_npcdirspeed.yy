@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_npcdirspeed",
   "parent":{
-    "name":"NPC",
-    "path":"folders/Scripts/NPC.yy",
+    "name":"Unused",
+    "path":"folders/Scripts/NPC/Unused.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
