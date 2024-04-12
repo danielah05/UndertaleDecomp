@@ -33,7 +33,8 @@ if (myinteract == 1)
         }
         if (skip == false)
         {
-            if (current_month == 10 && current_day == 10)
+            // Daniela: Extra decomp only code here to allow to force the battle, no matter what day it is.
+			if (current_month == 10 && current_day == 10 || global.decomp_vars.ForceSoSorry && !global.decomp_vars.VanillaMode)
             {
                 con = 1
                 myinteract = -1
