@@ -1,3 +1,6 @@
+/// @func	scr_loadcredits()
+/// @desc	Loads the endings credits either using a file or using an array.
+/// @returns	{real}
 function scr_loadcredits()
 {
 	var credamt = 0
