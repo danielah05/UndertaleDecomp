@@ -1,21 +1,34 @@
-function draw_custom_ext()
+/// @func	draw_custom_ext(bbox_left, bbox_right, bbox_top, bbox_bottom, sprite_index, image_index, x_scale, y_scale, alpha, x, y)
+/// @desc	Custom draw sprite script with some extended settings.
+/// @arg	{real}				bbox_left
+/// @arg	{real}				bbox_right
+/// @arg	{real}				bbox_top
+/// @arg	{real}				bbox_bottom
+/// @arg	{Asset.GMSprite}	sprite_index
+/// @arg	{real}				image_index
+/// @arg	{real}				x_scale
+/// @arg	{real}				y_scale
+/// @arg	{real}				alpha
+/// @arg	{real}				x
+/// @arg	{real}				y
+function draw_custom_ext(_bbox_left, _bbox_right, _bbox_top, _bbox_bottom, _sprite_index, _image_index, _x_scale, _y_scale, _alpha, _x, _y)
 {
-	if (argument4 == spr_undertaletitle)
-	    argument4 = sprite_index
-	if (argument5 == 0)
-	    argument5 = image_index
-	if (argument6 == 0)
-	    argument6 = 1
-	if (argument7 == 0)
-	    argument7 = 1
+	if (_sprite_index == spr_undertaletitle) // Daniela: This is never gonna happen, im unsure why this is here.
+	    _sprite_index = sprite_index
+	if (_image_index == 0)
+	    _image_index = image_index
+	if (_x_scale == 0)
+	    _x_scale = 1
+	if (_y_scale == 0)
+	    _y_scale = 1
 	l = 0
 	t = 0
 	w = sprite_width
 	h = sprite_height
-	ll = ((argument0 - argument9) + 1)
-	tt = ((argument2 - argument10) + 1)
-	ww = (((argument9 + w) - argument1) - 1)
-	hh = (((argument10 + h) - argument3) - 1)
+	ll = ((_bbox_left - _x) + 1)
+	tt = ((_bbox_top - _y) + 1)
+	ww = (((_x + w) - _bbox_right) - 1)
+	hh = (((_y + h) - _bbox_bottom) - 1)
 	if (ll > 0)
 	    l += ll
 	if (tt > 0)
@@ -28,13 +41,13 @@ function draw_custom_ext()
 	h = round(h)
 	l = round(l)
 	t = round(t)
-	if (w > sprite_get_width(argument4))
-	    w = sprite_get_width(argument4)
-	if (h > sprite_get_height(argument4))
-	    h = sprite_get_height(argument4)
+	if (w > sprite_get_width(_sprite_index))
+	    w = sprite_get_width(_sprite_index)
+	if (h > sprite_get_height(_sprite_index))
+	    h = sprite_get_height(_sprite_index)
 	if (w > 0 && h > 0)
 	{
 	    if (l < w && t < h)
-	        draw_sprite_part_ext(argument4, argument5, l, t, (w - l), (h - t), (argument9 + l), (argument10 + t), argument6, argument7, c_white, argument8)
+	        draw_sprite_part_ext(_sprite_index, _image_index, l, t, (w - l), (h - t), (_x + l), (_y + t), _x_scale, _y_scale, c_white, _alpha)
 	}
 }
