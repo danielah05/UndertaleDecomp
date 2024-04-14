@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_papface",
   "parent":{
-    "name":"Call",
-    "path":"folders/Scripts/Call.yy",
+    "name":"Faces",
+    "path":"folders/Scripts/Text/Faces.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
