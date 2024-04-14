@@ -1,3 +1,5 @@
+/// @func	scr_facechoice()
+/// @desc	Picks face to use in dialog depending on global.facechoice.
 function scr_facechoice()
 {
 	if (global.facechoice == 1)

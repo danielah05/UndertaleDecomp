@@ -1,6 +1,9 @@
-function SCR_TEXT()
+/// @func	SCR_TEXT(dialog_id)
+/// @desc	Picks dialog to write depending on ID.
+/// @arg	{real}	dialog_id	Dialog ID
+function SCR_TEXT(_dialog_id)
 {
-	switch argument0
+	switch _dialog_id
 	{
 	    case 0:
 	        break

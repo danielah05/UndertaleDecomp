@@ -1,7 +1,10 @@
-function SCR_TEXTTYPE()
+/// @func	SCR_TEXTTYPE(typer)
+/// @desc	Chooses the way to type dialog in game (Font, Color, Sound, ETC) based on ID.
+/// @arg	{real}	typer	Typer ID
+function SCR_TEXTTYPE(_typer)
 {
-	if (argument0 != 0)
-	    global.typer = argument0
+	if (_typer != 0)
+	    global.typer = _typer
 	if (global.typer == 1)
 	    SCR_TEXTSETUP(fnt_main, c_white, (x + 20), (y + 20), (x + (global.idealborder[1] - 55)), 1, 1, SND_TXT2, 16, 32)
 	if (global.typer == 2)
