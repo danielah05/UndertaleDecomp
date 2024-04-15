@@ -17,8 +17,8 @@ if (shot == 1 && control_check_pressed(InteractButton) && global.mnfight == 2)
     {
         charge = 14
         instance_create((x + 4), (y + 2), obj_heartshot)
-        var s = audio_play_sound(snd_heartshot, 80, false)
-        audio_sound_gain(s, 0.3, 0)
+        var s = snd_play_ext(snd_heartshot, 80, false)
+        snd_audio_gain_ext(s, 0.3, 0)
     }
 }
 if (sprite_index == spr_confuseheart)
