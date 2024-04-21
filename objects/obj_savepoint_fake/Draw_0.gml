@@ -4,7 +4,7 @@ if (myinteract == 1)
 {
     if (con == 0)
     {
-        snd_play_ext(snd_heal_c, 90, false)
+        audio_play_sound(snd_heal_c, 90, false)
         con = 1
         drawthis = 1
         alarm[4] = 90

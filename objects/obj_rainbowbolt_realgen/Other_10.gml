@@ -19,9 +19,9 @@ if (l_buffer <= 0)
     if (lh > 0)
     {
     }
-    jr[lh] = snd_play_ext(this_hit, 70, false)
+    jr[lh] = audio_play_sound(this_hit, 70, false)
     audio_sound_pitch(jr[lh], 0.6)
-    snd_audio_gain_ext(jr[lh], 0.44, 0)
+    audio_sound_gain(jr[lh], 0.44, 0)
     with (obj_rainbowbolt_realgen)
         l_buffer = 1
     if (global.osflavor != OSFlavors.PC)

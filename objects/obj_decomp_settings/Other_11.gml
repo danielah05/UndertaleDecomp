@@ -18,7 +18,7 @@ array_push(categories, new menu_category("Audio", "Settings for adjusting audio"
 	[
 		new menu_slider_option("Master", "MasterVolume", "Master Mixing Volume", global.decomp_vars.MasterVolume, 100, 0, 100, 1, 2, masterVolumeSet),
 		new menu_slider_option("Music", "MusicVolume", "Master Mixing Volume (not implemented)", global.decomp_vars.MusicVolume, 100, 0, 100),
-		new menu_slider_option("SoundFX", "SoundFXVolume", "Sound Effect Mixing Volume (WIP)", global.decomp_vars.SoundFXVolume, 100, 0, 100),
+		new menu_slider_option("SoundFX", "SoundFXVolume", "Sound Effect Mixing Volume (not implemented)", global.decomp_vars.SoundFXVolume, 100, 0, 100),
 		new menu_checkbox_option("Restore SoundFX Panning", "RestoreSFXPan", "Restores SFX Panning to areas that support it", global.decomp_vars.RestoreSFXPan, true)
 	]));
 	

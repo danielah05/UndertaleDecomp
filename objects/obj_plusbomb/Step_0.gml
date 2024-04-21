@@ -23,7 +23,7 @@ if collision_rectangle((x + 2), (y + 6), (x + 22), (y + 28), obj_heartshot, 0, 1
     if (shot == 0)
     {
         playdo = 1
-        myloop = snd_play_ext(snd_mtt_prebomb, 40, true)
+        myloop = audio_play_sound(snd_mtt_prebomb, 40, true)
         shot = 1
     }
 }

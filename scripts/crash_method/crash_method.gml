@@ -6,7 +6,7 @@ function crash_method(_ex)
 	caster_stop(all);
 	caster_free(all);
 	
-	snd_play_ext(sfx_decomp_crash, 99999, false);
+	audio_play_sound(sfx_decomp_crash, 99999, false);
 	
 	if (ossafe_file_exists("crash.log"))
 		ossafe_file_delete("crash.log");
