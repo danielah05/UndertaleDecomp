@@ -585,7 +585,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"NXTALE",
   "resources":[
@@ -2802,6 +2802,7 @@
     {"id":{"name":"cmd_fun_get","path":"scripts/cmd_fun_get/cmd_fun_get.yy",},},
     {"id":{"name":"cmd_fun_set","path":"scripts/cmd_fun_set/cmd_fun_set.yy",},},
     {"id":{"name":"cmd_game_crash","path":"scripts/cmd_game_crash/cmd_game_crash.yy",},},
+    {"id":{"name":"cmd_game_restart","path":"scripts/cmd_game_restart/cmd_game_restart.yy",},},
     {"id":{"name":"cmd_game_speed","path":"scripts/cmd_game_speed/cmd_game_speed.yy",},},
     {"id":{"name":"cmd_global_get","path":"scripts/cmd_global_get/cmd_global_get.yy",},},
     {"id":{"name":"cmd_global_set","path":"scripts/cmd_global_set/cmd_global_set.yy",},},
@@ -3074,7 +3075,6 @@
     {"id":{"name":"scr_withallmonster","path":"scripts/scr_withallmonster/scr_withallmonster.yy",},},
     {"id":{"name":"scr_worstcheck","path":"scripts/scr_worstcheck/scr_worstcheck.yy",},},
     {"id":{"name":"scr_writetext","path":"scripts/scr_writetext/scr_writetext.yy",},},
-    {"id":{"name":"cmd_game_restart","path":"scripts/cmd_game_restart/cmd_game_restart.yy",},},
     {"id":{"name":"set_default_decomp_vars","path":"scripts/set_default_decomp_vars/set_default_decomp_vars.yy",},},
     {"id":{"name":"sleep_x","path":"scripts/sleep_x/sleep_x.yy",},},
     {"id":{"name":"sleep","path":"scripts/sleep/sleep.yy",},},
