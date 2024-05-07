@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Icecap",
-    "path":"folders/Sprites/Overworld/NPC/Icecap.yy",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Icecap.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

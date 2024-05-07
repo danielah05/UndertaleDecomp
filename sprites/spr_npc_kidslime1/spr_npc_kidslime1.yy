@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"NPC",
-    "path":"folders/Sprites/Overworld/NPC.yy",
+    "name":"Town NPCs",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Town NPCs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

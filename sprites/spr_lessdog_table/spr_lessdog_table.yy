@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"NPC",
-    "path":"folders/Sprites/Overworld/NPC.yy",
+    "name":"Grillby NPCs",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Grillby NPCs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
