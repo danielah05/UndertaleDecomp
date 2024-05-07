@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"NPC",
-    "path":"folders/Sprites/Overworld/NPC.yy",
+    "name":"Lesser Dog",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Lesser Dog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

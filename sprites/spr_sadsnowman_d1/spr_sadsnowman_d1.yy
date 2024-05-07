@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"NPC",
-    "path":"folders/Sprites/Overworld/NPC.yy",
+    "name":"Snowman",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Snowman.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

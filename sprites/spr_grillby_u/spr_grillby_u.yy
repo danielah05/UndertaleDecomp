@@ -29,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Grillby",
-    "path":"folders/Sprites/Overworld/NPC/Grillby.yy",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Grillby NPCs/Grillby.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

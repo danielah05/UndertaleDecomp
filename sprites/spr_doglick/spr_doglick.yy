@@ -63,8 +63,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"NPC",
-    "path":"folders/Sprites/Overworld/NPC.yy",
+    "name":"Greater Dog",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Greater Dog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
