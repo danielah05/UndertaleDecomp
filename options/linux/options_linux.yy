@@ -13,7 +13,7 @@
   "option_linux_interpolate_pixels":false,
   "option_linux_long_desc":"Decompilation of the UNDERTALE Switch port, ported to the latest Gamemaker Studio 2",
   "option_linux_maintainer_email":"vultumas@gmail.com",
-  "option_linux_resize_window":false,
+  "option_linux_resize_window":true,
   "option_linux_scale":0,
   "option_linux_short_desc":"Undertale Decomp",
   "option_linux_splash_screen":"${options_dir}/linux/splash/splash.png",
