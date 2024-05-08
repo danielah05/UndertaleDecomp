@@ -43,6 +43,9 @@ Developers who own a copy of the game should then be able to import the assets f
 5. After loading the file, in UndertaleModTool, go to ``Scripts -> Run other script...`` and load the ``UndertaleDecompAssetImport.csx`` script that can be found in the ``utils\asset_importer`` folder.<br>
 6. Once the script is done running, just simply open ``NXTale.yyp`` inside of Gamemaker Studio 2 (latest!)
 
+## Dependencies (Native Linux Build)
+```libcurl-gnutls lib32-libcurl-gnutls lib32-libpulse lib32-alsa-lib lib32-openal lib32-glu lib32-openssl-1.0```
+
 ## How do I obtain the Switch data?
 This repo will not explain how to mod a Switch and how to make dumps from it. If you wanna look into that, here is a list of resources that could help:<br>
 Modding your Switch: https://nh-server.github.io/switch-guide/<br>
