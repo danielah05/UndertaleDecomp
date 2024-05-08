@@ -23,7 +23,7 @@
   "option_mac_menu_dock":false,
   "option_mac_min_version":"10.10",
   "option_mac_output_dir":"~/gamemakerstudio2",
-  "option_mac_resize_window":false,
+  "option_mac_resize_window":true,
   "option_mac_scale":0,
   "option_mac_signing_identity":"Developer ID Application:",
   "option_mac_splash_png":"${options_dir}/mac/splash/splash.png",
