@@ -3,11 +3,9 @@
 /// @param {Real} volume
 function caster_set_volume(_sound_handle, _volume)
 {
-	audio_sound_gain(_sound_handle, _volume, 0)
-	
-	/* if (global.decomp_vars.VanillaMode)
-		audio_sound_gain(_sound_handle, _volume, 0);
+	// Daniela: decomp code
+	if (array_contains(global.music_array, _sound_handle))
+		audio_sound_gain(_sound_handle, _volume * (global.decomp_vars.MusicVolume / 100), 0);
 	else
-		audio_sound_gain(_sound_handle, _volume * (global.decomp_vars.MasterVolume / 100), 0); */
-	
+		audio_sound_gain(_sound_handle, _volume, 0);
 }
