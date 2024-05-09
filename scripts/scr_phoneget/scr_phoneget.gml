@@ -5,10 +5,10 @@ function scr_phoneget(_phone_id)
 {
 	i = 0
 	loop = 1
-	global.phone[8] = 999
+	global.phone[8] = 999 // Daniela: unsure why this gets set?
 	while (loop == 1)
 	{
-	    if (global.phone[i] == 0)
+	    if (global.phone[i] == PhoneName.Null)
 	    {
 	        global.phone[i] = _phone_id
 	        break

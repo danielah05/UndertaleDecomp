@@ -915,4 +915,21 @@ enum CurrentElevatorFloor
 	L3,
 	R3
 }
+enum PhoneName
+{
+	// 0
+	Null,
+	// 201 - 206
+	SayHello = 201,
+	PuzzleHelp,
+	AboutYourself,
+	CallHerMom,
+	Flirt,
+	TorielsPhone,
+	// 210
+	PapyrusPhone = 210,
+	// 220 - 221
+	DimensionalBoxA = 220,
+	DimensionalBoxB
+}
 #endregion

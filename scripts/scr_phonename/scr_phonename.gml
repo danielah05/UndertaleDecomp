@@ -6,7 +6,7 @@ function scr_phonename()
 	{
 	    itemid = global.phone[i]
 	    global.phonename[i] = scr_gettext(("phonename_" + string(itemid)))
-	    if (itemid == 210 && FL_IncludeUndyneInPapyrusCalls > 0)
+	    if (itemid == PhoneName.PapyrusPhone && FL_IncludeUndyneInPapyrusCalls > 0)
 	        global.phonename[i] = scr_gettext("phonename_210b")
 	}
 }
