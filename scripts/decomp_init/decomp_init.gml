@@ -174,7 +174,6 @@ global.music_array = [
 	mus_mystery,
 	mus_papyrus,
 	mus_snoresymphony,
-	mus_snowwalk,
 	mus_snowy,
 	mus_tone2,
 	mus_tone3,
