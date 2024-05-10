@@ -275,6 +275,7 @@
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Sounds/SoundFX/Overworld/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Flowey","folderPath":"folders/Sounds/SoundFX/Overworld/Characters/Flowey.yy","name":"Flowey","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hotland","folderPath":"folders/Sounds/SoundFX/Overworld/Hotland.yy","name":"Hotland","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Core","folderPath":"folders/Sounds/SoundFX/Overworld/Hotland/Core.yy","name":"Core","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Snowdin","folderPath":"folders/Sounds/SoundFX/Overworld/Snowdin.yy","name":"Snowdin","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"True Lab","folderPath":"folders/Sounds/SoundFX/Overworld/True Lab.yy","name":"True Lab","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Waterfall","folderPath":"folders/Sounds/SoundFX/Overworld/Waterfall.yy","name":"Waterfall","resourceType":"GMFolder","resourceVersion":"2.0",},
