@@ -18,9 +18,9 @@ function caster_loop(_sound_handle, _volume, _pitch)
 	this_song_i = audio_play_sound(_sound_handle, 120, true)
 	audio_sound_pitch(_sound_handle, _pitch)
 	// Daniela: decomp code
-	if (is_music(_sound_handle))
+	if (is_music(_sound_handle)) // if true then its music
 		audio_sound_gain(_sound_handle, _volume * (global.decomp_vars.MusicVolume / 100), 0);
-	else
-		audio_sound_gain(_sound_handle, _volume, 0);
+	else // else assume its sfx
+		audio_sound_gain(_sound_handle, _volume * (global.decomp_vars.SoundFXVolume / 100), 0);
 	return this_song_i;
 }

@@ -1,5 +1,5 @@
 audio_stop_all()
-audio_play_sound(mus_smile, 50, true)
+snd_play_ex(mus_smile, 50, true)
 ch = choose(0, 1, 2, 3)
 global.msc = 0
 global.typer = 666
