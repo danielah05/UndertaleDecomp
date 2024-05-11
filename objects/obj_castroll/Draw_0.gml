@@ -493,7 +493,7 @@ if (active == true)
         mon = madjick
         scr_drawtext_centered_scaled(col1_x, (mon.y - 70), scr_gettext("castroll_name_madjick"), namescale, namescale)
         scr_drawtext_centered_scaled(col1_x, (mon.y - 30), scr_gettext("castroll_by_toby"), 1, 1)
-        if (FL_SparedMadjick == flse)
+        if (FL_SparedMadjick == false)
         {
             draw_set_color(c_white)
             scr_drawtext_centered_scaled(col1_x, ((mon.y + 210) + info_yofs), scr_gettext("castroll_white_madjick"), infoscale, infoscale)
