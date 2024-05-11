@@ -94,7 +94,10 @@ input_text = keyboard_string;
 
 if (string_ends_with(input_text, "\n"))
 	input_text = substr(input_text, 0, strlen(input_text) - 2);
-	
+
+if (os_type == os_linux) // Daniela: fixes commands just not working at all on native linux because of a random \r
+	input_text = string_replace(input_text, "\u000D", "")
+
 command_name = "";
 
 // Parse input
