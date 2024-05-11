@@ -13,7 +13,7 @@
   "name":"mus_elevator",
   "parent":{
     "name":"Hotland",
-    "path":"folders/Sounds/Music/Hotland.yy",
+    "path":"folders/Sounds/SoundFX/Overworld/Hotland.yy",
   },
   "preload":true,
   "resourceType":"GMSound",
