@@ -19,7 +19,7 @@ if (l_buffer <= 0)
     if (lh > 0)
     {
     }
-    jr[lh] = audio_play_sound(this_hit, 70, false)
+    jr[lh] = snd_play_ex(this_hit, 70, false)
     audio_sound_pitch(jr[lh], 0.6)
     audio_sound_gain(jr[lh], 0.44, 0)
     with (obj_rainbowbolt_realgen)

@@ -12,8 +12,8 @@
   "duration":5.30576,
   "name":"mus_f_destroyed",
   "parent":{
-    "name":"Flowey Boss",
-    "path":"folders/Sounds/Music/Battle/Flowey Boss.yy",
+    "name":"Photoshop Flowey",
+    "path":"folders/Sounds/SoundFX/Battle/Characters/Photoshop Flowey.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

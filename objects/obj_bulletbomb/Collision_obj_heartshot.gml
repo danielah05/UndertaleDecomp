@@ -1,7 +1,7 @@
 if (visible == true && shot == 0)
 {
     playdo = 1
-    myloop = audio_play_sound(snd_mtt_prebomb, 40, true)
+    myloop = snd_play_ex(snd_mtt_prebomb, 40, true)
     with (other.id)
         instance_destroy()
     shot = 1
