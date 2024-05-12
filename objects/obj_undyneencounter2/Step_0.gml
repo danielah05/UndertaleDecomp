@@ -138,7 +138,7 @@ if (active == true && instance_exists(obj_mainchara))
                 instance_destroy()
             cn = 24
             global.interact = 0
-            FL_UnknownBoolean17 = false
+            FL_MenuDisabled = false
         }
     }
     if (cn == 24)

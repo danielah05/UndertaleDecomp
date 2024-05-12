@@ -61,7 +61,7 @@ if (con == 9)
 {
     yl = caster_load("music/sfx_yowl.ogg")
     global.interact = 0
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     alarm[7] = 20
     con = 10
 }
@@ -84,7 +84,7 @@ if (con == 11)
 }
 if (con == 13)
 {
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.interact = 0
     with (obj_mainchara)
         uncan = 0

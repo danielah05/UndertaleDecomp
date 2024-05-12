@@ -1,4 +1,4 @@
-FL_UnknownBoolean17 = true
+FL_MenuDisabled = true
 if (STOPPER == 0)
 {
     if (d == 0)
@@ -220,7 +220,7 @@ if (STOPPER == 0)
 }
 if (con == 41)
 {
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     audio_stop_all()
     instance_destroy()
 }

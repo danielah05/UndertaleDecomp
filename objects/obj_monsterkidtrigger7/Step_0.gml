@@ -221,7 +221,7 @@ if (con == 34)
     undyne.sprite_index = undyne.rsprite
     global.interact = 0
     con = 35
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     doorb = instance_create((view_xview_get(0) - 20), (obj_mainchara.y + 10), obj_doorB)
     doora = instance_create(((view_xview_get(0) + view_wview_get(0)) + 20), (obj_mainchara.y + 10), obj_doorA)
     undynetimer = 0

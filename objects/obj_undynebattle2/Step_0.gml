@@ -248,7 +248,7 @@ if (con == 29)
     ossafe_ini_close()
     ossafe_savedata_save()
     global.phasing = 0
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.mercy = 0
     instance_create(0, 0, obj_persistentfader)
     FL_UndyneDateStatus = 3

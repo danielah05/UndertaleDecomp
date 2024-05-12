@@ -52,7 +52,7 @@ if (con == 6)
     }
     else
     {
-        FL_UnknownBoolean17 = false
+        FL_MenuDisabled = false
         global.plot = 122
     }
 }
