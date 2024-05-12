@@ -418,7 +418,7 @@ enum OSFlavors
 #macro FL_TrueLabPowerSwitchOn global.flag[491]
 #macro FL_AlphysLabLocked global.flag[492]
 #macro FL_DatedAlphys global.flag[493]
-#macro FL_UndynesLetterStatus global.flag[494] // TODO: ENUM HERE
+#macro FL_UndynesLetterStatus global.flag[494]
 #macro FL_PopatoChispsBoughtCounter global.flag[495]
 #macro FL_OnionSanConvoCounter global.flag[496]
 #macro FL_GotSansRoomKey global.flag[497]
