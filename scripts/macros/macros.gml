@@ -932,4 +932,12 @@ enum PhoneName
 	DimensionalBoxA = 220,
 	DimensionalBoxB
 }
+enum UndynesLetterStatus
+{
+	// 0 - 3
+	None,
+	Dropped,
+	Unused, // game checks if the letter status is ever set to 2, this never actually happens
+	EXLetter
+}
 #endregion
