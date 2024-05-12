@@ -1,6 +1,6 @@
 if (con == 1)
 {
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     global.msc = 0
     global.msg[0] = scr_gettext("obj_cookshowevent_89")
     global.msg[1] = scr_gettext("obj_cookshowevent_90")
@@ -470,7 +470,7 @@ if (con == 74)
 {
     flowey = instance_create(40, 360, obj_stalkerflowey)
     caster_free(all)
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.interact = 0
     global.plot = 135
     with (obj_kitchenforcefield)

@@ -1,4 +1,4 @@
-FL_UnknownBoolean17 = false
+FL_MenuDisabled = false
 if (FL_UndyneDateStatus == 4)
     FL_UndyneDateStatus = 5
 if (global.plot > 116)

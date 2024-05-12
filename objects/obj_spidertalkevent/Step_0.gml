@@ -70,7 +70,7 @@ if (active == true)
 }
 if (pausewait == 1)
 {
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     if (obj_mainchara.image_speed == 0)
         pausewaittime += 3
     else
@@ -84,7 +84,7 @@ if (pausewait == 1)
 if (con == 15 && global.interact == 0)
 {
     global.interact = 1
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     bigweb = scr_marker(582, 84, spr_megaweb)
     bigweb.depth = 99999
     muffet = scr_marker(635, 96, spr_muffet_overworld)
@@ -302,7 +302,7 @@ if (con == 60)
     global.plot = 165
     global.mercy = 0
     global.border = 0
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.interact = 0
     if (murder == 1)
         global.plot = 185

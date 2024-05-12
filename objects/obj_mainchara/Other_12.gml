@@ -1,4 +1,4 @@
-if (global.interact == 0 && FL_UnknownBoolean17 == false)
+if (global.interact == 0 && FL_MenuDisabled == false)
 {
     snd_play(snd_squeak)
     global.interact = 5

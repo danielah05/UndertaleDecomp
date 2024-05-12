@@ -27,7 +27,7 @@ for (i = 0; i < 60; i += 1)
     rememberx[i] = x
     remembery[i] = y
 }
-FL_UnknownBoolean17 = true
+FL_MenuDisabled = true
 if (global.plot > 121)
     instance_destroy()
 if (room == room_water_undynefinal2)

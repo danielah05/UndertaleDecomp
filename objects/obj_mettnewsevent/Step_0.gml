@@ -1,7 +1,7 @@
 if (con == 1)
 {
     obj_mainchara.cutscene = true
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     global.msc = 0
     global.typer = 5
     global.facechoice = 0
@@ -853,7 +853,7 @@ if (con == 171 && instance_exists(OBJ_WRITER) == false)
     with (obj_bluelaser_o)
         active = 2
     global.interact = 0
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.mercy = 0
     scr_tempsave()
     instance_destroy()

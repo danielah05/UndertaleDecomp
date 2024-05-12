@@ -67,7 +67,7 @@ enum OSFlavors
 #macro FL_DummyStatus global.flag[14]
 #macro FL_InBattle global.flag[15]
 #macro FL_TypeHeartTransition global.flag[16]
-#macro FL_UnknownBoolean17 global.flag[17]
+#macro FL_MenuDisabled global.flag[17]
 #macro FL_UndyneZoomCutscene global.flag[18]
 // 19 Unused
 #macro FL_AnimationIndex global.flag[20]
