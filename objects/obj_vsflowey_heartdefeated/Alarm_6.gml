@@ -3,7 +3,7 @@ if (global.osflavor <= OSFlavors.Mac)
 else
 {
     caster_stop(all)
-    audio_sound_gain(audio_play_sound(snd_gameover_broken, 666, true), 0.6, 0)
+    audio_sound_gain(snd_play_ex(snd_gameover_broken, 666, true), 0.6, 0)
     scr_fakecrash_init()
     in_fakecrash = 1
 }

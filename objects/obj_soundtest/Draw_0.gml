@@ -11,7 +11,7 @@ if (con == 0)
             buffer = -10
             con = 1
             songno = 0
-            audio_play_sound(mus_st_happytown, 50, true)
+            snd_play_ex(mus_st_happytown, 50, true)
         }
     }
 }
@@ -26,7 +26,7 @@ if (con == 1)
         else if (control_check_pressed(InteractButton) && gaster == 0)
         {
             audio_stop_all()
-            audio_play_sound(mus_st_happytown, 50, true)
+            snd_play_ex(mus_st_happytown, 50, true)
         }
         scr_drawtext_centered(320, 200, scr_gettext("soundtest_track_happytown"))
     }
@@ -37,7 +37,7 @@ if (con == 1)
         else if (control_check_pressed(InteractButton) && gaster == 0)
         {
             audio_stop_all()
-            audio_play_sound(mus_st_meatfactory, 50, true)
+            snd_play_ex(mus_st_meatfactory, 50, true)
         }
         scr_drawtext_centered(320, 200, scr_gettext("soundtest_track_meatfactory"))
     }
@@ -48,7 +48,7 @@ if (con == 1)
         else if (control_check_pressed(InteractButton) && gaster == 0)
         {
             audio_stop_all()
-            audio_play_sound(mus_st_troubledingle, 50, true)
+            snd_play_ex(mus_st_troubledingle, 50, true)
         }
         scr_drawtext_centered(320, 200, scr_gettext("soundtest_track_troubledingle"))
     }
@@ -60,7 +60,7 @@ if (con == 1)
         {
             gaster = 1
             audio_stop_all()
-            audio_play_sound(mus_st_him, 50, true)
+            snd_play_ex(mus_st_him, 50, true)
         }
         scr_drawtext_centered(320, 200, scr_gettext("soundtest_track_him"))
     }
