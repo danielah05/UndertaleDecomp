@@ -328,8 +328,8 @@ enum OSFlavors
 #macro FL_ResetBridgeseedPuzzle global.flag[386]
 #macro FL_WonBallGame global.flag[387]
 #macro FL_FallTranisition global.flag[388]
-#macro FL_UndyneDateStatus global.flag[389] // TODO: Look into this
-#macro FL_UndyneExpression global.flag[390] // TODO: Look into this
+#macro FL_UndyneDateStatus global.flag[389]
+#macro FL_UndyneExpression global.flag[390]
 #macro FL_GrillbysMealChoice global.flag[391]
 // 392 - Unused
 #macro FL_UnusedMadjickSoundHandle global.flag[393] // Vultu: Apparently Madjick's orb used to have a sound?
@@ -350,7 +350,7 @@ enum OSFlavors
 #macro FL_HotlandBattleProgressCounter global.flag[408]
 #macro FL_GotNapstablookFriendReq global.flag[409]
 // 410 - 412 Unused
-#macro FL_SansDated2 global.flag[413] // TODO: Look into this
+#macro FL_SansDated2 global.flag[413]
 #macro FL_GotAlphysAdvice1 global.flag[414] 
 #macro FL_GotAlphysAdvice2 global.flag[415]
 #macro FL_GotAlphysAdvice3 global.flag[416]
@@ -393,7 +393,7 @@ enum OSFlavors
 #macro FL_RivermanDestination global.flag[459]
 #macro FL_GotTemVillageHint global.flag[460]
 #macro FL_TemBoatVersion global.flag[461]
-#macro FL_PapyrusCalledAlready global.flag[462] // TODO: LOOK INTO THIS
+#macro FL_PapyrusCalledAlready global.flag[462]
 // 463 - 464 Unused
 #macro FL_IncludeUndyneInPapyrusCalls global.flag[465]
 // 466 - 469 Unused
@@ -939,5 +939,27 @@ enum UndynesLetterStatus
 	Dropped,
 	Unused, // game checks if the letter status is ever set to 2, this never actually happens
 	EXLetter
+}
+enum UndyneDateStatus
+{
+	// 0
+	None,
+	// 2 - 5
+	Unused = 2, // never gets set to 2 but gets referenced in an if check
+	LeftHouse,
+	UndyneLeft,
+	DateFinished
+}
+enum UndyneExpression
+{
+	DefaultFace, // gets set many times but never actually gets checked for, technically unused?
+	SweatingFace,
+	TomatoFace
+}
+enum SansDated2
+{
+	None,
+	InDate,
+	DateFinished
 }
 #endregion

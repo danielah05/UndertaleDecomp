@@ -13,7 +13,7 @@ if (room == room_water_undyneyard)
         global.msg[0] = scr_gettext("obj_knock_room_69")
     if (FL_UndyneStatus == UndyneStatus.SparedWithoutWater)
         global.msg[0] = scr_gettext("obj_knock_room_71")
-    if (FL_UndyneDateStatus >= 2)
+    if (FL_UndyneDateStatus >= UndyneDateStatus.Unused)
         global.msg[0] = scr_gettext("obj_knock_room_75")
 }
 if (room == room_tundra_town2 && x > 200)

@@ -5,7 +5,7 @@ won = ini_read_real("General", "Won", 0)
 ossafe_ini_close()
 if (won < 1)
     d = 1
-if (FL_UndyneDateStatus< 3)
+if (FL_UndyneDateStatus < UndyneDateStatus.LeftHouse)
     d = 1
 if (global.kills > 0)
     d = 1

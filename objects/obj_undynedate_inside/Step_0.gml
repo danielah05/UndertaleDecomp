@@ -453,7 +453,7 @@ if (con == 84)
     undyne.sprite_index = spr_undyne_throwtalk
     global.faceemotion = 1
     global.facechoice = 5
-    FL_UndyneExpression = 1
+    FL_UndyneExpression = UndyneExpression.SweatingFace
     global.msg[0] = scr_gettext("obj_undynedate_inside_604")
     global.msg[1] = scr_gettext("obj_undynedate_inside_605")
     global.msg[2] = scr_gettext("obj_undynedate_inside_606")
@@ -896,7 +896,7 @@ if (con == 150)
     global.faceemotion = 9
     global.facing = Direction.Left
     global.msc = 0
-    FL_UndyneExpression = 2
+    FL_UndyneExpression = UndyneExpression.TomatoFace
     global.msg[0] = scr_gettext("obj_undynedate_inside_1128")
     global.msg[1] = scr_gettext("obj_undynedate_inside_1129")
     instance_create(0, 0, obj_dialoguer)
@@ -904,7 +904,7 @@ if (con == 150)
 }
 if (con == 151 && instance_exists(OBJ_WRITER) == false)
 {
-    FL_UndyneExpression = 0
+    FL_UndyneExpression = UndyneExpression.DefaultFace
     with (undyne)
         scr_npc_halt("d")
     with (undyne)
