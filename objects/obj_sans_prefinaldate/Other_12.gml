@@ -6,5 +6,5 @@ if (touched == false)
     alarm[2] = 13
     touched = true
 }
-if (FL_SansDated2 < 1)
-    FL_SansDated2 = 1
+if (FL_SansDated2 < SansDated2.InDate)
+    FL_SansDated2 = SansDated2.InDate

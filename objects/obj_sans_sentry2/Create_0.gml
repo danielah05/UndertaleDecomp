@@ -14,7 +14,7 @@ image_speed = 0
 con = 0
 touched = false
 gone = 0
-if (FL_SansDated2 > 0)
+if (FL_SansDated2 > SansDated2.None)
     gone = 1
 if (FL_PapyrusStatus == PapyrusStatus.Killed)
     gone = 1

@@ -12,4 +12,4 @@ direction = 270
 talkedto = 0
 fun = false
 FL_AlphysExpression = 0
-FL_UndyneExpression = 0
+FL_UndyneExpression = UndyneExpression.DefaultFace
