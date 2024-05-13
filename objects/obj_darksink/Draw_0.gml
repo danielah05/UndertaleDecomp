@@ -39,7 +39,7 @@ if (acon > 0)
     if (acon == 5)
     {
         caster_free(tr)
-        global.battlegroup = 85
+        global.battlegroup = BattleGroup.TripleMemoryhead
         global.mercy = 1
         global.border = 0
         FL_TypeHeartTransition = HeartTransitionType.Normal

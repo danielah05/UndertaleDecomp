@@ -62,7 +62,7 @@ function scr_damagestandard(_bullet_type, _min_damage, _max_damage, _damage_over
 	    global.invc = global.inv
 	    if (_arg4 > 0)
 	        global.invc = ((_arg4 / 20) * global.inv)
-	    if (global.battlegroup == 22)
+	    if (global.battlegroup == BattleGroup.Toriel)
 	    {
 	        if (global.hp < 1)
 	            obj_torielboss.sprite_index = spr_torielboss_mouthcover

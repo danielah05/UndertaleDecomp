@@ -37,11 +37,11 @@ if (con == 8)
 {
     global.mercy = 1
     if (FL_CoreWarriorsState == 1)
-        global.battlegroup = 64
+        global.battlegroup = BattleGroup.WhimsalotFinalFroggit
     if (FL_CoreWarriorsState == 2)
-        global.battlegroup = 68
+        global.battlegroup = BattleGroup.KnightKnightMadjick
     if (FL_CoreWarriorsState == 3)
-        global.battlegroup = 67
+        global.battlegroup = BattleGroup.FinalFroggitAstigmatismWhimsalot
     con = 9
     FL_InBattle = true
     instance_create(0, 0, obj_battler)

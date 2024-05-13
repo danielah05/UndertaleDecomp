@@ -1236,7 +1236,7 @@ if (con == 264 && instance_exists(OBJ_WRITER) == false)
 if (con == 265 && instance_exists(OBJ_WRITER) == false)
 {
     global.mercy = 1
-    global.battlegroup = 58
+    global.battlegroup = BattleGroup.UndyneFakeFight
     instance_create(0, 0, obj_battler)
     con = 266
 }

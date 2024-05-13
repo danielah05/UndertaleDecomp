@@ -1,15 +1,15 @@
 FL_InBattle = true
 if (cl == 0)
 {
-    battleno = choose(64, 65)
+    battleno = choose(BattleGroup.WhimsalotFinalFroggit, BattleGroup.WhimsalotAstigmatism)
     if (FL_CoreBattleProgressCounter == 0)
-        battleno = 64
+        battleno = BattleGroup.WhimsalotFinalFroggit
     if (FL_CoreBattleProgressCounter == 1)
-        battleno = 65
+        battleno = BattleGroup.WhimsalotAstigmatism
     if (FL_CoreBattleProgressCounter == 2)
-        battleno = 68
-    if (FL_CoreWarriorsSwitchState == true && battleno == 68)
-        battleno = 61
+        battleno = BattleGroup.KnightKnightMadjick
+    if (FL_CoreWarriorsSwitchState == true && battleno == BattleGroup.KnightKnightMadjick)
+        battleno = BattleGroup.FinalFroggit
     global.battlegroup = battleno
     global.border = 0
     other.x = other.xprevious

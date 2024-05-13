@@ -100,7 +100,7 @@ if (con == 7)
 {
     with (dk)
         instance_destroy()
-    global.battlegroup = 140
+    global.battlegroup = BattleGroup.SoSorry
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     con = 8

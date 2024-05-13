@@ -231,7 +231,7 @@ if (global.mnfight == 5 && instance_exists(OBJ_WRITER) == false)
     }
     if (saved == 6)
     {
-        global.battlegroup = 256
+        global.battlegroup = BattleGroup.AsrielFinal
         FL_SavedAlphysLostSoul = 1
         room_restart()
     }
