@@ -10,26 +10,26 @@ if (global.encounter > steps)
             global.encounter = 0
             battlegroup = floor(random(15))
             if (battlegroup < 15)
-                global.battlegroup = 54
+                global.battlegroup = BattleGroup.WoshuaAaron
             if (battlegroup < 10)
-                global.battlegroup = 55
+                global.battlegroup = BattleGroup.WoshuaMoldbygg
             if (battlegroup < 4)
-                global.battlegroup = 41
+                global.battlegroup = BattleGroup.Temmie
             if (FL_WaterfallBattleProgressCounter2 == 0)
-                global.battlegroup = 41
+                global.battlegroup = BattleGroup.Temmie
             if (FL_WaterfallBattleProgressCounter2 == 1)
-                global.battlegroup = 42
+                global.battlegroup = BattleGroup.DoubleMoldsmal
             if (FL_WaterfallBattleProgressCounter2 == 2)
-                global.battlegroup = 54
+                global.battlegroup = BattleGroup.WoshuaAaron
             if (FL_WaterfallBattleProgressCounter2 == 3)
-                global.battlegroup = 55
+                global.battlegroup = BattleGroup.WoshuaMoldbygg
             FL_WaterfallBattleProgressCounter2 += 1
             if (alldead == 2)
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
             if (alldead == 1)
             {
                 FL_WaterfallGenocide = 1
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
                 alldead = 2
             }
             else

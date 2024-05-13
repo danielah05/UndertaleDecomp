@@ -20,7 +20,7 @@ if (room == room_water_friendlyhub)
     if (FL_CurrentNapstablookSong > 0 && FL_AaronWoshuaEvent == 0 && global.interact == 0)
     {
         global.interact = 1
-        global.battlegroup = 46
+        global.battlegroup = BattleGroup.AaronWoshuaCutscene
         instance_create(0, 0, obj_battler)
     }
 }

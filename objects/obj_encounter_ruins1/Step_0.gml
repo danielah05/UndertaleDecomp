@@ -10,25 +10,25 @@ if (global.encounter > steps)
         {
             battlegroup = random(2)
             if (battlegroup <= 1)
-                global.battlegroup = 4
+                global.battlegroup = BattleGroup.Froggit
             if (battlegroup > 1)
-                global.battlegroup = 5
+                global.battlegroup = BattleGroup.Whimsun
         }
         else
         {
             battlegroup = random(3)
             if (battlegroup <= 1)
-                global.battlegroup = 126
+                global.battlegroup = BattleGroup.HardModeFinalFroggit
             if (battlegroup > 1)
-                global.battlegroup = 125
+                global.battlegroup = BattleGroup.HardModeFinalFroggitWhimsalot
             if (battlegroup > 2)
-                global.battlegroup = 120
+                global.battlegroup = BattleGroup.HardModeFinalFroggitAstigmatism
         }
         if (alldead == 2)
-            global.battlegroup = 19
+            global.battlegroup = BattleGroup.ButNobodyCame
         if (alldead == 1)
         {
-            global.battlegroup = 19
+            global.battlegroup = BattleGroup.ButNobodyCame
             alldead = 2
         }
         else

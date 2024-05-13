@@ -57,7 +57,7 @@ if (con == 4)
 if (con == 6)
 {
     caster_free(tr)
-    global.battlegroup = 84
+    global.battlegroup = BattleGroup.SnowdrakesMother
     global.mercy = 1
     global.border = 0
     FL_TypeHeartTransition = HeartTransitionType.Normal

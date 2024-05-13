@@ -685,7 +685,7 @@ if (con == 157 && instance_exists(OBJ_WRITER))
 if (con == 157 && instance_exists(OBJ_WRITER) == false)
 {
     mkid.sprite_index = spr_mkid_rt
-    global.battlegroup = 91
+    global.battlegroup = BattleGroup.MonsterKid
     global.seriousbattle = 1
     global.mercy = 1
     instance_create(0, 0, obj_battler)

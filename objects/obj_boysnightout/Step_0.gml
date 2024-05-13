@@ -119,7 +119,7 @@ if (con == 14 && instance_exists(OBJ_WRITER) == true)
 }
 if (con == 14 && instance_exists(OBJ_WRITER) == false)
 {
-    global.battlegroup = 49
+    global.battlegroup = BattleGroup.RoyalGuards
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     con = 15

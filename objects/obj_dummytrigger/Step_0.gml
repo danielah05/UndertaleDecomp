@@ -224,7 +224,7 @@ if (con == 10 && instance_exists(OBJ_WRITER) == false)
 if (con == 12)
 {
     con = 13
-    global.battlegroup = 45
+    global.battlegroup = BattleGroup.MadDummy
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     talkedto = 0
@@ -341,7 +341,7 @@ if (con == 35 && instance_exists(OBJ_WRITER) == false)
 if (con == 36 && instance_exists(OBJ_WRITER) == false)
 {
     con = 37
-    global.battlegroup = 93
+    global.battlegroup = BattleGroup.GladDummy
     FL_AreaKillsPointer = KillsPointer_Tundra
     global.mercy = 1
     instance_create(0, 0, obj_battler)

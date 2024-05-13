@@ -354,7 +354,7 @@ if (con == 55.1 && instance_exists(OBJ_WRITER) == false)
 if (con == 57.1 && instance_exists(OBJ_WRITER) == false)
 {
     con = 58
-    global.battlegroup = 57
+    global.battlegroup = BattleGroup.MettatonSecond
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     talkedto = 0

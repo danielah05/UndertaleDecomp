@@ -123,7 +123,7 @@ if (con == 14)
 {
     global.border = 0
     SCR_BORDERSETUP()
-    global.battlegroup = 255
+    global.battlegroup = BattleGroup.Asriel
     global.mercy = 1
     global.hp = global.maxhp
     FL_InBattle = false

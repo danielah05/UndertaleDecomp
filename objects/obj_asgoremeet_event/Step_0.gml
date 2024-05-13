@@ -259,7 +259,7 @@ if (con == 103)
 }
 if (con == 111 && instance_exists(OBJ_WRITER) == false)
 {
-    global.battlegroup = 100
+    global.battlegroup = BattleGroup.AsgoreIntro
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     con = 112

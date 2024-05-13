@@ -108,7 +108,7 @@ if (STOPPER == 0)
         global.interact = 1
         con = 6
         global.border = 12
-        global.battlegroup = 47
+        global.battlegroup = BattleGroup.Undyne
         global.mercy = 1
         instance_create(0, 0, obj_battler)
         talkedto = 0

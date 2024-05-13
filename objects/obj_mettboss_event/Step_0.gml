@@ -204,9 +204,9 @@ if (con == 17 && instance_exists(OBJ_WRITER) == false)
 if (con == 19)
 {
     global.mercy = 1
-    global.battlegroup = 80
+    global.battlegroup = BattleGroup.Mettaton
     if (skip == true)
-        global.battlegroup = 81
+        global.battlegroup = BattleGroup.MettatonEX
     FL_InBattle = false
     instance_create(0, 0, obj_battler)
     con = 20
@@ -316,7 +316,7 @@ if (con == 50 && instance_exists(OBJ_WRITER) == false)
         instance_destroy()
     caster_free(shkwv)
     global.mercy = 1
-    global.battlegroup = 94
+    global.battlegroup = BattleGroup.MettatonNEO
     FL_InBattle = false
     instance_create(0, 0, obj_battler)
     con = 51

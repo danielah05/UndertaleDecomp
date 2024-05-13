@@ -171,7 +171,7 @@ if (global.myfight == 2)
                     if (FL_SavedUndyneLostSoul == 0)
                     {
                         event_user(0)
-                        nextbattle = 87
+                        nextbattle = BattleGroup.LostSoulUndyne
                     }
                     else
                         event_user(1)
@@ -187,7 +187,7 @@ if (global.myfight == 2)
                     if (FL_SavedAlphysLostSoul == 0)
                     {
                         event_user(0)
-                        nextbattle = 89
+                        nextbattle = BattleGroup.LostSoulAlphys
                     }
                     else
                         event_user(1)
@@ -202,7 +202,7 @@ if (global.myfight == 2)
                     if (FL_SavedPapyrusLostSoul == 0)
                     {
                         event_user(0)
-                        nextbattle = 88
+                        nextbattle = BattleGroup.LostSoulSansPapyrus
                     }
                     else
                         event_user(1)
@@ -217,7 +217,7 @@ if (global.myfight == 2)
                     if (FL_SavedTorielLostSoul == 0)
                     {
                         event_user(0)
-                        nextbattle = 90
+                        nextbattle = BattleGroup.LostSoulTorielAsgore
                     }
                     else
                         event_user(1)

@@ -8,20 +8,20 @@ if (global.encounter > steps)
             global.encounter = 0
             battlegroup = round(random(15))
             if (battlegroup >= 0)
-                global.battlegroup = 28
+                global.battlegroup = BattleGroup.Gyftrot
             if (battlegroup > 8)
-                global.battlegroup = 28
+                global.battlegroup = BattleGroup.Gyftrot
             if (FL_TundraBattleProgress < 3)
             {
-                global.battlegroup = 24
+                global.battlegroup = BattleGroup.LesserDog
                 FL_TundraBattleProgress = 4
             }
             if (alldead == 2)
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
             if (alldead == 1)
             {
                 FL_TundraGenocide = 1
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
                 alldead = 2
             }
             else

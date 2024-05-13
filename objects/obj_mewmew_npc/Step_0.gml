@@ -31,7 +31,7 @@ if (con == 1 && instance_exists(OBJ_WRITER) == false)
     con = 2
     myinteract = -1
     global.interact = 1
-    global.battlegroup = 141
+    global.battlegroup = BattleGroup.MadMewMew
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     con = 8
