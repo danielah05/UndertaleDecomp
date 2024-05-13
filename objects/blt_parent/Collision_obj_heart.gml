@@ -13,7 +13,7 @@ if (global.invc < 1)
     instance_create(0, 0, obj_shaker)
     instance_destroy()
     global.invc = global.inv
-    if (global.battlegroup == 22)
+    if (global.battlegroup == BattleGroup.Toriel)
     {
         if (global.hp < 1)
             obj_torielboss.sprite_index = spr_torielboss_mouthcover

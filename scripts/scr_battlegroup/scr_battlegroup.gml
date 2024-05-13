@@ -10,7 +10,7 @@ function scr_battlegroup()
 	    // Test Encounters
 		
 		// Triple Test Monster (Unused)
-		case 1:
+		case BattleGroup.TestFroggits:
 	        global.monstertype[0] = MonsterType.TestFroggit
 	        global.monstertype[1] = MonsterType.TestFroggit
 	        global.monstertype[2] = MonsterType.TestFroggit
@@ -28,7 +28,7 @@ function scr_battlegroup()
 		// Ruins Encounters
 		
 		// Ruins Dummy
-		case 2:
+		case BattleGroup.RuinsDummy:
 	        global.monstertype[0] = MonsterType.Dummy
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -42,7 +42,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Froggit (Toriel Cutscene)
-		case 3:
+		case BattleGroup.TorielFroggit:
 	        global.monstertype[0] = MonsterType.Tutorial_Froggit
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -56,7 +56,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Froggit
-		case 4:
+		case BattleGroup.Froggit:
 	        global.monstertype[0] = MonsterType.Froggit
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -70,7 +70,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Whimsun
-		case 5:
+		case BattleGroup.Whimsun:
 	        global.monstertype[0] = MonsterType.Whimsun
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -84,7 +84,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Froggit, Whimsun
-		case 6:
+		case BattleGroup.FroggitWhimsun:
 	        global.monstertype[0] = MonsterType.Froggit
 	        global.monstertype[1] = MonsterType.Whimsun
 	        global.monstertype[2] = MonsterType.NotSet
@@ -99,7 +99,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Moldsmal
-		case 7:
+		case BattleGroup.Moldsmal:
 	        global.monstertype[0] = MonsterType.Moldsmal_1
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -113,7 +113,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Triple Moldsmal
-		case 8:
+		case BattleGroup.TripleMoldsmal:
 	        global.monstertype[0] = MonsterType.Moldsmal_1
 	        global.monstertype[1] = MonsterType.Moldsmal_1
 	        global.monstertype[2] = MonsterType.Moldsmal_1
@@ -131,7 +131,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Froggit
-		case 9:
+		case BattleGroup.DoubleFroggit:
 	        global.monstertype[0] = MonsterType.Froggit
 	        global.monstertype[1] = MonsterType.Froggit
 	        global.monstertype[2] = MonsterType.NotSet
@@ -147,7 +147,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Moldsmal
-		case 10:
+		case BattleGroup.DoubleMoldsmal:
 	        global.monstertype[0] = MonsterType.Moldsmal_1
 	        global.monstertype[1] = MonsterType.Moldsmal_1
 	        global.monstertype[2] = MonsterType.NotSet
@@ -163,7 +163,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Moldsmal, Migosp
-		case 11:
+		case BattleGroup.MoldsmalMigosp:
 	        global.monstertype[0] = MonsterType.Moldsmal_1
 	        global.monstertype[1] = MonsterType.Migosp
 	        global.monstertype[2] = MonsterType.NotSet
@@ -179,7 +179,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Migosp, Vegetoid
-		case 12:
+		case BattleGroup.MigospVegetoid:
 	        global.monstertype[0] = MonsterType.Migosp
 	        global.monstertype[1] = MonsterType.Vegetoid
 	        global.monstertype[2] = MonsterType.NotSet
@@ -195,7 +195,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Loox
-		case 13:
+		case BattleGroup.Loox:
 	        global.monstertype[0] = MonsterType.Loox
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -210,7 +210,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Loox, Vegetoid (Unused)
-		case 14:
+		case BattleGroup.LooxVegetoid:
 	        global.monstertype[0] = MonsterType.Loox
 	        global.monstertype[1] = MonsterType.Vegetoid
 	        global.monstertype[2] = MonsterType.NotSet
@@ -226,7 +226,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Loox, Vegetoid, Migosp
-		case 15:
+		case BattleGroup.LooxVegetoidMigosp:
 	        global.monstertype[0] = MonsterType.Loox
 	        global.monstertype[1] = MonsterType.Vegetoid
 	        global.monstertype[2] = MonsterType.Migosp
@@ -243,7 +243,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Vegetoid
-		case 16:
+		case BattleGroup.DoubleVegetoid:
 	        global.monstertype[0] = MonsterType.Vegetoid
 	        global.monstertype[1] = MonsterType.Vegetoid
 	        global.monstertype[2] = MonsterType.NotSet
@@ -259,7 +259,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Loox
-		case 17:
+		case BattleGroup.DoubleLoox:
 	        global.monstertype[0] = MonsterType.Loox
 	        global.monstertype[1] = MonsterType.Loox
 	        global.monstertype[2] = MonsterType.NotSet
@@ -275,7 +275,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Vegetoid
-		case 18:
+		case BattleGroup.Vegetoid:
 	        global.monstertype[0] = MonsterType.Vegetoid
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -290,7 +290,7 @@ function scr_battlegroup()
 	        break
 	    
 		// But Nobody Came
-		case 19:
+		case BattleGroup.ButNobodyCame:
 	        global.monstertype[0] = MonsterType.NotSet
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -304,7 +304,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Napstablook
-		case 20:
+		case BattleGroup.Napstablook:
 	        global.monstertype[0] = MonsterType.Napstablook
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -321,7 +321,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Loox (Unused)
-		case 21:
+		case BattleGroup.LooxUnused:
 	        global.monstertype[0] = MonsterType.Loox
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -336,7 +336,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Toriel
-		case 22:
+		case BattleGroup.Toriel:
 	        global.monstertype[0] = MonsterType.Toriel
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -353,7 +353,7 @@ function scr_battlegroup()
 		// Snowdin Encounters
 		
 		// Doggo
-		case 23:
+		case BattleGroup.Doggo:
 	        global.monstertype[0] = MonsterType.Doggo
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -368,7 +368,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Lesser Dog
-		case 24:
+		case BattleGroup.LesserDog:
 	        global.monstertype[0] = MonsterType.LesserDog
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -383,7 +383,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Dogamy, Dogaressa
-		case 25:
+		case BattleGroup.Dogi:
 	        global.monstertype[0] = MonsterType.Dogamy
 	        global.monstertype[1] = MonsterType.Dogaressa
 	        global.monstertype[2] = MonsterType.NotSet
@@ -399,7 +399,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Greater Dog
-		case 26:
+		case BattleGroup.GreaterDog:
 	        global.monstertype[0] = MonsterType.GreaterDog
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -414,7 +414,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Papyrus (Boss)
-		case 27:
+		case BattleGroup.Papyrus:
 	        global.monstertype[0] = MonsterType.Papyrus
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -442,7 +442,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Gyftrot
-		case 28:
+		case BattleGroup.Gyftrot:
 	        global.monstertype[0] = MonsterType.Gyftrot
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -459,7 +459,7 @@ function scr_battlegroup()
 		// Daniela: case 29 is missing, possibly commented out?
 		
 		// Chilldrake/Snowdrake
-		case 30:
+		case BattleGroup.Snowdrake:
 	        global.monstertype[0] = MonsterType.Snowdrake
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -482,7 +482,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Chilldrake (Unused)
-		case 31:
+		case BattleGroup.DoubleSnowdrake:
 	        global.monstertype[0] = MonsterType.Snowdrake
 	        global.monstertype[1] = MonsterType.Snowdrake
 	        global.monstertype[2] = MonsterType.NotSet
@@ -498,7 +498,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Icecap
-		case 32:
+		case BattleGroup.Icecap:
 	        global.monstertype[0] = MonsterType.IceCap
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -513,7 +513,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Icecap, Chilldrake/Snowdrake (Unused)
-		case 33:
+		case BattleGroup.IcecapSnowdrake:
 	        global.monstertype[0] = MonsterType.IceCap
 	        global.monstertype[1] = MonsterType.Snowdrake
 	        global.monstertype[2] = MonsterType.NotSet
@@ -538,7 +538,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Jerry (Unused)
-		case 34:
+		case BattleGroup.Jerry:
 	        global.monstertype[0] = MonsterType.Jerry
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -553,7 +553,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Icecap, Jerry
-		case 35:
+		case BattleGroup.IcecapJerry:
 	        global.monstertype[0] = MonsterType.IceCap
 	        global.monstertype[1] = MonsterType.Jerry
 	        global.monstertype[2] = MonsterType.NotSet
@@ -569,7 +569,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Icecap, Jerry, Chilldrake/Snowdrake
-		case 36:
+		case BattleGroup.IcecapJerrySnowdrake:
 	        global.monstertype[0] = MonsterType.IceCap
 	        global.monstertype[1] = MonsterType.Jerry
 	        global.monstertype[2] = MonsterType.Snowdrake
@@ -596,7 +596,7 @@ function scr_battlegroup()
 		// Waterfall Encounters
 		
 		// Aaron
-		case 40:
+		case BattleGroup.Aaron:
 	        global.monstertype[0] = MonsterType.Aaron
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -611,7 +611,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Temmie
-		case 41:
+		case BattleGroup.Temmie:
 	        global.monstertype[0] = MonsterType.Temmie
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -626,7 +626,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Moldsmal, Moldbygg
-		case 42:
+		case BattleGroup.MoldsmalMoldbygg:
 	        global.monstertype[0] = MonsterType.Moldsmal_2
 	        global.monstertype[1] = MonsterType.Moldbygg
 	        global.monstertype[2] = MonsterType.NotSet
@@ -642,7 +642,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Woshua
-		case 43:
+		case BattleGroup.Woshua:
 	        global.monstertype[0] = MonsterType.Woshua
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -657,7 +657,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Shyren
-		case 44:
+		case BattleGroup.Shyren:
 	        global.monstertype[0] = MonsterType.Shyren
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -672,7 +672,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Mad Dummy
-		case 45:
+		case BattleGroup.MadDummy:
 	        global.monstertype[0] = MonsterType.MadDummy
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -687,7 +687,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Aaron, Woshua (Spooky Music Cutscene)
-		case 46:
+		case BattleGroup.AaronWoshuaCutscene:
 	        global.monstertype[0] = MonsterType.Aaron
 	        global.monstertype[1] = MonsterType.Woshua
 	        global.monstertype[2] = MonsterType.NotSet
@@ -703,7 +703,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Undyne (Boss)
-		case 47:
+		case BattleGroup.Undyne:
 	        global.monstertype[0] = MonsterType.Undyne
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -719,7 +719,7 @@ function scr_battlegroup()
 		// Hotland Encounters
 		
 		// Mettaton Quiz
-		case 48:
+		case BattleGroup.MettatonQuiz:
 	        global.monstertype[0] = MonsterType.Mettaton_Quiz
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -735,7 +735,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Royal Guards
-		case 49:
+		case BattleGroup.RoyalGuards:
 	        global.monstertype[0] = MonsterType.RG_01
 	        global.monstertype[1] = MonsterType.RG_02
 	        global.monstertype[2] = MonsterType.NotSet
@@ -751,7 +751,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Tsunderplane
-		case 50:
+		case BattleGroup.Tsunderplane:
 	        global.monstertype[0] = MonsterType.Tsunderplane
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -766,7 +766,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Vulkin
-		case 51:
+		case BattleGroup.Vulkin:
 	        global.monstertype[0] = MonsterType.Vulkin
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -781,7 +781,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Pyrope
-		case 52:
+		case BattleGroup.Pyrope:
 	        global.monstertype[0] = MonsterType.Pyrope
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -798,7 +798,7 @@ function scr_battlegroup()
 		// Waterfall Encounters (Part 2)
 		
 		// Double Moldsmal
-		case 53:
+		case BattleGroup.DoubleMoldsmal2:
 	        global.monstertype[0] = MonsterType.Moldsmal_2
 	        global.monstertype[1] = MonsterType.Moldsmal_2
 	        global.monstertype[2] = MonsterType.NotSet
@@ -814,7 +814,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Woshua, Aaron
-		case 54:
+		case BattleGroup.WoshuaAaron:
 	        global.monstertype[0] = MonsterType.Woshua
 	        global.monstertype[1] = MonsterType.Aaron
 	        global.monstertype[2] = MonsterType.NotSet
@@ -830,7 +830,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Woshua, Moldbygg
-		case 55:
+		case BattleGroup.WoshuaMoldbygg:
 	        global.monstertype[0] = MonsterType.Woshua
 	        global.monstertype[1] = MonsterType.Moldbygg
 	        global.monstertype[2] = MonsterType.NotSet
@@ -861,7 +861,7 @@ function scr_battlegroup()
 		// Hotland Encounters (Part 2)
 		
 		// Muffet (Boss)
-	    case 56:
+	    case BattleGroup.Muffet:
 	        global.monstertype[0] = MonsterType.Muffet
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -876,7 +876,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Mettaton (Second Encounter)
-		case 57:
+		case BattleGroup.MettatonSecond:
 	        global.monstertype[0] = MonsterType.Mettaton_TilePuzzle
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -893,7 +893,7 @@ function scr_battlegroup()
 		// Waterfall Encounters (Part 3)
 		
 		// Undyne (Date Fight)
-		case 58:
+		case BattleGroup.UndyneFakeFight:
 	        global.monstertype[0] = MonsterType.Undyne_Date
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -910,7 +910,7 @@ function scr_battlegroup()
 		// Core Encounters
 		
 		// Madjick
-		case 59:
+		case BattleGroup.Madjick:
 	        global.monstertype[0] = MonsterType.Madjick
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -923,7 +923,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Knight Knight
-		case 60:
+		case BattleGroup.KnightKnight:
 	        global.monstertype[0] = MonsterType.KnightKnight
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -936,7 +936,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Final Froggit (Unused)
-		case 61:
+		case BattleGroup.FinalFroggit:
 	        global.monstertype[0] = MonsterType.FinalFroggit
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -949,7 +949,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Astigmatism
-		case 62:
+		case BattleGroup.Astigmatism:
 	        global.monstertype[0] = MonsterType.Astigmatism
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -962,7 +962,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Whimsalot (Unused)
-		case 63:
+		case BattleGroup.Whimsalot:
 	        global.monstertype[0] = MonsterType.Whimsalot
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -975,7 +975,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Whimsalot, Final Froggit
-		case 64:
+		case BattleGroup.WhimsalotFinalFroggit:
 	        global.monstertype[0] = MonsterType.Whimsalot
 	        global.monstertype[1] = MonsterType.FinalFroggit
 	        global.monstertype[2] = MonsterType.NotSet
@@ -989,7 +989,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Whimsalot, Astigmatism
-		case 65:
+		case BattleGroup.WhimsalotAstigmatism:
 	        global.monstertype[0] = MonsterType.Whimsalot
 	        global.monstertype[1] = MonsterType.Astigmatism
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1003,7 +1003,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Final Froggit, Astigmatism
-		case 66:
+		case BattleGroup.FinalFroggitAstigmatism:
 	        global.monstertype[0] = MonsterType.FinalFroggit
 	        global.monstertype[1] = MonsterType.Astigmatism
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1017,7 +1017,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Final Froggit, Astigmatism, Whimsalot
-		case 67:
+		case BattleGroup.FinalFroggitAstigmatismWhimsalot:
 	        global.monstertype[0] = MonsterType.FinalFroggit
 	        global.monstertype[1] = MonsterType.Astigmatism
 	        global.monstertype[2] = MonsterType.Whimsalot
@@ -1032,7 +1032,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Knight Knight, Madjick
-		case 68:
+		case BattleGroup.KnightKnightMadjick:
 	        global.monstertype[0] = MonsterType.KnightKnight
 	        global.monstertype[1] = MonsterType.Madjick
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1048,7 +1048,7 @@ function scr_battlegroup()
 		// Hotland Encounters (Part 3)
 		
 		// Bomb (Unused)
-		case 69:
+		case BattleGroup.Bomb:
 	        global.monstertype[0] = MonsterType.Bomb
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1061,7 +1061,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Dog Bomb
-		case 70:
+		case BattleGroup.DogBomb:
 	        global.monstertype[0] = MonsterType.Bomb
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1079,7 +1079,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Water Glass Bomb
-		case 71:
+		case BattleGroup.WaterGlassBomb:
 	        global.monstertype[0] = MonsterType.Bomb
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1097,7 +1097,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Script Bomb
-		case 72:
+		case BattleGroup.ScriptBomb:
 	        global.monstertype[0] = MonsterType.Bomb
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1114,7 +1114,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Basketball Bomb
-		case 73:
+		case BattleGroup.BasketballBomb:
 	        global.monstertype[0] = MonsterType.Bomb
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1131,7 +1131,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Present Bomb
-		case 74:
+		case BattleGroup.PresentBomb:
 	        global.monstertype[0] = MonsterType.Bomb
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1148,7 +1148,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Game Bomb
-		case 75:
+		case BattleGroup.GameBomb:
 	        global.monstertype[0] = MonsterType.Bomb
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1165,7 +1165,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Royale Guards (RG 04, RG 03, Unused)
-		case 76:
+		case BattleGroup.RoyaleGuards:
 	        global.monstertype[0] = MonsterType.RG_04
 	        global.monstertype[1] = MonsterType.RG_03
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1181,7 +1181,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Tsunderplane, Vulkin
-		case 77:
+		case BattleGroup.TsunderplaneVulkin:
 	        global.monstertype[0] = MonsterType.Tsunderplane
 	        global.monstertype[1] = MonsterType.Vulkin
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1197,7 +1197,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Pyrope
-		case 78:
+		case BattleGroup.DoublePyrope:
 	        global.monstertype[0] = MonsterType.Pyrope
 	        global.monstertype[1] = MonsterType.Pyrope
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1213,7 +1213,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Vulkin (Unused)
-		case 79:
+		case BattleGroup.DoubleVulkin:
 	        global.monstertype[0] = MonsterType.Vulkin
 	        global.monstertype[1] = MonsterType.Vulkin
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1229,7 +1229,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Mettaton (Boss)
-		case 80:
+		case BattleGroup.Mettaton:
 	        global.monstertype[0] = MonsterType.Mettaton_3
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1244,7 +1244,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Mettaton EX
-		case 81:
+		case BattleGroup.MettatonEX:
 	        global.monstertype[0] = MonsterType.MettatonEX
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1261,7 +1261,7 @@ function scr_battlegroup()
 		// True Lab Encounters
 		
 		// Lemon Bread
-		case 82:
+		case BattleGroup.LemonBread:
 	        global.monstertype[0] = MonsterType.LemonBread
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1276,7 +1276,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Reaper Bird
-		case 83:
+		case BattleGroup.ReaperBird:
 	        global.monstertype[0] = MonsterType.ReaperBird
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1291,7 +1291,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Snowdrakes Mother
-		case 84:
+		case BattleGroup.SnowdrakesMother:
 	        global.monstertype[0] = MonsterType.Amalgamate
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1306,7 +1306,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Triple Memoryhead
-		case 85:
+		case BattleGroup.TripleMemoryhead:
 	        global.monstertype[0] = MonsterType.Memoryhead
 	        global.monstertype[1] = MonsterType.Memoryhead
 	        global.monstertype[2] = MonsterType.Memoryhead
@@ -1323,7 +1323,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Endogeny
-		case 86:
+		case BattleGroup.Endogeny:
 	        global.monstertype[0] = MonsterType.Endogeny
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1340,7 +1340,7 @@ function scr_battlegroup()
 		// Asriel Lost Souls
 		
 		// Undyne (Lost Soul)
-		case 87:
+		case BattleGroup.LostSoulUndyne:
 	        global.monstertype[0] = MonsterType.LostSoul_Undyne
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1361,7 +1361,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Papyrus, Sans (Lost Soul)
-		case 88:
+		case BattleGroup.LostSoulSansPapyrus:
 	        global.monstertype[0] = MonsterType.LostSoul_Papyrus
 	        global.monstertype[1] = MonsterType.LostSoul_Sans
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1383,7 +1383,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Alphys (Lost Soul)
-		case 89:
+		case BattleGroup.LostSoulAlphys:
 	        global.monstertype[0] = MonsterType.LostSoul_Alphys
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1404,7 +1404,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Toriel, Asgore (Lost Soul)
-		case 90:
+		case BattleGroup.LostSoulTorielAsgore:
 	        global.monstertype[0] = MonsterType.LostSoul_Toriel
 	        global.monstertype[1] = MonsterType.LostSoul_Asgore
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1428,7 +1428,7 @@ function scr_battlegroup()
 		// Genocide Encounters
 		
 		// Monster Kid
-		case 91:
+		case BattleGroup.MonsterKid:
 	        global.monstertype[0] = MonsterType.MonsterKid
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1443,7 +1443,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Undyne (Genocide Boss)
-		case 92:
+		case BattleGroup.UndyneTheUndying:
 	        global.monstertype[0] = MonsterType.UndyneTheUndying
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1458,7 +1458,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Glad Dummy
-		case 93:
+		case BattleGroup.GladDummy:
 	        global.monstertype[0] = MonsterType.GladDummy
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1473,7 +1473,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Mettaton NEO
-		case 94:
+		case BattleGroup.MettatonNEO:
 	        global.monstertype[0] = MonsterType.MettatonNEO
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1488,7 +1488,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Sans
-		case 95:
+		case BattleGroup.Sans:
 	        with (obj_battlebg)
 	            instance_destroy()
 	        global.monstertype[0] = MonsterType.Sans
@@ -1506,7 +1506,7 @@ function scr_battlegroup()
 		// Asgore Related Stuff
 		
 		// Asgore (Intro)
-		case 100:
+		case BattleGroup.AsgoreIntro:
 	        global.monstertype[0] = MonsterType.Asgore
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1521,7 +1521,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Asgore (Boss)
-		case 101:
+		case BattleGroup.Asgore:
 	        global.monstertype[0] = MonsterType.Asgore
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1540,7 +1540,7 @@ function scr_battlegroup()
 		// Hard Mode Encounters
 		
 		// Final Froggit, Astigmatism
-		case 120:
+		case BattleGroup.HardModeFinalFroggitAstigmatism:
 	        global.monstertype[0] = MonsterType.FinalFroggit_Hardmode
 	        global.monstertype[1] = MonsterType.Astigmatism_Hardmode
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1556,7 +1556,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Final Froggit, Migospel
-		case 121:
+		case BattleGroup.HardModeFinalFroggitMigospel:
 	        global.monstertype[0] = MonsterType.FinalFroggit_Hardmode
 	        global.monstertype[1] = MonsterType.Migospel
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1572,7 +1572,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Parsnik
-		case 122:
+		case BattleGroup.HardModeParsnik:
 	        global.monstertype[0] = MonsterType.Parsnik
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1587,7 +1587,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Moldessa
-		case 123:
+		case BattleGroup.HardModeDoubleMoldessa:
 	        global.monstertype[0] = MonsterType.Moldessa
 	        global.monstertype[1] = MonsterType.Moldessa
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1603,7 +1603,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Triple Moldessa
-		case 124:
+		case BattleGroup.HardModeTripleMoldessa:
 	        global.monstertype[0] = MonsterType.Moldessa
 	        global.monstertype[1] = MonsterType.Moldessa
 	        global.monstertype[2] = MonsterType.Moldessa
@@ -1620,7 +1620,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Final Froggit, Whimsalot
-		case 125:
+		case BattleGroup.HardModeFinalFroggitWhimsalot:
 	        global.monstertype[0] = MonsterType.FinalFroggit_Hardmode
 	        global.monstertype[1] = MonsterType.Whimsalot_Hardmode
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1636,7 +1636,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Final Froggit
-		case 126:
+		case BattleGroup.HardModeFinalFroggit:
 	        global.monstertype[0] = MonsterType.FinalFroggit_Hardmode
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1651,7 +1651,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Whimsalot, Parsnik (Unused)
-		case 127:
+		case BattleGroup.HardModeWhimsalotParsnik:
 	        global.monstertype[0] = MonsterType.Whimsalot_Hardmode
 	        global.monstertype[1] = MonsterType.Parsnik
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1667,7 +1667,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Moldessa, Migospel
-		case 128:
+		case BattleGroup.HardModeMoldessaMigospel:
 	        global.monstertype[0] = MonsterType.Moldessa
 	        global.monstertype[1] = MonsterType.Migospel
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1683,7 +1683,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Parsnik, Migospel
-		case 129:
+		case BattleGroup.HardModeParsnikMigospel:
 	        global.monstertype[0] = MonsterType.Parsnik
 	        global.monstertype[1] = MonsterType.Migospel
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1699,7 +1699,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Parsnik
-		case 130:
+		case BattleGroup.HardModeDoubleParsnik:
 	        global.monstertype[0] = MonsterType.Parsnik
 	        global.monstertype[1] = MonsterType.Parsnik
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1715,7 +1715,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Parsnik, Astigmatism (Unused)
-		case 131:
+		case BattleGroup.HardModeParsnikAstigmatism:
 	        global.monstertype[0] = MonsterType.Parsnik
 	        global.monstertype[1] = MonsterType.Astigmatism_Hardmode
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1731,7 +1731,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Double Astigmatism
-		case 132:
+		case BattleGroup.HardModeDoubleAstigmatism:
 	        global.monstertype[0] = MonsterType.Astigmatism_Hardmode
 	        global.monstertype[1] = MonsterType.Astigmatism_Hardmode
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1747,7 +1747,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Astigmatism, Migospel, Moldessa (Unused)
-		case 133:
+		case BattleGroup.HardModeAstigmatismMigospelMoldessa:
 	        global.monstertype[0] = MonsterType.Astigmatism_Hardmode
 	        global.monstertype[1] = MonsterType.Migospel
 	        global.monstertype[2] = MonsterType.Moldessa
@@ -1764,7 +1764,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Whimsalot, Parsnik, Moldessa (Unused)
-		case 134:
+		case BattleGroup.HardModeWhimsalotParsnikMoldessa:
 	        global.monstertype[0] = MonsterType.Astigmatism_Hardmode // Vultu: This isn't incorrect, toby just made an error
 	        global.monstertype[1] = MonsterType.Parsnik
 	        global.monstertype[2] = MonsterType.Moldessa
@@ -1783,7 +1783,7 @@ function scr_battlegroup()
 		// Secret Bosses
 		
 		// Glyde
-		case 135:
+		case BattleGroup.Glyde:
 	        global.monstertype[0] = MonsterType.Glyde
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1798,7 +1798,7 @@ function scr_battlegroup()
 	        break
 	    
 		// So Sorry
-		case 140:
+		case BattleGroup.SoSorry:
 	        global.monstertype[0] = MonsterType.SoSorry
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1813,7 +1813,7 @@ function scr_battlegroup()
 	        break
 	    
 		// Mad Mew Mew
-		case 141:
+		case BattleGroup.MadMewMew:
 	        global.monstertype[0] = MonsterType.MadMewMew
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1830,7 +1830,7 @@ function scr_battlegroup()
 		// Asriel Stuff
 		
 		// Asriel (Boss)
-		case 255:
+		case BattleGroup.Asriel:
 	        global.monstertype[0] = MonsterType.AsrielDreemurr
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet
@@ -1844,9 +1844,9 @@ function scr_battlegroup()
 	        global.msg[0] = scr_gettext("scr_battlegroup_1762") //* It's the end.
 	        global.monsterinstance[0] = instance_create(258, 8, obj_asrielb)
 	        break
-	    
+
 		// Asriel (Final Form)
-		case 256:
+		case BattleGroup.AsrielFinal:
 	        global.monstertype[0] = MonsterType.Asriel
 	        global.monstertype[1] = MonsterType.NotSet
 	        global.monstertype[2] = MonsterType.NotSet

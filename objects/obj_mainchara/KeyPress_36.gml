@@ -1,6 +1,6 @@
 if (global.debug == true)
 {
-    global.battlegroup = (57 + nnn)
+    global.battlegroup = (BattleGroup.MettatonSecond + nnn)
     global.border = 0
     instance_create(0, 0, obj_battleblcon)
     if (global.plot == 998)
@@ -10,7 +10,7 @@ if (global.debug == true)
         FL_KilledLast = false
         FL_BoredLast = false
         global.entrance = 0
-        global.battlegroup = 82
+        global.battlegroup = BattleGroup.LemonBread
         obj_mainchara.depth = -600
         if (instance_exists(obj_battler) == false)
             instance_create(0, 0, obj_battler)

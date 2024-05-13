@@ -12,7 +12,7 @@ if (con == 1)
     con = 2
     alarm[4] = 33
     FL_InBattle = true
-    global.battlegroup = (69 + bombtype)
+    global.battlegroup = (BattleGroup.Bomb + bombtype)
     instance_create(0, 0, obj_battler)
 }
 if (con == 3)

@@ -422,7 +422,7 @@ if (con == 48)
 }
 if (con == 49 && instance_exists(OBJ_WRITER) == false)
 {
-    global.battlegroup = 92
+    global.battlegroup = BattleGroup.UndyneTheUndying
     caster_free(all)
     room_restart()
 }
@@ -504,7 +504,7 @@ if (con == 203)
 }
 if (con == 204 && instance_exists(OBJ_WRITER) == false)
 {
-    global.battlegroup = 92
+    global.battlegroup = BattleGroup.UndyneTheUndying
     caster_free(all)
     room_restart()
 }

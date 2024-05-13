@@ -94,7 +94,7 @@ function SCR_GAMESTART()
 	}
 	global.xpreward[3] = 0
 	global.goldreward[3] = 0
-	global.battlegroup = 3
+	global.battlegroup = BattleGroup.TorielFroggit
 	global.turntimer = 0
 	global.talked = false
 	global.inv = 20

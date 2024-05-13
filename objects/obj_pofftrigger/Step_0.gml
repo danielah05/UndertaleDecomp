@@ -5,7 +5,7 @@ if (t == 2)
 }
 if (t == 6)
 {
-    global.battlegroup = 26
+    global.battlegroup = BattleGroup.GreaterDog
     FL_AreaKillsPointer = KillsPointer_Invalid
     global.mercy = 1
     instance_create(0, 0, obj_battler)

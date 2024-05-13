@@ -422,7 +422,7 @@ if (con == 66 && instance_exists(OBJ_WRITER) == false)
     con = 67
     alarm[4] = 10
     global.border = 0
-    global.battlegroup = 48
+    global.battlegroup = BattleGroup.MettatonQuiz
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     talkedto = 0

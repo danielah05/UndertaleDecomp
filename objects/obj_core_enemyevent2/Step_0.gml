@@ -17,7 +17,7 @@ if (con == 8)
 {
     global.mercy = 1
     FL_InBattle = true
-    global.battlegroup = 60
+    global.battlegroup = BattleGroup.KnightKnight
     instance_create(0, 0, obj_battler)
     con = 9
     alarm[4] = 32

@@ -8,37 +8,37 @@ if (global.encounter > steps)
         global.encounter = 0
         battlegroup = random(20)
         if (battlegroup <= 4)
-            global.battlegroup = 11
+            global.battlegroup = BattleGroup.MoldsmalMigosp
         if (battlegroup > 4)
-            global.battlegroup = 12
+            global.battlegroup = BattleGroup.MigospVegetoid
         if (battlegroup > 8)
-            global.battlegroup = 13
+            global.battlegroup = BattleGroup.Loox
         if (battlegroup > 12)
-            global.battlegroup = 16
+            global.battlegroup = BattleGroup.DoubleVegetoid
         if (battlegroup > 16)
-            global.battlegroup = 17
+            global.battlegroup = BattleGroup.DoubleLoox
         if (battlegroup > 19)
-            global.battlegroup = 15
+            global.battlegroup = BattleGroup.LooxVegetoidMigosp
         if (FL_Hardmode == true)
         {
             if (battlegroup <= 4)
-                global.battlegroup = 128
+                global.battlegroup = BattleGroup.HardModeMoldessaMigospel
             if (battlegroup > 4)
-                global.battlegroup = 129
+                global.battlegroup = BattleGroup.HardModeParsnikMigospel
             if (battlegroup > 8)
-                global.battlegroup = 130
+                global.battlegroup = BattleGroup.HardModeDoubleParsnik
             if (battlegroup > 12)
-                global.battlegroup = 121
+                global.battlegroup = BattleGroup.HardModeFinalFroggitMigospel
             if (battlegroup > 16)
-                global.battlegroup = 124
+                global.battlegroup = BattleGroup.HardModeTripleMoldessa
             if (battlegroup > 19)
-                global.battlegroup = 132
+                global.battlegroup = BattleGroup.HardModeDoubleAstigmatism
         }
         if (alldead == 2)
-            global.battlegroup = 19
+            global.battlegroup = BattleGroup.ButNobodyCame
         if (alldead == 1)
         {
-            global.battlegroup = 19
+            global.battlegroup = BattleGroup.ButNobodyCame
             alldead = 2
         }
         else

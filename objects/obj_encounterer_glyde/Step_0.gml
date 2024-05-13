@@ -6,13 +6,13 @@ if (global.encounter > steps)
         {
             scr_steps(840, 680, 16, 203)
             global.encounter = 0
-            global.battlegroup = 135
+            global.battlegroup = BattleGroup.Glyde
             if (alldead == 2)
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
             if (alldead == 1)
             {
                 FL_TundraGenocide = 1
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
                 alldead = 2
             }
             else

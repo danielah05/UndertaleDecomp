@@ -1,7 +1,7 @@
 scr_depth(0, 0, 0, 0, 0)
 if (talkedto == true && global.choice == 0 && instance_exists(obj_dialoguer) == false)
 {
-    global.battlegroup = 20
+    global.battlegroup = BattleGroup.Napstablook
     FL_AreaKillsPointer = KillsPointer_Invalid
     global.mercy = 1
     instance_create(0, 0, obj_battler)

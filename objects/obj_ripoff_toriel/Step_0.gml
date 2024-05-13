@@ -279,7 +279,7 @@ if (saved == 4 && writer.halt != false && obj_ripoff_asgore.writer.halt != false
 }
 if (saved == 6)
 {
-    global.battlegroup = 256
+    global.battlegroup = BattleGroup.AsrielFinal
     FL_SavedTorielLostSoul = 1
     room_restart()
 }

@@ -932,4 +932,142 @@ enum PhoneName
 	DimensionalBoxA = 220,
 	DimensionalBoxB
 }
+enum BattleGroup
+{
+	TestFroggits = 1,
+	RuinsDummy,
+	TorielFroggit,
+	Froggit,
+	Whimsun,
+	FroggitWhimsun,
+	Moldsmal,
+	TripleMoldsmal,
+	DoubleFroggit,
+	DoubleMoldsmal,
+	MoldsmalMigosp,
+	MigospVegetoid,
+	Loox,
+	LooxVegetoid, // UNUSED
+	LooxVegetoidMigosp,
+	DoubleVegetoid,
+	DoubleLoox,
+	Vegetoid,
+
+	ButNobodyCame,
+
+	Napstablook,
+
+	LooxUnused, // UNUSED
+
+	Toriel,
+
+	Doggo,
+	LesserDog,
+	Dogi,
+	GreaterDog,
+	Papyrus,
+	Gyftrot,
+	// Case 29 missing!
+	Snowdrake = 30,
+	DoubleSnowdrake,
+	Icecap,
+	IcecapSnowdrake, // UNUSED
+	Jerry, // UNUSED
+	IcecapJerry,
+	IcecapJerrySnowdrake,
+
+	Aaron = 40,
+	Temmie,
+	MoldsmalMoldbygg,
+	Woshua,
+	Shyren,
+	MadDummy,
+	AaronWoshuaCutscene, // Spooky music cutscene
+	Undyne,
+
+	MettatonQuiz,
+	RoyalGuards,
+	Tsunderplane,
+	Vulkin,
+	Pyrope,
+
+	DoubleMoldsmal2,
+	WoshuaAaron,
+	WoshuaMoldbygg,
+
+	Muffet,
+	MettatonSecond,
+
+	UndyneFakeFight,
+
+	Madjick,
+	KnightKnight,
+	FinalFroggit, // UNUSED
+	Astigmatism,
+	Whimsalot, // UNUSED
+	WhimsalotFinalFroggit,
+	WhimsalotAstigmatism,
+	FinalFroggitAstigmatism,
+	FinalFroggitAstigmatismWhimsalot,
+	KnightKnightMadjick,
+
+	Bomb, // UNUSED
+	DogBomb,
+	WaterGlassBomb,
+	ScriptBomb,
+	BasketballBomb,
+	PresentBomb,
+	GameBomb,
+
+	RoyaleGuards, // UNUSED
+	TsunderplaneVulkin,
+	DoublePyrope,
+	DoubleVulkin, // UNUSED
+
+	Mettaton,
+	MettatonEX,
+
+	LemonBread,
+	ReaperBird,
+	SnowdrakesMother,
+	TripleMemoryhead,
+	Endogeny,
+
+	LostSoulUndyne,
+	LostSoulSansPapyrus,
+	LostSoulAlphys,
+	LostSoulTorielAsgore,
+
+	MonsterKid,
+	UndyneTheUndying,
+	GladDummy,
+	MettatonNEO,
+	Sans,
+
+	AsgoreIntro = 100,
+	Asgore,
+
+	HardModeFinalFroggitAstigmatism = 120,
+	HardModeFinalFroggitMigospel,
+	HardModeParsnik,
+	HardModeDoubleMoldessa,
+	HardModeTripleMoldessa,
+	HardModeFinalFroggitWhimsalot,
+	HardModeFinalFroggit,
+	HardModeWhimsalotParsnik,
+	HardModeMoldessaMigospel,
+	HardModeParsnikMigospel,
+	HardModeDoubleParsnik,
+	HardModeParsnikAstigmatism, // UNUSED
+	HardModeDoubleAstigmatism,
+	HardModeAstigmatismMigospelMoldessa,
+	HardModeWhimsalotParsnikMoldessa, // UNUSED
+
+	Glyde = 135,
+	SoSorry = 140,
+	MadMewMew,
+
+	Asriel = 255,
+	AsrielFinal
+}
 #endregion

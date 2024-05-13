@@ -197,7 +197,7 @@ if (con == 19)
 if (con == 20)
 {
     global.mercy = 1
-    global.battlegroup = 56
+    global.battlegroup = BattleGroup.Muffet
     instance_create(0, 0, obj_battler)
     con = 21
     alarm[4] = 33
