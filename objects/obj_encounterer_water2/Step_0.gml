@@ -18,7 +18,7 @@ if (global.encounter > steps)
             if (FL_WaterfallBattleProgressCounter2 == 0)
                 global.battlegroup = BattleGroup.Temmie
             if (FL_WaterfallBattleProgressCounter2 == 1)
-                global.battlegroup = BattleGroup.DoubleMoldsmal
+                global.battlegroup = BattleGroup.MoldsmalMoldbygg
             if (FL_WaterfallBattleProgressCounter2 == 2)
                 global.battlegroup = BattleGroup.WoshuaAaron
             if (FL_WaterfallBattleProgressCounter2 == 3)

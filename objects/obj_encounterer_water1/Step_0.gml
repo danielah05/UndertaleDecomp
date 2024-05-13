@@ -12,7 +12,7 @@ if (global.encounter > steps)
             if (battlegroup < 15)
                 global.battlegroup = BattleGroup.Woshua
             if (battlegroup < 11)
-                global.battlegroup = BattleGroup.DoubleMoldsmal
+                global.battlegroup = BattleGroup.DoubleMoldsmal2
             if (battlegroup < 7)
                 global.battlegroup = BattleGroup.Aaron
             if (battlegroup < 4)
