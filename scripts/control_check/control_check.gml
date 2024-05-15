@@ -5,7 +5,7 @@ function control_check(_control)
 	if (obj_decomp_console.active)
 		return false;
 		
-	if (global.decomp_vars.FixInputLatency)
+	if (global.decomp_vars.FixInputLatency && !global.decomp_vars.VanillaMode)
 	{
 		// Vultu: Actual help with figuring out what the fuck this was goes to OceanBagel
 		// Actual code is my own, but based on OceanBagel's
