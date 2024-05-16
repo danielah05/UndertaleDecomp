@@ -35,7 +35,7 @@ if (active == true)
         if (wht > 1.18)
         {
             on = 3
-            global.battlegroup = 256
+            global.battlegroup = BattleGroup.AsrielFinal
             FL_AsrielFightConvoCounter = 3
             do_room_goto = true
         }

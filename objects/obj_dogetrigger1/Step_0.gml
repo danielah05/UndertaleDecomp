@@ -37,7 +37,7 @@ if (conversation == 4)
 }
 if (conversation == 5 && instance_exists(OBJ_WRITER) == false)
 {
-    global.battlegroup = 23
+    global.battlegroup = BattleGroup.Doggo
     FL_AreaKillsPointer = KillsPointer_Invalid
     global.mercy = 1
     instance_create(0, 0, obj_battler)

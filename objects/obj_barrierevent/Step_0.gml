@@ -75,7 +75,7 @@ if (con == 19)
     FL_InBattle = false
     FL_TypeHeartTransition = HeartTransitionType.QuickBattle
     caster_free(all)
-    global.battlegroup = 100
+    global.battlegroup = BattleGroup.AsgoreIntro
     instance_create(0, 0, obj_battler)
     con = 20
 }

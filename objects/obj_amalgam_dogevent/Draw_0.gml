@@ -74,7 +74,7 @@ if (con == 11)
 {
     caster_free(tr)
     caster_free(yl)
-    global.battlegroup = 86
+    global.battlegroup = BattleGroup.Endogeny
     global.mercy = 1
     global.border = 0
     FL_TypeHeartTransition = HeartTransitionType.Normal

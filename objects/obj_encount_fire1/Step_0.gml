@@ -10,30 +10,30 @@ if (global.encounter > steps)
             global.encounter = 0
             battlegroup = floor(random(15))
             if (battlegroup < 15)
-                global.battlegroup = 50
+                global.battlegroup = BattleGroup.Tsunderplane
             if (battlegroup < 10)
-                global.battlegroup = 78
+                global.battlegroup = BattleGroup.DoublePyrope
             if (battlegroup < 6)
-                global.battlegroup = 77
+                global.battlegroup = BattleGroup.TsunderplaneVulkin
             if (FL_DisableRandomEncounters == true || FL_TruePacifist == true)
                 instance_destroy()
             if (FL_HotlandBattleProgressCounter == 0)
-                global.battlegroup = 51
+                global.battlegroup = BattleGroup.Vulkin
             if (FL_HotlandBattleProgressCounter == 1)
-                global.battlegroup = 50
+                global.battlegroup = BattleGroup.Tsunderplane
             if (FL_HotlandBattleProgressCounter == 2)
-                global.battlegroup = 52
+                global.battlegroup = BattleGroup.Pyrope
             if (FL_HotlandBattleProgressCounter == 3)
-                global.battlegroup = 77
+                global.battlegroup = BattleGroup.TsunderplaneVulkin
             if (FL_HotlandBattleProgressCounter == 4)
-                global.battlegroup = 78
+                global.battlegroup = BattleGroup.DoublePyrope
             FL_HotlandBattleProgressCounter += 1
             if (alldead == 2)
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
             if (alldead == 1)
             {
                 FL_HotlandGenocide = 1
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
                 alldead = 2
             }
             else

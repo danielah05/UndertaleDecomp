@@ -183,7 +183,7 @@ if (conversation == 16 && instance_exists(OBJ_WRITER) == false)
     global.interact = 1
     myinteract = 3
     global.seriousbattle = 0
-    global.battlegroup = 27
+    global.battlegroup = BattleGroup.Papyrus
     FL_AreaKillsPointer = KillsPointer_Invalid
     global.mercy = 1
     instance_create(0, 0, obj_battler)

@@ -1,7 +1,7 @@
 function scr_gameoverb()
 {
 	global.hp = 0
-	if (global.battlegroup == 22)
+	if (global.battlegroup == BattleGroup.Toriel)
 	    obj_torielboss.sprite_index = spr_torielboss_mouthcover
 	if instance_exists(obj_asgoreb)
 	{

@@ -5,7 +5,7 @@ if (myinteract == 1 && global.plot < 6)
     FL_KilledLast = false
     FL_BoredLast = false
     global.entrance = 0
-    global.battlegroup = 2
+    global.battlegroup = BattleGroup.RuinsDummy
     obj_mainchara.depth = -600
     if (instance_exists(obj_battler) == false)
         instance_create(0, 0, obj_battler)

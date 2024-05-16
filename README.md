@@ -71,4 +71,5 @@ MrPorkchop - Made the Icon<br>
 ## PR Helpers
 [Zyle](https://zyle.dev/)<br>
 [Marioalexsan](https://github.com/Marioalexsan)<br>
-[EphraimBane](https://github.com/EphraimBane)
+[EphraimBane](https://github.com/EphraimBane)<br>
+[Nyako](https://github.com/NyakoFox)
