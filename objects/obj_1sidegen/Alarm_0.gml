@@ -2,7 +2,7 @@ SCR_BORDER(0, 6)
 x = xx
 y = yy
 if (bullettype == 0)
-    SCR_DIRECT(2.5, 0.2, 0, 0, 0, 0, 0, 0, 0, 174)
+    SCR_DIRECT(2.5, 0.2, 0, 0, 0, 0, 0, 0, 0, spr_bulletsm)
 if (bullettype == 1)
 {
     iii = instance_create(x, y, blt_flybullet)
