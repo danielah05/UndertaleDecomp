@@ -34,7 +34,7 @@ if (global.inbattle == true)
     if (FL_AreaKillsPointer != KillsPointer_Invalid)
     {
         if (FL_KillsCounter != global.kills)
-            FL_AreaKillsPointer += (global.kills - FL_KillsCounter)
+            global.flag[FL_AreaKillsPointer] += (global.kills - FL_KillsCounter)
     }
 }
 if obj_time.left
