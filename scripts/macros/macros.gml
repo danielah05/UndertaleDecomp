@@ -964,6 +964,7 @@ enum SansDated2
 }
 enum BattleGroup
 {
+	// 1 - 9
 	TestFroggits = 1,
 	RuinsDummy,
 	TorielFroggit,
@@ -973,6 +974,7 @@ enum BattleGroup
 	Moldsmal,
 	TripleMoldsmal,
 	DoubleFroggit,
+	// 10 - 19
 	DoubleMoldsmal,
 	MoldsmalMigosp,
 	MigospVegetoid,
@@ -982,15 +984,11 @@ enum BattleGroup
 	DoubleVegetoid,
 	DoubleLoox,
 	Vegetoid,
-
 	ButNobodyCame,
-
+	// 20 - 28
 	Napstablook,
-
 	LooxUnused, // UNUSED
-
 	Toriel,
-
 	Doggo,
 	LesserDog,
 	Dogi,
@@ -998,6 +996,7 @@ enum BattleGroup
 	Papyrus,
 	Gyftrot,
 	// Case 29 missing!
+	// 30 - 36
 	Snowdrake = 30,
 	DoubleSnowdrake,
 	Icecap,
@@ -1005,7 +1004,7 @@ enum BattleGroup
 	Jerry, // UNUSED
 	IcecapJerry,
 	IcecapJerrySnowdrake,
-
+	// 40 - 49
 	Aaron = 40,
 	Temmie,
 	MoldsmalMoldbygg,
@@ -1014,23 +1013,20 @@ enum BattleGroup
 	MadDummy,
 	AaronWoshuaCutscene, // Spooky music cutscene
 	Undyne,
-
 	MettatonQuiz,
 	RoyalGuards,
+	// 50 - 59
 	Tsunderplane,
 	Vulkin,
 	Pyrope,
-
 	DoubleMoldsmal2,
 	WoshuaAaron,
 	WoshuaMoldbygg,
-
 	Muffet,
 	MettatonSecond,
-
 	UndyneFakeFight,
-
 	Madjick,
+	// 60 - 69
 	KnightKnight,
 	FinalFroggit, // UNUSED
 	Astigmatism,
@@ -1040,43 +1036,40 @@ enum BattleGroup
 	FinalFroggitAstigmatism,
 	FinalFroggitAstigmatismWhimsalot,
 	KnightKnightMadjick,
-
 	Bomb, // UNUSED
+	// 70 - 79
 	DogBomb,
 	WaterGlassBomb,
 	ScriptBomb,
 	BasketballBomb,
 	PresentBomb,
 	GameBomb,
-
 	RoyaleGuards, // UNUSED
 	TsunderplaneVulkin,
 	DoublePyrope,
 	DoubleVulkin, // UNUSED
-
+	// 80 - 89
 	Mettaton,
 	MettatonEX,
-
 	LemonBread,
 	ReaperBird,
 	SnowdrakesMother,
 	TripleMemoryhead,
 	Endogeny,
-
 	LostSoulUndyne,
 	LostSoulSansPapyrus,
 	LostSoulAlphys,
+	// 90 - 95
 	LostSoulTorielAsgore,
-
 	MonsterKid,
 	UndyneTheUndying,
 	GladDummy,
 	MettatonNEO,
 	Sans,
-
+	// 100, 101
 	AsgoreIntro = 100,
 	Asgore,
-
+	// 120 - 129
 	HardModeFinalFroggitAstigmatism = 120,
 	HardModeFinalFroggitMigospel,
 	HardModeParsnik,
@@ -1087,16 +1080,18 @@ enum BattleGroup
 	HardModeWhimsalotParsnik,
 	HardModeMoldessaMigospel,
 	HardModeParsnikMigospel,
+	// 130 - 134
 	HardModeDoubleParsnik,
 	HardModeParsnikAstigmatism, // UNUSED
 	HardModeDoubleAstigmatism,
 	HardModeAstigmatismMigospelMoldessa,
 	HardModeWhimsalotParsnikMoldessa, // UNUSED
-
+	// 135
 	Glyde = 135,
+	// 140, 141
 	SoSorry = 140,
 	MadMewMew,
-
+	// 255, 256
 	Asriel = 255,
 	AsrielFinal
 }
