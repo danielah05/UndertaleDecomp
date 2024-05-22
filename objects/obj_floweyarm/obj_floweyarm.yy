@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Common",
-    "path":"folders/Objects/Battle/Omega Flowey/Common.yy",
+    "path":"folders/Objects/Battle/Characters/Omega Flowey/Common.yy",
   },
   "parentObjectId":{
     "name":"obj_floweybodyparent",

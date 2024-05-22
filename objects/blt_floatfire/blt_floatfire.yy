@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Shared Bullets",
-    "path":"folders/Objects/Battle/Dreamurr/Shared Bullets.yy",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Shared Bullets.yy",
   },
   "parentObjectId":{
     "name":"blt_parent",

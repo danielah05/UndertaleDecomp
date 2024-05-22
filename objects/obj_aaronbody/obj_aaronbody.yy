@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Aaron",
-    "path":"folders/Objects/Battle/Aaron.yy",
+    "path":"folders/Objects/Battle/Characters/Aaron.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

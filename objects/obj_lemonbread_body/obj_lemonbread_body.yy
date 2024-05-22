@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Lemonbread",
-    "path":"folders/Objects/Battle/Lemonbread.yy",
+    "path":"folders/Objects/Battle/Characters/Lemonbread.yy",
   },
   "parentObjectId":null,
   "persistent":false,

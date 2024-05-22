@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Memoryhead",
-    "path":"folders/Objects/Battle/Memoryhead.yy",
+    "path":"folders/Objects/Battle/Characters/Memoryhead.yy",
   },
   "parentObjectId":null,
   "persistent":false,

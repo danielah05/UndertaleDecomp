@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ice cap",
-    "path":"folders/Objects/Battle/Ice cap.yy",
+    "path":"folders/Objects/Battle/Characters/Ice cap.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

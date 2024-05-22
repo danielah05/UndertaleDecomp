@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Muffet",
-    "path":"folders/Objects/Battle/Muffet.yy",
+    "path":"folders/Objects/Battle/Characters/Muffet.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

@@ -18,7 +18,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Lesser Dog",
-    "path":"folders/Objects/Battle/Lesser Dog.yy",
+    "path":"folders/Objects/Battle/Characters/Lesser Dog.yy",
   },
   "parentObjectId":{
     "name":"obj_dogeparent",

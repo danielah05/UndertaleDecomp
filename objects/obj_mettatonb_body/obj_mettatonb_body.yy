@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Mettaton",
-    "path":"folders/Objects/Battle/Mettaton.yy",
+    "path":"folders/Objects/Battle/Characters/Mettaton.yy",
   },
   "parentObjectId":null,
   "persistent":false,

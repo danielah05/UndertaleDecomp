@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Gytrot",
-    "path":"folders/Objects/Battle/Gytrot.yy",
+    "path":"folders/Objects/Battle/Characters/Gytrot.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Undyne",
-    "path":"folders/Objects/Battle/Undyne.yy",
+    "path":"folders/Objects/Battle/Characters/Undyne.yy",
   },
   "parentObjectId":null,
   "persistent":false,

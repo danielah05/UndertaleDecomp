@@ -14,8 +14,8 @@
   "name":"obj_megaflybullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"unsorted",
+    "path":"folders/Objects/unsorted.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

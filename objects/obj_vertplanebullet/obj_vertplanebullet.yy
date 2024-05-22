@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Tsunderplane",
-    "path":"folders/Objects/Battle/Tsunderplane.yy",
+    "path":"folders/Objects/Battle/Characters/Tsunderplane.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

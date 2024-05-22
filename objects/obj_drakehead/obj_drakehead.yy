@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Snowdrake",
-    "path":"folders/Objects/Battle/Snowdrake.yy",
+    "path":"folders/Objects/Battle/Characters/Snowdrake.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

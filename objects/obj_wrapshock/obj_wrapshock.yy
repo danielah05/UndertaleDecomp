@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"True Pacifist Asgore",
-    "path":"folders/Objects/Battle/True Pacifist Asgore.yy",
+    "path":"folders/Objects/Battle/Characters/True Pacifist Asgore.yy",
   },
   "parentObjectId":null,
   "persistent":false,

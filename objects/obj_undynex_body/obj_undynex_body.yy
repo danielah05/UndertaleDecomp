@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"EX",
-    "path":"folders/Objects/Battle/Undyne/EX.yy",
+    "path":"folders/Objects/Battle/Characters/Undyne/EX.yy",
   },
   "parentObjectId":null,
   "persistent":false,

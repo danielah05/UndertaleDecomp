@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Vulkin",
-    "path":"folders/Objects/Battle/Vulkin.yy",
+    "path":"folders/Objects/Battle/Characters/Vulkin.yy",
   },
   "parentObjectId":null,
   "persistent":false,

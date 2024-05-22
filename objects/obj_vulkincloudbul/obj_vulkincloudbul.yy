@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Vulkin",
-    "path":"folders/Objects/Battle/Vulkin.yy",
+    "path":"folders/Objects/Battle/Characters/Vulkin.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

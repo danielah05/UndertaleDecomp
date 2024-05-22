@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Asgore",
-    "path":"folders/Objects/Battle/Dreamurr/Asgore.yy",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asgore.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Astigmatism",
-    "path":"folders/Objects/Battle/Astigmatism.yy",
+    "path":"folders/Objects/Battle/Characters/Astigmatism.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",
