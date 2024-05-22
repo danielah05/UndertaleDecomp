@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Madjick",
-    "path":"folders/Objects/Battle/Madjick.yy",
+    "path":"folders/Objects/Battle/Characters/Madjick.yy",
   },
   "parentObjectId":null,
   "persistent":false,

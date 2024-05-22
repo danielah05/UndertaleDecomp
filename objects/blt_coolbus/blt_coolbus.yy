@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Papyrus",
-    "path":"folders/Objects/Battle/Papyrus.yy",
+    "path":"folders/Objects/Battle/Characters/Papyrus.yy",
   },
   "parentObjectId":{
     "name":"blt_sizebone",

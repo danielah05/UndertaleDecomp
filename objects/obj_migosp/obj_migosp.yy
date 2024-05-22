@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Migosp",
-    "path":"folders/Objects/Battle/Migosp.yy",
+    "path":"folders/Objects/Battle/Characters/Migosp.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

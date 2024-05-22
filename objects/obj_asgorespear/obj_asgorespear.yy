@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Bullets",
-    "path":"folders/Objects/Battle/Dreamurr/Asgore/Bullets.yy",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asgore/Bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

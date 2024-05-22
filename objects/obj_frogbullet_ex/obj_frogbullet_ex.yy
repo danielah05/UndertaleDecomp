@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Final Froggit",
-    "path":"folders/Objects/Battle/Final Froggit.yy",
+    "path":"folders/Objects/Battle/Characters/Final Froggit.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

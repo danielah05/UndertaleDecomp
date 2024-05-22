@@ -12,8 +12,8 @@
   "name":"obj_strangeman_butterfly",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"unsorted",
+    "path":"folders/Objects/unsorted.yy",
   },
   "parentObjectId":{
     "name":"obj_amalgambul_parent",

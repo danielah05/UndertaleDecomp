@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Asriel",
-    "path":"folders/Objects/Battle/Dreamurr/Asriel.yy",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asriel.yy",
   },
   "parentObjectId":null,
   "persistent":false,

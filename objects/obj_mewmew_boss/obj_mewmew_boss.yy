@@ -19,7 +19,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Mad Mew Mew",
-    "path":"folders/Objects/Battle/Mad Mew Mew.yy",
+    "path":"folders/Objects/Battle/Characters/Mad Mew Mew.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

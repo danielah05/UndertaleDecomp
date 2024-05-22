@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Doggo",
-    "path":"folders/Objects/Battle/Doggo.yy",
+    "path":"folders/Objects/Battle/Characters/Doggo.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

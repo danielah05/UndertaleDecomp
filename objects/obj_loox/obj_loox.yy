@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Loox",
-    "path":"folders/Objects/Battle/Loox.yy",
+    "path":"folders/Objects/Battle/Characters/Loox.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"NEO",
-    "path":"folders/Objects/Battle/Mettaton/NEO.yy",
+    "path":"folders/Objects/Battle/Characters/Mettaton/NEO.yy",
   },
   "parentObjectId":null,
   "persistent":false,

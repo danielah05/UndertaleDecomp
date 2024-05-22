@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"EX",
-    "path":"folders/Objects/Battle/Mettaton/EX.yy",
+    "path":"folders/Objects/Battle/Characters/Mettaton/EX.yy",
   },
   "parentObjectId":{
     "name":"obj_metttestbulletparent",

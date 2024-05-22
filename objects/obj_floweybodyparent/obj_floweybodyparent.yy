@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Flowey",
-    "path":"folders/Objects/Battle/Flowey.yy",
+    "path":"folders/Objects/Battle/Characters/Flowey.yy",
   },
   "parentObjectId":null,
   "persistent":false,

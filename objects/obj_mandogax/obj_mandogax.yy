@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Dog Guards",
-    "path":"folders/Objects/Battle/Dog Guards.yy",
+    "path":"folders/Objects/Battle/Characters/Dog Guards.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

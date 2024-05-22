@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Finale",
-    "path":"folders/Objects/Battle/Omega Flowey/Finale.yy",
+    "path":"folders/Objects/Battle/Characters/Omega Flowey/Finale.yy",
   },
   "parentObjectId":null,
   "persistent":false,

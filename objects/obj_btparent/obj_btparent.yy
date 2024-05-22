@@ -8,8 +8,8 @@
   "name":"obj_btparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "name":"UI",
+    "path":"folders/Objects/Battle/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

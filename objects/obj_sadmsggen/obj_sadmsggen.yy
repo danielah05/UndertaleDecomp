@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Napstablook",
-    "path":"folders/Objects/Battle/Napstablook.yy",
+    "path":"folders/Objects/Battle/Characters/Napstablook.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

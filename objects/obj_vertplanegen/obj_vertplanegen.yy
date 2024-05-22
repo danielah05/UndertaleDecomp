@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Tsunderplane",
-    "path":"folders/Objects/Battle/Tsunderplane.yy",
+    "path":"folders/Objects/Battle/Characters/Tsunderplane.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

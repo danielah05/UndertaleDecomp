@@ -16,8 +16,8 @@
   "name":"obj_bluelaser_o",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"unsorted",
+    "path":"folders/Objects/unsorted.yy",
   },
   "parentObjectId":null,
   "persistent":false,

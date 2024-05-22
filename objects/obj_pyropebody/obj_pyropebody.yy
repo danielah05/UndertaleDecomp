@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Pyrope",
-    "path":"folders/Objects/Battle/Pyrope.yy",
+    "path":"folders/Objects/Battle/Characters/Pyrope.yy",
   },
   "parentObjectId":null,
   "persistent":false,

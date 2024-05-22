@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Whimsun",
-    "path":"folders/Objects/Battle/Whimsun.yy",
+    "path":"folders/Objects/Battle/Characters/Whimsun.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

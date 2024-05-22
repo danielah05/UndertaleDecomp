@@ -23,7 +23,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Papyrus",
-    "path":"folders/Objects/Battle/Papyrus.yy",
+    "path":"folders/Objects/Battle/Characters/Papyrus.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",
