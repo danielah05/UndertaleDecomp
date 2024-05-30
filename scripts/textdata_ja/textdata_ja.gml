@@ -7,5 +7,5 @@ function textdata_ja()
 	if variable_global_exists("text_data_ja")
 		ds_map_destroy(global.text_data_ja);
 	// Daniela: load japanese dialog from json file
-	global.text_data_ja = scr_84_load_map_json(program_directory + "lang\\" + "lang_ja.json");
+	global.text_data_ja = scr_84_load_map_json(working_directory + "lang\\" + "lang_ja.json");
 }
