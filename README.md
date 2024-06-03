@@ -6,7 +6,7 @@ A decompilation of the latest version of UNDERTALE for the Nintendo Switch porte
 ## Recommended Branches
 Branch | Description
 --------|--------
-[main](https://github.com/danielah05/UndertaleDecomp/tree/main) | Main branch with many enhancements and bug fixes, this is the most recommended one for a stable and improved modding/playing experience.
+[main](https://github.com/danielah05/UndertaleDecomp/tree/main) | Main branch with many enhancements and bug fixes, this is the most recommended one for a stable and improved modding/playing experience. [View a list of enhancements here!](https://github.com/danielah05/UndertaleDecomp/blob/main/ENHANCEMENTS.md)
 [vanilla](https://github.com/danielah05/UndertaleDecomp/tree/vanilla) | Version of the main branch but with any of the decomp exclusive features and enhancements removed. Recommended for a as vanilla as possible UNDERTALE modding experience.
 
 ### Main Contributors
