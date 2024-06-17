@@ -77,19 +77,18 @@ function wipeTrophyData()
 
 function wipeSaveData()
 {
-	// Daniela: im sure there probably is a easier way to do this but im lazy and this works fine enough
-	if (file_exists("file0"))
-		file_delete("file0");
-	if (file_exists("file8"))
-		file_delete("file8");
-	if (file_exists("file9"))
-		file_delete("file9");
-	if (file_exists("undertale.ini"))
-		file_delete("undertale.ini");
-	if (file_exists("system_information_962"))
-		file_delete("system_information_962");
-	if (file_exists("system_information_963"))
-		file_delete("system_information_963");
+	var i = 0;
+	repeat(9)
+	{
+		var file = $"file{i}";
+		var system_information = $"system_information_96{i++}";
+		
+		if (file_exists(file))
+			file_delete(file);
+		if (file_delete(system_information))
+			file_delete(system_information);
+			
+	}
 		
 	SCR_GAMESTART();
 }
@@ -105,8 +104,7 @@ function draw_checkbox(_x, _y, _option, _catbox_bounds, _text_color)
 	
 	var text_width = string_width("[X]");
 	
-	
-	draw_text((_catbox_bounds[0] + _catbox_bounds[2]) - (SETTINGS_MENU_PAD * 2) - text_width, _y, (_option.value ? "[X]" : "[  ]"))
+	draw_text((_catbox_bounds[0] + _catbox_bounds[2]) - (SETTINGS_MENU_PAD * 2) - text_width, _y, (_option.value ? "[X]" : "[  ]"));
 }
 
 function draw_slider(_x, _y, _option, _catbox_bounds, _text_color) 
