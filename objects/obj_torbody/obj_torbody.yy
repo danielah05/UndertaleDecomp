@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Toriel",
-    "path":"folders/Objects/Battle/Dreamurr/Toriel.yy",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Toriel.yy",
   },
   "parentObjectId":{
     "name":"obj_face",

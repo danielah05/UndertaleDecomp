@@ -1,5 +1,5 @@
-// Script used in Tem Shop to check how much Gold you get from selling a specific Item.
-
+/// @func	scr_itemvalue()
+/// @desc	Script used in Tem Shop to check how much Gold you get from selling a specific Item
 function scr_itemvalue()
 {
 	for (i = 0; i < InventorySize; i += 1)

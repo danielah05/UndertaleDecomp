@@ -287,6 +287,6 @@ if (con == 58)
     obj_mainchara.cutscene = false
     global.interact = 0
     con = 59
-    FL_SansDated2 = 2
+    FL_SansDated2 = SansDated2.DateFinished
     instance_destroy()
 }

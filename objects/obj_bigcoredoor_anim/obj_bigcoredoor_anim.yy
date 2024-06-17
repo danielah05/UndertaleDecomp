@@ -8,8 +8,8 @@
   "name":"obj_bigcoredoor_anim",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"unsorted",
+    "path":"folders/Objects/unsorted.yy",
   },
   "parentObjectId":{
     "name":"obj_coreobj_parent",

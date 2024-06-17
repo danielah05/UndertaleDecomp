@@ -181,13 +181,13 @@ if (con == 40)
     global.interact = 1
     if (buffer < 1)
         global.interact = 0
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     if (obj_mainchara.x != get_mcx || (obj_mainchara.y != get_mcy && buffer < 1))
     {
         if (alarm[6] >= 1)
             alarm[6] = -1
         FL_ExperienceCosmicGarbage = 1
-        FL_UnknownBoolean17 = false
+        FL_MenuDisabled = false
         global.interact = 1
         obj_mainchara.x = mc.x
         obj_mainchara.y = mc.y

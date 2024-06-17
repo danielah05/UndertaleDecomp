@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Greater Dog",
-    "path":"folders/Objects/Battle/Greater Dog.yy",
+    "path":"folders/Objects/Battle/Characters/Greater Dog.yy",
   },
   "parentObjectId":{
     "name":"blt_parent",

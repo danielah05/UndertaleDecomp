@@ -390,7 +390,7 @@ if (global.interact == 5)
                         if (!instance_exists(obj_undyne_friendc))
                         {
                             scr_writetext(0, scr_gettext("item_drop_56"), 0, 0) //* (Despite what seems like&  common sense^1, you threw&  away the letter.)/%%
-                            FL_UndynesLetterStatus = 1
+                            FL_UndynesLetterStatus = UndynesLetterStatus.Dropped
                         }
                         else
                         {

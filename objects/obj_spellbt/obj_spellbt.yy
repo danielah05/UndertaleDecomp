@@ -8,8 +8,8 @@
   "name":"obj_spellbt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "name":"UI",
+    "path":"folders/Objects/Battle/UI.yy",
   },
   "parentObjectId":{
     "name":"obj_btparent",

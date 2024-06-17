@@ -13,7 +13,7 @@
   "name":"mus_snowwalk",
   "parent":{
     "name":"Snowdin",
-    "path":"folders/Sounds/Music/Snowdin.yy",
+    "path":"folders/Sounds/SoundFX/Overworld/Snowdin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

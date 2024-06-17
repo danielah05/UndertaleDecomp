@@ -1,3 +1,5 @@
+/// @func	scr_papcall()
+/// @desc	Script used to grab Papyrus phone call dialog depending on the room.
 function scr_papcall()
 {
 	global.typer = 5
@@ -26,7 +28,7 @@ function scr_papcall()
 	            global.msg[3] = scr_gettext("scr_papcall_25")
 	        }
 	        break
-	    case 45:
+	    case room_tundra2:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_31")
 	        global.msg[3] = scr_gettext("scr_papcall_32")
@@ -39,7 +41,7 @@ function scr_papcall()
 	            global.msg[3] = scr_gettext("scr_papcall_40")
 	        }
 	        break
-	    case 46:
+	    case room_tundra3:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_46")
 	        global.msg[3] = scr_gettext("scr_papcall_47")
@@ -49,7 +51,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_52")
 	        }
 	        break
-	    case 47:
+	    case room_tundra3A:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_58")
 	        global.msg[3] = scr_gettext("scr_papcall_59")
@@ -59,7 +61,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_65")
 	        }
 	        break
-	    case 48:
+	    case room_tundra4:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_71")
 	        global.msg[3] = scr_gettext("scr_papcall_72")
@@ -70,7 +72,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_79")
 	        }
 	        break
-	    case 49:
+	    case room_tundra5:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_85")
 	        global.msg[3] = scr_gettext("scr_papcall_86")
@@ -81,7 +83,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_93")
 	        }
 	        break
-	    case 50:
+	    case room_tundra6:
 	        scr_papface(1, 1)
 	        global.msg[2] = scr_gettext("scr_papcall_100")
 	        global.msg[3] = scr_gettext("scr_papcall_101")
@@ -92,7 +94,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_108")
 	        }
 	        break
-	    case 51:
+	    case room_tundra6A:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_114")
 	        global.msg[3] = scr_gettext("scr_papcall_115")
@@ -102,7 +104,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_121")
 	        }
 	        break
-	    case 52:
+	    case room_tundra7:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_127") //OH HO^1!&THE ELECTRIC MAZE^1!&THAT SURE WAS FUN!/
 	        global.msg[3] = scr_gettext("scr_papcall_128") //\\E3EXCEPT FOR WHEN&I GOT SHOCKED./%%
@@ -119,7 +121,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_141") //DISAPPOINTING^1, BUT&I TURNED OFF THE&ELECTRICITY./%%
 	        }
 	        break
-	    case 53:
+	    case room_tundra8:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_149")
 	        global.msg[3] = scr_gettext("scr_papcall_150")
@@ -132,7 +134,7 @@ function scr_papcall()
 	            global.msg[3] = scr_gettext("scr_papcall_158")
 	        }
 	        break
-	    case 54:
+	    case room_tundra8A:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_166")
 	        global.msg[3] = scr_gettext("scr_papcall_167")
@@ -145,7 +147,7 @@ function scr_papcall()
 	            global.msg[4] = scr_gettext("scr_papcall_175")
 	        }
 	        break
-	    case 55:
+	    case room_tundra9:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_182")
 	        global.msg[3] = scr_gettext("scr_papcall_183")
@@ -155,7 +157,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_188")
 	        }
 	        break
-	    case 56:
+	    case room_tundra_spaghetti:
 	        scr_papface(1, 2)
 	        global.msg[2] = scr_gettext("scr_papcall_195")
 	        global.msg[3] = scr_gettext("scr_papcall_196")
@@ -175,7 +177,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_211")
 	        }
 	        break
-	    case 57:
+	    case room_tundra_snowpuzz:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_218")
 	        global.msg[3] = scr_gettext("scr_papcall_219")
@@ -189,7 +191,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_228")
 	        }
 	        break
-	    case 58:
+	    case room_tundra_xoxosmall:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_234")
 	        global.msg[3] = scr_gettext("scr_papcall_235")
@@ -200,7 +202,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_241")
 	        }
 	        break
-	    case 59:
+	    case room_tundra_xoxopuzz:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_248")
 	        global.msg[3] = scr_gettext("scr_papcall_249")
@@ -211,7 +213,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_255")
 	        }
 	        break
-	    case 60:
+	    case room_tundra_randoblock:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_262")
 	        global.msg[3] = scr_gettext("scr_papcall_263")
@@ -225,7 +227,7 @@ function scr_papcall()
 	            global.msg[3] = scr_gettext("scr_papcall_272")
 	        }
 	        break
-	    case 61:
+	    case room_tundra_lesserdog:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_278")
 	        global.msg[3] = scr_gettext("scr_papcall_279")
@@ -238,7 +240,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_287")
 	        }
 	        break
-	    case 62:
+	    case room_tundra_icehole:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_293")
 	        global.msg[3] = scr_gettext("scr_papcall_294")
@@ -249,7 +251,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_300")
 	        }
 	        break
-	    case 63:
+	    case room_tundra_iceentrance:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_306")
 	        global.msg[3] = scr_gettext("scr_papcall_307")
@@ -261,7 +263,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_314")
 	        }
 	        break
-	    case 64:
+	    case room_tundra_iceexit_new:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_321")
 	        global.msg[3] = scr_gettext("scr_papcall_322")
@@ -273,7 +275,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_329")
 	        }
 	        break
-	    case 65:
+	    case room_tundra_iceexit:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_336")
 	        global.msg[3] = scr_gettext("scr_papcall_337")
@@ -284,7 +286,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_343")
 	        }
 	        break
-	    case 66:
+	    case room_tundra_poffzone:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_349")
 	        global.msg[3] = scr_gettext("scr_papcall_350")
@@ -296,7 +298,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_357")
 	        }
 	        break
-	    case 67:
+	    case room_tundra_dangerbridge:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_363")
 	        global.msg[3] = scr_gettext("scr_papcall_364")
@@ -307,7 +309,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_370")
 	        }
 	        break
-	    case 68:
+	    case room_tundra_town:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_376")
 	        global.msg[3] = scr_gettext("scr_papcall_377")
@@ -317,7 +319,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_382")
 	        }
 	        break
-	    case 69:
+	    case room_tundra_town2:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_389")
 	        global.msg[3] = scr_gettext("scr_papcall_390")
@@ -341,7 +343,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_410")
 	        }
 	        break
-	    case 71:
+	    case room_tundra_inn:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_416")
 	        global.msg[3] = scr_gettext("scr_papcall_417")
@@ -367,7 +369,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 73:
+	    case room_tundra_grillby:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_448")
 	        global.msg[3] = scr_gettext("scr_papcall_449")
@@ -398,7 +400,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 74:
+	    case room_tundra_library:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_487")
 	        global.msg[3] = scr_gettext("scr_papcall_488")
@@ -421,7 +423,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 77:
+	    case room_tundra_paproom:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_516")
 	        global.msg[3] = scr_gettext("scr_papcall_517")
@@ -452,7 +454,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 76:
+	    case room_tundra_sanshouse:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_554")
 	        global.msg[3] = scr_gettext("scr_papcall_555")
@@ -465,7 +467,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_563")
 	        }
 	        break
-	    case 81:
+	    case room_fogroom:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_572")
 	        global.msg[3] = scr_gettext("scr_papcall_573")
@@ -497,7 +499,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 82:
+	    case room_water1:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_610")
 	        global.msg[3] = scr_gettext("scr_papcall_611")
@@ -532,7 +534,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 83:
+	    case room_water2:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_660")
 	        global.msg[3] = scr_gettext("scr_papcall_661")
@@ -559,7 +561,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 84:
+	    case room_water3:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_693")
 	        global.msg[3] = scr_gettext("scr_papcall_694")
@@ -588,7 +590,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_723")
 	        }
 	        break
-	    case 85:
+	    case room_water3A:
 	        scr_papface(1, 5)
 	        global.msg[2] = scr_gettext("scr_papcall_731")
 	        global.msg[3] = scr_gettext("scr_papcall_732")
@@ -616,7 +618,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_758")
 	        }
 	        break
-	    case 86:
+	    case room_water4:
 	        scr_papface(1, 5)
 	        global.msg[2] = scr_gettext("scr_papcall_766")
 	        global.msg[3] = scr_gettext("scr_papcall_767")
@@ -644,7 +646,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_793")
 	        }
 	        break
-	    case 87:
+	    case room_water_bridgepuzz1:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_801")
 	        global.msg[3] = scr_gettext("scr_papcall_802")
@@ -667,7 +669,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 88:
+	    case room_water5:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_830")
 	        global.msg[3] = scr_gettext("scr_papcall_831")
@@ -691,7 +693,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 89:
+	    case room_water5A:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_861")
 	        if (u == 1)
@@ -700,7 +702,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_866")
 	        }
 	        break
-	    case 90:
+	    case room_water6:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_876")
 	        global.msg[3] = scr_gettext("scr_papcall_877")
@@ -730,7 +732,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 91:
+	    case room_water7:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_915")
 	        global.msg[3] = scr_gettext("scr_papcall_916")
@@ -759,7 +761,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_943")
 	        }
 	        break
-	    case 92:
+	    case room_water8:
 	        scr_papface(1, 2)
 	        global.msg[2] = scr_gettext("scr_papcall_950")
 	        global.msg[3] = scr_gettext("scr_papcall_951")
@@ -785,7 +787,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_975")
 	        }
 	        break
-	    case 93:
+	    case room_water9:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_982")
 	        global.msg[3] = scr_gettext("scr_papcall_983")
@@ -811,7 +813,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_1007")
 	        }
 	        break
-	    case 94:
+	    case room_water_savepoint1:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1014")
 	        if (u == 1)
@@ -820,7 +822,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_1019")
 	        }
 	        break
-	    case 95:
+	    case room_water11:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1029")
 	        global.msg[3] = scr_gettext("scr_papcall_1030")
@@ -853,7 +855,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 96:
+	    case room_water_nicecream:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1071")
 	        global.msg[3] = scr_gettext("scr_papcall_1072")
@@ -883,7 +885,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 98:
+	    case room_water_shoe:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1113")
 	        global.msg[3] = scr_gettext("scr_papcall_1114")
@@ -908,7 +910,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 99:
+	    case room_water_bird:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1146")
 	        global.msg[3] = scr_gettext("scr_papcall_1147")
@@ -934,7 +936,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 100:
+	    case room_water_onionsan:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1180")
 	        if (FL_PapyrusCalledAlready > 0)
@@ -953,7 +955,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 101:
+	    case room_water14:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1206")
 	        global.msg[3] = scr_gettext("scr_papcall_1207")
@@ -977,7 +979,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 102:
+	    case room_water_piano:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1239")
 	        global.msg[3] = scr_gettext("scr_papcall_1240")
@@ -999,7 +1001,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 103:
+	    case room_water_dogroom:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1269")
 	        global.msg[3] = scr_gettext("scr_papcall_1270")
@@ -1023,7 +1025,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 104:
+	    case room_water_statue:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1308")
 	        if (FL_MusicStatueOn == 1)
@@ -1045,7 +1047,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 105:
+	    case room_water_prewaterfall:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1336")
 	        global.msg[3] = scr_gettext("scr_papcall_1337")
@@ -1067,7 +1069,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 106:
+	    case room_water_waterfall:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1365")
 	        global.msg[3] = scr_gettext("scr_papcall_1366")
@@ -1095,7 +1097,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 107:
+	    case room_water_waterfall2:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1402")
 	        global.msg[3] = scr_gettext("scr_papcall_1403")
@@ -1117,7 +1119,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 108:
+	    case room_water_waterfall3:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1431")
 	        if (FL_PapyrusCalledAlready > 0)
@@ -1137,7 +1139,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 109:
+	    case room_water_waterfall4:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1458")
 	        if (FL_PapyrusCalledAlready > 0)
@@ -1159,7 +1161,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 113:
+	    case room_water_trashzone1:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1488")
 	        global.msg[3] = scr_gettext("scr_papcall_1489")
@@ -1186,7 +1188,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_1514")
 	        }
 	        break
-	    case 114:
+	    case room_water_trashsavepoint:
 	        scr_papface(1, 2)
 	        global.msg[2] = scr_gettext("scr_papcall_1522")
 	        global.msg[3] = scr_gettext("scr_papcall_1523")
@@ -1222,7 +1224,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_1558")
 	        }
 	        break
-	    case 115:
+	    case room_water_trashzone2:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1566")
 	        global.msg[3] = scr_gettext("scr_papcall_1567")
@@ -1253,7 +1255,7 @@ function scr_papcall()
 	            global.msg[1] = scr_gettext("scr_papcall_1597")
 	        }
 	        break
-	    case 116:
+	    case room_water_friendlyhub:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1604")
 	        global.msg[3] = scr_gettext("scr_papcall_1605")
@@ -1284,7 +1286,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 117:
+	    case room_water_undyneyard:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1641")
 	        global.msg[3] = scr_gettext("scr_papcall_1642")
@@ -1301,7 +1303,7 @@ function scr_papcall()
 	        }
 	        if (u == 1)
 	        {
-	            if (FL_UndyneDateStatus < 5)
+	            if (FL_UndyneDateStatus < UndyneDateStatus.DateFinished)
 	            {
 	                scr_papface(1, 0)
 	                global.msg[2] = scr_gettext("scr_papcall_1662")
@@ -1345,7 +1347,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 119:
+	    case room_water_blookyard:
 	        scr_papface(1, 4)
 	        global.msg[2] = scr_gettext("scr_papcall_1714")
 	        global.msg[3] = scr_gettext("scr_papcall_1715")
@@ -1369,7 +1371,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 120:
+	    case room_water_blookhouse:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1745")
 	        global.msg[3] = scr_gettext("scr_papcall_1746")
@@ -1397,7 +1399,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 121:
+	    case room_water_hapstablook:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1781")
 	        global.msg[3] = scr_gettext("scr_papcall_1782")
@@ -1430,7 +1432,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 122:
+	    case room_water_farm:
 	        scr_papface(1, 2)
 	        global.msg[2] = scr_gettext("scr_papcall_1825")
 	        global.msg[3] = scr_gettext("scr_papcall_1826")
@@ -1457,7 +1459,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 124:
+	    case room_water_shop:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1859")
 	        global.msg[3] = scr_gettext("scr_papcall_1860")
@@ -1484,7 +1486,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 125:
+	    case room_water_dock:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_1892")
 	        if (FL_PapyrusCalledAlready > 0)
@@ -1505,7 +1507,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 126:
+	    case room_water15:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1919")
 	        global.msg[3] = scr_gettext("scr_papcall_1920")
@@ -1528,7 +1530,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 127:
+	    case room_water16:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1948")
 	        global.msg[3] = scr_gettext("scr_papcall_1949")
@@ -1551,7 +1553,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 129:
+	    case room_water17:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_1977")
 	        global.msg[3] = scr_gettext("scr_papcall_1978")
@@ -1574,7 +1576,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 130:
+	    case room_water18:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2007")
 	        global.msg[3] = scr_gettext("scr_papcall_2008")
@@ -1609,7 +1611,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 131:
+	    case room_water19:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2051")
 	        global.msg[3] = scr_gettext("scr_papcall_2052")
@@ -1627,7 +1629,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 132:
+	    case room_water20:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2078")
 	        global.msg[3] = scr_gettext("scr_papcall_2079")
@@ -1674,7 +1676,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 133:
+	    case room_water21:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2136")
 	        global.msg[3] = scr_gettext("scr_papcall_2137")
@@ -1712,7 +1714,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 134:
+	    case room_water_undynefinal:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2185")
 	        global.msg[3] = scr_gettext("scr_papcall_2186")
@@ -1747,7 +1749,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 136:
+	    case room_water_undynefinal3:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2234")
 	        global.msg[3] = scr_gettext("scr_papcall_2235")
@@ -1785,7 +1787,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 137:
+	    case room_fire1:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2285")
 	        global.msg[3] = scr_gettext("scr_papcall_2286")
@@ -1823,7 +1825,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 138:
+	    case room_fire2:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2339")
 	        global.msg[3] = scr_gettext("scr_papcall_2340")
@@ -1850,7 +1852,7 @@ function scr_papcall()
 	        if (global.plot < 122 || FL_UndyneStatus == UndyneStatus.Killed)
 	            noresponse = 1
 	        break
-	    case 141:
+	    case room_fire_lab1:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2377")
 	        global.msg[3] = scr_gettext("scr_papcall_2378")
@@ -1880,7 +1882,7 @@ function scr_papcall()
 	        if (global.plot <= 125)
 	            global.msg[0] = scr_gettext("scr_papcall_2408")
 	        break
-	    case 142:
+	    case room_fire_lab2:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2416")
 	        global.msg[3] = scr_gettext("scr_papcall_2417")
@@ -1903,7 +1905,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 143:
+	    case room_fire3:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2445")
 	        global.msg[3] = scr_gettext("scr_papcall_2446")
@@ -1931,7 +1933,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 140:
+	    case room_fire_dock:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2479")
 	        global.msg[3] = scr_gettext("scr_papcall_2480")
@@ -1958,7 +1960,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 144:
+	    case room_fire5:
 	        scr_papface(1, 5)
 	        global.msg[2] = scr_gettext("scr_papcall_2512")
 	        global.msg[3] = scr_gettext("scr_papcall_2513")
@@ -1985,7 +1987,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 145:
+	    case room_fire6:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2546")
 	        global.msg[3] = scr_gettext("scr_papcall_2547")
@@ -2008,7 +2010,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 147:
+	    case room_fire_lasers1:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2576")
 	        global.msg[3] = scr_gettext("scr_papcall_2577")
@@ -2050,7 +2052,7 @@ function scr_papcall()
 	            FL_MadUndyneCall = 1
 	        }
 	        break
-	    case 149:
+	    case room_fire8:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2637")
 	        global.msg[3] = scr_gettext("scr_papcall_2638")
@@ -2076,7 +2078,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 151:
+	    case room_fire9:
 	        scr_papface(1, 1)
 	        global.msg[2] = scr_gettext("scr_papcall_2671")
 	        global.msg[3] = scr_gettext("scr_papcall_2672")
@@ -2095,7 +2097,7 @@ function scr_papcall()
 	            global.msg[6] = scr_gettext("scr_papcall_2686")
 	        }
 	        break
-	    case 153:
+	    case room_fire_turn:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2697")
 	        global.msg[3] = scr_gettext("scr_papcall_2698")
@@ -2133,7 +2135,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 158:
+	    case room_fire_hotdog:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2742")
 	        global.msg[3] = scr_gettext("scr_papcall_2743")
@@ -2174,7 +2176,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 162:
+	    case room_fire10:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2796")
 	        global.msg[3] = scr_gettext("scr_papcall_2797")
@@ -2209,7 +2211,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 163:
+	    case room_fire_rpuzzle:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2836")
 	        global.msg[3] = scr_gettext("scr_papcall_2837")
@@ -2249,7 +2251,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 165:
+	    case room_fire_boysnightout:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2883")
 	        global.msg[3] = scr_gettext("scr_papcall_2884")
@@ -2273,7 +2275,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 166:
+	    case room_fire_newsreport:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_2912")
 	        global.msg[3] = scr_gettext("scr_papcall_2913")
@@ -2300,7 +2302,7 @@ function scr_papcall()
 	        if (global.plot <= 160)
 	            global.msg[0] = scr_gettext("scr_papcall_2940")
 	        break
-	    case 167:
+	    case room_fire_coreview2:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2948")
 	        global.msg[3] = scr_gettext("scr_papcall_2949")
@@ -2323,7 +2325,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 170:
+	    case room_fire_spidershop:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2980")
 	        global.msg[3] = scr_gettext("scr_papcall_2981")
@@ -2336,7 +2338,7 @@ function scr_papcall()
 	            global.msg[2] = scr_gettext("scr_papcall_2989")
 	        }
 	        break
-	    case 171:
+	    case room_fire_walkandbranch2:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_2997")
 	        global.msg[3] = scr_gettext("scr_papcall_2998")
@@ -2363,7 +2365,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 172:
+	    case room_fire_conveyorlaser:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3030")
 	        global.msg[3] = scr_gettext("scr_papcall_3031")
@@ -2390,7 +2392,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 164:
+	    case room_fire_mewmew2:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3063")
 	        global.msg[3] = scr_gettext("scr_papcall_3064")
@@ -2422,7 +2424,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 179:
+	    case room_fire_operatest:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3102")
 	        global.msg[3] = scr_gettext("scr_papcall_3103")
@@ -2453,7 +2455,7 @@ function scr_papcall()
 	        if (global.plot <= 166)
 	            global.msg[0] = scr_gettext("scr_papcall_3135")
 	        break
-	    case 181:
+	    case room_fire_hotelfront_1:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3144")
 	        global.msg[3] = scr_gettext("scr_papcall_3145")
@@ -2491,7 +2493,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 183:
+	    case room_fire_hotellobby:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3187")
 	        global.msg[3] = scr_gettext("scr_papcall_3188")
@@ -2520,7 +2522,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 184:
+	    case room_fire_restaurant:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3224")
 	        global.msg[3] = scr_gettext("scr_papcall_3225")
@@ -2549,7 +2551,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 185:
+	    case room_fire_hoteldoors:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3261")
 	        global.msg[3] = scr_gettext("scr_papcall_3262")
@@ -2603,7 +2605,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 186:
+	    case room_fire_hotelbed:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3320")
 	        global.msg[3] = scr_gettext("scr_papcall_3321")
@@ -2642,7 +2644,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 214:
+	    case room_fire_elevator_l1:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3364")
 	        global.msg[3] = scr_gettext("scr_papcall_3365")
@@ -2673,7 +2675,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 156:
+	    case room_fire_elevator_r1:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3401")
 	        global.msg[3] = scr_gettext("scr_papcall_3402")
@@ -2704,7 +2706,7 @@ function scr_papcall()
 	        if instance_exists(obj_gaster_follower_a)
 	            global.msg[1] = scr_gettext("scr_papcall_3434")
 	        break
-	    case 157:
+	    case room_fire_elevator_r2:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3441")
 	        global.msg[3] = scr_gettext("scr_papcall_3442")
@@ -2739,7 +2741,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 168:
+	    case room_fire_elevator_l2:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3482")
 	        global.msg[3] = scr_gettext("scr_papcall_3483")
@@ -2786,7 +2788,7 @@ function scr_papcall()
 	        if instance_exists(obj_gaster_follower_c)
 	            global.msg[1] = scr_gettext("scr_papcall_3533")
 	        break
-	    case 169:
+	    case room_fire_elevator_l3:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3540")
 	        global.msg[3] = scr_gettext("scr_papcall_3541")
@@ -2825,7 +2827,7 @@ function scr_papcall()
 	        if instance_exists(obj_gaster_follower_b)
 	            global.msg[1] = scr_gettext("scr_papcall_3582")
 	        break
-	    case 187:
+	    case room_fire_elevator_r3:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3589")
 	        global.msg[3] = scr_gettext("scr_papcall_3590")
@@ -2854,7 +2856,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 159:
+	    case room_fire_walkandbranch:
 	        scr_papface(1, 9)
 	        global.msg[2] = scr_gettext("scr_papcall_3625")
 	        global.msg[3] = scr_gettext("scr_papcall_3626")
@@ -2893,7 +2895,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 161:
+	    case room_fire_apron:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3671")
 	        global.msg[3] = scr_gettext("scr_papcall_3672")
@@ -2923,7 +2925,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 180:
+	    case room_fire_multitile:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3710")
 	        if (FL_CompletedTilePuzzle == 1)
@@ -2949,7 +2951,7 @@ function scr_papcall()
 	                global.msg[2] = scr_gettext("scr_papcall_3731")
 	        }
 	        break
-	    case 188:
+	    case room_fire_precore:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3738")
 	        global.msg[3] = scr_gettext("scr_papcall_3739")
@@ -2988,7 +2990,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 178:
+	    case room_fire_pacing:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3785")
 	        global.msg[3] = scr_gettext("scr_papcall_3786")
@@ -3031,7 +3033,7 @@ function scr_papcall()
 	            }
 	        }
 	        break
-	    case 176:
+	    case room_fire_savepoint2:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3836")
 	        global.msg[3] = scr_gettext("scr_papcall_3837")
@@ -3072,7 +3074,7 @@ function scr_papcall()
 	        if (global.plot < 165)
 	            global.msg[1] = scr_gettext("scr_papcall_3880")
 	        break
-	    case 177:
+	    case room_fire_spider:
 	        scr_papface(1, 0)
 	        global.msg[2] = scr_gettext("scr_papcall_3887")
 	        global.msg[3] = scr_gettext("scr_papcall_3888")
@@ -3105,7 +3107,7 @@ function scr_papcall()
 	        if (global.plot < 165)
 	            global.msg[1] = scr_gettext("scr_papcall_3924")
 	        break
-	    case 139:
+	    case room_fire_prelab:
 	        scr_papface(1, 3)
 	        global.msg[2] = scr_gettext("scr_papcall_3931")
 	        scr_sansface(3, 1)

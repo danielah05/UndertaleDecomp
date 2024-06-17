@@ -1,4 +1,7 @@
-function scr_npcdir()
+/// @func	scr_npcdir(direction)
+/// @desc	Set NPC facing direction
+/// @arg	{real}	direction	NPC facing direction
+function scr_npcdir(_direction)
 {
 	if (myinteract == 0)
 	{
@@ -23,7 +26,7 @@ function scr_npcdir()
 	        sprite_index = lsprite
 	    }
 	}
-	if (myinteract == (1 + argument0))
+	if (myinteract == (1 + _direction))
 	{
 	    if (facing == Direction.Down)
 	        sprite_index = dtsprite

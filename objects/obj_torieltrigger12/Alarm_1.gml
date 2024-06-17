@@ -5,7 +5,7 @@ if (flames > 3)
     caster_free(all)
     room_persistent = true
     alarm[2] = 34
-    global.battlegroup = 22
+    global.battlegroup = BattleGroup.Toriel
     instance_create(0, 0, obj_battler)
 }
 else

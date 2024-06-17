@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Glyde",
-    "path":"folders/Objects/Battle/Glyde.yy",
+    "path":"folders/Objects/Battle/Characters/Glyde.yy",
   },
   "parentObjectId":null,
   "persistent":false,

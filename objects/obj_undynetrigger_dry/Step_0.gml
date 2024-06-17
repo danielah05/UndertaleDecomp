@@ -71,7 +71,7 @@ if (con == 12)
 }
 if (con == 13)
 {
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.interact = 0
     global.plot = 122
     FL_UndyneStatus = UndyneStatus.SparedWithoutWater

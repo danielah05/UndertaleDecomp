@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Froggit",
-    "path":"folders/Objects/Battle/Froggit.yy",
+    "path":"folders/Objects/Battle/Characters/Froggit.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Moldsmal",
-    "path":"folders/Objects/Battle/Moldsmal.yy",
+    "path":"folders/Objects/Battle/Characters/Moldsmal.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

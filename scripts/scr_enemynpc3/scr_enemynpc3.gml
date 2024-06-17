@@ -1,3 +1,6 @@
+/// @func		scr_enemynpc3()
+/// @desc		Remove NPCs depending on Plot, Kill Count and FL_TruePacifist (Hotland)
+/// @returns	{bool}
 function scr_enemynpc3()
 {
 	if (global.plot > 191)

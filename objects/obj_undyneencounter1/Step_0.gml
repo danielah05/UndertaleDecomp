@@ -69,7 +69,7 @@ if (active == true)
         global.currentsong = usong
         caster_loop(global.currentsong, 1, 1)
         global.interact = 0
-        FL_UnknownBoolean17 = true
+        FL_MenuDisabled = true
         FL_ArmorUndyneSaw = global.armor
         cn = 5
     }

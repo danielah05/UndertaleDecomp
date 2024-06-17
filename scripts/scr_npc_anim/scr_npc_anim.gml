@@ -1,3 +1,5 @@
+/// @func	scr_npc_anim()
+/// @desc	Handles NPC talk animation.
 function scr_npc_anim()
 {
 	tt = 0

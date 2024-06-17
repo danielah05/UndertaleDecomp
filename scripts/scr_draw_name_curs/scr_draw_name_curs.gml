@@ -1,7 +1,11 @@
-function scr_draw_name_curs()
+/// @func	scr_draw_name_curs(name_x, name_y)
+/// @desc	Draws name in specific position in cursive.
+/// @arg	{real}	name_x	X Position
+/// @arg	{real}	name_y	Y Position
+function scr_draw_name_curs(_name_x, _name_y)
 {
-	var xx = argument0
-	var yy = argument1
+	var xx = _name_x
+	var yy = _name_y
 	if (global.language == "ja")
 	{
 	    var use_font = fnt_ja_curs

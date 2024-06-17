@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Shyren",
-    "path":"folders/Objects/Battle/Shyren.yy",
+    "path":"folders/Objects/Battle/Characters/Shyren.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

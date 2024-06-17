@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Woshua",
-    "path":"folders/Objects/Battle/Woshua.yy",
+    "path":"folders/Objects/Battle/Characters/Woshua.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

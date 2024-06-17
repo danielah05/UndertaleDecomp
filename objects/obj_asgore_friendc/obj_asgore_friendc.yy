@@ -11,8 +11,8 @@
   "name":"obj_asgore_friendc",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPC - OLD!! SORT THESR",
-    "path":"folders/Objects/Overworld/NPC - OLD!! SORT THESR.yy",
+    "name":"NPC",
+    "path":"folders/Objects/Overworld/NPC.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

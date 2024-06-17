@@ -1,6 +1,9 @@
-function scr_npc_watch()
+/// @func	scr_npc_watch(talking)
+/// @desc	Make NPC watch player.
+/// @arg	{real}	_no_talk	Disable talking animation
+function scr_npc_watch(_no_talk)
 {
-	if (argument0 == 0)
+	if (_no_talk == 0)
 	{
 	    if instance_exists(obj_mainchara)
 	    {
@@ -19,7 +22,7 @@ function scr_npc_watch()
 	            sprite_index = utsprite
 	    }
 	}
-	if (argument0 == 1)
+	if (_no_talk == 1)
 	{
 	    if instance_exists(obj_mainchara)
 	    {

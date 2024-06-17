@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"NPC",
-    "path":"folders/Sprites/Overworld/NPC.yy",
+    "name":"Gyftrot",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Gyftrot.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -17,10 +17,10 @@ if (conversation == 3 && instance_exists(obj_toroverworld4))
         global.facechoice = 1
         instance_create(0, 0, obj_dialoguer)
         conversation = 4
-        global.phone[0] = 201
-        global.phone[1] = 203
-        global.phone[2] = 204
-        global.phone[3] = 205
+        global.phone[0] = PhoneName.SayHello
+        global.phone[1] = PhoneName.AboutYourself
+        global.phone[2] = PhoneName.CallHerMom
+        global.phone[3] = PhoneName.Flirt
         global.menuchoice[2] = 1
         instance_create(160, 100, obj_stalkerflowey)
     }

@@ -2,6 +2,13 @@
 \- PLEASE NOTE THIS IS STILL A WORK IN PROGRESS! -<br>
 A decompilation of the latest version of UNDERTALE for the Nintendo Switch ported to the latest Gamemaker Studio 2 with many added toggleable enhancements<br>
 (If you are toby fox please hmu I'd love to talk :3)
+
+## Recommended Branches
+Branch | Description
+--------|--------
+[main](https://github.com/danielah05/UndertaleDecomp/tree/main) | Main branch with many enhancements and bug fixes, this is the most recommended one for a stable and improved modding/playing experience. [View a list of enhancements here!](https://github.com/danielah05/UndertaleDecomp/blob/main/ENHANCEMENTS.md)
+[vanilla](https://github.com/danielah05/UndertaleDecomp/tree/vanilla) | Version of the main branch but with any of the decomp exclusive features and enhancements removed. Recommended for a as vanilla as possible UNDERTALE modding experience.
+
 ### Main Contributors
 Vultumast - Project Lead - Code Cleanup, Bug Fixing, Some Sorting<br>
 [Daniela](https://lethallava.land/@daniela) - Main Project assistant - Code Cleanup, Bug Fixing, Most Sorting, Most Testing
@@ -36,6 +43,9 @@ Developers who own a copy of the game should then be able to import the assets f
 5. After loading the file, in UndertaleModTool, go to ``Scripts -> Run other script...`` and load the ``UndertaleDecompAssetImport.csx`` script that can be found in the ``utils\asset_importer`` folder.<br>
 6. Once the script is done running, just simply open ``NXTale.yyp`` inside of Gamemaker Studio 2 (latest!)
 
+## Dependencies (Native Linux Build)
+```libcurl-gnutls lib32-libcurl-gnutls lib32-libpulse lib32-alsa-lib lib32-openal lib32-glu lib32-openssl-1.0```
+
 ## How do I obtain the Switch data?
 This repo will not explain how to mod a Switch and how to make dumps from it. If you wanna look into that, here is a list of resources that could help:<br>
 Modding your Switch: https://nh-server.github.io/switch-guide/<br>
@@ -61,4 +71,5 @@ MrPorkchop - Made the Icon<br>
 ## PR Helpers
 [Zyle](https://zyle.dev/)<br>
 [Marioalexsan](https://github.com/Marioalexsan)<br>
-[EphraimBane](https://github.com/EphraimBane)
+[EphraimBane](https://github.com/EphraimBane)<br>
+[Nyako](https://github.com/NyakoFox)

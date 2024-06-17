@@ -1,16 +1,19 @@
-function scr_npc_halt()
+/// @func	scr_npc_halt(direction)
+/// @desc	Freeze and Set NPC facing direction
+/// @arg	{real}	direction	NPC facing direction
+function scr_npc_halt(_direction)
 {
 	image_index = 0
 	image_speed = 0
 	hspeed = 0
 	vspeed = 0
 	npcdir = 0
-	if (argument0 == "u")
+	if (_direction == "u")
 	    sprite_index = usprite
-	if (argument0 == "d")
+	if (_direction == "d")
 	    sprite_index = dsprite
-	if (argument0 == "l")
+	if (_direction == "l")
 	    sprite_index = lsprite
-	if (argument0 == "r")
+	if (_direction == "r")
 	    sprite_index = rsprite
 }

@@ -74,7 +74,7 @@ if (active == true && instance_exists(obj_mainchara))
         global.currentsong = usong
         global.interact = 0
         obj_mainchara.cutscene = false
-        FL_UnknownBoolean17 = true
+        FL_MenuDisabled = true
         cn = 5
     }
     if (cn == 5)

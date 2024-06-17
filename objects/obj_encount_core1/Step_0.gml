@@ -13,37 +13,37 @@ if (global.encounter > steps)
             global.encounter = 0
             battlegroup = floor(random(15))
             if (battlegroup <= 15)
-                global.battlegroup = 66
+                global.battlegroup = BattleGroup.FinalFroggitAstigmatism
             if (battlegroup <= 12)
-                global.battlegroup = 64
+                global.battlegroup = BattleGroup.WhimsalotFinalFroggit
             if (battlegroup <= 9)
-                global.battlegroup = 65
+                global.battlegroup = BattleGroup.WhimsalotAstigmatism
             if (battlegroup == 4 || battlegroup == 5 || battlegroup == 6)
-                global.battlegroup = 68
+                global.battlegroup = BattleGroup.KnightKnightMadjick
             if (battlegroup == 3 || battlegroup == 2)
-                global.battlegroup = 67
+                global.battlegroup = BattleGroup.FinalFroggitAstigmatismWhimsalot
             if (battlegroup == 1)
-                global.battlegroup = 60
+                global.battlegroup = BattleGroup.KnightKnight
             if (battlegroup == 0)
-                global.battlegroup = 59
+                global.battlegroup = BattleGroup.Madjick
             if (FL_DisableRandomEncounters == true || FL_TruePacifist == true)
                 instance_destroy()
             if (FL_CoreBattleProgressCounter2 == 0)
-                global.battlegroup = 62
+                global.battlegroup = BattleGroup.Astigmatism
             if (FL_CoreBattleProgressCounter2 == 1)
-                global.battlegroup = 64
+                global.battlegroup = BattleGroup.WhimsalotFinalFroggit
             if (FL_CoreBattleProgressCounter2 == 2)
-                global.battlegroup = 65
+                global.battlegroup = BattleGroup.WhimsalotAstigmatism
             if (FL_CoreBattleProgressCounter2 == 3)
-                global.battlegroup = 66
+                global.battlegroup = BattleGroup.FinalFroggitAstigmatism
             if (FL_CoreBattleProgressCounter2 == 4)
-                global.battlegroup = 68
+                global.battlegroup = BattleGroup.KnightKnightMadjick
             FL_CoreBattleProgressCounter2 += 1
             if (alldead == 2)
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
             if (alldead == 1)
             {
-                global.battlegroup = 19
+                global.battlegroup = BattleGroup.ButNobodyCame
                 alldead = 2
                 FL_CoreGenocide = 1
             }

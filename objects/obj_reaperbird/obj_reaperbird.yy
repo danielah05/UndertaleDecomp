@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Reaperbird",
-    "path":"folders/Objects/Battle/Reaperbird.yy",
+    "path":"folders/Objects/Battle/Characters/Reaperbird.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

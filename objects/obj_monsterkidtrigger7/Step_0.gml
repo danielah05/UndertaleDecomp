@@ -221,7 +221,7 @@ if (con == 34)
     undyne.sprite_index = undyne.rsprite
     global.interact = 0
     con = 35
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     doorb = instance_create((view_xview_get(0) - 20), (obj_mainchara.y + 10), obj_doorB)
     doora = instance_create(((view_xview_get(0) + view_wview_get(0)) + 20), (obj_mainchara.y + 10), obj_doorA)
     undynetimer = 0
@@ -685,7 +685,7 @@ if (con == 157 && instance_exists(OBJ_WRITER))
 if (con == 157 && instance_exists(OBJ_WRITER) == false)
 {
     mkid.sprite_index = spr_mkid_rt
-    global.battlegroup = 91
+    global.battlegroup = BattleGroup.MonsterKid
     global.seriousbattle = 1
     global.mercy = 1
     instance_create(0, 0, obj_battler)

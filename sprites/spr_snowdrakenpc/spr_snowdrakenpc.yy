@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Snowdrake",
-    "path":"folders/Sprites/Overworld/NPC/Snowdrake.yy",
+    "path":"folders/Sprites/Overworld/NPC/Snowdin/Snowdrake.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

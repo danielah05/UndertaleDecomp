@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Muffet",
-    "path":"folders/Objects/Battle/Muffet.yy",
+    "path":"folders/Objects/Battle/Characters/Muffet.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

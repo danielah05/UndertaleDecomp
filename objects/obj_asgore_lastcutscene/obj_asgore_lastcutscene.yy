@@ -14,7 +14,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"View",
-    "path":"folders/Objects/Battle/Dreamurr/Asgore/View.yy",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asgore/View.yy",
   },
   "parentObjectId":null,
   "persistent":false,

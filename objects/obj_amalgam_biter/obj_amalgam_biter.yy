@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Amalgam",
-    "path":"folders/Objects/Battle/Amalgam.yy",
+    "path":"folders/Objects/Battle/Characters/Amalgam.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

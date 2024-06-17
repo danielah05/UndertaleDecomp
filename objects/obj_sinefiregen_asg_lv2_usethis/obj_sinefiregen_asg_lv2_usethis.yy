@@ -11,8 +11,8 @@
   "name":"obj_sinefiregen_asg_lv2_usethis",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"unsorted",
+    "path":"folders/Objects/unsorted.yy",
   },
   "parentObjectId":null,
   "persistent":false,

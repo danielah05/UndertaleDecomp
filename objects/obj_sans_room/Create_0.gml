@@ -18,7 +18,7 @@ if (room == room_tundra8 && global.plot >= 46)
 if (room == room_tundra_iceexit_new && global.plot > 64)
     instance_destroy()
 gone = 0
-if (FL_SansDated2 > 0)
+if (FL_SansDated2 > SansDated2.None)
     gone = 1
 if (FL_PapyrusStatus == PapyrusStatus.Killed)
     gone = 1

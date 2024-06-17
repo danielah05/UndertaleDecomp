@@ -67,7 +67,7 @@ enum OSFlavors
 #macro FL_DummyStatus global.flag[14]
 #macro FL_InBattle global.flag[15]
 #macro FL_TypeHeartTransition global.flag[16]
-#macro FL_UnknownBoolean17 global.flag[17]
+#macro FL_MenuDisabled global.flag[17]
 #macro FL_UndyneZoomCutscene global.flag[18]
 // 19 Unused
 #macro FL_AnimationIndex global.flag[20]
@@ -328,8 +328,8 @@ enum OSFlavors
 #macro FL_ResetBridgeseedPuzzle global.flag[386]
 #macro FL_WonBallGame global.flag[387]
 #macro FL_FallTranisition global.flag[388]
-#macro FL_UndyneDateStatus global.flag[389] // TODO: Look into this
-#macro FL_UndyneExpression global.flag[390] // TODO: Look into this
+#macro FL_UndyneDateStatus global.flag[389]
+#macro FL_UndyneExpression global.flag[390]
 #macro FL_GrillbysMealChoice global.flag[391]
 // 392 - Unused
 #macro FL_UnusedMadjickSoundHandle global.flag[393] // Vultu: Apparently Madjick's orb used to have a sound?
@@ -350,7 +350,7 @@ enum OSFlavors
 #macro FL_HotlandBattleProgressCounter global.flag[408]
 #macro FL_GotNapstablookFriendReq global.flag[409]
 // 410 - 412 Unused
-#macro FL_SansDated2 global.flag[413] // TODO: Look into this
+#macro FL_SansDated2 global.flag[413]
 #macro FL_GotAlphysAdvice1 global.flag[414] 
 #macro FL_GotAlphysAdvice2 global.flag[415]
 #macro FL_GotAlphysAdvice3 global.flag[416]
@@ -393,7 +393,7 @@ enum OSFlavors
 #macro FL_RivermanDestination global.flag[459]
 #macro FL_GotTemVillageHint global.flag[460]
 #macro FL_TemBoatVersion global.flag[461]
-#macro FL_PapyrusCalledAlready global.flag[462] // TODO: LOOK INTO THIS
+#macro FL_PapyrusCalledAlready global.flag[462]
 // 463 - 464 Unused
 #macro FL_IncludeUndyneInPapyrusCalls global.flag[465]
 // 466 - 469 Unused
@@ -418,7 +418,7 @@ enum OSFlavors
 #macro FL_TrueLabPowerSwitchOn global.flag[491]
 #macro FL_AlphysLabLocked global.flag[492]
 #macro FL_DatedAlphys global.flag[493]
-#macro FL_UndynesLetterStatus global.flag[494] // TODO: ENUM HERE
+#macro FL_UndynesLetterStatus global.flag[494]
 #macro FL_PopatoChispsBoughtCounter global.flag[495]
 #macro FL_OnionSanConvoCounter global.flag[496]
 #macro FL_GotSansRoomKey global.flag[497]
@@ -914,5 +914,185 @@ enum CurrentElevatorFloor
 	L2,
 	L3,
 	R3
+}
+enum PhoneName
+{
+	// 0
+	Null,
+	// 201 - 206
+	SayHello = 201,
+	PuzzleHelp,
+	AboutYourself,
+	CallHerMom,
+	Flirt,
+	TorielsPhone,
+	// 210
+	PapyrusPhone = 210,
+	// 220 - 221
+	DimensionalBoxA = 220,
+	DimensionalBoxB
+}
+enum UndynesLetterStatus
+{
+	// 0 - 3
+	None,
+	Dropped,
+	Unused, // game checks if the letter status is ever set to 2, this never actually happens
+	EXLetter
+}
+enum UndyneDateStatus
+{
+	// 0
+	None,
+	// 2 - 5
+	Unused = 2, // never gets set to 2 but gets referenced in an if check
+	LeftHouse,
+	UndyneLeft,
+	DateFinished
+}
+enum UndyneExpression
+{
+	DefaultFace, // gets set many times but never actually gets checked for, technically unused?
+	SweatingFace,
+	TomatoFace
+}
+enum SansDated2
+{
+	None,
+	InDate,
+	DateFinished
+}
+enum BattleGroup
+{
+	// 1 - 9
+	TestFroggits = 1,
+	RuinsDummy,
+	TorielFroggit,
+	Froggit,
+	Whimsun,
+	FroggitWhimsun,
+	Moldsmal,
+	TripleMoldsmal,
+	DoubleFroggit,
+	// 10 - 19
+	DoubleMoldsmal,
+	MoldsmalMigosp,
+	MigospVegetoid,
+	Loox,
+	LooxVegetoid, // UNUSED
+	LooxVegetoidMigosp,
+	DoubleVegetoid,
+	DoubleLoox,
+	Vegetoid,
+	ButNobodyCame,
+	// 20 - 28
+	Napstablook,
+	LooxUnused, // UNUSED
+	Toriel,
+	Doggo,
+	LesserDog,
+	Dogi,
+	GreaterDog,
+	Papyrus,
+	Gyftrot,
+	// Case 29 missing!
+	// 30 - 36
+	Snowdrake = 30,
+	DoubleSnowdrake,
+	Icecap,
+	IcecapSnowdrake, // UNUSED
+	Jerry, // UNUSED
+	IcecapJerry,
+	IcecapJerrySnowdrake,
+	// 40 - 49
+	Aaron = 40,
+	Temmie,
+	MoldsmalMoldbygg,
+	Woshua,
+	Shyren,
+	MadDummy,
+	AaronWoshuaCutscene, // Spooky music cutscene
+	Undyne,
+	MettatonQuiz,
+	RoyalGuards,
+	// 50 - 59
+	Tsunderplane,
+	Vulkin,
+	Pyrope,
+	DoubleMoldsmal2,
+	WoshuaAaron,
+	WoshuaMoldbygg,
+	Muffet,
+	MettatonSecond,
+	UndyneFakeFight,
+	Madjick,
+	// 60 - 69
+	KnightKnight,
+	FinalFroggit, // UNUSED
+	Astigmatism,
+	Whimsalot, // UNUSED
+	WhimsalotFinalFroggit,
+	WhimsalotAstigmatism,
+	FinalFroggitAstigmatism,
+	FinalFroggitAstigmatismWhimsalot,
+	KnightKnightMadjick,
+	Bomb, // UNUSED
+	// 70 - 79
+	DogBomb,
+	WaterGlassBomb,
+	ScriptBomb,
+	BasketballBomb,
+	PresentBomb,
+	GameBomb,
+	RoyaleGuards, // UNUSED
+	TsunderplaneVulkin,
+	DoublePyrope,
+	DoubleVulkin, // UNUSED
+	// 80 - 89
+	Mettaton,
+	MettatonEX,
+	LemonBread,
+	ReaperBird,
+	SnowdrakesMother,
+	TripleMemoryhead,
+	Endogeny,
+	LostSoulUndyne,
+	LostSoulSansPapyrus,
+	LostSoulAlphys,
+	// 90 - 95
+	LostSoulTorielAsgore,
+	MonsterKid,
+	UndyneTheUndying,
+	GladDummy,
+	MettatonNEO,
+	Sans,
+	// 100, 101
+	AsgoreIntro = 100,
+	Asgore,
+	// 120 - 129
+	HardModeFinalFroggitAstigmatism = 120,
+	HardModeFinalFroggitMigospel,
+	HardModeParsnik,
+	HardModeDoubleMoldessa,
+	HardModeTripleMoldessa,
+	HardModeFinalFroggitWhimsalot,
+	HardModeFinalFroggit,
+	HardModeWhimsalotParsnik,
+	HardModeMoldessaMigospel,
+	HardModeParsnikMigospel,
+	// 130 - 134
+	HardModeDoubleParsnik,
+	HardModeParsnikAstigmatism, // UNUSED
+	HardModeDoubleAstigmatism,
+	HardModeAstigmatismMigospelMoldessa,
+	HardModeWhimsalotParsnikMoldessa, // UNUSED
+	// 135
+	Glyde = 135,
+	// 140, 141
+	SoSorry = 140,
+	MadMewMew,
+	// 255, 256
+	Asriel = 255,
+	AsrielFinal
 }
 #endregion

@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Whimsalot",
-    "path":"folders/Objects/Battle/Whimsalot.yy",
+    "path":"folders/Objects/Battle/Characters/Whimsalot.yy",
   },
   "parentObjectId":null,
   "persistent":false,

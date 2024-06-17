@@ -59,7 +59,7 @@ if (t == 8)
 }
 if (t == 9 && instance_exists(OBJ_WRITER) == false)
 {
-    global.battlegroup = 25
+    global.battlegroup = BattleGroup.Dogi
     FL_AreaKillsPointer = KillsPointer_Invalid
     global.mercy = 1
     instance_create(0, 0, obj_battler)

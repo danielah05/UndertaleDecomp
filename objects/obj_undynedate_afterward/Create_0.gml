@@ -1,5 +1,5 @@
 con = 0
-if (FL_UndyneDateStatus == 3)
+if (FL_UndyneDateStatus == UndyneDateStatus.LeftHouse)
 {
     FL_AnimationIndex = 0
     con = 1
@@ -13,7 +13,7 @@ if (FL_UndyneDateStatus == 3)
     }
     undyne = instance_create(150, 135, obj_undyne_actor)
     undyne.sprite_index = spr_undyne_lt
-    FL_UndyneExpression = 0
+    FL_UndyneExpression = UndyneExpression.DefaultFace
 }
 else
 {

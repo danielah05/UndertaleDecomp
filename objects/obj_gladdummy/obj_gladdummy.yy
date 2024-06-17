@@ -16,7 +16,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Mad Dummy",
-    "path":"folders/Objects/Battle/Mad Dummy.yy",
+    "path":"folders/Objects/Battle/Characters/Mad Dummy.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

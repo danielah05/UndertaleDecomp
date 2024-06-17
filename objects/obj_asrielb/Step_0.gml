@@ -349,7 +349,7 @@ if (global.mnfight == 5)
     {
         caster_free(all)
         FL_InBattle = true
-        global.battlegroup = 256
+        global.battlegroup = BattleGroup.AsrielFinal
         room_restart()
     }
 }

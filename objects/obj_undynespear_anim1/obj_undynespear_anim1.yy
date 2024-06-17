@@ -11,8 +11,8 @@
   "name":"obj_undynespear_anim1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"unsorted",
+    "path":"folders/Objects/unsorted.yy",
   },
   "parentObjectId":null,
   "persistent":false,

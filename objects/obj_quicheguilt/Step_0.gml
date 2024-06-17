@@ -1,6 +1,6 @@
 if (global.inbattle == false)
 {
-    if (guilt == 1 && global.interact == 0 && FL_UnknownBoolean17 == false && instance_exists(obj_mainchara))
+    if (guilt == 1 && global.interact == 0 && FL_MenuDisabled == false && instance_exists(obj_mainchara))
         check += 1
     else
         check = 0

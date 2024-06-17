@@ -1,7 +1,7 @@
 if (con == 1)
 {
     global.phasing = 1
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     global.interact = 1
     obj_mainchara.x = 140
     obj_mainchara.y = -20
@@ -354,7 +354,7 @@ if (con == 55.1 && instance_exists(OBJ_WRITER) == false)
 if (con == 57.1 && instance_exists(OBJ_WRITER) == false)
 {
     con = 58
-    global.battlegroup = 57
+    global.battlegroup = BattleGroup.MettatonSecond
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     talkedto = 0
@@ -405,7 +405,7 @@ if (con == 62 && instance_exists(OBJ_WRITER) == false)
     global.currentsong = caster_load("music/anothermedium.ogg")
     caster_loop(global.currentsong, 1, 1)
     global.interact = 0
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.plot = 168
     instance_destroy()
 }

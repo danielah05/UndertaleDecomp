@@ -43,7 +43,7 @@ rearrange = 0
 suppress_border = 0
 if global.screen_border_active
 {
-    if (global.battlegroup == 100 || global.battlegroup == 101 || global.battlegroup == 255 || global.battlegroup == 256)
+    if (global.battlegroup == BattleGroup.AsgoreIntro || global.battlegroup == BattleGroup.Asgore || global.battlegroup == BattleGroup.Asriel || global.battlegroup == BattleGroup.AsrielFinal)
     {
         suppress_border = 1
         scr_enable_screen_border(false)

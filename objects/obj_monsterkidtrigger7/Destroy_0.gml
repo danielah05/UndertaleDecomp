@@ -1,2 +1,2 @@
-if (FL_UnknownBoolean17 == true)
-    FL_UnknownBoolean17 = false
+if (FL_MenuDisabled == true)
+    FL_MenuDisabled = false

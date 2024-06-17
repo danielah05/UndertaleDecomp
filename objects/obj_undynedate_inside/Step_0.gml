@@ -421,14 +421,14 @@ if (con == 81 && instance_exists(OBJ_WRITER) == false)
     mcxp = obj_mainchara.x
     mcyp = obj_mainchara.y
     global.interact = 0
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
 }
 if (con == 82)
 {
     if (obj_mainchara.x != mcxp || obj_mainchara.y != mcyp)
     {
         caster_pause(global.currentsong)
-        FL_UnknownBoolean17 = false
+        FL_MenuDisabled = false
         global.interact = 1
         obj_mainchara.cutscene = true
         view_target_set(0, noone)
@@ -453,7 +453,7 @@ if (con == 84)
     undyne.sprite_index = spr_undyne_throwtalk
     global.faceemotion = 1
     global.facechoice = 5
-    FL_UndyneExpression = 1
+    FL_UndyneExpression = UndyneExpression.SweatingFace
     global.msg[0] = scr_gettext("obj_undynedate_inside_604")
     global.msg[1] = scr_gettext("obj_undynedate_inside_605")
     global.msg[2] = scr_gettext("obj_undynedate_inside_606")
@@ -896,7 +896,7 @@ if (con == 150)
     global.faceemotion = 9
     global.facing = Direction.Left
     global.msc = 0
-    FL_UndyneExpression = 2
+    FL_UndyneExpression = UndyneExpression.TomatoFace
     global.msg[0] = scr_gettext("obj_undynedate_inside_1128")
     global.msg[1] = scr_gettext("obj_undynedate_inside_1129")
     instance_create(0, 0, obj_dialoguer)
@@ -904,7 +904,7 @@ if (con == 150)
 }
 if (con == 151 && instance_exists(OBJ_WRITER) == false)
 {
-    FL_UndyneExpression = 0
+    FL_UndyneExpression = UndyneExpression.DefaultFace
     with (undyne)
         scr_npc_halt("d")
     with (undyne)
@@ -1236,7 +1236,7 @@ if (con == 264 && instance_exists(OBJ_WRITER) == false)
 if (con == 265 && instance_exists(OBJ_WRITER) == false)
 {
     global.mercy = 1
-    global.battlegroup = 58
+    global.battlegroup = BattleGroup.UndyneFakeFight
     instance_create(0, 0, obj_battler)
     con = 266
 }
@@ -1250,7 +1250,7 @@ if (con == 268)
 {
     room_persistent = false
     global.phasing = 0
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     global.mercy = 0
     snd_play(snd_bell)
     room_goto(room_water_undyneyard)

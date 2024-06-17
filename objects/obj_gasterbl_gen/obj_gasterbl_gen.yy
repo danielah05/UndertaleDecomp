@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Sans",
-    "path":"folders/Objects/Battle/Sans.yy",
+    "path":"folders/Objects/Battle/Characters/Sans.yy",
   },
   "parentObjectId":null,
   "persistent":false,

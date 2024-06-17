@@ -1,3 +1,5 @@
+/// @func	SCR_GAMESTART()
+/// @desc	Script used to initialize various parts of the game.
 function SCR_GAMESTART()
 {
 	randomize()
@@ -92,7 +94,7 @@ function SCR_GAMESTART()
 	}
 	global.xpreward[3] = 0
 	global.goldreward[3] = 0
-	global.battlegroup = 3
+	global.battlegroup = BattleGroup.TorielFroggit
 	global.turntimer = 0
 	global.talked = false
 	global.inv = 20
@@ -144,15 +146,15 @@ function SCR_GAMESTART()
 	global.item[8] = Items.Null
 	global.weapon = Items.Stick
 	global.armor = Items.Bandage;
-	global.phone[0] = 0
-	global.phone[1] = 0
-	global.phone[2] = 0
-	global.phone[3] = 0
-	global.phone[4] = 0
-	global.phone[5] = 0
-	global.phone[6] = 0
-	global.phone[7] = 0
-	global.phone[8] = 0
+	global.phone[0] = PhoneName.Null
+	global.phone[1] = PhoneName.Null
+	global.phone[2] = PhoneName.Null
+	global.phone[3] = PhoneName.Null
+	global.phone[4] = PhoneName.Null
+	global.phone[5] = PhoneName.Null
+	global.phone[6] = PhoneName.Null
+	global.phone[7] = PhoneName.Null
+	global.phone[8] = PhoneName.Null
 	global.menuchoice[0] = 1
 	global.menuchoice[1] = 1
 	global.menuchoice[2] = 0

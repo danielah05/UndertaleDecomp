@@ -1,3 +1,5 @@
+/// @func	SCR_NEWLINE()
+/// @desc	Creates a newline in dialog when detecting a "&"
 function SCR_NEWLINE()
 {
 	if vtext

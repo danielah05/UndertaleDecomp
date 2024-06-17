@@ -61,7 +61,7 @@ if (con == 8)
 {
     global.mercy = 1
     FL_InBattle = true
-    global.battlegroup = 59
+    global.battlegroup = BattleGroup.Madjick
     instance_create(0, 0, obj_battler)
     con = 9
     alarm[4] = 32

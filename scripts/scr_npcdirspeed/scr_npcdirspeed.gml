@@ -1,3 +1,5 @@
+/// @func	scr_npcdirspeed()
+/// @desc	Set NPC facing direction... but with speed...? (Unused)
 function scr_npcdirspeed()
 {
 	if (myinteract == 0)

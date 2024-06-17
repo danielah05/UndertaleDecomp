@@ -12,6 +12,8 @@ function decomp_gamestart()
 	load_trophies();
 	save_trophies();
 	
+	// Daniela: force set master volume here on game start to fix bug
+	audio_set_master_gain(0, global.decomp_vars.MasterVolume / 100.0);
 	
 	audio_falloff_set_model(audio_falloff_none);
 }

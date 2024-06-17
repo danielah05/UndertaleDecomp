@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Temmie",
-    "path":"folders/Objects/Battle/Temmie.yy",
+    "path":"folders/Objects/Battle/Characters/Temmie.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -56,6 +56,11 @@ function masterVolumeSet(_value)
 	audio_set_master_gain(0, _value.value / 100.0);
 }
 
+function musicVolumeSet(_value)
+{
+	audio_sound_gain(mus_decomp_settings, _value.value / 100.0, 0);
+}
+
 function wipeTrophyData()
 {
 	var mapSize = ds_map_size(global.trophy_state);

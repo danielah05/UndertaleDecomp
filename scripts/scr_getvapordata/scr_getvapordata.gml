@@ -1,3 +1,6 @@
+/// @func	scr_getvapordata()
+/// @desc	Returns monster death vapor animation based on sprite index.
+/// @returns {string}
 function scr_getvapordata()
 {
 	if (sprite_index == spr_undyneb_lastmelt)

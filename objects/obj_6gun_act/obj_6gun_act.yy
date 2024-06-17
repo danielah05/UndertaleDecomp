@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Rebellion 6",
-    "path":"folders/Objects/Battle/Omega Flowey/Rebellion 6.yy",
+    "path":"folders/Objects/Battle/Characters/Omega Flowey/Rebellion 6.yy",
   },
   "parentObjectId":{
     "name":"obj_centeract_parent",

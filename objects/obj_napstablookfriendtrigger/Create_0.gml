@@ -1,6 +1,6 @@
-FL_UnknownBoolean17 = false
-if (FL_UndyneDateStatus == 4)
-    FL_UndyneDateStatus = 5
+FL_MenuDisabled = false
+if (FL_UndyneDateStatus == UndyneDateStatus.UndyneLeft)
+    FL_UndyneDateStatus = UndyneDateStatus.DateFinished
 if (global.plot > 116)
 {
     instance_destroy()

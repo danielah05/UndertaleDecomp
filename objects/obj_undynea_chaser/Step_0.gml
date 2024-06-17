@@ -1,4 +1,4 @@
-FL_UnknownBoolean17 = true
+FL_MenuDisabled = true
 if (STOPPER == 0)
 {
     if (d == 0)
@@ -108,7 +108,7 @@ if (STOPPER == 0)
         global.interact = 1
         con = 6
         global.border = 12
-        global.battlegroup = 47
+        global.battlegroup = BattleGroup.Undyne
         global.mercy = 1
         instance_create(0, 0, obj_battler)
         talkedto = 0
@@ -220,7 +220,7 @@ if (STOPPER == 0)
 }
 if (con == 41)
 {
-    FL_UnknownBoolean17 = false
+    FL_MenuDisabled = false
     audio_stop_all()
     instance_destroy()
 }

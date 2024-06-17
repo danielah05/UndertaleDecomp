@@ -1,6 +1,6 @@
 if (con == 1)
 {
-    FL_UnknownBoolean17 = true
+    FL_MenuDisabled = true
     global.msc = 0
     global.typer = 27
     global.facechoice = 0

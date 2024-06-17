@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Vegetoid",
-    "path":"folders/Objects/Battle/Vegetoid.yy",
+    "path":"folders/Objects/Battle/Characters/Vegetoid.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

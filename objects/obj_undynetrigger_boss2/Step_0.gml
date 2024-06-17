@@ -34,7 +34,7 @@ if (con == 4)
         instance_destroy()
     con = 5
     global.border = 12
-    global.battlegroup = 47
+    global.battlegroup = BattleGroup.Undyne
     global.mercy = 1
     instance_create(0, 0, obj_battler)
     talkedto = 0
@@ -52,7 +52,7 @@ if (con == 6)
     }
     else
     {
-        FL_UnknownBoolean17 = false
+        FL_MenuDisabled = false
         global.plot = 122
     }
 }

@@ -15,7 +15,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Royal Guards",
-    "path":"folders/Objects/Battle/Royal Guards.yy",
+    "path":"folders/Objects/Battle/Characters/Royal Guards.yy",
   },
   "parentObjectId":null,
   "persistent":false,
