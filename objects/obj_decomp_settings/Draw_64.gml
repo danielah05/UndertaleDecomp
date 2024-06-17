@@ -120,7 +120,9 @@ else
 	
 	
 #region Scrollbar
-	if ((array_length(cat.options) * str_height) > divider_y)
+
+	
+	if (((array_length(cat.options) * str_height) + cat_box_y) > divider_y)
 	{
 		// Vultu: rect width 8
 		var rect_left = ((cat_box_x + cat_box_w) - (doubleMenuPad)) - 9;
@@ -141,7 +143,7 @@ else
 		var scrollbar_y = rect_top + (option_scroll * scrollbar_ratio);
 		var scrollbar_bottom = scrollbar_y + scrollbar_height;
 		
-		draw_rectangle(rect_left, scrollbar_y, rect_right, scrollbar_bottom, false);
+		draw_rectangle(rect_left, floor(scrollbar_y), rect_right, ceil(scrollbar_bottom), false);
 		
 		cat_bounds[2] = rect_left;
 	}
@@ -180,6 +182,8 @@ else
 	
 	draw_line_width(cat_box_x, divider_y, cat_box_x + cat_box_w, divider_y, 2);
 	
+	if (hover_option != -1)
+		draw_text_ext(cat_box_x + doubleMenuPad, divider_y + doubleMenuPad, cat.options[hover_option].about, str_height, (cat_box_x + cat_box_w));
 #endregion
 }
 
