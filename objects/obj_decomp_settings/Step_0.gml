@@ -39,6 +39,8 @@ if (selected_category == -1)
 		selected_category = hover_category;
 		hover_option = 0;
 	}
+	
+	option_scroll = 0;
 }
 else
 {
@@ -47,6 +49,19 @@ else
 		slider_hold_timer = 0;
 		button_hold_timer = 0;
 		hover_option -= dir_y;
+		
+		var option_count = array_length(categories[selected_category].options);
+		// Vultu: Adjust option_scroll if needed
+		if (option_count > SETTINGS_PANEL_ITEM_COUNT)
+		{
+			var relative_hover_option = hover_option - option_scroll;
+			
+			if (option_scroll != 0 && dir_y == 1 && hover_option < option_scroll)
+				option_scroll--;
+			else if (dir_y == -1 && relative_hover_option ==  SETTINGS_PANEL_ITEM_COUNT)
+				option_scroll++;
+			
+		}
 	}
 	var cat = categories[selected_category];
 	var hover_op = cat.options[hover_option];
@@ -116,7 +131,7 @@ else
 				break;
 		}
 	}
-		
+	
 	if (btn_1 && !prev_button_1)
 	{
 		selected_category = -1;

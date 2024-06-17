@@ -10,6 +10,9 @@ array_push(categories, new menu_category("General", "General decomp settings",
 		new menu_checkbox_option("PS4 Trophies", "EnablePS4Trophies", "Enables PS4 style trophies on all platforms", global.decomp_vars.EnablePS4Trophies, false),
 		new menu_checkbox_option("Custom Achievements", "EnableCustomAchievements", "Adds Achievments created by Vultu and Daniela", global.decomp_vars.EnableCustomAchievements, false),
 		new menu_checkbox_option("Force So Sorry Event", "ForceSoSorry", "Forces the So Sorry battle to always happen", global.decomp_vars.ForceSoSorry, false)
+		//new menu_checkbox_option("PAD", "ForceSoSorry", "Forces the So Sorry battle to always happen", global.decomp_vars.ForceSoSorry, false),
+		//new menu_checkbox_option("PAD2", "ForceSoSorry", "Forces the So Sorry battle to always happen", global.decomp_vars.ForceSoSorry, false),
+		//new menu_checkbox_option("PAD2", "ForceSoSorry", "Forces the So Sorry battle to always happen", global.decomp_vars.ForceSoSorry, false)
 		//new menu_checkbox_option("Enable Xbox Dog Shrine", "EnableXboxDogShrine", "Enables the Xbox Dog Shrine", global.decomp_vars.EnableXboxDogShrine, true)
 	]));
 	

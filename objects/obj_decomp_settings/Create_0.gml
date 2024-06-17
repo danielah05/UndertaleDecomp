@@ -1,9 +1,11 @@
-
+#macro SETTINGS_PANEL_ITEM_COUNT 6
+#macro SETTINGS_MENU_PAD 2
 caster_loop(mus_decomp_settings, 1.0, 1.0);
 
 hover_category = -1;
 selected_category = -1;
 hover_option = -1;
+option_scroll = 0;
 
 categories = array_create(0);
 
@@ -12,8 +14,6 @@ prev_dir_y = 0;
 prev_button_0 = false;
 prev_button_1 = false;
 prev_button_2 = false;
-
-menu_pad = 2;
 
 daniela_summer_quote = "summer time?!?! waaaahhh!";
 daniela_winter_quote = "cold outside but stay warm inside my bitcoin\nminer infected pc";
@@ -97,6 +97,7 @@ function wipeSaveData()
 
 event_user(1);
 
+#region Draw Functions
 function draw_checkbox(_x, _y, _option, _catbox_bounds, _text_color) 
 {
 	draw_set_color(_text_color);
@@ -105,7 +106,7 @@ function draw_checkbox(_x, _y, _option, _catbox_bounds, _text_color)
 	var text_width = string_width("[X]");
 	
 	
-	draw_text((_catbox_bounds[0] + _catbox_bounds[2]) - (menu_pad * 2) - text_width, _y, (_option.value ? "[X]" : "[  ]"))
+	draw_text((_catbox_bounds[0] + _catbox_bounds[2]) - (SETTINGS_MENU_PAD * 2) - text_width, _y, (_option.value ? "[X]" : "[  ]"))
 }
 
 function draw_slider(_x, _y, _option, _catbox_bounds, _text_color) 
@@ -115,7 +116,7 @@ function draw_slider(_x, _y, _option, _catbox_bounds, _text_color)
 	var text_height = string_height("A");
 	
 	var text_width = string_width($"{_option.maxValue}/{_option.maxValue}");
-	var text_x = (_catbox_bounds[0] + _catbox_bounds[2]) - (menu_pad * 2);
+	var text_x = (_catbox_bounds[0] + _catbox_bounds[2]) - (SETTINGS_MENU_PAD * 2);
 	
 	draw_set_halign(fa_right);
 	draw_text(text_x, _y, $"{_option.value}/{_option.maxValue}");
@@ -152,7 +153,7 @@ function draw_slider(_x, _y, _option, _catbox_bounds, _text_color)
 	ossafe_fill_rectangle(slider_x - 1, _y, slider_x + 1, _y + text_height);
 }
 
-function draw_hold_timer(_x, _y, _option, _catbox_bounds, _text_color) 
+function draw_hold_timer(_x, _y, _option, _catbox_bounds, _text_color)
 {
 	draw_set_color(_text_color);
 	draw_text(_x, _y, _option.displayName);
@@ -165,14 +166,15 @@ function draw_hold_timer(_x, _y, _option, _catbox_bounds, _text_color)
 	draw_set_halign(fa_left);
 	
 	var bar_start_x = _catbox_bounds[0] + _catbox_bounds[2] / 2;
-	var bar_end_x = (_catbox_bounds[0] + _catbox_bounds[2]) - (menu_pad * 2);
+	var bar_end_x = (_catbox_bounds[0] + _catbox_bounds[2]) - (SETTINGS_MENU_PAD * 2);
 	
 	draw_set_color(c_white);
 	ossafe_fill_rectangle(bar_start_x, _y, bar_end_x, _y + text_height);
 	draw_set_color(c_black);
-	ossafe_fill_rectangle(bar_start_x + menu_pad, _y + menu_pad, (bar_end_x - (menu_pad * 2)) + 1, (_y + text_height - menu_pad * 2) + 1);
+	ossafe_fill_rectangle(bar_start_x + SETTINGS_MENU_PAD, _y + SETTINGS_MENU_PAD, (bar_end_x - (SETTINGS_MENU_PAD * 2)) + 1, (_y + text_height - SETTINGS_MENU_PAD * 2) + 1);
 	
 	draw_set_color(c_yellow);
-	ossafe_fill_rectangle(bar_start_x + menu_pad, _y + menu_pad, bar_start_x + ((((bar_end_x - (menu_pad * 2)) + 1) - (bar_start_x + menu_pad)) * (button_hold_timer / _option.holdtimer)), (_y + text_height - menu_pad * 2) + 1);
+	ossafe_fill_rectangle(bar_start_x + SETTINGS_MENU_PAD, _y + SETTINGS_MENU_PAD, bar_start_x + ((((bar_end_x - (SETTINGS_MENU_PAD * 2)) + 1) - (bar_start_x + SETTINGS_MENU_PAD)) * (button_hold_timer / _option.holdtimer)), (_y + text_height - SETTINGS_MENU_PAD * 2) + 1);
 	
 }
+#endregion
