@@ -6,7 +6,7 @@ array_push(categories, new menu_category("General", "General decomp settings",
 		new menu_checkbox_option("Fix Input Latency", "FixInputLatency", "Fixes awful input issues introduced by the PS4 version of UNDERTALE", global.decomp_vars.FixInputLatency, true),
 		new menu_checkbox_option("Wrist Protector", "WristProtector", "Hold C to skip text", global.decomp_vars.WristProtector, true),
 		new menu_checkbox_option("Enable PS4/Vita Dog Shrine", "EnablePSDogShrine", "Enables the the Playstation Dog Shrine", global.decomp_vars.EnablePSDogShrine, true),
-		new menu_checkbox_option("Enable Switch Dog Shrine", "EnableSwitchDogShrine", "Enables the Switch Mew Mew Fight", global.decomp_vars.EnableSwitchDogShrine, true),
+		new menu_checkbox_option("Enable Switch Dog Shrine", "EnableSwitchDogShrine", "Enables the Switch Mew Mew Fight\n(Enabled after completeing PS4 shrine if active)", global.decomp_vars.EnableSwitchDogShrine, true),
 		new menu_checkbox_option("PS4 Trophies", "EnablePS4Trophies", "Enables PS4 style trophies on all platforms", global.decomp_vars.EnablePS4Trophies, false),
 		new menu_checkbox_option("Custom Achievements", "EnableCustomAchievements", "Adds Achievments created by Vultu and Daniela", global.decomp_vars.EnableCustomAchievements, false),
 		new menu_checkbox_option("Force So Sorry Event", "ForceSoSorry", "Forces the So Sorry battle to always happen", global.decomp_vars.ForceSoSorry, false)
