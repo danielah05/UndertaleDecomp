@@ -1,4 +1,4 @@
-action_set_relative(1)
+action_set_relative(true)
 mydirection = global.bulletvariable[0]
 mydirectionalspeed = global.bulletvariable[1]
 twdsX = global.bulletvariable[2]
@@ -12,4 +12,4 @@ gravityincrement = 0
 action_set_motion(mydirection, mydirectionalspeed)
 if (sprite_index == spr_dirbullet)
     image_speed = 0
-action_set_relative(0)
+action_set_relative(false)

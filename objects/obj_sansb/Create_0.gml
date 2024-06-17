@@ -57,7 +57,7 @@ if (skip == true)
     global.faceemotion = 0
     normalfight = 1
     obj_heart.visible = true
-    FL_FightingSans = 1
+    FL_FightingSans = true
     caster_loop(global.batmusic, 0.95, 0.95)
 }
 drama = 0

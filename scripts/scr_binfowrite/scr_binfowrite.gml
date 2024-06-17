@@ -6,7 +6,7 @@ function scr_binfowrite()
 	var namewidth = scr_draw_name_curs(namex, namey)
 	draw_set_font(fnt_curs)
 	draw_text((namex + namewidth), 400, string_hash_to_newline(("   LV " + string(global.lv))))
-	if (FL_FightingSans == 0)
+	if (FL_FightingSans == false)
 	{
 	    draw_set_color(c_red)
 	    ossafe_fill_rectangle(275, 400, (275 + (global.maxhp * 1.2)), 420)
