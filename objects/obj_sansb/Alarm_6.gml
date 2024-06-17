@@ -217,7 +217,7 @@ global.border = 35
 a_choose = 0
 if (hit_try < 13)
 {
-    FL_FightingSans = 1
+    FL_FightingSans = true
     a_choose = part
     if (part >= 13)
         a_choose = 10

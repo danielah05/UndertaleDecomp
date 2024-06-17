@@ -63,7 +63,7 @@ if (global.mnfight == 2 && normalfight == 1)
 {
     if (attacked == 0)
     {
-        FL_FightingSans = 1
+        FL_FightingSans = true
         if (global.sp < 5)
             global.sp = 5
         global.turntimer = 10
@@ -537,7 +537,7 @@ if (con == 6)
 if (con == 8)
 {
     global.faceemotion = 5
-    FL_FightingSans = 1
+    FL_FightingSans = true
     obj_heart.visible = true
     with (blk)
         instance_destroy()
