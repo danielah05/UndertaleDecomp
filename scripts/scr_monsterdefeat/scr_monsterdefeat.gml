@@ -1,6 +1,6 @@
 function scr_monsterdefeat()
 {
-	if (killed == 1)
+	if (killed == true)
 	{
 	    global.xpreward[3] += global.xpreward[myself]
 	    global.goldreward[3] += global.goldreward[myself]
