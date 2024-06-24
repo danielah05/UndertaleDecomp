@@ -49,7 +49,7 @@ enum OSFlavors
 #endregion
 
 // Vultu: Taken from https://tomat.dev/undertale/flags
-// Vultu: Anything not in that list was added by or Daniela
+// Vultu: Anything not in that list was added by me or Daniela
 // If any of this is wrong or misleading, please feel free to push a PR <3
 #region Flags
 
@@ -257,7 +257,6 @@ enum OSFlavors
 #macro FL_SteppedOnGreenTile global.flag[289]
 #macro FL_NeutralPapyrusSpared global.flag[290]
 #macro FL_ElectricMazeSkipped global.flag[291]
-// 292 - 291 Unused
 #macro FL_DogShrineGDeposited global.flag[292]
 #macro FL_DogShrineGoldNeeded global.flag[293]
 #macro FL_DogShrineLevel global.flag[294]
