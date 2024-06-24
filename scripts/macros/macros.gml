@@ -48,9 +48,21 @@ enum OSFlavors
 #macro BG_PROP_ALPHA 14
 #endregion
 
-// Vultu: Taken from https://tomat.dev/undertale/flags
-// Vultu: Anything not in that list was added by me or Daniela
-// If any of this is wrong or misleading, please feel free to push a PR <3
+
+#macro PLOT_NewGame 0
+#macro PLOT_FloweyIntroComplete 1
+
+/* 
+	VULTU WROTE THIS DOCUMENT BY HAND!
+	Original flag help from https://tomat.dev/undertale/flags
+	
+	Most flags were documented by me, until I discovered they were already documented here:
+	https://github.com/Jacky720/FloweysTimeMachine/blob/gh-pages/data.js
+	HUGE THANKS THEM FOR LETTING ME COPY VALUES FOR THE WIKI AND THIS DOCUMENT!
+	
+	Anything not in that list was added by me or Daniela
+	If any of this is wrong or misleading, please feel free to push a PR <3
+*/
 #region Flags
 
 // 0 - 3 Unused
