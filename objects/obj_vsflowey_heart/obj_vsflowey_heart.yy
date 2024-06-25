@@ -13,8 +13,8 @@
   "name":"obj_vsflowey_heart",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Soul",
+    "path":"folders/Objects/Battle/Soul.yy",
   },
   "parentObjectId":null,
   "persistent":false,

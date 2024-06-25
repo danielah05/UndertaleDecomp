@@ -6,8 +6,8 @@
   "name":"obj_creeptree_stickbreak",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Tundra",
+    "path":"folders/Objects/Overworld/Tundra.yy",
   },
   "parentObjectId":{
     "name":"obj_creeptree1",

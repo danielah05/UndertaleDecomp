@@ -8,8 +8,8 @@
   "name":"obj_woshpart",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Woshua",
+    "path":"folders/Objects/Battle/Characters/Woshua.yy",
   },
   "parentObjectId":null,
   "persistent":false,

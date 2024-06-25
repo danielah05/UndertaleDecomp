@@ -10,8 +10,8 @@
   "name":"obj_pie_pickup",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Items",
+    "path":"folders/Objects/Overworld/Items.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

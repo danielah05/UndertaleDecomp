@@ -8,8 +8,8 @@
   "name":"obj_fightbt",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"UI",
+    "path":"folders/Objects/Battle/UI.yy",
   },
   "parentObjectId":{
     "name":"obj_btparent",

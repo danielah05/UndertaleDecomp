@@ -13,8 +13,8 @@
   "name":"obj_labcamera",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Alphys Lab",
+    "path":"folders/Objects/Overworld/Hotland/Alphys Lab.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"obj_readable_room_editor",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Hotland",
+    "path":"folders/Objects/Overworld/Hotland.yy",
   },
   "parentObjectId":{
     "name":"obj_readable",

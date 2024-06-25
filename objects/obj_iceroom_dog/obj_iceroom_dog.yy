@@ -10,8 +10,8 @@
   "name":"obj_iceroom_dog",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Tundra",
+    "path":"folders/Objects/Overworld/Tundra.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

@@ -9,8 +9,8 @@
   "name":"obj_bg_glower",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Shop",
+    "path":"folders/Objects/Shop.yy",
   },
   "parentObjectId":null,
   "persistent":false,

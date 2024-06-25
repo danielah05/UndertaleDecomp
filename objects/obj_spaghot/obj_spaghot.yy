@@ -9,8 +9,8 @@
   "name":"obj_spaghot",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Waterfall",
+    "path":"folders/Objects/Overworld/Waterfall.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,8 +12,8 @@
   "name":"obj_rollgrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Tundra",
+    "path":"folders/Objects/Overworld/Tundra.yy",
   },
   "parentObjectId":null,
   "persistent":false,

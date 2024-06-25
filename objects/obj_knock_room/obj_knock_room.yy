@@ -11,8 +11,8 @@
   "name":"obj_knock_room",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Overworld",
+    "path":"folders/Objects/Overworld.yy",
   },
   "parentObjectId":{
     "name":"obj_readable",

@@ -9,8 +9,8 @@
   "name":"obj_papyrusdeadhead",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Papyrus",
+    "path":"folders/Objects/Battle/Characters/Papyrus.yy",
   },
   "parentObjectId":null,
   "persistent":false,
