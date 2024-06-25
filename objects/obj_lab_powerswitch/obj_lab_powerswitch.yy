@@ -13,8 +13,8 @@
   "name":"obj_lab_powerswitch",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"True Lab",
+    "path":"folders/Objects/Overworld/True Lab.yy",
   },
   "parentObjectId":{
     "name":"obj_readable",

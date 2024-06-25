@@ -8,8 +8,8 @@
   "name":"obj_labfan",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"True Lab",
+    "path":"folders/Objects/Overworld/True Lab.yy",
   },
   "parentObjectId":null,
   "persistent":false,

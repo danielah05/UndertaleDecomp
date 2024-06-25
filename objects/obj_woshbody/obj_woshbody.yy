@@ -14,8 +14,8 @@
   "name":"obj_woshbody",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Woshua",
+    "path":"folders/Objects/Battle/Characters/Woshua.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

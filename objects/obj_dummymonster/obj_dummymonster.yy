@@ -15,8 +15,8 @@
   "name":"obj_dummymonster",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Dummy",
+    "path":"folders/Objects/Battle/Characters/Dummy.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

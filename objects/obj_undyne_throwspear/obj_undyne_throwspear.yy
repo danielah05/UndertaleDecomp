@@ -9,8 +9,8 @@
   "name":"obj_undyne_throwspear",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"NPC",
+    "path":"folders/Objects/Overworld/NPC.yy",
   },
   "parentObjectId":null,
   "persistent":false,

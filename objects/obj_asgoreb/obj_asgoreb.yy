@@ -15,8 +15,8 @@
   "name":"obj_asgoreb",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Asgore",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asgore.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",
