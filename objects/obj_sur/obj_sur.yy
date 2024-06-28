@@ -6,8 +6,8 @@
   "name":"obj_sur",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Solids",
+    "path":"folders/Objects/Common/Solids.yy",
   },
   "parentObjectId":{
     "name":"obj_diagoparent",

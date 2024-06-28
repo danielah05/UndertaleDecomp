@@ -11,8 +11,8 @@
   "name":"obj_greydoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Waterfall",
+    "path":"folders/Objects/Overworld/Waterfall.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable",

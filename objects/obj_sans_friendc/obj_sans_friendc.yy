@@ -11,8 +11,8 @@
   "name":"obj_sans_friendc",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"NPC",
+    "path":"folders/Objects/Overworld/NPC.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

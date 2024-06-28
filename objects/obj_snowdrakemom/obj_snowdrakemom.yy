@@ -16,8 +16,8 @@
   "name":"obj_snowdrakemom",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Snowdrake",
+    "path":"folders/Objects/Battle/Characters/Snowdrake.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

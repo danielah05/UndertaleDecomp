@@ -6,8 +6,8 @@
   "name":"obj_holedown3",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/Overworld/Ruins.yy",
   },
   "parentObjectId":{
     "name":"obj_holedown",

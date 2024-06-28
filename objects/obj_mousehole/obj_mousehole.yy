@@ -9,8 +9,8 @@
   "name":"obj_mousehole",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Common",
+    "path":"folders/Objects/Overworld/Common.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable",

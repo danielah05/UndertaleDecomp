@@ -13,8 +13,8 @@
   "name":"obj_afinal_body",
   "overriddenProperties":[],
   "parent":{
-    "name":"IDK",
-    "path":"folders/Objects/Battle/IDK.yy",
+    "name":"Asriel",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asriel.yy",
   },
   "parentObjectId":null,
   "persistent":false,

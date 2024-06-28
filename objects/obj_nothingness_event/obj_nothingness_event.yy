@@ -11,8 +11,8 @@
   "name":"obj_nothingness_event",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Chara Void",
+    "path":"folders/Objects/Overworld/Chara Void.yy",
   },
   "parentObjectId":null,
   "persistent":false,

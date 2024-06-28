@@ -9,8 +9,8 @@
   "name":"obj_parsnik_body",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Parsnik",
+    "path":"folders/Objects/Battle/Characters/Parsnik.yy",
   },
   "parentObjectId":null,
   "persistent":false,
