@@ -10,8 +10,8 @@
   "name":"obj_targetchoice",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"UI",
+    "path":"folders/Objects/Battle/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

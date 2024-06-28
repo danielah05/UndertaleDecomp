@@ -8,8 +8,8 @@
   "name":"obj_riverman",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Common",
+    "path":"folders/Objects/Overworld/Common.yy",
   },
   "parentObjectId":null,
   "persistent":false,

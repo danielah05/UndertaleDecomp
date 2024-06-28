@@ -11,8 +11,8 @@
   "name":"obj_alabdoor_l",
   "overriddenProperties":[],
   "parent":{
-    "name":"IDK",
-    "path":"folders/Objects/Battle/IDK.yy",
+    "name":"Hotland",
+    "path":"folders/Objects/Overworld/Hotland.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable",

@@ -15,8 +15,8 @@
   "name":"obj_tsunderplane",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Tsunderplane",
+    "path":"folders/Objects/Battle/Characters/Tsunderplane.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

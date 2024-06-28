@@ -10,8 +10,8 @@
   "name":"obj_moldessa_body",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Moldessa",
+    "path":"folders/Objects/Battle/Characters/Moldessa.yy",
   },
   "parentObjectId":null,
   "persistent":false,

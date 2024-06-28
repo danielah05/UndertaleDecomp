@@ -10,8 +10,8 @@
   "name":"obj_butterflybullet_gen_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"UNSORTED BULLETS",
+    "path":"folders/Objects/Battle/UNSORTED BULLETS.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

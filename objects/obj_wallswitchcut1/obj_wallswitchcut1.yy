@@ -9,8 +9,8 @@
   "name":"obj_wallswitchcut1",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/Overworld/Ruins.yy",
   },
   "parentObjectId":null,
   "persistent":false,

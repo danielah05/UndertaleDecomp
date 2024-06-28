@@ -11,8 +11,8 @@
   "name":"obj_endschoolanim",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Ending",
+    "path":"folders/Objects/Ending.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"obj_cosmeticblcon",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Events",
+    "path":"folders/Objects/Overworld/Events.yy",
   },
   "parentObjectId":null,
   "persistent":false,

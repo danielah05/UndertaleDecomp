@@ -11,8 +11,8 @@
   "name":"obj_quicheguilt",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Unused",
+    "path":"folders/Objects/Battle/Unused.yy",
   },
   "parentObjectId":null,
   "persistent":true,

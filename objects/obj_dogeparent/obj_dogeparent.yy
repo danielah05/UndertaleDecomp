@@ -6,8 +6,8 @@
   "name":"obj_dogeparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Parent",
+    "path":"folders/Objects/Battle/Parent.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

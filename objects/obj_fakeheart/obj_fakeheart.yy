@@ -13,8 +13,8 @@
   "name":"obj_fakeheart",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Soul",
+    "path":"folders/Objects/Battle/Soul.yy",
   },
   "parentObjectId":null,
   "persistent":false,

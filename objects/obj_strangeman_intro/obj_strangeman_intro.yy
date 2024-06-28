@@ -11,8 +11,8 @@
   "name":"obj_strangeman_intro",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Reaperbird",
+    "path":"folders/Objects/Battle/Characters/Reaperbird.yy",
   },
   "parentObjectId":null,
   "persistent":false,

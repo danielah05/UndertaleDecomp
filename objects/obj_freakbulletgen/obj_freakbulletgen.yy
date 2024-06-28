@@ -9,8 +9,8 @@
   "name":"obj_freakbulletgen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Memoryhead",
+    "path":"folders/Objects/Battle/Characters/Memoryhead.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

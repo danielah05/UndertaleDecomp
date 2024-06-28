@@ -15,8 +15,8 @@
   "name":"obj_moldessa",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Moldessa",
+    "path":"folders/Objects/Battle/Characters/Moldessa.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

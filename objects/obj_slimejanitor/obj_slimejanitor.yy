@@ -10,8 +10,8 @@
   "name":"obj_slimejanitor",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Hotland",
+    "path":"folders/Objects/Overworld/Hotland.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

@@ -14,8 +14,8 @@
   "name":"obj_aaron",
   "overriddenProperties":[],
   "parent":{
-    "name":"IDK",
-    "path":"folders/Objects/Battle/IDK.yy",
+    "name":"Aaron",
+    "path":"folders/Objects/Battle/Characters/Aaron.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

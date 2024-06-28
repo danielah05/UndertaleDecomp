@@ -15,8 +15,8 @@
   "name":"obj_dogeB",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Doge B",
+    "path":"folders/Objects/Battle/Characters/Unused/Doge B.yy",
   },
   "parentObjectId":{
     "name":"obj_dogeparent",

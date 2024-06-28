@@ -10,8 +10,8 @@
   "name":"obj_shyrenstrewn",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Unused",
+    "path":"folders/Objects/Overworld/Waterfall/Unused.yy",
   },
   "parentObjectId":{
     "name":"obj_readable",
