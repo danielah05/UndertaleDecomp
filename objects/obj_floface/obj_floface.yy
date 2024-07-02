@@ -6,8 +6,8 @@
   "name":"obj_floface",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Faces",
+    "path":"folders/Objects/Faces.yy",
   },
   "parentObjectId":{
     "name":"obj_face",

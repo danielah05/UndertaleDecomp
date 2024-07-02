@@ -10,8 +10,8 @@
   "name":"obj_black_ender",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"System",
+    "path":"folders/Objects/System.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -6,8 +6,8 @@
   "name":"obj_bonewall_normal",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"UNSORTED BULLETS",
+    "path":"folders/Objects/Battle/UNSORTED BULLETS.yy",
   },
   "parentObjectId":{
     "name":"obj_sansbullet_parent",

@@ -6,8 +6,8 @@
   "name":"obj_diagoparent",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Solids",
+    "path":"folders/Objects/Common/Solids.yy",
   },
   "parentObjectId":null,
   "persistent":false,

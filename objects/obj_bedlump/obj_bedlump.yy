@@ -12,8 +12,8 @@
   "name":"obj_bedlump",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
