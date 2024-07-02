@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_shop_divider_pos",
   "isCompatibility":true,
   "isDnD":false,

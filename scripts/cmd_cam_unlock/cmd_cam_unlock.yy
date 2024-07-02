@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_cam_unlock",
   "isCompatibility":false,
   "isDnD":false,

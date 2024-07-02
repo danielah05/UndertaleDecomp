@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_room_goto_prev",
   "isCompatibility":false,
   "isDnD":false,

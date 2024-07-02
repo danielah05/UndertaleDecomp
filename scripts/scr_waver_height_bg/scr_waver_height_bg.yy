@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_waver_height_bg",
   "isCompatibility":true,
   "isDnD":false,

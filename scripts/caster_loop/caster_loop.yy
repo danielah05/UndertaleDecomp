@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"caster_loop",
   "isCompatibility":true,
   "isDnD":false,

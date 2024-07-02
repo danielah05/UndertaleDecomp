@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_gold_set",
   "isCompatibility":false,
   "isDnD":false,

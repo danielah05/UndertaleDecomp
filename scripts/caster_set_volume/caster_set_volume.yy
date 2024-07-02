@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"caster_set_volume",
   "isCompatibility":true,
   "isDnD":false,

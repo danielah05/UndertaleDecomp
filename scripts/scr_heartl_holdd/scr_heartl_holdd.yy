@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_heartl_holdd",
   "isCompatibility":true,
   "isDnD":false,

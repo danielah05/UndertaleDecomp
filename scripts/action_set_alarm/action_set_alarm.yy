@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"action_set_alarm",
   "isCompatibility":true,
   "isDnD":false,

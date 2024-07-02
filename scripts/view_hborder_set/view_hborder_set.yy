@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"view_hborder_set",
   "isCompatibility":false,
   "isDnD":false,

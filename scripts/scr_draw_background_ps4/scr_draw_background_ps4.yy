@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_draw_background_ps4",
   "isCompatibility":true,
   "isDnD":false,

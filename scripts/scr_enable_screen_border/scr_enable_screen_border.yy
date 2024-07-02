@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_enable_screen_border",
   "isCompatibility":true,
   "isDnD":false,

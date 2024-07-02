@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_namingscreen_setup",
   "isCompatibility":true,
   "isDnD":false,

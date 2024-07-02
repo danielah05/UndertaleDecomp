@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_trigger_show",
   "isCompatibility":false,
   "isDnD":false,

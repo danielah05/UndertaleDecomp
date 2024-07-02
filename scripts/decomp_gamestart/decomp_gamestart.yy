@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"decomp_gamestart",
   "isCompatibility":false,
   "isDnD":false,

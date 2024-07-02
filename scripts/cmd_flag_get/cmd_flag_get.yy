@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_flag_get",
   "isCompatibility":false,
   "isDnD":false,

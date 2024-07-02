@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"obj_writer_set_halt",
   "isCompatibility":false,
   "isDnD":false,

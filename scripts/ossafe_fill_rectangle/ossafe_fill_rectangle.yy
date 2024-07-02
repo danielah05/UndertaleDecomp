@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ossafe_fill_rectangle",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_background_part_ext",
   "isCompatibility":true,
   "isDnD":false,

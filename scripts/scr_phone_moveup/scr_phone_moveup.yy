@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_phone_moveup",
   "isCompatibility":true,
   "isDnD":false,

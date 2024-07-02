@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_npc_watch",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"decomp_init",
   "isCompatibility":false,
   "isDnD":false,

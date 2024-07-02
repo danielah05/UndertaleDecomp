@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_insideborder",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"snd_stop",
   "isCompatibility":true,
   "isDnD":false,

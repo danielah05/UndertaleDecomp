@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"attention_hackerz_no_2",
   "isCompatibility":true,
   "isDnD":false,

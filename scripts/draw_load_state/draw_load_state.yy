@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_load_state",
   "isCompatibility":false,
   "isDnD":false,

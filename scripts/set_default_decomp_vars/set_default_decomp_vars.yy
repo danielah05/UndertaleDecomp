@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"set_default_decomp_vars",
   "isCompatibility":false,
   "isDnD":false,

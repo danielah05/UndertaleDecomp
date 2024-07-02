@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_recover",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_gotobattle",
   "isCompatibility":true,
   "isDnD":false,

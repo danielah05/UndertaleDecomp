@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"joystick_direction",
   "isCompatibility":true,
   "isDnD":false,

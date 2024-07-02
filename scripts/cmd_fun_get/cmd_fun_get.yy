@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_fun_get",
   "isCompatibility":false,
   "isDnD":false,

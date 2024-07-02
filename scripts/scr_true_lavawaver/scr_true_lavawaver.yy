@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_true_lavawaver",
   "isCompatibility":true,
   "isDnD":false,

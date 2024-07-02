@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_game_crash",
   "isCompatibility":false,
   "isDnD":false,

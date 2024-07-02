@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_turnb",
   "isCompatibility":true,
   "isDnD":false,

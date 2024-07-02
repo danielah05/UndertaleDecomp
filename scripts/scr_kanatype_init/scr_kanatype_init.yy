@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_kanatype_init",
   "isCompatibility":true,
   "isDnD":false,

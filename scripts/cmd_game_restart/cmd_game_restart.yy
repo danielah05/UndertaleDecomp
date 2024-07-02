@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_game_restart",
   "isCompatibility":false,
   "isDnD":false,

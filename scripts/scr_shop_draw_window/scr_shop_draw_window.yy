@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_shop_draw_window",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_damagestandard_x",
   "isCompatibility":true,
   "isDnD":false,

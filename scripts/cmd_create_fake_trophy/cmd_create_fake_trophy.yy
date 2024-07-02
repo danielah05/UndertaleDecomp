@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_create_fake_trophy",
   "isCompatibility":false,
   "isDnD":false,

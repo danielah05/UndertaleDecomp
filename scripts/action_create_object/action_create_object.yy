@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"action_create_object",
   "isCompatibility":true,
   "isDnD":false,

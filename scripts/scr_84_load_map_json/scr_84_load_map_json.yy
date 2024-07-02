@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_84_load_map_json",
   "isCompatibility":false,
   "isDnD":false,

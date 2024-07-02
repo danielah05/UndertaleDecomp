@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_fx_waver",
   "isCompatibility":true,
   "isDnD":false,

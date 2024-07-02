@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"cmd_sv_cheats",
   "isCompatibility":false,
   "isDnD":false,

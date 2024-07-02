@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"action_kill_object",
   "isCompatibility":true,
   "isDnD":false,

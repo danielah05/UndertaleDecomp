@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"crash_method",
   "isCompatibility":false,
   "isDnD":false,

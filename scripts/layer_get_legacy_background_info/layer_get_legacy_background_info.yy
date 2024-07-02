@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"layer_get_legacy_background_info",
   "isCompatibility":false,
   "isDnD":false,

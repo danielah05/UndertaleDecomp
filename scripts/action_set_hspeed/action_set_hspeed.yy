@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"action_set_hspeed",
   "isCompatibility":true,
   "isDnD":false,

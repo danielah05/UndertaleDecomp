@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"joystick_buttons",
   "isCompatibility":true,
   "isDnD":false,
