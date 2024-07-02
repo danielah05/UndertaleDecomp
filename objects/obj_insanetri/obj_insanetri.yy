@@ -9,8 +9,8 @@
   "name":"obj_insanetri",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Unused",
+    "path":"folders/Objects/Battle/Characters/Memoryhead/Unused.yy",
   },
   "parentObjectId":null,
   "persistent":false,

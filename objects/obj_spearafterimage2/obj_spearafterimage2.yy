@@ -9,8 +9,8 @@
   "name":"obj_spearafterimage2",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Asgore",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asgore.yy",
   },
   "parentObjectId":null,
   "persistent":false,

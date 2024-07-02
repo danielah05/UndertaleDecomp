@@ -9,8 +9,8 @@
   "name":"obj_planeexhaust",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Tsunderplane",
+    "path":"folders/Objects/Battle/Characters/Tsunderplane.yy",
   },
   "parentObjectId":null,
   "persistent":false,

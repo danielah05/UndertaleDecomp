@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Unused",
-    "path":"folders/Objects/Battle/Unused.yy",
+    "path":"folders/Objects/Overworld/Items/Unused.yy",
   },
   "parentObjectId":null,
   "persistent":true,

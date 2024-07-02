@@ -11,8 +11,8 @@
   "name":"obj_regstar_blt",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Asriel",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asriel.yy",
   },
   "parentObjectId":{
     "name":"obj_asbulletparent",

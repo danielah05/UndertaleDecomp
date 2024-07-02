@@ -12,8 +12,8 @@
   "name":"obj_milkofhell_shot",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Hotland",
+    "path":"folders/Objects/Overworld/Hotland.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"obj_lastruins_bg",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Background",
+    "path":"folders/Objects/Overworld/Background.yy",
   },
   "parentObjectId":null,
   "persistent":false,

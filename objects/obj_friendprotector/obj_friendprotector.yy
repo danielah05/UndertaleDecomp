@@ -10,8 +10,8 @@
   "name":"obj_friendprotector",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Battle",
+    "path":"folders/Objects/Battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,8 +12,8 @@
   "name":"obj_sansshadowgen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Sans",
+    "path":"folders/Objects/Battle/Characters/Sans.yy",
   },
   "parentObjectId":null,
   "persistent":false,

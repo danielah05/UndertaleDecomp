@@ -9,8 +9,8 @@
   "name":"obj_handbulletgen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Shared Bullets",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Shared Bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

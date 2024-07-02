@@ -16,8 +16,8 @@
   "name":"obj_knighthammer",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Knight Knight",
+    "path":"folders/Objects/Battle/Characters/Knight Knight.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

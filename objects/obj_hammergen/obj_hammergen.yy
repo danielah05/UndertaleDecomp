@@ -9,8 +9,8 @@
   "name":"obj_hammergen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Knight Knight",
+    "path":"folders/Objects/Battle/Characters/Knight Knight.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

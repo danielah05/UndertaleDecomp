@@ -11,8 +11,8 @@
   "name":"obj_sinefiregen_asglv3",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"UNSORTED BULLETS",
+    "path":"folders/Objects/Battle/UNSORTED BULLETS.yy",
   },
   "parentObjectId":null,
   "persistent":false,

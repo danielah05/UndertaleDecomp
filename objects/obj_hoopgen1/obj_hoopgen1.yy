@@ -11,8 +11,8 @@
   "name":"obj_hoopgen1",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Loox",
+    "path":"folders/Objects/Battle/Characters/Loox.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

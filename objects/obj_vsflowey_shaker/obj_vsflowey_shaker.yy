@@ -10,8 +10,8 @@
   "name":"obj_vsflowey_shaker",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Common",
+    "path":"folders/Objects/Battle/Characters/Omega Flowey/Common.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,8 +11,8 @@
   "name":"obj_switch_room",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Core",
+    "path":"folders/Objects/Overworld/Hotland/Core.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable",

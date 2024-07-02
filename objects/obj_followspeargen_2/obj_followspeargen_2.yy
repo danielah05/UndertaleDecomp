@@ -10,8 +10,8 @@
   "name":"obj_followspeargen_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"EX",
+    "path":"folders/Objects/Battle/Characters/Undyne/EX.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"obj_sweatbulgen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Aaron",
+    "path":"folders/Objects/Battle/Characters/Aaron.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",
