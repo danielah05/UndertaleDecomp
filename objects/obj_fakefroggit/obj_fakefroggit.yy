@@ -16,8 +16,8 @@
   "name":"obj_fakefroggit",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Froggit",
+    "path":"folders/Objects/Battle/Characters/Froggit.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

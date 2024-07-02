@@ -8,8 +8,8 @@
   "name":"obj_f_gamestart",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Omega Flowey",
+    "path":"folders/Objects/Overworld/Omega Flowey.yy",
   },
   "parentObjectId":null,
   "persistent":false,

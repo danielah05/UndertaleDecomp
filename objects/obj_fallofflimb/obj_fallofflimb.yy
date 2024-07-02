@@ -9,8 +9,8 @@
   "name":"obj_fallofflimb",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Mettaton",
+    "path":"folders/Objects/Battle/Characters/Mettaton.yy",
   },
   "parentObjectId":null,
   "persistent":false,

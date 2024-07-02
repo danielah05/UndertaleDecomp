@@ -45,8 +45,8 @@
   "name":"obj_flowey_master",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Common",
+    "path":"folders/Objects/Battle/Characters/Omega Flowey/Common.yy",
   },
   "parentObjectId":null,
   "persistent":false,

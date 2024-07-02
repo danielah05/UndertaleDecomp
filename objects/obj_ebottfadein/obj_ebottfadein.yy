@@ -11,8 +11,8 @@
   "name":"obj_ebottfadein",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Credits",
+    "path":"folders/Objects/Credits.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -10,8 +10,8 @@
   "name":"obj_firestormgen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asgore/Bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

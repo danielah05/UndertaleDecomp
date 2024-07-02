@@ -13,8 +13,8 @@
   "name":"obj_butterflyhead",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Reaperbird",
+    "path":"folders/Objects/Battle/Characters/Reaperbird.yy",
   },
   "parentObjectId":{
     "name":"obj_amalgambul_parent",
