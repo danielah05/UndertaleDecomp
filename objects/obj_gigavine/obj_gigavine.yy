@@ -13,8 +13,8 @@
   "name":"obj_gigavine",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Common",
+    "path":"folders/Objects/Battle/Characters/Omega Flowey/Common.yy",
   },
   "parentObjectId":{
     "name":"obj_floweybullet_parent",

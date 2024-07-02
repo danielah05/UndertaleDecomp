@@ -9,8 +9,8 @@
   "name":"obj_friendgraph",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Date",
+    "path":"folders/Objects/Date.yy",
   },
   "parentObjectId":null,
   "persistent":false,

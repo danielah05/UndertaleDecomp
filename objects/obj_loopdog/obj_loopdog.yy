@@ -13,8 +13,8 @@
   "name":"obj_loopdog",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Dog Guards",
+    "path":"folders/Objects/Battle/Characters/Dog Guards.yy",
   },
   "parentObjectId":{
     "name":"blt_parent",

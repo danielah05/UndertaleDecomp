@@ -13,8 +13,8 @@
   "name":"obj_labelevator_a",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Common",
+    "path":"folders/Objects/Overworld/Common.yy",
   },
   "parentObjectId":null,
   "persistent":false,

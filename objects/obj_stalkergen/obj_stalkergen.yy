@@ -9,8 +9,8 @@
   "name":"obj_stalkergen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Moldsmal",
+    "path":"folders/Objects/Battle/Characters/Moldsmal.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

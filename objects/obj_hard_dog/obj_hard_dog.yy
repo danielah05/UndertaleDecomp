@@ -9,8 +9,8 @@
   "name":"obj_hard_dog",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Toriel",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Toriel.yy",
   },
   "parentObjectId":null,
   "persistent":false,

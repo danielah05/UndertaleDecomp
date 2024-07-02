@@ -8,8 +8,8 @@
   "name":"obj_garden_overlayshadow",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Castle",
+    "path":"folders/Objects/Overworld/Castle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

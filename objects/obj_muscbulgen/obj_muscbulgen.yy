@@ -10,8 +10,8 @@
   "name":"obj_muscbulgen",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Shyren",
+    "path":"folders/Objects/Battle/Characters/Shyren.yy",
   },
   "parentObjectId":{
     "name":"obj_bulletgenparent",

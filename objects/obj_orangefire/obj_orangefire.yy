@@ -12,8 +12,8 @@
   "name":"obj_orangefire",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Pyrope",
+    "path":"folders/Objects/Battle/Characters/Pyrope.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

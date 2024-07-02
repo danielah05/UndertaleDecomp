@@ -10,8 +10,8 @@
   "name":"obj_sonbullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Astigmatism",
+    "path":"folders/Objects/Battle/Characters/Astigmatism.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

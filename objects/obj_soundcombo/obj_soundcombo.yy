@@ -10,8 +10,8 @@
   "name":"obj_soundcombo",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Items",
+    "path":"folders/Objects/Battle/Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

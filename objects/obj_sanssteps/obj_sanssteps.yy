@@ -9,8 +9,8 @@
   "name":"obj_sanssteps",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Unused",
+    "path":"folders/Objects/Unused.yy",
   },
   "parentObjectId":{
     "name":"obj_readable",

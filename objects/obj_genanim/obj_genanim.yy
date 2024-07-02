@@ -8,8 +8,8 @@
   "name":"obj_genanim",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Tile Puzzle",
+    "path":"folders/Objects/Overworld/Tile Puzzle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"obj_roundedge",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Asriel",
+    "path":"folders/Objects/Battle/Characters/Dreamurr/Asriel.yy",
   },
   "parentObjectId":null,
   "persistent":false,

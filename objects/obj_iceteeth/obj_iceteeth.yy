@@ -10,8 +10,8 @@
   "name":"obj_iceteeth",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Ice cap",
+    "path":"folders/Objects/Battle/Characters/Ice cap.yy",
   },
   "parentObjectId":{
     "name":"blt_bluespear",

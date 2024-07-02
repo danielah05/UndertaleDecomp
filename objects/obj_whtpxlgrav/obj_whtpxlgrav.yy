@@ -10,8 +10,8 @@
   "name":"obj_whtpxlgrav",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Pixels",
+    "path":"folders/Objects/Common/Pixels.yy",
   },
   "parentObjectId":null,
   "persistent":false,

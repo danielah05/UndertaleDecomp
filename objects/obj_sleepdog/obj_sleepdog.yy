@@ -13,8 +13,8 @@
   "name":"obj_sleepdog",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Greater Dog",
+    "path":"folders/Objects/Battle/Characters/Greater Dog.yy",
   },
   "parentObjectId":{
     "name":"blt_parent_noborder",

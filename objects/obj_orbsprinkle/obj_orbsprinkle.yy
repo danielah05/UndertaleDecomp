@@ -9,8 +9,8 @@
   "name":"obj_orbsprinkle",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Madjick",
+    "path":"folders/Objects/Battle/Characters/Madjick.yy",
   },
   "parentObjectId":null,
   "persistent":false,

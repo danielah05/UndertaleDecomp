@@ -10,8 +10,8 @@
   "name":"obj_waterstar_bg",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Background",
+    "path":"folders/Objects/Overworld/Background.yy",
   },
   "parentObjectId":{
     "name":"obj_backgrounder_parent",

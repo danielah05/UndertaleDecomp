@@ -17,8 +17,8 @@
   "name":"obj_spearblocker",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Undyne",
+    "path":"folders/Objects/Battle/Characters/Undyne.yy",
   },
   "parentObjectId":null,
   "persistent":false,

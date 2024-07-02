@@ -9,8 +9,8 @@
   "name":"obj_populationgraph",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Date",
+    "path":"folders/Objects/Date.yy",
   },
   "parentObjectId":{
     "name":"obj_graphparent",

@@ -10,8 +10,8 @@
   "name":"obj_sadspider",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Muffet",
+    "path":"folders/Objects/Battle/Characters/Muffet.yy",
   },
   "parentObjectId":null,
   "persistent":false,

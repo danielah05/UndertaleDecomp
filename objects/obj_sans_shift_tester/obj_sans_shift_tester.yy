@@ -8,8 +8,8 @@
   "name":"obj_sans_shift_tester",
   "overriddenProperties":[],
   "parent":{
-    "name":"unsorted",
-    "path":"folders/Objects/unsorted.yy",
+    "name":"Sans",
+    "path":"folders/Objects/Battle/Characters/Sans.yy",
   },
   "parentObjectId":null,
   "persistent":false,
