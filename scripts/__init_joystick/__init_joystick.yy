@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"__init_joystick",
   "isCompatibility":true,
   "isDnD":false,

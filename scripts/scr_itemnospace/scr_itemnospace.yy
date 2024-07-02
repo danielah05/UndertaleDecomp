@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_itemnospace",
   "isCompatibility":true,
   "isDnD":false,

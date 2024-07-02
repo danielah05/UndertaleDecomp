@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ossafe_file_text_open_read",
   "isCompatibility":true,
   "isDnD":false,

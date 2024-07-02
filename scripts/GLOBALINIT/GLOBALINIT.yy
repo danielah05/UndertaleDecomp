@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"GLOBALINIT",
   "isCompatibility":false,
   "isDnD":false,

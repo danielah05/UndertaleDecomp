@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_halfheart_damage",
   "isCompatibility":true,
   "isDnD":false,

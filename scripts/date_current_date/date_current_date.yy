@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"date_current_date",
   "isCompatibility":true,
   "isDnD":false,

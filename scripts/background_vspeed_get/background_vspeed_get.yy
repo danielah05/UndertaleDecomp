@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"background_vspeed_get",
   "isCompatibility":false,
   "isDnD":false,

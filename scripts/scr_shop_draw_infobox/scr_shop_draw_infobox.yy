@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_shop_draw_infobox",
   "isCompatibility":true,
   "isDnD":false,

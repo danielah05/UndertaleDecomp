@@ -1,5 +1,5 @@
 {
-  "$GMRoom":"",
+  "$GMRoom":"v1",
   "%Name":"room_end_myroom",
   "creationCodeFile":null,
   "inheritCode":false,
@@ -11,7 +11,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Compatibility_Instances_Depth_2000","depth":2000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_2DD6FDE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DD6FDE6","objectId":{"name":"obj_endmyroom","path":"objects/obj_endmyroom/obj_endmyroom.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":80.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2DD6FDE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DD6FDE6","objectId":{"name":"obj_endmyroom","path":"objects/obj_endmyroom/obj_endmyroom.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":80.0,},
       ],"layers":[],"name":"Compatibility_Instances_Depth_2000","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Compatibility_Tiles_Depth_900000","assets":[
         {"$GMRGraphic":"","%Name":"inst_73BD5823","colour":4294967295,"frozen":false,"h":54,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"inst_73BD5823","resourceType":"GMRGraphic","resourceVersion":"2.0","spriteId":{"name":"bg_mebed","path":"sprites/bg_mebed/bg_mebed.yy",},"u0":0,"u1":36,"v0":0,"v1":54,"w":36,"x":220.0,"y":100.0,},

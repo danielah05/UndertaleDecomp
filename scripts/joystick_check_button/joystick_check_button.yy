@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"joystick_check_button",
   "isCompatibility":true,
   "isDnD":false,

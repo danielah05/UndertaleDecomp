@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"c_borderheight",
   "isCompatibility":true,
   "isDnD":false,

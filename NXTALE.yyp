@@ -110,7 +110,6 @@
     {"$GMFolder":"","%Name":"Event","folderPath":"folders/Objects/Event.yy","name":"Event","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Faces","folderPath":"folders/Objects/Faces.yy","name":"Faces","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gaster","folderPath":"folders/Objects/Gaster.yy","name":"Gaster","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"unsorted","folderPath":"folders/Objects/unsorted.yy","name":"unsorted","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Objects/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Objects/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fade","folderPath":"folders/Objects/Music/Fade.yy","name":"Fade","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -585,7 +584,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.6.0.157",
   },
   "name":"NXTALE",
   "resources":[

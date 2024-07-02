@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sleep_x",
   "isCompatibility":true,
   "isDnD":false,

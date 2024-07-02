@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"background_index_get",
   "isCompatibility":false,
   "isDnD":false,

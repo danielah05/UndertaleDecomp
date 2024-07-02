@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_battlemenu_cursor_y",
   "isCompatibility":true,
   "isDnD":false,

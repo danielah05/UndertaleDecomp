@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_6bparent",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_vsflowey_heart","path":"objects/obj_vsflowey_heart/obj_vsflowey_heart.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_vsflowey_heart","path":"objects/obj_vsflowey_heart/obj_vsflowey_heart.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_6bparent",

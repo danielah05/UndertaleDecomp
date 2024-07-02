@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"trophy_unlock",
   "isCompatibility":true,
   "isDnD":false,

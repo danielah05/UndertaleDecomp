@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ossafe_game_end",
   "isCompatibility":true,
   "isDnD":false,

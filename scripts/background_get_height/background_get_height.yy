@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"background_get_height",
   "isCompatibility":true,
   "isDnD":false,

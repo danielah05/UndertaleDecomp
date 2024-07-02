@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_draw_name_curs",
   "isCompatibility":true,
   "isDnD":false,

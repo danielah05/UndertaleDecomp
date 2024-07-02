@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"draw_self_custom_x",
   "isCompatibility":true,
   "isDnD":false,

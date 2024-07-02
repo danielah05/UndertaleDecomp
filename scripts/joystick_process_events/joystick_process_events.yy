@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"joystick_process_events",
   "isCompatibility":true,
   "isDnD":false,

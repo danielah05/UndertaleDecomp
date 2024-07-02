@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"__joystick_2_gamepad",
   "isCompatibility":true,
   "isDnD":false,

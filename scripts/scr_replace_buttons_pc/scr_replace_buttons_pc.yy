@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_replace_buttons_pc",
   "isCompatibility":true,
   "isDnD":false,

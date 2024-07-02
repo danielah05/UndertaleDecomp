@@ -1,5 +1,5 @@
 {
-  "$GMRoom":"",
+  "$GMRoom":"v1",
   "%Name":"room_end_school",
   "creationCodeFile":null,
   "inheritCode":false,
@@ -11,7 +11,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Compatibility_Instances_Depth_-1","depth":-1,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_9FBC938E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9FBC938E","objectId":{"name":"obj_endschoolanim","path":"objects/obj_endschoolanim/obj_endschoolanim.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":24.0,"y":445.0,},
+        {"$GMRInstance":"v1","%Name":"inst_9FBC938E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9FBC938E","objectId":{"name":"obj_endschoolanim","path":"objects/obj_endschoolanim/obj_endschoolanim.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":24.0,"y":445.0,},
       ],"layers":[],"name":"Compatibility_Instances_Depth_-1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Compatibility_Tiles_Depth_900000","assets":[
         {"$GMRGraphic":"","%Name":"inst_1616514A","colour":4294967295,"frozen":false,"h":82,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"inst_1616514A","resourceType":"GMRGraphic","resourceVersion":"2.0","spriteId":{"name":"bg_papbush","path":"sprites/bg_papbush/bg_papbush.yy",},"u0":0,"u1":46,"v0":0,"v1":82,"w":46,"x":270.0,"y":340.0,},

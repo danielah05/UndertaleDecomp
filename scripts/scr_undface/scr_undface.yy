@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_undface",
   "isCompatibility":true,
   "isDnD":false,

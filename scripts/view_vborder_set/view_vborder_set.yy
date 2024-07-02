@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"view_vborder_set",
   "isCompatibility":false,
   "isDnD":false,

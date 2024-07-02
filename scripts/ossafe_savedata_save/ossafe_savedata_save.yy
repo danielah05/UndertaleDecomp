@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ossafe_savedata_save",
   "isCompatibility":true,
   "isDnD":false,

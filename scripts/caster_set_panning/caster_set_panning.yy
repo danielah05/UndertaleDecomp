@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"caster_set_panning",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"caster_set_pitch",
   "isCompatibility":true,
   "isDnD":false,

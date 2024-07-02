@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"SCR_THATCH",
   "isCompatibility":true,
   "isDnD":false,

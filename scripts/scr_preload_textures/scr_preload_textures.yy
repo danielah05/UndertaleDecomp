@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_preload_textures",
   "isCompatibility":true,
   "isDnD":false,

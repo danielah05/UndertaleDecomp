@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_floweybodyload",
   "isCompatibility":true,
   "isDnD":false,

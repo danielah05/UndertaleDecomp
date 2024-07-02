@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_conshake",
   "isCompatibility":true,
   "isDnD":false,

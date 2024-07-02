@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_credits_short_draw_name",
   "isCompatibility":true,
   "isDnD":false,

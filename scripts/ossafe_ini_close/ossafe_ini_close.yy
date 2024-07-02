@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ossafe_ini_close",
   "isCompatibility":true,
   "isDnD":false,

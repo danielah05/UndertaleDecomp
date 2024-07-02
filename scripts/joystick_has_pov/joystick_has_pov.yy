@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"joystick_has_pov",
   "isCompatibility":true,
   "isDnD":false,

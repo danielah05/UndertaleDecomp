@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"action_set_relative",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_waver_lava",
   "isCompatibility":true,
   "isDnD":false,

@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"string_to_hiragana",
   "isCompatibility":true,
   "isDnD":false,

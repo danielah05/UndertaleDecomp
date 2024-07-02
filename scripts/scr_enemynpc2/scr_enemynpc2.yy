@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_enemynpc2",
   "isCompatibility":true,
   "isDnD":false,

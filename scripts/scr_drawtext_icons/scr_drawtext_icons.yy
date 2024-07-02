@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_drawtext_icons",
   "isCompatibility":true,
   "isDnD":false,

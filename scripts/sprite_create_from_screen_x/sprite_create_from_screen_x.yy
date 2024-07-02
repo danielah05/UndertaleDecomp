@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"sprite_create_from_screen_x",
   "isCompatibility":true,
   "isDnD":false,

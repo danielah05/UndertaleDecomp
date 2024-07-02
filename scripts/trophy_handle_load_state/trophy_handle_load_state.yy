@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"trophy_handle_load_state",
   "isCompatibility":true,
   "isDnD":false,
