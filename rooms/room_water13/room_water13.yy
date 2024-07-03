@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_8E28E40D","path":"rooms/room_water13/room_water13.yy",},
     {"name":"inst_F01E9AB5","path":"rooms/room_water13/room_water13.yy",},
     {"name":"inst_74C1082D","path":"rooms/room_water13/room_water13.yy",},
     {"name":"inst_09757695","path":"rooms/room_water13/room_water13.yy",},
