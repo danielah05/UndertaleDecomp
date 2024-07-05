@@ -11,8 +11,8 @@
   "name":"obj_bigdog",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"NPC",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/NPC.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

@@ -12,8 +12,8 @@
   "name":"obj_paptv",
   "overriddenProperties":[],
   "parent":{
-    "name":"Skeleton House",
-    "path":"folders/Objects/Overworld/Tundra/Snowdin/Skeleton House.yy",
+    "name":"Sans Papyrus House",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Sans Papyrus House.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

@@ -14,8 +14,8 @@
   "name":"obj_sansdoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Sans Papyrus House",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Sans Papyrus House.yy",
   },
   "parentObjectId":{
     "name":"obj_readable",

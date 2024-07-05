@@ -6,8 +6,8 @@
   "name":"obj_silo1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Snowdin",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin.yy",
   },
   "parentObjectId":null,
   "persistent":false,

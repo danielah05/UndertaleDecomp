@@ -10,8 +10,8 @@
   "name":"obj_throwwolf",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"NPC",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/NPC.yy",
   },
   "parentObjectId":null,
   "persistent":false,

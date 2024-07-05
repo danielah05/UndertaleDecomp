@@ -10,8 +10,8 @@
   "name":"obj_snoozer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Inn",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Inn.yy",
   },
   "parentObjectId":null,
   "persistent":false,

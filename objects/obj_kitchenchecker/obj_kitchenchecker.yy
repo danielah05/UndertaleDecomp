@@ -12,8 +12,8 @@
   "name":"obj_kitchenchecker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Sans Papyrus House",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Sans Papyrus House.yy",
   },
   "parentObjectId":null,
   "persistent":false,

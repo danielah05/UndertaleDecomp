@@ -9,8 +9,8 @@
   "name":"obj_darkplant",
   "overriddenProperties":[],
   "parent":{
-    "name":"Snowdin",
-    "path":"folders/Objects/Overworld/Tundra/Snowdin.yy",
+    "name":"True Lab",
+    "path":"folders/Objects/Overworld/True Lab.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",
