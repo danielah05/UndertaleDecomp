@@ -8,8 +8,8 @@
   "name":"obj_cutetable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Library",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Library.yy",
   },
   "parentObjectId":null,
   "persistent":false,

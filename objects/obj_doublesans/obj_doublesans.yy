@@ -10,8 +10,8 @@
   "name":"obj_doublesans",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"NPC",
+    "path":"folders/Objects/Overworld/Tundra/NPC.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

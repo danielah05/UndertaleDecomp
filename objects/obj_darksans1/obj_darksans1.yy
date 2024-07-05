@@ -17,8 +17,8 @@
   "name":"obj_darksans1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"NPC",
+    "path":"folders/Objects/Overworld/Tundra/NPC.yy",
   },
   "parentObjectId":null,
   "persistent":false,

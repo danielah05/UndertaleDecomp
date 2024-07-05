@@ -10,8 +10,8 @@
   "name":"obj_readable_modernbook",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Library",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Library.yy",
   },
   "parentObjectId":{
     "name":"obj_readable",

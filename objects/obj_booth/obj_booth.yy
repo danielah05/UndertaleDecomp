@@ -8,8 +8,8 @@
   "name":"obj_booth",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Grillbys",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Grillbys.yy",
   },
   "parentObjectId":{
     "name":"obj_solidsmall",

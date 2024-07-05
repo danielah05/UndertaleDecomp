@@ -10,8 +10,8 @@
   "name":"obj_teleigloo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Snowdin",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin.yy",
   },
   "parentObjectId":null,
   "persistent":false,

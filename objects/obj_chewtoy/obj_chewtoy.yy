@@ -9,8 +9,8 @@
   "name":"obj_chewtoy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Garage",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Garage.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

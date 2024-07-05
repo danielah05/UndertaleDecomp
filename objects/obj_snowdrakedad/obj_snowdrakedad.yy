@@ -10,8 +10,8 @@
   "name":"obj_snowdrakedad",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Hotland",
+    "path":"folders/Objects/Overworld/Hotland.yy",
   },
   "parentObjectId":{
     "name":"obj_readablesolid",

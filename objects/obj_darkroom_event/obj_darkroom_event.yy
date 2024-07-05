@@ -12,8 +12,8 @@
   "name":"obj_darkroom_event",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tundra",
-    "path":"folders/Objects/Overworld/Tundra.yy",
+    "name":"Events",
+    "path":"folders/Objects/Overworld/Tundra/Snowdin/Events.yy",
   },
   "parentObjectId":null,
   "persistent":false,
