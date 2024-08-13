@@ -2,9 +2,9 @@
 /// @desc	(Legacy GM) Returns the joysticks point-of view position.
 /// @param	{real}	id	The id of the joystick (1 or 2).
 /// @return	{real}
-function joystick_pov()
+function joystick_pov(_id)
 {
-	var jid = __joystick_2_gamepad(argument0)
+	var jid = __joystick_2_gamepad(_id)
 	var mask = 0
 	mask |= gamepad_button_value(jid, gp_padu) > 0
 	mask |= (gamepad_button_value(jid, gp_padr) > 0 ? 2 : 0)
