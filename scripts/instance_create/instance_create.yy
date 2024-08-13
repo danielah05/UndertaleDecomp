@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"instance_create",
   "parent":{
-    "name":"Extension",
-    "path":"folders/Scripts/Common/Extension.yy",
+    "name":"Instance, Object",
+    "path":"folders/Scripts/Deprecated Wrapper/Instance, Object.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

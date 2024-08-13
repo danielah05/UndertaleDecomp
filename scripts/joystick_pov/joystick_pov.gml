@@ -1,3 +1,7 @@
+/// @func	joystick_pov(id)
+/// @desc	(Legacy GM) Returns the joysticks point-of view position.
+/// @param	{real}	id	The id of the joystick (1 or 2).
+/// @return	{real}
 function joystick_pov()
 {
 	var jid = __joystick_2_gamepad(argument0)

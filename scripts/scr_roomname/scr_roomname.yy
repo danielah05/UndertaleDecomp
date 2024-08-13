@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_roomname",
   "parent":{
-    "name":"Extension",
-    "path":"folders/Scripts/Common/Extension.yy",
+    "name":"Room",
+    "path":"folders/Scripts/Deprecated Wrapper/Room.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
