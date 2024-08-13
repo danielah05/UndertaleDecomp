@@ -1,8 +1,13 @@
-function joystick_check_button()
+/// @func	joystick_check_button(id, numb)
+/// @desc	(Legacy GM) Checks to see if a joystick button has been pressed.
+/// @param	{real}	id	The id of the joystick (1 or 2).
+/// @param	{real}	numb	 The number of the button to check (from 1 to 32). 
+/// @return	{bool}
+function joystick_check_button(_id, _numb)
 {
-	var jid = __joystick_2_gamepad(argument0)
+	var jid = __joystick_2_gamepad(_id)
 	var button = 0
-	switch argument1
+	switch _numb
 	{
 	    case 0:
 	        button = gp_face1
@@ -41,7 +46,7 @@ function joystick_check_button()
 	        button = gp_stickr
 	        break
 	    default:
-	        button = argument1
+	        button = _numb
 	        break
 	}
 	
