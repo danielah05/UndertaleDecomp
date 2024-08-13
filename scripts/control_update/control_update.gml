@@ -1,3 +1,5 @@
+/// @func	control_update
+/// @desc	Updates controller and keyboard inputs
 function control_update()
 {
 	var new_state = (keyboard_check(ord("Z")) || keyboard_check(vk_return))

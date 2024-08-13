@@ -210,6 +210,8 @@
     {"$GMFolder":"","%Name":"Internal","folderPath":"folders/Scripts/Deprecated Wrapper/Background/Internal.yy","name":"Internal","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Global","folderPath":"folders/Scripts/Deprecated Wrapper/Global.yy","name":"Global","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Init","folderPath":"folders/Scripts/Deprecated Wrapper/Global/Init.yy","name":"Init","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Instance, Object","folderPath":"folders/Scripts/Deprecated Wrapper/Instance, Object.yy","name":"Instance, Object","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Room","folderPath":"folders/Scripts/Deprecated Wrapper/Room.yy","name":"Room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"View","folderPath":"folders/Scripts/Deprecated Wrapper/View.yy","name":"View","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Drawing","folderPath":"folders/Scripts/Drawing.yy","name":"Drawing","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Effect","folderPath":"folders/Scripts/Drawing/Effect.yy","name":"Effect","resourceType":"GMFolder","resourceVersion":"2.0",},

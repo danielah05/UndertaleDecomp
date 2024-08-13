@@ -1,3 +1,7 @@
+/// @func	joystick_direction(id)
+/// @desc	(Legacy GM) Returns the direction of movement for the joystick.
+/// @param	{real}	id	 The id of the joystick (1 or 2).
+/// @return	{real}	vk_numpad1...9 - A virtual key code for the numberpad buttons depending on direction being pressed by the joystick/gamepad with the given id.
 function joystick_direction()
 {
 	var jid = __joystick_2_gamepad(argument0)

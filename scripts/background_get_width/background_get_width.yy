@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"background_get_width",
   "parent":{
-    "name":"Extension",
-    "path":"folders/Scripts/Common/Extension.yy",
+    "name":"Background",
+    "path":"folders/Scripts/Deprecated Wrapper/Background.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
