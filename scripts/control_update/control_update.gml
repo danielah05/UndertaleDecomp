@@ -1,4 +1,4 @@
-/// @func	control_update
+/// @func	control_update()
 /// @desc	Updates controller and keyboard inputs
 function control_update()
 {
