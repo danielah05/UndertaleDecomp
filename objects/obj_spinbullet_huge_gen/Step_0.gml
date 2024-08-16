@@ -18,7 +18,7 @@ if (counter > ((maxnum - 1) * trip))
         if instance_exists(spinbullet[i])
         {
             if (i == 0)
-                spinbullet[i].king = obj_musicobjectparent
+                spinbullet[i].king = obj_solidrailing // Daniela: decompiler error, fix this
             spinbullet[i].centerx = centerx
             spinbullet[i].centery = centery
         }

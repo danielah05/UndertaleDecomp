@@ -17,7 +17,7 @@ if (value > 255)
     value = 255
 if (value < 180)
     value = 180
-draw_set_color(make_color_hsv(160, 255, value))
+draw_set_color(old_make_color_hsv(160, 255, value))
 ossafe_fill_rectangle(x, y, (x + length), (y + 24))
 if (ideallength > length)
     length += 1

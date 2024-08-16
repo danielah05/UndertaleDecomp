@@ -129,6 +129,7 @@ if (conversation == 12)
         global.msg[0] = scr_gettext("obj_papyrus1_534")
     mydialoguer = instance_create(0, 0, obj_dialoguer)
     conversation = 13
+	show_textbox = 1
 }
 if (conversation == 13 && instance_exists(OBJ_WRITER) == false)
 {
@@ -144,7 +145,8 @@ if (conversation == 13 && instance_exists(OBJ_WRITER) == false)
 }
 if (conversation == 14 && instance_exists(OBJ_WRITER) == false)
 {
-    xxblcon = instance_create((papyrus.x + 3), (papyrus.y - 12), obj_cosmeticblcon)
+    show_textbox = 0
+	xxblcon = instance_create((papyrus.x + 3), (papyrus.y - 12), obj_cosmeticblcon)
     sans.sprite_index = sans.dtsprite
     papyrus.sprite_index = papyrus.ltsprite
     conversation = 15
@@ -159,6 +161,7 @@ if (conversation == 16)
     global.msg[0] = scr_gettext("obj_papyrus1_567")
     mydialoguer = instance_create(0, 0, obj_dialoguer)
     conversation = 17
+	show_textbox = 1
 }
 if (conversation == 17 && instance_exists(OBJ_WRITER) == false)
 {
@@ -238,7 +241,8 @@ if (conversation == 20 && instance_exists(OBJ_WRITER) == false)
 }
 if (conversation == 21 && instance_exists(OBJ_WRITER) == false)
 {
-    alarm[3] = 30
+    show_textbox = 0
+	alarm[3] = 30
     ppp = instance_create(0, 0, obj_musfadeout)
     ppp.fadespeed = 0.04
     sans.sprite_index = sans.rsprite
@@ -280,3 +284,19 @@ if (conversation == 25)
         instance_destroy()
     instance_destroy()
 }
+// Daniela: dont know the point of this yet, wanna look into it later
+if show_textbox
+{
+    if (!instance_exists(obj_xbox_temp_dialoguer))
+    {
+        if instance_exists(obj_dialoguer)
+        {
+            var temp_yy = __view_get((1 << 0), view_current)
+            temp_dialoguer = instance_create(0, 0, obj_xbox_temp_dialoguer)
+            temp_dialoguer.side = obj_dialoguer.side
+            temp_dialoguer.depth = (obj_dialoguer.depth + 10)
+        }
+    }
+}
+else if instance_exists(obj_xbox_temp_dialoguer)
+    instance_destroy(obj_xbox_temp_dialoguer)

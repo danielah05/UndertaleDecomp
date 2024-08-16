@@ -1,3 +1,5 @@
+if (myinteract == 1 && global.interact != 0)
+    myinteract = 0
 if (myinteract == 1)
 {
     if (obj_kitchenchecker.level == 0)

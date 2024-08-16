@@ -53,12 +53,14 @@ if (naming == 3)
 scr_namingscreen()
 if (naming == 3)
 {
-    var version = "1.11"
+    var version = "1.12"
     if (os_type == os_ps4)
         version += "-4"
     if (os_type == os_psvita)
         version += "-V"
+	if (os_type == os_xboxone)
+        version = "1.13X"
     draw_set_color(c_gray)
     scr_setfont(fnt_small)
-    scr_drawtext_centered(160, 232, (("UNDERTALE v" + version) + " (C) Toby Fox 2015-2018"))
+    scr_drawtext_centered(160, 232, (("UNDERTALE v" + version) + " (C) Toby Fox 2015-2022"))
 }

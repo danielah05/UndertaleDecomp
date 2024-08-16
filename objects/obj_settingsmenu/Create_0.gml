@@ -5,7 +5,7 @@ if global.to_joyconfig
     instance_destroy()
     return;
 }
-num_borders = 12
+num_borders = 13
 border_enabled[0] = 1
 border_enabled[1] = 1
 border_enabled[2] = 1
@@ -49,6 +49,12 @@ if ossafe_file_exists("undertale.ini")
             if DB
                 border_enabled[12] = 1
         }
+        if (os_type == os_xboxone)
+        {
+            var hasDonated = ini_read_real("Dogshrine", "Donated", 0)
+            if hasDonated
+                border_enabled[13] = 1
+		}
         if (EndF >= 2)
             fun = false
     }

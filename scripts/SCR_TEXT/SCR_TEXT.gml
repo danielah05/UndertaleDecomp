@@ -5514,36 +5514,64 @@ function SCR_TEXT(_dialog_id)
 	                    {
 	                        global.msg[0] = scr_gettext("SCR_TEXT_dogshrine_6095")
 	                        FL_DogShrineGDeposited += 1
-	                        if (FL_DogShrineGDeposited >= 2)
-	                            trophy_unlock("donate_1")
-	                        if (FL_DogShrineGDeposited >= 6)
-	                            trophy_unlock("donate_2")
-	                        if (FL_DogShrineGDeposited >= 12)
-	                            trophy_unlock("donate_3")
-	                        if (FL_DogShrineGDeposited >= 20)
-	                            trophy_unlock("donate_4")
-	                        if (FL_DogShrineGDeposited >= 30)
-	                            trophy_unlock("donate_5")
-	                        if (FL_DogShrineGDeposited >= 43)
-	                            trophy_unlock("donate_6")
-	                        if (FL_DogShrineGDeposited >= 59)
-	                            trophy_unlock("donate_7")
-	                        if (FL_DogShrineGDeposited >= 78)
-	                            trophy_unlock("donate_8")
-	                        if (FL_DogShrineGDeposited >= 100)
-	                            trophy_unlock("donate_9")
-	                        if (FL_DogShrineGDeposited >= 125)
-	                            trophy_unlock("donate_10")
-	                        if (FL_DogShrineGDeposited >= 155)
-	                            trophy_unlock("donate_11")
-	                        if (FL_DogShrineGDeposited >= 190)
-	                            trophy_unlock("donate_12")
-	                        if (FL_DogShrineGDeposited >= 230)
-	                            trophy_unlock("donate_13")
-	                        if (FL_DogShrineGDeposited >= 280)
-	                            trophy_unlock("donate_14")
-	                        if (FL_DogShrineGDeposited >= 350)
-	                            trophy_unlock("donate_15")
+	                        if (global.osflavor == OSFlavors.Playstation)
+	                        {
+	                            if (FL_DogShrineGDeposited >= 2)
+	                                trophy_unlock("donate_1")
+	                            if (FL_DogShrineGDeposited >= 6)
+	                                trophy_unlock("donate_2")
+	                            if (FL_DogShrineGDeposited >= 12)
+	                                trophy_unlock("donate_3")
+	                            if (FL_DogShrineGDeposited >= 20)
+	                                trophy_unlock("donate_4")
+	                            if (FL_DogShrineGDeposited >= 30)
+	                                trophy_unlock("donate_5")
+	                            if (FL_DogShrineGDeposited >= 43)
+	                                trophy_unlock("donate_6")
+	                            if (FL_DogShrineGDeposited >= 59)
+	                                trophy_unlock("donate_7")
+	                            if (FL_DogShrineGDeposited >= 78)
+	                                trophy_unlock("donate_8")
+	                            if (FL_DogShrineGDeposited >= 100)
+	                                trophy_unlock("donate_9")
+	                            if (FL_DogShrineGDeposited >= 125)
+	                                trophy_unlock("donate_10")
+	                            if (FL_DogShrineGDeposited >= 155)
+	                                trophy_unlock("donate_11")
+	                            if (FL_DogShrineGDeposited >= 190)
+	                                trophy_unlock("donate_12")
+	                            if (FL_DogShrineGDeposited >= 230)
+	                                trophy_unlock("donate_13")
+	                            if (FL_DogShrineGDeposited >= 280)
+	                                trophy_unlock("donate_14")
+	                            if (FL_DogShrineGDeposited >= 350)
+	                                trophy_unlock("donate_15")
+	                        }
+	                        if (global.osflavor == OSFlavors.XboxOne)
+	                        {
+	                            if (FL_DogShrineGDeposited >= 2)
+	                                trophy_unlock("dognation_1")
+	                            if (FL_DogShrineGDeposited >= 12)
+	                                trophy_unlock("dognation_2")
+	                            if (FL_DogShrineGDeposited >= 30)
+	                                trophy_unlock("dognation_3")
+	                            if (FL_DogShrineGDeposited >= 43)
+	                                trophy_unlock("dognation_4")
+	                            if (FL_DogShrineGDeposited >= 78)
+	                                trophy_unlock("dog_cherry")
+	                            if (FL_DogShrineGDeposited >= 100)
+	                                trophy_unlock("dog_ghosts")
+	                            if (FL_DogShrineGDeposited >= 125)
+	                                trophy_unlock("dognation_5")
+	                            if (FL_DogShrineGDeposited >= 155)
+	                                trophy_unlock("dog_bones")
+	                            if (FL_DogShrineGDeposited >= 230)
+	                                trophy_unlock("dog_spell")
+	                            if (FL_DogShrineGDeposited >= 280)
+	                                trophy_unlock("dognation_6")
+	                            if (FL_DogShrineGDeposited >= 350)
+	                                trophy_unlock("dognation_x")
+	                        }
 	                        global.gold -= 1
 	                    }
 	                    else
@@ -5578,6 +5606,426 @@ function SCR_TEXT(_dialog_id)
 	        else
 	            global.msg[0] = scr_gettext("SCR_TEXT_mewmew_5")
 	        break
+	    case 970:
+	        global.msg[0] = scr_gettext("SCR_TEXT_xbox_0")
+	        global.msg[1] = " "
+	        break
+	    case 971:
+	        if (global.choice == 0)
+	        {
+	            if (global.gold >= 25 && doak == 0)
+	            {
+	                if (FL_UnkownXBOX298 < 2500)
+	                {
+	                    FL_UnkownXBOX298 += 5
+	                    if (FL_UnkownXBOX298 >= 2500)
+	                        FL_UnkownXBOX298 = 2500
+	                    global.gold -= 25
+	                    doak = 1
+	                    snd_play(snd_item)
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_1")
+	                }
+	                else
+	                {
+	                    doak = 1
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_2")
+	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_3")
+	                }
+	            }
+	            if (doak == 0)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_4")
+	                doak = 1
+	            }
+	        }
+	        if (global.choice == 1)
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_5")
+	        break
+	    case 972:
+	        if (FL_UnkownXBOX297 >= 3)
+	        {
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_6")
+	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_7")
+	            if (obj_inuslot.dognumber == -2)
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_8")
+	            if (obj_inuslot.dognumber == 3)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_9")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_10")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_11")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_12")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_13")
+	            }
+	            if (obj_inuslot.dognumber == 7)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_14")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_15")
+	            }
+	            if (obj_inuslot.dognumber == 8)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_16")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_17")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_18")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_19")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_20")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_21")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_22")
+	                global.msg[7] = scr_gettext("SCR_TEXT_xbox_23")
+	            }
+	            if (obj_inuslot.dognumber == 9)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_24")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_25")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_26")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_27")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_28")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_29")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_30")
+	                global.msg[7] = scr_gettext("SCR_TEXT_xbox_31")
+	            }
+	            if (obj_inuslot.dognumber == 10)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_32")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_33")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_34")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_35")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_36")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_37")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_38")
+	            }
+	            if (obj_inuslot.dognumber == 11)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_39")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_40")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_41")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_42")
+	            }
+	            if (obj_inuslot.dognumber == 12)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_43")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_44")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_45")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_46")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_47")
+	            }
+	            if (obj_inuslot.dognumber == 13)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_48")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_49")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_50")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_51")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_52")
+	            }
+	            if (obj_inuslot.dognumber == 14)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_53")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_54")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_55")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_56")
+	            }
+	            if (obj_inuslot.dognumber == 15)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_57")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_58")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_59")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_60")
+	            }
+	            if (instance_count >= 150)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_61")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_62")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_63")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_64")
+	            }
+	            if (instance_count >= 500)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_65")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_66")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_67")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_68")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_69")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_70")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_71")
+	            }
+	            if (instance_count >= 1000)
+	            {
+	                if (global.flag[297] < 3.1)
+	                {
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_72")
+	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_73")
+	                    global.msg[2] = scr_gettext("SCR_TEXT_xbox_74")
+	                    global.msg[3] = scr_gettext("SCR_TEXT_xbox_75")
+	                    global.msg[4] = scr_gettext("SCR_TEXT_xbox_76")
+	                    global.msg[5] = scr_gettext("SCR_TEXT_xbox_77")
+	                    global.msg[6] = scr_gettext("SCR_TEXT_xbox_78")
+	                    global.msg[7] = scr_gettext("SCR_TEXT_xbox_79")
+	                    global.msg[8] = scr_gettext("SCR_TEXT_xbox_80")
+	                    global.msg[9] = scr_gettext("SCR_TEXT_xbox_81")
+	                    global.msg[10] = scr_gettext("SCR_TEXT_xbox_82")
+	                    global.msg[11] = scr_gettext("SCR_TEXT_xbox_83")
+	                    global.msg[12] = scr_gettext("SCR_TEXT_xbox_84")
+	                    global.msg[13] = scr_gettext("SCR_TEXT_xbox_85")
+	                }
+	                else
+	                {
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_86")
+	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_87")
+	                    global.msg[2] = scr_gettext("SCR_TEXT_xbox_88")
+	                    global.msg[3] = scr_gettext("SCR_TEXT_xbox_89")
+	                    global.msg[4] = scr_gettext("SCR_TEXT_xbox_90")
+	                }
+	                if (FL_UnkownXBOX297 < 3.1)
+	                    FL_UnkownXBOX297 = 3.1
+	            }
+	            with (obj_inuslot)
+	                dognumber = -2
+	        }
+	        if (FL_UnkownXBOX297 < 2)
+	        {
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_91")
+	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_92")
+	            global.msg[2] = scr_gettext("SCR_TEXT_xbox_93")
+	            global.msg[3] = " "
+	        }
+	        if (FL_UnkownXBOX297 == 2)
+	        {
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_94")
+	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_95")
+	            global.msg[2] = scr_gettext("SCR_TEXT_xbox_96")
+	            global.msg[3] = scr_gettext("SCR_TEXT_xbox_97")
+	            FL_UnkownXBOX297 = 3
+	        }
+	        break
+	    case 973:
+	        if (global.choice == 0)
+	        {
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_98")
+	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_99")
+	            global.msg[2] = scr_gettext("SCR_TEXT_xbox_100")
+	            global.msg[3] = scr_gettext("SCR_TEXT_xbox_101")
+	            if (FL_UnkownXBOX297 < 2)
+	                FL_UnkownXBOX297 = 2
+	        }
+	        if (global.choice == 1)
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_102")
+	        break
+	    case 974:
+	        if (FL_UnkownXBOX297 >= 4)
+	        {
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_103")
+	            if (obj_inuslot.dognumber == -2)
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_104")
+	            if (obj_inuslot.dognumber == -1)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_105")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_106")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_107")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_108")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_109")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_110")
+	            }
+	            if (obj_inuslot.dognumber == 3)
+	            {
+	                if (FL_UnkownXBOX297 == 4)
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_111")
+	                if (FL_UnkownXBOX297 == 5)
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_112")
+	            }
+	            if (obj_inuslot.dognumber == 7)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_113")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_114")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_115")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_116")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_117")
+	            }
+	            if (obj_inuslot.dognumber == 8)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_118")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_119")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_120")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_121")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_122")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_123")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_124")
+	                global.msg[7] = scr_gettext("SCR_TEXT_xbox_125")
+	            }
+	            if (obj_inuslot.dognumber == 9)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_126")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_127")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_128")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_129")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_130")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_131")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_132")
+	                global.msg[7] = scr_gettext("SCR_TEXT_xbox_133")
+	                global.msg[8] = scr_gettext("SCR_TEXT_xbox_134")
+	                global.msg[9] = scr_gettext("SCR_TEXT_xbox_135")
+	            }
+	            if (obj_inuslot.dognumber == 10)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_136")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_137")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_138")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_139")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_140")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_141")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_142")
+	                global.msg[7] = scr_gettext("SCR_TEXT_xbox_143")
+	            }
+	            if (obj_inuslot.dognumber == 11)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_144")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_145")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_146")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_147")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_148")
+	            }
+	            if (obj_inuslot.dognumber == 12)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_149")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_150")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_151")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_152")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_153")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_154")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_155")
+	            }
+	            if (obj_inuslot.dognumber == 13)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_156")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_157")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_158")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_159")
+	            }
+	            if (obj_inuslot.dognumber == 14)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_160")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_161")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_162")
+	                if (global.language == "en")
+	                {
+	                    global.msg[3] = scr_gettext("SCR_TEXT_xbox_163")
+	                    global.msg[4] = scr_gettext("SCR_TEXT_xbox_164")
+	                    global.msg[5] = scr_gettext("SCR_TEXT_xbox_165")
+	                    global.msg[6] = scr_gettext("SCR_TEXT_xbox_166")
+	                    global.msg[7] = scr_gettext("SCR_TEXT_xbox_167")
+	                    global.msg[8] = scr_gettext("SCR_TEXT_xbox_168")
+	                    global.msg[9] = scr_gettext("SCR_TEXT_xbox_169")
+	                    global.msg[10] = scr_gettext("SCR_TEXT_xbox_170")
+	                    global.msg[11] = scr_gettext("SCR_TEXT_xbox_171")
+	                }
+	                else
+	                {
+	                    global.msg[3] = scr_gettext("SCR_TEXT_xbox_163a")
+	                    global.msg[4] = scr_gettext("SCR_TEXT_xbox_163b")
+	                    global.msg[5] = scr_gettext("SCR_TEXT_xbox_164")
+	                    global.msg[6] = scr_gettext("SCR_TEXT_xbox_165")
+	                    global.msg[7] = scr_gettext("SCR_TEXT_xbox_166")
+	                    global.msg[8] = scr_gettext("SCR_TEXT_xbox_167")
+	                    global.msg[9] = scr_gettext("SCR_TEXT_xbox_168")
+	                    global.msg[10] = scr_gettext("SCR_TEXT_xbox_169")
+	                    global.msg[11] = scr_gettext("SCR_TEXT_xbox_170")
+	                    global.msg[12] = scr_gettext("SCR_TEXT_xbox_171")
+	                }
+	            }
+	            if (obj_inuslot.dognumber == 15)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_172")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_173")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_174")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_175")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_176")
+	                global.msg[5] = scr_gettext("SCR_TEXT_xbox_177")
+	                global.msg[6] = scr_gettext("SCR_TEXT_xbox_178")
+	                global.msg[7] = scr_gettext("SCR_TEXT_xbox_179")
+	            }
+	            if (instance_count >= 150)
+	            {
+	                global.msg[0] = scr_gettext("SCR_TEXT_xbox_180")
+	                global.msg[1] = scr_gettext("SCR_TEXT_xbox_181")
+	                global.msg[2] = scr_gettext("SCR_TEXT_xbox_182")
+	                global.msg[3] = scr_gettext("SCR_TEXT_xbox_183")
+	                global.msg[4] = scr_gettext("SCR_TEXT_xbox_184")
+	            }
+	            if (instance_count >= 500 && instance_count < 1000)
+	            {
+	                if (obj_inuslot.mewmew_special == 0)
+	                {
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_185")
+	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_186")
+	                    global.msg[2] = scr_gettext("SCR_TEXT_xbox_187")
+	                    global.msg[3] = scr_gettext("SCR_TEXT_xbox_188")
+	                    global.msg[4] = scr_gettext("SCR_TEXT_xbox_189")
+	                    global.msg[5] = scr_gettext("SCR_TEXT_xbox_190")
+	                    global.msg[6] = scr_gettext("SCR_TEXT_xbox_191")
+	                    global.msg[7] = scr_gettext("SCR_TEXT_xbox_192")
+	                    global.msg[8] = scr_gettext("SCR_TEXT_xbox_193")
+	                    with (obj_inuslot)
+	                        mewmew_special = 1
+	                }
+	                else
+	                {
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_194")
+	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_195")
+	                }
+	            }
+	            if (instance_count >= 1000)
+	            {
+	                if (FL_UnkownXBOX297 < 6.1)
+	                {
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_196")
+	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_197")
+	                    global.msg[2] = scr_gettext("SCR_TEXT_xbox_198")
+	                    global.msg[3] = scr_gettext("SCR_TEXT_xbox_199")
+	                    global.msg[4] = scr_gettext("SCR_TEXT_xbox_200")
+	                    global.msg[5] = scr_gettext("SCR_TEXT_xbox_201")
+	                    global.msg[6] = scr_gettext("SCR_TEXT_xbox_202")
+	                    global.msg[7] = scr_gettext("SCR_TEXT_xbox_203")
+	                    global.msg[8] = scr_gettext("SCR_TEXT_xbox_204")
+	                    global.msg[9] = scr_gettext("SCR_TEXT_xbox_205")
+	                    global.msg[10] = scr_gettext("SCR_TEXT_xbox_206")
+	                    global.msg[11] = scr_gettext("SCR_TEXT_xbox_207")
+	                    global.msg[12] = scr_gettext("SCR_TEXT_xbox_208")
+	                    global.msg[13] = scr_gettext("SCR_TEXT_xbox_209")
+	                    global.msg[14] = scr_gettext("SCR_TEXT_xbox_210")
+	                    global.msg[15] = scr_gettext("SCR_TEXT_xbox_211")
+	                    global.msg[16] = scr_gettext("SCR_TEXT_xbox_212")
+	                    global.msg[17] = scr_gettext("SCR_TEXT_xbox_213")
+	                    global.msg[18] = scr_gettext("SCR_TEXT_xbox_214")
+	                    global.msg[19] = scr_gettext("SCR_TEXT_xbox_215")
+	                    global.msg[20] = scr_gettext("SCR_TEXT_xbox_216")
+	                }
+	                else
+	                {
+	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_217")
+	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_218")
+	                    global.msg[2] = scr_gettext("SCR_TEXT_xbox_219")
+	                }
+	                if (FL_UnkownXBOX297 < 6.1)
+	                    FL_UnkownXBOX297 = 6.1
+	            }
+	            with (obj_inuslot)
+	                dognumber = -2
+	        }
+	        if (FL_UnkownXBOX297 < 4)
+	        {
+	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_220")
+	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_221")
+	            global.msg[2] = scr_gettext("SCR_TEXT_xbox_222")
+	            global.msg[3] = scr_gettext("SCR_TEXT_xbox_223")
+	            global.msg[4] = scr_gettext("SCR_TEXT_xbox_224")
+	            global.msg[5] = scr_gettext("SCR_TEXT_xbox_225")
+	            global.msg[6] = scr_gettext("SCR_TEXT_xbox_226")
+	            global.msg[7] = scr_gettext("SCR_TEXT_xbox_227")
+	            global.msg[8] = scr_gettext("SCR_TEXT_xbox_228")
+	            if (FL_UnkownXBOX297 < 2)
+	                FL_UnkownXBOX297 = 5
+	            else
+	                FL_UnkownXBOX297 = 4
+	        }
+			break
 	    case 1001:
 	        global.msg[0] = scr_gettext("SCR_TEXT_5937")
 	        global.choices[0] = 1

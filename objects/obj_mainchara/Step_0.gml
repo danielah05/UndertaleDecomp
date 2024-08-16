@@ -42,7 +42,8 @@ if obj_time.left
         if (moving != true)
             image_index = 1
         moving = true
-        if (global.debug == true)
+        // Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
+		if (global.debug == true)
         {
             if keyboard_check(vk_backspace)
                 x -= 5
@@ -62,7 +63,8 @@ if obj_time.up
     {
         turned = 1
         y -= 3
-        if (global.debug == true)
+        // Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
+		if (global.debug == true)
         {
             if keyboard_check(vk_backspace)
                 y -= 5
@@ -145,4 +147,203 @@ if (instance_exists(obj_battler) == false)
     scr_depth()
     if (FL_HaveUmbrella == true && dsprite == spr_maincharad_umbrella)
         depth = (50000 - ((y * 10) + 300))
+}
+// Daniela: extra collision check stuff added into the xbox version, most likely to fix the same issue we had with the decomp
+if (global.phasing == 0)
+{
+    if (global.interact == 0)
+    {
+        if place_meeting(x, y, obj_solidnpcparent)
+        {
+            x = xprevious
+            y = yprevious
+            moving = false
+        }
+        if place_meeting(x, y, obj_solidparent)
+        {
+            x = xprevious
+            y = yprevious
+            moving = false
+            if obj_time.up
+            {
+                if (collision_rectangle((x + 2), (y + 15), (x + 18), (y + 19), obj_solidparent, 0, 1) > 0)
+                {
+                    if (obj_time.left && collision_line((bbox_left - 3), bbox_top, bbox_left, bbox_top, obj_solidparent, false, true) < 0)
+                    {
+                        x -= 3
+                        global.facing = 3
+                    }
+                    if (obj_time.right && collision_line((bbox_right + 3), bbox_top, bbox_right, bbox_top, obj_solidparent, false, true) < 0)
+                    {
+                        x += 3
+                        global.facing = 1
+                    }
+                }
+                else
+                {
+                    y -= 3
+                    global.facing = 2
+                }
+            }
+            if obj_time.down
+            {
+                if (collision_rectangle((x + 2), (y + 30), (x + 18), (y + 33), obj_solidparent, 0, 1) > 0)
+                {
+                    if (obj_time.left && collision_line((bbox_left - 3), bbox_bottom, bbox_left, bbox_bottom, obj_solidparent, false, true) < 0)
+                    {
+                        x -= 3
+                        global.facing = 3
+                    }
+                    if (obj_time.right && collision_line((bbox_right + 3), bbox_bottom, bbox_right, bbox_bottom, obj_solidparent, false, true) < 0)
+                    {
+                        x += 3
+                        global.facing = 1
+                    }
+                }
+                else
+                {
+                    y += 3
+                    global.facing = 0
+                }
+            }
+            return;
+        }
+        if place_meeting(x, y, obj_sdr)
+        {
+            if place_meeting(x, y, obj_solidparent)
+                return;
+            moving = false
+            if (global.facing == 1)
+            {
+                if (collision_point((x + 2), (y - 2), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == 0)
+            {
+                if (collision_point((x - 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == 2)
+            {
+                x = xprevious
+                y = (yprevious - 3)
+            }
+            if (global.facing == 3)
+            {
+                y = yprevious
+                x = (xprevious - 3)
+            }
+        }
+        if place_meeting(x, y, obj_sur)
+        {
+            if (global.facing == 1)
+            {
+                if (collision_point((x + 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == 2)
+            {
+                if (collision_point((x - 3), (y - 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == 0)
+            {
+                x = xprevious
+                y = (yprevious + 3)
+            }
+            if (global.facing == 3)
+            {
+                y = yprevious
+                x = (xprevious - 3)
+            }
+        }
+        if place_meeting(x, y, obj_sul)
+        {
+            if (global.facing == 3)
+            {
+                if (collision_point((x - 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == 2)
+            {
+                if (collision_point((x + 3), (y - 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == 0)
+            {
+                x = xprevious
+                y = (yprevious + 3)
+            }
+            if (global.facing == 1)
+            {
+                y = yprevious
+                x = (xprevious + 3)
+            }
+        }
+        if place_meeting(x, y, obj_sdl)
+        {
+            if place_meeting(x, y, obj_solidparent)
+                return;
+            if (global.facing == 3)
+            {
+                if (collision_point((x - 2), (y - 2), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == 0)
+            {
+                if (collision_point((x + 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == 2)
+            {
+                x = xprevious
+                y = (yprevious - 3)
+            }
+            if (global.facing == 1)
+            {
+                y = yprevious
+                x = (xprevious + 3)
+            }
+        }
+    }
 }

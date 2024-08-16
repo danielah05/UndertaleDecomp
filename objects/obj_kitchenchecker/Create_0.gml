@@ -7,7 +7,7 @@ block[3] = instance_create(280, 77, obj_solidthin)
 block[4] = instance_create(83, 90, obj_solidlong)
 block[5] = instance_create(180, 60, obj_solidsmall)
 block[6] = instance_create(180, 80, obj_solidsmall)
-if (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch)
+if (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch || global.osflavor == OSFlavors.XboxOne)
     dogdoor = instance_create(212, 57, obj_doorXmusicfade)
 else
     dogdoor = noone

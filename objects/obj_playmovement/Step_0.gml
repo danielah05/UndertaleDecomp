@@ -23,14 +23,15 @@ if (con == 2 && instance_exists(OBJ_WRITER) == false)
         alarm[4] = 30
     }
 }
-if (con > 10)
+// Daniela: this code doesnt exist anymore in the xbox version, just gonna comment it out
+/*if (con > 10)
 {
     if (obj_mainchara.x != obj_mainchara.xprevious || obj_mainchara.y != obj_mainchara.yprevious)
         mainmove += 1
     if (global.facing != face2)
         frantic += 1
     face2 = global.facing
-}
+}*/
 if (mainmove == 100)
 {
     gm = instance_create(70, 335, obj_songwriter)

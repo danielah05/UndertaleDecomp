@@ -157,6 +157,7 @@ if (abs((army1 - idealarmy1)) < yadjust)
     army1 = idealarmy1
 if (abs((army2 - idealarmy2)) < yadjust)
     army2 = idealarmy2
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     if keyboard_check_pressed(vk_space)

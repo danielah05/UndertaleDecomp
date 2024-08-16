@@ -585,10 +585,7 @@ function scr_papcall()
 	            }
 	        }
 	        if (global.plot < 106)
-	        {
-	            global.msg[0] = scr_gettext("scr_papcall_722")
-	            global.msg[1] = scr_gettext("scr_papcall_723")
-	        }
+				noresponse = 1
 	        break
 	    case room_water3A:
 	        scr_papface(1, 5)
@@ -613,10 +610,7 @@ function scr_papcall()
 	            }
 	        }
 	        if (global.plot < 110)
-	        {
-	            global.msg[0] = scr_gettext("scr_papcall_757")
-	            global.msg[1] = scr_gettext("scr_papcall_758")
-	        }
+				noresponse = 1
 	        break
 	    case room_water4:
 	        scr_papface(1, 5)
@@ -641,10 +635,7 @@ function scr_papcall()
 	            }
 	        }
 	        if (global.plot < 106)
-	        {
-	            global.msg[0] = scr_gettext("scr_papcall_792")
-	            global.msg[1] = scr_gettext("scr_papcall_793")
-	        }
+				noresponse = 1
 	        break
 	    case room_water_bridgepuzz1:
 	        scr_papface(1, 0)
@@ -3205,5 +3196,6 @@ function scr_papcall()
 	}
 	if (dontplay == 0)
 	    snd_play(snd_phone)
-	FL_PapyrusCalledAlready += 1
+	if (noresponse == 0)
+		FL_PapyrusCalledAlready += 1
 }

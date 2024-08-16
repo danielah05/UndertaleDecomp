@@ -10,14 +10,14 @@ if (gg < 2)
 if (gg == 2)
 {
     x = (global.idealborder[0] - 16)
-    y = ((global.idealborder[2] - 40) + (random(123) * 1.5))
+    y = ((global.idealborder[2] - 40) + (random(103) * 1.5))
     if (gg == 2)
         direction = 310
 }
 if (gg == 3)
 {
     x = (global.idealborder[1] + 16)
-    y = ((global.idealborder[2] - 40) + (random(123) * 1.5))
+    y = ((global.idealborder[2] - 40) + (random(103) * 1.5))
     if (gg == 3)
         direction = 235
 }

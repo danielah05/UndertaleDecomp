@@ -31,11 +31,19 @@ if (room == room_water_undyneyard)
     sprite_index = spr_dummy
     if (FL_KilledGladDummy == true)
         instance_destroy()
-    if (FL_MadMewMewStatus >= MadMewMewStatus.DoorOpened)
-    {
-        if (FL_TruePacifist == true)
-            instance_create(x, y, obj_sign_room)
-        instance_destroy()
+    if (global.osflavor == OSFlavors.Switch)
+	{
+		if (FL_MadMewMewStatus >= MadMewMewStatus.DoorOpened)
+	    {
+	        if (FL_TruePacifist == true)
+	            instance_create(x, y, obj_sign_room)
+	        instance_destroy()
+	    }
+	}
+	if (global.osflavor == OSFlavors.XboxOne)
+	{
+        if ((global.plot >= 193 && FL_UnkownXBOX297 >= 1) || FL_MadMewMewStatus >= 1)
+            instance_destroy()
     }
 }
 if (room == room_water_farm)
@@ -208,6 +216,8 @@ if (room == room_water_temvillage)
 if (room == room_water_trashzone1)
 {
     sprite_index = spr_ds_donationbox_trash
-	if ((global.osflavor != OSFlavors.Playstation && global.osflavor != OSFlavors.Switch) || scr_murderlv() < 9)
+	if ((global.osflavor != OSFlavors.Playstation && global.osflavor != OSFlavors.XboxOne))
 		instance_destroy()
+	if (scr_murderlv() < 9)
+        instance_destroy()
 }

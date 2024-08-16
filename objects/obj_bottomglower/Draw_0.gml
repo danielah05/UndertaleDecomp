@@ -17,7 +17,7 @@ for (i = 0; i < 10; i += 1)
         w /= 1.2
     w = round(w)
     var bottom = (room_height - cw)
-    var top = (((room_height - cw) - w) + 1)
+    var top = ((room_height - cw) - w)
     ossafe_fill_rectangle((view_xview_get(0) - 10), bottom, (view_xview_get(0) + 330), top)
     cw += w
 }

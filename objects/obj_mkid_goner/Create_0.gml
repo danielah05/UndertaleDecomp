@@ -31,6 +31,7 @@ if (FL_Fun >= 90)
         ossafe_ini_close()
     }
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
     gox = 1
 if (gox == 0)

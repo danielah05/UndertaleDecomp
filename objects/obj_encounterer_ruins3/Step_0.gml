@@ -1,3 +1,15 @@
+// Daniela: bug fix added into the xbox version
+if (room == room_ruins11)
+{
+    if (obj_mainchara.x < 390)
+    {
+        if instance_exists(obj_goofyrock)
+        {
+            if (obj_goofyrock.conversation < 15)
+                global.encounter = 0
+        }
+    }
+}
 if (global.encounter > steps)
 {
     if (global.interact == 0)

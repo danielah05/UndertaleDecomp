@@ -59,5 +59,13 @@ function scr_saveprocess()
 	ossafe_file_text_write_real(myfileid, global.currentroom)
 	ossafe_file_text_writeln(myfileid)
 	ossafe_file_text_write_real(myfileid, obj_time.time)
+	if (os_type == os_xboxone)
+	{
+	    ossafe_file_text_writeln(myfileid)
+	    ossafe_file_text_write_real(myfileid, global.xbox_disconnect_counter)
+	    global.xbox_coins_donated = FL_UnkownXBOX299
+	    ossafe_file_text_writeln(myfileid)
+	    ossafe_file_text_write_real(myfileid, global.xbox_coins_donated)
+	}
 	ossafe_file_text_close(myfileid)
 }

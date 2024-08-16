@@ -1,0 +1,9 @@
+xx = (surface_get_width(application_surface) / 2)
+yy = ((surface_get_height(application_surface) / 2) - 140)
+y = (yy + 80)
+main_message = "User Signed Out"
+sub_message_1 = "To continue from where you left off,\nplease choose the same profile as before."
+sub_message_2 = "(Choosing a different profile\nwill result in the loss of any unsaved data.)"
+sub_message_3 = "So be careful, OK?"
+choice_index = 0
+confirmed = 0

@@ -129,6 +129,7 @@ if (aligncon == 4)
     normal = 1
     altimer = 0
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     if (keyboard_check_pressed(ord("S")) && aligncon == 3)

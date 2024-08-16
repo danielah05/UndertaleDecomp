@@ -7,7 +7,7 @@ if (timer > 5)
     if (image_alpha < 0)
         instance_destroy()
 }
-image_blend = make_color_hsv(((siner * 8) % 255), 150, 255)
+image_blend = old_make_color_hsv(siner * 8, 150, 255)
 if (type == 0)
 {
     image_angle += 12

@@ -78,7 +78,8 @@ if (con == 7)
     global.msg[9] = scr_gettext("obj_asgore_lastcutscene_284")
     global.msg[10] = scr_gettext("obj_asgore_lastcutscene_285")
     global.msg[11] = scr_gettext("obj_asgore_lastcutscene_286")
-    scr_blcon_ofs((x + 270), (y + 20), 0, 6, 0)
+    var textOffset = (os_type == os_xboxone ? 0 : 6)
+    scr_blcon_ofs((x + 270), (y + 20), 0, textOffset, 0)
     con = 8
 }
 if (con == 8 && instance_exists(OBJ_WRITER) == false)
@@ -96,7 +97,8 @@ if (con == 8 && instance_exists(OBJ_WRITER) == false)
     global.msg[9] = scr_gettext("obj_asgore_lastcutscene_303")
     global.msg[10] = scr_gettext("obj_asgore_lastcutscene_304")
     global.msg[11] = scr_gettext("obj_asgore_lastcutscene_305")
-    scr_blcon_ofs((x + 270), (y + 20), 0, 6, 0)
+    textOffset = (os_type == os_xboxone ? 0 : 6)
+    scr_blcon_ofs((x + 270), (y + 20), 0, textOffset, 0)
     con = 10
 }
 if (con == 8 || con == 10 || con == 18 || con == 19)

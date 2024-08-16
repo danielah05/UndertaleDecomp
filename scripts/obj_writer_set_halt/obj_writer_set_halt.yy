@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"obj_writer_set_halt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"obj_writer_set_halt",
+  "parent":{
+    "name":"Common",
+    "path":"folders/Scripts/Common.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

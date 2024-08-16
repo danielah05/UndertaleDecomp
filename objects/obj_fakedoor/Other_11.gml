@@ -9,3 +9,5 @@ scr_shake(2, 2, 2)
 global.interact = 1
 alarm[5] = 30
 myinteract = 0
+with (obj_piano)
+    can_interact = 0

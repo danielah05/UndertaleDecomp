@@ -9,7 +9,8 @@ enum OSFlavors
 	Mac,
 	Console,
 	Playstation,
-	Switch
+	Switch,
+	XboxOne
 }
 
 #region Deprecated Function Macros
@@ -274,7 +275,9 @@ enum OSFlavors
 #macro FL_DogShrineLevel global.flag[294]
 #macro FL_DogShrineStateAcknowledged global.flag[295]
 #macro FL_DogShrineTrashChecked global.flag[296]
-// 297 - 299 Unused
+#macro FL_UnkownXBOX297 global.flag[297] // Daniela: TODO: document this one
+#macro FL_UnkownXBOX298 global.flag[298] // Daniela: TODO: document this one
+#macro FL_UnkownXBOX299 global.flag[299] // Daniela: TODO: document this one
 #macro FL_DimensionalBoxAItem1 global.flag[300]
 #macro FL_DimensionalBoxAItem2 global.flag[301]
 #macro FL_DimensionalBoxAItem3 global.flag[302]

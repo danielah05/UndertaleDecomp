@@ -141,7 +141,7 @@ if (global.mnfight == 2)
     {
         if (instance_exists(global.monsterinstance[0]) && instance_exists(global.monsterinstance[1]))
         {
-            if (global.monsterinstance[0] == 341 && global.monsterinstance[1] == 341)
+            if (global.monsterinstance[0] == 135 && global.monsterinstance[1] == 135) // Daniela: most likely a decompiler error, fix this
             {
                 if (global.monsterinstance[0].criticize > 0 && global.monsterinstance[1].criticize > 0)
                 {

@@ -17,3 +17,4 @@ if (conversation > 13)
     with (obj_spikes_room)
         image_index = 1
 }
+talking = 0

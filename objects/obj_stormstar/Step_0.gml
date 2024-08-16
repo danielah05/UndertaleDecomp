@@ -1,6 +1,6 @@
 siner += 1
 if (counter < 20)
-    image_blend = make_color_hsv(((siner * 12) % 255), 100, 244)
+    image_blend = old_make_color_hsv((siner * 12), 100, 244)
 if (con == 2)
 {
     if (counter > 20)

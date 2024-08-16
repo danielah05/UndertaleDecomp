@@ -16,3 +16,5 @@ if (FL_SparedSpecific == 1)
     murder = 0
 look = 0
 spinagain = 0
+show_textbox = 0
+temp_dialoguer = -4

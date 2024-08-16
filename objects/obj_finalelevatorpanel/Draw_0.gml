@@ -3,6 +3,10 @@ if (myinteract == 1 && global.interact == 0 && con == 0)
 {
     global.interact = 1
     con = 5
+	if (FL_ElevatorFinalFloor == 0)
+        FL_ElevatorFinalFloor = 1
+    else
+        FL_ElevatorFinalFloor = 0
 }
 if (con == 1)
 {

@@ -14,6 +14,6 @@ if (global.bmenucoord[0] == 1)
 }
 if (spec == 1)
 {
-    spec_x += 1 // Vultu: We need to manually wrap this function now
-    image_blend = make_color_hsv(((spec_x * 12) % 255), 160, 255)
+    spec_x += 1
+    image_blend = old_make_color_hsv((spec_x * 12), 160, 255)
 }

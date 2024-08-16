@@ -640,6 +640,7 @@ if (drama == 1)
         }
     }
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true && keyboard_check_pressed(ord("Q")))
 {
     if (hit_try < 12)

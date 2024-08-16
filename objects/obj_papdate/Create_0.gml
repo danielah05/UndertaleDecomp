@@ -10,7 +10,7 @@ joke = 0
 choice = 0
 choicer = 0
 global.border = 11
-SCR_BORDERSETUP(0)
+SCR_BORDERSETUP()
 instance_create(0, 0, obj_uborder)
 instance_create(0, 0, obj_dborder)
 instance_create(0, 0, obj_lborder)
@@ -25,6 +25,6 @@ blcon = 5475834
 present = 0
 graph = 4384134
 friendgraph = instance_create(256, -64, obj_friendgraph)
-if (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch)
+if (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch || global.osflavor == OSFlavors.XboxOne)
 	FL_PapyrusSinkEventOccured = 1
 textskip = 1

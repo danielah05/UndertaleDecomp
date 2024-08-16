@@ -7,7 +7,7 @@ yoff = sin((siner / 4))
 yoff2 = sin((siner / 16))
 draw_set_color(c_black)
 ossafe_fill_rectangle(-10, 240, 999, -10)
-thiscolor = make_color_hsv(((siner * 6) % 255), 200, 200)
+thiscolor = old_make_color_hsv((siner * 6), 200, 200)
 draw_set_color(thiscolor)
 draw_sprite_part_ext(spr_asrielbg, 0, side, 0, 276, 216, 640, 0, -1, 1, thiscolor, 0.5)
 draw_sprite_part_ext(spr_asrielbg, 0, (side + 60), 0, 276, 216, 640, 0, -1, 1, thiscolor, 0.5)
@@ -185,6 +185,7 @@ if (bcon > 0)
         }
     }
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
 }

@@ -19,6 +19,7 @@ if (flash == 2)
     draw_set_alpha(1)
     blend2 = make_color_rgb(230, (100 - (sin((siner / 3)) * 100)), 200)
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     if keyboard_check_pressed(ord("C"))

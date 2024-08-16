@@ -153,6 +153,8 @@ if (hitcon == 16)
             event_user(4)
     }
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
+// Daniela: sick debug code btw lmao
 if (global.debug == true)
 {
 }

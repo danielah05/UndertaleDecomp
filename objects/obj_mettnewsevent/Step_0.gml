@@ -135,7 +135,7 @@ if (con == 61 && instance_exists(OBJ_WRITER))
     if (OBJ_WRITER.stringno == 4 && connor == 0)
     {
         connor = 1
-        caster_pause(news)
+        caster_stop(news)
     }
 }
 if (con == 61 && instance_exists(OBJ_WRITER) == false)
@@ -182,7 +182,7 @@ if (con == 66 && instance_exists(OBJ_WRITER))
     if (OBJ_WRITER.stringno == 4 && connor == 0)
     {
         connor = 1
-        caster_pause(news)
+        caster_stop(news)
     }
 }
 if (con == 66 && instance_exists(OBJ_WRITER) == false)
@@ -220,7 +220,7 @@ if (con == 70)
 }
 if (con == 71 && instance_exists(OBJ_WRITER) == false)
 {
-    caster_pause(news)
+    caster_stop(news)
     snd_play(snd_noise)
     with (script)
         sprite_index = bombsprite
@@ -266,7 +266,7 @@ if (con == 76 && instance_exists(OBJ_WRITER))
     if (OBJ_WRITER.stringno == 6 && connor == 0)
     {
         connor = 1
-        caster_pause(news)
+        caster_stop(news)
     }
 }
 if (con == 76 && instance_exists(OBJ_WRITER) == false)
@@ -306,7 +306,7 @@ if (con == 80)
 }
 if (con == 81 && instance_exists(OBJ_WRITER) == false)
 {
-    caster_pause(news)
+    caster_stop(news)
     snd_play(snd_noise)
     with (present)
         sprite_index = bombsprite
@@ -345,7 +345,7 @@ if (con == 85)
 }
 if (con == 86 && instance_exists(OBJ_WRITER) == false)
 {
-    caster_pause(news)
+    caster_stop(news)
     snd_play(snd_noise)
     with (game)
         sprite_index = bombsprite
@@ -618,7 +618,7 @@ if (con > 129)
 }
 if (con == 130 && instance_exists(OBJ_WRITER) == false)
 {
-    caster_free(all)
+    caster_stop(all)
     global.mercy = 1
     global.msc = 0
     global.typer = 5
@@ -742,7 +742,7 @@ if (con == 165 && instance_exists(OBJ_WRITER))
     if (OBJ_WRITER.stringno == 4 && conner == 0)
     {
         conner = 1
-        caster_pause(global.currentsong)
+        caster_stop(global.currentsong)
     }
     if (OBJ_WRITER.stringno == 5 && conner < 2)
     {

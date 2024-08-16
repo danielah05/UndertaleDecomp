@@ -179,7 +179,7 @@ if (won == 1 && wonned == 0)
 {
     if (FL_CompletedPianoPuzzle == 0)
     {
-        buffer = 25
+        buffer = 60
         wonned = 1
         alarm[1] = 20
     }

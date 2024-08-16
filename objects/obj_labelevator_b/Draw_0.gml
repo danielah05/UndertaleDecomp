@@ -52,7 +52,7 @@ if (rect == 1)
     ossafe_fill_rectangle(180, 180, (180 - rectaur), 250)
     if (room == room_truelab_castle_elevator)
     {
-        ossafe_fill_rectangle(0, 120, 99, (120 + rectaur))
-        ossafe_fill_rectangle(0, 160, 99, (160 - rectaur))
+        ossafe_fill_rectangle(0, 120, 100, (120 + rectaur))
+        ossafe_fill_rectangle(0, 160, 100, (160 - rectaur))
     }
 }

@@ -1,4 +1,4 @@
-sm = obj_backgrounder_parent
+sm = obj_glowparticle_1 // Daniela: decompiler error, fix this
 gg = floor(random(3))
 mycommand = round(random(100))
 global.msg[0] = "del"

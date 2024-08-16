@@ -6,7 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_1A092516","path":"rooms/room_end_metta/room_end_metta.yy",},
+    {"name":"inst_1D0B21B1","path":"rooms/room_end_metta/room_end_metta.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -139,7 +139,7 @@
         {"$GMRGraphic":"","%Name":"inst_F0468EEF","colour":4294967295,"frozen":false,"h":20,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"inst_F0468EEF","resourceType":"GMRGraphic","resourceVersion":"2.0","spriteId":{"name":"bg_endtileset","path":"sprites/bg_endtileset/bg_endtileset.yy",},"u0":80,"u1":100,"v0":260,"v1":280,"w":20,"x":140.0,"y":80.0,},
       ],"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Compatibility_Tiles_Depth_900","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Compatibility_Instances_Depth_1000","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_1A092516","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":0.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A092516","objectId":{"name":"obj_endmettevent","path":"objects/obj_endmettevent/obj_endmettevent.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":60.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1D0B21B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D0B21B1","objectId":{"name":"obj_endmettevent","path":"objects/obj_endmettevent/obj_endmettevent.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":60.0,},
       ],"layers":[],"name":"Compatibility_Instances_Depth_1000","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Compatibility_Tiles_Depth_1000000","assets":[
         {"$GMRGraphic":"","%Name":"inst_75F9FC57","colour":4294967295,"frozen":false,"h":20,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"inst_75F9FC57","resourceType":"GMRGraphic","resourceVersion":"2.0","spriteId":{"name":"bg_endtileset","path":"sprites/bg_endtileset/bg_endtileset.yy",},"u0":0,"u1":20,"v0":280,"v1":300,"w":20,"x":0.0,"y":120.0,},
@@ -263,8 +263,8 @@
   ],
   "name":"room_end_metta",
   "parent":{
-    "name":"Ending",
-    "path":"folders/Rooms/Ending.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

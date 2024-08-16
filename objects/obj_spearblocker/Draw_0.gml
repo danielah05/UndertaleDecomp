@@ -102,3 +102,9 @@ if (col != noone)
 col2 = collision_rectangle((x - 5), (y - 5), (x + 5), (y + 5), obj_blockbullet, 0, 1)
 if (col2 != noone)
     event_user(5)
+// Daniela: new debug code that was found in the xbox version
+if (global.debug == true)
+{
+    draw_set_color(c_white)
+    draw_text(100, 100, lesson)
+}
