@@ -285,18 +285,20 @@ if (conversation == 25)
     instance_destroy()
 }
 // Daniela: dont know the point of this yet, wanna look into it later
-if show_textbox
+if (show_textbox)
 {
     if (!instance_exists(obj_xbox_temp_dialoguer))
     {
-        if instance_exists(obj_dialoguer)
+        if (instance_exists(obj_dialoguer))
         {
-            var temp_yy = __view_get((1 << 0), view_current)
-            temp_dialoguer = instance_create(0, 0, obj_xbox_temp_dialoguer)
-            temp_dialoguer.side = obj_dialoguer.side
-            temp_dialoguer.depth = (obj_dialoguer.depth + 10)
+            temp_yy = view_yview_get(view_current);
+			temp_dialoguer = instance_create(0, 0, obj_xbox_temp_dialoguer);
+            temp_dialoguer.side = obj_dialoguer.side;
+            temp_dialoguer.depth = obj_dialoguer.depth + 10;
         }
     }
 }
-else if instance_exists(obj_xbox_temp_dialoguer)
-    instance_destroy(obj_xbox_temp_dialoguer)
+else if (instance_exists(obj_xbox_temp_dialoguer))
+{
+    instance_destroy(obj_xbox_temp_dialoguer);
+}
