@@ -320,8 +320,8 @@
   ],
   "name":"room_tundra1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Snowdin",
+    "path":"folders/Rooms/Snowdin.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

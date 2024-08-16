@@ -310,8 +310,8 @@
   ],
   "name":"room_truelab_cooler",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"True Lab",
+    "path":"folders/Rooms/True Lab.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

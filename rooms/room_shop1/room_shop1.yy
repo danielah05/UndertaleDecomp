@@ -21,8 +21,8 @@
   ],
   "name":"room_shop1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Shops",
+    "path":"folders/Rooms/Shops.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

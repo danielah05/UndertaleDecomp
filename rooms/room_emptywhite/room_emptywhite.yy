@@ -17,8 +17,8 @@
   ],
   "name":"room_emptywhite",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Common",
+    "path":"folders/Rooms/Common.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

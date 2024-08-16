@@ -17,8 +17,8 @@
   ],
   "name":"room_asrielappears",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Asriel",
+    "path":"folders/Rooms/Battle/Asriel.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

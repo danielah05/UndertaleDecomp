@@ -36,8 +36,8 @@
   ],
   "name":"room_floweybattle",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Flowey",
+    "path":"folders/Rooms/Battle/Flowey.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

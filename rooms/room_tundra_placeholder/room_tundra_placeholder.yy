@@ -969,8 +969,8 @@
   ],
   "name":"room_tundra_placeholder",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Unused",
+    "path":"folders/Rooms/Snowdin/Unused.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

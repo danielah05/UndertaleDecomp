@@ -273,8 +273,8 @@
   ],
   "name":"room_meetundyne_old",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Unused",
+    "path":"folders/Rooms/Waterfall/Unused.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

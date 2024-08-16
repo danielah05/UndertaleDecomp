@@ -17,8 +17,8 @@
   ],
   "name":"room_f_start",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Flowey",
+    "path":"folders/Rooms/Battle/Flowey.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

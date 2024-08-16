@@ -21,8 +21,8 @@
   ],
   "name":"room_goodbyeasriel",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Ending",
+    "path":"folders/Rooms/Ending.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

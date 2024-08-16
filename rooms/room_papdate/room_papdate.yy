@@ -17,8 +17,8 @@
   ],
   "name":"room_papdate",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Dates",
+    "path":"folders/Rooms/Battle/Dates.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

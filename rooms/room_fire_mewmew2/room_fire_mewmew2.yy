@@ -222,8 +222,8 @@
   ],
   "name":"room_fire_mewmew2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Hotland",
+    "path":"folders/Rooms/Hotland.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

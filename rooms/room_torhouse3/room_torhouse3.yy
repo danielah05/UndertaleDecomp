@@ -179,8 +179,8 @@
   ],
   "name":"room_torhouse3",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Ruins",
+    "path":"folders/Rooms/Ruins.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

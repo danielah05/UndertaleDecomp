@@ -620,8 +620,8 @@
   ],
   "name":"room_castle_front",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Castle",
+    "path":"folders/Rooms/Castle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

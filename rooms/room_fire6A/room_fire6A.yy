@@ -411,8 +411,8 @@
   ],
   "name":"room_fire6A",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Hotland",
+    "path":"folders/Rooms/Hotland.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

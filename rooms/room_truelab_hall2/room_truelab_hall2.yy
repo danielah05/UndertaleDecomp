@@ -97,8 +97,8 @@
   ],
   "name":"room_truelab_hall2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"True Lab",
+    "path":"folders/Rooms/True Lab.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

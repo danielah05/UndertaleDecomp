@@ -264,8 +264,8 @@
   ],
   "name":"room_castle_coffins2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Castle",
+    "path":"folders/Rooms/Castle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

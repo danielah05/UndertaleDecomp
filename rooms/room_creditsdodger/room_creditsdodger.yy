@@ -17,8 +17,8 @@
   ],
   "name":"room_creditsdodger",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Ending",
+    "path":"folders/Rooms/Ending.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -21,8 +21,8 @@
   ],
   "name":"room_empty",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Template",
+    "path":"folders/Rooms/Template.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

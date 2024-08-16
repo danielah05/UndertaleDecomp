@@ -261,8 +261,8 @@
   ],
   "name":"room_basement3_final",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Castle",
+    "path":"folders/Rooms/Castle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

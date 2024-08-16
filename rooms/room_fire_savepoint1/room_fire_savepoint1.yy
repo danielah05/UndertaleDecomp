@@ -258,8 +258,8 @@
   ],
   "name":"room_fire_savepoint1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Hotland",
+    "path":"folders/Rooms/Hotland.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

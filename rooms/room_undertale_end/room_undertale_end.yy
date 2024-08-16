@@ -19,8 +19,8 @@
   ],
   "name":"room_undertale_end",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Ending",
+    "path":"folders/Rooms/Ending.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

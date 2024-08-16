@@ -54,8 +54,8 @@
   ],
   "name":"room_battle",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Battle",
+    "path":"folders/Rooms/Battle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

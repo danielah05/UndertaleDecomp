@@ -144,8 +144,8 @@
   ],
   "name":"room_asghouse1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Castle",
+    "path":"folders/Rooms/Castle.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

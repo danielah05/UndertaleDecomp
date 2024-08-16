@@ -149,8 +149,8 @@
   ],
   "name":"room_truelab_castle_elevator",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"True Lab",
+    "path":"folders/Rooms/True Lab.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

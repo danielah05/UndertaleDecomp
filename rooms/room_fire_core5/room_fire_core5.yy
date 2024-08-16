@@ -250,8 +250,8 @@
   ],
   "name":"room_fire_core5",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Core",
+    "path":"folders/Rooms/Hotland/Core.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

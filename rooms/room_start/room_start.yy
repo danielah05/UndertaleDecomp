@@ -21,8 +21,8 @@
   ],
   "name":"room_start",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Common",
+    "path":"folders/Rooms/Common.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

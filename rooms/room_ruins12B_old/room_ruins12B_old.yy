@@ -132,8 +132,8 @@
   ],
   "name":"room_ruins12B_old",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Unused",
+    "path":"folders/Rooms/Ruins/Unused.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
