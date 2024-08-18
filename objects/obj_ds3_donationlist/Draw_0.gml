@@ -37,7 +37,7 @@ var conditionsSlotYPos = (global.language == "en" ? 53 : 47)
 for (i = 7; i < 11; i += 1)
 {
     draw_set_color(c_white)
-    if (global.flag[((292 + i) - 7)] == 1) // FL_DogShrineXboxX3Cherries + i
+    if (global.flag[((292 + i) - 7)] == 1)
         draw_set_color(c_yellow)
     if (global.language == "en")
         draw_text(leftColXText, (conditionsSlotYPos + (conditionsOffset * i)), string_hash_to_newline(condition[i]))

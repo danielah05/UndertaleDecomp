@@ -1,1 +1,1 @@
-global.flag[479] = 1
+FL_TrueLabBorderEnabled = 1
