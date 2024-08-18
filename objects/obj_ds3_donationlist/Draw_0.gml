@@ -25,7 +25,7 @@ var conditionsOffset = (global.language == "en" ? 13 : 14)
 for (i = 0; i < 7; i += 1)
 {
     draw_set_color(c_white)
-    if (global.flag[299] >= th[i])
+    if (FL_DogShrineXboxDonatedCoins >= th[i])
         draw_set_color(c_yellow)
     draw_text(leftColXText, (conditionsYPos + (conditionsOffset * i)), string_hash_to_newline(condition[i]))
     if (i == 6)
@@ -37,7 +37,7 @@ var conditionsSlotYPos = (global.language == "en" ? 53 : 47)
 for (i = 7; i < 11; i += 1)
 {
     draw_set_color(c_white)
-    if (global.flag[((292 + i) - 7)] == 1)
+    if (global.flag[((292 + i) - 7)] == 1) // FL_DogShrineXboxX3Cherries + i
         draw_set_color(c_yellow)
     if (global.language == "en")
         draw_text(leftColXText, (conditionsSlotYPos + (conditionsOffset * i)), string_hash_to_newline(condition[i]))
@@ -54,14 +54,14 @@ for (i = 7; i < 11; i += 1)
 }
 if (global.language == "en")
 {
-    if (global.flag[299] != 1)
-        laststring = (((scr_gettext("obj_ds3_donationlist_2") + string(global.flag[299])) + " ") + scr_gettext("obj_ds3_donationlist_3"))
+    if (FL_DogShrineXboxDonatedCoins != 1)
+        laststring = (((scr_gettext("obj_ds3_donationlist_2") + string(FL_DogShrineXboxDonatedCoins)) + " ") + scr_gettext("obj_ds3_donationlist_3"))
     else
-        laststring = ((scr_gettext("obj_ds3_donationlist_2") + string(global.flag[299])) + " Coin")
+        laststring = ((scr_gettext("obj_ds3_donationlist_2") + string(FL_DogShrineXboxDonatedCoins)) + " Coin")
 }
 else
-    laststring = ((scr_gettext("obj_ds3_donationlist_2") + string(global.flag[299])) + scr_gettext("obj_ds3_donationlist_3"))
-if (global.flag[299] >= 500)
+    laststring = ((scr_gettext("obj_ds3_donationlist_2") + string(FL_DogShrineXboxDonatedCoins)) + scr_gettext("obj_ds3_donationlist_3"))
+if (FL_DogShrineXboxDonatedCoins >= 500)
     laststring = scr_gettext("obj_ds3_donationlist_4")
 var lastLineText = (global.language == "en" ? 72 : 52)
 var lastLineYText = (global.language == "en" ? 210 : 206)

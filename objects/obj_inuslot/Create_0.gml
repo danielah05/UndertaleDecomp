@@ -100,81 +100,81 @@ os[2] = spr_ds3_coinbox
 ox[2] = 106
 oy[2] = 56
 inubox2 = instance_create(ox[2], oy[2], obj_ds3_box)
-if (global.flag[297] >= 2)
+if (FL_DogShrineXboxProgress >= 2)
 {
     os[3] = spr_ds3_heightsign
     ox[3] = 194
     oy[3] = 18
 }
-if (global.kills == 0 && global.plot < 176 && global.flag[413] == 0 && global.flag[299] >= 10)
+if (global.kills == 0 && global.plot < 176 && FL_SansDated2 == 0 && FL_DogShrineXboxDonatedCoins >= 10)
 {
     sans = 1
     os[4] = spr_ds3_sans
     ox[4] = 236
     oy[4] = 7
 }
-if (global.plot >= 193 && global.flag[350] != 1 && global.flag[299] >= 10)
+if (global.plot >= 193 && FL_UndyneStatus != 1 && FL_DogShrineXboxDonatedCoins >= 10)
 {
     mewmew = 1
     os[5] = spr_ds3_mewmew
     ox[5] = 232
     oy[5] = 1
 }
-if (global.flag[299] >= 10)
+if (FL_DogShrineXboxDonatedCoins >= 10)
 {
     os[6] = spr_ds3_pokertable
     ox[6] = 220
     oy[6] = 22
 }
-if (global.flag[295] == 1)
+if (FL_DogShrineXboxX3Dogs == 1)
 {
     os[7] = spr_ds3_statue
     ox[7] = 244
     oy[7] = 62
 }
-if (global.flag[299] >= 50)
+if (FL_DogShrineXboxDonatedCoins >= 50)
 {
     os[8] = spr_ds3_fastfood
     ox[8] = 254
     oy[8] = 127
 }
-if (global.flag[299] >= 200)
+if (FL_DogShrineXboxDonatedCoins >= 200)
 {
     os[9] = spr_ds3_treaty
     ox[9] = 231
     oy[9] = 154
 }
-if (global.flag[294] == 1)
+if (FL_DogShrineXboxX3Bones == 1)
 {
     os[10] = spr_ds3_creams
     ox[10] = 206
     oy[10] = 156
 }
-if (global.flag[299] >= 100)
+if (FL_DogShrineXboxDonatedCoins >= 100)
 {
     os[11] = spr_ds3_hat
     ox[11] = 181
     oy[11] = 166
 }
-if (global.flag[293] == 1)
+if (FL_DogShrineXboxX3Ghosts == 1)
 {
     os[12] = spr_ds3_ticket
     ox[12] = 123
     oy[12] = 165
 }
-if (global.flag[299] >= 350)
+if (FL_DogShrineXboxDonatedCoins >= 350)
 {
     os[13] = spr_ds3_kinect
     ox[13] = 87
     oy[13] = 159
 }
-if (global.flag[299] >= 25)
+if (FL_DogShrineXboxDonatedCoins >= 25)
 {
     os[14] = spr_ds3_console
     ox[14] = 40
     oy[14] = 149
 }
-if (global.flag[292] == 1)
+if (FL_DogShrineXboxX3Cherries == 1)
 {
     os[15] = spr_ds3_drinks
     ox[15] = 43

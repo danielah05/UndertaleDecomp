@@ -1,10 +1,10 @@
 bg_siner = 0
 dognumber = -1
 con = 0
-if (global.flag[297] == 0)
+if (FL_DogShrineXboxProgress == 0)
 {
     con = 1
-    if (caster_is_playing(global.currentsong) != 1 && global.flag[7] == 0)
+    if (caster_is_playing(global.currentsong) != 1 && FL_TruePacifist == 0)
     {
         global.currentsong = mus_wind
         caster_loop(global.currentsong, 0.5, 0.5)
@@ -72,10 +72,10 @@ if (global.flag[297] == 0)
             scr_depth()
     }
 }
-if (global.flag[297] >= 1)
+if (FL_DogShrineXboxProgress >= 1)
 {
     slot = instance_create(142, 10, obj_inuslot)
-    if (caster_is_playing(global.currentsong) != 1 && global.flag[7] == 0)
+    if (caster_is_playing(global.currentsong) != 1 && FL_TruePacifist == 0)
     {
         global.currentsong = mus_dogshrine_xbox
         caster_loop(global.currentsong, 1, 1)

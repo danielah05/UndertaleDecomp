@@ -270,14 +270,21 @@ enum OSFlavors
 #macro FL_SteppedOnGreenTile global.flag[289]
 #macro FL_NeutralPapyrusSpared global.flag[290]
 #macro FL_ElectricMazeSkipped global.flag[291]
+// PS4/Vita
 #macro FL_DogShrineGDeposited global.flag[292]
 #macro FL_DogShrineGoldNeeded global.flag[293]
 #macro FL_DogShrineLevel global.flag[294]
 #macro FL_DogShrineStateAcknowledged global.flag[295]
 #macro FL_DogShrineTrashChecked global.flag[296]
-#macro FL_UnkownXBOX297 global.flag[297] // Daniela: TODO: document this one
-#macro FL_UnkownXBOX298 global.flag[298] // Daniela: TODO: document this one
-#macro FL_UnkownXBOX299 global.flag[299] // Daniela: TODO: document this one
+// XBOX
+#macro FL_DogShrineXboxX3Cherries global.flag[292]
+#macro FL_DogShrineXboxX3Ghosts global.flag[293]
+#macro FL_DogShrineXboxX3Bones global.flag[294]
+#macro FL_DogShrineXboxX3Dogs global.flag[295] // D O G
+#macro FL_DogShrineXboxProgress global.flag[297]
+#macro FL_DogShrineXboxCoins global.flag[298]
+#macro FL_DogShrineXboxDonatedCoins global.flag[299]
+//
 #macro FL_DimensionalBoxAItem1 global.flag[300]
 #macro FL_DimensionalBoxAItem2 global.flag[301]
 #macro FL_DimensionalBoxAItem3 global.flag[302]

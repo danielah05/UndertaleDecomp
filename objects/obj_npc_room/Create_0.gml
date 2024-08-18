@@ -42,7 +42,7 @@ if (room == room_water_undyneyard)
 	}
 	if (global.osflavor == OSFlavors.XboxOne)
 	{
-        if ((global.plot >= 193 && FL_UnkownXBOX297 >= 1) || FL_MadMewMewStatus >= 1)
+        if ((global.plot >= 193 && FL_DogShrineXboxProgress >= 1) || FL_MadMewMewStatus >= 1)
             instance_destroy()
     }
 }

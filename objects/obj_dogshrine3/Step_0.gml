@@ -1,6 +1,6 @@
 if (con == 1)
 {
-    if (obj_mainchara.y <= 170 && global.interact == 0 && global.flag[297] == 0)
+    if (obj_mainchara.y <= 170 && global.interact == 0 && FL_DogShrineXboxProgress == 0)
     {
         global.interact = 1
         caster_free(-3)
@@ -74,7 +74,7 @@ if (con == 21)
         alarm[4] = 10
         inuslot = instance_create(ox[3], oy[3], obj_inuslot)
         global.currentsong = mus_dogshrine_xbox
-        if (global.flag[7] == 1)
+        if (FL_TruePacifist == 1)
             global.currentsong = 411
         caster_loop(global.currentsong, 1, 1)
         with (oo[3])
@@ -83,7 +83,7 @@ if (con == 21)
 }
 if (con == 23)
 {
-    global.flag[297] = 1
+    FL_DogShrineXboxProgress = 1
     con = 25
     global.interact = 0
     global.facing = 0

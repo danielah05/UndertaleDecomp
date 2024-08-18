@@ -35,7 +35,7 @@ if (myinteract == 1)
         
         if (type == 1)
         {
-            if (global.flag[298] > 0)
+            if (FL_DogShrineXboxCoins > 0)
             {
                 instance_create(0, 0, obj_ds3_numberpicker);
                 myinteract = 4;

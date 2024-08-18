@@ -1,7 +1,7 @@
 global.interact = 1
 depth = -100
 draw = 1
-coin = global.flag[298]
+coin = FL_DogShrineXboxCoins
 total = 0
 digit[0] = 0
 digit[1] = 0

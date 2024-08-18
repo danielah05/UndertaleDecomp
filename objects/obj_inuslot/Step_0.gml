@@ -5,7 +5,7 @@ if (myinteract == 1)
     if (buffer2 < 0)
     {
         global.interact = 1
-        if (global.flag[298] > 0)
+        if (FL_DogShrineXboxCoins > 0)
         {
             con = 0
             sloton = 1
@@ -39,7 +39,7 @@ if (con == 0 && sloton == 1)
         flashtimer = 0
         bonustimer = 0
         buffer = 1
-        global.flag[298] -= 1
+        FL_DogShrineXboxCoins -= 1
         slotconfirm[0] = 0
         slotconfirm[1] = 0
         slotconfirm[2] = 0
@@ -97,7 +97,7 @@ if (con == 2)
     {
         won = 10
         message = bonusmessage[2]
-        global.flag[292] = 1
+        FL_DogShrineXboxX3Cherries = 1
     }
     if (slot[0, (slotno[0] + 2)] == 2 && slot[1, (slotno[1] + 2)] == 2 && slot[2, (slotno[2] + 2)] == 2)
     {
@@ -109,19 +109,19 @@ if (con == 2)
     {
         won = 20
         message = bonusmessage[4]
-        global.flag[293] = 1
+        FL_DogShrineXboxX3Ghosts = 1
     }
     if (slot[0, (slotno[0] + 2)] == 4 && slot[1, (slotno[1] + 2)] == 4 && slot[2, (slotno[2] + 2)] == 4)
     {
         won = 30
         message = bonusmessage[5]
-        global.flag[294] = 1
+        FL_DogShrineXboxX3Bones = 1
     }
     if (slot[0, (slotno[0] + 2)] == 5 && slot[1, (slotno[1] + 2)] == 5 && slot[2, (slotno[2] + 2)] == 5)
     {
         won = 75
         message = bonusmessage[6]
-        global.flag[295] = 1
+        FL_DogShrineXboxX3Dogs = 1
     }
     if (slot[0, (slotno[0] + 2)] == 6 && slot[1, (slotno[1] + 2)] == 6 && slot[2, (slotno[2] + 2)] == 6)
     {
@@ -154,9 +154,9 @@ if (con == 2)
     if (won > 0)
     {
         fuzzfactor = 0
-        if (global.flag[299] >= 500)
+        if (FL_DogShrineXboxDonatedCoins >= 500)
         {
-            fuzzfactor = (1 + floor((global.flag[298] / 250)))
+            fuzzfactor = (1 + floor((FL_DogShrineXboxCoins / 250)))
             if (fuzzfactor > 10)
                 fuzzfactor = 10
         }
@@ -202,8 +202,8 @@ if (con == 4)
     {
         audio_stop_sound(snd_slot_get)
         audio_play_sound(snd_slot_get, 50, false)
-        if (global.flag[298] < 2500)
-            global.flag[298] += 1
+        if (FL_DogShrineXboxCoins < 2500)
+            FL_DogShrineXboxCoins += 1
         won -= 1
         if (hd == 1)
         {
@@ -213,13 +213,13 @@ if (con == 4)
     }
     else
     {
-        if (global.flag[292] == 1)
+        if (FL_DogShrineXboxX3Cherries == 1)
             trophy_unlock("dog_cherry")
-        if (global.flag[293] == 1)
+        if (FL_DogShrineXboxX3Ghosts == 1)
             trophy_unlock("dog_ghosts")
-        if (global.flag[294] == 1)
+        if (FL_DogShrineXboxX3Bones == 1)
             trophy_unlock("dog_bones")
-        if (global.flag[295] == 1)
+        if (FL_DogShrineXboxX3Dogs == 1)
             trophy_unlock("dog_spell")
         caster_resume(global.currentsong)
         global.interact = 0

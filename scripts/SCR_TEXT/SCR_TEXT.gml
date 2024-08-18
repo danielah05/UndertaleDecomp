@@ -5615,11 +5615,11 @@ function SCR_TEXT(_dialog_id)
 	        {
 	            if (global.gold >= 25 && doak == 0)
 	            {
-	                if (FL_UnkownXBOX298 < 2500)
+	                if (FL_DogShrineXboxCoins < 2500)
 	                {
-	                    FL_UnkownXBOX298 += 5
-	                    if (FL_UnkownXBOX298 >= 2500)
-	                        FL_UnkownXBOX298 = 2500
+	                    FL_DogShrineXboxCoins += 5
+	                    if (FL_DogShrineXboxCoins >= 2500)
+	                        FL_DogShrineXboxCoins = 2500
 	                    global.gold -= 25
 	                    doak = 1
 	                    snd_play(snd_item)
@@ -5642,7 +5642,7 @@ function SCR_TEXT(_dialog_id)
 	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_5")
 	        break
 	    case 972:
-	        if (FL_UnkownXBOX297 >= 3)
+	        if (FL_DogShrineXboxProgress >= 3)
 	        {
 	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_6")
 	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_7")
@@ -5749,7 +5749,7 @@ function SCR_TEXT(_dialog_id)
 	            }
 	            if (instance_count >= 1000)
 	            {
-	                if (global.flag[297] < 3.1)
+	                if (FL_DogShrineXboxProgress < 3.1)
 	                {
 	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_72")
 	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_73")
@@ -5774,26 +5774,26 @@ function SCR_TEXT(_dialog_id)
 	                    global.msg[3] = scr_gettext("SCR_TEXT_xbox_89")
 	                    global.msg[4] = scr_gettext("SCR_TEXT_xbox_90")
 	                }
-	                if (FL_UnkownXBOX297 < 3.1)
-	                    FL_UnkownXBOX297 = 3.1
+	                if (FL_DogShrineXboxProgress < 3.1)
+	                    FL_DogShrineXboxProgress = 3.1
 	            }
 	            with (obj_inuslot)
 	                dognumber = -2
 	        }
-	        if (FL_UnkownXBOX297 < 2)
+	        if (FL_DogShrineXboxProgress < 2)
 	        {
 	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_91")
 	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_92")
 	            global.msg[2] = scr_gettext("SCR_TEXT_xbox_93")
 	            global.msg[3] = " "
 	        }
-	        if (FL_UnkownXBOX297 == 2)
+	        if (FL_DogShrineXboxProgress == 2)
 	        {
 	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_94")
 	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_95")
 	            global.msg[2] = scr_gettext("SCR_TEXT_xbox_96")
 	            global.msg[3] = scr_gettext("SCR_TEXT_xbox_97")
-	            FL_UnkownXBOX297 = 3
+	            FL_DogShrineXboxProgress = 3
 	        }
 	        break
 	    case 973:
@@ -5803,14 +5803,14 @@ function SCR_TEXT(_dialog_id)
 	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_99")
 	            global.msg[2] = scr_gettext("SCR_TEXT_xbox_100")
 	            global.msg[3] = scr_gettext("SCR_TEXT_xbox_101")
-	            if (FL_UnkownXBOX297 < 2)
-	                FL_UnkownXBOX297 = 2
+	            if (FL_DogShrineXboxProgress < 2)
+	                FL_DogShrineXboxProgress = 2
 	        }
 	        if (global.choice == 1)
 	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_102")
 	        break
 	    case 974:
-	        if (FL_UnkownXBOX297 >= 4)
+	        if (FL_DogShrineXboxProgress >= 4)
 	        {
 	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_103")
 	            if (obj_inuslot.dognumber == -2)
@@ -5826,9 +5826,9 @@ function SCR_TEXT(_dialog_id)
 	            }
 	            if (obj_inuslot.dognumber == 3)
 	            {
-	                if (FL_UnkownXBOX297 == 4)
+	                if (FL_DogShrineXboxProgress == 4)
 	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_111")
-	                if (FL_UnkownXBOX297 == 5)
+	                if (FL_DogShrineXboxProgress == 5)
 	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_112")
 	            }
 	            if (obj_inuslot.dognumber == 7)
@@ -5973,7 +5973,7 @@ function SCR_TEXT(_dialog_id)
 	            }
 	            if (instance_count >= 1000)
 	            {
-	                if (FL_UnkownXBOX297 < 6.1)
+	                if (FL_DogShrineXboxProgress < 6.1)
 	                {
 	                    global.msg[0] = scr_gettext("SCR_TEXT_xbox_196")
 	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_197")
@@ -6003,13 +6003,13 @@ function SCR_TEXT(_dialog_id)
 	                    global.msg[1] = scr_gettext("SCR_TEXT_xbox_218")
 	                    global.msg[2] = scr_gettext("SCR_TEXT_xbox_219")
 	                }
-	                if (FL_UnkownXBOX297 < 6.1)
-	                    FL_UnkownXBOX297 = 6.1
+	                if (FL_DogShrineXboxProgress < 6.1)
+	                    FL_DogShrineXboxProgress = 6.1
 	            }
 	            with (obj_inuslot)
 	                dognumber = -2
 	        }
-	        if (FL_UnkownXBOX297 < 4)
+	        if (FL_DogShrineXboxProgress < 4)
 	        {
 	            global.msg[0] = scr_gettext("SCR_TEXT_xbox_220")
 	            global.msg[1] = scr_gettext("SCR_TEXT_xbox_221")
@@ -6020,10 +6020,10 @@ function SCR_TEXT(_dialog_id)
 	            global.msg[6] = scr_gettext("SCR_TEXT_xbox_226")
 	            global.msg[7] = scr_gettext("SCR_TEXT_xbox_227")
 	            global.msg[8] = scr_gettext("SCR_TEXT_xbox_228")
-	            if (FL_UnkownXBOX297 < 2)
-	                FL_UnkownXBOX297 = 5
+	            if (FL_DogShrineXboxProgress < 2)
+	                FL_DogShrineXboxProgress = 5
 	            else
-	                FL_UnkownXBOX297 = 4
+	                FL_DogShrineXboxProgress = 4
 	        }
 			break
 	    case 1001:

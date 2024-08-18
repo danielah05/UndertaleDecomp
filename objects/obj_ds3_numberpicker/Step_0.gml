@@ -54,10 +54,10 @@ if (con == 20)
             ossafe_ini_close()
         }
     }
-    nowdonation = global.flag[299]
+    nowdonation = FL_DogShrineXboxDonatedCoins
     threshold = 0
-    global.flag[298] -= total
-    global.flag[299] += total
+    FL_DogShrineXboxCoins -= total
+    FL_DogShrineXboxDonatedCoins += total
     th[0] = 0
     th[1] = 10
     th[2] = 25
@@ -68,27 +68,27 @@ if (con == 20)
     th[7] = 500
     for (i = 1; i < 8; i += 1)
     {
-        if (nowdonation >= th[(i - 1)] && nowdonation < th[i] && global.flag[299] >= th[i])
+        if (nowdonation >= th[(i - 1)] && nowdonation < th[i] && FL_DogShrineXboxDonatedCoins >= th[i])
             threshold = 1
     }
     if (global.osflavor == 6)
     {
-        if (global.flag[299] >= 10)
+        if (FL_DogShrineXboxDonatedCoins >= 10)
             trophy_unlock("dognation_1")
-        if (global.flag[299] >= 25)
+        if (FL_DogShrineXboxDonatedCoins >= 25)
             trophy_unlock("dognation_2")
-        if (global.flag[299] >= 50)
+        if (FL_DogShrineXboxDonatedCoins >= 50)
             trophy_unlock("dognation_3")
-        if (global.flag[299] >= 100)
+        if (FL_DogShrineXboxDonatedCoins >= 100)
             trophy_unlock("dognation_4")
-        if (global.flag[299] >= 200)
+        if (FL_DogShrineXboxDonatedCoins >= 200)
             trophy_unlock("dognation_5")
-        if (global.flag[299] >= 350)
+        if (FL_DogShrineXboxDonatedCoins >= 350)
             trophy_unlock("dognation_6")
-        if (global.flag[299] >= 500)
+        if (FL_DogShrineXboxDonatedCoins >= 500)
             trophy_unlock("dognation_x")
     }
-    if (global.flag[299] > 500)
+    if (FL_DogShrineXboxDonatedCoins > 500)
         con = 30
     else if (threshold == 1)
         con = 31
@@ -107,8 +107,8 @@ if (con == 10 && (!instance_exists(obj_dialoguer)))
 if (con == 30)
 {
     excessgold = 0
-    addgold = (global.flag[299] - 500)
-    global.flag[299] = 500
+    addgold = (FL_DogShrineXboxDonatedCoins - 500)
+    FL_DogShrineXboxDonatedCoins = 500
     global.gold += addgold
     if (global.gold >= 9999)
     {
