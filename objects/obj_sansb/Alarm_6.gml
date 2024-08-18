@@ -1,4 +1,4 @@
-sm = obj_glowparticle_1 // Daniela: decompiler error, fix this
+sm = 0
 gg = floor(random(3))
 mycommand = round(random(100))
 global.msg[0] = "del"
@@ -320,7 +320,7 @@ SCR_BORDERSETUP()
 yoff = (250 - global.idealborder[2])
 if (yoff < 0)
     yoff = 0
-if (sm == obj_musicobjectparent)
+if (sm == 1)
     blcon = instance_create((x + 120), (y - yoff), obj_blconsm)
 else
     blcon = instance_create((x + 120), (y - yoff), obj_blconwdflowey)

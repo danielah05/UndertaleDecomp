@@ -12,7 +12,7 @@ radius = 50
 counter = 0
 spinbullet[0] = 999999
 for (i = 0; i <= maxnum; i += 1)
-    spinbullet[i] = 847873482423472378 // Daniela: decompiler error, fix this
+    spinbullet[i] = 847873482423472378
 if ((centery + radius) > room_height)
 {
     centery -= ((centery + radius) - room_height)
