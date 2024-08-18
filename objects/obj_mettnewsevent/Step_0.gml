@@ -26,7 +26,7 @@ if (con == 3 && instance_exists(OBJ_WRITER) == false)
     news = caster_load("music/news.ogg")
     if (quickskip == 0)
         event_user(0)
-    nitem[0] = obj_backgrounder_parent
+    nitem[0] = 0
     dog = instance_create(380, 250, obj_mettnews_artifact)
     dog.type = 1
     nitem[1] = dog
