@@ -1,6 +1,6 @@
 global.batmusic = caster_load("music/bergentruckung.ogg")
 murder = 0
-if (scr_murderlv() >= 16)
+if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
     murder = 1
 image_speed = 0
 image_index = 0

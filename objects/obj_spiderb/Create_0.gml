@@ -34,7 +34,7 @@ ht = sprite_height
 wd = sprite_width
 itemuse = 0
 murder = 0
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
 {
     murder = 1
     global.monsterdef[myself] = -800

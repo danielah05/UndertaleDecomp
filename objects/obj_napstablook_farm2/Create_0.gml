@@ -15,7 +15,7 @@ fun = false
 con = 0
 bringback = 0
 buffer = 0
-if (scr_murderlv() < 10)
+if (scr_murderlv() < MurderLevel.Lv10GladDummyKilled)
 {
     snail[0] = instance_create(690, 70, obj_npc_marker)
     snail[0].sprite_index = spr_snailyellow
@@ -41,5 +41,5 @@ con = 0
 bringback = 0
 if (FL_TruePacifist == true)
     instance_destroy()
-if (scr_murderlv() >= 10)
+if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
     instance_destroy()

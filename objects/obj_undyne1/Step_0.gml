@@ -465,7 +465,7 @@ if (con == 50)
 {
     global.interact = 0
     caster_loop(global.currentsong, 0.8, 1)
-    if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+    if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
         caster_set_pitch(global.currentsong, 0.15)
     con = 51
     global.plot = 106

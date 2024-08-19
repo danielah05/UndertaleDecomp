@@ -6,7 +6,7 @@ gravity_direction = 270
 stage = 0
 image_xscale = -1
 x -= sprite_width
-if (scr_murderlv() >= 7)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
     instance_destroy()
 if (FL_TruePacifist == true)
     instance_destroy()

@@ -1,6 +1,6 @@
 image_yscale = 999
 conversation = 0
-if (scr_murderlv() >= 4 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv4DogiKilled && FL_SparedSpecific == 0)
 {
     FL_ChoiceAteLeftSpaghetti = Choices.AteSpaghetti
     instance_destroy()

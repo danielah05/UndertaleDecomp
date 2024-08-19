@@ -39,7 +39,7 @@ if (room == room_torhouse1)
 if (room == room_asghouse1)
 {
     global.msg[0] = scr_gettext("obj_readable_room1_78")
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room1_79")
 }
 if (room == room_torhouse2)
@@ -63,7 +63,7 @@ if (room == room_castle_coffins2)
         global.msg[1] = scr_gettext("obj_readable_room1_97")
         global.msg[2] = scr_gettext("obj_readable_room1_98")
     }
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room1_103")
 }
 if (room == room_torielroom)
@@ -87,7 +87,7 @@ if (room == room_asgoreroom)
 {
     global.msg[0] = scr_gettext("obj_readable_room1_125")
     global.msg[1] = scr_gettext("obj_readable_room1_126")
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room1_130")
     if (y > 120)
         global.msg[0] = scr_gettext("obj_readable_room1_134")
@@ -103,7 +103,7 @@ if (room == room_kitchen)
 if (room == room_kitchen_final)
 {
     global.msg[0] = scr_gettext("obj_readable_room1_147")
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room1_151")
 }
 if (room == room_tundra1)
@@ -120,7 +120,7 @@ if (room == room_tundra_snowpuzz)
         FL_ToggledSnowSwitch = 1
     if (global.plot <= 48)
         global.plot = 49
-    if (scr_murderlv() >= 3)
+    if (scr_murderlv() >= MurderLevel.Lv3DoggoKilled)
         global.msg[0] = scr_gettext("obj_readable_room1_162")
 }
 if (room == room_tundra_lesserdog)
@@ -143,7 +143,7 @@ if (room == room_tundra_inn)
         global.msg[0] = scr_gettext("obj_readable_room1_213")
         global.msg[1] = scr_gettext("obj_readable_room1_214")
     }
-    if (scr_murderlv() >= 7)
+    if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
         global.msg[0] = scr_gettext("obj_readable_room1_219")
 }
 if (room == room_water12)
@@ -190,7 +190,7 @@ if (room == room_water20)
 if (room == room_fire_lab1)
 {
     global.msg[0] = scr_gettext("obj_readable_room1_292")
-    if (global.plot < 126 && scr_murderlv() < 12)
+    if (global.plot < 126 && scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
         global.msg[0] = scr_gettext("obj_readable_room1_293")
 }
 if (room == room_fire_lab2)

@@ -12,7 +12,7 @@ global.msg[2] = scr_gettext("obj_sansbyetrigger_126")
 global.msg[3] = scr_gettext("obj_sansbyetrigger_127")
 global.msg[4] = scr_gettext("obj_sansbyetrigger_128")
 global.msg[5] = scr_gettext("obj_sansbyetrigger_129")
-if (scr_murderlv() >= 2)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
 {
     global.msg[0] = scr_gettext("obj_sansbyetrigger_132")
     global.msg[1] = scr_gettext("obj_sansbyetrigger_133")

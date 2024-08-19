@@ -1,6 +1,6 @@
 waterboard = 0
 won = 0
-if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
 {
     if (global.plot < 107)
         global.plot = 107

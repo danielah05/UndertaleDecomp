@@ -133,7 +133,7 @@ if (con == 23)
     global.faceemotion = 6
     global.typer = 97
     global.msc = 0
-    if (scr_murderlv() < 15)
+    if (scr_murderlv() < MurderLevel.Lv15HotlandCoreKills)
     {
         global.msg[0] = scr_gettext("obj_mettaton_neo_535")
         global.msg[1] = scr_gettext("obj_mettaton_neo_536")
@@ -167,7 +167,7 @@ if (con == 26)
 {
     FL_DisableRandomEncounters = true
     caster_play(explode, 1, 1)
-    if (scr_murderlv() >= 15)
+    if (scr_murderlv() >= MurderLevel.Lv15HotlandCoreKills)
     {
         if (global.xp <= 50000)
             global.xp = 50000

@@ -257,7 +257,7 @@ if (conversation == 22)
     global.msg[0] = scr_gettext("obj_papyrus1_667")
     global.msg[1] = scr_gettext("obj_papyrus1_668")
     global.msg[2] = scr_gettext("obj_papyrus1_669")
-    if (scr_murderlv() >= 2)
+    if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
         global.msg[0] = scr_gettext("obj_papyrus1_672")
     mydialoguer = instance_create(0, 0, obj_dialoguer)
     conversation = 23

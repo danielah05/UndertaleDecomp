@@ -8,7 +8,7 @@ if (FL_SansDated == 0)
     global.msc = 567
 if (FL_SansDated == 2)
     global.msg[0] = scr_gettext("obj_sans_sentry2_134")
-if (scr_murderlv() >= 7)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 {
     global.faceemotion = 3
     global.msc = 0

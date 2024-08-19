@@ -11,7 +11,7 @@ if (caster_is_playing(global.currentsong) != 1 && FL_CurrentNapstablookSong == 0
     {
         global.currentsong = caster_load("music/waterquiet.ogg")
         caster_loop(global.currentsong, 0.8, 0.9)
-        if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+        if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
             caster_set_pitch(global.currentsong, 0.5)
     }
     else if (FL_SparedSpecific == 0)

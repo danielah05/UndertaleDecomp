@@ -11,7 +11,7 @@ facing = Direction.Down
 direction = 0
 talkedto = 0
 image_speed = 0
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     instance_destroy()
 kk = 0
 if (FL_KilledMuffet != 0)

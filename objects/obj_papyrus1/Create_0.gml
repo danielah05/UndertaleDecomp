@@ -10,7 +10,7 @@ else
     sans.sprite_index = spr_sans_dt
 }
 murder = 0
-if (scr_murderlv() >= 2)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
     murder = 1
 if (FL_SparedSpecific == 1)
     murder = 0

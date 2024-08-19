@@ -8,7 +8,7 @@ if (global.encounter > steps)
             scr_steps(340, 380, 40, 205)
             if (room == room_fire5)
                 scr_steps(1040, 680, 40, 205)
-            if (scr_murderlv() >= 12)
+            if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
                 scr_steps(70, 120, 40, 205)
             global.encounter = 0
             battlegroup = floor(random(15))

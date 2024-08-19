@@ -27,7 +27,7 @@ global.msg[9] = scr_gettext("obj_darksans1_203")
 global.msg[10] = scr_gettext("obj_darksans1_204")
 global.msg[11] = scr_gettext("obj_darksans1_205")
 global.msg[12] = scr_gettext("obj_darksans1_206")
-if (scr_murderlv() >= 2)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
 {
     global.msg[0] = scr_gettext("obj_darksans1_210")
     global.msg[1] = scr_gettext("obj_darksans1_211")

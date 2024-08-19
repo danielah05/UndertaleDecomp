@@ -4,7 +4,7 @@ if (global.plot > 159)
     instance_destroy()
     return;
 }
-if (scr_murderlv() < 12)
+if (scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
     instance_destroy()
 else
 {

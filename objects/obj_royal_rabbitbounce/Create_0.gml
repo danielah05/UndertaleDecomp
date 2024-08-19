@@ -1,7 +1,7 @@
 myinteract = 0
 siner = 0
 scr_depth()
-if (scr_murderlv() >= 12 && room == room_fire_prelab)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled && room == room_fire_prelab)
 {
     ff = instance_create(180, 60, obj_kitchenforcefield)
     with (ff)

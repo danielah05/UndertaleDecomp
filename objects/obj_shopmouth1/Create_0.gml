@@ -13,5 +13,5 @@ facespr[3] = spr_shopkeeper1_face3
 facespr[4] = spr_shopkeeper1_face4
 facespr[5] = spr_shopkeeper1_face5
 facespr[6] = spr_shopkeeper1_face6
-if (scr_murderlv() >= 7)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
     instance_destroy()

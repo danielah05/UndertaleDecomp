@@ -22,7 +22,7 @@ if (global.encounter > steps)
                 global.battlegroup = BattleGroup.LesserDog
                 FL_TundraBattleProgress = 4
             }
-            if (scr_murderlv() >= 2 && FL_TundraBattleProgress == 2)
+            if (scr_murderlv() >= MurderLevel.Lv2TorielKilled && FL_TundraBattleProgress == 2)
             {
                 global.battlegroup = BattleGroup.LesserDog
                 FL_TundraBattleProgress = 4

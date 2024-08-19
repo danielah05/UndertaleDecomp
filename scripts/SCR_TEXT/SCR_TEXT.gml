@@ -1336,7 +1336,7 @@ function SCR_TEXT(_dialog_id)
 	    case 268:
 	        if (FL_GotDagger == 0)
 	        {
-	            if (scr_murderlv() < 16)
+	            if (scr_murderlv() < MurderLevel.Lv16MettatonKilled)
 	                global.msg[0] = scr_gettext("SCR_TEXT_1406")
 	            else
 	                global.msg[0] = scr_gettext("SCR_TEXT_1408")
@@ -1353,7 +1353,7 @@ function SCR_TEXT(_dialog_id)
 	            {
 	                noroom = -1
 	                doak = 1
-	                if (scr_murderlv() >= 16)
+	                if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
 	                    scr_itemget(Items.RealKnife)
 	                else
 	                    scr_itemget(Items.WornDagger)
@@ -1361,7 +1361,7 @@ function SCR_TEXT(_dialog_id)
 	            if (noroom == 0)
 	            {
 	                global.msg[0] = scr_gettext("SCR_TEXT_1431")
-	                if (scr_murderlv() >= 16)
+	                if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
 	                    global.msg[0] = scr_gettext("SCR_TEXT_1432")
 	                FL_GotDagger = true
 	            }
@@ -1388,7 +1388,7 @@ function SCR_TEXT(_dialog_id)
 	            {
 	                noroom = -1
 	                doak = 1
-	                if (scr_murderlv() < 16)
+	                if (scr_murderlv() < MurderLevel.Lv16MettatonKilled)
 	                    scr_itemget(Items.HeartLocket)
 	                else
 	                    scr_itemget(Items.TheLocket)
@@ -1396,7 +1396,7 @@ function SCR_TEXT(_dialog_id)
 	            if (noroom == 0)
 	            {
 	                global.msg[0] = scr_gettext("SCR_TEXT_1470")
-	                if (scr_murderlv() >= 16)
+	                if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
 	                    global.msg[0] = scr_gettext("SCR_TEXT_1471")
 	                FL_GotLocket = true
 	            }
@@ -1908,7 +1908,7 @@ function SCR_TEXT(_dialog_id)
 	        global.msg[5] = scr_gettext("SCR_TEXT_1945")
 	        global.msg[6] = scr_gettext("SCR_TEXT_1946")
 	        global.msg[7] = scr_gettext("SCR_TEXT_1947")
-	        if (scr_murderlv() >= 7)
+	        if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 	        {
 	            if instance_exists(obj_papyrus8)
 	            {
@@ -2314,7 +2314,7 @@ function SCR_TEXT(_dialog_id)
 	        global.msg[3] = scr_gettext("SCR_TEXT_2375")
 	        if (FL_PapyrusStatus == PapyrusStatus.Killed)
 	            global.msg[0] = scr_gettext("SCR_TEXT_2376")
-	        if (scr_murderlv() >= 7)
+	        if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 	        {
 	            global.msg[0] = scr_gettext("SCR_TEXT_2380")
 	            global.msg[1] = scr_gettext("SCR_TEXT_2381")
@@ -6263,7 +6263,7 @@ function SCR_TEXT(_dialog_id)
 	        global.choices[3] = 1
 	        global.choices[4] = 0
 	        global.choices[5] = 0
-	        if (scr_murderlv() >= 7)
+	        if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 	        {
 	            global.msg[0] = scr_gettext("SCR_TEXT_6206")
 	            global.choices[0] = 1

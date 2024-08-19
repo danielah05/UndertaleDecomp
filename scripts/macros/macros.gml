@@ -1116,4 +1116,24 @@ enum BattleGroup
 	Asriel = 255,
 	AsrielFinal
 }
+enum MurderLevel
+{
+	Lv0,
+	Lv1RuinsKills,
+	Lv2TorielKilled,
+	Lv3DoggoKilled,
+	Lv4DogiKilled,
+	Lv5GreaterDogKilled,
+	Lv6SnowdrakeKilled,
+	Lv7TundraKills,
+	Lv8PapyrusKilled,
+	Lv9ShyrenKilled,
+	Lv10GladDummyKilled,
+	Lv11WaterfallKills,
+	Lv12UndyneEXKilled,
+	Lv13RoyalGuardsKilled,
+	Lv14MuffetKilled,
+	Lv15HotlandCoreKills,
+	Lv16MettatonKilled
+}
 #endregion

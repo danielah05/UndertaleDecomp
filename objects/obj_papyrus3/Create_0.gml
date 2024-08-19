@@ -12,5 +12,5 @@ else
 look = 0
 spinagain = 0
 murder = 0
-if (scr_murderlv() >= 3)
+if (scr_murderlv() >= MurderLevel.Lv3DoggoKilled)
     murder = 1

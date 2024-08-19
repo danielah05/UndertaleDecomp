@@ -18,5 +18,5 @@ uuu = instance_create(0, 0, obj_walknoise)
 y = (obj_mainchara.y - 1)
 shakehand = 0
 murder = 0
-if (scr_murderlv() >= 2)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
     murder = 1

@@ -20,5 +20,5 @@ if (room == room_water7)
     y2 = 200
     triggery = 263
 }
-if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
     alarm[0] = -1

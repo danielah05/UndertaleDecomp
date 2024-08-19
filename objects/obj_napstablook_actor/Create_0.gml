@@ -20,5 +20,5 @@ if (FL_TruePacifist == true)
 }
 if (FL_TruePacifist == false && room == room_water_blookyard)
     instance_destroy()
-if (scr_murderlv() >= 10)
+if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
     instance_destroy()

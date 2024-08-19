@@ -12,6 +12,6 @@ else
 look = 0
 spinagain = 0
 murder = 0
-if (scr_murderlv() >= 5 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv5GreaterDogKilled && FL_SparedSpecific == 0)
     murder = 1
 image_yscale = 4

@@ -49,7 +49,7 @@ if (room == room_water_undyneyard)
 if (room == room_water_farm)
 {
     sprite_index = spr_snailr
-    if (scr_murderlv() >= 9)
+    if (scr_murderlv() >= MurderLevel.Lv9ShyrenKilled)
         instance_destroy()
 }
 if (room == room_water7 && global.plot < 110)
@@ -57,13 +57,13 @@ if (room == room_water7 && global.plot < 110)
 if (room == room_water11)
 {
     sprite_index = spr_tonsildude
-    if (scr_murderlv() >= 8)
+    if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
         instance_destroy()
     y += 10
 }
 if (room == room_fire8)
 {
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         instance_destroy()
     sprite_index = spr_skateboardgirl
     if (id == instance_find(object_index, 1))
@@ -71,7 +71,7 @@ if (room == room_fire8)
 }
 if (room == room_fire9)
 {
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         instance_destroy()
     sprite_index = spr_businessdude
     if (id == instance_find(object_index, 1))
@@ -123,7 +123,7 @@ if (room == room_fire_prelab)
 {
     if (y < 70)
     {
-        if (scr_murderlv() >= 12)
+        if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
             instance_destroy()
         sprite_index = spr_royalguard_dragon_d
         if (global.plot >= 136)
@@ -144,7 +144,7 @@ if (room == room_fire_mewmew2)
 if (room == room_fire_spidershop)
 {
     sprite_index = spr_donutscaredguy
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         instance_destroy()
 }
 if (room == room_tundra_sansroom)
@@ -161,7 +161,7 @@ if (room == room_tundra_sansroom)
 if (room == room_water2)
 {
     sprite_index = spr_fishnpc_echo
-    if (scr_murderlv() >= 8)
+    if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
         instance_destroy()
 }
 if (room == room_tundra4)
@@ -178,7 +178,7 @@ if (room == room_fire_restaurant)
         sprite_index = spr_npc_charles
     if (x > 780)
         sprite_index = spr_hotel_receptionist2
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         instance_destroy()
 }
 if (room == room_fire_pacing)
@@ -186,7 +186,7 @@ if (room == room_fire_pacing)
     sprite_index = spr_dresslion_a
     if (FL_TruePacifist == true)
         sprite_index = spr_dresslion_b
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         instance_destroy()
     if (global.plot < 167)
         instance_destroy()
@@ -194,12 +194,12 @@ if (room == room_fire_pacing)
 if (room == room_fire_hotellobby)
 {
     sprite_index = spr_diamond_recep
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         instance_destroy()
 }
 if (room == room_fire_hotdog)
 {
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         instance_destroy()
     if (FL_PapyrusStatus == PapyrusStatus.Killed)
         instance_destroy()
@@ -210,7 +210,7 @@ if (room == room_fire_hotdog)
 if (room == room_water_temvillage)
 {
     sprite_index = spr_temmie_egg
-    if (scr_murderlv() >= 10)
+    if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
         instance_destroy()
 }
 if (room == room_water_trashzone1)
@@ -218,6 +218,6 @@ if (room == room_water_trashzone1)
     sprite_index = spr_ds_donationbox_trash
 	if ((global.osflavor != OSFlavors.Playstation && global.osflavor != OSFlavors.XboxOne))
 		instance_destroy()
-	if (scr_murderlv() < 9)
+	if (scr_murderlv() < MurderLevel.Lv9ShyrenKilled)
         instance_destroy()
 }

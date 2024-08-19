@@ -5,7 +5,7 @@ talkedto = 0
 image_speed = 0
 con = 0
 dm = 0
-if (scr_murderlv() >= 8)
+if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
     dm = 1
 if (global.plot < 122)
     dm = 1

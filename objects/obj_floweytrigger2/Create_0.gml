@@ -10,7 +10,7 @@ d = ini_read_real("Flowey", "alter2", 0)
 ossafe_ini_close()
 if (a > 0 || b > 0 || c > 0)
     q = 1
-if (scr_murderlv() >= 2)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
     q = 0
 if (d > 0)
     q = 1
