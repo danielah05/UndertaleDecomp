@@ -148,7 +148,7 @@ if (instance_exists(obj_battler) == false)
     if (FL_HaveUmbrella == true && dsprite == spr_maincharad_umbrella)
         depth = (50000 - ((y * 10) + 300))
 }
-// Daniela: extra collision check stuff added into the xbox version, most likely to fix the same issue we had with the decomp
+// Daniela: all of this is just the collision events but duplicated, mostly done to fix collision bugs caused by later GMS2 versions but man this could have been done better
 if (global.phasing == 0)
 {
     if (global.interact == 0)
@@ -171,18 +171,18 @@ if (global.phasing == 0)
                     if (obj_time.left && collision_line((bbox_left - 3), bbox_top, bbox_left, bbox_top, obj_solidparent, false, true) < 0)
                     {
                         x -= 3
-                        global.facing = 3
+                        global.facing = Direction.Left
                     }
                     if (obj_time.right && collision_line((bbox_right + 3), bbox_top, bbox_right, bbox_top, obj_solidparent, false, true) < 0)
                     {
                         x += 3
-                        global.facing = 1
+                        global.facing = Direction.Right
                     }
                 }
                 else
                 {
                     y -= 3
-                    global.facing = 2
+                    global.facing = Direction.Up
                 }
             }
             if obj_time.down
@@ -192,18 +192,18 @@ if (global.phasing == 0)
                     if (obj_time.left && collision_line((bbox_left - 3), bbox_bottom, bbox_left, bbox_bottom, obj_solidparent, false, true) < 0)
                     {
                         x -= 3
-                        global.facing = 3
+                        global.facing = Direction.Left
                     }
                     if (obj_time.right && collision_line((bbox_right + 3), bbox_bottom, bbox_right, bbox_bottom, obj_solidparent, false, true) < 0)
                     {
                         x += 3
-                        global.facing = 1
+                        global.facing = Direction.Right
                     }
                 }
                 else
                 {
                     y += 3
-                    global.facing = 0
+                    global.facing = Direction.Down
                 }
             }
             return;
@@ -213,7 +213,7 @@ if (global.phasing == 0)
             if place_meeting(x, y, obj_solidparent)
                 return;
             moving = false
-            if (global.facing == 1)
+            if (global.facing == Direction.Right)
             {
                 if (collision_point((x + 2), (y - 2), obj_solidparent, 0, 1) == -4)
                 {
@@ -223,7 +223,7 @@ if (global.phasing == 0)
                 else
                     x = xprevious
             }
-            if (global.facing == 0)
+            if (global.facing == Direction.Down)
             {
                 if (collision_point((x - 3), (y + 3), obj_solidparent, 0, 1) == -4)
                 {
@@ -233,12 +233,12 @@ if (global.phasing == 0)
                 else
                     y = yprevious
             }
-            if (global.facing == 2)
+            if (global.facing == Direction.Up)
             {
                 x = xprevious
                 y = (yprevious - 3)
             }
-            if (global.facing == 3)
+            if (global.facing == Direction.Left)
             {
                 y = yprevious
                 x = (xprevious - 3)
@@ -246,7 +246,7 @@ if (global.phasing == 0)
         }
         if place_meeting(x, y, obj_sur)
         {
-            if (global.facing == 1)
+            if (global.facing == Direction.Right)
             {
                 if (collision_point((x + 3), (y + 3), obj_solidparent, 0, 1) == -4)
                 {
@@ -256,7 +256,7 @@ if (global.phasing == 0)
                 else
                     x = xprevious
             }
-            if (global.facing == 2)
+            if (global.facing == Direction.Up)
             {
                 if (collision_point((x - 3), (y - 3), obj_solidparent, 0, 1) == -4)
                 {
@@ -266,12 +266,12 @@ if (global.phasing == 0)
                 else
                     y = yprevious
             }
-            if (global.facing == 0)
+            if (global.facing == Direction.Down)
             {
                 x = xprevious
                 y = (yprevious + 3)
             }
-            if (global.facing == 3)
+            if (global.facing == Direction.Left)
             {
                 y = yprevious
                 x = (xprevious - 3)
@@ -279,7 +279,7 @@ if (global.phasing == 0)
         }
         if place_meeting(x, y, obj_sul)
         {
-            if (global.facing == 3)
+            if (global.facing == Direction.Left)
             {
                 if (collision_point((x - 3), (y + 3), obj_solidparent, 0, 1) == -4)
                 {
@@ -289,7 +289,7 @@ if (global.phasing == 0)
                 else
                     x = xprevious
             }
-            if (global.facing == 2)
+            if (global.facing == Direction.Up)
             {
                 if (collision_point((x + 3), (y - 3), obj_solidparent, 0, 1) == -4)
                 {
@@ -299,12 +299,12 @@ if (global.phasing == 0)
                 else
                     y = yprevious
             }
-            if (global.facing == 0)
+            if (global.facing == Direction.Down)
             {
                 x = xprevious
                 y = (yprevious + 3)
             }
-            if (global.facing == 1)
+            if (global.facing == Direction.Right)
             {
                 y = yprevious
                 x = (xprevious + 3)
@@ -314,7 +314,7 @@ if (global.phasing == 0)
         {
             if place_meeting(x, y, obj_solidparent)
                 return;
-            if (global.facing == 3)
+            if (global.facing == Direction.Left)
             {
                 if (collision_point((x - 2), (y - 2), obj_solidparent, 0, 1) == -4)
                 {
@@ -324,7 +324,7 @@ if (global.phasing == 0)
                 else
                     x = xprevious
             }
-            if (global.facing == 0)
+            if (global.facing == Direction.Down)
             {
                 if (collision_point((x + 3), (y + 3), obj_solidparent, 0, 1) == -4)
                 {
@@ -334,12 +334,12 @@ if (global.phasing == 0)
                 else
                     y = yprevious
             }
-            if (global.facing == 2)
+            if (global.facing == Direction.Up)
             {
                 x = xprevious
                 y = (yprevious - 3)
             }
-            if (global.facing == 1)
+            if (global.facing == Direction.Right)
             {
                 y = yprevious
                 x = (xprevious + 3)
