@@ -9,8 +9,8 @@
   "name":"obj_dogshrine",
   "overriddenProperties":[],
   "parent":{
-    "name":"DogShrine",
-    "path":"folders/Objects/Console Specific/DogShrine.yy",
+    "name":"Playstation",
+    "path":"folders/Objects/Console Specific/Dog Shrine/Playstation.yy",
   },
   "parentObjectId":null,
   "persistent":false,

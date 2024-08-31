@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"xbox stuff to be sorted",
-    "path":"folders/Sprites/xbox stuff to be sorted.yy",
+    "name":"Xbox",
+    "path":"folders/Sprites/Overworld/Dog Shrine/Xbox.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

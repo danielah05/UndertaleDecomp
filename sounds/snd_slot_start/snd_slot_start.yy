@@ -12,8 +12,8 @@
   "duration":0.246,
   "name":"snd_slot_start",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Dog Shrine",
+    "path":"folders/Sounds/SoundFX/Overworld/Dog Shrine.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

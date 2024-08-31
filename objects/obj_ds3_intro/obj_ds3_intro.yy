@@ -9,8 +9,8 @@
   "name":"obj_ds3_intro",
   "overriddenProperties":[],
   "parent":{
-    "name":"xbox stuff to be sorted",
-    "path":"folders/Objects/xbox stuff to be sorted.yy",
+    "name":"Xbox",
+    "path":"folders/Objects/Console Specific/Dog Shrine/Xbox.yy",
   },
   "parentObjectId":null,
   "persistent":false,

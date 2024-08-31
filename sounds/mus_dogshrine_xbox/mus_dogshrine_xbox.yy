@@ -12,8 +12,8 @@
   "duration":76.8,
   "name":"mus_dogshrine_xbox",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Snowdin",
+    "path":"folders/Sounds/Music/Snowdin.yy",
   },
   "preload":true,
   "resourceType":"GMSound",

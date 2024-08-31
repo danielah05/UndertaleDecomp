@@ -10,8 +10,8 @@
   "name":"obj_xbox_engagement",
   "overriddenProperties":[],
   "parent":{
-    "name":"xbox stuff to be sorted",
-    "path":"folders/Objects/xbox stuff to be sorted.yy",
+    "name":"System",
+    "path":"folders/Objects/System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
