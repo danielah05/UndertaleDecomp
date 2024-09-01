@@ -47,8 +47,12 @@ if (room == room_tundra_sanshouse)
 {
 	if (global.osflavor == OSFlavors.Playstation)
 		room_goto(room_dogshrine)
-	else
+	if (global.osflavor == OSFlavors.Switch)
 		room_goto(room_dogshrine_ruined)
+	if (global.osflavor == OSFlavors.XboxOne)
+        room_goto(room_dogshrine_xbox)
 }
 if (room == room_dogshrine_ruined)
+    room_goto(room_tundra_sanshouse)
+if (room == room_dogshrine_xbox)
     room_goto(room_tundra_sanshouse)

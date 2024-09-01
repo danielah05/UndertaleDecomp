@@ -19,7 +19,7 @@ if (global.osflavor >= OSFlavors.Console)
         {
             draw_set_alpha((1 - global.screen_border_alpha))
             draw_set_color(c_black)
-            ossafe_fill_rectangle(0, 0, (ww - 1), (wh - 1))
+            ossafe_fill_rectangle(0, 0, ww, wh)
             draw_set_alpha(1)
             draw_set_color(c_white)
         }
@@ -28,6 +28,40 @@ if (global.osflavor >= OSFlavors.Console)
     draw_surface_ext(application_surface, xx, yy, global.window_scale, global.window_scale, 0, c_white, 1)
     draw_enable_alphablend(true)
     texture_set_interpolation(false)
+    var isOsPaused = 0
+    if (os_type == os_xboxone)
+        isOsPaused = (xboxone_is_constrained() || xboxone_is_suspending() || xbox_controller_connected == 0 || os_is_paused() || (!xboxone_user_is_signed_in(global.xboxlogin)))
+    else
+        isOsPaused = os_is_paused()
+    if (isOsPaused && (!paused) && (!global.disable_os_pause))
+    {
+        paused = true
+        audio_pause_all()
+        instance_deactivate_all(true)
+        if (os_type == os_xboxone)
+        {
+            if (!sprite_exists(screenshot))
+                screenshot = sprite_create_from_surface(application_surface, 0, 0, view_wport[(0 << 0)], view_hport[(0 << 0)], false, false, 0, 0)
+            if (xbox_controller_connected == 0)
+            {
+                if (!instance_exists(obj_xbox_controller_connect))
+                    instance_create(0, 0, obj_xbox_controller_connect)
+            }
+        }
+    }
+    else if ((!isOsPaused) && paused)
+    {
+        instance_activate_all()
+        audio_resume_all()
+        paused = false
+        if instance_exists(obj_xbox_controller_connect)
+            instance_destroy(obj_xbox_controller_connect)
+        if instance_exists(obj_xbox_account_switch_confirm)
+            instance_destroy(obj_xbox_account_switch_confirm)
+        alarm[0] = 1
+    }
+    if sprite_exists(screenshot)
+        draw_sprite_ext(screenshot, 0, xx, yy, global.window_scale, global.window_scale, 0, c_white, 1)
 }
 else
 {

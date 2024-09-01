@@ -6,7 +6,7 @@ if (caster_is_playing(global.currentsong) != 1)
     {
         global.currentsong = caster_load("music/anothermedium.ogg")
         caster_loop(global.currentsong, 1, 1)
-        if (scr_murderlv() >= 12 && FL_SparedSpecific == 0)
+        if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled && FL_SparedSpecific == 0)
             caster_set_pitch(global.currentsong, 0.5)
     }
     else if (FL_SparedSpecific == 0)

@@ -60,6 +60,13 @@ function scr_load()
 	ossafe_file_text_readln(myfileid)
 	obj_time.time = ossafe_file_text_read_real(myfileid)
 	ossafe_file_text_readln(myfileid)
+	if (os_type == os_xboxone)
+	{
+	    global.xbox_disconnect_counter = ossafe_file_text_read_real(myfileid)
+	    ossafe_file_text_readln(myfileid)
+	    global.xbox_coins_donated = ossafe_file_text_read_real(myfileid)
+	    ossafe_file_text_readln(myfileid)
+	}
 	global.lastsavedkills = global.kills
 	global.lastsavedtime = obj_time.time
 	global.lastsavedlv = global.lv
@@ -67,9 +74,9 @@ function scr_load()
 	global.hp = global.maxhp
 	global.en = global.maxen
 	scr_tempsave()
-	if (global.currentroom < room_tundra_garage)
+	if (global.currentroom < room_tundra_library)
 	    global.area = 0
-	if (global.currentroom >= room_tundra_garage)
+	if (global.currentroom >= room_tundra_library)
 	    global.area = 1
 	FL_PlayRainSound = false
 	FL_RainSoundVolume = 0

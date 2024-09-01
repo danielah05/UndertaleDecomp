@@ -136,7 +136,7 @@ if (con == 20)
     mkid.image_speed = 0.25
     global.msg[0] = scr_gettext("obj_monsterkidtrigger6_272")
     global.msg[1] = scr_gettext("obj_monsterkidtrigger6_273")
-    if (scr_murderlv() >= 9 && FL_SparedSpecific == 0)
+    if (scr_murderlv() >= MurderLevel.Lv9ShyrenKilled && FL_SparedSpecific == 0)
     {
         global.msg[0] = scr_gettext("obj_monsterkidtrigger6_276")
         global.msg[1] = scr_gettext("obj_monsterkidtrigger6_277")

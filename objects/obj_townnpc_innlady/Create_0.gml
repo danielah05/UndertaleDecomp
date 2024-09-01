@@ -11,5 +11,5 @@ if (FL_StayedAtInn == 1)
     global.interact = 1
     alarm[6] = 15
 }
-if (scr_murderlv() >= 7)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
     instance_destroy()

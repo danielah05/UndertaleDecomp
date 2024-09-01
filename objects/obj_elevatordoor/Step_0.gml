@@ -51,7 +51,7 @@ if (con == 41)
         global.msg[7] = scr_gettext("obj_elevatordoor_230")
     }
     FL_GotAlphysAdvice1 = 1
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         global.msg[0] = scr_gettext("obj_elevatordoor_234")
     scr_regulartext()
     con = 42

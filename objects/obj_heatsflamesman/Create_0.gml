@@ -15,7 +15,7 @@ if (FL_FlameyNameChoice > Choices.NotSet)
     sprite_index = spr_heatsf_shock
 if (room == room_fire_elevator_r2 && global.plot >= 166)
     instance_destroy()
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     instance_destroy()
 if (FL_KilledMettaton == 1)
     instance_destroy()

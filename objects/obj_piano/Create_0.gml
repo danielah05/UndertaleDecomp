@@ -11,3 +11,5 @@ facing = Direction.Down
 direction = 270
 talkedto = 0
 image_speed = 0
+unlock_timer = 60
+can_interact = 1

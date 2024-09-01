@@ -1,4 +1,4 @@
-if (parent == obj_musicobjectparent)
+if (parent == 1)
 {
     alarm[4] = 26
     speed = (2 + random(1.5))

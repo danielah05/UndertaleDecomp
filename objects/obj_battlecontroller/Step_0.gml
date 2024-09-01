@@ -405,5 +405,6 @@ if (currentplace < global.bmenuno)
     if (snd_isplaying(snd_select) != 1)
         snd_play(snd_select)
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true && keyboard_check_pressed(vk_space) == 1)
     global.turntimer = 2

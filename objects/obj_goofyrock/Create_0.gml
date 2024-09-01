@@ -9,3 +9,6 @@ if (FL_PushedRock3 == 1)
     x += 60
     conversation = 15
 }
+talking = 0
+moving = false
+can_talk = 1

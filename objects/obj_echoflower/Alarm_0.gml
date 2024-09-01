@@ -40,14 +40,14 @@ if (room == room_water6)
         global.msg[0] = scr_gettext("obj_echoflower_141")
         global.msg[1] = scr_gettext("obj_echoflower_142")
         global.msg[2] = scr_gettext("obj_echoflower_143")
-        if (scr_murderlv() >= 8)
+        if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
             global.msg[0] = scr_gettext("obj_echoflower_145")
     }
     if (x > 180)
     {
         global.msg[0] = scr_gettext("obj_echoflower_150")
         global.msg[1] = scr_gettext("obj_echoflower_151")
-        if (scr_murderlv() >= 8)
+        if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
             global.msg[0] = scr_gettext("obj_echoflower_153")
     }
     if (x > 280)
@@ -56,7 +56,7 @@ if (room == room_water6)
         global.msg[0] = scr_gettext("obj_echoflower_157")
     if (x > 620)
         global.msg[0] = scr_gettext("obj_echoflower_159")
-    if (scr_murderlv() >= 8 || FL_UndyneStatus == UndyneStatus.Killed)
+    if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled || FL_UndyneStatus == UndyneStatus.Killed)
         global.msg[0] = scr_gettext("obj_echoflower_161")
 }
 if (room == room_water7)
@@ -67,7 +67,7 @@ if (room == room_water7)
 if (room == room_water_savepoint1)
 {
     global.msg[0] = scr_gettext("obj_echoflower_171")
-    if (scr_murderlv() >= 8)
+    if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
         global.msg[0] = scr_gettext("obj_echoflower_173")
 }
 if (room == room_water12)
@@ -85,7 +85,7 @@ if (room == room_water12)
         global.msg[1] = scr_gettext("obj_echoflower_190")
         global.msg[2] = scr_gettext("obj_echoflower_191")
     }
-    if (scr_murderlv() >= 8 || FL_UndyneStatus == UndyneStatus.Killed)
+    if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled || FL_UndyneStatus == UndyneStatus.Killed)
         global.msg[0] = scr_gettext("obj_echoflower_194")
 }
 if (room == room_water_shoe)
@@ -140,7 +140,7 @@ if (room == room_water19)
             global.msg[4] = scr_gettext("obj_echoflower_257")
         }
     }
-    if (scr_murderlv() >= 8 || FL_UndyneStatus == UndyneStatus.Killed)
+    if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled || FL_UndyneStatus == UndyneStatus.Killed)
         global.msg[0] = scr_gettext("obj_echoflower_262")
 }
 if (room == room_fire_conveyorlaser)

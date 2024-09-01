@@ -155,7 +155,7 @@ if (dcon > 0)
         fileset = 3
         global.my_hp = 50
         obj_vsflowey_heart.move = 1
-        obj_vsflowey_heart.depth = -4
+        heartdepth = obj_vsflowey_heart.depth
         obj_vsflowey_heart.x = 314
         obj_vsflowey_heart.y = 422
         obj_vsflowey_heart.special = true
@@ -351,7 +351,8 @@ if (dcon > 0)
     }
     if (dcon == 35)
     {
-        if instance_exists(obj_flowey_writer)
+        obj_vsflowey_heart.depth = heartdepth
+		if instance_exists(obj_flowey_writer)
         {
             if (obj_flowey_writer.stringno == 4)
             {
@@ -547,8 +548,8 @@ if (dcon > 0)
             frozen = true
             siner += (1 + random(0.5))
             md = 1
-            image_blend = make_color_hsv((abs(sin((siner / 30))) * 512), 255, 255)
-            blend2 = make_color_hsv(((abs(sin((siner / 30))) * 512) % 255), 255, 255)
+            image_blend = old_make_color_hsv((abs(sin((siner / 30))) * 512), 255, 255)
+            blend2 = old_make_color_hsv((abs(sin((siner / 30))) * 512), 255, 255)
             flash = -1
             x = ((xstart + random(15)) - random(15))
             y = ((ystart + random(15)) - random(15))
@@ -700,6 +701,7 @@ if (turnturn == 0 && introcon == 2)
     ossafe_fill_rectangle(-10, -10, 999, 999)
     draw_sprite(spr_ourheart, 0, obj_vsflowey_heart.x, obj_vsflowey_heart.y)
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     draw_set_color(c_yellow)

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_book",
-    "path":"sprites/spr_book/spr_book.yy",
+    "name":"spr_book2",
+    "path":"sprites/spr_book2/spr_book2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

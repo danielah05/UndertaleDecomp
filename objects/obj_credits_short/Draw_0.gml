@@ -128,7 +128,12 @@ if (number == 6)
         draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc1_1_switch")))
         yy += 36
     }
-    else
+    else if (global.osflavor == OSFlavors.XboxOne)
+    {
+        draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc1_1_xbox")))
+        yy += 36
+    }
+	else
     {
         draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc1_1")))
         yy += 18
@@ -162,32 +167,64 @@ if (number == 7)
     if (global.language == "ja")
         xx = 32
     yy = 24
-    draw_set_color(c_yellow)
-    draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_1")))
-    yy += 18
-    draw_set_color(c_white)
-    scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1a"))
-    yy += 18
-    scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1b"))
-    yy += 18
-    scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1c"))
-    yy += 18
-    scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1d"))
-    yy += 18
-    scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1e"))
-    yy += 28
-    draw_set_color(c_yellow)
-    draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_2")))
-    yy += 18
-    draw_set_color(c_white)
-    scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_2a"))
-    yy += 28
-    draw_set_color(c_yellow)
-    draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_3")))
-    yy += 18
-    draw_set_color(c_white)
-    scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_3a"))
-    yy += 28
+    if (os_type == os_xboxone)
+    {
+        draw_set_color(c_yellow)
+        draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_1")))
+        yy += 18
+        draw_set_color(c_white)
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1a"))
+        yy += 28
+        draw_set_color(c_yellow)
+        draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_2")))
+        yy += 18
+        draw_set_color(c_white)
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_2a"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_2b"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_2c"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_2d"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_2e"))
+        yy += 28
+        draw_set_color(c_yellow)
+        draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_3")))
+        yy += 18
+        draw_set_color(c_white)
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_3a"))
+        yy += 28
+    }
+    else
+    {
+        draw_set_color(c_yellow)
+        draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_1")))
+        yy += 18
+        draw_set_color(c_white)
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1a"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1b"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1c"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1d"))
+        yy += 18
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_1e"))
+        yy += 28
+        draw_set_color(c_yellow)
+        draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_2")))
+        yy += 18
+        draw_set_color(c_white)
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_2a"))
+        yy += 28
+        draw_set_color(c_yellow)
+        draw_text(xx, yy, string_hash_to_newline(scr_gettext("credits_short_loc2_3")))
+        yy += 18
+        draw_set_color(c_white)
+        scr_credits_short_draw_name((xx + 30), yy, scr_gettext("credits_short_loc2_3a"))
+        yy += 28
+    }
 }
 if (number == 8)
 {
@@ -234,15 +271,31 @@ if (number == 9)
     yy += 18
     draw_set_color(c_white)
     draw_set_font(fnt_maintext)
-    for (var i = 0; i < 14; i++)
+    if (os_type == os_xboxone)
     {
-        var this_x = (xx + 30)
-        if (i < 10 && (i % 2) == 1)
-            this_x = xx2
-        var name = scr_gettext(("credits_short_thanks1_" + string((i + 1))))
-        draw_text(this_x, yy, string_hash_to_newline(name))
-        if (i >= 10 || (i % 2) == 1)
-            yy += 18
+        for (var i = 0; i < 18; i++)
+        {
+            var this_x = (xx + 30)
+            if (i < 14 && (i % 2) == 1)
+                this_x = xx2
+            var name = scr_gettext(("credits_short_thanks1_" + string((i + 1))))
+            draw_text(this_x, yy, string_hash_to_newline(name))
+            if (i >= 14 || (i % 2) == 1)
+                yy += 18
+        }
+    }
+    else
+    {
+        for (i = 0; i < 14; i++)
+        {
+            this_x = (xx + 30)
+            if (i < 10 && (i % 2) == 1)
+                this_x = xx2
+            name = scr_gettext(("credits_short_thanks1_" + string((i + 1))))
+            draw_text(this_x, yy, string_hash_to_newline(name))
+            if (i >= 10 || (i % 2) == 1)
+                yy += 18
+        }
     }
     scr_setfont(fnt_ja_maintext)
 }
@@ -258,15 +311,31 @@ if (number == 10)
     yy += 18
     draw_set_color(c_white)
     draw_set_font(fnt_maintext)
-    for (i = 0; i < 15; i++)
+    if (os_type == os_xboxone)
     {
-        this_x = (xx + 30)
-        if ((i % 2) == 1)
-            this_x = xx2
-        name = scr_gettext(("credits_short_thanks2_" + string((i + 1))))
-        draw_text(this_x, yy, string_hash_to_newline(name))
-        if ((i % 2) == 1 || i == 14)
-            yy += 18
+        for (i = 0; i < 18; i++)
+        {
+            this_x = (xx + 30)
+            if ((i % 2) == 1)
+                this_x = xx2
+            name = scr_gettext(("credits_short_thanks2_" + string((i + 1))))
+            draw_text(this_x, yy, string_hash_to_newline(name))
+            if ((i % 2) == 1 || i == 17)
+                yy += 18
+        }
+    }
+    else
+    {
+        for (i = 0; i < 15; i++)
+        {
+            this_x = (xx + 30)
+            if ((i % 2) == 1)
+                this_x = xx2
+            name = scr_gettext(("credits_short_thanks2_" + string((i + 1))))
+            draw_text(this_x, yy, string_hash_to_newline(name))
+            if ((i % 2) == 1 || i == 14)
+                yy += 18
+        }
     }
     yy += 10
     scr_setfont(fnt_ja_maintext)

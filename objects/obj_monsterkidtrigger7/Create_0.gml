@@ -4,5 +4,5 @@ if (global.plot > 119)
 touched = false
 image_yscale = 10
 murder = 0
-if (scr_murderlv() >= 11 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv11WaterfallKills && FL_SparedSpecific == 0)
     murder = 1

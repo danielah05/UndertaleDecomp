@@ -1,3 +1,4 @@
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     if (instance_exists(obj_floweyx_flamethrower) == false)

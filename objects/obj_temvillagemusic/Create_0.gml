@@ -11,7 +11,7 @@ if (caster_is_playing(global.currentsong) != 1 && FL_CurrentNapstablookSong == 0
     {
         global.currentsong = caster_load("music/temvillage.ogg")
         caster_loop(global.currentsong, 1, 1)
-        if (scr_murderlv() >= 10 && FL_SparedSpecific == 0)
+        if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled && FL_SparedSpecific == 0)
             caster_set_pitch(global.currentsong, 0.5)
     }
     else if (FL_SparedSpecific == 0)

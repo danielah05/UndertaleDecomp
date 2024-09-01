@@ -56,7 +56,7 @@ if (global.language == "ja")
 ht = sprite_height
 wd = sprite_width
 murder = 0
-if (scr_murderlv() >= 7)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 {
     murder = 1
     FL_NeutralPapyrusSpared = true

@@ -102,7 +102,7 @@ if (conversation == 1)
                 conversation = 3
             }
         }
-        if (scr_murderlv() >= 2)
+        if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
         {
             ossafe_ini_open("undertale.ini")
             ini_write_real("Flowey", "truename", 1)

@@ -428,7 +428,7 @@ function scr_loadcredits()
 	    creditname[credamt++] = "SA，ren MoskjA|r Lauridsen"
 	    creditname[credamt++] = "Christopher Jose"
 	    creditname[credamt++] = "Russell Deitch"
-	    creditname[credamt++] = "Toby Fox"
+	    creditname[credamt++] = "Xan Wetherall"
 	    creditname[credamt++] = "Chris B."
 	    creditname[credamt++] = "OatmealRaisin"
 	    creditname[credamt++] = "Edlyn \"Xisuu\" Si"
@@ -904,7 +904,7 @@ function scr_loadcredits()
 	    creditname[credamt++] = "Samael the Butterdragon"
 	    creditname[credamt++] = "James Roach"
 	    creditname[credamt++] = "Luna and DC"
-	    creditname[credamt++] = "Chess"
+	    creditname[credamt++] = "Tcheska Lynn Bryant"
 	}
 	creditname[credamt++] = "%%%"
 	return credamt;

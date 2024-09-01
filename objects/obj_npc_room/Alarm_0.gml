@@ -112,7 +112,7 @@ if (room == room_water_undyneyard)
         global.msg[0] = scr_gettext("obj_npc_room_372")
         global.msg[1] = scr_gettext("obj_npc_room_373")
     }
-    if (scr_murderlv() >= 9)
+    if (scr_murderlv() >= MurderLevel.Lv9ShyrenKilled)
     {
         global.msg[0] = scr_gettext("obj_npc_room_377")
         global.msg[1] = scr_gettext("obj_npc_room_378")

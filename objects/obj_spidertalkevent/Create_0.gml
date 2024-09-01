@@ -13,5 +13,5 @@ if (global.plot > 164)
     return;
 }
 murder = 0
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     murder = 1

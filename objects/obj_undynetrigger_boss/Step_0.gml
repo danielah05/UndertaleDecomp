@@ -180,7 +180,8 @@ with (obj_undynetrigger_boss)
     }
     if (con == 22)
     {
-        undyne.sprite_index = spr_undyne_starkd_nomask
+        undyne.fun = false
+		undyne.sprite_index = spr_undyne_starkd_nomask
         con = 23
         obj_mainchara.y = 0
         obj_mainchara.visible = false

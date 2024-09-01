@@ -422,7 +422,7 @@ function scr_battlegroup()
 	            global.batmusic = caster_load("music/papyrusboss.ogg")
 	        else
 	            global.batmusic = caster_load("music/papyrus.ogg")
-	        if (scr_murderlv() < 7)
+	        if (scr_murderlv() < MurderLevel.Lv7TundraKills)
 	        {
 	            if (FL_PapyrusStatus < PapyrusStatus.Spared)
 	                caster_loop(global.batmusic, 0.9, 1)
@@ -436,7 +436,7 @@ function scr_battlegroup()
 	        global.actfirst = 0
 	        global.extraintro = 0
 	        global.msg[0] = scr_gettext("scr_battlegroup_411")
-	        if (scr_murderlv() >= 7)
+	        if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 	            global.msg[0] = scr_gettext("scr_battlegroup_413")
 	        global.monsterinstance[0] = instance_create(250, 42, obj_papyrusboss)
 	        break

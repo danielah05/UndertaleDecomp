@@ -14,5 +14,5 @@ if (global.entrance == 20 && global.plot > 115)
     x = 100
     right = 1
 }
-if (scr_murderlv() >= 10 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled && FL_SparedSpecific == 0)
     y = 900

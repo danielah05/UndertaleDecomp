@@ -5,7 +5,7 @@ function scr_draw_screen_border()
 	draw_enable_alphablend(false)
 	if (border_id == 1)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_line_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_line_544, 0, 0)
@@ -37,7 +37,7 @@ function scr_draw_screen_border()
 	        overlay[i, 1] = spr_undertaletitle
 	        overlay[i, 2] = spr_undertaletitle
 	    }
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	    {
 	        base = bg_border_sepia_1080
 	        overlay[0, 1] = spr_blconbelow
@@ -50,14 +50,14 @@ function scr_draw_screen_border()
 	        overlay[3, 2] = spr_undynex_example
 	        overlay[4, 1] = spr_vegetoid
 	        overlay[4, 2] = spr_blconbelow
-	        overlay[5, 1] = spr_bookshelf
+	        overlay[5, 1] = spr_umbrellaholder
 	        overlay[5, 2] = spr_undertaletitle
-	        overlay[6, 1] = spr_forcefield_right_middle
+	        overlay[6, 1] = spr_alphys_rt
 	        overlay[6, 2] = spr_alphyshelper_embarrass
-	        overlay[7, 1] = spr_chipdoor_chippart
+	        overlay[7, 1] = spr_table
 	        overlay[7, 2] = spr_gb_npc
-	        overlay[8, 1] = spr_undynea_ut
-	        overlay[8, 2] = spr_uppbutton
+	        overlay[8, 1] = spr_undyne_d_dark
+	        overlay[8, 2] = spr_iceblock_bottom
 	        if (idle_frame == 1)
 	        {
 	            overlay[0, 0] = bg_border_sepia_1080_1a
@@ -83,7 +83,7 @@ function scr_draw_screen_border()
 	            overlay[8, 0] = bg_border_sepia_1080_9b
 	        }
 	        if (global.screen_border_state > 0)
-	            overlay1 = 2839
+	            overlay1 = 2903
 	    }
 	    else if (os_type == os_psvita)
 	    {
@@ -119,7 +119,7 @@ function scr_draw_screen_border()
 	            overlay[5, 0] = bg_border_sepia_544_6b
 	        }
 	        if (global.screen_border_state > 0)
-	            overlay1 = 2853
+	            overlay1 = 2917
 	    }
 	    if (base != noone)
 	    {
@@ -160,7 +160,7 @@ function scr_draw_screen_border()
 	        border_id = 8
 	    if (room_id >= room_truelab_elevator && room_id <= room_truelab_power)
 	        border_id = 9
-	    if (room_id == room_water_undynefinal3 || room_id == room_fire_elevator || room_id == room_fire_finalelevator || room_id == room_fire_labelevator || room_id == room_truelab_elevatorinside || room_id == room_riverman_transition || room_id == room_dogshrine || room_id == room_dogshrine_ruined || room_id == room_dogshrine_mewmew)
+	    if (room_id == room_water_undynefinal3 || room_id == room_fire_elevator || room_id == room_fire_finalelevator || room_id == room_fire_labelevator || room_id == room_truelab_elevatorinside || room_id == room_riverman_transition || room_id == room_dogshrine || room_id == room_dogshrine_ruined || room_id == room_dogshrine_mewmew || room_id == room_dogshrine_xbox)
 	        border_id = 3.5
 	    if (FL_TrueLabBorderEnabled == 0 && (room_id == room_truelab_elevator || room_id == room_truelab_hall1))
 	        border_id = 3.5
@@ -195,54 +195,54 @@ function scr_draw_screen_border()
 	if (border_id == 3.5)
 	{
 	    draw_set_color(c_black)
-	    ossafe_fill_rectangle(0, 0, (window_get_width() - 1), (window_get_height() - 1))
+	    ossafe_fill_rectangle(0, 0, window_get_width(), window_get_height())
 	    draw_set_color(c_white)
 	}
 	if (border_id == 4)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_ruins_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_ruins_544, 0, 0)
 	}
 	if (border_id == 5)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_tundra_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_tundra_544, 0, 0)
 	}
 	if (border_id == 6)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_water1_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_water1_544, 0, 0)
 	}
 	if (border_id == 7)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_fire_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_fire_544, 0, 0)
 	}
 	if (border_id == 8)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_castle_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_castle_544, 0, 0)
 	}
 	if (border_id == 9)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_truelab_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_truelab_544, 0, 0)
 	}
 	if (border_id == 10)
 	{
-	    if (os_type == os_ps4 || os_type == os_switch)
+	    if (os_type == os_ps4 || os_type == os_switch || os_type == os_xboxone)
 	        scr_draw_background_ps4(bg_border_rad_1080, 0, 0)
 	    if (os_type == os_psvita)
 	        draw_background(bg_border_rad_544, 0, 0)
@@ -256,6 +256,11 @@ function scr_draw_screen_border()
 	{
 	    if (os_type == os_switch)
 	        scr_draw_background_ps4(bg_border_dog_1080, 0, 0)
+	}
+	if (border_id == 13)
+	{
+	    if (os_type == os_xboxone)
+	        scr_draw_background_ps4(bg_border_xbox_1080, 0, 0)
 	}
 	draw_set_alpha(1)
 	draw_enable_alphablend(true)

@@ -5,7 +5,7 @@ global.facechoice = 0
 global.faceemotion = 0
 if (room == room_water_blookhouse)
 {
-    if (scr_murderlv() >= 10 || (!instance_exists(obj_napstablook_actor)))
+    if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled || (!instance_exists(obj_napstablook_actor)))
     {
         global.msc = 0
         global.msg[0] = scr_gettext("obj_napstafridge_75")
@@ -21,7 +21,7 @@ if (room == room_water_blookhouse)
 if (room == room_fire_lab1)
 {
     global.msc = 258
-    if (global.plot < 126 && scr_murderlv() < 12)
+    if (global.plot < 126 && scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
     {
         global.msc = 0
         global.msg[0] = scr_gettext("obj_napstafridge_100")

@@ -2,6 +2,7 @@ if (drawngr == 1)
     sprite_delete(gr)
 gr = sprite_create_from_screen_x(xx, yy, width, (obj_uborder.y - yy), false, false, 0, 0)
 sprite_index = gr
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     if keyboard_check(vk_space)

@@ -2,7 +2,10 @@ phase = 0
 plotrating = 0
 scale = 1
 if (room == room_ruins15B)
+{
     plotrating = 13
+	scale = 3
+}
 if (room == room_ruins15C)
 {
     plotrating = 14

@@ -13,6 +13,20 @@ else if (os_type == os_ps4 || os_type == os_psvita)
     global.osflavor = OSFlavors.Playstation
 else if (os_type == os_switch)
     global.osflavor = OSFlavors.Switch
+else if (os_type == os_xboxone)
+{
+    global.osflavor = OSFlavors.XboxOne
+    xbox_account_picker_display = 0
+    xbox_switch_profile = 0
+    xbox_new_user = 0
+    xbox_connect_buffer = 5
+    global.xbox_async_id = -1
+    global.xbox_trophy_queue = ds_queue_create()
+    xbox_can_unlock_trophy = 1
+    xbox_suspend = 0
+    xbox_controller_connected = 1
+    xbox_login_pad_index = -1
+}
 else
     global.osflavor = OSFlavors.Mac
 
@@ -41,6 +55,8 @@ global.savedata_error = 0
 global.savedata_debuginfo = ""
 global.disable_os_pause = 0
 paused = false
+pausing = false
+screenshot = -1
 idle = 0
 idle_time = 0
 up = 0
@@ -94,6 +110,12 @@ else if (os_type == os_switch)
 {
     global.button0 = gp_face2
     global.button1 = gp_face1
+    global.button2 = gp_face4
+}
+else if (os_type == os_xboxone)
+{
+    global.button0 = gp_face1
+    global.button1 = gp_face2
     global.button2 = gp_face4
 }
 global.default_button0 = global.button0
@@ -171,3 +193,19 @@ if (!variable_global_exists("trophy_init_complete"))
     global.trophy_init_complete = 0
     trophy_ts = -1
 }
+// Daniela: due to code changes in the xbox version, this if check causes game crashes on anything other than an xbox, so its commented out here
+// Daniela: there is a "fix" in the game start event, however due to room changes that never gets executed, oopsies!
+//if (os_type == os_xboxone)
+//{
+    script_execute(SCR_GAMESTART, 0, 0, 0, 0, 0)
+    time = 0
+    image_speed = 0
+    jjjjjj = 0
+    repeat (20)
+    {
+        global.tempvalue[jjjjjj] = 0
+        jjjjjj += 1
+    }
+    ossafe_savedata_load()
+    started = 0
+//}

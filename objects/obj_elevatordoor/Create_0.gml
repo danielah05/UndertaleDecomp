@@ -55,7 +55,7 @@ if (room == room_fire_hotellobby)
 }
 if (room == room_fire_elevator_l2)
 {
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     {
         ff = instance_create(200, 140, obj_kitchenforcefield)
         ff.image_yscale = 3
@@ -63,7 +63,7 @@ if (room == room_fire_elevator_l2)
 }
 if (room == room_fire_elevator_r3)
 {
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     {
         ff = instance_create(80, 100, obj_kitchenforcefield)
         with (ff)
@@ -72,7 +72,7 @@ if (room == room_fire_elevator_r3)
 }
 if (room == room_fire_elevator_r2)
 {
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     {
         ff = instance_create(80, 100, obj_kitchenforcefield)
         with (ff)

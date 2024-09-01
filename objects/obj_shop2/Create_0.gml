@@ -1,5 +1,5 @@
 murder = 0
-if (scr_murderlv() >= 10)
+if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
     murder = 1
 instance_create(0, 0, obj_fader)
 vol = 0.8

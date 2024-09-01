@@ -44,5 +44,13 @@ if (instance_exists(obj_dialoguer) == false && conversation == 13)
     if (obj_mainchara.x > (x + 15))
         obj_mainchara.hspeed = 1
 }
-if (conversation == 15)
+if (instance_exists(obj_dialoguer) == 0 && conversation == 15)
+{
+    conversation += 1
+    myinteract = 0
+    with (obj_mainchara)
+        uncan = 0
+    global.interact = 0
     x = 280
+    talking = 0
+}

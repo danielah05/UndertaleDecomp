@@ -1,6 +1,6 @@
 i += 1
-cx[i] = ((global.idealborder[0] + 20) + random(121))
-cy[i] = ((global.idealborder[2] + 20) + random(122))
+cx[i] = ((global.idealborder[0] + 20) + random(101))
+cy[i] = ((global.idealborder[2] + 20) + random(102))
 hdist = (abs((global.idealborder[0] - cx[i])) - abs((global.idealborder[1] - cx[i])))
 vdist = (abs((global.idealborder[2] - cy[i])) - abs((global.idealborder[3] - cy[i])))
 if (abs(vdist) > abs(hdist))

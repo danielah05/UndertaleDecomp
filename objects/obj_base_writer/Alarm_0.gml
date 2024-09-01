@@ -17,7 +17,7 @@ while (stringpos < string_length(originalstring) && advance > 0)
     {
         stringpos++
         ch = string_char_at(originalstring, stringpos)
-        //if (ch != "0")
+        // Daniela: fixes a cutscene softlock
 		if (ch != "0" && ch != "")
         {
             var n = real(ch)

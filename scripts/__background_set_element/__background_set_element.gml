@@ -38,8 +38,8 @@ function __background_set_element(_background_index, _visible, _foreground, _spr
 	var __depthinc = 100
 	__result[0] = -1
 	__result[1] = -1
-	var __fgstring = "Foreground_"
-	var __bgstring = "Background_"
+	var __fgstring = "Compatibility_Foreground_"
+	var __bgstring = "Compatibility_Background_"
 	var __colstring = "Colour"
 	var __fglen = string_length(__fgstring)
 	var __bglen = string_length(__bgstring)

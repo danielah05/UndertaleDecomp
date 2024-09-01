@@ -15,6 +15,6 @@ if (global.kills > 20)
         global.msg[1] = scr_gettext("obj_dogfoodbag_65")
     }
 }
-if (global.plot < 126 && scr_murderlv() < 12)
+if (global.plot < 126 && scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
     global.msg[0] = scr_gettext("obj_dogfoodbag_68")
 mydialoguer = instance_create(0, 0, obj_dialoguer)

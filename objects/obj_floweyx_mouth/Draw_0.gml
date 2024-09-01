@@ -96,6 +96,7 @@ if (desperate == 1)
 }
 draw_sprite_ext(spr_floweyx_dimple, anim, (((x + (sin((siner / 2)) * 3)) - 5) + xbonus), (y - 10), 1, (1 + (sin((siner / 4)) * 0.03)), (0 + cos((siner / 2))), image_blend, 1)
 draw_sprite_ext(spr_floweyx_dimple, anim, ((((x + op) - (sin((siner / 2)) * 3)) + 5) - xbonus), (y - 10), -1, (1 + (sin((siner / 4)) * 0.03)), (0 + cos((siner / 2))), image_blend, 1)
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     if control_check_pressed(CancelButton)

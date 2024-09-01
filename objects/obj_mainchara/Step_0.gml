@@ -42,7 +42,8 @@ if obj_time.left
         if (moving != true)
             image_index = 1
         moving = true
-        if (global.debug == true)
+        // Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
+		if (global.debug == true)
         {
             if keyboard_check(vk_backspace)
                 x -= 5
@@ -62,7 +63,8 @@ if obj_time.up
     {
         turned = 1
         y -= 3
-        if (global.debug == true)
+        // Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
+		if (global.debug == true)
         {
             if keyboard_check(vk_backspace)
                 y -= 5
@@ -145,4 +147,203 @@ if (instance_exists(obj_battler) == false)
     scr_depth()
     if (FL_HaveUmbrella == true && dsprite == spr_maincharad_umbrella)
         depth = (50000 - ((y * 10) + 300))
+}
+// Daniela: all of this is just the collision events but duplicated, mostly done to fix collision bugs caused by later GMS2 versions but man this could have been done better
+if (global.phasing == 0)
+{
+    if (global.interact == 0)
+    {
+        if place_meeting(x, y, obj_solidnpcparent)
+        {
+            x = xprevious
+            y = yprevious
+            moving = false
+        }
+        if place_meeting(x, y, obj_solidparent)
+        {
+            x = xprevious
+            y = yprevious
+            moving = false
+            if obj_time.up
+            {
+                if (collision_rectangle((x + 2), (y + 15), (x + 18), (y + 19), obj_solidparent, 0, 1) > 0)
+                {
+                    if (obj_time.left && collision_line((bbox_left - 3), bbox_top, bbox_left, bbox_top, obj_solidparent, false, true) < 0)
+                    {
+                        x -= 3
+                        global.facing = Direction.Left
+                    }
+                    if (obj_time.right && collision_line((bbox_right + 3), bbox_top, bbox_right, bbox_top, obj_solidparent, false, true) < 0)
+                    {
+                        x += 3
+                        global.facing = Direction.Right
+                    }
+                }
+                else
+                {
+                    y -= 3
+                    global.facing = Direction.Up
+                }
+            }
+            if obj_time.down
+            {
+                if (collision_rectangle((x + 2), (y + 30), (x + 18), (y + 33), obj_solidparent, 0, 1) > 0)
+                {
+                    if (obj_time.left && collision_line((bbox_left - 3), bbox_bottom, bbox_left, bbox_bottom, obj_solidparent, false, true) < 0)
+                    {
+                        x -= 3
+                        global.facing = Direction.Left
+                    }
+                    if (obj_time.right && collision_line((bbox_right + 3), bbox_bottom, bbox_right, bbox_bottom, obj_solidparent, false, true) < 0)
+                    {
+                        x += 3
+                        global.facing = Direction.Right
+                    }
+                }
+                else
+                {
+                    y += 3
+                    global.facing = Direction.Down
+                }
+            }
+            return;
+        }
+        if place_meeting(x, y, obj_sdr)
+        {
+            if place_meeting(x, y, obj_solidparent)
+                return;
+            moving = false
+            if (global.facing == Direction.Right)
+            {
+                if (collision_point((x + 2), (y - 2), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == Direction.Down)
+            {
+                if (collision_point((x - 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == Direction.Up)
+            {
+                x = xprevious
+                y = (yprevious - 3)
+            }
+            if (global.facing == Direction.Left)
+            {
+                y = yprevious
+                x = (xprevious - 3)
+            }
+        }
+        if place_meeting(x, y, obj_sur)
+        {
+            if (global.facing == Direction.Right)
+            {
+                if (collision_point((x + 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == Direction.Up)
+            {
+                if (collision_point((x - 3), (y - 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == Direction.Down)
+            {
+                x = xprevious
+                y = (yprevious + 3)
+            }
+            if (global.facing == Direction.Left)
+            {
+                y = yprevious
+                x = (xprevious - 3)
+            }
+        }
+        if place_meeting(x, y, obj_sul)
+        {
+            if (global.facing == Direction.Left)
+            {
+                if (collision_point((x - 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == Direction.Up)
+            {
+                if (collision_point((x + 3), (y - 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == Direction.Down)
+            {
+                x = xprevious
+                y = (yprevious + 3)
+            }
+            if (global.facing == Direction.Right)
+            {
+                y = yprevious
+                x = (xprevious + 3)
+            }
+        }
+        if place_meeting(x, y, obj_sdl)
+        {
+            if place_meeting(x, y, obj_solidparent)
+                return;
+            if (global.facing == Direction.Left)
+            {
+                if (collision_point((x - 2), (y - 2), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious - 3)
+                    y = (yprevious - 3)
+                }
+                else
+                    x = xprevious
+            }
+            if (global.facing == Direction.Down)
+            {
+                if (collision_point((x + 3), (y + 3), obj_solidparent, 0, 1) == -4)
+                {
+                    x = (xprevious + 3)
+                    y = (yprevious + 3)
+                }
+                else
+                    y = yprevious
+            }
+            if (global.facing == Direction.Up)
+            {
+                x = xprevious
+                y = (yprevious - 3)
+            }
+            if (global.facing == Direction.Right)
+            {
+                y = yprevious
+                x = (xprevious + 3)
+            }
+        }
+    }
 }

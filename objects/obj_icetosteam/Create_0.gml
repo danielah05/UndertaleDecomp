@@ -5,5 +5,5 @@ d = 0
 x += 3
 if (FL_TruePacifist == true)
     instance_destroy()
-if (scr_murderlv() >= 7)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
     instance_destroy()

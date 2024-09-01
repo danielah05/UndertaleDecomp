@@ -23,7 +23,7 @@ if (room == room_water_blookyard)
 if (room == room_fire_lab1)
 {
     global.msg[0] = scr_gettext("obj_undynetrash_87")
-    if (global.plot < 126 && scr_murderlv() < 12)
+    if (global.plot < 126 && scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
         global.msg[0] = scr_gettext("obj_undynetrash_88")
     if (FL_DatedAlphys >= 10)
     {

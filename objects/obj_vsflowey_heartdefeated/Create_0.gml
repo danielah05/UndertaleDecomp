@@ -9,8 +9,11 @@ with (all)
 }
 with (obj_flowey_writer)
     instance_destroy()
-instance_deactivate_all(true)
-instance_activate_object(obj_time)
+with (all)
+{
+    if (object_index != obj_time && object_index != obj_vsflowey_heartdefeated)
+        instance_destroy()
+}
 x = remx
 y = remy
 drawbb = 1

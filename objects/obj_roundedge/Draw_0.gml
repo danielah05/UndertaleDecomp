@@ -10,7 +10,7 @@ side = 0
 curx = 0
 size = 1
 col += 1
-color = make_color_hsv(col, 233, 200)
+color = old_make_color_hsv(col, 233, 200)
 if (col > 254)
     col = 0
 for (i = 0; i < part; i += 1)

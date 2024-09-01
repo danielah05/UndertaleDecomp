@@ -25,7 +25,7 @@ if (conversation == 4)
     global.msg[1] = scr_gettext("obj_dogetrigger1_109")
     global.msg[2] = scr_gettext("obj_dogetrigger1_110")
     global.msg[3] = scr_gettext("obj_dogetrigger1_111")
-    if (scr_murderlv() >= 2)
+    if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
     {
         global.msg[0] = scr_gettext("obj_dogetrigger1_114")
         global.msg[1] = scr_gettext("obj_dogetrigger1_115")

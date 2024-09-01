@@ -37,7 +37,7 @@ if (FL_TruePacifist == true)
             global.msg[0] = scr_gettext("obj_townnpc_monsterkid1_111")
     }
 }
-if (scr_murderlv() >= 7)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 {
     global.msg[0] = scr_gettext("obj_townnpc_monsterkid1_117")
     global.msg[1] = scr_gettext("obj_townnpc_monsterkid1_118")

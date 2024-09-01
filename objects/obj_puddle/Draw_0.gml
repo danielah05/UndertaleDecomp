@@ -74,7 +74,8 @@ if instance_exists(obj_mainchara)
     if (ndtry == 1)
         draw_custom_ext(bbox_left, bbox_right, bbox_top, (bbox_bottom - 1), sprito2, mm.image_index, 1, 1, 0.4, mm.x, (mm.y + (mm.sprite_height * 1)))
     draw_sprite(sprite_index, image_index, x, y)
-    if (global.debug == true)
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
+	if (global.debug == true)
     {
         if keyboard_check_pressed(vk_space)
             death = 1

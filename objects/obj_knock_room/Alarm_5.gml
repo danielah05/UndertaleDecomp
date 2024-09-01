@@ -31,7 +31,7 @@ if (room == room_tundra_town2 && x < 200)
         global.msg[0] = scr_gettext("obj_knock_room_93")
     if (read > 1)
         global.msg[0] = scr_gettext("obj_knock_room_95")
-    if (scr_murderlv() >= 7)
+    if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
         global.msg[0] = scr_gettext("obj_knock_room_99")
 }
 if (room == room_fire_hoteldoors)
@@ -42,7 +42,7 @@ if (room == room_fire_hoteldoors)
         global.msc = 862
     if (x > 300)
         global.msc = 864
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     {
         global.msc = 0
         global.msg[0] = scr_gettext("obj_knock_room_113")

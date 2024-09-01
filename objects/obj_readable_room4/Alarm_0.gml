@@ -17,7 +17,7 @@ if (room == room_asghouse2)
 if (room == room_asghouse3)
 {
     global.msg[0] = scr_gettext("obj_readable_room4_70")
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room4_73")
 }
 if (room == room_kitchen && x < 130)
@@ -31,13 +31,13 @@ if (room == room_kitchen && x > 130 && FL_TorielStatus == TorielStatus.Killed)
 if (room == room_kitchen_final && x < 130)
 {
     global.msg[0] = scr_gettext("obj_readable_room4_83")
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room4_84")
 }
 if (room == room_kitchen_final && x > 130)
 {
     global.msg[0] = scr_gettext("obj_readable_room4_90")
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room4_91")
 }
 if (room == room_asrielroom_final)
@@ -45,13 +45,13 @@ if (room == room_asrielroom_final)
     if (x < 160)
     {
         global.msg[0] = scr_gettext("obj_readable_room4_98")
-        if (scr_murderlv() >= 16)
+        if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
             global.msg[0] = scr_gettext("obj_readable_room4_99")
     }
     if (x > 160)
     {
         global.msg[0] = scr_gettext("obj_readable_room4_104")
-        if (scr_murderlv() >= 16)
+        if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
             global.msg[0] = scr_gettext("obj_readable_room4_105")
     }
 }
@@ -85,7 +85,7 @@ if (room == room_fire_lab1)
     global.msg[0] = scr_gettext("obj_readable_room4_145")
     if (global.plot < 126)
         global.msg[0] = scr_gettext("obj_readable_room4_146")
-    if (scr_murderlv() >= 12)
+    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
         global.msg[0] = scr_gettext("obj_readable_room4_147")
 }
 read += 1
@@ -94,7 +94,7 @@ if (room == room_fire_lab2)
 if (room == room_fire_cookingshow)
 {
     global.msg[0] = scr_gettext("obj_readable_room4_159")
-    if (global.plot < 134 && scr_murderlv() < 12)
+    if (global.plot < 134 && scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
         global.msg[0] = scr_gettext("obj_readable_room4_161")
     if instance_exists(obj_mettaton_npc)
     {

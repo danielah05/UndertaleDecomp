@@ -4,7 +4,7 @@ if (mypart1.pause != 1)
     dmgwriter = instance_create(x, (y + 200), obj_dmgwriter)
     global.damage = takedamage
     global.damage = ((global.monsterhp[myself] + 4000) + floor(random(3289)))
-    if (scr_murderlv() >= 15)
+    if (scr_murderlv() >= MurderLevel.Lv15HotlandCoreKills)
         global.damage = (900000 + floor(random(99999)))
     with (dmgwriter)
         dmg = global.damage

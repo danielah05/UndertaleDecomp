@@ -26,5 +26,5 @@ blconx = 165
 blcony = 55
 ht = sprite_height
 wd = sprite_width
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     global.monsterdef[myself] = -400

@@ -309,7 +309,7 @@ if (phase >= 1 && phase < 3)
     obj_mettatonb_body.arms = spr_mettatonb_arms1
     draw_set_color(c_white)
     if (q == 10)
-        draw_set_color(make_color_hsv(0, 0, 21165))
+        draw_set_color(old_make_color_hsv(0, 0, 21165))
     scr_setfont(fnt_main)
     var xx = 205
     var yy = 50

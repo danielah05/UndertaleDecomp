@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"old_make_color_hsv",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"old_make_color_hsv",
+  "parent":{
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

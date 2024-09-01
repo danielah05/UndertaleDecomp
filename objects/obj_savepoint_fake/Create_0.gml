@@ -7,4 +7,5 @@ crack = 0
 shake = -1
 nowxx = 0
 nowyy = 0
-obj_screen.messed = 2
+with (obj_screen)
+    messed = 2

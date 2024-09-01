@@ -133,7 +133,7 @@ function scr_monstersetup()
 	    if (FL_Hardmode == true)
 	        global.monsteratk[myself] = 8
 	    global.monsterdef[myself] = 1
-	    if (scr_murderlv() >= 1)
+	    if (scr_murderlv() >= MurderLevel.Lv1RuinsKills)
 	        global.monsterdef[myself] = -9999
 	    global.xpreward[myself] = 0
 	    global.goldreward[myself] = 0

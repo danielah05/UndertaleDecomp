@@ -2,7 +2,7 @@ event_user(0)
 played = 0
 if (caster_is_playing(global.currentsong) != 1 && FL_DatedAlphys < 12)
 {
-    if (scr_murderlv() < 16)
+    if (scr_murderlv() < MurderLevel.Lv16MettatonKilled)
     {
         global.currentsong = caster_load("music/endarea_partb.ogg")
         caster_play(global.currentsong, 1, 0.85)

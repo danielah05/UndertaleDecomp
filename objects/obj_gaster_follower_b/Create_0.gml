@@ -35,11 +35,12 @@ if (FL_Fun == 62)
 choos = choose(0, 1)
 if (choos != 1)
     gox = 0
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
     gox = 2
 if (gox == 0)
     instance_destroy()
 if (FL_TruePacifist == true)
     instance_destroy()
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     instance_destroy()

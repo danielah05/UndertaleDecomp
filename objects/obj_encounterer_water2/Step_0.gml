@@ -5,7 +5,7 @@ if (global.encounter > steps)
         if (global.interact == 0)
         {
             scr_steps(640, 380, 18, 204)
-            if (scr_murderlv() >= 10 && FL_SparedSpecific == 0)
+            if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled && FL_SparedSpecific == 0)
                 scr_steps(120, 50, 18, 204)
             global.encounter = 0
             battlegroup = floor(random(15))

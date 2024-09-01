@@ -1,0 +1,12 @@
+myinteract = 3
+global.msc = 0
+global.typer = 5
+global.facechoice = 0
+global.faceemotion = 0
+global.msg[0] = scr_gettext("obj_inuslot_0")
+if (talked >= true)
+    global.msg[0] = scr_gettext("obj_inuslot_1")
+if (FL_DogShrineXboxDonatedCoins >= 500)
+    global.msg[0] = scr_gettext("obj_inuslot_2")
+talked += 1
+mydialoguer = instance_create(0, 0, obj_dialoguer)

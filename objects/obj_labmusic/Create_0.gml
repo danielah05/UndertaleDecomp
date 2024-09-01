@@ -10,7 +10,7 @@ if (caster_is_playing(global.currentsong) != 1)
     }
     if (global.plot > 125 && FL_DatedAlphys < 11)
     {
-        if (scr_murderlv() < 12)
+        if (scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
         {
             global.currentsong = caster_load("music/lab.ogg")
             caster_loop(global.currentsong, 1, 1)
