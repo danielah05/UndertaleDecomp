@@ -16,4 +16,4 @@ if (ss > 2)
         instance_destroy()
 }
 add += 10
-image_blend = make_color_hsv(((ac + add) % 255), 210, 255)
+image_blend = old_make_color_hsv((ac + add), 210, 255)

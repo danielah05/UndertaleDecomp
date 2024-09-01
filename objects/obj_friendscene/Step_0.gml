@@ -1165,6 +1165,8 @@ if (con == 117)
     global.msg[1] = scr_gettext("obj_friendscene_1435")
     global.msg[2] = scr_gettext("obj_friendscene_1436")
     scr_blcon_x((pap2.x - 45), (pap2.y + 270))
+	if (global.language == "ja")
+        writer.writingy -= 5
     writer.writingx -= 10
     writer.writingxend -= 60
     obj_blconwideslave.sprite_index = spr_blconbelow

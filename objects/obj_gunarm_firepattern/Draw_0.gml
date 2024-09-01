@@ -56,7 +56,7 @@ if (meter == 1)
     {
         if (metercounter > i)
         {
-            mcolor = make_color_hsv((((metercounter * 12) - (i * 24)) % 255), 180, 255)
+            mcolor = old_make_color_hsv(((metercounter * 12) - (i * 24)), 180, 255)
             draw_sprite_ext(spr_asriel_gunarm_meter, i, x, y, image_xscale, image_yscale, image_angle, mcolor, 1)
         }
     }
@@ -86,8 +86,8 @@ if (blast == 1)
     yy = lengthdir_y(115, (image_angle - 90))
     xxx = lengthdir_x(600, (image_angle - 90))
     yyy = lengthdir_y(600, (image_angle - 90))
-    mcolor1 = make_color_hsv(((btimer * 18) % 255), 180, 255)
-    mcolor2 = make_color_hsv((((btimer * 18) + 60) % 255), 180, 255)
+    mcolor1 = old_make_color_hsv((btimer * 18), 180, 255)
+    mcolor2 = old_make_color_hsv(((btimer * 18) + 60), 180, 255)
     draw_line_width_color((x + xx), (y + yy), (x + xxx), (y + yyy), bt, mcolor1, mcolor2)
     xxa = lengthdir_x(90, (image_angle - 90))
     yya = lengthdir_y(90, (image_angle - 90))

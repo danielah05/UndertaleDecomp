@@ -2,7 +2,7 @@ global.decomp_vars = {
 	VanillaMode : false,
 	EnablePSDogShrine : true,
 	EnableSwitchDogShrine : true,
-	//EnableXboxDogShrine : true,
+	EnableXboxDogShrine : true,
 	EnablePS4Trophies : false,
 	EnableCustomAchievements : false,
 	DevConsoleEnabled : true,

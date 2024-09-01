@@ -137,7 +137,7 @@ if (global.myfight == 2)
             {
                 global.msc = 0
                 global.msg[0] = scr_gettext("obj_bara01_558")
-                if (scr_murderlv() >= 12 && FL_SparedSpecific == 0)
+                if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled && FL_SparedSpecific == 0)
                     global.msg[0] = scr_gettext("obj_bara01_561")
                 obj_writer_set_halt(3)
                 iii = instance_create(global.idealborder[0], global.idealborder[2], OBJ_WRITER)
@@ -181,7 +181,7 @@ if (global.mnfight == 5)
 {
     if (con == 0 && toldhim == 1)
     {
-        caster_pause(global.batmusic)
+        caster_stop(global.batmusic)
         con = 1
         alarm[4] = 20
     }
@@ -217,7 +217,7 @@ if (global.mnfight == 5)
     }
     if (con == 4 && instance_exists(OBJ_WRITER) == false)
     {
-        caster_pause(conmusic)
+        caster_stop(conmusic)
         con = 5
         with (obj_bara02)
         {

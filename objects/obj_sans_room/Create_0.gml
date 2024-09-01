@@ -25,7 +25,7 @@ if (FL_PapyrusStatus == PapyrusStatus.Killed)
 if (global.plot > 200)
     instance_destroy()
 murder = 0
-if (scr_murderlv() >= 2 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled && FL_SparedSpecific == 0)
     murder = 1
 if (FL_TundraKillsCounter >= 16)
     murder = 1

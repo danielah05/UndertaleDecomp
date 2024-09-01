@@ -6,4 +6,5 @@ selected3 = 0
 q = 0
 buffer = 0
 doom = 0
-obj_screen.messed = 1
+with (obj_screen)
+    messed = 1

@@ -406,7 +406,6 @@ if (con == 58)
 }
 if (con == 59 && instance_exists(OBJ_WRITER) == false)
 {
-    //depth = (rman + 1) VULTU: This is broken since gamemaker introduced handles
 	depth = (rman.depth + 1)
     if (up == 1)
         depth = 960000

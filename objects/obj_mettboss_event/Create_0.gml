@@ -12,7 +12,7 @@ if (global.plot == 193)
     return;
 }
 murder = 0
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     murder = 1
 FL_AnimationIndex = 6
 con = 0

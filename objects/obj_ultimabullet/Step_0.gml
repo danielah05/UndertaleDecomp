@@ -26,5 +26,5 @@ if (speed > 22)
     speed = 22
 image_angle = direction
 huer += 20
-image_blend = make_color_hsv(huer % 255, 60, 255)
+image_blend = old_make_color_hsv(huer, 60, 255)
 trail.image_blend = image_blend

@@ -42,7 +42,7 @@ if (y > (global.idealborder[3] + 6))
     y = (global.idealborder[2] - 15)
 if (y < (global.idealborder[2] - 20))
     y = (global.idealborder[3] + 2)
-if (king == obj_musicobjectparent && zap == 0)
+if (king == 1 && zap == 0)
 {
     if (obj_heart.x == obj_heart.xprevious && obj_heart.y == obj_heart.yprevious)
     {

@@ -49,21 +49,28 @@ if (room == room_tundra_sanshouse)
 	{
 		if (global.osflavor == OSFlavors.Playstation)
 			room_goto(room_dogshrine)
-		else
+		if (global.osflavor == OSFlavors.Switch)
 			room_goto(room_dogshrine_ruined)
+		if (global.osflavor == OSFlavors.XboxOne)
+		   room_goto(room_dogshrine_xbox)
 	}	
 	else
 	{
 		var psContent = global.decomp_vars.EnablePSDogShrine;
 		var swContent = global.decomp_vars.EnableSwitchDogShrine;
+		var xboxContent = global.decomp_vars.EnableXboxDogShrine;
 		
-		if (psContent && !swContent)
+		if (psContent && !swContent && !xboxContent)
 			room_goto(room_dogshrine);
-		else if (swContent && !psContent)
+		else if (swContent && !psContent && !xboxContent)
 			room_goto(room_dogshrine_ruined);
+		else if (xboxContent && !psContent && !xboxContent)
+			room_goto(room_dogshrine_xbox);
 		else
 		{
-			if (FL_DogShrineLevel == 15)
+			if (FL_MadMewMewStatus >= MadMewMewStatus.Spared)
+				room_goto(room_dogshrine_xbox);
+			else if (FL_DogShrineLevel == 15)
 				room_goto(room_dogshrine_ruined);
 			else
 				room_goto(room_dogshrine);
@@ -74,4 +81,6 @@ if (room == room_tundra_sanshouse)
 	
 }
 if (room == room_dogshrine_ruined)
+    room_goto(room_tundra_sanshouse)
+if (room == room_dogshrine_xbox)
     room_goto(room_tundra_sanshouse)

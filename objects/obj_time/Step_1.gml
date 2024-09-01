@@ -38,7 +38,9 @@ if (started <= 0)
         global.analog_sense = 0.15
         if (os_type == os_psvita)
             global.analog_sense = 0.9
-        global.joy_dir = 0
+		if (os_type == os_xboxone)
+            global.analog_sense = 0.8
+		global.joy_dir = 0
     }
     ossafe_ini_open("undertale.ini")
     fskip = ini_read_real("FFFFF", "E", -1)
@@ -71,6 +73,58 @@ if (started <= 0)
         room_goto(room_nothingness)
     started = 1
     return;
+}
+if (os_type == os_xboxone)
+{
+    if xbox_account_picker_display
+        return;
+    if (!xboxone_user_is_signed_in(global.xboxlogin))
+    {
+        if (!instance_exists(obj_xbox_account_switch_confirm))
+            instance_create(0, 0, obj_xbox_account_switch_confirm)
+        return;
+    }
+    xbox_controller_connected = 0
+    var i = 0
+    while (i < gamepad_get_device_count())
+    {
+        if gamepad_is_connected(i)
+        {
+            xbox_controller_connected = 1
+            if (gamepad_button_check_any(i) || gamepad_axis_value(i, gp_axislh) > 0.75 || gamepad_axis_value(i, gp_axislh) < -0.75 || gamepad_axis_value(i, gp_axislv) > 0.75 || gamepad_axis_value(i, gp_axislv) < -0.75)
+            {
+                if (xbox_login_pad_index < 0)
+                    xbox_login_pad_index = i
+                global.xbox_pad_index = i
+                j_ch = (i + 1)
+                break
+            }
+            else
+            {
+                i++
+                continue
+            }
+        }
+        else
+        {
+            i++
+            continue
+        }
+    }
+    if (xbox_controller_connected == 0)
+    {
+        if (!instance_exists(obj_xbox_controller_connect))
+            instance_create(0, 0, obj_xbox_controller_connect)
+        return;
+    }
+    if ((!ds_queue_empty(global.xbox_trophy_queue)) && xbox_can_unlock_trophy)
+    {
+        xbox_can_unlock_trophy = 0
+        var trophy = ds_queue_dequeue(global.xbox_trophy_queue)
+        var user = global.xboxlogin
+        xboxone_achievements_set_progress(user, trophy, 100)
+        alarm[1] = 60
+    }
 }
 if (!paused)
     time += 1

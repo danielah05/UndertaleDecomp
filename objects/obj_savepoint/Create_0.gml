@@ -17,6 +17,6 @@ if (FL_DatedAlphys >= 12 && FL_TruePacifist == false)
 }
 if (room == room_water19)
 {
-    if (scr_murderlv() < 11 || FL_SparedSpecific == 1 || global.plot > 119)
+    if (scr_murderlv() < MurderLevel.Lv11WaterfallKills || FL_SparedSpecific == 1 || global.plot > 119)
         instance_destroy()
 }

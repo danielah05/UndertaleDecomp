@@ -13,5 +13,5 @@ talkedto = 0
 image_speed = 0
 if (global.language == "ja")
     sprite_index = spr_snowdinlogo_ja
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
     instance_destroy()

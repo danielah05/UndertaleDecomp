@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gamepad_button_check_any_released",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"gamepad_button_check_any_released",
+  "parent":{
+    "name":"Control",
+    "path":"folders/Scripts/Common/Control.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,8 +1,8 @@
 timer += 1
 siner += 1
-col = make_color_hsv(((siner * 11) % 255), 190, 250)
-col2 = make_color_hsv((((siner + 3) * 11) % 255), 190, 250)
-col3 = make_color_hsv((((siner + 5) * 11) % 255), 140, 250)
+col = old_make_color_hsv((siner * 11), 190, 250)
+col2 = old_make_color_hsv(((siner + 3) * 11), 190, 250)
+col3 = old_make_color_hsv(((siner + 5) * 11), 140, 250)
 if (timer == beamtime)
 {
     hits = 0

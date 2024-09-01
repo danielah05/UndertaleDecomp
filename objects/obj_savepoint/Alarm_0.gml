@@ -24,7 +24,7 @@ if (room == room_truelab_hub)
     offroom = 1
 if (room == room_truelab_bedroom)
     offroom = 1
-if (scr_murderlv() >= 2 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled && FL_SparedSpecific == 0)
 {
     if (room == room_tundra3 || room == room_tundra_spaghetti || room == room_tundra_lesserdog || room == room_tundra_town)
     {
@@ -34,9 +34,9 @@ if (scr_murderlv() >= 2 && FL_SparedSpecific == 0)
             pop = (16 - FL_TundraKillsCounter)
             if (pop < 0)
                 pop = 0
-            if (scr_murderlv() >= 2)
+            if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
                 global.msg[0] = scr_gettext("obj_savepoint_97", string(pop))
-            if (scr_murderlv() == 5)
+            if (scr_murderlv() == MurderLevel.Lv5GreaterDogKilled)
                 global.msg[0] = scr_gettext("obj_savepoint_99")
             if (FL_SnowdrakeStatus == SnowdrakeStatus.Killed && pop <= 0)
                 global.msg[0] = scr_gettext("obj_savepoint_101")
@@ -45,7 +45,7 @@ if (scr_murderlv() >= 2 && FL_SparedSpecific == 0)
         }
     }
 }
-if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
 {
     if (room == room_water2 || room == room_water4 || room == room_water_savepoint1 || room == room_water_preundyne || room == room_water_trashsavepoint || room == room_water_friendlyhub || room == room_water_undynefinal || room == room_water19 || room == room_water_temvillage)
     {
@@ -55,14 +55,14 @@ if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
             pop = (18 - FL_WaterfallKillsCounter)
             if (pop < 0)
                 pop = 0
-            if (scr_murderlv() >= 8)
+            if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
                 global.msg[0] = scr_gettext("obj_savepoint_118", string(pop))
             if (pop <= 0)
                 global.msg[0] = scr_gettext("obj_savepoint_120")
         }
     }
 }
-if (scr_murderlv() >= 12 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled && FL_SparedSpecific == 0)
 {
     if (room == room_fire_prelab || room == room_fire6 || room == room_fire_savepoint1 || room == room_fire_mewmew2 || room == room_fire_savepoint2 || room == room_fire_hotellobby || room == room_fire_core_branch || room == room_fire_core_premett)
     {
@@ -72,14 +72,14 @@ if (scr_murderlv() >= 12 && FL_SparedSpecific == 0)
             pop = (40 - FL_HotlandKillsCounter)
             if (pop < 0)
                 pop = 0
-            if (scr_murderlv() >= 12)
+            if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
                 global.msg[0] = scr_gettext("obj_savepoint_135", string(pop))
             if (pop <= 0)
                 global.msg[0] = scr_gettext("obj_savepoint_137")
         }
     }
 }
-if (scr_murderlv() >= 16)
+if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
 {
     global.msc = 0
     global.msg[0] = scr_gettext("obj_savepoint_145")

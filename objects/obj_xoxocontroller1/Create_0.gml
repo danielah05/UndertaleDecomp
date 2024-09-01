@@ -1,7 +1,7 @@
 vic = 0
 fvic = 0
 image_speed = 0
-if (scr_murderlv() >= 4 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv4DogiKilled && FL_SparedSpecific == 0)
 {
     if (global.plot < 57)
         global.plot = 57

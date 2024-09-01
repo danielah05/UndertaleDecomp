@@ -14,7 +14,7 @@ if (caster_is_playing(global.currentsong) != 1)
     {
         global.currentsong = caster_load("music/waterfall.ogg")
         caster_loop(global.currentsong, 0.8, 1)
-        if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+        if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
             caster_set_pitch(global.currentsong, 0.13)
     }
     else if (FL_SparedSpecific == 0)

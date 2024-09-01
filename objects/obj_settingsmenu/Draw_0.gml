@@ -57,7 +57,7 @@ if (weather == 4)
     draw_set_color(c_gray)
     draw_text_transformed((220 + sin((siner / 12))), (120 + cos((siner / 12))), string_hash_to_newline(scr_gettext("joyconfig_fun_fall")), 1, 1, -20)
 }
-var menu_max = 6
+var menu_max = 7
 if (global.osflavor <= OSFlavors.Mac)
 {
     menu_max = 2
@@ -124,6 +124,17 @@ if (menu_engage == 0)
         }
         menu_engage = 0
     }
+	if (os_type == os_xboxone)
+    {
+        if (menu == 7 && menu_engage == 1 && (!obj_time.xbox_account_picker_display))
+        {
+            with (obj_time)
+                xbox_account_picker_display = 1
+            global.xbox_async_id = -1
+            ossafe_savedata_save()
+            menu_engage = 0
+        }
+    }
 }
 if (menu == 0 && menu_engage == 1)
     finish = 1
@@ -139,12 +150,12 @@ if (menu != 1)
     draw_set_color(c_white)
 else
     draw_set_color(c_yellow)
-draw_text(20, 70, string_hash_to_newline(scr_gettext("settings_language")))
-draw_text(92, 70, string_hash_to_newline(scr_gettext(("settings_language_" + global.language))))
+draw_text(20, 65, string_hash_to_newline(scr_gettext("settings_language")))
+draw_text(92, 65, string_hash_to_newline(scr_gettext(("settings_language_" + global.language))))
 if (global.osflavor >= OSFlavors.Playstation)
 {
     draw_set_color(c_white)
-    draw_text(20, 100, string_hash_to_newline(scr_gettext("settings_button")))
+    draw_text(20, 90, string_hash_to_newline(scr_gettext("settings_button")))
     var vspacing = 18
     var button_x = 0
     for (var i = 0; i < 3; i++)
@@ -159,7 +170,7 @@ if (global.osflavor >= OSFlavors.Playstation)
             itext = scr_gettext("settings_CancelButton")
         else
             itext = scr_gettext("settings_MenuButton")
-        draw_text(40, (100 + ((i + 1) * vspacing)), string_hash_to_newline(itext))
+        draw_text(40, (90 + ((i + 1) * vspacing)), string_hash_to_newline(itext))
         draw_set_color(c_white)
         var xx = (40 + string_width(string_hash_to_newline(itext)))
         if (xx > button_x)
@@ -217,13 +228,13 @@ if (global.osflavor >= OSFlavors.Playstation)
         var command = string_char_at("ZXC", (i + 1))
         var sprite = scr_getbuttonsprite(command, 0)
         if (sprite != noone)
-            draw_sprite(sprite, 0, button_x, (100 + ((i + 1) * vspacing)))
+            draw_sprite(sprite, 0, button_x, (90 + ((i + 1) * vspacing)))
     }
     if (r_buffer > 0)
     {
         r_buffer -= 1
         draw_set_color(c_red)
-        draw_text_transformed_color(20, ((100 + (3 * vspacing)) + 25), string_hash_to_newline(r_line), 1, 1, 0, c_red, c_red, c_red, c_red, (1 - ((10 - r_buffer) / 10)))
+        draw_text_transformed_color(20, ((90 + (3 * vspacing)) + 25), string_hash_to_newline(r_line), 1, 1, 0, c_red, c_red, c_red, c_red, (1 - ((10 - r_buffer) / 10)))
     }
     else
     {
@@ -231,7 +242,7 @@ if (global.osflavor >= OSFlavors.Playstation)
             draw_set_color(c_white)
         else
             draw_set_color(c_yellow)
-        draw_text(20, ((100 + (3 * vspacing)) + 25), string_hash_to_newline(scr_gettext("joyconfig_reset")))
+        draw_text(20, ((90 + (3 * vspacing)) + 25), string_hash_to_newline(scr_gettext("joyconfig_reset")))
     }
     if (menu == 5 && menu_engage == 1)
     {
@@ -257,14 +268,25 @@ if (global.osflavor >= OSFlavors.Playstation)
     else
         draw_set_color(c_yellow)
     var border_label = scr_gettext("settings_border")
-    draw_text(20, ((100 + (3 * vspacing)) + 50), string_hash_to_newline(border_label))
+    draw_text(20, ((90 + (3 * vspacing)) + 50), string_hash_to_newline(border_label))
     if (global.screen_border_id == 0)
         var border_sel = scr_gettext("settings_border_none")
     else if (global.screen_border_id == 11)
         border_sel = scr_gettext(((("settings_border_" + string(global.screen_border_id)) + "_") + string(border_11)))
     else
         border_sel = scr_gettext(("settings_border_" + string(global.screen_border_id)))
-    draw_text(((20 + string_width(string_hash_to_newline(border_label))) + 20), ((100 + (3 * vspacing)) + 50), string_hash_to_newline(border_sel))
+    draw_text(((20 + string_width(string_hash_to_newline(border_label))) + 20), ((90 + (3 * vspacing)) + 50), string_hash_to_newline(border_sel))
+    if (os_type == os_xboxone)
+    {
+        if (menu != 7)
+            draw_set_color(c_white)
+        else
+            draw_set_color(c_yellow)
+        var switchText = "SWITCH USER"
+        if (global.language == "ja")
+            switchText = "ユーザーを変更する"
+        draw_text(20, ((90 + (3 * vspacing)) + 75), switchText)
+    }
 }
 else if (obj_time.j_ch > 0)
 {

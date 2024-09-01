@@ -11,7 +11,7 @@ if (bullettype == 0)
     {
         iii.dmg = global.monsteratk[myself]
         with (iii)
-            parent = obj_musicobjectparent
+            parent = 1
     }
 }
 if (bullettype == 1)
@@ -24,7 +24,7 @@ if (bullettype == 1)
     {
         iii.dmg = global.monsteratk[myself]
         with (iii)
-            parent = obj_musicobjectparent
+            parent = 1
     }
 }
 alarm[0] = firingspeed

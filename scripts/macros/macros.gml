@@ -9,7 +9,8 @@ enum OSFlavors
 	Mac,
 	Console,
 	Playstation,
-	Switch
+	Switch,
+	XboxOne
 }
 
 #region Deprecated Function Macros
@@ -269,12 +270,21 @@ enum OSFlavors
 #macro FL_SteppedOnGreenTile global.flag[289]
 #macro FL_NeutralPapyrusSpared global.flag[290]
 #macro FL_ElectricMazeSkipped global.flag[291]
+// PS4/Vita
 #macro FL_DogShrineGDeposited global.flag[292]
 #macro FL_DogShrineGoldNeeded global.flag[293]
 #macro FL_DogShrineLevel global.flag[294]
 #macro FL_DogShrineStateAcknowledged global.flag[295]
 #macro FL_DogShrineTrashChecked global.flag[296]
-// 297 - 299 Unused
+// XBOX
+#macro FL_DogShrineXboxX3Cherries global.flag[292]
+#macro FL_DogShrineXboxX3Ghosts global.flag[293]
+#macro FL_DogShrineXboxX3Bones global.flag[294]
+#macro FL_DogShrineXboxX3Dogs global.flag[295] // D O G
+#macro FL_DogShrineXboxProgress global.flag[297]
+#macro FL_DogShrineXboxCoins global.flag[298]
+#macro FL_DogShrineXboxDonatedCoins global.flag[299]
+//
 #macro FL_DimensionalBoxAItem1 global.flag[300]
 #macro FL_DimensionalBoxAItem2 global.flag[301]
 #macro FL_DimensionalBoxAItem3 global.flag[302]
@@ -1105,5 +1115,25 @@ enum BattleGroup
 	// 255, 256
 	Asriel = 255,
 	AsrielFinal
+}
+enum MurderLevel
+{
+	Lv0,
+	Lv1RuinsKills,
+	Lv2TorielKilled,
+	Lv3DoggoKilled,
+	Lv4DogiKilled,
+	Lv5GreaterDogKilled,
+	Lv6SnowdrakeKilled,
+	Lv7TundraKills,
+	Lv8PapyrusKilled,
+	Lv9ShyrenKilled,
+	Lv10GladDummyKilled,
+	Lv11WaterfallKills,
+	Lv12UndyneEXKilled,
+	Lv13RoyalGuardsKilled,
+	Lv14MuffetKilled,
+	Lv15HotlandCoreKills,
+	Lv16MettatonKilled
 }
 #endregion

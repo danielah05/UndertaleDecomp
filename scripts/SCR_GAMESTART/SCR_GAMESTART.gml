@@ -75,7 +75,7 @@ function SCR_GAMESTART()
 	global.idealborder[2] = 0
 	global.idealborder[3] = 0
 	global.plot = 0
-	global.currentroom = room_start
+	global.currentroom = room_xbox_engagement
 	for (i = 0; i < 3; i += 1)
 	{
 	    global.monstername[i] = "Error"

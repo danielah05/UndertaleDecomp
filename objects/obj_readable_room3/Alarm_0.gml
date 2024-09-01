@@ -9,7 +9,7 @@ if (room == room_asrielroom)
 if (room == room_asrielroom_final)
 {
     global.msg[0] = scr_gettext("obj_readable_room3_63")
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
         global.msg[0] = scr_gettext("obj_readable_room3_66")
 }
 if (room == room_torielroom)
@@ -100,7 +100,7 @@ if (room == room_fire_lab1)
 {
     global.msg[0] = scr_gettext("obj_readable_room3_200")
     global.msg[1] = scr_gettext("obj_readable_room3_201")
-    if (global.plot < 126 && scr_murderlv() < 12)
+    if (global.plot < 126 && scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
         global.msg[0] = scr_gettext("obj_readable_room3_202")
 }
 if (room == room_fire_lab2)

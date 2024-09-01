@@ -1,4 +1,4 @@
-sm = obj_backgrounder_parent
+sm = 0
 gg = floor(random(3))
 mycommand = round(random(100))
 global.msg[0] = "del"

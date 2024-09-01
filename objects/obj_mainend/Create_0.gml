@@ -72,7 +72,7 @@ if (FL_TorielStatus == TorielStatus.Killed)
         }
     }
 }
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
 {
     if (FL_KilledMettaton == 1)
         q = 7

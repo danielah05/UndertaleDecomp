@@ -202,13 +202,14 @@ if (lesson == -12)
 {
     repeat (2)
     {
-        scr_sr(SpearDir.Left, SpearType.Normal, 0, 1.3)
+        rr = 0.1
+		scr_sr(SpearDir.Left, SpearType.Normal, 0, 1.3)
         scr_sr(SpearDir.Right, SpearType.Normal, 0, 1.3)
-        scr_sr(SpearDir.Up, SpearType.Normal, 0.1, 1.3)
+        scr_sr(SpearDir.Up, SpearType.Normal, (0.1 + rr), 1.3)
         scr_sr(SpearDir.Down, SpearType.Reverse, 2.2, 1.3)
         scr_sr(SpearDir.Left, SpearType.Normal, 0, 1.3)
         scr_sr(SpearDir.Right, SpearType.Normal, 0, 1.3)
-        scr_sr(SpearDir.Down, SpearType.Normal, 0.1, 1.3)
+        scr_sr(SpearDir.Down, SpearType.Normal, (0.1 + rr), 1.3)
         scr_sr(SpearDir.Up, SpearType.Reverse, 2.2, 1.3)
     }
 }
@@ -340,13 +341,16 @@ if (lesson == 9)
 if (lesson == 10)
 {
     rr = 0
+	xfix = 1
     if (rating <= 11)
         rr = 0.5
-    scr_sr(SpearDir.Left, SpearType.Normal, 0.1, 1)
-    scr_sr(SpearDir.Left, SpearType.Normal, 0.1, 1.5)
+	if (rating <= 8)
+        xfix = 2
+    scr_sr(SpearDir.Left, SpearType.Normal, (0.1 * xfix), 1)
+    scr_sr(SpearDir.Left, SpearType.Normal, (0.1 * xfix), 1.5)
     scr_sr(SpearDir.Left, SpearType.Normal, (2 + rr), 2)
-    scr_sr(SpearDir.Right, SpearType.Normal, 0.1, 1)
-    scr_sr(SpearDir.Right, SpearType.Normal, 0.1, 1.5)
+    scr_sr(SpearDir.Right, SpearType.Normal, (0.1 * xfix), 1)
+    scr_sr(SpearDir.Right, SpearType.Normal, (0.1 * xfix), 1.5)
     scr_sr(SpearDir.Right, SpearType.Normal, (2 + rr), 2)
     scr_sr(SpearDir.Down, SpearType.Normal, 1, 2)
     scr_sr(SpearDir.Up, SpearType.Normal, 1, 2)

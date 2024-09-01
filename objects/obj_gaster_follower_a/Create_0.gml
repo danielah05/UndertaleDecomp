@@ -35,6 +35,7 @@ if (FL_Fun == 61)
 choos = choose(0, 1, 2, 3, 4)
 if (choos != 4)
     gox = 0
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
     gox = 1
 if (gox == 0)

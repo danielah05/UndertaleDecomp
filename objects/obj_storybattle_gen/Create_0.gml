@@ -11,7 +11,7 @@ global.myfight = -1
 global.mnfight = -1
 flowey = 0
 shake = 0
-if (scr_murderlv() < 16)
+if (scr_murderlv() < MurderLevel.Lv16MettatonKilled)
 {
     global.turntimer = 15
     global.myfight = -1

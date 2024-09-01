@@ -44,7 +44,7 @@ if (con == 11)
     global.msg[2] = scr_gettext("obj_asgoremeet_event_133")
     global.msg[3] = scr_gettext("obj_asgoremeet_event_134")
     con = 12
-    if (scr_murderlv() >= 16)
+    if (scr_murderlv() >= MurderLevel.Lv16MettatonKilled)
     {
         global.msg[0] = scr_gettext("obj_asgoremeet_event_138")
         con = 99

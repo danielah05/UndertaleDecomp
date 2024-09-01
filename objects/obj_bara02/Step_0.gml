@@ -148,7 +148,7 @@ if (global.myfight == 2)
             {
                 global.msc = 0
                 global.msg[0] = scr_gettext("obj_bara02_564")
-                if (scr_murderlv() >= 12 && FL_SparedSpecific == 0)
+                if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled && FL_SparedSpecific == 0)
                 {
                     global.msg[0] = scr_gettext("obj_bara02_567")
                     global.msg[1] = scr_gettext("obj_bara02_568")

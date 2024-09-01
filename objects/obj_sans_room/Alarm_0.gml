@@ -24,7 +24,7 @@ if (room == room_tundra7)
     global.msg[4] = scr_gettext("obj_sans_room_139")
     global.msg[5] = scr_gettext("obj_sans_room_140")
     global.msg[6] = scr_gettext("obj_sans_room_141")
-    if (scr_murderlv() >= 3 && FL_SparedSpecific == 0)
+    if (scr_murderlv() >= MurderLevel.Lv3DoggoKilled && FL_SparedSpecific == 0)
         global.msg[0] = scr_gettext("obj_sans_room_145")
 }
 if (room == room_tundra8)
@@ -41,7 +41,7 @@ if (room == room_tundra9)
         global.msg[0] = scr_gettext("obj_sans_room_166")
         global.msg[1] = scr_gettext("obj_sans_room_167")
     }
-    if (scr_murderlv() >= 3)
+    if (scr_murderlv() >= MurderLevel.Lv3DoggoKilled)
     {
         if (FL_InteractedWithCrossword == 0)
         {
@@ -63,7 +63,7 @@ if (room == room_tundra_randoblock)
     global.msg[1] = scr_gettext("obj_sans_room_192")
     global.msg[2] = scr_gettext("obj_sans_room_193")
     global.msg[3] = scr_gettext("obj_sans_room_194")
-    if (scr_murderlv() >= 4)
+    if (scr_murderlv() >= MurderLevel.Lv4DogiKilled)
         global.msg[0] = scr_gettext("obj_sans_room_198")
 }
 if (room == room_tundra_xoxopuzz)
@@ -107,7 +107,7 @@ if (room == room_tundra_dangerbridge)
         global.msg[0] = scr_gettext("obj_sans_room_250")
         global.msg[1] = scr_gettext("obj_sans_room_251")
     }
-    if (scr_murderlv() >= 5 && FL_SparedSpecific == 0)
+    if (scr_murderlv() >= MurderLevel.Lv5GreaterDogKilled && FL_SparedSpecific == 0)
     {
         global.msg[0] = scr_gettext("obj_sans_room_256")
         global.msg[1] = scr_gettext("obj_sans_room_257")

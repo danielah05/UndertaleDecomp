@@ -129,7 +129,9 @@ if (con == 16)
 {
     global.mercy = 0
     global.interact = 0
-    caster_resume(global.currentsong)
+	caster_loop(global.currentsong, songpitch, songgain)
+    audio_sound_set_track_position(global.currentsong, songpos)
+	caster_resume(global.currentsong)
     if (FL_KilledLast == true)
         FL_KilledRoyalGuards = true
     con = 17

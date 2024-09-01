@@ -98,7 +98,7 @@ if (global.mnfight == 2)
             orb = instance_create(100, 100, obj_wizardorb_chaser)
             if (pop == 2)
                 orb.zap = 1
-            orb.king = obj_musicobjectparent
+            orb.king = 1
             orb.dirr = random(360)
             if (stare1 > 0 && pop == 1)
             {

@@ -1,5 +1,5 @@
 murder = 0
-if (scr_murderlv() >= 12)
+if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
 {
     murder = 1
     if (FL_BurgerPantsStatus < BurgerPantsStatus.Talked)

@@ -278,7 +278,7 @@ if (active == true && instance_exists(obj_mainchara))
     {
         global.interact = 0
         global.border = 0
-        FL_InBattle = true
+        FL_InBattle = false
         FL_TypeHeartTransition = HeartTransitionType.Normal
         SCR_BORDERSETUP()
         caster_loop(global.currentsong, 0.8, 1)

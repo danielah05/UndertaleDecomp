@@ -3,7 +3,7 @@ image_speed = 0
 open = 0
 auto = 0
 con = 0
-if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
 {
     if (global.plot < 108)
         global.plot = 108

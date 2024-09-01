@@ -40,7 +40,7 @@ if (FL_TruePacifist == true)
         global.msg[3] = scr_gettext("obj_nicesnowman_143") //* Someday^1, your friends will&  realize your heart is as&  cold as my butt./%%
     }
 }
-if (scr_murderlv() >= 2)
+if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
 {
     global.msc = 0
     noroom = 0

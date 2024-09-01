@@ -19,7 +19,7 @@ conversation = 0
 j = 0
 mouth = 0
 murder = 0
-if (scr_murderlv() >= 3)
+if (scr_murderlv() >= MurderLevel.Lv3DoggoKilled)
     murder = 1
 if (FL_SparedSpecific == 1)
     murder = 0

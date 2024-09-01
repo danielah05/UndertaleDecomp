@@ -29,6 +29,7 @@ if instance_exists(obj_greatdog)
         y = (obj_uborder.y - 85)
     }
 }
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     if keyboard_check(vk_space)

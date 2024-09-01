@@ -9,5 +9,5 @@ else
 look = 0
 spinagain = 0
 murder = 0
-if (scr_murderlv() >= 7 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv7TundraKills && FL_SparedSpecific == 0)
     murder = 1

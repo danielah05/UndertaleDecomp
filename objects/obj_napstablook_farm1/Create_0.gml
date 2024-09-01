@@ -14,5 +14,5 @@ image_speed = 0
 fun = false
 if (FL_TruePacifist == true)
     instance_destroy()
-if (scr_murderlv() >= 10)
+if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
     instance_destroy()

@@ -14,6 +14,8 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        return button_vita_dpad_l;
 	    if (os_type == os_switch)
 	        return button_nx_dpad_l;
+		if (os_type == os_xboxone)
+	        return button_xbox_left;
 	    return noone;
 	}
 	if (control == "D")
@@ -24,7 +26,31 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        return button_vita_dpad_r;
 	    if (os_type == os_switch)
 	        return button_nx_dpad_r;
+	    if (os_type == os_xboxone)
+	        return button_xbox_right;
 	    return noone;
+	}
+	if (control == "W")
+	{
+	    if (os_type == os_xboxone)
+	    {
+	        if (room != room_dogshrine_xbox)
+	            return button_xbox_up;
+	        else
+	            return button_xbox_up_gray;
+	    }
+	    return noone;
+	}
+	if (control == "S")
+	{
+	    if (os_type == os_xboxone)
+	    {
+	        if (room != room_dogshrine_xbox)
+	            return button_xbox_down;
+	        else
+	            return button_xbox_down_gray;
+	    }
+		return noone;
 	}
 	var button = noone
 	if (control == "Z")
@@ -53,6 +79,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	            return buttonL_nx_b;
 	        return button_nx_b;
 	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_a;
+	        return button_xbox_a;
+	    }
 	}
 	if (button == gp_face2)
 	{
@@ -73,6 +105,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        if (type == 1)
 	            return buttonL_nx_a;
 	        return button_nx_a;
+	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_b;
+	        return button_xbox_b;
 	    }
 	}
 	if (button == gp_face3)
@@ -95,6 +133,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	            return buttonL_nx_y;
 	        return button_nx_y;
 	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_x;
+	        return button_xbox_x;
+	    }
 	}
 	if (button == gp_face4)
 	{
@@ -115,6 +159,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        if (type == 1)
 	            return buttonL_nx_x;
 	        return button_nx_x;
+	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_y;
+	        return button_xbox_y;
 	    }
 	}
 	if (button == gp_shoulderl)
@@ -137,6 +187,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	            return buttonL_nx_l;
 	        return button_nx_l;
 	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_left_bumper;
+	        return button_xbox_left_bumper;
+	    }
 	}
 	if (button == gp_shoulderlb)
 	{
@@ -151,6 +207,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        if (type == 1)
 	            return buttonL_nx_zl;
 	        return button_nx_zl;
+	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_left_trigger;
+	        return button_xbox_left_trigger;
 	    }
 	}
 	if (button == gp_shoulderr)
@@ -173,6 +235,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	            return buttonL_nx_r;
 	        return button_nx_r;
 	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_right_bumper;
+	        return button_xbox_right_bumper;
+	    }
 	}
 	if (button == gp_shoulderrb)
 	{
@@ -187,6 +255,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        if (type == 1)
 	            return buttonL_nx_zr;
 	        return button_nx_zr;
+	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_right_trigger;
+	        return button_xbox_right_trigger;
 	    }
 	}
 	if (button == gp_stickl)
@@ -203,6 +277,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	            return buttonL_nx_lstick;
 	        return button_nx_lstick;
 	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_left_stick;
+	        return button_xbox_left_stick;
+	    }
 	}
 	if (button == gp_stickr)
 	{
@@ -217,6 +297,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        if (type == 1)
 	            return buttonL_nx_rstick;
 	        return button_nx_rstick;
+	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_right_stick;
+	        return button_xbox_right_stick;
 	    }
 	}
 	if (button == gp_select)
@@ -239,6 +325,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	            return buttonL_nx_minus;
 	        return button_nx_minus;
 	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_share;
+	        return button_xbox_share;
+	    }
 	}
 	if (button == gp_start)
 	{
@@ -259,6 +351,12 @@ function scr_getbuttonsprite(_button_input, _icon_type)
 	        if (type == 1)
 	            return buttonL_nx_plus;
 	        return button_nx_plus;
+	    }
+		if (os_type == os_xboxone)
+	    {
+	        if (type == 1)
+	            return buttonL_xbox_menu;
+	        return button_xbox_menu;
 	    }
 	}
 	return noone;

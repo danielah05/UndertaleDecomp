@@ -6,7 +6,7 @@ if (caster_is_playing(global.currentsong) != 1)
     {
         global.currentsong = caster_load("music/town.ogg")
         caster_loop(global.currentsong, 1, 1)
-        if (scr_murderlv() >= 7 && FL_SparedSpecific == 0)
+        if (scr_murderlv() >= MurderLevel.Lv7TundraKills && FL_SparedSpecific == 0)
             caster_set_pitch(global.currentsong, 0.25)
     }
     else if (FL_SparedSpecific == 0)

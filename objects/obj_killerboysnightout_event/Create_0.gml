@@ -1,5 +1,5 @@
 image_xscale = 3
-if (global.plot > 163 || scr_murderlv() < 12)
+if (global.plot > 163 || scr_murderlv() < MurderLevel.Lv12UndyneEXKilled)
 {
     instance_destroy()
     return;

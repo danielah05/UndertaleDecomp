@@ -11,7 +11,7 @@ facing = Direction.Down
 direction = 180
 talkedto = 0
 image_speed = 0
-if (scr_murderlv() >= 10)
+if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
     instance_destroy()
 if (FL_TalkedToAllergyTem == 1)
     sprite_index = spr_temmie_hivetalk

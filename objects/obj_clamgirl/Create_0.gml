@@ -11,7 +11,7 @@ facing = Direction.Down
 direction = 0
 talkedto = 0
 image_speed = 0
-if (scr_murderlv() >= 8)
+if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled)
     instance_destroy()
 if (FL_Fun < 80 || FL_Fun > 89)
     instance_destroy()

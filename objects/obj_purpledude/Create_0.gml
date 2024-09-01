@@ -14,7 +14,7 @@ image_speed = 0
 con = 0
 if (global.plot < 110)
     instance_destroy()
-if (scr_murderlv() >= 8 && FL_SparedSpecific == 0)
+if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
     y = 900
 if (global.entrance == 24)
 {

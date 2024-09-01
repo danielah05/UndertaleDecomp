@@ -1,5 +1,8 @@
 if instance_exists(obj_darknesspuzzle)
+{
+    depth = (obj_darknesspuzzle.depth + 10)
     gl = obj_darknesspuzzle.glowamt
+}
 else
     gl = 0
 draw_set_circle_precision(12)

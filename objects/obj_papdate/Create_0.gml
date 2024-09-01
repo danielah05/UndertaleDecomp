@@ -10,7 +10,7 @@ joke = 0
 choice = 0
 choicer = 0
 global.border = 11
-SCR_BORDERSETUP(0)
+SCR_BORDERSETUP()
 instance_create(0, 0, obj_uborder)
 instance_create(0, 0, obj_dborder)
 instance_create(0, 0, obj_lborder)
@@ -27,13 +27,13 @@ graph = 4384134
 friendgraph = instance_create(256, -64, obj_friendgraph)
 if (global.decomp_vars.VanillaMode)
 {
-	if (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch)
+	if (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch || global.osflavor == OSFlavors.XboxOne)
 		FL_PapyrusSinkEventOccured = 1
 }
 else
 {
-	var platformMatch = (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch);
-	var settingsMatch = global.decomp_vars.EnablePSDogShrine || global.decomp_vars.EnableSwitchDogShrine;
+	var platformMatch = (global.osflavor == OSFlavors.Playstation || global.osflavor == OSFlavors.Switch || global.osflavor == OSFlavors.XboxOne);
+	var settingsMatch = global.decomp_vars.EnablePSDogShrine || global.decomp_vars.EnableSwitchDogShrine || global.decomp_vars.EnableXboxDogShrine;
 	
 	if (platformMatch || settingsMatch)
 		FL_PapyrusSinkEventOccured = 1

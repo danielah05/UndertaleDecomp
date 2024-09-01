@@ -1,3 +1,4 @@
+// Daniela: debug code was removed in the xbox version, keeping it here for debugging purposes
 if (global.debug == true)
 {
     gx = ossafe_file_text_open_write("system_information_962")

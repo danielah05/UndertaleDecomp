@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Snowdin",
-    "path":"folders/Sprites/Overworld/Snowdin.yy",
+    "name":"Switch",
+    "path":"folders/Sprites/Overworld/Dog Shrine/Switch.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

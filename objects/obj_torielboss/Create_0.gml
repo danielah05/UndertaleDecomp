@@ -22,5 +22,5 @@ destroyed = 0
 sideface = 0
 ht = sprite_height
 wd = sprite_width
-if (scr_murderlv() >= 1)
+if (scr_murderlv() >= MurderLevel.Lv1RuinsKills)
     global.monsterdef[myself] = -9999
