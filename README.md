@@ -76,4 +76,5 @@ MrPorkchop - Made the Icon<br>
 [Marioalexsan](https://github.com/Marioalexsan)<br>
 [EphraimBane](https://github.com/EphraimBane)<br>
 [Nyako](https://github.com/NyakoFox)<br>
-[Sadie](https://github.com/zulc22)
+[Sadie](https://github.com/zulc22)<br>
+[AveryMadness](https://github.com/AveryMadness)
