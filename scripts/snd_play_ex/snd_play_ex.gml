@@ -5,5 +5,5 @@
 /// @param	{bool}			loop
 function snd_play_ex(_sound_handle, _priority, _loop)
 {
-	audio_play_sound(_sound_handle, _priority, _loop, 1 * (global.decomp_vars.SoundFXVolume / 100))
+	return audio_play_sound(_sound_handle, _priority, _loop, 1 * (global.decomp_vars.SoundFXVolume / 100))
 }
