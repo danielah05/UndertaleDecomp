@@ -479,6 +479,16 @@ enum OSFlavors
 #macro c_altblue 0xFDC00E
 #macro c_pink 0xD4BBFF
 
+// macros from 1.0 Undertale
+#macro c_brattypink 0xD4BBFF
+#macro c_cattypurple 0xFFBBDC
+#macro c_ltblue 0xFDC00E
+
+#macro monsterpopulation1 20
+#macro monsterpopulation2 16
+#macro monsterpopulation3 18
+#macro monsterpopulation4 40
+
 #endregion
 
 #region Enums
