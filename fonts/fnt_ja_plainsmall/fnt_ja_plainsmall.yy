@@ -217,8 +217,8 @@
   "size":9.0,
   "styleName":"Bold",
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"fonts-ja",
+    "path":"texturegroups/fonts-ja",
   },
   "TTFName":"",
   "usesSDF":false,

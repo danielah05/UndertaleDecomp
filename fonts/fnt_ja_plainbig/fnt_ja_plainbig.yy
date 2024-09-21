@@ -39,8 +39,8 @@
   "size":56.0,
   "styleName":"Regular",
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"fonts-ja",
+    "path":"texturegroups/fonts-ja",
   },
   "TTFName":"",
   "usesSDF":false,

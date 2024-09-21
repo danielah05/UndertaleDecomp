@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"border_water1_1080",
+    "path":"texturegroups/border_water1_1080",
   },
   "type":0,
   "VTile":false,

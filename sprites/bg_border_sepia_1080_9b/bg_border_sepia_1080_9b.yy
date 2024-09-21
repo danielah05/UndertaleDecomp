@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"border_sepia_1080",
+    "path":"texturegroups/border_sepia_1080",
   },
   "type":0,
   "VTile":false,
