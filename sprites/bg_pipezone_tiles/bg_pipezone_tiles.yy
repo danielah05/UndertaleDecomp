@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"bg_fire",
+    "path":"texturegroups/bg_fire",
   },
   "type":0,
   "VTile":false,
