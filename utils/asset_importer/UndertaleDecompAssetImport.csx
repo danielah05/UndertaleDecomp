@@ -81,7 +81,7 @@ TextureWorker worker = new TextureWorker();
 await DumpSprites();
 await DumpFonts();
 await DumpBackgrounds();
-worker.Cleanup();
+worker.Dispose();
 logFile.WriteLine($"Exported {Data.TexturePageItems.Count} textures");
 
 // DUMP AUDIO
