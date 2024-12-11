@@ -1,5 +1,9 @@
 # Undertale-DC
-\- PLEASE NOTE THIS IS STILL A WORK IN PROGRESS! -<br>
+
+## Archive Notice
+This project was originally started for fun and has made huge advancements since first created, things like XBOX content being ported over, the massive work put into macros, etc, but has become a nightmare to maintain, things constantly break due to new Gamemaker Studio 2 updates and it is honestly pretty hard to keep up at this point.<br>
+Anyone can feel free to pick up this project and continue it, but this repo is no longer maintained, hopefully this is understandable.
+
 A decompilation of the latest version of UNDERTALE for the Xbox One ported to the latest Gamemaker Studio 2 with many added toggleable enhancements<br>
 
 ## Recommended Branches
