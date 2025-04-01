@@ -6,12 +6,12 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_039791D8","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_C74C9BC0","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_E0C9D918","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_757D4780","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_FA20B5F8","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_8EE32360","path":"rooms/room_water6/room_water6.yy",},
-    {"name":"inst_039791D8","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_884A1F40","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_1CFE8DC8","path":"rooms/room_water6/room_water6.yy",},
     {"name":"inst_91A1FB30","path":"rooms/room_water6/room_water6.yy",},
