@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"NXTALE",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -616,6 +616,7 @@
     {"$GMFolder":"","%Name":"Waterfall","folderPath":"folders/Tile Sets/Waterfall.yy","name":"Waterfall","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"credits.txt","CopyToMask":-1,"filePath":"datafiles","name":"credits.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"lang_en.json","CopyToMask":-1,"filePath":"datafiles/lang","name":"lang_en.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -624,7 +625,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.1300.0.785",
   },
   "name":"NXTALE",
   "resources":[

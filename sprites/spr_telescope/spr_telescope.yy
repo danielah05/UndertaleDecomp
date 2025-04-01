@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_telescope",
     "autoRecord":true,
     "backdropHeight":768,
@@ -63,6 +63,8 @@
     "playbackSpeedType":1,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":35.0,
+    "seqWidth":23.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
