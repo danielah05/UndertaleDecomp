@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_6FAFDFB0","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_F3524D38","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_9E56D40E","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_120A4276","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
@@ -78,6 +77,7 @@
     {"name":"inst_B7D30346","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_4C8781BE","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_40782F65","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
+    {"name":"inst_6FAFDFB0","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_C52C9DDD","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_49DF0B55","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},
     {"name":"inst_DE9279CD","path":"rooms/room_fire_walkandbranch2/room_fire_walkandbranch2.yy",},

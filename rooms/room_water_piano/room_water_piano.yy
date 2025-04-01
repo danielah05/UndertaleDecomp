@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_0F1D5980","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_5E252768","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_E2E9A5D0","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_679C1348","path":"rooms/room_water_piano/room_water_piano.yy",},
@@ -14,6 +13,7 @@
     {"name":"inst_70F3FF28","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_F5A67DA0","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_8A5AEB18","path":"rooms/room_water_piano/room_water_piano.yy",},
+    {"name":"inst_0F1D5980","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_D972B9F0","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_87B266AF","path":"rooms/room_water_piano/room_water_piano.yy",},
     {"name":"inst_0C65D417","path":"rooms/room_water_piano/room_water_piano.yy",},
