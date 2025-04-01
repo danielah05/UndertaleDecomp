@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.156463,
+  "duration":3.1564627,
   "name":"mus_f_glock",
   "parent":{
     "name":"Photoshop Flowey",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.060408,
+  "duration":6.0502496,
   "name":"abc_123_a",
   "parent":{
     "name":"Sounds",

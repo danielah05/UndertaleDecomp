@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.874921,
+  "duration":0.0,
   "name":"sfx_decomp_crash",
   "parent":{
     "name":"SoundFX",

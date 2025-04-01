@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":35.999638,
+  "duration":35.986576,
   "name":"mus_dogroom",
   "parent":{
     "name":"Snowdin",

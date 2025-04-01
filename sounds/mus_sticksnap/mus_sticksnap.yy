@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.72263,
+  "duration":1.7226304,
   "name":"mus_sticksnap",
   "parent":{
     "name":"Snowdin",

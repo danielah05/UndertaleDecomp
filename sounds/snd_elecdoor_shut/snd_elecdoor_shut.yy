@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.592449,
+  "duration":0.59244895,
   "name":"snd_elecdoor_shut",
   "parent":{
     "name":"Common",

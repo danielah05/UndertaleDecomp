@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.471655,
+  "duration":0.47165534,
   "name":"snd_tempbell",
   "parent":{
     "name":"Common",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.348209,
+  "duration":1.3482087,
   "name":"mus_sfx_frypan",
   "parent":{
     "name":"Hit",

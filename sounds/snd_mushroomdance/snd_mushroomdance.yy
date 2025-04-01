@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.580408,
+  "duration":1.5804082,
   "name":"snd_mushroomdance",
   "parent":{
     "name":"Waterfall",

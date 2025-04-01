@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.986848,
+  "duration":0.98684806,
   "name":"snd_drumroll",
   "parent":{
     "name":"Hotland",

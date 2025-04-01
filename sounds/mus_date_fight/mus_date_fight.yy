@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":34.287,
+  "duration":34.287167,
   "name":"mus_date_fight",
   "parent":{
     "name":"Date",

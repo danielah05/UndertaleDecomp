@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.058,
+  "duration":0.058707483,
   "name":"snd_txtasr",
   "parent":{
     "name":"Text",

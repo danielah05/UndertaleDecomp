@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":100.17669,
+  "duration":100.17524,
   "name":"mus_spider",
   "parent":{
     "name":"Battle",

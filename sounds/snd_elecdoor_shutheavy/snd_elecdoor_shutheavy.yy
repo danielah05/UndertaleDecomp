@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.468753,
+  "duration":1.4687529,
   "name":"snd_elecdoor_shutheavy",
   "parent":{
     "name":"Common",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":36.295692,
+  "duration":36.28263,
   "name":"mus_toriel",
   "parent":{
     "name":"Ruins",

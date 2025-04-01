@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.731338,
+  "duration":1.7313379,
   "name":"mus_st_meatfactory",
   "parent":{
     "name":"Sound Test",

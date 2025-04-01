@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.085329,
+  "duration":0.085328795,
   "name":"snd_gameover_broken",
   "parent":{
     "name":"Photoshop Flowey",

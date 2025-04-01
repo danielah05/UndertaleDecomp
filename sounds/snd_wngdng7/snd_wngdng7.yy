@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.066961,
+  "duration":0.06696145,
   "name":"snd_wngdng7",
   "parent":{
     "name":"Text",

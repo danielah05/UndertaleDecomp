@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.355556,
+  "duration":0.35555556,
   "name":"snd_dogsalad",
   "parent":{
     "name":"Items",

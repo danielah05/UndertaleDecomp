@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.319184,
+  "duration":1.3191837,
   "name":"mus_dununnn",
   "parent":{
     "name":"Waterfall",

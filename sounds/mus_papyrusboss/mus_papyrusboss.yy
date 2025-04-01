@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":57.678368,
+  "duration":57.665306,
   "name":"mus_papyrusboss",
   "parent":{
     "name":"Battle",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":180.004,
+  "duration":179.99094,
   "name":"mus_endarea_parta",
   "parent":{
     "name":"Castle",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":5.08517,
+  "duration":5.0851703,
   "name":"mus_core_ambience",
   "parent":{
     "name":"Core",

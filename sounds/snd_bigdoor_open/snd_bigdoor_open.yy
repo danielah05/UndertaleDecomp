@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.153832,
+  "duration":0.1538322,
   "name":"snd_bigdoor_open",
   "parent":{
     "name":"Hotland",

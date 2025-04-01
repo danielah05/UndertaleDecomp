@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":7.309932,
+  "duration":7.3099318,
   "name":"mus_dogmeander",
   "parent":{
     "name":"Snowdin",

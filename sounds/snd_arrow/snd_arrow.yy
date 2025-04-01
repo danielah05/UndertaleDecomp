@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.660317,
+  "duration":0.6603175,
   "name":"snd_arrow",
   "parent":{
     "name":"Common",

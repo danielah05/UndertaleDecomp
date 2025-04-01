@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.899773,
+  "duration":0.89977324,
   "name":"snd_hurtlaugh",
   "parent":{
     "name":"Hurt",

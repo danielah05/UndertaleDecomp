@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.290249,
+  "duration":0.29024944,
   "name":"snd_dimbox",
   "parent":{
     "name":"Items",

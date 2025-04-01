@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":3.430748,
+  "duration":3.4307482,
   "name":"snd_buzzing",
   "parent":{
     "name":"Photoshop Flowey",

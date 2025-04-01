@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":108.44735,
+  "duration":108.44444,
   "name":"mus_boss1",
   "parent":{
     "name":"Battle",

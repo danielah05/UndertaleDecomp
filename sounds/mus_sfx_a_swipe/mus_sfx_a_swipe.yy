@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.086984,
+  "duration":1.0869842,
   "name":"mus_sfx_a_swipe",
   "parent":{
     "name":"Asriel",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":5.30576,
+  "duration":5.3057594,
   "name":"mus_f_destroyed",
   "parent":{
     "name":"Photoshop Flowey",

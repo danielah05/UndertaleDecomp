@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":3.449615,
+  "duration":3.4496145,
   "name":"mus_sfx_chainsaw",
   "parent":{
     "name":"Hotland",

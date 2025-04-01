@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.638549,
+  "duration":0.63854873,
   "name":"snd_dogresidue",
   "parent":{
     "name":"Items",

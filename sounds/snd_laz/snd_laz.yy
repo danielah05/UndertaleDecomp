@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.55059,
+  "duration":0.55058956,
   "name":"snd_laz",
   "parent":{
     "name":"Hit",

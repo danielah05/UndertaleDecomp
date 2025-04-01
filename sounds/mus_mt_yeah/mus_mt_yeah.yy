@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.030385,
+  "duration":1.0303855,
   "name":"mus_mt_yeah",
   "parent":{
     "name":"Unused",

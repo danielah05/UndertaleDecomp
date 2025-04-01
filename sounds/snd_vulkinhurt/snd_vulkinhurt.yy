@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.712472,
+  "duration":1.7124716,
   "name":"snd_vulkinhurt",
   "parent":{
     "name":"Hurt",

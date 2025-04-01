@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":3.01424,
+  "duration":3.0142403,
   "name":"mus_ambientwater",
   "parent":{
     "name":"Waterfall",

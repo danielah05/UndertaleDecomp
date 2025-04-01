@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.982494,
+  "duration":0.98249435,
   "name":"mus_sfx_generate",
   "parent":{
     "name":"True Lab",

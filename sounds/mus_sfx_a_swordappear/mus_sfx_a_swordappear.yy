@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.255329,
+  "duration":1.2553288,
   "name":"mus_sfx_a_swordappear",
   "parent":{
     "name":"Asriel",

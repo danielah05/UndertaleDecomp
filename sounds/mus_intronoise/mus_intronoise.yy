@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":2.842993,
+  "duration":2.8429933,
   "name":"mus_intronoise",
   "parent":{
     "name":"Title",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.960726,
+  "duration":0.95782316,
   "name":"mus_fearsting",
   "parent":{
     "name":"Waterfall",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.421769,
+  "duration":6.4217687,
   "name":"mus_f_laugh",
   "parent":{
     "name":"Photoshop Flowey",

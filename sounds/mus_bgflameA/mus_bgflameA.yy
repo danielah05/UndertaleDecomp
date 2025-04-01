@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":4.530794,
+  "duration":4.5307937,
   "name":"mus_bgflameA",
   "parent":{
     "name":"Waterfall",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":6.381134,
+  "duration":6.3811336,
   "name":"mus_f_newlaugh_low",
   "parent":{
     "name":"Unused",

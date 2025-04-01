@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.93415,
+  "duration":5.9341497,
   "name":"mus_sfx_dogseal",
   "parent":{
     "name":"Snowdin",

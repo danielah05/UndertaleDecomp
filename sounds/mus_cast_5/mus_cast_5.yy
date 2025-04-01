@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":71.27946,
+  "duration":71.266396,
   "name":"mus_cast_5",
   "parent":{
     "name":"Ending",

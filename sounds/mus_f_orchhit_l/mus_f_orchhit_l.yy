@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.265488,
+  "duration":1.2654876,
   "name":"mus_f_orchhit_l",
   "parent":{
     "name":"Unused",

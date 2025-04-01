@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.782222,
+  "duration":0.7822222,
   "name":"mus_sfx_ted",
   "parent":{
     "name":"Photoshop Flowey",

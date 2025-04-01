@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":32.013,
+  "duration":32.03628,
   "name":"mus_menu3",
   "parent":{
     "name":"Menu",

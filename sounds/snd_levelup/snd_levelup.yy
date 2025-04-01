@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.983605,
+  "duration":0.98360544,
   "name":"snd_levelup",
   "parent":{
     "name":"Battle",

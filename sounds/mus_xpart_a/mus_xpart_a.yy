@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":69.33188,
+  "duration":69.31882,
   "name":"mus_xpart_a",
   "parent":{
     "name":"Battle",

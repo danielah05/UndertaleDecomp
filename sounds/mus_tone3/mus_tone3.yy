@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.830023,
+  "duration":1.8300227,
   "name":"mus_tone3",
   "parent":{
     "name":"Snowdin",

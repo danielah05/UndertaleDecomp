@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":64.008705,
+  "duration":63.995647,
   "name":"mus_kingdescription",
   "parent":{
     "name":"Unused",

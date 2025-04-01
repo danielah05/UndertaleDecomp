@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":3.011338,
+  "duration":3.0113378,
   "name":"mus_dogappear",
   "parent":{
     "name":"Snowdin",

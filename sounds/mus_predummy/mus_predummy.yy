@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":6.915193,
+  "duration":6.9151926,
   "name":"mus_predummy",
   "parent":{
     "name":"Waterfall",

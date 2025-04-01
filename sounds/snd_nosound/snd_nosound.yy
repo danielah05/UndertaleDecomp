@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.002494,
+  "duration":0.002494331,
   "name":"snd_nosound",
   "parent":{
     "name":"Common",

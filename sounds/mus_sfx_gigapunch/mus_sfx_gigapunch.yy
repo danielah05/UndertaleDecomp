@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.043447,
+  "duration":1.0434467,
   "name":"mus_sfx_gigapunch",
   "parent":{
     "name":"Photoshop Flowey",

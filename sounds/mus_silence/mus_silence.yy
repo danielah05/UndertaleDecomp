@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.108844,
+  "duration":0.10594104,
   "name":"mus_silence",
   "parent":{
     "name":"Common",

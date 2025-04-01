@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":25.615965,
+  "duration":25.615963,
   "name":"mus_date_tense",
   "parent":{
     "name":"Date",

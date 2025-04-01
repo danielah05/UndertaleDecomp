@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":101.65842,
+  "duration":101.65841,
   "name":"mus_leave",
   "parent":{
     "name":"Ending",

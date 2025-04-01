@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":3.490249,
+  "duration":3.4902494,
   "name":"mus_harpnoise",
   "parent":{
     "name":"Settings",

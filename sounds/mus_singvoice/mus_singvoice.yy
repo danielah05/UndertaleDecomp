@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.43102,
+  "duration":0.4310204,
   "name":"mus_singvoice",
   "parent":{
     "name":"Shyren",

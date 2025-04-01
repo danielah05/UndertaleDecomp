@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.448435,
+  "duration":0.44843537,
   "name":"mus_rotate",
   "parent":{
     "name":"Common",

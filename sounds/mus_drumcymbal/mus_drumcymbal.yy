@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.436825,
+  "duration":0.4368254,
   "name":"mus_drumcymbal",
   "parent":{
     "name":"Control Test",

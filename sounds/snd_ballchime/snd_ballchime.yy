@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":3.160816,
+  "duration":3.1608164,
   "name":"snd_ballchime",
   "parent":{
     "name":"Title",

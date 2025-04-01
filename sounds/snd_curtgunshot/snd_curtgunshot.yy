@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.145125,
+  "duration":0.14512472,
   "name":"snd_curtgunshot",
   "parent":{
     "name":"Unused",

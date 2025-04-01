@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.754649,
+  "duration":0.7546485,
   "name":"snd_hero",
   "parent":{
     "name":"Items",

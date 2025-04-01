@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.042086,
+  "duration":0.04208617,
   "name":"snd_instanoise",
   "parent":{
     "name":"Common",

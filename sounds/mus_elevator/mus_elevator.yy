@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":5.147574,
+  "duration":5.1475735,
   "name":"mus_elevator",
   "parent":{
     "name":"Hotland",

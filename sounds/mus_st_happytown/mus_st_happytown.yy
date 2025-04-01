@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.322086,
+  "duration":1.3220862,
   "name":"mus_st_happytown",
   "parent":{
     "name":"Sound Test",

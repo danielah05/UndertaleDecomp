@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.703855,
+  "duration":0.70385486,
   "name":"mus_myemeow",
   "parent":{
     "name":"Bratty and Catty",

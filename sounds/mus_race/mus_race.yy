@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":41.61016,
+  "duration":41.5971,
   "name":"mus_race",
   "parent":{
     "name":"Waterfall",

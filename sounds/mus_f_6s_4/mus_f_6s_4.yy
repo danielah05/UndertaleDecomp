@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":30.316,
+  "duration":30.296236,
   "name":"mus_f_6s_4",
   "parent":{
     "name":"Flowey Boss",

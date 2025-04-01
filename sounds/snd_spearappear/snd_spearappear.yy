@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.536961,
+  "duration":0.53696144,
   "name":"snd_spearappear",
   "parent":{
     "name":"Common",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.06966,
+  "duration":0.06965987,
   "name":"mus_story_stuck",
   "parent":{
     "name":"Intro",

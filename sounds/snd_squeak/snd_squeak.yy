@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.023401,
+  "duration":0.023401361,
   "name":"snd_squeak",
   "parent":{
     "name":"UI",

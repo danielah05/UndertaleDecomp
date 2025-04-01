@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":13.413878,
+  "duration":13.4138775,
   "name":"mus_oogloop",
   "parent":{
     "name":"Hotland",

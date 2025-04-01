@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":3.243537,
+  "duration":3.2435374,
   "name":"mus_sfx_hypergoner_laugh",
   "parent":{
     "name":"Asriel",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.590567,
+  "duration":1.5905669,
   "name":"mus_coolbeat",
   "parent":{
     "name":"Hotland",

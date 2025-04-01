@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":2.500499,
+  "duration":2.5004988,
   "name":"mus_mode",
   "parent":{
     "name":"Title",

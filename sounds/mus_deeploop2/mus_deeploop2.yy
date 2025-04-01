@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":6.355011,
+  "duration":6.3550115,
   "name":"mus_deeploop2",
   "parent":{
     "name":"Common",

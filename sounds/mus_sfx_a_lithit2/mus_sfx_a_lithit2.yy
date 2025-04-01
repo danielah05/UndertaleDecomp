@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.110204,
+  "duration":1.1102041,
   "name":"mus_sfx_a_lithit2",
   "parent":{
     "name":"Asriel",

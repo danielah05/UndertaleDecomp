@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":1.922902,
+  "duration":1.9229025,
   "name":"mus_drone",
   "parent":{
     "name":"Hotland",

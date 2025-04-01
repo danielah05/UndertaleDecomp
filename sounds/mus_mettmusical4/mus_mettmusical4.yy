@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":20.011,
+  "duration":20.011248,
   "name":"mus_mettmusical4",
   "parent":{
     "name":"Hotland",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.086689,
+  "duration":0.086689346,
   "name":"snd_mtt_prebomb",
   "parent":{
     "name":"Mettaton",

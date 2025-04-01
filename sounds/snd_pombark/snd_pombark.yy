@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.304762,
+  "duration":0.30476192,
   "name":"snd_pombark",
   "parent":{
     "name":"Common",

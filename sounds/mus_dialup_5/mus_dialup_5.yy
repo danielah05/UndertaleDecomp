@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.470113,
+  "duration":1.4701134,
   "name":"mus_dialup_5",
   "parent":{
     "name":"Memoryhead",

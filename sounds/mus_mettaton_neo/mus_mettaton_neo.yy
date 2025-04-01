@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":26.485262,
+  "duration":26.48526,
   "name":"mus_mettaton_neo",
   "parent":{
     "name":"Battle",

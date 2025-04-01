@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":41.707,
+  "duration":41.707394,
   "name":"mus_f_finale_2",
   "parent":{
     "name":"Flowey Boss",

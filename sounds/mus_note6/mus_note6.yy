@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.358,
+  "duration":0.35845804,
   "name":"mus_note6",
   "parent":{
     "name":"Shyren",

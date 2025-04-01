@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.831565,
+  "duration":0.8315646,
   "name":"mus_sfx_eyeflash",
   "parent":{
     "name":"Asgore",

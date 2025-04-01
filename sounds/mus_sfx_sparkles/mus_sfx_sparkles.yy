@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.499138,
+  "duration":1.4991384,
   "name":"mus_sfx_sparkles",
   "parent":{
     "name":"Asriel",

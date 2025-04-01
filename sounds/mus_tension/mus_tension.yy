@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":6.520454,
+  "duration":6.5204535,
   "name":"mus_tension",
   "parent":{
     "name":"Ruins",

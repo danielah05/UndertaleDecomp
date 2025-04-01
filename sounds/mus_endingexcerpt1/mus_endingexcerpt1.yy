@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":28.808706,
+  "duration":28.808708,
   "name":"mus_endingexcerpt1",
   "parent":{
     "name":"Battle",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.716825,
+  "duration":1.7168254,
   "name":"mus_mettsmash",
   "parent":{
     "name":"Hotland",
