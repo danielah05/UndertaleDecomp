@@ -1,6 +1,6 @@
 # Undertale-DC
 \- PLEASE NOTE THIS IS STILL A WORK IN PROGRESS! -<br>
-A decompilation of the latest version of UNDERTALE for the Xbox One ported to the latest Gamemaker Studio 2 with many added toggleable enhancements<br>
+A decompilation of the latest version of UNDERTALE for the Xbox One ported to the latest Gamemaker Studio 2 Beta with many added toggleable enhancements<br>
 
 ## Recommended Branches
 Branch | Description
@@ -10,7 +10,7 @@ Branch | Description
 
 ### Main Contributors
 Vultumast - Project Lead - Code Cleanup, Bug Fixing, Some Sorting<br>
-[Daniela](https://lethallava.land/@daniela) - Main Project assistant - Code Cleanup, Bug Fixing, Most Sorting, Most Testing
+[Daniela](https://bsky.app/profile/daniela.lol) - Main Project assistant - Code Cleanup, Bug Fixing, Most Sorting, Most Testing
 
 ### Asset Extraction Script Creator
 [Marioalexsan](https://github.com/Marioalexsan)
@@ -40,7 +40,7 @@ Developers who own a copy of the game should then be able to import the assets f
 3. Download the latest version of [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) (GUI, NOT CLI), you will need it to run the asset extractor script.<br>
 4. In the place you extracted the games data to, locate the ``data.win`` or ``game.win`` file and load it with UndertaleModTool.<br>
 5. After loading the file, in UndertaleModTool, go to ``Scripts -> Run other script...`` and load the ``UndertaleDecompAssetImport.csx`` script that can be found in the ``utils\asset_importer`` folder.<br>
-6. Once the script is done running, just simply open ``NXTale.yyp`` inside of Gamemaker Studio 2 (latest!)
+6. Once the script is done running, just simply open ``NXTale.yyp`` inside of Gamemaker Studio 2 (latest beta!)
 
 ## Dependencies (Native Linux Build)
 ```libcurl-gnutls lib32-libcurl-gnutls lib32-libpulse lib32-alsa-lib lib32-openal lib32-glu lib32-openssl-1.0```
