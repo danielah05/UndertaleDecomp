@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.377324,
+  "duration":0.37732425,
   "name":"snd_punchweak",
   "parent":{
     "name":"Hit",

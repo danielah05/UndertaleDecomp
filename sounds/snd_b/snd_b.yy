@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.256553,
+  "duration":1.2565533,
   "name":"snd_b",
   "parent":{
     "name":"Battle",

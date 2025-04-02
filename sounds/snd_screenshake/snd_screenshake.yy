@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.071429,
+  "duration":1.0714285,
   "name":"snd_screenshake",
   "parent":{
     "name":"Common",

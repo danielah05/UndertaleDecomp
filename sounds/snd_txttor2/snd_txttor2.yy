@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.089,
+  "duration":0.08929705,
   "name":"snd_txttor2",
   "parent":{
     "name":"Text",

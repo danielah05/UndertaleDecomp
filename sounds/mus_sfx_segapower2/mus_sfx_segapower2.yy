@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.063764,
+  "duration":1.0637642,
   "name":"mus_sfx_segapower2",
   "parent":{
     "name":"Common",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.10229,
+  "duration":0.10229025,
   "name":"snd_floweytalk2",
   "parent":{
     "name":"Text",

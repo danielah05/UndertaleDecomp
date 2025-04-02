@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.457143,
+  "duration":0.45714286,
   "name":"snd_damage_c",
   "parent":{
     "name":"Hit",

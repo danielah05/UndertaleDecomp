@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.316281,
+  "duration":1.3162812,
   "name":"snd_saber3",
   "parent":{
     "name":"Hit",

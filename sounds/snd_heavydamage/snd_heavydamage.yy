@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":1.72263,
+  "duration":1.7226304,
   "name":"snd_heavydamage",
   "parent":{
     "name":"Photoshop Flowey",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.054807,
+  "duration":0.054807257,
   "name":"snd_txtal",
   "parent":{
     "name":"Text",

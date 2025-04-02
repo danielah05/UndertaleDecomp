@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.565986,
+  "duration":0.5659864,
   "name":"snd_textnoise",
   "parent":{
     "name":"Text",

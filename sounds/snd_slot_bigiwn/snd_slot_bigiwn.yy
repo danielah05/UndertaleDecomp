@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.873,
+  "duration":4.8731065,
   "name":"snd_slot_bigiwn",
   "parent":{
     "name":"Dog Shrine",

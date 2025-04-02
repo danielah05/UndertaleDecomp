@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.991202,
+  "duration":0.9912018,
   "name":"mus_sfx_yowl",
   "parent":{
     "name":"True Lab",

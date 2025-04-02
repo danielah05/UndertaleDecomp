@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.215329,
+  "duration":0.2153288,
   "name":"snd_victor",
   "parent":{
     "name":"Hit",

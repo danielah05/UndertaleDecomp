@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.142857,
+  "duration":0.14285715,
   "name":"snd_swallow",
   "parent":{
     "name":"Items",

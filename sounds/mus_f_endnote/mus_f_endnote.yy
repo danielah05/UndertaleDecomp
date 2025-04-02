@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.060499,
+  "duration":5.0604987,
   "name":"mus_f_endnote",
   "parent":{
     "name":"Flowey Boss",

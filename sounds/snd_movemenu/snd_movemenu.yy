@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.070748,
+  "duration":0.0707483,
   "name":"snd_movemenu",
   "parent":{
     "name":"Common",

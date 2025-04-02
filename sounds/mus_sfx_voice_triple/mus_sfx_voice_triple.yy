@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.194376,
+  "duration":1.1943765,
   "name":"mus_sfx_voice_triple",
   "parent":{
     "name":"Unused",

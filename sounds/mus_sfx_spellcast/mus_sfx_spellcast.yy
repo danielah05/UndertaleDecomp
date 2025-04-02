@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.365624,
+  "duration":1.3656236,
   "name":"mus_sfx_spellcast",
   "parent":{
     "name":"Asriel",

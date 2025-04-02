@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.759002,
+  "duration":0.75900227,
   "name":"mus_sfx_ahh",
   "parent":{
     "name":"Unused",

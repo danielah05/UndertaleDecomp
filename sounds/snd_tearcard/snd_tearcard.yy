@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.785034,
+  "duration":1.7850341,
   "name":"snd_tearcard",
   "parent":{
     "name":"Items",

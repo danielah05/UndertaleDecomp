@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.065,
+  "duration":0.06530612,
   "name":"snd_txtund2",
   "parent":{
     "name":"Text",

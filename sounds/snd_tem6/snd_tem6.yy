@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.043537,
+  "duration":0.043537416,
   "name":"snd_tem6",
   "parent":{
     "name":"Text",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.848889,
+  "duration":1.8488889,
   "name":"mus_sfx_abreak2",
   "parent":{
     "name":"Barrier",

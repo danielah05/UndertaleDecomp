@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.609524,
+  "duration":0.60952383,
   "name":"snd_glassbreak",
   "parent":{
     "name":"Common",

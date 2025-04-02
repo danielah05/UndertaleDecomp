@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.098,
+  "duration":0.09820861,
   "name":"snd_txtpap",
   "parent":{
     "name":"Text",

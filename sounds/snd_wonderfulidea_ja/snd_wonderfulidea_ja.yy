@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.785,
+  "duration":2.7857144,
   "name":"snd_wonderfulidea_ja",
   "parent":{
     "name":"Flowey",

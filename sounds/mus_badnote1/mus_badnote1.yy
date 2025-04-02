@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.416508,
+  "duration":0.41650793,
   "name":"mus_badnote1",
   "parent":{
     "name":"Shyren",

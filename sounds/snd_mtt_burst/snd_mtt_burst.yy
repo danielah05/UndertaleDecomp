@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.875918,
+  "duration":0.8759184,
   "name":"snd_mtt_burst",
   "parent":{
     "name":"Mettaton",

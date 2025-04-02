@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.088435,
+  "duration":1.0884354,
   "name":"snd_shadowpendant",
   "parent":{
     "name":"Unused",

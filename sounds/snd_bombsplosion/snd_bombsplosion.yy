@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.208889,
+  "duration":1.2088889,
   "name":"snd_bombsplosion",
   "parent":{
     "name":"Photoshop Flowey",

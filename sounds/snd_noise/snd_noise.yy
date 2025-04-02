@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.072562,
+  "duration":0.07256236,
   "name":"snd_noise",
   "parent":{
     "name":"Battle",

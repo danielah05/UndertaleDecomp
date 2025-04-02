@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.73424,
+  "duration":1.7342404,
   "name":"mus_create",
   "parent":{
     "name":"Common",

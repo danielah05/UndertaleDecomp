@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.394649,
+  "duration":1.3946486,
   "name":"mus_sfx_star",
   "parent":{
     "name":"Asriel",

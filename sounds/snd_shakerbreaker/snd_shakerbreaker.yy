@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.741587,
+  "duration":0.7415873,
   "name":"snd_shakerbreaker",
   "parent":{
     "name":"Common",

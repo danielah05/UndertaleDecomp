@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.79093,
+  "duration":0.79092973,
   "name":"snd_sparkle1",
   "parent":{
     "name":"Items",

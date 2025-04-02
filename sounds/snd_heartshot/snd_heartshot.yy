@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.087075,
+  "duration":0.08707483,
   "name":"snd_heartshot",
   "parent":{
     "name":"Hit",

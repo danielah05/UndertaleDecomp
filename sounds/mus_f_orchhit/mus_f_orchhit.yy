@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.281451,
+  "duration":1.2814512,
   "name":"mus_f_orchhit",
   "parent":{
     "name":"Photoshop Flowey",

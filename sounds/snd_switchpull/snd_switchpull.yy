@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.36585,
+  "duration":0.36585033,
   "name":"snd_switchpull",
   "parent":{
     "name":"Unused",

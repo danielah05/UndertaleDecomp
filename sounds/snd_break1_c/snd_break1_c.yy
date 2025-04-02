@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.130612,
+  "duration":0.13061224,
   "name":"snd_break1_c",
   "parent":{
     "name":"Death",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.834467,
+  "duration":0.8344671,
   "name":"snd_magicminer",
   "parent":{
     "name":"Unused",

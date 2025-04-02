@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.899683,
+  "duration":1.8996825,
   "name":"mus_sfx_rainbowbeam_1",
   "parent":{
     "name":"Asriel",

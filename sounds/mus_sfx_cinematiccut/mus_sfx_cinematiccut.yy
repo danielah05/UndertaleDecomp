@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.243719,
+  "duration":1.2437189,
   "name":"mus_sfx_cinematiccut",
   "parent":{
     "name":"Common",

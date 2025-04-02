@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.044898,
+  "duration":1.0448979,
   "name":"snd_dumbvictory",
   "parent":{
     "name":"Common",

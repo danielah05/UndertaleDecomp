@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.079,
+  "duration":0.07981859,
   "name":"snd_mtt7",
   "parent":{
     "name":"Text",

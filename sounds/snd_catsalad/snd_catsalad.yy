@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.595011,
+  "duration":0.59501135,
   "name":"snd_catsalad",
   "parent":{
     "name":"Items",

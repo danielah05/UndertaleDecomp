@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.689342,
+  "duration":0.6893424,
   "name":"snd_speedup",
   "parent":{
     "name":"Items",

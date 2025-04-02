@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.549841,
+  "duration":2.5498412,
   "name":"mus_pianoA",
   "parent":{
     "name":"Piano",

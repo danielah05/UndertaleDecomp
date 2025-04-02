@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.79229,
+  "duration":1.7922902,
   "name":"snd_undynedis",
   "parent":{
     "name":"Waterfall",

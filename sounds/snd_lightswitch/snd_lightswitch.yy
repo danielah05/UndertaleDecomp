@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.36161,
+  "duration":0.36160997,
   "name":"snd_lightswitch",
   "parent":{
     "name":"Unused",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.983673,
+  "duration":3.9836736,
   "name":"snd_floweylaugh",
   "parent":{
     "name":"Flowey",

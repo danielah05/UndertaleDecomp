@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.367166,
+  "duration":0.36716554,
   "name":"mus_sfx_a_bullet",
   "parent":{
     "name":"Asriel",

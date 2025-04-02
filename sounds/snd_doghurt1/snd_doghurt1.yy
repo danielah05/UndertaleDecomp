@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.203673,
+  "duration":0.20367347,
   "name":"snd_doghurt1",
   "parent":{
     "name":"Hurt",

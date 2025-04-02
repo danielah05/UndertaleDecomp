@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.343946,
+  "duration":0.3439456,
   "name":"mus_drumkick",
   "parent":{
     "name":"Control Test",

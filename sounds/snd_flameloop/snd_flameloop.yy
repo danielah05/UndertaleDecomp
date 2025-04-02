@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":0.429569,
+  "duration":0.42956915,
   "name":"snd_flameloop",
   "parent":{
     "name":"Photoshop Flowey",

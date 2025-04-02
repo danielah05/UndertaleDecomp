@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.433923,
+  "duration":0.43392292,
   "name":"mus_drumsnare",
   "parent":{
     "name":"Control Test",

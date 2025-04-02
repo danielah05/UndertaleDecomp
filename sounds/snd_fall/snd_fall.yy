@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.837188,
+  "duration":2.8371882,
   "name":"snd_fall",
   "parent":{
     "name":"Common",
