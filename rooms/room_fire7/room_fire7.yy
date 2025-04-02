@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_5BB1DD35","path":"rooms/room_fire7/room_fire7.yy",},
-    {"name":"inst_424AE155","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_C6FE5FCD","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_B1881194","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_463C8F0C","path":"rooms/room_fire7/room_fire7.yy",},
@@ -54,6 +53,7 @@
     {"name":"inst_EB0550DC","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_6FB8CE54","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_5E241FD2","path":"rooms/room_fire7/room_fire7.yy",},
+    {"name":"inst_424AE155","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_E3E88D4A","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_679BFBB2","path":"rooms/room_fire7/room_fire7.yy",},
     {"name":"inst_EC4F792A","path":"rooms/room_fire7/room_fire7.yy",},
