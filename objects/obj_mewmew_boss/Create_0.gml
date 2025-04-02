@@ -23,8 +23,7 @@ pattern = 0
 turns = 0
 hbul_turns = 0
 true_battle = 0
-with (obj_borderparent)
-    visible = false
+obj_borderparent.visible = false
 bordercon = 0
 bx1[0] = 32
 by1[0] = 250
