@@ -74,6 +74,10 @@ Directory.CreateDirectory(externalSounds);
 var logFile = new StreamWriter(File.OpenWrite(Path.Combine(workFolder, "log.txt")));
 var mappingsFile = new StreamWriter(File.OpenWrite(Path.Combine(workFolder, "log_mappings.txt")));
 
+var UTMT_VERSION = typeof(TextureWorker).Assembly.GetName().Version;
+
+logFile.WriteLine($"UTMT version used: {UTMT_VERSION}");
+
 // DUMP TEXTURES
 
 SetProgressBar(null, "Exporting Textures", 0, Data.TexturePageItems.Count);
@@ -81,7 +85,19 @@ TextureWorker worker = new TextureWorker();
 await DumpSprites();
 await DumpFonts();
 await DumpBackgrounds();
-worker.Dispose();
+
+if (UTMT_VERSION >= new Version(0, 7, 0, 0))
+{
+    // worker.Dispose(); // UTMT >= 0.7.0.0
+    typeof(TextureWorker).GetMethod("Dispose").Invoke(worker, Array.Empty<object>());
+}
+else
+{
+    // worker.Cleanup(); // UTMT < 0.7.0.0
+    typeof(TextureWorker).GetMethod("Cleanup").Invoke(worker, Array.Empty<object>());
+}
+
+
 logFile.WriteLine($"Exported {Data.TexturePageItems.Count} textures");
 
 // DUMP AUDIO

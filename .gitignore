@@ -22,3 +22,7 @@ tilesets/*/*
 # GameMaker stuff
 
 *.resource_order
+
+# IDE / text editor folders
+
+.vscode/
