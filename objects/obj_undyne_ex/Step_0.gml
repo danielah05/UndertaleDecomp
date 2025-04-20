@@ -320,7 +320,7 @@ if (con == 71 && instance_exists(OBJ_WRITER) == false)
     global.vaporspeed = 0
     ddd = instance_create(melter.x, melter.y, obj_vaporized_new)
     with (ddd)
-        scr_newvapordata(35)
+        scr_newvapordata(NewMonsterVapor.UndyneEX)
     ddd.sprite_index = melter.sprite_index
     with (melter)
         instance_destroy()

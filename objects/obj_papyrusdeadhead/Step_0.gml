@@ -27,7 +27,7 @@ if (c == 7)
 {
     ddd = instance_create(x, y, obj_vaporized_new)
     with (ddd)
-        scr_newvapordata(10)
+        scr_newvapordata(NewMonsterVapor.PapyrusHead)
     ddd.sprite_index = sprite_index
     ddd.ht = sprite_height
     ddd.wd = sprite_width

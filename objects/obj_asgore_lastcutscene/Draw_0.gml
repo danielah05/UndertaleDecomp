@@ -224,7 +224,7 @@ if (con == 30)
 {
     ddd = instance_create(x, y, obj_vaporized_new)
     with (ddd)
-        scr_newvapordata(34)
+        scr_newvapordata(NewMonsterVapor.Asgore)
     remove = 1
     ddd.sprite_index = spr_asgore_kneeldeath
     ddd.ht = ht
@@ -306,7 +306,7 @@ if (con == 58)
 {
     ddd = instance_create(x, y, obj_vaporized_new)
     with (ddd)
-        scr_newvapordata(34)
+        scr_newvapordata(NewMonsterVapor.Asgore)
     remove = 1
     ddd.sprite_index = spr_asgore_kneeldeath
     ddd.ht = ht
