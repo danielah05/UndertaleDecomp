@@ -9,15 +9,15 @@ Branch | Description
 [vanilla](https://github.com/danielah05/UndertaleDecomp/tree/vanilla) | Version of the main branch but with any of the decomp exclusive features and enhancements removed. Recommended for a as vanilla as possible UNDERTALE modding experience.
 
 ### Main Contributors
-Vultumast - Project Lead - Code Cleanup, Bug Fixing, Some Sorting<br>
-[Daniela](https://bsky.app/profile/daniela.lol) - Main Project assistant - Code Cleanup, Bug Fixing, Most Sorting, Most Testing
+[Daniela](https://bsky.app/profile/daniela.lol) - Project Lead - Code Cleanup, Bug Fixing, Most Sorting, Most Testing<br>
+Vultumast - Past Contibutor/Original Project Lead - Code Cleanup, Bug Fixing, Some Sorting
 
 ### Asset Extraction Script Creator
 [Marioalexsan](https://github.com/Marioalexsan)
 
 ## Contact
-Discord: ``vultumast``<br>
-Email: ``vultumast@gmail.com``<br>
+Discord: ``studiorender_client.so``<br>
+Bluesky: ``daniela.lol``
 
 [Discord](https://discord.gg/sfQmY89m9n)<br>
 ## Do you have permission to share this?
@@ -51,12 +51,8 @@ Alternatively, we recommend using the Switch version of the game instead, as tha
 
 ## How do I obtain the Switch data?
 This repo will not explain how to mod a Switch and how to make dumps from it. If you wanna look into that, here is a list of resources that could help:<br>
-Modding your Switch: https://nh-server.github.io/switch-guide/<br>
-Dumping and Extracting Games: https://github.com/DarkMatterCore/nxdumptool/releases<br>
-<br>
-nxdumptool allows you to directly extract the RomFS onto your SD Card, if you however wanna extract the RomFS outside of your Switch, look into either one of these (this will require a copy of [prod.keys](https://github.com/Ryujinx/Ryujinx/wiki/Keys) too):<br>
-https://github.com/SciresM/hactool/releases<br>
-https://github.com/Myster-Tee/NxFileViewer/releases
+Modding your Switch: https://switch.hacks.guide/<br>
+Dumping and Extracting Games: https://github.com/DarkMatterCore/nxdumptool/releases
 
 ## Can I use this without owning the Switch or Xbox version of UNDERTALE?
 Yes! But it is HIGHLY recommended to use the Switch or Xbox version of the game.<br>
