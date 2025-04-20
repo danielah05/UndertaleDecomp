@@ -6,7 +6,7 @@ if (killed == 1)
     global.monstersprite = sprite_index
     ddd = instance_create(x, y, obj_vaporized_new)
     with (ddd)
-        scr_newvapordata(23)
+        scr_newvapordata(NewMonsterVapor.Dummy)
     ddd.sprite_index = sprite_index
     ddd.ht = ht
     ddd.wd = wd

@@ -1146,4 +1146,54 @@ enum MurderLevel
 	Lv15HotlandCoreKills,
 	Lv16MettatonKilled
 }
+enum NewMonsterVapor
+{
+	// 0 - 9
+	Aaron,
+	GreaterDog,
+	Gyftrot,
+	Icecap,
+	Jerry,
+	LesserDog,
+	Dogamy,
+	Dogaressa,
+	Doggo,
+	PapyrusBody,
+	// 10 - 19
+	PapyrusHead,
+	Shyren,
+	Snowdrake,
+	Temmie,
+	Undyne,
+	Woshua,
+	Froggit,
+	Whimsun,
+	Moldsmal,
+	Migosp,
+	// 20 - 29
+	Loox,
+	Vegetoid,
+	Toriel,
+	Dummy,
+	Vulkin,
+	Pyrope,
+	RG01,
+	RG02,
+	Madjick,
+	FinalKnight,
+	// 30 - 39
+	FinalFroggit,
+	Whimsalot,
+	Astigmatism,
+	Muffet,
+	Asgore,
+	UndyneEX,
+	Migospel,
+	Parsnik,
+	Moldessa,
+	Glyde,
+	// 40 - 41
+	SoSorry,
+	Icecube
+}
 #endregion
