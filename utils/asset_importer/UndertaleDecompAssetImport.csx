@@ -515,8 +515,19 @@ IList<UndertaleEmbeddedAudio> GetAudioGroupData(UndertaleSound sound)
     try
     {
         UndertaleData data = null;
-        using (var stream = new FileStream(groupFilePath, FileMode.Open, FileAccess.Read))
-            data = UndertaleIO.Read(stream, warning => ScriptMessage("A warning occured while trying to load " + audioGroupName + ":\n" + warning));
+        // version check to make sure stuff doesnt break on 8.0.0 and above
+        if (UTMT_VERSION >= new Version(0, 8, 0, 0))
+        {
+            Action<string, bool> warningHandler = (warning, _) => ScriptMessage("A warning occured while trying to load " + audioGroupName + ":\n" + warning);
+            using (var stream = new FileStream(groupFilePath, FileMode.Open, FileAccess.Read))
+                data = (UndertaleData)typeof(UndertaleIO).GetMethod("Read", System.Reflection.BindingFlags.Static).Invoke(null, new object[] { stream, warningHandler });
+        }
+        else
+        {
+            Action<string> warningHandler = (warning) => ScriptMessage("A warning occured while trying to load " + audioGroupName + ":\n" + warning);
+            using (var stream = new FileStream(groupFilePath, FileMode.Open, FileAccess.Read))
+                data = (UndertaleData)typeof(UndertaleIO).GetMethod("Read", System.Reflection.BindingFlags.Static).Invoke(null, new object[] { stream, warningHandler });
+        }
 
         loadedAudioGroups[audioGroupName] = data.EmbeddedAudio;
         return data.EmbeddedAudio;
