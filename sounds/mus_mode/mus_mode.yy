@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_mode",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":2.5004988,
+  "exportDir":"",
   "name":"mus_mode",
   "parent":{
     "name":"Title",

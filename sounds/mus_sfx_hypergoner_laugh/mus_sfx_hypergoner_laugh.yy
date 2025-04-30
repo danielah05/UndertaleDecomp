@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_hypergoner_laugh",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":3.2435374,
+  "exportDir":"",
   "name":"mus_sfx_hypergoner_laugh",
   "parent":{
     "name":"Asriel",

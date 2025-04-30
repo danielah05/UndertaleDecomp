@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_date_tense",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":25.615963,
+  "exportDir":"",
   "name":"mus_date_tense",
   "parent":{
     "name":"Date",

@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_dogshrine_xbox",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":76.8,
+  "exportDir":"",
   "name":"mus_dogshrine_xbox",
   "parent":{
     "name":"Snowdin",

@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_snowwalk",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":11.762359,
+  "exportDir":"",
   "name":"mus_snowwalk",
   "parent":{
     "name":"Snowdin",

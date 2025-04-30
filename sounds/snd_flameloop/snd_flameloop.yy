@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_flameloop",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":1,
   "conversionMode":0,
   "duration":0.42956915,
+  "exportDir":"",
   "name":"snd_flameloop",
   "parent":{
     "name":"Photoshop Flowey",

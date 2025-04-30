@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_sparkles",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.4991384,
+  "exportDir":"",
   "name":"mus_sfx_sparkles",
   "parent":{
     "name":"Asriel",

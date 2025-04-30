@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_st_troubledingle",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":1.420771,
+  "exportDir":"",
   "name":"mus_st_troubledingle",
   "parent":{
     "name":"Sound Test",

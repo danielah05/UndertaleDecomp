@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_bookspin",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.2727438,
+  "exportDir":"",
   "name":"mus_sfx_bookspin",
   "parent":{
     "name":"Hit",

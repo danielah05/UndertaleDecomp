@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_dialup_5",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.4701134,
+  "exportDir":"",
   "name":"mus_dialup_5",
   "parent":{
     "name":"Memoryhead",

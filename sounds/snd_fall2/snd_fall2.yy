@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_fall2",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":1,
   "conversionMode":0,
   "duration":0.87800455,
+  "exportDir":"",
   "name":"snd_fall2",
   "parent":{
     "name":"Common",

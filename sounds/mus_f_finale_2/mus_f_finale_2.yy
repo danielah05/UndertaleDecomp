@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_finale_2",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":41.707394,
+  "exportDir":"",
   "name":"mus_f_finale_2",
   "parent":{
     "name":"Flowey Boss",

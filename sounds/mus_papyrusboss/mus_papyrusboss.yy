@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_papyrusboss",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":57.665306,
+  "exportDir":"",
   "name":"mus_papyrusboss",
   "parent":{
     "name":"Battle",

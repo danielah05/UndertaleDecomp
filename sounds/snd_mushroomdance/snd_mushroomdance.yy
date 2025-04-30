@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_mushroomdance",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":1.5804082,
+  "exportDir":"",
   "name":"snd_mushroomdance",
   "parent":{
     "name":"Waterfall",

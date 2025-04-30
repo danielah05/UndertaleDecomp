@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_txtund_hyper",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.06530612,
+  "exportDir":"",
   "name":"snd_txtund_hyper",
   "parent":{
     "name":"Text",

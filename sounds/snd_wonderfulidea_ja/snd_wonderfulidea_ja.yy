@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_wonderfulidea_ja",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":2.7857144,
+  "exportDir":"",
   "name":"snd_wonderfulidea_ja",
   "parent":{
     "name":"Flowey",

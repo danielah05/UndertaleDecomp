@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_heavydamage",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":1,
   "conversionMode":0,
   "duration":1.7226304,
+  "exportDir":"",
   "name":"snd_heavydamage",
   "parent":{
     "name":"Photoshop Flowey",

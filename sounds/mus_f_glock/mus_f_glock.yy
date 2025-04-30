@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_glock",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":3.1564627,
+  "exportDir":"",
   "name":"mus_f_glock",
   "parent":{
     "name":"Photoshop Flowey",

@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_yourbestfriend_3",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":29.091702,
+  "exportDir":"",
   "name":"mus_yourbestfriend_3",
   "parent":{
     "name":"Common",

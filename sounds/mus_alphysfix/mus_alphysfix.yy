@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_alphysfix",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":3.641179,
+  "exportDir":"",
   "name":"mus_alphysfix",
   "parent":{
     "name":"Hotland",

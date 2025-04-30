@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_rimshot",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":1.673288,
+  "exportDir":"",
   "name":"mus_rimshot",
   "parent":{
     "name":"Snowdin",

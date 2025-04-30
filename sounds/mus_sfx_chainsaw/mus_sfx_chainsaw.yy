@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_chainsaw",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":3.4496145,
+  "exportDir":"",
   "name":"mus_sfx_chainsaw",
   "parent":{
     "name":"Hotland",

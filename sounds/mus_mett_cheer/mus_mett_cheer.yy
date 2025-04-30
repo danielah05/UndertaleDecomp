@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_mett_cheer",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":3.681814,
+  "exportDir":"",
   "name":"mus_mett_cheer",
   "parent":{
     "name":"Hotland",

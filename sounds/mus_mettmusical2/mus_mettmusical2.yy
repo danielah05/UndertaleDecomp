@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_mettmusical2",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":18.004173,
+  "exportDir":"",
   "name":"mus_mettmusical2",
   "parent":{
     "name":"Hotland",

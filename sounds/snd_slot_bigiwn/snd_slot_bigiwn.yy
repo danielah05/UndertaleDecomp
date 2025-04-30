@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_slot_bigiwn",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":4.8731065,
+  "exportDir":"",
   "name":"snd_slot_bigiwn",
   "parent":{
     "name":"Dog Shrine",

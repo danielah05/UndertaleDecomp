@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_a_grab",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":0.869297,
+  "exportDir":"",
   "name":"mus_sfx_a_grab",
   "parent":{
     "name":"Asriel",

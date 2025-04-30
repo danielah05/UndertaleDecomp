@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_newlaugh",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":2.7936509,
+  "exportDir":"",
   "name":"mus_f_newlaugh",
   "parent":{
     "name":"Photoshop Flowey",

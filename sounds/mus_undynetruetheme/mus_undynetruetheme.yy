@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_undynetruetheme",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":80.64,
+  "exportDir":"",
   "name":"mus_undynetruetheme",
   "parent":{
     "name":"Waterfall",

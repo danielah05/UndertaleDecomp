@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_zz_megalovania",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":156.01053,
+  "exportDir":"",
   "name":"mus_zz_megalovania",
   "parent":{
     "name":"Battle",

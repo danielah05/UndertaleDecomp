@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_drumsnare",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.43392292,
+  "exportDir":"",
   "name":"mus_drumsnare",
   "parent":{
     "name":"Control Test",

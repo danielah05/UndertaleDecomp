@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_spoopy_wave",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":23.623402,
+  "exportDir":"",
   "name":"mus_spoopy_wave",
   "parent":{
     "name":"Waterfall",

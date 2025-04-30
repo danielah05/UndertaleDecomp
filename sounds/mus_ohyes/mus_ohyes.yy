@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_ohyes",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":4.273923,
+  "exportDir":"",
   "name":"mus_ohyes",
   "parent":{
     "name":"Mettaton",

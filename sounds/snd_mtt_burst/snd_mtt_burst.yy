@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_mtt_burst",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.8759184,
+  "exportDir":"",
   "name":"snd_mtt_burst",
   "parent":{
     "name":"Mettaton",

@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_6s_5",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":30.306395,
+  "exportDir":"",
   "name":"mus_f_6s_5",
   "parent":{
     "name":"Flowey Boss",

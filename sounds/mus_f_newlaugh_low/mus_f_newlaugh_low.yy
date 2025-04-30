@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_newlaugh_low",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":6.3811336,
+  "exportDir":"",
   "name":"mus_f_newlaugh_low",
   "parent":{
     "name":"Unused",

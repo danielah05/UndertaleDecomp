@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_x_undyne_pre",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":13.714286,
+  "exportDir":"",
   "name":"mus_x_undyne_pre",
   "parent":{
     "name":"Battle",

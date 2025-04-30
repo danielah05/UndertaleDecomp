@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_myemeow",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":0.70385486,
+  "exportDir":"",
   "name":"mus_myemeow",
   "parent":{
     "name":"Bratty and Catty",

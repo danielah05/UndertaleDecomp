@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_grandpatemi",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":5.0526304,
+  "exportDir":"",
   "name":"snd_grandpatemi",
   "parent":{
     "name":"Temmie",
