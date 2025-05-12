@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_a_gigatalk",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":2.407619,
+  "exportDir":"",
   "name":"mus_sfx_a_gigatalk",
   "parent":{
     "name":"Asriel",

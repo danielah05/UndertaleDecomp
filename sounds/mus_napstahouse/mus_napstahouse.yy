@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_napstahouse",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":38.787483,
+  "exportDir":"",
   "name":"mus_napstahouse",
   "parent":{
     "name":"Waterfall",

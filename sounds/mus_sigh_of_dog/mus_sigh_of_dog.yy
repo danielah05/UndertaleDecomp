@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sigh_of_dog",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":29.692516,
+  "exportDir":"",
   "name":"mus_sigh_of_dog",
   "parent":{
     "name":"Common",

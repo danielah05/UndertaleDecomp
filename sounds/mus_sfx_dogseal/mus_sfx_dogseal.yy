@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_dogseal",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":5.93415,
+  "exportDir":"",
   "name":"mus_sfx_dogseal",
   "parent":{
     "name":"Snowdin",

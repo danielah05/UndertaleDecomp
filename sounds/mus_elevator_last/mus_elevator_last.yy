@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_elevator_last",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":18.870567,
+  "exportDir":"",
   "name":"mus_elevator_last",
   "parent":{
     "name":"Core",

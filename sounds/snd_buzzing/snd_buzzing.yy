@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_buzzing",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":1,
   "conversionMode":0,
   "duration":3.4307482,
+  "exportDir":"",
   "name":"snd_buzzing",
   "parent":{
     "name":"Photoshop Flowey",

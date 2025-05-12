@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_zzz_c2",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":4.022857,
+  "exportDir":"",
   "name":"mus_zzz_c2",
   "parent":{
     "name":"Ending",

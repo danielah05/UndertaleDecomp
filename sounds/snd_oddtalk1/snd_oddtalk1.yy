@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_oddtalk1",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.168254,
+  "exportDir":"",
   "name":"snd_oddtalk1",
   "parent":{
     "name":"Glow Fly",

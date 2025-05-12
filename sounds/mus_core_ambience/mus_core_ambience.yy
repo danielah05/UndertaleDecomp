@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_core_ambience",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":5.08517,
+  "exportDir":"",
   "name":"mus_core_ambience",
   "parent":{
     "name":"Core",

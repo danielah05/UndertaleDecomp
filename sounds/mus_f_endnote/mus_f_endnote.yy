@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_endnote",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":5.0604987,
+  "exportDir":"",
   "name":"mus_f_endnote",
   "parent":{
     "name":"Flowey Boss",

@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_kingdescription",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":64.008705,
+  "exportDir":"",
   "name":"mus_kingdescription",
   "parent":{
     "name":"Unused",

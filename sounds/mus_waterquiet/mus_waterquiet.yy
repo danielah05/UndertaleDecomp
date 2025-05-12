@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_waterquiet",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":26.710203,
+  "exportDir":"",
   "name":"mus_waterquiet",
   "parent":{
     "name":"Waterfall",

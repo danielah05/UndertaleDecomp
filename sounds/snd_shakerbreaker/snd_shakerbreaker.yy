@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_shakerbreaker",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.7415873,
+  "exportDir":"",
   "name":"snd_shakerbreaker",
   "parent":{
     "name":"Common",

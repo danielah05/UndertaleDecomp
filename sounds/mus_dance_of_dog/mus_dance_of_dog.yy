@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_dance_of_dog",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":13.736054,
+  "exportDir":"",
   "name":"mus_dance_of_dog",
   "parent":{
     "name":"Common",

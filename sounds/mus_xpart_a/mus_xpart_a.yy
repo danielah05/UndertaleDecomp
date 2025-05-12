@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_xpart_a",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":69.33188,
+  "exportDir":"",
   "name":"mus_xpart_a",
   "parent":{
     "name":"Battle",

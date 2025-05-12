@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_birdnoise",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":26.028118,
+  "exportDir":"",
   "name":"mus_birdnoise",
   "parent":{
     "name":"Castle",

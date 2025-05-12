@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_curtgunshot",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":0.145125,
+  "exportDir":"",
   "name":"snd_curtgunshot",
   "parent":{
     "name":"Unused",

@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_bergentruckung",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":17.160997,
+  "exportDir":"",
   "name":"mus_bergentruckung",
   "parent":{
     "name":"Battle",

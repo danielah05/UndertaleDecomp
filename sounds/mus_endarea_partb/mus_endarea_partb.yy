@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_endarea_partb",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":180.00253,
+  "exportDir":"",
   "name":"mus_endarea_partb",
   "parent":{
     "name":"Castle",

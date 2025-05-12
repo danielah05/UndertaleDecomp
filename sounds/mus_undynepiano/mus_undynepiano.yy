@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_undynepiano",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":8.581224,
+  "exportDir":"",
   "name":"mus_undynepiano",
   "parent":{
     "name":"Waterfall",

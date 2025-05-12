@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"abc_123_a",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":6.060408,
+  "exportDir":"",
   "name":"abc_123_a",
   "parent":{
     "name":"Sounds",

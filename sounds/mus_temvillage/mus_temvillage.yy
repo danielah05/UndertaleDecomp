@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_temvillage",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":57.14576,
+  "exportDir":"",
   "name":"mus_temvillage",
   "parent":{
     "name":"Waterfall",

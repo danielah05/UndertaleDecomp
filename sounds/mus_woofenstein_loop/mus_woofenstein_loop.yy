@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_woofenstein_loop",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":13.718639,
+  "exportDir":"",
   "name":"mus_woofenstein_loop",
   "parent":{
     "name":"Battle",

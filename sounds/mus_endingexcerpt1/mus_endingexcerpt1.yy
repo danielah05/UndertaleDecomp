@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_endingexcerpt1",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":28.808706,
+  "exportDir":"",
   "name":"mus_endingexcerpt1",
   "parent":{
     "name":"Battle",

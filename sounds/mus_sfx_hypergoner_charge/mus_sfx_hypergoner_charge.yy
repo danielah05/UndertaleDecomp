@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_hypergoner_charge",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":12.940771,
+  "exportDir":"",
   "name":"mus_sfx_hypergoner_charge",
   "parent":{
     "name":"Asriel",

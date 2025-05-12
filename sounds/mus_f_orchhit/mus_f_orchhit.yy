@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_orchhit",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.2814512,
+  "exportDir":"",
   "name":"mus_f_orchhit",
   "parent":{
     "name":"Photoshop Flowey",

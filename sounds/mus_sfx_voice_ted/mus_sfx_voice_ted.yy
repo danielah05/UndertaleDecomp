@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_sfx_voice_ted",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.7822222,
+  "exportDir":"",
   "name":"mus_sfx_voice_ted",
   "parent":{
     "name":"Unused",

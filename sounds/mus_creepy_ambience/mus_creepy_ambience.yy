@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_creepy_ambience",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":20.591745,
+  "exportDir":"",
   "name":"mus_creepy_ambience",
   "parent":{
     "name":"Snowdin",

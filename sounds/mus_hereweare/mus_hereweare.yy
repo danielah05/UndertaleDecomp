@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_hereweare",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":124.95964,
+  "exportDir":"",
   "name":"mus_hereweare",
   "parent":{
     "name":"True Lab",

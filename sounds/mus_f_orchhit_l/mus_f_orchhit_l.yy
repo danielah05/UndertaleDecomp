@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_f_orchhit_l",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":1.2654876,
+  "exportDir":"",
   "name":"mus_f_orchhit_l",
   "parent":{
     "name":"Unused",

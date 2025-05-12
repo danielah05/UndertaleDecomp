@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_papyrus",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":32.01306,
+  "exportDir":"",
   "name":"mus_papyrus",
   "parent":{
     "name":"Snowdin",

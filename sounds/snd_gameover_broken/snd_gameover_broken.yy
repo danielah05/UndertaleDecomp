@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_gameover_broken",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.085328795,
+  "exportDir":"",
   "name":"snd_gameover_broken",
   "parent":{
     "name":"Photoshop Flowey",

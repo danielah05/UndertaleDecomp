@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_mett_applause",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":6.488526,
+  "exportDir":"",
   "name":"mus_mett_applause",
   "parent":{
     "name":"Hotland",

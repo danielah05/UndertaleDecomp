@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_mettatonbattle",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":62.085804,
+  "exportDir":"",
   "name":"mus_mettatonbattle",
   "parent":{
     "name":"Battle",

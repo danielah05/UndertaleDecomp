@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_snoresymphony",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":35.542496,
+  "exportDir":"",
   "name":"mus_snoresymphony",
   "parent":{
     "name":"Snowdin",

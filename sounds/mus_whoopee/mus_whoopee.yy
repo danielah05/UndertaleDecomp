@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_whoopee",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":5.548118,
+  "exportDir":"",
   "name":"mus_whoopee",
   "parent":{
     "name":"Snowdin",

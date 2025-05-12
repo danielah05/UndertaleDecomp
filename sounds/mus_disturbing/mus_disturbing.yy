@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_disturbing",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":16.803991,
+  "exportDir":"",
   "name":"mus_disturbing",
   "parent":{
     "name":"True Lab",

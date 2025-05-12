@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"snd_elecdoor_shut",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":0.59244895,
+  "exportDir":"",
   "name":"snd_elecdoor_shut",
   "parent":{
     "name":"Common",

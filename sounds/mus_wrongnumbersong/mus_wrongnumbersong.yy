@@ -1,5 +1,5 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v1",
   "%Name":"mus_wrongnumbersong",
   "audioGroupId":{
     "name":"audiogroup_default",
@@ -10,6 +10,7 @@
   "compression":3,
   "conversionMode":0,
   "duration":5.556825,
+  "exportDir":"",
   "name":"mus_wrongnumbersong",
   "parent":{
     "name":"Snowdin",
