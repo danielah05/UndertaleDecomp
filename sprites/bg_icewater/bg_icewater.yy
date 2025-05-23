@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_icewater",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ebca5e16-6ecd-4152-a42d-6cce902f218a","name":"ebca5e16-6ecd-4152-a42d-6cce902f218a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ebca5e16-6ecd-4152-a42d-6cce902f218a","name":"ebca5e16-6ecd-4152-a42d-6cce902f218a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"button_xbox_left_stick",
   "bboxMode":0,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3a58062c-f81c-4376-804e-c9bd9205dda5","name":"3a58062c-f81c-4376-804e-c9bd9205dda5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3a58062c-f81c-4376-804e-c9bd9205dda5","name":"3a58062c-f81c-4376-804e-c9bd9205dda5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

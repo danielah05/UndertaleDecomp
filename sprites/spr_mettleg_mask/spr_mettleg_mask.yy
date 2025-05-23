@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettleg_mask",
   "bboxMode":2,
   "bbox_bottom":16,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd29a00b-eac3-4421-934b-833aff1e082c","name":"cd29a00b-eac3-4421-934b-833aff1e082c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd29a00b-eac3-4421-934b-833aff1e082c","name":"cd29a00b-eac3-4421-934b-833aff1e082c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

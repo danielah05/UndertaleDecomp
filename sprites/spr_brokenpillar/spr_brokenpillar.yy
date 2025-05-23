@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_brokenpillar",
   "bboxMode":2,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7ad03f6f-b6a8-4967-b37c-050cfaa7c7ae","name":"7ad03f6f-b6a8-4967-b37c-050cfaa7c7ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7ad03f6f-b6a8-4967-b37c-050cfaa7c7ae","name":"7ad03f6f-b6a8-4967-b37c-050cfaa7c7ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

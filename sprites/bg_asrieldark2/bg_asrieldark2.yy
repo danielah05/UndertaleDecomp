@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_asrieldark2",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d0429472-dd6c-4fcd-b9e9-d5498ba98f63","name":"d0429472-dd6c-4fcd-b9e9-d5498ba98f63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d0429472-dd6c-4fcd-b9e9-d5498ba98f63","name":"d0429472-dd6c-4fcd-b9e9-d5498ba98f63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

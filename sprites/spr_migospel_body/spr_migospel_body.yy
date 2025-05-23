@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_migospel_body",
   "bboxMode":0,
   "bbox_bottom":49,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"23f147c9-cbb9-4b4f-99a5-954a62bf5b90","name":"23f147c9-cbb9-4b4f-99a5-954a62bf5b90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"23f147c9-cbb9-4b4f-99a5-954a62bf5b90","name":"23f147c9-cbb9-4b4f-99a5-954a62bf5b90","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

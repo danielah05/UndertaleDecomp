@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_pieslice",
   "bboxMode":2,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"59c72db2-9a3b-43fa-a585-5dc220052f3a","name":"59c72db2-9a3b-43fa-a585-5dc220052f3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59c72db2-9a3b-43fa-a585-5dc220052f3a","name":"59c72db2-9a3b-43fa-a585-5dc220052f3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

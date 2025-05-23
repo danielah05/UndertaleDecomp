@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ficus_lobby",
   "bboxMode":2,
   "bbox_bottom":51,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"41626e21-b657-4952-84d0-e1972a82522c","name":"41626e21-b657-4952-84d0-e1972a82522c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"41626e21-b657-4952-84d0-e1972a82522c","name":"41626e21-b657-4952-84d0-e1972a82522c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

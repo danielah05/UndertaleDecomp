@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgore_kneeldeath",
   "bboxMode":0,
   "bbox_bottom":195,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"350e7d5e-d1d5-4019-a928-6cd5cbbe4f52","name":"350e7d5e-d1d5-4019-a928-6cd5cbbe4f52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"350e7d5e-d1d5-4019-a928-6cd5cbbe4f52","name":"350e7d5e-d1d5-4019-a928-6cd5cbbe4f52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_telescope",
   "bboxMode":2,
   "bbox_bottom":34,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9db56c3c-250b-4e96-a533-3e82634e7c65","name":"9db56c3c-250b-4e96-a533-3e82634e7c65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9db56c3c-250b-4e96-a533-3e82634e7c65","name":"9db56c3c-250b-4e96-a533-3e82634e7c65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

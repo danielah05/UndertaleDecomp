@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_border_water2_544",
   "bboxMode":0,
   "bbox_bottom":543,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0ed8b74f-bb97-447c-b9d3-607e880c4340","name":"0ed8b74f-bb97-447c-b9d3-607e880c4340","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ed8b74f-bb97-447c-b9d3-607e880c4340","name":"0ed8b74f-bb97-447c-b9d3-607e880c4340","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_looxhurt",
   "bboxMode":0,
   "bbox_bottom":117,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dbcf27f6-f15a-4af1-999b-42b430ec3051","name":"dbcf27f6-f15a-4af1-999b-42b430ec3051","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dbcf27f6-f15a-4af1-999b-42b430ec3051","name":"dbcf27f6-f15a-4af1-999b-42b430ec3051","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_lefteye_pupil",
   "bboxMode":0,
   "bbox_bottom":19,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c6b5beb8-8840-4c7b-9edb-82d86572f09e","name":"c6b5beb8-8840-4c7b-9edb-82d86572f09e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c6b5beb8-8840-4c7b-9edb-82d86572f09e","name":"c6b5beb8-8840-4c7b-9edb-82d86572f09e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

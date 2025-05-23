@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_heart_battle_pl",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c5f450ac-1810-47d7-bd8d-ca0bcdeb0720","name":"c5f450ac-1810-47d7-bd8d-ca0bcdeb0720","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1f4fb4c7-a828-4cb7-afba-98d5c0d3ba60","name":"1f4fb4c7-a828-4cb7-afba-98d5c0d3ba60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c5f450ac-1810-47d7-bd8d-ca0bcdeb0720","name":"c5f450ac-1810-47d7-bd8d-ca0bcdeb0720","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1f4fb4c7-a828-4cb7-afba-98d5c0d3ba60","name":"1f4fb4c7-a828-4cb7-afba-98d5c0d3ba60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgoreb_armor",
   "bboxMode":0,
   "bbox_bottom":54,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e7a5c24-a7b1-461a-8baf-a343623679ba","name":"6e7a5c24-a7b1-461a-8baf-a343623679ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e7a5c24-a7b1-461a-8baf-a343623679ba","name":"6e7a5c24-a7b1-461a-8baf-a343623679ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

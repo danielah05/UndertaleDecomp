@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hg_leftovers",
   "bboxMode":0,
   "bbox_bottom":158,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e160c9e8-bbc7-4971-905f-4b78a92b02ea","name":"e160c9e8-bbc7-4971-905f-4b78a92b02ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e160c9e8-bbc7-4971-905f-4b78a92b02ea","name":"e160c9e8-bbc7-4971-905f-4b78a92b02ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

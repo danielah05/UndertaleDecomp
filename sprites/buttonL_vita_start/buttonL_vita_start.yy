@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"buttonL_vita_start",
   "bboxMode":0,
   "bbox_bottom":10,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c007ab5b-c8c4-49a8-a288-aec99677b3e3","name":"c007ab5b-c8c4-49a8-a288-aec99677b3e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c007ab5b-c8c4-49a8-a288-aec99677b3e3","name":"c007ab5b-c8c4-49a8-a288-aec99677b3e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_knighthammer",
   "bboxMode":2,
   "bbox_bottom":192,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bfeef2e0-4878-4b62-b696-f5c07c0edad2","name":"bfeef2e0-4878-4b62-b696-f5c07c0edad2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fdba4a8f-9ef6-45ed-9278-c23dc6f64c22","name":"fdba4a8f-9ef6-45ed-9278-c23dc6f64c22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bfeef2e0-4878-4b62-b696-f5c07c0edad2","name":"bfeef2e0-4878-4b62-b696-f5c07c0edad2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fdba4a8f-9ef6-45ed-9278-c23dc6f64c22","name":"fdba4a8f-9ef6-45ed-9278-c23dc6f64c22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

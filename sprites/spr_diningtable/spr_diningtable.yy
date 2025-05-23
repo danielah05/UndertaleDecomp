@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_diningtable",
   "bboxMode":2,
   "bbox_bottom":50,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"586eac75-b814-4b5a-ad84-b14eb5838358","name":"586eac75-b814-4b5a-ad84-b14eb5838358","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"586eac75-b814-4b5a-ad84-b14eb5838358","name":"586eac75-b814-4b5a-ad84-b14eb5838358","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

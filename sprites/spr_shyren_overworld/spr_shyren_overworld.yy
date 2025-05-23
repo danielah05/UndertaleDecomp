@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_shyren_overworld",
   "bboxMode":2,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0e7a6afe-c998-43d0-b1e3-8d8ff4738fd9","name":"0e7a6afe-c998-43d0-b1e3-8d8ff4738fd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"68a3e5c3-137a-43a9-afb9-bb0282720bfc","name":"68a3e5c3-137a-43a9-afb9-bb0282720bfc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e7a6afe-c998-43d0-b1e3-8d8ff4738fd9","name":"0e7a6afe-c998-43d0-b1e3-8d8ff4738fd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"68a3e5c3-137a-43a9-afb9-bb0282720bfc","name":"68a3e5c3-137a-43a9-afb9-bb0282720bfc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

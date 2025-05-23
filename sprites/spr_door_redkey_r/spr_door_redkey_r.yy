@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_door_redkey_r",
   "bboxMode":0,
   "bbox_bottom":36,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3f55287c-e86e-4b61-a352-6753b15f254d","name":"3f55287c-e86e-4b61-a352-6753b15f254d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f55287c-e86e-4b61-a352-6753b15f254d","name":"3f55287c-e86e-4b61-a352-6753b15f254d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

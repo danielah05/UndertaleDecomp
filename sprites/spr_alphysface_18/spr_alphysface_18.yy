@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_alphysface_18",
   "bboxMode":0,
   "bbox_bottom":41,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f85175f5-64ac-4ecd-9372-d8b5fb5d72a9","name":"f85175f5-64ac-4ecd-9372-d8b5fb5d72a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f85175f5-64ac-4ecd-9372-d8b5fb5d72a9","name":"f85175f5-64ac-4ecd-9372-d8b5fb5d72a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

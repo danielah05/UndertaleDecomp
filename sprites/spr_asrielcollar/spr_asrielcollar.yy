@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asrielcollar",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"80cb3b54-85fa-4794-b76c-6d3626bbbc3a","name":"80cb3b54-85fa-4794-b76c-6d3626bbbc3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"80cb3b54-85fa-4794-b76c-6d3626bbbc3a","name":"80cb3b54-85fa-4794-b76c-6d3626bbbc3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

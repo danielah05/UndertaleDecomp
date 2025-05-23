@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_videogame_bomb",
   "bboxMode":2,
   "bbox_bottom":200,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e7d8f03-924a-45e9-80e8-7823f11679c4","name":"1e7d8f03-924a-45e9-80e8-7823f11679c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"402efd25-7c91-4aa4-9e47-ba351637982a","name":"402efd25-7c91-4aa4-9e47-ba351637982a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e7d8f03-924a-45e9-80e8-7823f11679c4","name":"1e7d8f03-924a-45e9-80e8-7823f11679c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"402efd25-7c91-4aa4-9e47-ba351637982a","name":"402efd25-7c91-4aa4-9e47-ba351637982a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

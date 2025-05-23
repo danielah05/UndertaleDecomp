@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_carrotbullet",
   "bboxMode":2,
   "bbox_bottom":22,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7c9e2a93-ed7b-48e7-a116-556d75bbd7f7","name":"7c9e2a93-ed7b-48e7-a116-556d75bbd7f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c9e2a93-ed7b-48e7-a116-556d75bbd7f7","name":"7c9e2a93-ed7b-48e7-a116-556d75bbd7f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

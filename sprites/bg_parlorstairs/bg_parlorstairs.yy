@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_parlorstairs",
   "bboxMode":0,
   "bbox_bottom":151,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6cfea5a0-a25d-47c4-b2f8-8e6366128915","name":"6cfea5a0-a25d-47c4-b2f8-8e6366128915","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6cfea5a0-a25d-47c4-b2f8-8e6366128915","name":"6cfea5a0-a25d-47c4-b2f8-8e6366128915","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

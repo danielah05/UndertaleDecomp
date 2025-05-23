@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mkid_rtfall",
   "bboxMode":2,
   "bbox_bottom":28,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"357bd632-f454-4a36-90df-10589d788945","name":"357bd632-f454-4a36-90df-10589d788945","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"18d3d595-9a1a-49b7-9604-4245d94b9ce5","name":"18d3d595-9a1a-49b7-9604-4245d94b9ce5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"357bd632-f454-4a36-90df-10589d788945","name":"357bd632-f454-4a36-90df-10589d788945","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"18d3d595-9a1a-49b7-9604-4245d94b9ce5","name":"18d3d595-9a1a-49b7-9604-4245d94b9ce5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hotland_rededge",
   "bboxMode":0,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e0db88c8-bc6c-451e-82c6-d99ba2a980b3","name":"e0db88c8-bc6c-451e-82c6-d99ba2a980b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0db88c8-bc6c-451e-82c6-d99ba2a980b3","name":"e0db88c8-bc6c-451e-82c6-d99ba2a980b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hg_debris",
   "bboxMode":0,
   "bbox_bottom":102,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3e6e91d2-f30f-42d9-950e-b4ffe465a1ea","name":"3e6e91d2-f30f-42d9-950e-b4ffe465a1ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3e6e91d2-f30f-42d9-950e-b4ffe465a1ea","name":"3e6e91d2-f30f-42d9-950e-b4ffe465a1ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

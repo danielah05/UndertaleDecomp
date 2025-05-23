@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_hotlandrock",
   "bboxMode":0,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c5c7c132-6ba4-493d-b8bc-5cedf7cb458b","name":"c5c7c132-6ba4-493d-b8bc-5cedf7cb458b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c5c7c132-6ba4-493d-b8bc-5cedf7cb458b","name":"c5c7c132-6ba4-493d-b8bc-5cedf7cb458b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

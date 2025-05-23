@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettlegbullet_l",
   "bboxMode":2,
   "bbox_bottom":16,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d7fac3d8-5597-4663-934d-0ec606660084","name":"d7fac3d8-5597-4663-934d-0ec606660084","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d7fac3d8-5597-4663-934d-0ec606660084","name":"d7fac3d8-5597-4663-934d-0ec606660084","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

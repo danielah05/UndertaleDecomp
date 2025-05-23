@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undertaletitle",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ca68f8f0-2b93-48a1-b97d-dd3163e9df22","name":"ca68f8f0-2b93-48a1-b97d-dd3163e9df22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ca68f8f0-2b93-48a1-b97d-dd3163e9df22","name":"ca68f8f0-2b93-48a1-b97d-dd3163e9df22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

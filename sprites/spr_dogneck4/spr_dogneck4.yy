@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_dogneck4",
   "bboxMode":2,
   "bbox_bottom":18,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4f047a10-96b4-40bc-be72-b8a057a1f7f6","name":"4f047a10-96b4-40bc-be72-b8a057a1f7f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f047a10-96b4-40bc-be72-b8a057a1f7f6","name":"4f047a10-96b4-40bc-be72-b8a057a1f7f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_skymoon",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ffcf427b-5d21-4164-90e1-0d6c6f0f77ff","name":"ffcf427b-5d21-4164-90e1-0d6c6f0f77ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ffcf427b-5d21-4164-90e1-0d6c6f0f77ff","name":"ffcf427b-5d21-4164-90e1-0d6c6f0f77ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

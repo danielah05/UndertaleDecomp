@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_face_torielrevenge",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"97d3c32b-028f-4d83-806b-78ef73c2dbee","name":"97d3c32b-028f-4d83-806b-78ef73c2dbee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"97d3c32b-028f-4d83-806b-78ef73c2dbee","name":"97d3c32b-028f-4d83-806b-78ef73c2dbee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

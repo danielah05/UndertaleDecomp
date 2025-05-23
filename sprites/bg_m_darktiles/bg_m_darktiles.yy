@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_m_darktiles",
   "bboxMode":0,
   "bbox_bottom":259,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1f622c48-de5d-4c5d-bff5-1a1ece7db9ad","name":"1f622c48-de5d-4c5d-bff5-1a1ece7db9ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1f622c48-de5d-4c5d-bff5-1a1ece7db9ad","name":"1f622c48-de5d-4c5d-bff5-1a1ece7db9ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

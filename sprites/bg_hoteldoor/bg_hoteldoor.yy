@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_hoteldoor",
   "bboxMode":0,
   "bbox_bottom":48,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f745b45d-ccf9-4f56-bd0c-8d780f699f05","name":"f745b45d-ccf9-4f56-bd0c-8d780f699f05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f745b45d-ccf9-4f56-bd0c-8d780f699f05","name":"f745b45d-ccf9-4f56-bd0c-8d780f699f05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

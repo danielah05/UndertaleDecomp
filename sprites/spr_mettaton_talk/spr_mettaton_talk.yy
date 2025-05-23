@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettaton_talk",
   "bboxMode":2,
   "bbox_bottom":49,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"74467129-73e5-4297-8236-998200791458","name":"74467129-73e5-4297-8236-998200791458","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fea6491f-142c-4646-91c4-3516267898b2","name":"fea6491f-142c-4646-91c4-3516267898b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"74467129-73e5-4297-8236-998200791458","name":"74467129-73e5-4297-8236-998200791458","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fea6491f-142c-4646-91c4-3516267898b2","name":"fea6491f-142c-4646-91c4-3516267898b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

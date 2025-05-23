@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_bitem_ja_smalldot",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b3e1fec3-f31c-486e-9fc6-29a4fc4f3e68","name":"b3e1fec3-f31c-486e-9fc6-29a4fc4f3e68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3e1fec3-f31c-486e-9fc6-29a4fc4f3e68","name":"b3e1fec3-f31c-486e-9fc6-29a4fc4f3e68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

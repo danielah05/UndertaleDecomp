@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_leftchair",
   "bboxMode":2,
   "bbox_bottom":24,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"49fac98e-3e3f-40d5-9e5a-38c104298fb3","name":"49fac98e-3e3f-40d5-9e5a-38c104298fb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"49fac98e-3e3f-40d5-9e5a-38c104298fb3","name":"49fac98e-3e3f-40d5-9e5a-38c104298fb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

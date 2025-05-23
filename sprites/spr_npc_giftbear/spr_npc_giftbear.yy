@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_giftbear",
   "bboxMode":2,
   "bbox_bottom":41,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3e2bfedc-0e43-4c9a-8e9a-fd1493bc2b39","name":"3e2bfedc-0e43-4c9a-8e9a-fd1493bc2b39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"10715cb4-fbeb-4a04-9db0-c49b40a02a06","name":"10715cb4-fbeb-4a04-9db0-c49b40a02a06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3e2bfedc-0e43-4c9a-8e9a-fd1493bc2b39","name":"3e2bfedc-0e43-4c9a-8e9a-fd1493bc2b39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"10715cb4-fbeb-4a04-9db0-c49b40a02a06","name":"10715cb4-fbeb-4a04-9db0-c49b40a02a06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

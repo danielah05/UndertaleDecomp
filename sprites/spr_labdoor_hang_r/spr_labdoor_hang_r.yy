@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_labdoor_hang_r",
   "bboxMode":2,
   "bbox_bottom":70,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7576a342-1a07-4df3-8ce6-6980e1248b04","name":"7576a342-1a07-4df3-8ce6-6980e1248b04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7576a342-1a07-4df3-8ce6-6980e1248b04","name":"7576a342-1a07-4df3-8ce6-6980e1248b04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

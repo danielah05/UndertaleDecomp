@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hg_horns",
   "bboxMode":0,
   "bbox_bottom":43,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3b9b80e2-9290-4b7d-a0f7-bc93f283efb6","name":"3b9b80e2-9290-4b7d-a0f7-bc93f283efb6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3b9b80e2-9290-4b7d-a0f7-bc93f283efb6","name":"3b9b80e2-9290-4b7d-a0f7-bc93f283efb6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

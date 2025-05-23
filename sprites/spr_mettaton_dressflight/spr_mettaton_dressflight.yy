@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettaton_dressflight",
   "bboxMode":2,
   "bbox_bottom":44,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b1eda866-7a85-4b23-b2b3-0d63acc4020e","name":"b1eda866-7a85-4b23-b2b3-0d63acc4020e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7b642ba1-675b-4278-aed2-62516afea877","name":"7b642ba1-675b-4278-aed2-62516afea877","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b1eda866-7a85-4b23-b2b3-0d63acc4020e","name":"b1eda866-7a85-4b23-b2b3-0d63acc4020e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7b642ba1-675b-4278-aed2-62516afea877","name":"7b642ba1-675b-4278-aed2-62516afea877","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_sign",
   "bboxMode":2,
   "bbox_bottom":19,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bd80d4c3-36cb-409c-8c7b-910658b865bb","name":"bd80d4c3-36cb-409c-8c7b-910658b865bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bd80d4c3-36cb-409c-8c7b-910658b865bb","name":"bd80d4c3-36cb-409c-8c7b-910658b865bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

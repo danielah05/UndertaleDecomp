@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_afinal_cosmoswing",
   "bboxMode":0,
   "bbox_bottom":112,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"05ab915f-814d-41b0-9167-d45996663118","name":"05ab915f-814d-41b0-9167-d45996663118","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05ab915f-814d-41b0-9167-d45996663118","name":"05ab915f-814d-41b0-9167-d45996663118","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

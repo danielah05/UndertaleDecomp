@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mneo_legs",
   "bboxMode":0,
   "bbox_bottom":54,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9dab18ab-a3e2-4120-81f8-e6ae67f33a1b","name":"9dab18ab-a3e2-4120-81f8-e6ae67f33a1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9dab18ab-a3e2-4120-81f8-e6ae67f33a1b","name":"9dab18ab-a3e2-4120-81f8-e6ae67f33a1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

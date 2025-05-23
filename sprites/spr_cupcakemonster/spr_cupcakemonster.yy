@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_cupcakemonster",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"044bf6e4-9b62-4756-8510-6d7d33b27e1f","name":"044bf6e4-9b62-4756-8510-6d7d33b27e1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b3aebcad-275f-40e3-b6a5-730401959176","name":"b3aebcad-275f-40e3-b6a5-730401959176","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"044bf6e4-9b62-4756-8510-6d7d33b27e1f","name":"044bf6e4-9b62-4756-8510-6d7d33b27e1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3aebcad-275f-40e3-b6a5-730401959176","name":"b3aebcad-275f-40e3-b6a5-730401959176","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

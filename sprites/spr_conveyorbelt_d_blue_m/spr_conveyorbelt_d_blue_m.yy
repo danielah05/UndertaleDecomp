@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_conveyorbelt_d_blue_m",
   "bboxMode":0,
   "bbox_bottom":9,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"107c5a58-ba3c-419c-9794-411c7d3dfc52","name":"107c5a58-ba3c-419c-9794-411c7d3dfc52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"107c5a58-ba3c-419c-9794-411c7d3dfc52","name":"107c5a58-ba3c-419c-9794-411c7d3dfc52","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

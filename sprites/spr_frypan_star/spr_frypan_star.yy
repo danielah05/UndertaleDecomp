@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_frypan_star",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1fcfdcf2-11c1-4a7e-8006-76c3ca160a6a","name":"1fcfdcf2-11c1-4a7e-8006-76c3ca160a6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1fcfdcf2-11c1-4a7e-8006-76c3ca160a6a","name":"1fcfdcf2-11c1-4a7e-8006-76c3ca160a6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

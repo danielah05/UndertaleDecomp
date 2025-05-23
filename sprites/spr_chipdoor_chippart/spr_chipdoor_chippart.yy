@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_chipdoor_chippart",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9c97e26d-fbce-4eaa-98ba-6a672140e9b9","name":"9c97e26d-fbce-4eaa-98ba-6a672140e9b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7e7cbdec-25d1-4c3b-9ad6-a8e2b8e2ea6f","name":"7e7cbdec-25d1-4c3b-9ad6-a8e2b8e2ea6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c97e26d-fbce-4eaa-98ba-6a672140e9b9","name":"9c97e26d-fbce-4eaa-98ba-6a672140e9b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7e7cbdec-25d1-4c3b-9ad6-a8e2b8e2ea6f","name":"7e7cbdec-25d1-4c3b-9ad6-a8e2b8e2ea6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_moldessa_hurt",
   "bboxMode":0,
   "bbox_bottom":119,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"95ffe206-641c-40fd-bd6b-fd450a682b2e","name":"95ffe206-641c-40fd-bd6b-fd450a682b2e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8b137ac3-63b5-47e9-a089-6ec9ed955ad8","name":"8b137ac3-63b5-47e9-a089-6ec9ed955ad8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95ffe206-641c-40fd-bd6b-fd450a682b2e","name":"95ffe206-641c-40fd-bd6b-fd450a682b2e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8b137ac3-63b5-47e9-a089-6ec9ed955ad8","name":"8b137ac3-63b5-47e9-a089-6ec9ed955ad8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_scarflady",
   "bboxMode":2,
   "bbox_bottom":40,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"25f15f0c-bc6a-4abc-8824-8afc3d5ffe4a","name":"25f15f0c-bc6a-4abc-8824-8afc3d5ffe4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"36b5217f-4e23-45b3-aaea-3309838f74b6","name":"36b5217f-4e23-45b3-aaea-3309838f74b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25f15f0c-bc6a-4abc-8824-8afc3d5ffe4a","name":"25f15f0c-bc6a-4abc-8824-8afc3d5ffe4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"36b5217f-4e23-45b3-aaea-3309838f74b6","name":"36b5217f-4e23-45b3-aaea-3309838f74b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

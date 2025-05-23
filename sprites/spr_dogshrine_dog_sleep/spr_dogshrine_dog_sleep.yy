@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_dogshrine_dog_sleep",
   "bboxMode":0,
   "bbox_bottom":26,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7c04c89b-5ac9-4224-b0ab-efa56386f591","name":"7c04c89b-5ac9-4224-b0ab-efa56386f591","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ac1b566d-4412-4348-8903-f1ca6d3991ba","name":"ac1b566d-4412-4348-8903-f1ca6d3991ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c04c89b-5ac9-4224-b0ab-efa56386f591","name":"7c04c89b-5ac9-4224-b0ab-efa56386f591","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac1b566d-4412-4348-8903-f1ca6d3991ba","name":"ac1b566d-4412-4348-8903-f1ca6d3991ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

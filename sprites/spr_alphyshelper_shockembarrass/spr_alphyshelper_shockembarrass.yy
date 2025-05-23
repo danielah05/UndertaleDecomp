@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_alphyshelper_shockembarrass",
   "bboxMode":0,
   "bbox_bottom":55,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a1b2c0dd-5a99-4809-9d62-93e062c01a2d","name":"a1b2c0dd-5a99-4809-9d62-93e062c01a2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a1b2c0dd-5a99-4809-9d62-93e062c01a2d","name":"a1b2c0dd-5a99-4809-9d62-93e062c01a2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

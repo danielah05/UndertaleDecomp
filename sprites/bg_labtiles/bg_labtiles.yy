@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_labtiles",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ca19c2f5-1274-49d9-9644-77ec9c2c18e1","name":"ca19c2f5-1274-49d9-9644-77ec9c2c18e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ca19c2f5-1274-49d9-9644-77ec9c2c18e1","name":"ca19c2f5-1274-49d9-9644-77ec9c2c18e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"buttonL_nx_lstick",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8119a45c-a91e-4e02-a7c0-02782c7a0cbb","name":"8119a45c-a91e-4e02-a7c0-02782c7a0cbb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8119a45c-a91e-4e02-a7c0-02782c7a0cbb","name":"8119a45c-a91e-4e02-a7c0-02782c7a0cbb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

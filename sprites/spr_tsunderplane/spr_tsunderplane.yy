@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tsunderplane",
   "bboxMode":0,
   "bbox_bottom":76,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4fb6ac6-6cf4-4992-8fc0-8569712ca120","name":"a4fb6ac6-6cf4-4992-8fc0-8569712ca120","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4fb6ac6-6cf4-4992-8fc0-8569712ca120","name":"a4fb6ac6-6cf4-4992-8fc0-8569712ca120","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

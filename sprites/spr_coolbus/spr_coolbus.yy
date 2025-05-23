@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_coolbus",
   "bboxMode":0,
   "bbox_bottom":58,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"230d705c-29a3-4e3f-98dc-dc62a6e110fc","name":"230d705c-29a3-4e3f-98dc-dc62a6e110fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"230d705c-29a3-4e3f-98dc-dc62a6e110fc","name":"230d705c-29a3-4e3f-98dc-dc62a6e110fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

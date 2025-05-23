@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papyrus_windowjump",
   "bboxMode":2,
   "bbox_bottom":43,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"217a12ca-8a9d-4d6d-8676-cd17e6f75826","name":"217a12ca-8a9d-4d6d-8676-cd17e6f75826","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"217a12ca-8a9d-4d6d-8676-cd17e6f75826","name":"217a12ca-8a9d-4d6d-8676-cd17e6f75826","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

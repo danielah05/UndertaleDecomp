@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":67.98222,
+  "duration":68.00254,
   "exportDir":"",
   "name":"mus_mewmew",
   "parent":{

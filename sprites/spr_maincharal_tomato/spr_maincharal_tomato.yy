@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_maincharal_tomato",
   "bboxMode":2,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ddbc50ac-9d90-4266-ad27-a706ff22a009","name":"ddbc50ac-9d90-4266-ad27-a706ff22a009","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"453a38df-036d-4ef3-82dc-bf796fd4af3a","name":"453a38df-036d-4ef3-82dc-bf796fd4af3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ddbc50ac-9d90-4266-ad27-a706ff22a009","name":"ddbc50ac-9d90-4266-ad27-a706ff22a009","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"453a38df-036d-4ef3-82dc-bf796fd4af3a","name":"453a38df-036d-4ef3-82dc-bf796fd4af3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

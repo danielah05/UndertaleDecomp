@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_whimsalot",
   "bboxMode":0,
   "bbox_bottom":53,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"11de57c4-4c7b-449c-8c82-b2fcdb3fc530","name":"11de57c4-4c7b-449c-8c82-b2fcdb3fc530","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"11de57c4-4c7b-449c-8c82-b2fcdb3fc530","name":"11de57c4-4c7b-449c-8c82-b2fcdb3fc530","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

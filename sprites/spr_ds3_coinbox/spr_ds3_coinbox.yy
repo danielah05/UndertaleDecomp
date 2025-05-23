@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds3_coinbox",
   "bboxMode":0,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7c3408f0-f095-4ed1-b36a-842edd6d3c69","name":"7c3408f0-f095-4ed1-b36a-842edd6d3c69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c3408f0-f095-4ed1-b36a-842edd6d3c69","name":"7c3408f0-f095-4ed1-b36a-842edd6d3c69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

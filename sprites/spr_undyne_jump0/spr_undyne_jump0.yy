@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyne_jump0",
   "bboxMode":2,
   "bbox_bottom":52,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"31866d76-5cf9-4dde-89b6-78bf70efec69","name":"31866d76-5cf9-4dde-89b6-78bf70efec69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31866d76-5cf9-4dde-89b6-78bf70efec69","name":"31866d76-5cf9-4dde-89b6-78bf70efec69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

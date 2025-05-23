@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_candydish2",
   "bboxMode":2,
   "bbox_bottom":26,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2d65226c-c854-49e1-8dc6-7f28b9c04bd6","name":"2d65226c-c854-49e1-8dc6-7f28b9c04bd6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1fd0d15e-567f-44dd-9340-9dcab4da471b","name":"1fd0d15e-567f-44dd-9340-9dcab4da471b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2d65226c-c854-49e1-8dc6-7f28b9c04bd6","name":"2d65226c-c854-49e1-8dc6-7f28b9c04bd6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1fd0d15e-567f-44dd-9340-9dcab4da471b","name":"1fd0d15e-567f-44dd-9340-9dcab4da471b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

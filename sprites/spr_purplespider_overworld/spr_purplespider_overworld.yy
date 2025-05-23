@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_purplespider_overworld",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d3e105fb-46c0-41b6-8493-eaa6f4ee1cfa","name":"d3e105fb-46c0-41b6-8493-eaa6f4ee1cfa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f0cbc954-aa2d-45b1-93d4-72ef5317b769","name":"f0cbc954-aa2d-45b1-93d4-72ef5317b769","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d3e105fb-46c0-41b6-8493-eaa6f4ee1cfa","name":"d3e105fb-46c0-41b6-8493-eaa6f4ee1cfa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0cbc954-aa2d-45b1-93d4-72ef5317b769","name":"f0cbc954-aa2d-45b1-93d4-72ef5317b769","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

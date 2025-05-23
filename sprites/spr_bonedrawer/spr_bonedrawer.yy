@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_bonedrawer",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"845ce1cd-f368-418f-8a8e-35635b8111b5","name":"845ce1cd-f368-418f-8a8e-35635b8111b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cd3873c6-6315-4c5c-8d05-e40d59839bd4","name":"cd3873c6-6315-4c5c-8d05-e40d59839bd4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"845ce1cd-f368-418f-8a8e-35635b8111b5","name":"845ce1cd-f368-418f-8a8e-35635b8111b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd3873c6-6315-4c5c-8d05-e40d59839bd4","name":"cd3873c6-6315-4c5c-8d05-e40d59839bd4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

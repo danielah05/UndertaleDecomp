@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_glyde_hurt",
   "bboxMode":0,
   "bbox_bottom":197,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bda3a342-bdd0-46d7-bdb3-d0ad6fee547f","name":"bda3a342-bdd0-46d7-bdb3-d0ad6fee547f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bda3a342-bdd0-46d7-bdb3-d0ad6fee547f","name":"bda3a342-bdd0-46d7-bdb3-d0ad6fee547f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

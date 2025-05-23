@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_megadoor_r",
   "bboxMode":0,
   "bbox_bottom":36,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a85e7ff6-3e80-4c10-a372-73d6b933d7af","name":"a85e7ff6-3e80-4c10-a372-73d6b933d7af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a85e7ff6-3e80-4c10-a372-73d6b933d7af","name":"a85e7ff6-3e80-4c10-a372-73d6b933d7af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

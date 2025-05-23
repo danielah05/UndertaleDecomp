@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asriel_swordarm_old",
   "bboxMode":0,
   "bbox_bottom":90,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"512bbf1a-e123-4741-bf93-a48069c5ca0c","name":"512bbf1a-e123-4741-bf93-a48069c5ca0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"512bbf1a-e123-4741-bf93-a48069c5ca0c","name":"512bbf1a-e123-4741-bf93-a48069c5ca0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

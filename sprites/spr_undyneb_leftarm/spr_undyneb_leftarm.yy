@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyneb_leftarm",
   "bboxMode":0,
   "bbox_bottom":70,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f0f125dc-813c-48ee-9ca1-c175e0b1d72e","name":"f0f125dc-813c-48ee-9ca1-c175e0b1d72e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0f125dc-813c-48ee-9ca1-c175e0b1d72e","name":"f0f125dc-813c-48ee-9ca1-c175e0b1d72e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

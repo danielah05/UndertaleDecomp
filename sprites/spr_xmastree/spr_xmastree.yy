@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_xmastree",
   "bboxMode":2,
   "bbox_bottom":80,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"159a9fe1-330c-433c-874a-3bb2ff87a00d","name":"159a9fe1-330c-433c-874a-3bb2ff87a00d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"159a9fe1-330c-433c-874a-3bb2ff87a00d","name":"159a9fe1-330c-433c-874a-3bb2ff87a00d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.4368254,
+  "duration":0.43392292,
   "exportDir":"",
   "name":"mus_dooropen",
   "parent":{

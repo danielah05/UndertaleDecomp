@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_shockblock",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c69ec802-407c-434f-b008-3a68f7e2c31f","name":"c69ec802-407c-434f-b008-3a68f7e2c31f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c69ec802-407c-434f-b008-3a68f7e2c31f","name":"c69ec802-407c-434f-b008-3a68f7e2c31f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_alphys_maxdamage",
   "bboxMode":0,
   "bbox_bottom":24,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1ff94e2d-50e6-4cce-b209-b211501ad46d","name":"1ff94e2d-50e6-4cce-b209-b211501ad46d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1ff94e2d-50e6-4cce-b209-b211501ad46d","name":"1ff94e2d-50e6-4cce-b209-b211501ad46d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

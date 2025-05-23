@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_christmasflake",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"696eac29-d15e-48e3-9820-ec9962a3cdbc","name":"696eac29-d15e-48e3-9820-ec9962a3cdbc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"696eac29-d15e-48e3-9820-ec9962a3cdbc","name":"696eac29-d15e-48e3-9820-ec9962a3cdbc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

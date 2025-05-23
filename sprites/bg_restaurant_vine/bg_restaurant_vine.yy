@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_restaurant_vine",
   "bboxMode":0,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"21e9e3d7-e193-4423-b3bb-6439aeaedcce","name":"21e9e3d7-e193-4423-b3bb-6439aeaedcce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"21e9e3d7-e193-4423-b3bb-6439aeaedcce","name":"21e9e3d7-e193-4423-b3bb-6439aeaedcce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

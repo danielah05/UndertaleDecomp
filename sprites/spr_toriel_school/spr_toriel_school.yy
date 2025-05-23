@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_toriel_school",
   "bboxMode":0,
   "bbox_bottom":51,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e4fa98f-9695-4a36-a6ed-0428572e4b82","name":"6e4fa98f-9695-4a36-a6ed-0428572e4b82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e4fa98f-9695-4a36-a6ed-0428572e4b82","name":"6e4fa98f-9695-4a36-a6ed-0428572e4b82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

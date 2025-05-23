@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettanchor_handfold",
   "bboxMode":0,
   "bbox_bottom":38,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e16fae3e-c98c-4808-8b6a-a7a852daa5db","name":"e16fae3e-c98c-4808-8b6a-a7a852daa5db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e16fae3e-c98c-4808-8b6a-a7a852daa5db","name":"e16fae3e-c98c-4808-8b6a-a7a852daa5db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_floweyx_flame_mask",
   "bboxMode":0,
   "bbox_bottom":70,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"83039f5b-abb5-48f6-bb3e-61a6e968a5f5","name":"83039f5b-abb5-48f6-bb3e-61a6e968a5f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83039f5b-abb5-48f6-bb3e-61a6e968a5f5","name":"83039f5b-abb5-48f6-bb3e-61a6e968a5f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

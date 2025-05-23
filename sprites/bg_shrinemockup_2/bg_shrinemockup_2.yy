@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_shrinemockup_2",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1cb7440e-4cd6-420f-b017-fa3ee0f7e05a","name":"1cb7440e-4cd6-420f-b017-fa3ee0f7e05a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1cb7440e-4cd6-420f-b017-fa3ee0f7e05a","name":"1cb7440e-4cd6-420f-b017-fa3ee0f7e05a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

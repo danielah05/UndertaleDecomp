@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_ruinseasynam2",
   "bboxMode":0,
   "bbox_bottom":179,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e59b0eb-5d5e-4176-ba61-a7c449f04f53","name":"6e59b0eb-5d5e-4176-ba61-a7c449f04f53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e59b0eb-5d5e-4176-ba61-a7c449f04f53","name":"6e59b0eb-5d5e-4176-ba61-a7c449f04f53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

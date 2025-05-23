@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papyrus_orbtoss",
   "bboxMode":0,
   "bbox_bottom":42,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"29ce41bc-4942-4a35-af5b-6f396319d2ef","name":"29ce41bc-4942-4a35-af5b-6f396319d2ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"29ce41bc-4942-4a35-af5b-6f396319d2ef","name":"29ce41bc-4942-4a35-af5b-6f396319d2ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

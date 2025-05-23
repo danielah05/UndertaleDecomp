@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_chipdoor_red",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"32fe13d4-a45a-481e-a3a5-b85de4f23b49","name":"32fe13d4-a45a-481e-a3a5-b85de4f23b49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"32fe13d4-a45a-481e-a3a5-b85de4f23b49","name":"32fe13d4-a45a-481e-a3a5-b85de4f23b49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

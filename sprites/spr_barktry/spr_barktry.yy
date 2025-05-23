@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_barktry",
   "bboxMode":0,
   "bbox_bottom":80,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9ce1dbb6-0fe5-4bb3-8e83-f47b6c605bbe","name":"9ce1dbb6-0fe5-4bb3-8e83-f47b6c605bbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9ce1dbb6-0fe5-4bb3-8e83-f47b6c605bbe","name":"9ce1dbb6-0fe5-4bb3-8e83-f47b6c605bbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

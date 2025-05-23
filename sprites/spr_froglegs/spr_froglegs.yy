@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_froglegs",
   "bboxMode":0,
   "bbox_bottom":109,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"47d7f632-6ba0-49ee-8bfe-13a45a7a9ecf","name":"47d7f632-6ba0-49ee-8bfe-13a45a7a9ecf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"62aac593-5bc9-4729-b5a3-0276a5579d68","name":"62aac593-5bc9-4729-b5a3-0276a5579d68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47d7f632-6ba0-49ee-8bfe-13a45a7a9ecf","name":"47d7f632-6ba0-49ee-8bfe-13a45a7a9ecf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62aac593-5bc9-4729-b5a3-0276a5579d68","name":"62aac593-5bc9-4729-b5a3-0276a5579d68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

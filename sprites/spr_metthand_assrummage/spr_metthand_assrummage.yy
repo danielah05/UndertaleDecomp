@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_metthand_assrummage",
   "bboxMode":0,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7d77b352-0c98-4c77-a39a-d02ddd1cca81","name":"7d77b352-0c98-4c77-a39a-d02ddd1cca81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7d77b352-0c98-4c77-a39a-d02ddd1cca81","name":"7d77b352-0c98-4c77-a39a-d02ddd1cca81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

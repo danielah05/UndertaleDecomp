@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asrielarm_r",
   "bboxMode":0,
   "bbox_bottom":48,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7885fd66-a191-4f71-b155-16a4f5fc144b","name":"7885fd66-a191-4f71-b155-16a4f5fc144b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7885fd66-a191-4f71-b155-16a4f5fc144b","name":"7885fd66-a191-4f71-b155-16a4f5fc144b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

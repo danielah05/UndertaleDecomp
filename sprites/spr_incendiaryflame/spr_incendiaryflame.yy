@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_incendiaryflame",
   "bboxMode":2,
   "bbox_bottom":14,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"faaa7a74-b397-4b2d-81a1-ed85ee438145","name":"faaa7a74-b397-4b2d-81a1-ed85ee438145","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"faaa7a74-b397-4b2d-81a1-ed85ee438145","name":"faaa7a74-b397-4b2d-81a1-ed85ee438145","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

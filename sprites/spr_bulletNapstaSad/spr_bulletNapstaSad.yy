@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_bulletNapstaSad",
   "bboxMode":0,
   "bbox_bottom":70,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4a04d522-6fd5-4332-9e1a-6cdd69c6654e","name":"4a04d522-6fd5-4332-9e1a-6cdd69c6654e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a04d522-6fd5-4332-9e1a-6cdd69c6654e","name":"4a04d522-6fd5-4332-9e1a-6cdd69c6654e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_undynehouse_real",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cb1973bf-2b48-49af-9ba4-78a5cf1d0ea9","name":"cb1973bf-2b48-49af-9ba4-78a5cf1d0ea9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb1973bf-2b48-49af-9ba4-78a5cf1d0ea9","name":"cb1973bf-2b48-49af-9ba4-78a5cf1d0ea9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

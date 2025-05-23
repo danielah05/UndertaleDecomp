@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_face_torielup",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"27a799f8-d114-4d3a-a2c9-d121bb3fe331","name":"27a799f8-d114-4d3a-a2c9-d121bb3fe331","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27a799f8-d114-4d3a-a2c9-d121bb3fe331","name":"27a799f8-d114-4d3a-a2c9-d121bb3fe331","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

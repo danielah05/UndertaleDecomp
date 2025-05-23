@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.95782316,
+  "duration":0.9607256,
   "exportDir":"",
   "name":"mus_fearsting",
   "parent":{

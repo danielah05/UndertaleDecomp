@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_firetiles",
   "bboxMode":0,
   "bbox_bottom":399,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7cdc5f99-f439-4f7e-8982-a2b6ad2d4c01","name":"7cdc5f99-f439-4f7e-8982-a2b6ad2d4c01","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7cdc5f99-f439-4f7e-8982-a2b6ad2d4c01","name":"7cdc5f99-f439-4f7e-8982-a2b6ad2d4c01","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

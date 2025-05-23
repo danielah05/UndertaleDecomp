@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_heart_halvesoutline",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0e69ffae-26c2-4abc-8724-d1b8cd7c2e63","name":"0e69ffae-26c2-4abc-8724-d1b8cd7c2e63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e69ffae-26c2-4abc-8724-d1b8cd7c2e63","name":"0e69ffae-26c2-4abc-8724-d1b8cd7c2e63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

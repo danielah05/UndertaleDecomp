@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_maincharar_b",
   "bboxMode":2,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4b7a5bc8-8377-4a15-863c-3274374f1eb9","name":"4b7a5bc8-8377-4a15-863c-3274374f1eb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6d4561a0-aaf6-4ac5-8715-347c870f102c","name":"6d4561a0-aaf6-4ac5-8715-347c870f102c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4b7a5bc8-8377-4a15-863c-3274374f1eb9","name":"4b7a5bc8-8377-4a15-863c-3274374f1eb9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d4561a0-aaf6-4ac5-8715-347c870f102c","name":"6d4561a0-aaf6-4ac5-8715-347c870f102c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

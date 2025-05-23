@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_vendingmachine",
   "bboxMode":0,
   "bbox_bottom":53,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fe0c1462-ce12-4f96-86ad-028c7a62a9fd","name":"fe0c1462-ce12-4f96-86ad-028c7a62a9fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fe0c1462-ce12-4f96-86ad-028c7a62a9fd","name":"fe0c1462-ce12-4f96-86ad-028c7a62a9fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

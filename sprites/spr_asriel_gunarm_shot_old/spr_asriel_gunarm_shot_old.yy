@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asriel_gunarm_shot_old",
   "bboxMode":0,
   "bbox_bottom":103,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9d599986-d30c-4b0f-8262-a4fd5d14e170","name":"9d599986-d30c-4b0f-8262-a4fd5d14e170","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"37d3f4ff-c738-491a-971a-1c3303776ea5","name":"37d3f4ff-c738-491a-971a-1c3303776ea5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a9042ef5-ad3f-40ce-af2f-ca222ed035a0","name":"a9042ef5-ad3f-40ce-af2f-ca222ed035a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d599986-d30c-4b0f-8262-a4fd5d14e170","name":"9d599986-d30c-4b0f-8262-a4fd5d14e170","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37d3f4ff-c738-491a-971a-1c3303776ea5","name":"37d3f4ff-c738-491a-971a-1c3303776ea5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9042ef5-ad3f-40ce-af2f-ca222ed035a0","name":"a9042ef5-ad3f-40ce-af2f-ca222ed035a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

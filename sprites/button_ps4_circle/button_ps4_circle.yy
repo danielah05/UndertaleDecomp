@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"button_ps4_circle",
   "bboxMode":0,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ff9b717b-8242-4cf3-89cf-e1f8b0e7a83e","name":"ff9b717b-8242-4cf3-89cf-e1f8b0e7a83e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff9b717b-8242-4cf3-89cf-e1f8b0e7a83e","name":"ff9b717b-8242-4cf3-89cf-e1f8b0e7a83e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

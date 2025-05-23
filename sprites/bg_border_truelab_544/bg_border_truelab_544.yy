@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_border_truelab_544",
   "bboxMode":0,
   "bbox_bottom":543,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e0e77595-7a3e-4969-b6c0-613387f4a2d5","name":"e0e77595-7a3e-4969-b6c0-613387f4a2d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0e77595-7a3e-4969-b6c0-613387f4a2d5","name":"e0e77595-7a3e-4969-b6c0-613387f4a2d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

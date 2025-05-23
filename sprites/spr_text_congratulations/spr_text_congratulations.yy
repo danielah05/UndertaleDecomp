@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_text_congratulations",
   "bboxMode":0,
   "bbox_bottom":5,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dff323e7-0072-4afe-bb6b-0e2c3971d86c","name":"dff323e7-0072-4afe-bb6b-0e2c3971d86c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dff323e7-0072-4afe-bb6b-0e2c3971d86c","name":"dff323e7-0072-4afe-bb6b-0e2c3971d86c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

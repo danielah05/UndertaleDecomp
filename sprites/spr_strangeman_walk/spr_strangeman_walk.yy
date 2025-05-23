@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_strangeman_walk",
   "bboxMode":2,
   "bbox_bottom":59,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a955e7de-3cc2-4074-a687-3bd843b0acc2","name":"a955e7de-3cc2-4074-a687-3bd843b0acc2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"79ca64c0-ecc7-4eee-af21-7f6f18ce4e80","name":"79ca64c0-ecc7-4eee-af21-7f6f18ce4e80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a955e7de-3cc2-4074-a687-3bd843b0acc2","name":"a955e7de-3cc2-4074-a687-3bd843b0acc2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"79ca64c0-ecc7-4eee-af21-7f6f18ce4e80","name":"79ca64c0-ecc7-4eee-af21-7f6f18ce4e80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

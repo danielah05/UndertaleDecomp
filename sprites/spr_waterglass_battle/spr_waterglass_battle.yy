@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_waterglass_battle",
   "bboxMode":2,
   "bbox_bottom":24,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0ffda71a-0d06-4ee3-a9a2-70c3f0c9f11f","name":"0ffda71a-0d06-4ee3-a9a2-70c3f0c9f11f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ffda71a-0d06-4ee3-a9a2-70c3f0c9f11f","name":"0ffda71a-0d06-4ee3-a9a2-70c3f0c9f11f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

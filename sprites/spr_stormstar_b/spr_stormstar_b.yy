@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_stormstar_b",
   "bboxMode":0,
   "bbox_bottom":120,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"afc981a9-4745-4e6c-82a4-b20ab38c8487","name":"afc981a9-4745-4e6c-82a4-b20ab38c8487","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"afc981a9-4745-4e6c-82a4-b20ab38c8487","name":"afc981a9-4745-4e6c-82a4-b20ab38c8487","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

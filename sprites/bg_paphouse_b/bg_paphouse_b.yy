@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_paphouse_b",
   "bboxMode":0,
   "bbox_bottom":139,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dca1c032-5be3-498b-82dd-811e3a5925a8","name":"dca1c032-5be3-498b-82dd-811e3a5925a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dca1c032-5be3-498b-82dd-811e3a5925a8","name":"dca1c032-5be3-498b-82dd-811e3a5925a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

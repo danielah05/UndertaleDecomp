@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mysterydoor",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e980cec-41c6-4580-95ac-73d7cbc56407","name":"6e980cec-41c6-4580-95ac-73d7cbc56407","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"566564b9-39e7-407a-9676-494f97be18ef","name":"566564b9-39e7-407a-9676-494f97be18ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e980cec-41c6-4580-95ac-73d7cbc56407","name":"6e980cec-41c6-4580-95ac-73d7cbc56407","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"566564b9-39e7-407a-9676-494f97be18ef","name":"566564b9-39e7-407a-9676-494f97be18ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

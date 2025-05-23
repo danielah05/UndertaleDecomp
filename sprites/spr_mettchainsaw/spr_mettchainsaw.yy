@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettchainsaw",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c9cdb8fa-acbf-4374-8564-a1ed328c0da1","name":"c9cdb8fa-acbf-4374-8564-a1ed328c0da1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9cdb8fa-acbf-4374-8564-a1ed328c0da1","name":"c9cdb8fa-acbf-4374-8564-a1ed328c0da1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

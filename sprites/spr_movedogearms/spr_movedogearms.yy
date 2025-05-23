@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_movedogearms",
   "bboxMode":0,
   "bbox_bottom":68,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6ef0ef40-6b88-4b53-8126-cc0d3129d2f3","name":"6ef0ef40-6b88-4b53-8126-cc0d3129d2f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6ef0ef40-6b88-4b53-8126-cc0d3129d2f3","name":"6ef0ef40-6b88-4b53-8126-cc0d3129d2f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

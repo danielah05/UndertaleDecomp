@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"buttonL_xbox_share",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9c59ae22-d58f-4a44-8e9e-b2c2ceccd883","name":"9c59ae22-d58f-4a44-8e9e-b2c2ceccd883","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c59ae22-d58f-4a44-8e9e-b2c2ceccd883","name":"9c59ae22-d58f-4a44-8e9e-b2c2ceccd883","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

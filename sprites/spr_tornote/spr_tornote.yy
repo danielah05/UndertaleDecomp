@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tornote",
   "bboxMode":2,
   "bbox_bottom":40,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ff509ccf-1ea7-492d-8d1b-58afcabd442d","name":"ff509ccf-1ea7-492d-8d1b-58afcabd442d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff509ccf-1ea7-492d-8d1b-58afcabd442d","name":"ff509ccf-1ea7-492d-8d1b-58afcabd442d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

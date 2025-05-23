@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_lesserdogehurt",
   "bboxMode":0,
   "bbox_bottom":201,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ad071b3c-ab10-4e6f-8dce-b5dfc9405a87","name":"ad071b3c-ab10-4e6f-8dce-b5dfc9405a87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad071b3c-ab10-4e6f-8dce-b5dfc9405a87","name":"ad071b3c-ab10-4e6f-8dce-b5dfc9405a87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

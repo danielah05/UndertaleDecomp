@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_napstablook_u_headphone",
   "bboxMode":2,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3d844139-161e-43d2-b30a-bc7e57dec1a0","name":"3d844139-161e-43d2-b30a-bc7e57dec1a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3d844139-161e-43d2-b30a-bc7e57dec1a0","name":"3d844139-161e-43d2-b30a-bc7e57dec1a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

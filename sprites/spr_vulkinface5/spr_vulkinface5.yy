@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_vulkinface5",
   "bboxMode":0,
   "bbox_bottom":17,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"39c5a1a4-9cd8-4b95-b987-9519dadf5817","name":"39c5a1a4-9cd8-4b95-b987-9519dadf5817","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39c5a1a4-9cd8-4b95-b987-9519dadf5817","name":"39c5a1a4-9cd8-4b95-b987-9519dadf5817","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

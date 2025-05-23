@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torielboss_kneelsmile",
   "bboxMode":0,
   "bbox_bottom":101,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8361bf12-f658-40c3-943d-95ea8d506b02","name":"8361bf12-f658-40c3-943d-95ea8d506b02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8361bf12-f658-40c3-943d-95ea8d506b02","name":"8361bf12-f658-40c3-943d-95ea8d506b02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

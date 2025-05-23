@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_fashionsnowman",
   "bboxMode":2,
   "bbox_bottom":36,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f9273fa5-43cc-42d7-9889-2537d478a582","name":"f9273fa5-43cc-42d7-9889-2537d478a582","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9273fa5-43cc-42d7-9889-2537d478a582","name":"f9273fa5-43cc-42d7-9889-2537d478a582","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

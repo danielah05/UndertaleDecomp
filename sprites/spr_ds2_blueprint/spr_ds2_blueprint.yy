@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds2_blueprint",
   "bboxMode":2,
   "bbox_bottom":9,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"748f60c5-5bf4-43c8-95cb-8a1c602e92c3","name":"748f60c5-5bf4-43c8-95cb-8a1c602e92c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"748f60c5-5bf4-43c8-95cb-8a1c602e92c3","name":"748f60c5-5bf4-43c8-95cb-8a1c602e92c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

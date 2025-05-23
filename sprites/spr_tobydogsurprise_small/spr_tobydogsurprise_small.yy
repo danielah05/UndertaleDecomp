@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tobydogsurprise_small",
   "bboxMode":0,
   "bbox_bottom":18,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c4544f4d-9616-46ee-87c4-c5b8aa654584","name":"c4544f4d-9616-46ee-87c4-c5b8aa654584","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c4544f4d-9616-46ee-87c4-c5b8aa654584","name":"c4544f4d-9616-46ee-87c4-c5b8aa654584","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

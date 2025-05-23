@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_booths",
   "bboxMode":2,
   "bbox_bottom":108,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f2925b4b-3290-4163-9409-75189043cfbe","name":"f2925b4b-3290-4163-9409-75189043cfbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f2925b4b-3290-4163-9409-75189043cfbe","name":"f2925b4b-3290-4163-9409-75189043cfbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_liblizard",
   "bboxMode":2,
   "bbox_bottom":39,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"15b38ce0-f013-40e3-8759-428a7a971f10","name":"15b38ce0-f013-40e3-8759-428a7a971f10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d6efc050-0bda-4980-a392-e85049dfe2b6","name":"d6efc050-0bda-4980-a392-e85049dfe2b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"15b38ce0-f013-40e3-8759-428a7a971f10","name":"15b38ce0-f013-40e3-8759-428a7a971f10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d6efc050-0bda-4980-a392-e85049dfe2b6","name":"d6efc050-0bda-4980-a392-e85049dfe2b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_myroom_doreground",
   "bboxMode":0,
   "bbox_bottom":77,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2240d536-f503-4d41-9fd2-7014b1d36040","name":"2240d536-f503-4d41-9fd2-7014b1d36040","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2240d536-f503-4d41-9fd2-7014b1d36040","name":"2240d536-f503-4d41-9fd2-7014b1d36040","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettatonb_shirt",
   "bboxMode":0,
   "bbox_bottom":88,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d9e8b8a2-a4c8-417b-a740-5d74d73aa6b8","name":"d9e8b8a2-a4c8-417b-a740-5d74d73aa6b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d9e8b8a2-a4c8-417b-a740-5d74d73aa6b8","name":"d9e8b8a2-a4c8-417b-a740-5d74d73aa6b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

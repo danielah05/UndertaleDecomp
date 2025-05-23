@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torielboss_kneel",
   "bboxMode":0,
   "bbox_bottom":101,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c1a561e4-6c19-483f-b254-692435252ef1","name":"c1a561e4-6c19-483f-b254-692435252ef1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c1a561e4-6c19-483f-b254-692435252ef1","name":"c1a561e4-6c19-483f-b254-692435252ef1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

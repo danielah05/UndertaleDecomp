@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_trophy",
   "bboxMode":2,
   "bbox_bottom":26,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"250dd456-c43d-44f9-802f-2c392f25ed8c","name":"250dd456-c43d-44f9-802f-2c392f25ed8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"250dd456-c43d-44f9-802f-2c392f25ed8c","name":"250dd456-c43d-44f9-802f-2c392f25ed8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

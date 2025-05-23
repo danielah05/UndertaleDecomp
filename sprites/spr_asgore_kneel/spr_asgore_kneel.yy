@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgore_kneel",
   "bboxMode":0,
   "bbox_bottom":96,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0a53996a-2355-4b9b-865b-46aa87b5c265","name":"0a53996a-2355-4b9b-865b-46aa87b5c265","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0a53996a-2355-4b9b-865b-46aa87b5c265","name":"0a53996a-2355-4b9b-865b-46aa87b5c265","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

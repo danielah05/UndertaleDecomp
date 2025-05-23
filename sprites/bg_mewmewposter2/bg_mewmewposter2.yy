@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_mewmewposter2",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7f61fab7-2a5d-4c84-b72b-2e3f85aae898","name":"7f61fab7-2a5d-4c84-b72b-2e3f85aae898","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f61fab7-2a5d-4c84-b72b-2e3f85aae898","name":"7f61fab7-2a5d-4c84-b72b-2e3f85aae898","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

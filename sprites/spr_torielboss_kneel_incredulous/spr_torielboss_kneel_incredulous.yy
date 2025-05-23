@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torielboss_kneel_incredulous",
   "bboxMode":0,
   "bbox_bottom":101,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3b864bff-36ca-4e81-b9ef-0700ed7f1204","name":"3b864bff-36ca-4e81-b9ef-0700ed7f1204","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3b864bff-36ca-4e81-b9ef-0700ed7f1204","name":"3b864bff-36ca-4e81-b9ef-0700ed7f1204","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

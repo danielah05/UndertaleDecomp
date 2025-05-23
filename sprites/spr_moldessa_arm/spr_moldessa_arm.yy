@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_moldessa_arm",
   "bboxMode":0,
   "bbox_bottom":52,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"69a23c13-2930-4fd9-a6d5-c8bc2c86aee6","name":"69a23c13-2930-4fd9-a6d5-c8bc2c86aee6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"69a23c13-2930-4fd9-a6d5-c8bc2c86aee6","name":"69a23c13-2930-4fd9-a6d5-c8bc2c86aee6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

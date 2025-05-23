@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_udebone",
   "bboxMode":2,
   "bbox_bottom":57,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"06f217bd-aa43-461e-9a82-e57fa4b84276","name":"06f217bd-aa43-461e-9a82-e57fa4b84276","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06f217bd-aa43-461e-9a82-e57fa4b84276","name":"06f217bd-aa43-461e-9a82-e57fa4b84276","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

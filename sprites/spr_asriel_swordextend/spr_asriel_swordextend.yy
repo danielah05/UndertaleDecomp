@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asriel_swordextend",
   "bboxMode":0,
   "bbox_bottom":132,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"32863e53-c2eb-4a38-bb2f-d29e6af0c1e7","name":"32863e53-c2eb-4a38-bb2f-d29e6af0c1e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"32863e53-c2eb-4a38-bb2f-d29e6af0c1e7","name":"32863e53-c2eb-4a38-bb2f-d29e6af0c1e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

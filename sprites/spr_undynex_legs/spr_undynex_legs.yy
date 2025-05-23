@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undynex_legs",
   "bboxMode":0,
   "bbox_bottom":41,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0b0d7cf6-6e61-4d0c-8a9e-e42213acd4e8","name":"0b0d7cf6-6e61-4d0c-8a9e-e42213acd4e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0b0d7cf6-6e61-4d0c-8a9e-e42213acd4e8","name":"0b0d7cf6-6e61-4d0c-8a9e-e42213acd4e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

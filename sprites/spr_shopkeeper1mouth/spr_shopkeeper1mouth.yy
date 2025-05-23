@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_shopkeeper1mouth",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"76b48e63-342f-4503-8b99-ab5acdeac626","name":"76b48e63-342f-4503-8b99-ab5acdeac626","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"46a2a8d6-3501-41b6-94f9-aa563354475b","name":"46a2a8d6-3501-41b6-94f9-aa563354475b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76b48e63-342f-4503-8b99-ab5acdeac626","name":"76b48e63-342f-4503-8b99-ab5acdeac626","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"46a2a8d6-3501-41b6-94f9-aa563354475b","name":"46a2a8d6-3501-41b6-94f9-aa563354475b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

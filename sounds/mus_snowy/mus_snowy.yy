@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":102.302765,
+  "duration":102.298416,
   "exportDir":"",
   "name":"mus_snowy",
   "parent":{

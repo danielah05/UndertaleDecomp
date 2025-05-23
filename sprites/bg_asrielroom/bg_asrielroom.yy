@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_asrielroom",
   "bboxMode":0,
   "bbox_bottom":197,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6789e8fb-e7b9-43a0-b3f6-fe3722224314","name":"6789e8fb-e7b9-43a0-b3f6-fe3722224314","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6789e8fb-e7b9-43a0-b3f6-fe3722224314","name":"6789e8fb-e7b9-43a0-b3f6-fe3722224314","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

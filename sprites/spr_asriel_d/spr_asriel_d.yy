@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asriel_d",
   "bboxMode":2,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8596dc29-fa30-4e3c-8d66-999bf2203fde","name":"8596dc29-fa30-4e3c-8d66-999bf2203fde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8596dc29-fa30-4e3c-8d66-999bf2203fde","name":"8596dc29-fa30-4e3c-8d66-999bf2203fde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

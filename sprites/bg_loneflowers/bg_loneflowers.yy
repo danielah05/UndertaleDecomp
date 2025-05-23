@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_loneflowers",
   "bboxMode":0,
   "bbox_bottom":40,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3b0e9ca8-c81f-4b50-8a0f-59b531c89a3b","name":"3b0e9ca8-c81f-4b50-8a0f-59b531c89a3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3b0e9ca8-c81f-4b50-8a0f-59b531c89a3b","name":"3b0e9ca8-c81f-4b50-8a0f-59b531c89a3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

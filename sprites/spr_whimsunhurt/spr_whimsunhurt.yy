@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_whimsunhurt",
   "bboxMode":0,
   "bbox_bottom":97,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b4f75a2d-e6f2-402d-9b2d-68e3d9902226","name":"b4f75a2d-e6f2-402d-9b2d-68e3d9902226","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4f75a2d-e6f2-402d-9b2d-68e3d9902226","name":"b4f75a2d-e6f2-402d-9b2d-68e3d9902226","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

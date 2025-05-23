@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mett_justarm",
   "bboxMode":0,
   "bbox_bottom":17,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2cdaf2c4-f170-4f8e-a767-af0c9b7bb08e","name":"2cdaf2c4-f170-4f8e-a767-af0c9b7bb08e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2cdaf2c4-f170-4f8e-a767-af0c9b7bb08e","name":"2cdaf2c4-f170-4f8e-a767-af0c9b7bb08e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

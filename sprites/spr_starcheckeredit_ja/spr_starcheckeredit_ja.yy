@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_starcheckeredit_ja",
   "bboxMode":2,
   "bbox_bottom":155,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cbc198e3-2c19-49de-9e60-2005163ee984","name":"cbc198e3-2c19-49de-9e60-2005163ee984","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cbc198e3-2c19-49de-9e60-2005163ee984","name":"cbc198e3-2c19-49de-9e60-2005163ee984","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

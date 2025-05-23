@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_moneybullet",
   "bboxMode":2,
   "bbox_bottom":21,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"183e97a9-09b2-49a7-a042-1c6ea0dedcef","name":"183e97a9-09b2-49a7-a042-1c6ea0dedcef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"183e97a9-09b2-49a7-a042-1c6ea0dedcef","name":"183e97a9-09b2-49a7-a042-1c6ea0dedcef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

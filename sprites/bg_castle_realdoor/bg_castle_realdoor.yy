@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_castle_realdoor",
   "bboxMode":0,
   "bbox_bottom":98,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"116be19d-37aa-499f-88a7-b75da61d152e","name":"116be19d-37aa-499f-88a7-b75da61d152e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"116be19d-37aa-499f-88a7-b75da61d152e","name":"116be19d-37aa-499f-88a7-b75da61d152e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

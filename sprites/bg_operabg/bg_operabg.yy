@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_operabg",
   "bboxMode":0,
   "bbox_bottom":379,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cf821813-eb3d-4b27-8d23-a5a51b1c2efd","name":"cf821813-eb3d-4b27-8d23-a5a51b1c2efd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf821813-eb3d-4b27-8d23-a5a51b1c2efd","name":"cf821813-eb3d-4b27-8d23-a5a51b1c2efd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

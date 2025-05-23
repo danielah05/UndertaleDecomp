@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_migospel_wingB",
   "bboxMode":0,
   "bbox_bottom":9,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"54113fcd-b2fa-4e8a-9c63-3bc73bb7013f","name":"54113fcd-b2fa-4e8a-9c63-3bc73bb7013f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54113fcd-b2fa-4e8a-9c63-3bc73bb7013f","name":"54113fcd-b2fa-4e8a-9c63-3bc73bb7013f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

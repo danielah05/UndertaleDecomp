@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_asgore_room",
   "bboxMode":0,
   "bbox_bottom":233,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e06c5814-0618-4dfe-9105-cace5e272eaf","name":"e06c5814-0618-4dfe-9105-cace5e272eaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e06c5814-0618-4dfe-9105-cace5e272eaf","name":"e06c5814-0618-4dfe-9105-cace5e272eaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

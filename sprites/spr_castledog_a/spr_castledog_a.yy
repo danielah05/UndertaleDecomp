@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_castledog_a",
   "bboxMode":0,
   "bbox_bottom":42,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"298c1743-3e5d-4c8f-9f96-d7d8a6c043ec","name":"298c1743-3e5d-4c8f-9f96-d7d8a6c043ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d58b7f29-6058-47bb-ab95-70d1c6350684","name":"d58b7f29-6058-47bb-ab95-70d1c6350684","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"298c1743-3e5d-4c8f-9f96-d7d8a6c043ec","name":"298c1743-3e5d-4c8f-9f96-d7d8a6c043ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d58b7f29-6058-47bb-ab95-70d1c6350684","name":"d58b7f29-6058-47bb-ab95-70d1c6350684","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

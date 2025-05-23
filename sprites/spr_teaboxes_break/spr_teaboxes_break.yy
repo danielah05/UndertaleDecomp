@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_teaboxes_break",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6c2d73aa-a5f5-40c4-809b-64d534c5554f","name":"6c2d73aa-a5f5-40c4-809b-64d534c5554f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6c2d73aa-a5f5-40c4-809b-64d534c5554f","name":"6c2d73aa-a5f5-40c4-809b-64d534c5554f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

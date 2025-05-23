@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_finalknight_dragonmouth_hurt",
   "bboxMode":0,
   "bbox_bottom":26,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9c404768-9b94-49e6-bc21-043d32fe3452","name":"9c404768-9b94-49e6-bc21-043d32fe3452","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c404768-9b94-49e6-bc21-043d32fe3452","name":"9c404768-9b94-49e6-bc21-043d32fe3452","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

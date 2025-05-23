@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papyrusboss_anim",
   "bboxMode":0,
   "bbox_bottom":103,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"76106877-8e8b-40d9-befa-1f74dcdbfb3a","name":"76106877-8e8b-40d9-befa-1f74dcdbfb3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76106877-8e8b-40d9-befa-1f74dcdbfb3a","name":"76106877-8e8b-40d9-befa-1f74dcdbfb3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

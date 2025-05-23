@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_snowdinhouse",
   "bboxMode":0,
   "bbox_bottom":117,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1edf3db2-4af3-4e34-a317-ac112116b799","name":"1edf3db2-4af3-4e34-a317-ac112116b799","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1edf3db2-4af3-4e34-a317-ac112116b799","name":"1edf3db2-4af3-4e34-a317-ac112116b799","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

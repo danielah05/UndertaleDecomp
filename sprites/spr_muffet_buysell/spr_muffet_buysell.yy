@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_muffet_buysell",
   "bboxMode":2,
   "bbox_bottom":44,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"11b07cdc-8e41-48ff-9c9e-390ad81b1200","name":"11b07cdc-8e41-48ff-9c9e-390ad81b1200","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1d8c9a12-518a-441a-9d82-6bb57b156f8d","name":"1d8c9a12-518a-441a-9d82-6bb57b156f8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"11b07cdc-8e41-48ff-9c9e-390ad81b1200","name":"11b07cdc-8e41-48ff-9c9e-390ad81b1200","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1d8c9a12-518a-441a-9d82-6bb57b156f8d","name":"1d8c9a12-518a-441a-9d82-6bb57b156f8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

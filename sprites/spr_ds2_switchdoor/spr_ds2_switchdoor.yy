@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds2_switchdoor",
   "bboxMode":0,
   "bbox_bottom":40,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3561354b-9aa0-4a8e-8232-2b3a1737e373","name":"3561354b-9aa0-4a8e-8232-2b3a1737e373","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"84a9ff55-70f6-48a7-acc3-d027e95f31f1","name":"84a9ff55-70f6-48a7-acc3-d027e95f31f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3561354b-9aa0-4a8e-8232-2b3a1737e373","name":"3561354b-9aa0-4a8e-8232-2b3a1737e373","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84a9ff55-70f6-48a7-acc3-d027e95f31f1","name":"84a9ff55-70f6-48a7-acc3-d027e95f31f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

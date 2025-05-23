@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_moldsmalx_part",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"84e651b6-148f-4ea2-aa8a-c5c2b7fc5f9a","name":"84e651b6-148f-4ea2-aa8a-c5c2b7fc5f9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84e651b6-148f-4ea2-aa8a-c5c2b7fc5f9a","name":"84e651b6-148f-4ea2-aa8a-c5c2b7fc5f9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

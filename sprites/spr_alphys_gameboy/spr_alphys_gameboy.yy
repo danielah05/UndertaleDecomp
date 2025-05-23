@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_alphys_gameboy",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"11d9d986-1f8d-4c5a-a88c-3766306ea620","name":"11d9d986-1f8d-4c5a-a88c-3766306ea620","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"27d6dfb8-5223-445f-bbb5-8686f6965b65","name":"27d6dfb8-5223-445f-bbb5-8686f6965b65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"11d9d986-1f8d-4c5a-a88c-3766306ea620","name":"11d9d986-1f8d-4c5a-a88c-3766306ea620","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27d6dfb8-5223-445f-bbb5-8686f6965b65","name":"27d6dfb8-5223-445f-bbb5-8686f6965b65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

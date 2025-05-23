@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_mewmew_attack",
   "bboxMode":0,
   "bbox_bottom":101,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"22a3cd6c-0587-46c2-b3f6-23d770fd2d6c","name":"22a3cd6c-0587-46c2-b3f6-23d770fd2d6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22a3cd6c-0587-46c2-b3f6-23d770fd2d6c","name":"22a3cd6c-0587-46c2-b3f6-23d770fd2d6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

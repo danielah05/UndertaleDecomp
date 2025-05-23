@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_alphyswrapshock",
   "bboxMode":0,
   "bbox_bottom":87,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"afd87196-d17a-4016-8a24-af18eb09ff04","name":"afd87196-d17a-4016-8a24-af18eb09ff04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"afd87196-d17a-4016-8a24-af18eb09ff04","name":"afd87196-d17a-4016-8a24-af18eb09ff04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

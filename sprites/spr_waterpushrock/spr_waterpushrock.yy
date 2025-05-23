@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_waterpushrock",
   "bboxMode":2,
   "bbox_bottom":20,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"258b5f0b-97c2-44a6-97b1-e2ce75249eb3","name":"258b5f0b-97c2-44a6-97b1-e2ce75249eb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"258b5f0b-97c2-44a6-97b1-e2ce75249eb3","name":"258b5f0b-97c2-44a6-97b1-e2ce75249eb3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

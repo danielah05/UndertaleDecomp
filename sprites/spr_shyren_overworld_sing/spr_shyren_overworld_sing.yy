@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_shyren_overworld_sing",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"449d1253-decd-4a4f-8820-3281abd4c9d3","name":"449d1253-decd-4a4f-8820-3281abd4c9d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b7fb9cf8-1e08-436e-ae2b-bd237847ea77","name":"b7fb9cf8-1e08-436e-ae2b-bd237847ea77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"449d1253-decd-4a4f-8820-3281abd4c9d3","name":"449d1253-decd-4a4f-8820-3281abd4c9d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b7fb9cf8-1e08-436e-ae2b-bd237847ea77","name":"b7fb9cf8-1e08-436e-ae2b-bd237847ea77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

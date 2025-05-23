@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds3_ticket",
   "bboxMode":2,
   "bbox_bottom":10,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b67ad698-122d-4d47-bc06-a29116331c8d","name":"b67ad698-122d-4d47-bc06-a29116331c8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b67ad698-122d-4d47-bc06-a29116331c8d","name":"b67ad698-122d-4d47-bc06-a29116331c8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

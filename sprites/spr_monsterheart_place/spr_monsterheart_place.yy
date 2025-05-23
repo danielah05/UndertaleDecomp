@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_monsterheart_place",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6b72bcbd-8bdb-4c61-895a-aa9b4d4df93b","name":"6b72bcbd-8bdb-4c61-895a-aa9b4d4df93b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b72bcbd-8bdb-4c61-895a-aa9b4d4df93b","name":"6b72bcbd-8bdb-4c61-895a-aa9b4d4df93b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

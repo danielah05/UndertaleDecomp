@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_lessdogsnow",
   "bboxMode":2,
   "bbox_bottom":38,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1db39046-0ccb-427f-8d02-dbb59b2509be","name":"1db39046-0ccb-427f-8d02-dbb59b2509be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1db39046-0ccb-427f-8d02-dbb59b2509be","name":"1db39046-0ccb-427f-8d02-dbb59b2509be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

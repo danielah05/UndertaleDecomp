@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tv_floweyx_smile",
   "bboxMode":0,
   "bbox_bottom":72,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"87a565db-c72a-47d2-8da1-034aba376c38","name":"87a565db-c72a-47d2-8da1-034aba376c38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"87a565db-c72a-47d2-8da1-034aba376c38","name":"87a565db-c72a-47d2-8da1-034aba376c38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

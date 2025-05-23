@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_smallbird_fly",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8d9378c2-4882-48bd-82ca-5272be9db4d0","name":"8d9378c2-4882-48bd-82ca-5272be9db4d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"97cf70aa-0377-437e-ad3a-56b9a041a361","name":"97cf70aa-0377-437e-ad3a-56b9a041a361","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d9378c2-4882-48bd-82ca-5272be9db4d0","name":"8d9378c2-4882-48bd-82ca-5272be9db4d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"97cf70aa-0377-437e-ad3a-56b9a041a361","name":"97cf70aa-0377-437e-ad3a-56b9a041a361","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

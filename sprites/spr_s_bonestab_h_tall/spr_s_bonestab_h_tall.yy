@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_s_bonestab_h_tall",
   "bboxMode":2,
   "bbox_bottom":199,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d73e76a4-8c98-4fcd-827c-1627f5805b46","name":"d73e76a4-8c98-4fcd-827c-1627f5805b46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d73e76a4-8c98-4fcd-827c-1627f5805b46","name":"d73e76a4-8c98-4fcd-827c-1627f5805b46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

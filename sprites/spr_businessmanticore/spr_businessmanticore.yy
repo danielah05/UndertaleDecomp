@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_businessmanticore",
   "bboxMode":2,
   "bbox_bottom":35,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"04bc8b38-5afa-404c-b6a1-3e0db40f8513","name":"04bc8b38-5afa-404c-b6a1-3e0db40f8513","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"29e8f8ab-e0b6-47b8-b2a5-a75b0c3a7521","name":"29e8f8ab-e0b6-47b8-b2a5-a75b0c3a7521","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04bc8b38-5afa-404c-b6a1-3e0db40f8513","name":"04bc8b38-5afa-404c-b6a1-3e0db40f8513","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"29e8f8ab-e0b6-47b8-b2a5-a75b0c3a7521","name":"29e8f8ab-e0b6-47b8-b2a5-a75b0c3a7521","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

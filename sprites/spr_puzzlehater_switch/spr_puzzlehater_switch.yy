@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_puzzlehater_switch",
   "bboxMode":2,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0feffbbb-1ce3-4dba-88fc-33cc51d99011","name":"0feffbbb-1ce3-4dba-88fc-33cc51d99011","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0feffbbb-1ce3-4dba-88fc-33cc51d99011","name":"0feffbbb-1ce3-4dba-88fc-33cc51d99011","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

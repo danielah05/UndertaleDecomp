@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tobdog_summer",
   "bboxMode":0,
   "bbox_bottom":22,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"428b74dc-9bdb-4e63-881d-8652822fd136","name":"428b74dc-9bdb-4e63-881d-8652822fd136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"32367fe0-cfc5-4a22-83d0-6661f28ffcb1","name":"32367fe0-cfc5-4a22-83d0-6661f28ffcb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"428b74dc-9bdb-4e63-881d-8652822fd136","name":"428b74dc-9bdb-4e63-881d-8652822fd136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"32367fe0-cfc5-4a22-83d0-6661f28ffcb1","name":"32367fe0-cfc5-4a22-83d0-6661f28ffcb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

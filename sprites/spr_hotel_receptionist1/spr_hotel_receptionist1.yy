@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hotel_receptionist1",
   "bboxMode":2,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c89e9f27-3e58-455c-bcc4-3a0a854086d2","name":"c89e9f27-3e58-455c-bcc4-3a0a854086d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b5f812a7-d689-439e-a6f1-7a59db4011ab","name":"b5f812a7-d689-439e-a6f1-7a59db4011ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c89e9f27-3e58-455c-bcc4-3a0a854086d2","name":"c89e9f27-3e58-455c-bcc4-3a0a854086d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5f812a7-d689-439e-a6f1-7a59db4011ab","name":"b5f812a7-d689-439e-a6f1-7a59db4011ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

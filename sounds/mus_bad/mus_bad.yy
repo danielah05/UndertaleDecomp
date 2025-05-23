@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":0.9955556,
+  "duration":0.998458,
   "exportDir":"",
   "name":"mus_bad",
   "parent":{

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_undynerug",
   "bboxMode":0,
   "bbox_bottom":43,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"01c25a1c-9d20-4c42-bf3a-d8a9161a3d39","name":"01c25a1c-9d20-4c42-bf3a-d8a9161a3d39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01c25a1c-9d20-4c42-bf3a-d8a9161a3d39","name":"01c25a1c-9d20-4c42-bf3a-d8a9161a3d39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_glyde_leftwing",
   "bboxMode":0,
   "bbox_bottom":81,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f66baf9e-e705-40c2-8459-67aefbcf3e36","name":"f66baf9e-e705-40c2-8459-67aefbcf3e36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f66baf9e-e705-40c2-8459-67aefbcf3e36","name":"f66baf9e-e705-40c2-8459-67aefbcf3e36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

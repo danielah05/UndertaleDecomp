@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_muscbul1",
   "bboxMode":2,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c457a61c-5a3b-4e49-a7f8-91aec86ff20d","name":"c457a61c-5a3b-4e49-a7f8-91aec86ff20d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c457a61c-5a3b-4e49-a7f8-91aec86ff20d","name":"c457a61c-5a3b-4e49-a7f8-91aec86ff20d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

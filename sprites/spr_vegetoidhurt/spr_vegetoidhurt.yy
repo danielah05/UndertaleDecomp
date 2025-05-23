@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_vegetoidhurt",
   "bboxMode":0,
   "bbox_bottom":105,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4ad99cc-ff3c-4f23-91b8-099af2e52235","name":"a4ad99cc-ff3c-4f23-91b8-099af2e52235","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4ad99cc-ff3c-4f23-91b8-099af2e52235","name":"a4ad99cc-ff3c-4f23-91b8-099af2e52235","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

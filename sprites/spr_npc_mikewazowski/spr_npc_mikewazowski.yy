@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_mikewazowski",
   "bboxMode":2,
   "bbox_bottom":26,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a6a44933-4834-4f69-8dca-9a93d5543c7c","name":"a6a44933-4834-4f69-8dca-9a93d5543c7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b24f2bca-f589-4e6c-8966-16301545b8d9","name":"b24f2bca-f589-4e6c-8966-16301545b8d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6a44933-4834-4f69-8dca-9a93d5543c7c","name":"a6a44933-4834-4f69-8dca-9a93d5543c7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b24f2bca-f589-4e6c-8966-16301545b8d9","name":"b24f2bca-f589-4e6c-8966-16301545b8d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

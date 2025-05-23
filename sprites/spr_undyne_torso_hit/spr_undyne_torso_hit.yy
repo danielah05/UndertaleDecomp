@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyne_torso_hit",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c07ee137-4f1b-4808-a96b-9b1b24cb6c57","name":"c07ee137-4f1b-4808-a96b-9b1b24cb6c57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9c1e08cd-911d-4064-a6a6-72ad1d4c95bd","name":"9c1e08cd-911d-4064-a6a6-72ad1d4c95bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c07ee137-4f1b-4808-a96b-9b1b24cb6c57","name":"c07ee137-4f1b-4808-a96b-9b1b24cb6c57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c1e08cd-911d-4064-a6a6-72ad1d4c95bd","name":"9c1e08cd-911d-4064-a6a6-72ad1d4c95bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

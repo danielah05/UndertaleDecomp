@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_vulkinlightning",
   "bboxMode":2,
   "bbox_bottom":8,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e594354-32e9-48a8-801d-e998eb8d8bf6","name":"6e594354-32e9-48a8-801d-e998eb8d8bf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e594354-32e9-48a8-801d-e998eb8d8bf6","name":"6e594354-32e9-48a8-801d-e998eb8d8bf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

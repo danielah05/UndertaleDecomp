@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_stagelight_bad",
   "bboxMode":0,
   "bbox_bottom":119,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"15e7683a-a424-4b8d-b186-68aa12424adc","name":"15e7683a-a424-4b8d-b186-68aa12424adc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"899d139d-b3a1-4489-bbb5-3efd6e7e9c34","name":"899d139d-b3a1-4489-bbb5-3efd6e7e9c34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"15e7683a-a424-4b8d-b186-68aa12424adc","name":"15e7683a-a424-4b8d-b186-68aa12424adc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"899d139d-b3a1-4489-bbb5-3efd6e7e9c34","name":"899d139d-b3a1-4489-bbb5-3efd6e7e9c34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

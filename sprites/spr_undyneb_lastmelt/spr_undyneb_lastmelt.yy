@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyneb_lastmelt",
   "bboxMode":0,
   "bbox_bottom":231,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a08a0268-d597-4c14-ac91-a428b2b3ff56","name":"a08a0268-d597-4c14-ac91-a428b2b3ff56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a08a0268-d597-4c14-ac91-a428b2b3ff56","name":"a08a0268-d597-4c14-ac91-a428b2b3ff56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

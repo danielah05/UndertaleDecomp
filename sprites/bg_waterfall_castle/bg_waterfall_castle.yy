@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_waterfall_castle",
   "bboxMode":0,
   "bbox_bottom":83,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"96dc2098-a5a7-43c9-af71-77c224ed2259","name":"96dc2098-a5a7-43c9-af71-77c224ed2259","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"96dc2098-a5a7-43c9-af71-77c224ed2259","name":"96dc2098-a5a7-43c9-af71-77c224ed2259","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

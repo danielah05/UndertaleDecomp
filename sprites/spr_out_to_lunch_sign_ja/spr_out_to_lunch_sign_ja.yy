@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_out_to_lunch_sign_ja",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"92d04241-6b4e-499b-8c23-7cc6c071f206","name":"92d04241-6b4e-499b-8c23-7cc6c071f206","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"92d04241-6b4e-499b-8c23-7cc6c071f206","name":"92d04241-6b4e-499b-8c23-7cc6c071f206","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

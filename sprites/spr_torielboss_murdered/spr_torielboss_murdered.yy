@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torielboss_murdered",
   "bboxMode":0,
   "bbox_bottom":101,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cfd03379-eb70-4f30-94fd-5f5e3ab53579","name":"cfd03379-eb70-4f30-94fd-5f5e3ab53579","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"844346ef-37f4-4d0f-b863-47296c8c43c6","name":"844346ef-37f4-4d0f-b863-47296c8c43c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cfd03379-eb70-4f30-94fd-5f5e3ab53579","name":"cfd03379-eb70-4f30-94fd-5f5e3ab53579","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"844346ef-37f4-4d0f-b863-47296c8c43c6","name":"844346ef-37f4-4d0f-b863-47296c8c43c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

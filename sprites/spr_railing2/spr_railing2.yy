@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_railing2",
   "bboxMode":2,
   "bbox_bottom":74,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c9630d48-2bfd-4a28-9178-2c4a8afa5435","name":"c9630d48-2bfd-4a28-9178-2c4a8afa5435","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9630d48-2bfd-4a28-9178-2c4a8afa5435","name":"c9630d48-2bfd-4a28-9178-2c4a8afa5435","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

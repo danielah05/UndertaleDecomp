@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_chairiel_sleep",
   "bboxMode":2,
   "bbox_bottom":58,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a87ad1b2-387a-4c78-ba45-2eb679dd0b64","name":"a87ad1b2-387a-4c78-ba45-2eb679dd0b64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a679d9b2-fca8-4421-87fa-af7cdd6208aa","name":"a679d9b2-fca8-4421-87fa-af7cdd6208aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a87ad1b2-387a-4c78-ba45-2eb679dd0b64","name":"a87ad1b2-387a-4c78-ba45-2eb679dd0b64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a679d9b2-fca8-4421-87fa-af7cdd6208aa","name":"a679d9b2-fca8-4421-87fa-af7cdd6208aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

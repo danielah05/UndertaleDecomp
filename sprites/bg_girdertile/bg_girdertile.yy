@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_girdertile",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2d1c0d2d-8db4-4ec3-96e4-e6fef95a7f29","name":"2d1c0d2d-8db4-4ec3-96e4-e6fef95a7f29","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2d1c0d2d-8db4-4ec3-96e4-e6fef95a7f29","name":"2d1c0d2d-8db4-4ec3-96e4-e6fef95a7f29","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

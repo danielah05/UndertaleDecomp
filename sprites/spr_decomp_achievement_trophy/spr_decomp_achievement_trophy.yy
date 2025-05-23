@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_decomp_achievement_trophy",
   "bboxMode":0,
   "bbox_bottom":22,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d5159f45-301f-4b4b-bc72-2c6b2d87727d","name":"d5159f45-301f-4b4b-bc72-2c6b2d87727d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5dd9b98a-feb5-4696-b64f-f7725e57fbef","name":"5dd9b98a-feb5-4696-b64f-f7725e57fbef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"418db779-8910-45e1-9561-a46d50c42d3b","name":"418db779-8910-45e1-9561-a46d50c42d3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1c3ab097-c4dd-4e7b-8c3f-a830f249ccf5","name":"1c3ab097-c4dd-4e7b-8c3f-a830f249ccf5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d5159f45-301f-4b4b-bc72-2c6b2d87727d","name":"d5159f45-301f-4b4b-bc72-2c6b2d87727d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5dd9b98a-feb5-4696-b64f-f7725e57fbef","name":"5dd9b98a-feb5-4696-b64f-f7725e57fbef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"418db779-8910-45e1-9561-a46d50c42d3b","name":"418db779-8910-45e1-9561-a46d50c42d3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1c3ab097-c4dd-4e7b-8c3f-a830f249ccf5","name":"1c3ab097-c4dd-4e7b-8c3f-a830f249ccf5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

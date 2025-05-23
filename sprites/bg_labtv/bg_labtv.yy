@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_labtv",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"81aa5d65-f818-46cf-b1f9-30a46a6f2943","name":"81aa5d65-f818-46cf-b1f9-30a46a6f2943","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"81aa5d65-f818-46cf-b1f9-30a46a6f2943","name":"81aa5d65-f818-46cf-b1f9-30a46a6f2943","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds2_lights",
   "bboxMode":0,
   "bbox_bottom":21,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fdc3a12a-44b3-4a6c-8b5a-f3498aa7137c","name":"fdc3a12a-44b3-4a6c-8b5a-f3498aa7137c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fdc3a12a-44b3-4a6c-8b5a-f3498aa7137c","name":"fdc3a12a-44b3-4a6c-8b5a-f3498aa7137c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":57.665306,
+  "duration":57.675465,
   "exportDir":"",
   "name":"mus_papyrusboss",
   "parent":{

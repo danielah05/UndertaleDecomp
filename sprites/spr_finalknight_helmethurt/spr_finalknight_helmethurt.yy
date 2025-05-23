@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_finalknight_helmethurt",
   "bboxMode":0,
   "bbox_bottom":26,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e3b2f6fb-ec01-460d-9287-b39a26ba27ba","name":"e3b2f6fb-ec01-460d-9287-b39a26ba27ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e3b2f6fb-ec01-460d-9287-b39a26ba27ba","name":"e3b2f6fb-ec01-460d-9287-b39a26ba27ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

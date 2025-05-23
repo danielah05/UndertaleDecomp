@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_skatebone",
   "bboxMode":2,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"64796233-ba35-40a3-a8f9-91ed1a1486f5","name":"64796233-ba35-40a3-a8f9-91ed1a1486f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"64796233-ba35-40a3-a8f9-91ed1a1486f5","name":"64796233-ba35-40a3-a8f9-91ed1a1486f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

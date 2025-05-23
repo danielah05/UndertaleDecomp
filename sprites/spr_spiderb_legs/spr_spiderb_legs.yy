@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_spiderb_legs",
   "bboxMode":0,
   "bbox_bottom":22,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c9ba5357-e927-4507-aeca-e6e7cdd2e2d6","name":"c9ba5357-e927-4507-aeca-e6e7cdd2e2d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9ba5357-e927-4507-aeca-e6e7cdd2e2d6","name":"c9ba5357-e927-4507-aeca-e6e7cdd2e2d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

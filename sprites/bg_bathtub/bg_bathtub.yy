@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_bathtub",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"447988e7-72ca-4a64-9cbb-4c5bb7ead4f1","name":"447988e7-72ca-4a64-9cbb-4c5bb7ead4f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"447988e7-72ca-4a64-9cbb-4c5bb7ead4f1","name":"447988e7-72ca-4a64-9cbb-4c5bb7ead4f1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_clamgirl_b",
   "bboxMode":2,
   "bbox_bottom":58,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e2f545ca-897d-4179-b785-cdfaf47e7490","name":"e2f545ca-897d-4179-b785-cdfaf47e7490","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d73e5873-18d1-496f-b815-d8c4f2634cd5","name":"d73e5873-18d1-496f-b815-d8c4f2634cd5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e2f545ca-897d-4179-b785-cdfaf47e7490","name":"e2f545ca-897d-4179-b785-cdfaf47e7490","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d73e5873-18d1-496f-b815-d8c4f2634cd5","name":"d73e5873-18d1-496f-b815-d8c4f2634cd5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

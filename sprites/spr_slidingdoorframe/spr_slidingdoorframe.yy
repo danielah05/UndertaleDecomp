@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_slidingdoorframe",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"07624ba9-68d8-4a8c-8cd8-3eaf480c0b7e","name":"07624ba9-68d8-4a8c-8cd8-3eaf480c0b7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"07624ba9-68d8-4a8c-8cd8-3eaf480c0b7e","name":"07624ba9-68d8-4a8c-8cd8-3eaf480c0b7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

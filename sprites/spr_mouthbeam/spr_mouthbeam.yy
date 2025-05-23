@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mouthbeam",
   "bboxMode":2,
   "bbox_bottom":309,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"823d3386-900c-4e81-969d-19ec1df89db6","name":"823d3386-900c-4e81-969d-19ec1df89db6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"823d3386-900c-4e81-969d-19ec1df89db6","name":"823d3386-900c-4e81-969d-19ec1df89db6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

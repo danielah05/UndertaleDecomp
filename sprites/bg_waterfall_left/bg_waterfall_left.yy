@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_waterfall_left",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2412ae78-e787-45c2-a1e5-ed406cc3ca3b","name":"2412ae78-e787-45c2-a1e5-ed406cc3ca3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2412ae78-e787-45c2-a1e5-ed406cc3ca3b","name":"2412ae78-e787-45c2-a1e5-ed406cc3ca3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

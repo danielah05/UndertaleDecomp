@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_floweyx_fleshmound",
   "bboxMode":0,
   "bbox_bottom":76,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c3433908-8cb9-431c-8c00-94bc863cdfba","name":"c3433908-8cb9-431c-8c00-94bc863cdfba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c3433908-8cb9-431c-8c00-94bc863cdfba","name":"c3433908-8cb9-431c-8c00-94bc863cdfba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

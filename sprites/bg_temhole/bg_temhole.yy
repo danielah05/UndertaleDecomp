@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_temhole",
   "bboxMode":0,
   "bbox_bottom":43,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"918836c0-5b32-45e6-a8f8-06b7f5efe85b","name":"918836c0-5b32-45e6-a8f8-06b7f5efe85b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"918836c0-5b32-45e6-a8f8-06b7f5efe85b","name":"918836c0-5b32-45e6-a8f8-06b7f5efe85b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

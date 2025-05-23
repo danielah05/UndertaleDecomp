@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgore_shears",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"234a1ffe-78ec-4271-8a39-25b59286b222","name":"234a1ffe-78ec-4271-8a39-25b59286b222","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e8ad6f08-fa96-42ee-9e2b-06a7c1425912","name":"e8ad6f08-fa96-42ee-9e2b-06a7c1425912","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"234a1ffe-78ec-4271-8a39-25b59286b222","name":"234a1ffe-78ec-4271-8a39-25b59286b222","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e8ad6f08-fa96-42ee-9e2b-06a7c1425912","name":"e8ad6f08-fa96-42ee-9e2b-06a7c1425912","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

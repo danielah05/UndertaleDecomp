@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tv_floweyx_laugh_o",
   "bboxMode":0,
   "bbox_bottom":93,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9c2e7c07-e400-4f38-b34f-dd954f1041f8","name":"9c2e7c07-e400-4f38-b34f-dd954f1041f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"01b05fa6-bd61-42f6-9555-c195b4950740","name":"01b05fa6-bd61-42f6-9555-c195b4950740","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c2e7c07-e400-4f38-b34f-dd954f1041f8","name":"9c2e7c07-e400-4f38-b34f-dd954f1041f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01b05fa6-bd61-42f6-9555-c195b4950740","name":"01b05fa6-bd61-42f6-9555-c195b4950740","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

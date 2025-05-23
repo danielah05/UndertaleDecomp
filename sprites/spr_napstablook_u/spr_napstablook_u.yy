@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_napstablook_u",
   "bboxMode":2,
   "bbox_bottom":32,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"14c5e857-b571-4d77-a597-d1b57c2374c2","name":"14c5e857-b571-4d77-a597-d1b57c2374c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14c5e857-b571-4d77-a597-d1b57c2374c2","name":"14c5e857-b571-4d77-a597-d1b57c2374c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

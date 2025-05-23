@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_6gun_flower",
   "bboxMode":2,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d84cd8b0-d61a-4138-9553-4b8d066fbcda","name":"d84cd8b0-d61a-4138-9553-4b8d066fbcda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d84cd8b0-d61a-4138-9553-4b8d066fbcda","name":"d84cd8b0-d61a-4138-9553-4b8d066fbcda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_door_edge",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3619468a-f6ee-4c1a-be5b-1218cb8b5165","name":"3619468a-f6ee-4c1a-be5b-1218cb8b5165","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3619468a-f6ee-4c1a-be5b-1218cb8b5165","name":"3619468a-f6ee-4c1a-be5b-1218cb8b5165","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_rustfridge",
   "bboxMode":2,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"31eadd8f-c80d-4549-b72e-f2e7a5c19e4e","name":"31eadd8f-c80d-4549-b72e-f2e7a5c19e4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31eadd8f-c80d-4549-b72e-f2e7a5c19e4e","name":"31eadd8f-c80d-4549-b72e-f2e7a5c19e4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

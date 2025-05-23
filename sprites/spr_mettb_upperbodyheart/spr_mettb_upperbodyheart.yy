@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettb_upperbodyheart",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2a4c3884-aa9a-4f07-a4d4-5c7cfd743c3b","name":"2a4c3884-aa9a-4f07-a4d4-5c7cfd743c3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2a4c3884-aa9a-4f07-a4d4-5c7cfd743c3b","name":"2a4c3884-aa9a-4f07-a4d4-5c7cfd743c3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

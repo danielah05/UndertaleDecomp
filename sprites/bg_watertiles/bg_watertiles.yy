@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_watertiles",
   "bboxMode":0,
   "bbox_bottom":319,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4c7bfaab-7b11-42c6-8bef-a508ea3d7a46","name":"4c7bfaab-7b11-42c6-8bef-a508ea3d7a46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4c7bfaab-7b11-42c6-8bef-a508ea3d7a46","name":"4c7bfaab-7b11-42c6-8bef-a508ea3d7a46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

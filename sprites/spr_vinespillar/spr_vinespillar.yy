@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_vinespillar",
   "bboxMode":2,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e995ac0d-9947-4bfe-bb43-a04c629a3cac","name":"e995ac0d-9947-4bfe-bb43-a04c629a3cac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e995ac0d-9947-4bfe-bb43-a04c629a3cac","name":"e995ac0d-9947-4bfe-bb43-a04c629a3cac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

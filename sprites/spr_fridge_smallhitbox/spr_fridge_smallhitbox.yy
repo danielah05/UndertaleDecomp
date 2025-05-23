@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_fridge_smallhitbox",
   "bboxMode":2,
   "bbox_bottom":53,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d20ecd8b-28c5-4bdb-a282-cd37b0593a28","name":"d20ecd8b-28c5-4bdb-a282-cd37b0593a28","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d20ecd8b-28c5-4bdb-a282-cd37b0593a28","name":"d20ecd8b-28c5-4bdb-a282-cd37b0593a28","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

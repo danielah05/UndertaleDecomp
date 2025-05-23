@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tobdog_sleep_fire",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a9e5c0ce-a45b-449f-88c8-2f2a24664161","name":"a9e5c0ce-a45b-449f-88c8-2f2a24664161","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f4639a26-6206-4a32-9714-82c1e4b3fd30","name":"f4639a26-6206-4a32-9714-82c1e4b3fd30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9e5c0ce-a45b-449f-88c8-2f2a24664161","name":"a9e5c0ce-a45b-449f-88c8-2f2a24664161","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f4639a26-6206-4a32-9714-82c1e4b3fd30","name":"f4639a26-6206-4a32-9714-82c1e4b3fd30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

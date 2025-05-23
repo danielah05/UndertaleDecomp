@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torheartbreak_again",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c62626f3-ae73-4a3c-8203-fab64d89aa14","name":"c62626f3-ae73-4a3c-8203-fab64d89aa14","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c62626f3-ae73-4a3c-8203-fab64d89aa14","name":"c62626f3-ae73-4a3c-8203-fab64d89aa14","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

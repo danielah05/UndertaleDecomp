@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torielboss_sidesad",
   "bboxMode":0,
   "bbox_bottom":101,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"17df22e0-e3c2-4a4b-99e2-9ddac3e75967","name":"17df22e0-e3c2-4a4b-99e2-9ddac3e75967","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"17df22e0-e3c2-4a4b-99e2-9ddac3e75967","name":"17df22e0-e3c2-4a4b-99e2-9ddac3e75967","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

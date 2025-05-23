@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_hotelwet",
   "bboxMode":0,
   "bbox_bottom":68,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"83446f65-cc94-4fa8-be41-22e3aac0742a","name":"83446f65-cc94-4fa8-be41-22e3aac0742a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83446f65-cc94-4fa8-be41-22e3aac0742a","name":"83446f65-cc94-4fa8-be41-22e3aac0742a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

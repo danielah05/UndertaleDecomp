@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_temstatue",
   "bboxMode":0,
   "bbox_bottom":80,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f46c5eb4-e449-4c31-b52c-4944ec9f9569","name":"f46c5eb4-e449-4c31-b52c-4944ec9f9569","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f46c5eb4-e449-4c31-b52c-4944ec9f9569","name":"f46c5eb4-e449-4c31-b52c-4944ec9f9569","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

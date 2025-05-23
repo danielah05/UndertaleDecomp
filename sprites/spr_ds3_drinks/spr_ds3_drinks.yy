@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds3_drinks",
   "bboxMode":2,
   "bbox_bottom":20,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d9f42021-b12a-4f7a-9807-cd97e1505e50","name":"d9f42021-b12a-4f7a-9807-cd97e1505e50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d9f42021-b12a-4f7a-9807-cd97e1505e50","name":"d9f42021-b12a-4f7a-9807-cd97e1505e50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_oniont_coyd",
   "bboxMode":0,
   "bbox_bottom":22,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e94b0f7e-2775-4878-8809-d5d6ae2f1a5c","name":"e94b0f7e-2775-4878-8809-d5d6ae2f1a5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e94b0f7e-2775-4878-8809-d5d6ae2f1a5c","name":"e94b0f7e-2775-4878-8809-d5d6ae2f1a5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

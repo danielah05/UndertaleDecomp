@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_punkhamster",
   "bboxMode":2,
   "bbox_bottom":40,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"08f2fe8a-84ab-46aa-807c-bc1850c7d365","name":"08f2fe8a-84ab-46aa-807c-bc1850c7d365","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f93cfa5a-b1e5-43c7-8262-98d579210dfd","name":"f93cfa5a-b1e5-43c7-8262-98d579210dfd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"08f2fe8a-84ab-46aa-807c-bc1850c7d365","name":"08f2fe8a-84ab-46aa-807c-bc1850c7d365","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f93cfa5a-b1e5-43c7-8262-98d579210dfd","name":"f93cfa5a-b1e5-43c7-8262-98d579210dfd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

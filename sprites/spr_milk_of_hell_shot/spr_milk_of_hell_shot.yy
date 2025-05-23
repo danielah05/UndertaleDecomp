@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_milk_of_hell_shot",
   "bboxMode":2,
   "bbox_bottom":19,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"14b1c73e-8cfe-4fd1-904b-e611b7780aaf","name":"14b1c73e-8cfe-4fd1-904b-e611b7780aaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8b38fe70-8dd9-4d78-9be6-ca3ad0a4260a","name":"8b38fe70-8dd9-4d78-9be6-ca3ad0a4260a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"31a95165-0bdc-457d-8174-1cc846d34d68","name":"31a95165-0bdc-457d-8174-1cc846d34d68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14b1c73e-8cfe-4fd1-904b-e611b7780aaf","name":"14b1c73e-8cfe-4fd1-904b-e611b7780aaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8b38fe70-8dd9-4d78-9be6-ca3ad0a4260a","name":"8b38fe70-8dd9-4d78-9be6-ca3ad0a4260a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31a95165-0bdc-457d-8174-1cc846d34d68","name":"31a95165-0bdc-457d-8174-1cc846d34d68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

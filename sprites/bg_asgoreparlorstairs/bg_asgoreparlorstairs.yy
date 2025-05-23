@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_asgoreparlorstairs",
   "bboxMode":0,
   "bbox_bottom":151,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"40589dc7-d019-4123-84f8-a4b4f1f455ea","name":"40589dc7-d019-4123-84f8-a4b4f1f455ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40589dc7-d019-4123-84f8-a4b4f1f455ea","name":"40589dc7-d019-4123-84f8-a4b4f1f455ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

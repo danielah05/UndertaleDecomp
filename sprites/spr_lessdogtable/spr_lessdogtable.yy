@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_lessdogtable",
   "bboxMode":2,
   "bbox_bottom":45,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3303cffc-01c5-442b-a80d-e73dfcd5862b","name":"3303cffc-01c5-442b-a80d-e73dfcd5862b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3303cffc-01c5-442b-a80d-e73dfcd5862b","name":"3303cffc-01c5-442b-a80d-e73dfcd5862b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

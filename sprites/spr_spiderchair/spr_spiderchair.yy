@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_spiderchair",
   "bboxMode":2,
   "bbox_bottom":17,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"96fe61f2-224f-4291-b078-a68adb19b901","name":"96fe61f2-224f-4291-b078-a68adb19b901","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c7f4d08b-cd5c-4927-880b-62a7660c2097","name":"c7f4d08b-cd5c-4927-880b-62a7660c2097","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"96fe61f2-224f-4291-b078-a68adb19b901","name":"96fe61f2-224f-4291-b078-a68adb19b901","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7f4d08b-cd5c-4927-880b-62a7660c2097","name":"c7f4d08b-cd5c-4927-880b-62a7660c2097","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

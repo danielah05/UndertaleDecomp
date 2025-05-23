@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_truelab_tiles",
   "bboxMode":0,
   "bbox_bottom":199,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e39f11c2-cc42-4d46-9af3-599843885e7e","name":"e39f11c2-cc42-4d46-9af3-599843885e7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e39f11c2-cc42-4d46-9af3-599843885e7e","name":"e39f11c2-cc42-4d46-9af3-599843885e7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_lasermachine_off",
   "bboxMode":2,
   "bbox_bottom":17,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"62a528e4-9c09-4e49-8145-89c076bf7d9c","name":"62a528e4-9c09-4e49-8145-89c076bf7d9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62a528e4-9c09-4e49-8145-89c076bf7d9c","name":"62a528e4-9c09-4e49-8145-89c076bf7d9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

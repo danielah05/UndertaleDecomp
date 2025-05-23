@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_myroom_doorbg",
   "bboxMode":0,
   "bbox_bottom":77,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f9ddae4f-e4c4-48b2-b491-7805b1a9bca9","name":"f9ddae4f-e4c4-48b2-b491-7805b1a9bca9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"56c2a6d6-22ba-4919-84d3-2290633b128c","name":"56c2a6d6-22ba-4919-84d3-2290633b128c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9ddae4f-e4c4-48b2-b491-7805b1a9bca9","name":"f9ddae4f-e4c4-48b2-b491-7805b1a9bca9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"56c2a6d6-22ba-4919-84d3-2290633b128c","name":"56c2a6d6-22ba-4919-84d3-2290633b128c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

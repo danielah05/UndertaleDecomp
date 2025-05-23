@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hotdog_harpy",
   "bboxMode":2,
   "bbox_bottom":49,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c6421f05-075c-42bf-9c64-ccad03c2793d","name":"c6421f05-075c-42bf-9c64-ccad03c2793d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a77bf45b-fa37-4a36-8705-c3125ddfe65a","name":"a77bf45b-fa37-4a36-8705-c3125ddfe65a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c6421f05-075c-42bf-9c64-ccad03c2793d","name":"c6421f05-075c-42bf-9c64-ccad03c2793d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a77bf45b-fa37-4a36-8705-c3125ddfe65a","name":"a77bf45b-fa37-4a36-8705-c3125ddfe65a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

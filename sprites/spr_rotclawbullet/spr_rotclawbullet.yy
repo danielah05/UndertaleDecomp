@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_rotclawbullet",
   "bboxMode":2,
   "bbox_bottom":14,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"44587337-916e-40d0-bed9-94b88d87f7dc","name":"44587337-916e-40d0-bed9-94b88d87f7dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44587337-916e-40d0-bed9-94b88d87f7dc","name":"44587337-916e-40d0-bed9-94b88d87f7dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_wordfall2",
   "bboxMode":0,
   "bbox_bottom":11,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7a6bfb62-43c9-4e16-a612-c8f4aaffd46e","name":"7a6bfb62-43c9-4e16-a612-c8f4aaffd46e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a6bfb62-43c9-4e16-a612-c8f4aaffd46e","name":"7a6bfb62-43c9-4e16-a612-c8f4aaffd46e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

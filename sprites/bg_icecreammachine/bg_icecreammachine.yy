@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_icecreammachine",
   "bboxMode":0,
   "bbox_bottom":51,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0cbc18bd-d0a6-4b73-9008-8fd471cef5eb","name":"0cbc18bd-d0a6-4b73-9008-8fd471cef5eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0cbc18bd-d0a6-4b73-9008-8fd471cef5eb","name":"0cbc18bd-d0a6-4b73-9008-8fd471cef5eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

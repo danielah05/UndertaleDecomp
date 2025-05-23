@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undynea_starku",
   "bboxMode":2,
   "bbox_bottom":52,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"95167290-e1b2-4b85-b7cc-9be4e4fa2c45","name":"95167290-e1b2-4b85-b7cc-9be4e4fa2c45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95167290-e1b2-4b85-b7cc-9be4e4fa2c45","name":"95167290-e1b2-4b85-b7cc-9be4e4fa2c45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

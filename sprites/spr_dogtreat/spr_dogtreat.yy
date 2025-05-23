@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_dogtreat",
   "bboxMode":2,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0bc95f90-fb35-4518-8ec7-5d109840f5f2","name":"0bc95f90-fb35-4518-8ec7-5d109840f5f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0bc95f90-fb35-4518-8ec7-5d109840f5f2","name":"0bc95f90-fb35-4518-8ec7-5d109840f5f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_finalknight_leftarm",
   "bboxMode":0,
   "bbox_bottom":98,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f142271f-2193-4945-b4c5-02480d2be7aa","name":"f142271f-2193-4945-b4c5-02480d2be7aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f142271f-2193-4945-b4c5-02480d2be7aa","name":"f142271f-2193-4945-b4c5-02480d2be7aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

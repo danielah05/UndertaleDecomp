@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_flipeye_pupil_flash",
   "bboxMode":0,
   "bbox_bottom":8,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"75adea11-31b4-4a3f-97fb-5ebe3a5b9ab2","name":"75adea11-31b4-4a3f-97fb-5ebe3a5b9ab2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"75adea11-31b4-4a3f-97fb-5ebe3a5b9ab2","name":"75adea11-31b4-4a3f-97fb-5ebe3a5b9ab2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

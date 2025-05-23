@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_kitchen",
   "bboxMode":0,
   "bbox_bottom":162,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b4724ba5-1212-4922-a517-e057ee8d7c96","name":"b4724ba5-1212-4922-a517-e057ee8d7c96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4724ba5-1212-4922-a517-e057ee8d7c96","name":"b4724ba5-1212-4922-a517-e057ee8d7c96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

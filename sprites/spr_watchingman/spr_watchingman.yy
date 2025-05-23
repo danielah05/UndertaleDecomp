@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_watchingman",
   "bboxMode":0,
   "bbox_bottom":73,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ef10021b-6567-4ba8-a0e4-c2a72471f009","name":"ef10021b-6567-4ba8-a0e4-c2a72471f009","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef10021b-6567-4ba8-a0e4-c2a72471f009","name":"ef10021b-6567-4ba8-a0e4-c2a72471f009","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
