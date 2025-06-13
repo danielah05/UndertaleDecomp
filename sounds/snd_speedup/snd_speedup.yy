@@ -1,13 +1,14 @@
 {
-  "$GMSound":"v1",
+  "$GMSound":"v2",
   "%Name":"snd_speedup",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":0.6893424,
   "exportDir":"",
@@ -21,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_speedup",
-  "type":1,
   "volume":0.93,
 }

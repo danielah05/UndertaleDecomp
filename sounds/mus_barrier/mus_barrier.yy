@@ -1,13 +1,14 @@
 {
-  "$GMSound":"v1",
+  "$GMSound":"v2",
   "%Name":"mus_barrier",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":3,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":28.387846,
   "exportDir":"",
@@ -21,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mus_barrier.ogg",
-  "type":1,
   "volume":1.0,
 }
