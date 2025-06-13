@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_hoteltile",
   "bboxMode":0,
   "bbox_bottom":219,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"41653cff-d5f1-4c49-81a7-fcbda7dcecf6","name":"41653cff-d5f1-4c49-81a7-fcbda7dcecf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"41653cff-d5f1-4c49-81a7-fcbda7dcecf6","name":"41653cff-d5f1-4c49-81a7-fcbda7dcecf6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

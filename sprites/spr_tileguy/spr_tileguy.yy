@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tileguy",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ed53a3d3-a11e-4c91-8a43-a5dc610d127d","name":"ed53a3d3-a11e-4c91-8a43-a5dc610d127d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed53a3d3-a11e-4c91-8a43-a5dc610d127d","name":"ed53a3d3-a11e-4c91-8a43-a5dc610d127d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

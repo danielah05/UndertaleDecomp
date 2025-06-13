@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"LayerElementType",
   "name":"LayerElementType",
   "parent":{

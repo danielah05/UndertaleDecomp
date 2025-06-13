@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_pyropehurt",
   "bboxMode":0,
   "bbox_bottom":240,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5aba5129-e09b-4f30-8400-1a7909dd46cc","name":"5aba5129-e09b-4f30-8400-1a7909dd46cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5aba5129-e09b-4f30-8400-1a7909dd46cc","name":"5aba5129-e09b-4f30-8400-1a7909dd46cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

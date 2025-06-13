@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_sorrytail_curveback",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d96dd5bf-1d4e-42da-a4dd-68ed46330f59","name":"d96dd5bf-1d4e-42da-a4dd-68ed46330f59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d96dd5bf-1d4e-42da-a4dd-68ed46330f59","name":"d96dd5bf-1d4e-42da-a4dd-68ed46330f59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hole",
   "bboxMode":2,
   "bbox_bottom":16,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8ddfe3fa-ee63-4eba-bd32-4245a1bfaef1","name":"8ddfe3fa-ee63-4eba-bd32-4245a1bfaef1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ddfe3fa-ee63-4eba-bd32-4245a1bfaef1","name":"8ddfe3fa-ee63-4eba-bd32-4245a1bfaef1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

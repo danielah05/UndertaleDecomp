@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_melontooth",
   "bboxMode":2,
   "bbox_bottom":10,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b21e2a72-bbec-44e0-8d0b-1e3f9c9ef8e6","name":"b21e2a72-bbec-44e0-8d0b-1e3f9c9ef8e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b21e2a72-bbec-44e0-8d0b-1e3f9c9ef8e6","name":"b21e2a72-bbec-44e0-8d0b-1e3f9c9ef8e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

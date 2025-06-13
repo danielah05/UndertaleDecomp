@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_wizard_lapel",
   "bboxMode":0,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b588fd1a-c341-4b2a-94a2-e8b976fb9416","name":"b588fd1a-c341-4b2a-94a2-e8b976fb9416","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b588fd1a-c341-4b2a-94a2-e8b976fb9416","name":"b588fd1a-c341-4b2a-94a2-e8b976fb9416","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_oniont_coyl",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b63a586c-dd2a-4de3-b84b-70625b7c25e0","name":"b63a586c-dd2a-4de3-b84b-70625b7c25e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b63a586c-dd2a-4de3-b84b-70625b7c25e0","name":"b63a586c-dd2a-4de3-b84b-70625b7c25e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_awfulshed",
   "bboxMode":2,
   "bbox_bottom":111,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"70175b69-fcff-4f72-b972-95a0859a3310","name":"70175b69-fcff-4f72-b972-95a0859a3310","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"70175b69-fcff-4f72-b972-95a0859a3310","name":"70175b69-fcff-4f72-b972-95a0859a3310","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

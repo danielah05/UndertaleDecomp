@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_statuelight",
   "bboxMode":2,
   "bbox_bottom":1,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"71b30313-bd92-4b24-ab35-1aaa0cf7cd3e","name":"71b30313-bd92-4b24-ab35-1aaa0cf7cd3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"71b30313-bd92-4b24-ab35-1aaa0cf7cd3e","name":"71b30313-bd92-4b24-ab35-1aaa0cf7cd3e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

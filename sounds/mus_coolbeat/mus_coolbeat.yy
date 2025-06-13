@@ -1,15 +1,16 @@
 {
-  "$GMSound":"v1",
+  "$GMSound":"v2",
   "%Name":"mus_coolbeat",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":3,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.590567,
+  "duration":1.5905669,
   "exportDir":"",
   "name":"mus_coolbeat",
   "parent":{
@@ -21,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mus_coolbeat.ogg",
-  "type":1,
   "volume":1.0,
 }

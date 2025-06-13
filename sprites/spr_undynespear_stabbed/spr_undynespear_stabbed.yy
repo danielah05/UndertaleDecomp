@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undynespear_stabbed",
   "bboxMode":1,
   "bbox_bottom":52,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4d44f56f-9fa2-48b5-a709-6f1f81b9aedd","name":"4d44f56f-9fa2-48b5-a709-6f1f81b9aedd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d44f56f-9fa2-48b5-a709-6f1f81b9aedd","name":"4d44f56f-9fa2-48b5-a709-6f1f81b9aedd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

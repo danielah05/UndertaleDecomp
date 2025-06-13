@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_garden_overlayshadow",
   "bboxMode":0,
   "bbox_bottom":601,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"92e50aae-86f3-4a04-b414-3e086bc525a8","name":"92e50aae-86f3-4a04-b414-3e086bc525a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"92e50aae-86f3-4a04-b414-3e086bc525a8","name":"92e50aae-86f3-4a04-b414-3e086bc525a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

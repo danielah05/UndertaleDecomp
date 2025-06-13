@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_snailyellow_hopeless2",
   "bboxMode":2,
   "bbox_bottom":7,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"219edce4-dbd2-47f0-bb19-5469e5caf3ba","name":"219edce4-dbd2-47f0-bb19-5469e5caf3ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4eb67489-3d80-4b3b-91de-5ae3c5cb793f","name":"4eb67489-3d80-4b3b-91de-5ae3c5cb793f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"219edce4-dbd2-47f0-bb19-5469e5caf3ba","name":"219edce4-dbd2-47f0-bb19-5469e5caf3ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4eb67489-3d80-4b3b-91de-5ae3c5cb793f","name":"4eb67489-3d80-4b3b-91de-5ae3c5cb793f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

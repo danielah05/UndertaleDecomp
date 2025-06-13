@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_hg_laughing",
   "bboxMode":0,
   "bbox_bottom":153,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a5265ebb-9b9f-471f-ad2a-bf5e91a00720","name":"a5265ebb-9b9f-471f-ad2a-bf5e91a00720","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a5265ebb-9b9f-471f-ad2a-bf5e91a00720","name":"a5265ebb-9b9f-471f-ad2a-bf5e91a00720","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

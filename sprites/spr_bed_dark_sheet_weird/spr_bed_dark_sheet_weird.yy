@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_bed_dark_sheet_weird",
   "bboxMode":0,
   "bbox_bottom":38,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f25bae63-7c8a-4f90-8394-b01ad6cc9fc9","name":"f25bae63-7c8a-4f90-8394-b01ad6cc9fc9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f25bae63-7c8a-4f90-8394-b01ad6cc9fc9","name":"f25bae63-7c8a-4f90-8394-b01ad6cc9fc9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

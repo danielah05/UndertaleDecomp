@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_f_handgun",
   "bboxMode":0,
   "bbox_bottom":93,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d54783bc-c84e-45be-894a-990b0788a115","name":"d54783bc-c84e-45be-894a-990b0788a115","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c4c4626b-e3bd-4981-9fc6-dd440f26ed9a","name":"c4c4626b-e3bd-4981-9fc6-dd440f26ed9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d54783bc-c84e-45be-894a-990b0788a115","name":"d54783bc-c84e-45be-894a-990b0788a115","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c4c4626b-e3bd-4981-9fc6-dd440f26ed9a","name":"c4c4626b-e3bd-4981-9fc6-dd440f26ed9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

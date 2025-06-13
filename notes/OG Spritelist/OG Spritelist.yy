@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"OG Spritelist",
   "name":"OG Spritelist",
   "parent":{

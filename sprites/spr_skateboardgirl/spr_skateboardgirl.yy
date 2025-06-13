@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_skateboardgirl",
   "bboxMode":2,
   "bbox_bottom":48,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"53e81e10-c5dc-44fb-86b1-04b048b86dad","name":"53e81e10-c5dc-44fb-86b1-04b048b86dad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7afc4fdf-df7f-41eb-b57b-cde23869c395","name":"7afc4fdf-df7f-41eb-b57b-cde23869c395","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"53e81e10-c5dc-44fb-86b1-04b048b86dad","name":"53e81e10-c5dc-44fb-86b1-04b048b86dad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7afc4fdf-df7f-41eb-b57b-cde23869c395","name":"7afc4fdf-df7f-41eb-b57b-cde23869c395","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

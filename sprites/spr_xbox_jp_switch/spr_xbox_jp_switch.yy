@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_xbox_jp_switch",
   "bboxMode":0,
   "bbox_bottom":724,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b13cad0a-c71b-4183-8212-f7f6dab0aded","name":"b13cad0a-c71b-4183-8212-f7f6dab0aded","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b13cad0a-c71b-4183-8212-f7f6dab0aded","name":"b13cad0a-c71b-4183-8212-f7f6dab0aded","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

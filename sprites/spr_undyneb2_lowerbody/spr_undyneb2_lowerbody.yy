@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyneb2_lowerbody",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ffc9c6a0-c3f5-4a4d-8e98-ed5c3b3e1762","name":"ffc9c6a0-c3f5-4a4d-8e98-ed5c3b3e1762","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ffc9c6a0-c3f5-4a4d-8e98-ed5c3b3e1762","name":"ffc9c6a0-c3f5-4a4d-8e98-ed5c3b3e1762","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

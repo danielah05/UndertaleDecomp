@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_womandoge",
   "bboxMode":0,
   "bbox_bottom":199,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5c9e8380-29d0-410d-9825-ecc3a9e1b096","name":"5c9e8380-29d0-410d-9825-ecc3a9e1b096","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7c3503f0-ad8d-4381-9dc2-c91346087fec","name":"7c3503f0-ad8d-4381-9dc2-c91346087fec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c9e8380-29d0-410d-9825-ecc3a9e1b096","name":"5c9e8380-29d0-410d-9825-ecc3a9e1b096","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c3503f0-ad8d-4381-9dc2-c91346087fec","name":"7c3503f0-ad8d-4381-9dc2-c91346087fec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

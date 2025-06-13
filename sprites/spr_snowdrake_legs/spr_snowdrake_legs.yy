@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_snowdrake_legs",
   "bboxMode":0,
   "bbox_bottom":99,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"720bdd4b-3546-4562-ac0a-d0b2e023cbd3","name":"720bdd4b-3546-4562-ac0a-d0b2e023cbd3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"720bdd4b-3546-4562-ac0a-d0b2e023cbd3","name":"720bdd4b-3546-4562-ac0a-d0b2e023cbd3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

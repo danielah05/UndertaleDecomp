@@ -1,15 +1,16 @@
 {
-  "$GMSound":"v1",
+  "$GMSound":"v2",
   "%Name":"mus_mettmusical2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":3,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":18.014,
+  "duration":18.004173,
   "exportDir":"",
   "name":"mus_mettmusical2",
   "parent":{
@@ -21,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mus_mettmusical2.ogg",
-  "type":1,
   "volume":1.0,
 }

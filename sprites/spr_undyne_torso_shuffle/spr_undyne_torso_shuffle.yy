@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyne_torso_shuffle",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"aa1fcabb-d57b-4e8c-92be-9356b529ba78","name":"aa1fcabb-d57b-4e8c-92be-9356b529ba78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b476d7a4-9a9c-4ac9-aba2-7371b23da876","name":"b476d7a4-9a9c-4ac9-aba2-7371b23da876","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aa1fcabb-d57b-4e8c-92be-9356b529ba78","name":"aa1fcabb-d57b-4e8c-92be-9356b529ba78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b476d7a4-9a9c-4ac9-aba2-7371b23da876","name":"b476d7a4-9a9c-4ac9-aba2-7371b23da876","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

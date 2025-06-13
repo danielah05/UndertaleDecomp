@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_snowdrakedad",
   "bboxMode":2,
   "bbox_bottom":43,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2044f3a6-5ba5-4328-938f-5cd3e0bd8592","name":"2044f3a6-5ba5-4328-938f-5cd3e0bd8592","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b10a44b5-7c20-441f-b659-e5d1eeab5275","name":"b10a44b5-7c20-441f-b659-e5d1eeab5275","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2044f3a6-5ba5-4328-938f-5cd3e0bd8592","name":"2044f3a6-5ba5-4328-938f-5cd3e0bd8592","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b10a44b5-7c20-441f-b659-e5d1eeab5275","name":"b10a44b5-7c20-441f-b659-e5d1eeab5275","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

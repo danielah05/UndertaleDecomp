@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgore_wrapshock",
   "bboxMode":0,
   "bbox_bottom":135,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"09f1c59a-14f6-4eda-85bd-d88b80225f0f","name":"09f1c59a-14f6-4eda-85bd-d88b80225f0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"09f1c59a-14f6-4eda-85bd-d88b80225f0f","name":"09f1c59a-14f6-4eda-85bd-d88b80225f0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torielboss_sadhappy",
   "bboxMode":0,
   "bbox_bottom":101,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e4147411-de6e-48e8-909c-f91bc029d7c9","name":"e4147411-de6e-48e8-909c-f91bc029d7c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"513d7987-7995-4a30-ad69-c4183f6afc45","name":"513d7987-7995-4a30-ad69-c4183f6afc45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e4147411-de6e-48e8-909c-f91bc029d7c9","name":"e4147411-de6e-48e8-909c-f91bc029d7c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"513d7987-7995-4a30-ad69-c4183f6afc45","name":"513d7987-7995-4a30-ad69-c4183f6afc45","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

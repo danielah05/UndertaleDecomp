@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettaton_holdarm",
   "bboxMode":0,
   "bbox_bottom":49,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4584f261-e75f-4dee-b74a-253d7168e3fb","name":"4584f261-e75f-4dee-b74a-253d7168e3fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"450a8f49-3b75-433d-b14c-6e0198173e43","name":"450a8f49-3b75-433d-b14c-6e0198173e43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4584f261-e75f-4dee-b74a-253d7168e3fb","name":"4584f261-e75f-4dee-b74a-253d7168e3fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"450a8f49-3b75-433d-b14c-6e0198173e43","name":"450a8f49-3b75-433d-b14c-6e0198173e43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

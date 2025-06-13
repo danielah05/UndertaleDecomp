@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papcar_tires",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5c50fe42-ed24-4d2c-8158-25fe47ddfea1","name":"5c50fe42-ed24-4d2c-8158-25fe47ddfea1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9758f977-1ab8-4474-8635-4e506ab39861","name":"9758f977-1ab8-4474-8635-4e506ab39861","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c50fe42-ed24-4d2c-8158-25fe47ddfea1","name":"5c50fe42-ed24-4d2c-8158-25fe47ddfea1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9758f977-1ab8-4474-8635-4e506ab39861","name":"9758f977-1ab8-4474-8635-4e506ab39861","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

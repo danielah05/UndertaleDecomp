@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_border_tundra_1080",
   "bboxMode":0,
   "bbox_bottom":1079,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"787cc4fd-10a6-4817-8b03-47ed20d6b6d7","name":"787cc4fd-10a6-4817-8b03-47ed20d6b6d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"787cc4fd-10a6-4817-8b03-47ed20d6b6d7","name":"787cc4fd-10a6-4817-8b03-47ed20d6b6d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

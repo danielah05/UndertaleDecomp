@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_dogmissle",
   "bboxMode":2,
   "bbox_bottom":3,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"17ada7f8-5336-49c5-a2d0-3128819eafd2","name":"17ada7f8-5336-49c5-a2d0-3128819eafd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"17ada7f8-5336-49c5-a2d0-3128819eafd2","name":"17ada7f8-5336-49c5-a2d0-3128819eafd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

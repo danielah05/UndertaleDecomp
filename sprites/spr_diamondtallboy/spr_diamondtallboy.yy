@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_diamondtallboy",
   "bboxMode":2,
   "bbox_bottom":37,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ce409443-568e-4a2c-8e7e-a27fa05ecd86","name":"ce409443-568e-4a2c-8e7e-a27fa05ecd86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f7b64858-1c5a-4c49-ae52-2f3c904ce5b5","name":"f7b64858-1c5a-4c49-ae52-2f3c904ce5b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce409443-568e-4a2c-8e7e-a27fa05ecd86","name":"ce409443-568e-4a2c-8e7e-a27fa05ecd86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7b64858-1c5a-4c49-ae52-2f3c904ce5b5","name":"f7b64858-1c5a-4c49-ae52-2f3c904ce5b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

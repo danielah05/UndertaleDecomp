@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_napstabattle_leg",
   "bboxMode":0,
   "bbox_bottom":86,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6596cb67-0c2f-4be9-8536-946b8696ce4a","name":"6596cb67-0c2f-4be9-8536-946b8696ce4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"91dcae85-b661-4b2c-8f66-ba9012d6d377","name":"91dcae85-b661-4b2c-8f66-ba9012d6d377","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6596cb67-0c2f-4be9-8536-946b8696ce4a","name":"6596cb67-0c2f-4be9-8536-946b8696ce4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"91dcae85-b661-4b2c-8f66-ba9012d6d377","name":"91dcae85-b661-4b2c-8f66-ba9012d6d377","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

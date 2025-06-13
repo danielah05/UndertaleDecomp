@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papdate_spaghetti",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"46f698b7-0bfd-4eea-a8fb-fb3cb3f9eb96","name":"46f698b7-0bfd-4eea-a8fb-fb3cb3f9eb96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2ec8db9a-ad44-4fc3-956b-e3ebf7f2de97","name":"2ec8db9a-ad44-4fc3-956b-e3ebf7f2de97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"46f698b7-0bfd-4eea-a8fb-fb3cb3f9eb96","name":"46f698b7-0bfd-4eea-a8fb-fb3cb3f9eb96","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2ec8db9a-ad44-4fc3-956b-e3ebf7f2de97","name":"2ec8db9a-ad44-4fc3-956b-e3ebf7f2de97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

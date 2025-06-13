@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgoreb_cape",
   "bboxMode":0,
   "bbox_bottom":80,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"907f58a0-e3a0-4484-becc-48daa94783da","name":"907f58a0-e3a0-4484-becc-48daa94783da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ce7606ae-1163-4ef4-96d3-a165dff615a5","name":"ce7606ae-1163-4ef4-96d3-a165dff615a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"907f58a0-e3a0-4484-becc-48daa94783da","name":"907f58a0-e3a0-4484-becc-48daa94783da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce7606ae-1163-4ef4-96d3-a165dff615a5","name":"ce7606ae-1163-4ef4-96d3-a165dff615a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

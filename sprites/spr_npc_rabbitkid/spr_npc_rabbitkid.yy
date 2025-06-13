@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_rabbitkid",
   "bboxMode":2,
   "bbox_bottom":34,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f54cb9c7-180e-4681-bf7b-7df1c1547007","name":"f54cb9c7-180e-4681-bf7b-7df1c1547007","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"25f17cab-a8d0-4e16-96b4-c0814f24cdde","name":"25f17cab-a8d0-4e16-96b4-c0814f24cdde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f54cb9c7-180e-4681-bf7b-7df1c1547007","name":"f54cb9c7-180e-4681-bf7b-7df1c1547007","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25f17cab-a8d0-4e16-96b4-c0814f24cdde","name":"25f17cab-a8d0-4e16-96b4-c0814f24cdde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

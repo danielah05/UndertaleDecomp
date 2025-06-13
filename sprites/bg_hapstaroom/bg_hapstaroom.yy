@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_hapstaroom",
   "bboxMode":0,
   "bbox_bottom":229,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2871af4f-59f2-43fd-8e4e-9f47b9245c92","name":"2871af4f-59f2-43fd-8e4e-9f47b9245c92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2871af4f-59f2-43fd-8e4e-9f47b9245c92","name":"2871af4f-59f2-43fd-8e4e-9f47b9245c92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

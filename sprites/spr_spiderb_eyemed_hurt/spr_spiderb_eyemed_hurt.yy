@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_spiderb_eyemed_hurt",
   "bboxMode":0,
   "bbox_bottom":4,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b41c3d7d-5f78-4932-83c5-3d4aea14a954","name":"b41c3d7d-5f78-4932-83c5-3d4aea14a954","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b41c3d7d-5f78-4932-83c5-3d4aea14a954","name":"b41c3d7d-5f78-4932-83c5-3d4aea14a954","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

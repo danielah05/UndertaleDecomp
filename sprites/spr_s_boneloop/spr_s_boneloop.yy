@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_s_boneloop",
   "bboxMode":2,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8a8da4ae-4ee8-41eb-9c4c-797bd84ead8d","name":"8a8da4ae-4ee8-41eb-9c4c-797bd84ead8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8a8da4ae-4ee8-41eb-9c4c-797bd84ead8d","name":"8a8da4ae-4ee8-41eb-9c4c-797bd84ead8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

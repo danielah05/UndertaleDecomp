@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_charar_fall",
   "bboxMode":2,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"174401ae-2326-4fed-9aae-b7e09f31679f","name":"174401ae-2326-4fed-9aae-b7e09f31679f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"873a61e1-4865-412f-bac9-6ee3cf02a189","name":"873a61e1-4865-412f-bac9-6ee3cf02a189","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"174401ae-2326-4fed-9aae-b7e09f31679f","name":"174401ae-2326-4fed-9aae-b7e09f31679f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"873a61e1-4865-412f-bac9-6ee3cf02a189","name":"873a61e1-4865-412f-bac9-6ee3cf02a189","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

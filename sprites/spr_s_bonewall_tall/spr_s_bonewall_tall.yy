@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_s_bonewall_tall",
   "bboxMode":2,
   "bbox_bottom":195,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5f0b7233-a3c7-48ee-8c67-37d0ed362d71","name":"5f0b7233-a3c7-48ee-8c67-37d0ed362d71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f0b7233-a3c7-48ee-8c67-37d0ed362d71","name":"5f0b7233-a3c7-48ee-8c67-37d0ed362d71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_snowdinlogo",
   "bboxMode":2,
   "bbox_bottom":45,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"41d54eeb-29be-4fb2-87b8-e2ea4b99ac51","name":"41d54eeb-29be-4fb2-87b8-e2ea4b99ac51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"41d54eeb-29be-4fb2-87b8-e2ea4b99ac51","name":"41d54eeb-29be-4fb2-87b8-e2ea4b99ac51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

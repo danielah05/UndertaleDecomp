@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_planeexplosion",
   "bboxMode":0,
   "bbox_bottom":91,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"de3d0b14-e862-4de9-9c4d-b0bd4d85f127","name":"de3d0b14-e862-4de9-9c4d-b0bd4d85f127","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"de3d0b14-e862-4de9-9c4d-b0bd4d85f127","name":"de3d0b14-e862-4de9-9c4d-b0bd4d85f127","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

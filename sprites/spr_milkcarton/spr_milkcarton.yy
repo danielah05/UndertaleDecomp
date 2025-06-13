@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_milkcarton",
   "bboxMode":1,
   "bbox_bottom":46,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"daac6ad3-8963-45e3-b4b4-caae9d3fa0b2","name":"daac6ad3-8963-45e3-b4b4-caae9d3fa0b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"daac6ad3-8963-45e3-b4b4-caae9d3fa0b2","name":"daac6ad3-8963-45e3-b4b4-caae9d3fa0b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

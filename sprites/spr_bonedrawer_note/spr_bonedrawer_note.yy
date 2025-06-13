@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_bonedrawer_note",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"57bd79c0-befe-42f9-a4b6-9d2d0218365f","name":"57bd79c0-befe-42f9-a4b6-9d2d0218365f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"57bd79c0-befe-42f9-a4b6-9d2d0218365f","name":"57bd79c0-befe-42f9-a4b6-9d2d0218365f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

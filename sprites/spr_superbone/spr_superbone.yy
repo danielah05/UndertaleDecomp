@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_superbone",
   "bboxMode":2,
   "bbox_bottom":237,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6e5f3d77-d589-433b-a32b-39b8bab80bda","name":"6e5f3d77-d589-433b-a32b-39b8bab80bda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e5f3d77-d589-433b-a32b-39b8bab80bda","name":"6e5f3d77-d589-433b-a32b-39b8bab80bda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

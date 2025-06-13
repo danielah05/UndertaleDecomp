@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_f_handknife",
   "bboxMode":2,
   "bbox_bottom":50,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5c4dc636-38e2-4579-84d0-da7bfda65853","name":"5c4dc636-38e2-4579-84d0-da7bfda65853","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c4dc636-38e2-4579-84d0-da7bfda65853","name":"5c4dc636-38e2-4579-84d0-da7bfda65853","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

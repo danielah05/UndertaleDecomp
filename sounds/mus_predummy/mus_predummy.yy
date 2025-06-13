@@ -1,15 +1,16 @@
 {
-  "$GMSound":"v1",
+  "$GMSound":"v2",
   "%Name":"mus_predummy",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":1,
   "compression":3,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":6.915193,
+  "duration":6.9151926,
   "exportDir":"",
   "name":"mus_predummy",
   "parent":{
@@ -21,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"mus_predummy.ogg",
-  "type":1,
   "volume":1.0,
 }

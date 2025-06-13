@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_ladygarf",
   "bboxMode":2,
   "bbox_bottom":46,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"35d18df9-35c0-4193-97dc-6c384d68450b","name":"35d18df9-35c0-4193-97dc-6c384d68450b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"486448d0-45bb-4aa4-97b6-228bde3e3d81","name":"486448d0-45bb-4aa4-97b6-228bde3e3d81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"35d18df9-35c0-4193-97dc-6c384d68450b","name":"35d18df9-35c0-4193-97dc-6c384d68450b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"486448d0-45bb-4aa4-97b6-228bde3e3d81","name":"486448d0-45bb-4aa4-97b6-228bde3e3d81","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

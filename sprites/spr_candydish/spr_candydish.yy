@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_candydish",
   "bboxMode":2,
   "bbox_bottom":26,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"616dccf9-e8ff-438a-bf8d-509fc3a436f2","name":"616dccf9-e8ff-438a-bf8d-509fc3a436f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"616dccf9-e8ff-438a-bf8d-509fc3a436f2","name":"616dccf9-e8ff-438a-bf8d-509fc3a436f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

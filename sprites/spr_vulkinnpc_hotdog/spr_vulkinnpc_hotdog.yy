@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_vulkinnpc_hotdog",
   "bboxMode":2,
   "bbox_bottom":35,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"77ff533f-b374-4879-ab36-78fd6abe77aa","name":"77ff533f-b374-4879-ab36-78fd6abe77aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e450b9be-aafb-493f-9d84-f56c4606157d","name":"e450b9be-aafb-493f-9d84-f56c4606157d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77ff533f-b374-4879-ab36-78fd6abe77aa","name":"77ff533f-b374-4879-ab36-78fd6abe77aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e450b9be-aafb-493f-9d84-f56c4606157d","name":"e450b9be-aafb-493f-9d84-f56c4606157d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

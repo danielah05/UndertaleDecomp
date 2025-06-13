@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_railingpiece2_tint",
   "bboxMode":2,
   "bbox_bottom":74,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1f56cd35-1605-42ea-8527-ed7689ac923a","name":"1f56cd35-1605-42ea-8527-ed7689ac923a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1f56cd35-1605-42ea-8527-ed7689ac923a","name":"1f56cd35-1605-42ea-8527-ed7689ac923a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

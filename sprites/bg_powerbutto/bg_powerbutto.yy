@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_powerbutto",
   "bboxMode":0,
   "bbox_bottom":139,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1b5a8ce4-ca85-4aea-97dd-88f4e60ca361","name":"1b5a8ce4-ca85-4aea-97dd-88f4e60ca361","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b5a8ce4-ca85-4aea-97dd-88f4e60ca361","name":"1b5a8ce4-ca85-4aea-97dd-88f4e60ca361","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

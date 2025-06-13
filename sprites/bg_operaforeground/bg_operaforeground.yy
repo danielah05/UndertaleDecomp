@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_operaforeground",
   "bboxMode":0,
   "bbox_bottom":124,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e0f3bbd7-1581-4a4c-a49d-e4980ffcb13b","name":"e0f3bbd7-1581-4a4c-a49d-e4980ffcb13b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0f3bbd7-1581-4a4c-a49d-e4980ffcb13b","name":"e0f3bbd7-1581-4a4c-a49d-e4980ffcb13b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

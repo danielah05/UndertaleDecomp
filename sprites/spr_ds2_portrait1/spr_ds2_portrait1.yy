@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds2_portrait1",
   "bboxMode":2,
   "bbox_bottom":16,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d969d5fd-a6c8-420d-8b9b-e3969df1f189","name":"d969d5fd-a6c8-420d-8b9b-e3969df1f189","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d969d5fd-a6c8-420d-8b9b-e3969df1f189","name":"d969d5fd-a6c8-420d-8b9b-e3969df1f189","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

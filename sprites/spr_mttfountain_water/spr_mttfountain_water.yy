@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mttfountain_water",
   "bboxMode":0,
   "bbox_bottom":68,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7430db76-709d-4277-a3ef-29bbe98baa43","name":"7430db76-709d-4277-a3ef-29bbe98baa43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"848bd393-e305-4592-a8a4-1b598a626a38","name":"848bd393-e305-4592-a8a4-1b598a626a38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7430db76-709d-4277-a3ef-29bbe98baa43","name":"7430db76-709d-4277-a3ef-29bbe98baa43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"848bd393-e305-4592-a8a4-1b598a626a38","name":"848bd393-e305-4592-a8a4-1b598a626a38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tobydogscoot_small",
   "bboxMode":0,
   "bbox_bottom":18,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9f1c1f34-a0f8-4b2e-9400-79cc3736fe9a","name":"9f1c1f34-a0f8-4b2e-9400-79cc3736fe9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7fbce97e-02a2-4c6d-b980-a2e286207e94","name":"7fbce97e-02a2-4c6d-b980-a2e286207e94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f1c1f34-a0f8-4b2e-9400-79cc3736fe9a","name":"9f1c1f34-a0f8-4b2e-9400-79cc3736fe9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7fbce97e-02a2-4c6d-b980-a2e286207e94","name":"7fbce97e-02a2-4c6d-b980-a2e286207e94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

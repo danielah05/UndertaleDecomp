@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_amalgam_fridgenpc",
   "bboxMode":2,
   "bbox_bottom":55,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"800cfe61-bab9-45d7-a4fd-cedbc602bd73","name":"800cfe61-bab9-45d7-a4fd-cedbc602bd73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d059da73-97de-4875-89f4-579b2b71f5e4","name":"d059da73-97de-4875-89f4-579b2b71f5e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"800cfe61-bab9-45d7-a4fd-cedbc602bd73","name":"800cfe61-bab9-45d7-a4fd-cedbc602bd73","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d059da73-97de-4875-89f4-579b2b71f5e4","name":"d059da73-97de-4875-89f4-579b2b71f5e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

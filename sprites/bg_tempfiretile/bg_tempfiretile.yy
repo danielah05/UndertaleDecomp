@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_tempfiretile",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"337589dd-5470-45cc-8e75-c0ae50c5fbdb","name":"337589dd-5470-45cc-8e75-c0ae50c5fbdb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"337589dd-5470-45cc-8e75-c0ae50c5fbdb","name":"337589dd-5470-45cc-8e75-c0ae50c5fbdb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

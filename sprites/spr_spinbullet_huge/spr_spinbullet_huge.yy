@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_spinbullet_huge",
   "bboxMode":2,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7eeec5e1-3a49-45a7-81c6-84fde6da8d78","name":"7eeec5e1-3a49-45a7-81c6-84fde6da8d78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7eeec5e1-3a49-45a7-81c6-84fde6da8d78","name":"7eeec5e1-3a49-45a7-81c6-84fde6da8d78","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

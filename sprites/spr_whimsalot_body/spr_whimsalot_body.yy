@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_whimsalot_body",
   "bboxMode":0,
   "bbox_bottom":24,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"acc25d9a-84b8-44ce-b539-a771955c42f8","name":"acc25d9a-84b8-44ce-b539-a771955c42f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"22ccc367-2a87-4e15-b8eb-b070a47039fc","name":"22ccc367-2a87-4e15-b8eb-b070a47039fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"acc25d9a-84b8-44ce-b539-a771955c42f8","name":"acc25d9a-84b8-44ce-b539-a771955c42f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22ccc367-2a87-4e15-b8eb-b070a47039fc","name":"22ccc367-2a87-4e15-b8eb-b070a47039fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

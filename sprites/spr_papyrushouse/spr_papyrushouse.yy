@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papyrushouse",
   "bboxMode":2,
   "bbox_bottom":198,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"db898e01-2d95-4a62-ab47-7fa7f15013a6","name":"db898e01-2d95-4a62-ab47-7fa7f15013a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"db898e01-2d95-4a62-ab47-7fa7f15013a6","name":"db898e01-2d95-4a62-ab47-7fa7f15013a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

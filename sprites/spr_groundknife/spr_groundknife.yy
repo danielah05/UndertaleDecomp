@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_groundknife",
   "bboxMode":2,
   "bbox_bottom":13,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd0f71b3-b796-4bf1-a693-2cd3c6daf88c","name":"cd0f71b3-b796-4bf1-a693-2cd3c6daf88c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd0f71b3-b796-4bf1-a693-2cd3c6daf88c","name":"cd0f71b3-b796-4bf1-a693-2cd3c6daf88c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

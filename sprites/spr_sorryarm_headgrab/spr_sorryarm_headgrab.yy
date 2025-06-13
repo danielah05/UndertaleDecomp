@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_sorryarm_headgrab",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a638d4b5-44b3-44f0-9311-ea9cd10db150","name":"a638d4b5-44b3-44f0-9311-ea9cd10db150","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a638d4b5-44b3-44f0-9311-ea9cd10db150","name":"a638d4b5-44b3-44f0-9311-ea9cd10db150","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

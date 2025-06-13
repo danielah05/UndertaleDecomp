@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"button_ps4_options",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"49164fe3-5a01-4c8e-ad71-67a49b6cdf5e","name":"49164fe3-5a01-4c8e-ad71-67a49b6cdf5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"49164fe3-5a01-4c8e-ad71-67a49b6cdf5e","name":"49164fe3-5a01-4c8e-ad71-67a49b6cdf5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

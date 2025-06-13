@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_kitchencounter",
   "bboxMode":1,
   "bbox_bottom":41,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d452b537-4dab-4f90-a951-e8795de0d661","name":"d452b537-4dab-4f90-a951-e8795de0d661","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d452b537-4dab-4f90-a951-e8795de0d661","name":"d452b537-4dab-4f90-a951-e8795de0d661","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

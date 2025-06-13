@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_kidasriel_front_kawaii",
   "bboxMode":0,
   "bbox_bottom":77,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0da9daf9-176b-4845-8f52-f483c693551b","name":"0da9daf9-176b-4845-8f52-f483c693551b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"be636e19-ef82-4eca-bb19-caff33b53de7","name":"be636e19-ef82-4eca-bb19-caff33b53de7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0da9daf9-176b-4845-8f52-f483c693551b","name":"0da9daf9-176b-4845-8f52-f483c693551b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"be636e19-ef82-4eca-bb19-caff33b53de7","name":"be636e19-ef82-4eca-bb19-caff33b53de7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

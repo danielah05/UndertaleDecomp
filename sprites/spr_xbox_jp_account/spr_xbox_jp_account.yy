@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_xbox_jp_account",
   "bboxMode":0,
   "bbox_bottom":921,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4f13ff88-a9a6-4ff3-bbcc-6ec17f811f62","name":"4f13ff88-a9a6-4ff3-bbcc-6ec17f811f62","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f13ff88-a9a6-4ff3-bbcc-6ec17f811f62","name":"4f13ff88-a9a6-4ff3-bbcc-6ec17f811f62","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

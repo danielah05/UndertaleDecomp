@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_knighthurt",
   "bboxMode":0,
   "bbox_bottom":200,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"719799dd-6333-4ee3-bb3e-e1051e5139f4","name":"719799dd-6333-4ee3-bb3e-e1051e5139f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"719799dd-6333-4ee3-bb3e-e1051e5139f4","name":"719799dd-6333-4ee3-bb3e-e1051e5139f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

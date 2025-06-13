@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_dresslion_b",
   "bboxMode":2,
   "bbox_bottom":44,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"53359be9-3759-47b3-afbd-67a3309c1c95","name":"53359be9-3759-47b3-afbd-67a3309c1c95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6fb015d5-c52e-4f13-a7bb-ec6d1bd95e44","name":"6fb015d5-c52e-4f13-a7bb-ec6d1bd95e44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"53359be9-3759-47b3-afbd-67a3309c1c95","name":"53359be9-3759-47b3-afbd-67a3309c1c95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6fb015d5-c52e-4f13-a7bb-ec6d1bd95e44","name":"6fb015d5-c52e-4f13-a7bb-ec6d1bd95e44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

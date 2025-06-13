@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgoreb_legs",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5f158c5c-c882-418b-a8ea-fdb732f5ac76","name":"5f158c5c-c882-418b-a8ea-fdb732f5ac76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f158c5c-c882-418b-a8ea-fdb732f5ac76","name":"5f158c5c-c882-418b-a8ea-fdb732f5ac76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

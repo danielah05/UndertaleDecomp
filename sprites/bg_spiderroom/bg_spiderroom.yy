@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_spiderroom",
   "bboxMode":0,
   "bbox_bottom":99,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bfd80f0b-05ee-4783-8c7a-5b2e34ff6c12","name":"bfd80f0b-05ee-4783-8c7a-5b2e34ff6c12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bfd80f0b-05ee-4783-8c7a-5b2e34ff6c12","name":"bfd80f0b-05ee-4783-8c7a-5b2e34ff6c12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

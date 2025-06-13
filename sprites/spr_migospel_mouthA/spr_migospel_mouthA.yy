@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_migospel_mouthA",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eae16b32-cd52-4350-ab2e-eda0c1215d44","name":"eae16b32-cd52-4350-ab2e-eda0c1215d44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"921d1a21-f424-471a-b918-22e3c9c52375","name":"921d1a21-f424-471a-b918-22e3c9c52375","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eae16b32-cd52-4350-ab2e-eda0c1215d44","name":"eae16b32-cd52-4350-ab2e-eda0c1215d44","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"921d1a21-f424-471a-b918-22e3c9c52375","name":"921d1a21-f424-471a-b918-22e3c9c52375","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

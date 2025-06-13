@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_reddemon",
   "bboxMode":2,
   "bbox_bottom":42,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c76dbe91-e3bb-4812-a6fa-6ca207c49159","name":"c76dbe91-e3bb-4812-a6fa-6ca207c49159","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59c0825e-e506-4a0a-9788-31042bfaf69e","name":"59c0825e-e506-4a0a-9788-31042bfaf69e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c76dbe91-e3bb-4812-a6fa-6ca207c49159","name":"c76dbe91-e3bb-4812-a6fa-6ca207c49159","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59c0825e-e506-4a0a-9788-31042bfaf69e","name":"59c0825e-e506-4a0a-9788-31042bfaf69e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

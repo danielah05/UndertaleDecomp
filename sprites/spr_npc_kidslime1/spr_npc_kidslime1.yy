@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_npc_kidslime1",
   "bboxMode":1,
   "bbox_bottom":10,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"67c14f2e-755d-4b1b-8112-aa3739aa90e0","name":"67c14f2e-755d-4b1b-8112-aa3739aa90e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"18846685-54af-4b04-b6f0-99a843e4b262","name":"18846685-54af-4b04-b6f0-99a843e4b262","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"67c14f2e-755d-4b1b-8112-aa3739aa90e0","name":"67c14f2e-755d-4b1b-8112-aa3739aa90e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"18846685-54af-4b04-b6f0-99a843e4b262","name":"18846685-54af-4b04-b6f0-99a843e4b262","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

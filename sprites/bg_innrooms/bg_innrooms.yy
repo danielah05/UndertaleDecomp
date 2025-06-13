@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_innrooms",
   "bboxMode":0,
   "bbox_bottom":240,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"68e51697-c27b-4efa-a006-599b47fb7538","name":"68e51697-c27b-4efa-a006-599b47fb7538","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"68e51697-c27b-4efa-a006-599b47fb7538","name":"68e51697-c27b-4efa-a006-599b47fb7538","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

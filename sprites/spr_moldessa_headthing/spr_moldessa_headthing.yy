@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_moldessa_headthing",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f0b5d1fc-5528-491c-afdf-4f32a0efdd5d","name":"f0b5d1fc-5528-491c-afdf-4f32a0efdd5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0b5d1fc-5528-491c-afdf-4f32a0efdd5d","name":"f0b5d1fc-5528-491c-afdf-4f32a0efdd5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

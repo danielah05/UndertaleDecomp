@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_venus_bg",
   "bboxMode":0,
   "bbox_bottom":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c3b7fcdf-37ce-45ec-b30e-13b0887c0c3b","name":"c3b7fcdf-37ce-45ec-b30e-13b0887c0c3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c3b7fcdf-37ce-45ec-b30e-13b0887c0c3b","name":"c3b7fcdf-37ce-45ec-b30e-13b0887c0c3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

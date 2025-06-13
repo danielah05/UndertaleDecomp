@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_balletshoes",
   "bboxMode":1,
   "bbox_bottom":14,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ded533d3-c323-44dd-89e7-7ce09e507109","name":"ded533d3-c323-44dd-89e7-7ce09e507109","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ded533d3-c323-44dd-89e7-7ce09e507109","name":"ded533d3-c323-44dd-89e7-7ce09e507109","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

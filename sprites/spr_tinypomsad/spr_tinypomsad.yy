@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tinypomsad",
   "bboxMode":0,
   "bbox_bottom":35,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bdec9aa7-9730-45ed-8048-a1b9afdaa2d4","name":"bdec9aa7-9730-45ed-8048-a1b9afdaa2d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bdec9aa7-9730-45ed-8048-a1b9afdaa2d4","name":"bdec9aa7-9730-45ed-8048-a1b9afdaa2d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_torheart",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b0a5c2d7-7b3a-4ade-8cd4-60e61e1e133a","name":"b0a5c2d7-7b3a-4ade-8cd4-60e61e1e133a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b0a5c2d7-7b3a-4ade-8cd4-60e61e1e133a","name":"b0a5c2d7-7b3a-4ade-8cd4-60e61e1e133a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

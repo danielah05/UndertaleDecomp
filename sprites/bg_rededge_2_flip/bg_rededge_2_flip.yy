@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_rededge_2_flip",
   "bboxMode":0,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5973cdd1-4cac-4692-9883-6dbf1a2d1875","name":"5973cdd1-4cac-4692-9883-6dbf1a2d1875","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5973cdd1-4cac-4692-9883-6dbf1a2d1875","name":"5973cdd1-4cac-4692-9883-6dbf1a2d1875","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

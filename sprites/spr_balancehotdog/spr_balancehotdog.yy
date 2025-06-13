@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_balancehotdog",
   "bboxMode":0,
   "bbox_bottom":3,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"07d1a1a0-b231-4a97-86ea-ad7f4305238a","name":"07d1a1a0-b231-4a97-86ea-ad7f4305238a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"07d1a1a0-b231-4a97-86ea-ad7f4305238a","name":"07d1a1a0-b231-4a97-86ea-ad7f4305238a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_bpants_cloud",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f0ceebcc-7789-4c61-a8fa-737b0f39445f","name":"f0ceebcc-7789-4c61-a8fa-737b0f39445f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f8ee5f4f-c560-43da-bf15-f09174a54d58","name":"f8ee5f4f-c560-43da-bf15-f09174a54d58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0ceebcc-7789-4c61-a8fa-737b0f39445f","name":"f0ceebcc-7789-4c61-a8fa-737b0f39445f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f8ee5f4f-c560-43da-bf15-f09174a54d58","name":"f8ee5f4f-c560-43da-bf15-f09174a54d58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

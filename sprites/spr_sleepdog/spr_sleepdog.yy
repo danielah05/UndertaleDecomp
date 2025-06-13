@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_sleepdog",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"324aaf3b-f69c-43f8-9445-8db083c1ff40","name":"324aaf3b-f69c-43f8-9445-8db083c1ff40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a9aa8ba2-b736-4759-bd31-c52a8b74e921","name":"a9aa8ba2-b736-4759-bd31-c52a8b74e921","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"324aaf3b-f69c-43f8-9445-8db083c1ff40","name":"324aaf3b-f69c-43f8-9445-8db083c1ff40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9aa8ba2-b736-4759-bd31-c52a8b74e921","name":"a9aa8ba2-b736-4759-bd31-c52a8b74e921","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

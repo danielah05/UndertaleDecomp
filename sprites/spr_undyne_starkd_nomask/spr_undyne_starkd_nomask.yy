@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyne_starkd_nomask",
   "bboxMode":0,
   "bbox_bottom":53,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cbe5f7dc-dd1b-4be0-b22b-44564b8eab21","name":"cbe5f7dc-dd1b-4be0-b22b-44564b8eab21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e95eb5a0-9fb2-4e3c-88e5-e255810841ff","name":"e95eb5a0-9fb2-4e3c-88e5-e255810841ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cbe5f7dc-dd1b-4be0-b22b-44564b8eab21","name":"cbe5f7dc-dd1b-4be0-b22b-44564b8eab21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e95eb5a0-9fb2-4e3c-88e5-e255810841ff","name":"e95eb5a0-9fb2-4e3c-88e5-e255810841ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

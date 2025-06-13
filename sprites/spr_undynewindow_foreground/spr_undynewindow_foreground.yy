@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undynewindow_foreground",
   "bboxMode":0,
   "bbox_bottom":78,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"50b2d47e-e810-4df6-a2d6-6eb5f48b1998","name":"50b2d47e-e810-4df6-a2d6-6eb5f48b1998","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50b2d47e-e810-4df6-a2d6-6eb5f48b1998","name":"50b2d47e-e810-4df6-a2d6-6eb5f48b1998","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

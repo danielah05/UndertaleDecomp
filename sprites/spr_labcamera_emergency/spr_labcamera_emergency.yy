@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_labcamera_emergency",
   "bboxMode":0,
   "bbox_bottom":41,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a2dceee3-5150-472a-82a9-82497069e017","name":"a2dceee3-5150-472a-82a9-82497069e017","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"05ab72ac-ca38-43f2-91d1-43cef742efec","name":"05ab72ac-ca38-43f2-91d1-43cef742efec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2dceee3-5150-472a-82a9-82497069e017","name":"a2dceee3-5150-472a-82a9-82497069e017","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05ab72ac-ca38-43f2-91d1-43cef742efec","name":"05ab72ac-ca38-43f2-91d1-43cef742efec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

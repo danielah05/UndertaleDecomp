@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettleg2_unflip_v",
   "bboxMode":0,
   "bbox_bottom":16,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3f953ca2-566b-4030-8ffe-bc24ef08b5b8","name":"3f953ca2-566b-4030-8ffe-bc24ef08b5b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f953ca2-566b-4030-8ffe-bc24ef08b5b8","name":"3f953ca2-566b-4030-8ffe-bc24ef08b5b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

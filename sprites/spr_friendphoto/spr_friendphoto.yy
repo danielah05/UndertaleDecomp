@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_friendphoto",
   "bboxMode":0,
   "bbox_bottom":116,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d4bb3386-275d-4cf0-aa9f-b16bf58f3088","name":"d4bb3386-275d-4cf0-aa9f-b16bf58f3088","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d4bb3386-275d-4cf0-aa9f-b16bf58f3088","name":"d4bb3386-275d-4cf0-aa9f-b16bf58f3088","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_face_torielrevengetalk",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d4b9d86a-94a4-4b69-a4e4-db8130b64825","name":"d4b9d86a-94a4-4b69-a4e4-db8130b64825","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c4bc730f-1d51-4ac4-b114-074fb6bf359d","name":"c4bc730f-1d51-4ac4-b114-074fb6bf359d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d4b9d86a-94a4-4b69-a4e4-db8130b64825","name":"d4b9d86a-94a4-4b69-a4e4-db8130b64825","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c4bc730f-1d51-4ac4-b114-074fb6bf359d","name":"c4bc730f-1d51-4ac4-b114-074fb6bf359d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

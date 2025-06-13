@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_astigmatism_normal",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0804f3fd-ef9e-41ef-886a-f582d7b9b94d","name":"0804f3fd-ef9e-41ef-886a-f582d7b9b94d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0804f3fd-ef9e-41ef-886a-f582d7b9b94d","name":"0804f3fd-ef9e-41ef-886a-f582d7b9b94d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_maincharar_umbrellafall",
   "bboxMode":2,
   "bbox_bottom":40,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"28d232c3-b35f-4a0d-9510-e7a36899736f","name":"28d232c3-b35f-4a0d-9510-e7a36899736f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"98f367d0-7ffd-462b-93c4-ff7c4acdb41c","name":"98f367d0-7ffd-462b-93c4-ff7c4acdb41c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"28d232c3-b35f-4a0d-9510-e7a36899736f","name":"28d232c3-b35f-4a0d-9510-e7a36899736f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"98f367d0-7ffd-462b-93c4-ff7c4acdb41c","name":"98f367d0-7ffd-462b-93c4-ff7c4acdb41c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

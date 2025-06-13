@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettaton_pulldress",
   "bboxMode":2,
   "bbox_bottom":43,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"63413a50-6087-49b6-8107-c70b07c68e15","name":"63413a50-6087-49b6-8107-c70b07c68e15","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"774146d8-889f-4ace-a005-a186a1f0199f","name":"774146d8-889f-4ace-a005-a186a1f0199f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"63413a50-6087-49b6-8107-c70b07c68e15","name":"63413a50-6087-49b6-8107-c70b07c68e15","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"774146d8-889f-4ace-a005-a186a1f0199f","name":"774146d8-889f-4ace-a005-a186a1f0199f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

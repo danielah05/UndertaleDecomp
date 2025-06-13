@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_strangeman_pose",
   "bboxMode":0,
   "bbox_bottom":58,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5f3b4afe-5c3f-43a6-844a-9cc9e87c5d24","name":"5f3b4afe-5c3f-43a6-844a-9cc9e87c5d24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f3b4afe-5c3f-43a6-844a-9cc9e87c5d24","name":"5f3b4afe-5c3f-43a6-844a-9cc9e87c5d24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

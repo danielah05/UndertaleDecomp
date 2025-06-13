@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyneb_legs",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"99bdfe56-c5dd-4416-863d-c239c7a3e6e3","name":"99bdfe56-c5dd-4416-863d-c239c7a3e6e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8d5c7e48-b848-4683-a0ce-5d1ec77b64fd","name":"8d5c7e48-b848-4683-a0ce-5d1ec77b64fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99bdfe56-c5dd-4416-863d-c239c7a3e6e3","name":"99bdfe56-c5dd-4416-863d-c239c7a3e6e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d5c7e48-b848-4683-a0ce-5d1ec77b64fd","name":"8d5c7e48-b848-4683-a0ce-5d1ec77b64fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

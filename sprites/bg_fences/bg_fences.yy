@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_fences",
   "bboxMode":0,
   "bbox_bottom":118,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e41bdae4-59c5-4f86-a8ba-b4a5508a49eb","name":"e41bdae4-59c5-4f86-a8ba-b4a5508a49eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e41bdae4-59c5-4f86-a8ba-b4a5508a49eb","name":"e41bdae4-59c5-4f86-a8ba-b4a5508a49eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

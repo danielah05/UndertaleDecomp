@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_circlebulletsm_ex",
   "bboxMode":2,
   "bbox_bottom":17,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a9b76e56-a4e3-4bd3-9eb5-530405ac6b9e","name":"a9b76e56-a4e3-4bd3-9eb5-530405ac6b9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9b76e56-a4e3-4bd3-9eb5-530405ac6b9e","name":"a9b76e56-a4e3-4bd3-9eb5-530405ac6b9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

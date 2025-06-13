@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tinydancemett_tell",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c4718b3d-5e5e-410c-972f-8d708578ad6e","name":"c4718b3d-5e5e-410c-972f-8d708578ad6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4c6d9efa-f536-4fa7-aabc-85791c65e8fe","name":"4c6d9efa-f536-4fa7-aabc-85791c65e8fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c4718b3d-5e5e-410c-972f-8d708578ad6e","name":"c4718b3d-5e5e-410c-972f-8d708578ad6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4c6d9efa-f536-4fa7-aabc-85791c65e8fe","name":"4c6d9efa-f536-4fa7-aabc-85791c65e8fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

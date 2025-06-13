@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_spidertable",
   "bboxMode":2,
   "bbox_bottom":25,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"adcd4d0d-cc6b-4cc7-a5a1-c06b8b40da77","name":"adcd4d0d-cc6b-4cc7-a5a1-c06b8b40da77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"adcd4d0d-cc6b-4cc7-a5a1-c06b8b40da77","name":"adcd4d0d-cc6b-4cc7-a5a1-c06b8b40da77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

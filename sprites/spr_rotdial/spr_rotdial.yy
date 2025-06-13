@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_rotdial",
   "bboxMode":0,
   "bbox_bottom":4,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"01c45aa6-c277-4f73-b6f7-3b320cf5eaa4","name":"01c45aa6-c277-4f73-b6f7-3b320cf5eaa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01c45aa6-c277-4f73-b6f7-3b320cf5eaa4","name":"01c45aa6-c277-4f73-b6f7-3b320cf5eaa4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgore_flashsilhouette",
   "bboxMode":0,
   "bbox_bottom":112,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"470241a6-c4a7-4a73-beaf-f5cc4d573f60","name":"470241a6-c4a7-4a73-beaf-f5cc4d573f60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"470241a6-c4a7-4a73-beaf-f5cc4d573f60","name":"470241a6-c4a7-4a73-beaf-f5cc4d573f60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

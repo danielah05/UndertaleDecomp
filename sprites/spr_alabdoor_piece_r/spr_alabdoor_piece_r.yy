@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_alabdoor_piece_r",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4e4fb57c-6b7f-449f-b24d-3dd421bc59bd","name":"4e4fb57c-6b7f-449f-b24d-3dd421bc59bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4e4fb57c-6b7f-449f-b24d-3dd421bc59bd","name":"4e4fb57c-6b7f-449f-b24d-3dd421bc59bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

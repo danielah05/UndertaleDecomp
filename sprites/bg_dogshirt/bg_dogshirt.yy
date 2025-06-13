@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_dogshirt",
   "bboxMode":0,
   "bbox_bottom":34,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5f4a9f46-d04f-4ce6-aa26-a51d28f10b0f","name":"5f4a9f46-d04f-4ce6-aa26-a51d28f10b0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f4a9f46-d04f-4ce6-aa26-a51d28f10b0f","name":"5f4a9f46-d04f-4ce6-aa26-a51d28f10b0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

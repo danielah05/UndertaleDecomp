@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_gunshot_stab",
   "bboxMode":0,
   "bbox_bottom":41,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6aaee433-f771-42cf-bb19-ef2c603b3ff2","name":"6aaee433-f771-42cf-bb19-ef2c603b3ff2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b54f7719-f5bf-426b-ab45-def9a079dab2","name":"b54f7719-f5bf-426b-ab45-def9a079dab2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6aaee433-f771-42cf-bb19-ef2c603b3ff2","name":"6aaee433-f771-42cf-bb19-ef2c603b3ff2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b54f7719-f5bf-426b-ab45-def9a079dab2","name":"b54f7719-f5bf-426b-ab45-def9a079dab2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

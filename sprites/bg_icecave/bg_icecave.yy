@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_icecave",
   "bboxMode":0,
   "bbox_bottom":659,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"45e97b82-a34a-48a5-bdd4-6c634f718382","name":"45e97b82-a34a-48a5-bdd4-6c634f718382","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"45e97b82-a34a-48a5-bdd4-6c634f718382","name":"45e97b82-a34a-48a5-bdd4-6c634f718382","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

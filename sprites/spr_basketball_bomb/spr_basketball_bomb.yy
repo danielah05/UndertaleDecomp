@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_basketball_bomb",
   "bboxMode":2,
   "bbox_bottom":19,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"28db3761-9410-42f2-a866-baa42f2d4798","name":"28db3761-9410-42f2-a866-baa42f2d4798","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8f3c99f2-33c1-4bc8-8e92-ad08a53d42b0","name":"8f3c99f2-33c1-4bc8-8e92-ad08a53d42b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"28db3761-9410-42f2-a866-baa42f2d4798","name":"28db3761-9410-42f2-a866-baa42f2d4798","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f3c99f2-33c1-4bc8-8e92-ad08a53d42b0","name":"8f3c99f2-33c1-4bc8-8e92-ad08a53d42b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

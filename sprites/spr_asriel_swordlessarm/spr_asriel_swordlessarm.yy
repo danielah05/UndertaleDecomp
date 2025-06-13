@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asriel_swordlessarm",
   "bboxMode":0,
   "bbox_bottom":40,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"aa6d0ecf-96ac-46c5-9b21-5b42e9ab2829","name":"aa6d0ecf-96ac-46c5-9b21-5b42e9ab2829","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aa6d0ecf-96ac-46c5-9b21-5b42e9ab2829","name":"aa6d0ecf-96ac-46c5-9b21-5b42e9ab2829","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

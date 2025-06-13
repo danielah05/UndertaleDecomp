@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_mettposter",
   "bboxMode":0,
   "bbox_bottom":43,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fe002a8f-e4ca-49f2-9cb2-9a94a328859f","name":"fe002a8f-e4ca-49f2-9cb2-9a94a328859f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fe002a8f-e4ca-49f2-9cb2-9a94a328859f","name":"fe002a8f-e4ca-49f2-9cb2-9a94a328859f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

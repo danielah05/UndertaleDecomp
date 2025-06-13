@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_discoball_pl",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"27a9ea57-95ea-41a1-a272-f75f7f5e6f6e","name":"27a9ea57-95ea-41a1-a272-f75f7f5e6f6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27a9ea57-95ea-41a1-a272-f75f7f5e6f6e","name":"27a9ea57-95ea-41a1-a272-f75f7f5e6f6e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

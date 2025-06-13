@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"button_ps4_dpad_r",
   "bboxMode":0,
   "bbox_bottom":10,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a823d3b3-6ab2-4060-93d9-5e95c1cb5ad1","name":"a823d3b3-6ab2-4060-93d9-5e95c1cb5ad1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a823d3b3-6ab2-4060-93d9-5e95c1cb5ad1","name":"a823d3b3-6ab2-4060-93d9-5e95c1cb5ad1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

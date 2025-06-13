@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mouthball_mask",
   "bboxMode":0,
   "bbox_bottom":81,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"56e6d357-e4b7-488c-8712-a3b3fa15dcd0","name":"56e6d357-e4b7-488c-8712-a3b3fa15dcd0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"56e6d357-e4b7-488c-8712-a3b3fa15dcd0","name":"56e6d357-e4b7-488c-8712-a3b3fa15dcd0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

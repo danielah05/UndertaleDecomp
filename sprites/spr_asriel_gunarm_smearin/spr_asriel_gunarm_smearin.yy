@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asriel_gunarm_smearin",
   "bboxMode":0,
   "bbox_bottom":137,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d5a1fdcc-b2bf-4776-bf7a-1696adcfa32c","name":"d5a1fdcc-b2bf-4776-bf7a-1696adcfa32c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d5a1fdcc-b2bf-4776-bf7a-1696adcfa32c","name":"d5a1fdcc-b2bf-4776-bf7a-1696adcfa32c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

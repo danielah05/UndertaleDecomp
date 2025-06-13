@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_conveyorbelt_rmarker",
   "bboxMode":0,
   "bbox_bottom":19,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2f43b1a6-9e3d-4089-8de3-cc9a003cd8e5","name":"2f43b1a6-9e3d-4089-8de3-cc9a003cd8e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2f43b1a6-9e3d-4089-8de3-cc9a003cd8e5","name":"2f43b1a6-9e3d-4089-8de3-cc9a003cd8e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"button_ps4_triangle",
   "bboxMode":0,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fd3d5fa7-a0f9-4916-be42-7f19bc5cfcb0","name":"fd3d5fa7-a0f9-4916-be42-7f19bc5cfcb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fd3d5fa7-a0f9-4916-be42-7f19bc5cfcb0","name":"fd3d5fa7-a0f9-4916-be42-7f19bc5cfcb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

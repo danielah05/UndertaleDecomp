@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_puzzlehater",
   "bboxMode":2,
   "bbox_bottom":28,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4e15c0b2-8af5-4750-912d-761864170c33","name":"4e15c0b2-8af5-4750-912d-761864170c33","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"78aba93a-2255-47bd-b1d1-d88a86db0bea","name":"78aba93a-2255-47bd-b1d1-d88a86db0bea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4e15c0b2-8af5-4750-912d-761864170c33","name":"4e15c0b2-8af5-4750-912d-761864170c33","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"78aba93a-2255-47bd-b1d1-d88a86db0bea","name":"78aba93a-2255-47bd-b1d1-d88a86db0bea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

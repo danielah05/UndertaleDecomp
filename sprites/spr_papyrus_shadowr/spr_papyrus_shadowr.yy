@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papyrus_shadowr",
   "bboxMode":0,
   "bbox_bottom":42,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4abbd4c-8ad6-40af-b02a-1d35a51d3bbd","name":"a4abbd4c-8ad6-40af-b02a-1d35a51d3bbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4abbd4c-8ad6-40af-b02a-1d35a51d3bbd","name":"a4abbd4c-8ad6-40af-b02a-1d35a51d3bbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

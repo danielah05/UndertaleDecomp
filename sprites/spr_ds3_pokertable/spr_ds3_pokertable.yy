@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds3_pokertable",
   "bboxMode":0,
   "bbox_bottom":56,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7fc3e859-2f9d-49b0-9b8f-d1311f9917bf","name":"7fc3e859-2f9d-49b0-9b8f-d1311f9917bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7fc3e859-2f9d-49b0-9b8f-d1311f9917bf","name":"7fc3e859-2f9d-49b0-9b8f-d1311f9917bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

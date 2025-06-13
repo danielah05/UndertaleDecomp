@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_fishingrod",
   "bboxMode":2,
   "bbox_bottom":27,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"92b749a0-09a7-49b4-a2d4-6c78182ade24","name":"92b749a0-09a7-49b4-a2d4-6c78182ade24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0123bf4f-129b-4c13-969f-082c977d818f","name":"0123bf4f-129b-4c13-969f-082c977d818f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"92b749a0-09a7-49b4-a2d4-6c78182ade24","name":"92b749a0-09a7-49b4-a2d4-6c78182ade24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0123bf4f-129b-4c13-969f-082c977d818f","name":"0123bf4f-129b-4c13-969f-082c977d818f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

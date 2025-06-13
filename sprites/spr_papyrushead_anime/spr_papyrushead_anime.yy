@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papyrushead_anime",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ae2702df-ba27-4b2d-9fe7-655643b628c3","name":"ae2702df-ba27-4b2d-9fe7-655643b628c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"20e598e9-1e86-4c0a-ab4f-b50f2636f3ad","name":"20e598e9-1e86-4c0a-ab4f-b50f2636f3ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ae2702df-ba27-4b2d-9fe7-655643b628c3","name":"ae2702df-ba27-4b2d-9fe7-655643b628c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"20e598e9-1e86-4c0a-ab4f-b50f2636f3ad","name":"20e598e9-1e86-4c0a-ab4f-b50f2636f3ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

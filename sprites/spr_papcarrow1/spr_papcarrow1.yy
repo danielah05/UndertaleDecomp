@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papcarrow1",
   "bboxMode":2,
   "bbox_bottom":74,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3a5368e5-9424-4a40-a618-e07d7a5d8921","name":"3a5368e5-9424-4a40-a618-e07d7a5d8921","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3a5368e5-9424-4a40-a618-e07d7a5d8921","name":"3a5368e5-9424-4a40-a618-e07d7a5d8921","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

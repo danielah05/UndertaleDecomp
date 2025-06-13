@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_icecreamguy_happy",
   "bboxMode":2,
   "bbox_bottom":56,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8db28b1d-a502-41bb-a7ce-3b002ad675b9","name":"8db28b1d-a502-41bb-a7ce-3b002ad675b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"25a6f7df-1c25-411a-b477-997a929cb30f","name":"25a6f7df-1c25-411a-b477-997a929cb30f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8db28b1d-a502-41bb-a7ce-3b002ad675b9","name":"8db28b1d-a502-41bb-a7ce-3b002ad675b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25a6f7df-1c25-411a-b477-997a929cb30f","name":"25a6f7df-1c25-411a-b477-997a929cb30f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

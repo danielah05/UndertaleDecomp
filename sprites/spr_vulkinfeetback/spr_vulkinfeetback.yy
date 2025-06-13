@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_vulkinfeetback",
   "bboxMode":0,
   "bbox_bottom":7,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4dd5e0e7-28d4-41a2-ac0e-79edd2059e6d","name":"4dd5e0e7-28d4-41a2-ac0e-79edd2059e6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4dd5e0e7-28d4-41a2-ac0e-79edd2059e6d","name":"4dd5e0e7-28d4-41a2-ac0e-79edd2059e6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

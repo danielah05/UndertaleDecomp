@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_glassofwater_bomb",
   "bboxMode":2,
   "bbox_bottom":900,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2d496ff-8812-4bc6-949b-29e6b4cfb43c","name":"c2d496ff-8812-4bc6-949b-29e6b4cfb43c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"99eb5f2b-fc88-4f97-b49a-6f8c68e9f52e","name":"99eb5f2b-fc88-4f97-b49a-6f8c68e9f52e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2d496ff-8812-4bc6-949b-29e6b4cfb43c","name":"c2d496ff-8812-4bc6-949b-29e6b4cfb43c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99eb5f2b-fc88-4f97-b49a-6f8c68e9f52e","name":"99eb5f2b-fc88-4f97-b49a-6f8c68e9f52e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

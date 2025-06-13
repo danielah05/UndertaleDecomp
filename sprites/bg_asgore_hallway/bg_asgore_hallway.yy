@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_asgore_hallway",
   "bboxMode":0,
   "bbox_bottom":153,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5d3969c6-7fc0-4393-9c24-d2de4ad19cb2","name":"5d3969c6-7fc0-4393-9c24-d2de4ad19cb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5d3969c6-7fc0-4393-9c24-d2de4ad19cb2","name":"5d3969c6-7fc0-4393-9c24-d2de4ad19cb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

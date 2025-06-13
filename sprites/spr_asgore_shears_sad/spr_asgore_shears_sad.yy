@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_asgore_shears_sad",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1a392a2d-b8f6-4e35-a97d-7ebc7418a882","name":"1a392a2d-b8f6-4e35-a97d-7ebc7418a882","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a392a2d-b8f6-4e35-a97d-7ebc7418a882","name":"1a392a2d-b8f6-4e35-a97d-7ebc7418a882","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

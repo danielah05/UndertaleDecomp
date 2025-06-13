@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_elevatordoor_vines",
   "bboxMode":2,
   "bbox_bottom":52,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"351f8a7d-809b-4d4f-8227-5e066222aa8a","name":"351f8a7d-809b-4d4f-8227-5e066222aa8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"351f8a7d-809b-4d4f-8227-5e066222aa8a","name":"351f8a7d-809b-4d4f-8227-5e066222aa8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

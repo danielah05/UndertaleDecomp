@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_conveyor_markers",
   "bboxMode":0,
   "bbox_bottom":49,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9d51f86c-9d21-40a3-bee2-ef6ccfd214ee","name":"9d51f86c-9d21-40a3-bee2-ef6ccfd214ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d51f86c-9d21-40a3-bee2-ef6ccfd214ee","name":"9d51f86c-9d21-40a3-bee2-ef6ccfd214ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,

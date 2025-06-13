@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"bg_border_sepia_544_2a",
   "bboxMode":0,
   "bbox_bottom":52,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7a0e52b7-3cbe-4a4e-8f0d-4c088a0ab6cb","name":"7a0e52b7-3cbe-4a4e-8f0d-4c088a0ab6cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a0e52b7-3cbe-4a4e-8f0d-4c088a0ab6cb","name":"7a0e52b7-3cbe-4a4e-8f0d-4c088a0ab6cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

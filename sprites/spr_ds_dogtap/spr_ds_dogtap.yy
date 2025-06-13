@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_ds_dogtap",
   "bboxMode":0,
   "bbox_bottom":41,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"54fc7f2e-cc1d-4938-bd93-b91b2a5487f3","name":"54fc7f2e-cc1d-4938-bd93-b91b2a5487f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54fc7f2e-cc1d-4938-bd93-b91b2a5487f3","name":"54fc7f2e-cc1d-4938-bd93-b91b2a5487f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

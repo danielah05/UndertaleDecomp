@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_spidertelegram",
   "bboxMode":0,
   "bbox_bottom":19,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bd0f3d6a-88ea-4473-b4c3-b6d090b1e199","name":"bd0f3d6a-88ea-4473-b4c3-b6d090b1e199","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bd0f3d6a-88ea-4473-b4c3-b6d090b1e199","name":"bd0f3d6a-88ea-4473-b4c3-b6d090b1e199","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

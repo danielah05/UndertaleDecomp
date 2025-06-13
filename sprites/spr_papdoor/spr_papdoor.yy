@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_papdoor",
   "bboxMode":1,
   "bbox_bottom":51,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3d8fa51b-4ddf-4bed-b2ec-3d75d20d2f46","name":"3d8fa51b-4ddf-4bed-b2ec-3d75d20d2f46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3d8fa51b-4ddf-4bed-b2ec-3d75d20d2f46","name":"3d8fa51b-4ddf-4bed-b2ec-3d75d20d2f46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

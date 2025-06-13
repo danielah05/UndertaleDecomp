@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_dogpillar4",
   "bboxMode":2,
   "bbox_bottom":72,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dd17af5f-837e-4758-bf70-12fd5bc3b0b8","name":"dd17af5f-837e-4758-bf70-12fd5bc3b0b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd17af5f-837e-4758-bf70-12fd5bc3b0b8","name":"dd17af5f-837e-4758-bf70-12fd5bc3b0b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

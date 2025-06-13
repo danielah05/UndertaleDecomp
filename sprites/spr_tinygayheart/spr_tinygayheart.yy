@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_tinygayheart",
   "bboxMode":0,
   "bbox_bottom":6,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4e6ee16a-13e4-4017-9fd5-c88215b85f50","name":"4e6ee16a-13e4-4017-9fd5-c88215b85f50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e75c07ae-c023-41f4-bc56-c3c9ba53e96b","name":"e75c07ae-c023-41f4-bc56-c3c9ba53e96b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4e6ee16a-13e4-4017-9fd5-c88215b85f50","name":"4e6ee16a-13e4-4017-9fd5-c88215b85f50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e75c07ae-c023-41f4-bc56-c3c9ba53e96b","name":"e75c07ae-c023-41f4-bc56-c3c9ba53e96b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_elevatordoorframe",
   "bboxMode":2,
   "bbox_bottom":52,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"40c93058-abab-42b0-ab8c-7a42ca2fc941","name":"40c93058-abab-42b0-ab8c-7a42ca2fc941","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"05f13019-b211-4ceb-8c0b-9b5233166d36","name":"05f13019-b211-4ceb-8c0b-9b5233166d36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40c93058-abab-42b0-ab8c-7a42ca2fc941","name":"40c93058-abab-42b0-ab8c-7a42ca2fc941","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05f13019-b211-4ceb-8c0b-9b5233166d36","name":"05f13019-b211-4ceb-8c0b-9b5233166d36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

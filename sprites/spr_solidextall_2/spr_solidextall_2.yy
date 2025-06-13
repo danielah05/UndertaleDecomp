@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_solidextall_2",
   "bboxMode":1,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7dc71777-27d4-44ec-a11b-2dff21ebcc67","name":"7dc71777-27d4-44ec-a11b-2dff21ebcc67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7dc71777-27d4-44ec-a11b-2dff21ebcc67","name":"7dc71777-27d4-44ec-a11b-2dff21ebcc67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

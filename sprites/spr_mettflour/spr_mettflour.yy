@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_mettflour",
   "bboxMode":1,
   "bbox_bottom":46,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2f76bc9c-0ecd-4f1b-bd35-f0c62a049e77","name":"2f76bc9c-0ecd-4f1b-bd35-f0c62a049e77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2f76bc9c-0ecd-4f1b-bd35-f0c62a049e77","name":"2f76bc9c-0ecd-4f1b-bd35-f0c62a049e77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

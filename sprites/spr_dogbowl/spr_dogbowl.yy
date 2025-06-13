@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_dogbowl",
   "bboxMode":2,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"47cf2b0e-769d-41d8-8e2a-aa8144ced46f","name":"47cf2b0e-769d-41d8-8e2a-aa8144ced46f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47cf2b0e-769d-41d8-8e2a-aa8144ced46f","name":"47cf2b0e-769d-41d8-8e2a-aa8144ced46f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

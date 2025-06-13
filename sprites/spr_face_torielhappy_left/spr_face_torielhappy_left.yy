@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_face_torielhappy_left",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f4f535b9-a3a5-4398-9c85-a71bbd3f88b7","name":"f4f535b9-a3a5-4398-9c85-a71bbd3f88b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f4f535b9-a3a5-4398-9c85-a71bbd3f88b7","name":"f4f535b9-a3a5-4398-9c85-a71bbd3f88b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

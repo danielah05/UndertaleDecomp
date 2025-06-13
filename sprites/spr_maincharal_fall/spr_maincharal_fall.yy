@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_maincharal_fall",
   "bboxMode":2,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"83003e50-fa26-401a-a12e-b5791a9e5354","name":"83003e50-fa26-401a-a12e-b5791a9e5354","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"14c48cf5-27ed-49da-8825-f71ce715227f","name":"14c48cf5-27ed-49da-8825-f71ce715227f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83003e50-fa26-401a-a12e-b5791a9e5354","name":"83003e50-fa26-401a-a12e-b5791a9e5354","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14c48cf5-27ed-49da-8825-f71ce715227f","name":"14c48cf5-27ed-49da-8825-f71ce715227f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

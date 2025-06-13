@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_wizard_orbhurt",
   "bboxMode":0,
   "bbox_bottom":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ea165337-c9b4-4fbb-b9d8-9e08eeeb8dd9","name":"ea165337-c9b4-4fbb-b9d8-9e08eeeb8dd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea165337-c9b4-4fbb-b9d8-9e08eeeb8dd9","name":"ea165337-c9b4-4fbb-b9d8-9e08eeeb8dd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

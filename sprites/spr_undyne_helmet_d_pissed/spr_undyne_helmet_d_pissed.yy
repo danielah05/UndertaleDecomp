@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_undyne_helmet_d_pissed",
   "bboxMode":2,
   "bbox_bottom":52,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eb51fb32-1d2b-44b8-9bfb-50784923709d","name":"eb51fb32-1d2b-44b8-9bfb-50784923709d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a6f47e09-95c6-4b38-907f-9b02b150bacf","name":"a6f47e09-95c6-4b38-907f-9b02b150bacf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eb51fb32-1d2b-44b8-9bfb-50784923709d","name":"eb51fb32-1d2b-44b8-9bfb-50784923709d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6f47e09-95c6-4b38-907f-9b02b150bacf","name":"a6f47e09-95c6-4b38-907f-9b02b150bacf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

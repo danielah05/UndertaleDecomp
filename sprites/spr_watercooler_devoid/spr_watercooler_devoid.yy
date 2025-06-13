@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_watercooler_devoid",
   "bboxMode":2,
   "bbox_bottom":42,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e1cf8b6-71b4-4dcf-9383-9280d88a10a9","name":"1e1cf8b6-71b4-4dcf-9383-9280d88a10a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e1cf8b6-71b4-4dcf-9383-9280d88a10a9","name":"1e1cf8b6-71b4-4dcf-9383-9280d88a10a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

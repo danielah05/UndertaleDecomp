@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_spinbullet_cheat",
   "bboxMode":2,
   "bbox_bottom":20,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e77f5ed2-c6c0-4e76-837b-1fbb2c33c4d3","name":"e77f5ed2-c6c0-4e76-837b-1fbb2c33c4d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e77f5ed2-c6c0-4e76-837b-1fbb2c33c4d3","name":"e77f5ed2-c6c0-4e76-837b-1fbb2c33c4d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

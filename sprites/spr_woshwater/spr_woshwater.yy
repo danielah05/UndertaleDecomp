@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v1",
+  "$GMSprite":"v2",
   "%Name":"spr_woshwater",
   "bboxMode":0,
   "bbox_bottom":23,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fb6b4881-9ee4-4b0b-b498-fc2829f6f26b","name":"fb6b4881-9ee4-4b0b-b498-fc2829f6f26b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fb6b4881-9ee4-4b0b-b498-fc2829f6f26b","name":"fb6b4881-9ee4-4b0b-b498-fc2829f6f26b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
