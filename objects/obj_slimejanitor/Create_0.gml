@@ -12,8 +12,8 @@ direction = 0
 talkedto = 0
 image_speed = 0.125
 if (FL_TruePacifist == true)
-    image_speed = 0.5
+	image_speed = 0.5
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    instance_destroy()
+	instance_destroy()
 if (FL_KilledMettaton == 1)
-    image_speed = 0
+	image_speed = 0

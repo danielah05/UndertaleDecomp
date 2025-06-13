@@ -15,4 +15,4 @@ choice = 0
 buffer = 0
 writerx = 150
 if (global.language == "ja")
-    writerx = 130
+	writerx = 130

@@ -9,23 +9,23 @@ function SCR_GAMESTART()
 	
 	/* if steam_initialised()
 	{
-	    global.steam_int = true
-	    if steam_file_exists("system_information_962")
-	    {
-	        exd = file_text_open_write("system_information_962")
-	        file_text_write_string(exd, "a")
-	        file_text_close(exd)
-	    }
-	    if steam_file_exists("system_information_963")
-	    {
-	        exd = file_text_open_write("system_information_963")
-	        file_text_write_string(exd, "b")
-	        file_text_close(exd)
-	        if file_exists("system_information_962")
-	            file_delete("system_information_962")
-	        if steam_file_exists("system_information_962")
-	            steam_file_delete("system_information_962")
-	    }
+		global.steam_int = true
+		if steam_file_exists("system_information_962")
+		{
+			exd = file_text_open_write("system_information_962")
+			file_text_write_string(exd, "a")
+			file_text_close(exd)
+		}
+		if steam_file_exists("system_information_963")
+		{
+			exd = file_text_open_write("system_information_963")
+			file_text_write_string(exd, "b")
+			file_text_close(exd)
+			if file_exists("system_information_962")
+				file_delete("system_information_962")
+			if steam_file_exists("system_information_962")
+				steam_file_delete("system_information_962")
+		}
 	} */
 	
 	global.debug = false
@@ -49,21 +49,21 @@ function SCR_GAMESTART()
 	global.charname = "CHARA"
 	for (i = 0; i < InventorySize; i += 1)
 	{
-	    global.item[i] = Items.Null;
-	    global.spell[i] = 1
-	    global.bulletvariable[i] = 0
-	    global.menuno = -1
-	    global.menucoord[i] = 0
-	    global.bmenuno = 0
-	    global.bmenucoord[i] = 0
+		global.item[i] = Items.Null;
+		global.spell[i] = 1
+		global.bulletvariable[i] = 0
+		global.menuno = -1
+		global.menucoord[i] = 0
+		global.bmenuno = 0
+		global.bmenucoord[i] = 0
 	}
 	for (i = 0; i < 24; i += 1)
-	    global.areapop[i] = 0
+		global.areapop[i] = 0
 	for (i = 0; i < 99; i += 1)
-	    global.msg[i] = "%%%"
+		global.msg[i] = "%%%"
 	global.area = 0
 	for (i = 0; i < 512; i += 1)
-	    global.flag[i] = 0
+		global.flag[i] = 0
 	FL_DimensionalBoxAItem1 = Items.ToughGlove;
 	FL_DimensionalBoxAItem2 = Items.Null;
 	FL_DimensionalBoxAItem3 = Items.Null;
@@ -78,19 +78,19 @@ function SCR_GAMESTART()
 	global.currentroom = room_xbox_engagement
 	for (i = 0; i < 3; i += 1)
 	{
-	    global.monstername[i] = "Error"
-	    global.monsterhp[i] = 50
-	    global.monstermaxhp[i] = 50
-	    global.monsterdef[i] = 0
-	    global.xpreward[i] = 0
-	    global.goldreward[i] = 0
-	    global.itemrewardid[i] = 0
-	    global.itemrewardchance[i] = 0
-	    global.monster[i] = false
-	    global.attacker[i] = 0
-	    global.mnpwr[i] = 0
-	    global.bulletpwr[i] = 0
-	    global.hurtanim[i] = 0
+		global.monstername[i] = "Error"
+		global.monsterhp[i] = 50
+		global.monstermaxhp[i] = 50
+		global.monsterdef[i] = 0
+		global.xpreward[i] = 0
+		global.goldreward[i] = 0
+		global.itemrewardid[i] = 0
+		global.itemrewardchance[i] = 0
+		global.monster[i] = false
+		global.attacker[i] = 0
+		global.mnpwr[i] = 0
+		global.bulletpwr[i] = 0
+		global.hurtanim[i] = 0
 	}
 	global.xpreward[3] = 0
 	global.goldreward[3] = 0

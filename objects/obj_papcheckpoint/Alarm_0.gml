@@ -11,9 +11,9 @@ global.msg[4] = scr_gettext("obj_papcheckpoint_102")
 global.msg[5] = scr_gettext("obj_papcheckpoint_103")
 if (FL_TruePacifist == true)
 {
-    global.msg[5] = scr_gettext("obj_papcheckpoint_107")
-    global.msg[6] = scr_gettext("obj_papcheckpoint_108")
+	global.msg[5] = scr_gettext("obj_papcheckpoint_107")
+	global.msg[6] = scr_gettext("obj_papcheckpoint_108")
 }
 if (room == room_tundra_randoblock)
-    global.msg[0] = scr_gettext("obj_papcheckpoint_112")
+	global.msg[0] = scr_gettext("obj_papcheckpoint_112")
 mydialoguer = instance_create(0, 0, obj_dialoguer)

@@ -15,4 +15,4 @@ conversation = 0
 direction = 270
 path_start(path_torielwalk1, 0, path_action_stop, 1)
 if (global.plot > 1)
-    instance_destroy()
+	instance_destroy()

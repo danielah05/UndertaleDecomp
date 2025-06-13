@@ -12,4 +12,4 @@ direction = 270
 talkedto = 0
 image_speed = 0
 if (scr_enemynpc2() != 1)
-    instance_destroy()
+	instance_destroy()

@@ -4,6 +4,6 @@ on = 0
 scr_depth()
 if (global.plot > 12)
 {
-    on = 1
-    image_index = 1
+	on = 1
+	image_index = 1
 }

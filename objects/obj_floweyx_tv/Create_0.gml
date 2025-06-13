@@ -21,4 +21,4 @@ anim5 = 0
 anim6 = 0
 overnoiser = 0
 if (global.fplot > 1)
-    tvmode = 26
+	tvmode = 26

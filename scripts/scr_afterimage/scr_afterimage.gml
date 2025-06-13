@@ -15,8 +15,8 @@ function scr_afterimage(_alpha_down, _growth)
 	genafterimage.image_speed = 
 	genafterimage.depth = (depth + 1)
 	if (argument0 > 0)
-	    genafterimage.alphadown = (1 / _alpha_down)
+		genafterimage.alphadown = (1 / _alpha_down)
 	if (argument1 > 0)
-	    genafterimage.growth = _growth
+		genafterimage.growth = _growth
 	return genafterimage;
 }

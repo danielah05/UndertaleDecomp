@@ -21,11 +21,11 @@ boxvol = 0.25
 boxactive = 0
 if (FL_MusicStatueOn == 1)
 {
-    boxactive = 1
-    mask.image_index = 1
-    musicbox = caster_load("music/musicbox.ogg")
-    image_index = 1
-    caster_loop(musicbox, 0.25, 0.9)
+	boxactive = 1
+	mask.image_index = 1
+	musicbox = caster_load("music/musicbox.ogg")
+	image_index = 1
+	caster_loop(musicbox, 0.25, 0.9)
 }
 con = 0
 alarm[5] = 2

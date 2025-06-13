@@ -7,9 +7,9 @@ image_speed = 0
 conversation = 0
 if (FL_StayedAtInn == 1)
 {
-    conversation = 5
-    global.interact = 1
-    alarm[6] = 15
+	conversation = 5
+	global.interact = 1
+	alarm[6] = 15
 }
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    instance_destroy()
+	instance_destroy()

@@ -7,12 +7,12 @@ strtime1 = 57
 strtime2 = 57
 image_yscale = 100
 if (global.plot > 166)
-    instance_destroy()
+	instance_destroy()
 else
 {
-    view_yview_set(0, 120)
-    obj_mainchara.cutscene = true
-    view_target_set(0, noone)
+	view_yview_set(0, 120)
+	obj_mainchara.cutscene = true
+	view_target_set(0, noone)
 }
 mainmove = 0
 frantic = 0

@@ -1,6 +1,6 @@
 alpha -= 0.05
 if (alpha < 0.13)
-    instance_destroy()
+	instance_destroy()
 image_angle = angle
 image_blend = color
 image_xscale = 2

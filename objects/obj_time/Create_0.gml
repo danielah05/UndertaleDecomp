@@ -1,53 +1,53 @@
 /* if (os_type == os_windows)
 	global.osflavor = 1 
 else if (os_type == os_ps4 || os_type == os_psvita)
-    global.osflavor = 4
+	global.osflavor = 4
 else if (os_type == os_switch)
-    global.osflavor = 5
+	global.osflavor = 5
 else
-    global.osflavor = 2
+	global.osflavor = 2
 */
 if (os_type == os_windows || os_type == os_linux || os_type == os_macosx)
-    global.osflavor = OSFlavors.PC
+	global.osflavor = OSFlavors.PC
 else if (os_type == os_ps4 || os_type == os_psvita)
-    global.osflavor = OSFlavors.Playstation
+	global.osflavor = OSFlavors.Playstation
 else if (os_type == os_switch)
-    global.osflavor = OSFlavors.Switch
+	global.osflavor = OSFlavors.Switch
 else if (os_type == os_xboxone)
 {
-    global.osflavor = OSFlavors.XboxOne
-    xbox_account_picker_display = 0
-    xbox_switch_profile = 0
-    xbox_new_user = 0
-    xbox_connect_buffer = 5
-    global.xbox_async_id = -1
-    global.xbox_trophy_queue = ds_queue_create()
-    xbox_can_unlock_trophy = 1
-    xbox_suspend = 0
-    xbox_controller_connected = 1
-    xbox_login_pad_index = -1
+	global.osflavor = OSFlavors.XboxOne
+	xbox_account_picker_display = 0
+	xbox_switch_profile = 0
+	xbox_new_user = 0
+	xbox_connect_buffer = 5
+	global.xbox_async_id = -1
+	global.xbox_trophy_queue = ds_queue_create()
+	xbox_can_unlock_trophy = 1
+	xbox_suspend = 0
+	xbox_controller_connected = 1
+	xbox_login_pad_index = -1
 }
 else
-    global.osflavor = OSFlavors.Mac
+	global.osflavor = OSFlavors.Mac
 
 global.locale = ((os_get_language() + "_") + string_upper(os_get_region()))
 if (global.osflavor >= OSFlavors.Console)
 {
-    application_surface_enable(true)
-    application_surface_draw_enable(false)
+	application_surface_enable(true)
+	application_surface_draw_enable(false)
 }
 if (os_type == os_switch && (!variable_global_exists("switchlogin")))
 {
-    global.switchlogin = -1
-    while (global.switchlogin < 0)
-        global.switchlogin = switch_accounts_select_account(1, 0, 0)
+	global.switchlogin = -1
+	while (global.switchlogin < 0)
+		global.switchlogin = switch_accounts_select_account(1, 0, 0)
 }
 if (os_type == os_switch)
 {
-    switch_controller_support_set_defaults()
-    switch_controller_support_set_singleplayer_only(true)
-    switch_controller_set_supported_styles(7)
-    missing_controller_timeout = 0
+	switch_controller_support_set_defaults()
+	switch_controller_support_set_singleplayer_only(true)
+	switch_controller_set_supported_styles(7)
+	missing_controller_timeout = 0
 }
 global.savedata_async_id = -1
 global.savedata_async_load = 0
@@ -83,8 +83,8 @@ j_fu_p = 0
 j_fd_p = 0
 for (var i = 0; i < 12; i += 1)
 {
-    j_prev[i] = 0
-    j_on[i] = 0
+	j_prev[i] = 0
+	j_on[i] = 0
 }
 global.button0 = 2
 global.button1 = 1
@@ -94,29 +94,29 @@ global.analog_sense_sense = 0.01
 global.joy_dir = 0
 if (os_type == os_ps4 || os_type == os_psvita)
 {
-    if (substr(global.locale, 1, 2) == "ja")
-    {
-        global.button0 = gp_face2
-        global.button1 = gp_face1
-    }
-    else
-    {
-        global.button0 = gp_face1
-        global.button1 = gp_face2
-    }
-    global.button2 = gp_face4
+	if (substr(global.locale, 1, 2) == "ja")
+	{
+		global.button0 = gp_face2
+		global.button1 = gp_face1
+	}
+	else
+	{
+		global.button0 = gp_face1
+		global.button1 = gp_face2
+	}
+	global.button2 = gp_face4
 }
 else if (os_type == os_switch)
 {
-    global.button0 = gp_face2
-    global.button1 = gp_face1
-    global.button2 = gp_face4
+	global.button0 = gp_face2
+	global.button1 = gp_face1
+	global.button2 = gp_face4
 }
 else if (os_type == os_xboxone)
 {
-    global.button0 = gp_face1
-    global.button1 = gp_face2
-    global.button2 = gp_face4
+	global.button0 = gp_face1
+	global.button1 = gp_face2
+	global.button2 = gp_face4
 }
 global.default_button0 = global.button0
 global.default_button1 = global.button1
@@ -140,74 +140,74 @@ j_ch = 0
 jt = 0
 if (global.osflavor >= OSFlavors.Playstation)
 {
-    i = 0
-    while (i < gamepad_get_device_count())
-    {
-        if gamepad_is_connected(i)
-        {
-            if (j_ch > 0)
-            {
-                j_ch = 0
-                break
-            }
-            else
-            {
-                j_ch = (i + 1)
-                i++
-                continue
-            }
-        }
-        else
-        {
-            i++
-            continue
-        }
-    }
-    if (j_ch == 0)
-    {
-        if (os_type == os_switch)
-        {
-            if (switch_controller_support_show() == false)
-                j_ch = (switch_controller_support_get_selected_id() + 1)
-        }
-        else
-            j_ch = 1
-    }
+	i = 0
+	while (i < gamepad_get_device_count())
+	{
+		if gamepad_is_connected(i)
+		{
+			if (j_ch > 0)
+			{
+				j_ch = 0
+				break
+			}
+			else
+			{
+				j_ch = (i + 1)
+				i++
+				continue
+			}
+		}
+		else
+		{
+			i++
+			continue
+		}
+	}
+	if (j_ch == 0)
+	{
+		if (os_type == os_switch)
+		{
+			if (switch_controller_support_show() == false)
+				j_ch = (switch_controller_support_get_selected_id() + 1)
+		}
+		else
+			j_ch = 1
+	}
 }
 spec_rtimer = 0
 global.endsong_loaded = 0
 control_init()
 scr_kanatype_init()
 if (!variable_global_exists("text_data_en"))
-    textdata_en()
+	textdata_en()
 if (!variable_global_exists("text_data_ja"))
-    textdata_ja()
+	textdata_ja()
 if (os_type == os_switch)
-    global.language = substr(switch_language_get_desired_language(), 1, 2)
+	global.language = substr(switch_language_get_desired_language(), 1, 2)
 else
-    global.language = substr(global.locale, 1, 2)
+	global.language = substr(global.locale, 1, 2)
 if (global.language != "ja")
-    global.language = "en"
+	global.language = "en"
 if (!variable_global_exists("trophy_init_complete"))
 {
-    global.trophy_init_complete = 0
-    trophy_ts = -1
+	global.trophy_init_complete = 0
+	trophy_ts = -1
 }
 // Daniela: due to code changes in the xbox version, this if check causes game crashes on anything other than an xbox, so its commented out here
 // Daniela: there is a "fix" in the game start event, however due to room changes that never gets executed, oopsies!
 //if (os_type == os_xboxone)
 //{
-    script_execute(SCR_GAMESTART, 0, 0, 0, 0, 0)
-    time = 0
-    image_speed = 0
-    jjjjjj = 0
-    repeat (20)
-    {
-        global.tempvalue[jjjjjj] = 0
-        jjjjjj += 1
-    }
-    ossafe_savedata_load()
-    started = 0
+	script_execute(SCR_GAMESTART, 0, 0, 0, 0, 0)
+	time = 0
+	image_speed = 0
+	jjjjjj = 0
+	repeat (20)
+	{
+		global.tempvalue[jjjjjj] = 0
+		jjjjjj += 1
+	}
+	ossafe_savedata_load()
+	started = 0
 //}
 
 // Daniela: decomp stuff

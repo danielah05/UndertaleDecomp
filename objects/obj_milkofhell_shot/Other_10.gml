@@ -6,5 +6,5 @@ splat.speed = speed
 splat.direction = direction
 splat.friction = 2
 repeat (8)
-    instance_create(x, y, obj_milkofhell_drop)
+	instance_create(x, y, obj_milkofhell_drop)
 instance_destroy()

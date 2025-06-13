@@ -7,6 +7,6 @@ special = false
 follow = 0
 if instance_exists(obj_mainchara)
 {
-    if (y > obj_mainchara.y)
-        scr_depth()
+	if (y > obj_mainchara.y)
+		scr_depth()
 }

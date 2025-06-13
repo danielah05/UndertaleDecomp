@@ -14,7 +14,7 @@ image_speed = 0
 scr_depth()
 con = 0
 if (global.plot > 115 && room == room_water_trashzone2)
-    instance_destroy()
+	instance_destroy()
 float = false
 offground = 0
 siner = 0

@@ -18,7 +18,7 @@ path_start(path_torielwalk5_2, 1, path_action_stop, 0)
 global.phasing = 1
 obj_spiketile2.solid = 0
 with (obj_mainchara)
-    path_start(path_torielwalk5_2, 1, path_action_stop, 0)
+	path_start(path_torielwalk5_2, 1, path_action_stop, 0)
 global.interact = 6
 conversation = 0
 phone = 0

@@ -7,4 +7,4 @@ y -= 245
 dont = 0
 goal = (ystart + 240)
 if (room == room_water_waterfall2)
-    goal = (ystart + random(480))
+	goal = (ystart + random(480))

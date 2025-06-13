@@ -8,21 +8,21 @@ function scr_phoneget(_phone_id)
 	global.phone[8] = 999 // Daniela: unsure why this gets set?
 	while (loop == 1)
 	{
-	    if (global.phone[i] == PhoneName.Null)
-	    {
-	        global.phone[i] = _phone_id
-	        break
-	    }
-	    else if (i == 8)
-	    {
-	        scr_itemnospace()
-	        break
-	    }
-	    else
-	    {
-	        i += 1
-	        continue
-	    }
+		if (global.phone[i] == PhoneName.Null)
+		{
+			global.phone[i] = _phone_id
+			break
+		}
+		else if (i == 8)
+		{
+			scr_itemnospace()
+			break
+		}
+		else
+		{
+			i += 1
+			continue
+		}
 	}
 	scr_phonename()
 }

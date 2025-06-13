@@ -3,15 +3,15 @@ ossafe_ini_open("undertale.ini")
 gm = ini_read_real("General", "Gameover", 0)
 ossafe_ini_close()
 if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
-    murder = 1
+	murder = 1
 instance_create(0, 0, obj_fader)
 vol = 0.5
 if (FL_TruePacifist == false)
 {
-    shopmus = caster_load("music/temshop.ogg")
-    caster_loop(shopmus, vol, 1)
-    if (murder == 1)
-        caster_set_pitch(shopmus, 0.5)
+	shopmus = caster_load("music/temshop.ogg")
+	caster_loop(shopmus, vol, 1)
+	if (murder == 1)
+		caster_set_pitch(shopmus, 0.5)
 }
 menumax = 3
 menu = 0
@@ -32,7 +32,7 @@ item[1] = 22
 item[2] = 22
 item[3] = 64
 if (murder == 1)
-    item[3] = 22
+	item[3] = 22
 sell = 0
 bought = 0
 mainmessage = 0
@@ -55,8 +55,8 @@ sellpos = 0
 sellpos2 = 0
 for (i = 0; i < InventorySize; i += 1)
 {
-    value[i] = 0
-    sold[i] = 0
+	value[i] = 0
+	sold[i] = 0
 }
 value[8] = 0
 value[9] = 0

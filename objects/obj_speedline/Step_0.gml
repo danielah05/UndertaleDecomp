@@ -1,2 +1,2 @@
 if (y > room_height)
-    instance_destroy()
+	instance_destroy()

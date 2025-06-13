@@ -19,35 +19,35 @@ active = true
 _new = 1
 sans = 0
 if (FL_PapyrusStatus == PapyrusStatus.Killed)
-    sans = 1
+	sans = 1
 if (room == room_water_undynefinal)
-    _new = 0
+	_new = 0
 for (i = 0; i < 60; i += 1)
 {
-    rememberx[i] = x
-    remembery[i] = y
+	rememberx[i] = x
+	remembery[i] = y
 }
 FL_MenuDisabled = true
 if (global.plot > 121)
-    instance_destroy()
+	instance_destroy()
 if (room == room_water_undynefinal2)
 {
-    if (global.entrance == 1)
-        y = (obj_mainchara.y + 100)
-    if (global.entrance == 2)
-        y = (obj_mainchara.y - 100)
+	if (global.entrance == 1)
+		y = (obj_mainchara.y + 100)
+	if (global.entrance == 2)
+		y = (obj_mainchara.y - 100)
 }
 if (room == room_water_undynefinal3)
 {
-    if (global.entrance == 1)
-        x = (obj_mainchara.x - 100)
-    if (global.entrance == 2)
-        x = (obj_mainchara.x + 100)
+	if (global.entrance == 1)
+		x = (obj_mainchara.x - 100)
+	if (global.entrance == 2)
+		x = (obj_mainchara.x + 100)
 }
 if (room == room_fire1)
 {
-    if (global.entrance == 1)
-        x = (obj_mainchara.x - 60)
-    if (global.entrance == 2)
-        x = (obj_mainchara.x + 60)
+	if (global.entrance == 1)
+		x = (obj_mainchara.x - 60)
+	if (global.entrance == 2)
+		x = (obj_mainchara.x + 60)
 }

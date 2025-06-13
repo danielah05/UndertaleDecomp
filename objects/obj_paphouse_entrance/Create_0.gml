@@ -6,4 +6,4 @@ scr_depth()
 dooract = 0
 touched = false
 if (FL_PapyrusDateCounter > 1)
-    dooract = 1
+	dooract = 1

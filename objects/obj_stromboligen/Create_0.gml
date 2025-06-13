@@ -4,4 +4,4 @@ rate = global.firingrate
 spd = 2
 sum = scr_monstersum()
 if (sum > 1)
-    spd = 1.5
+	spd = 1.5

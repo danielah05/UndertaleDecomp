@@ -8,4 +8,4 @@ shake = -1
 nowxx = 0
 nowyy = 0
 with (obj_screen)
-    messed = 2
+	messed = 2

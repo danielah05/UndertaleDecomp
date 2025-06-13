@@ -4,7 +4,7 @@ image_xscale = 1
 image_yscale = 1
 con = 0
 if (FL_TruePacifist == true)
-    instance_destroy()
+	instance_destroy()
 if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
-    instance_destroy()
+	instance_destroy()
 buffer = 0

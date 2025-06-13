@@ -31,9 +31,9 @@ global.joycon_color[1] = joycon_red
 pattern = 0
 for (i = 0; i < 5; i += 1)
 {
-    xpos[i] = 314
-    ypos[i] = 300
-    peg_alpha[i] = 0
+	xpos[i] = 314
+	ypos[i] = 300
+	peg_alpha[i] = 0
 }
 xpos[0] += -50
 xpos[2] += 50

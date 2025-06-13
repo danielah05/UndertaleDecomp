@@ -14,6 +14,6 @@ image_speed = 0
 con = 0
 fun = false
 if (global.plot > 100 && room == room_tundra_town && FL_TruePacifist == false)
-    instance_destroy()
+	instance_destroy()
 if (global.plot > 103 && room == room_water2)
-    instance_destroy()
+	instance_destroy()

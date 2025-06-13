@@ -4,10 +4,10 @@ mycommand = round(random(100))
 global.msg[0] = scr_gettext("obj_snowdrakemom_158")
 if (whatiheard == 4)
 {
-    if (joke == 1)
-        global.msg[0] = scr_gettext("obj_snowdrakemom_165")
-    if (joke == 2)
-        global.msg[0] = scr_gettext("obj_snowdrakemom_167")
+	if (joke == 1)
+		global.msg[0] = scr_gettext("obj_snowdrakemom_165")
+	if (joke == 2)
+		global.msg[0] = scr_gettext("obj_snowdrakemom_167")
 }
 global.msg[1] = scr_gettext("obj_snowdrakemom_173")
 global.typer = 2

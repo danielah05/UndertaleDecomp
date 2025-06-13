@@ -6,13 +6,13 @@ y -= 4
 r = random(2)
 if (r >= 1)
 {
-    gravity_direction = 0
-    hspeed = 2
-    vspeed = 0
+	gravity_direction = 0
+	hspeed = 2
+	vspeed = 0
 }
 else
 {
-    gravity_direction = 180
-    hspeed = -2
-    vspeed = 0
+	gravity_direction = 180
+	hspeed = -2
+	vspeed = 0
 }

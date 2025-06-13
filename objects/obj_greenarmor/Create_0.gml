@@ -1,12 +1,12 @@
 if instance_exists(obj_bara02)
 {
-    g = obj_bara02.armor
-    r = (255 - obj_bara02.armor)
+	g = obj_bara02.armor
+	r = (255 - obj_bara02.armor)
 }
 else if instance_exists(obj_bara03)
 {
-    g = obj_bara03.armor
-    r = (255 - obj_bara03.armor)
+	g = obj_bara03.armor
+	r = (255 - obj_bara03.armor)
 }
 b = 0
 image_blend = make_color_rgb(r, g, b)

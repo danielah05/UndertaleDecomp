@@ -5,7 +5,7 @@ mypart1 = instance_create(x, y, part1)
 mypart1.pause = 0
 mypart1.face = 12
 with (mypart1)
-    depth = 9
+	depth = 9
 alarm[9] = 8
 hurtanim = 0
 hurtsound = snd_vulkinhurt

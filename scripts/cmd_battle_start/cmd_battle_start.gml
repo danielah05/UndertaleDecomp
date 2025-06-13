@@ -15,6 +15,6 @@ function cmd_battle_start(_args)
 	var value = real(string_digits(_args[0]));
 	
 	global.battlegroup = value
-    global.border = 0
-    instance_create(0, 0, obj_battleblcon)
+	global.border = 0
+	instance_create(0, 0, obj_battleblcon)
 }

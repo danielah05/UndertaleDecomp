@@ -1,7 +1,7 @@
 draw_self_border()
 if (global.turntimer < 1)
 {
-    global.turntimer = -1
-    global.mnfight = 3
-    instance_destroy()
+	global.turntimer = -1
+	global.mnfight = 3
+	instance_destroy()
 }

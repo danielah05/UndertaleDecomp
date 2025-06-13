@@ -2,18 +2,18 @@ tile_layer_hide(999995)
 FL_InBattle = false
 if (global.plot > 197)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }
 if (global.plot == 193)
 {
-    instance_create(0, 0, obj_mettdestroyed_event)
-    instance_destroy()
-    return;
+	instance_create(0, 0, obj_mettdestroyed_event)
+	instance_destroy()
+	return;
 }
 murder = 0
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    murder = 1
+	murder = 1
 FL_AnimationIndex = 6
 con = 0
 mett = instance_create(146, 705, obj_mettaton_actor)

@@ -16,7 +16,7 @@ joketold = 0
 sha = 0
 siner = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 instance_create(0, 0, obj_boxsiner)
 green = 0
 darkify = 0
@@ -44,16 +44,16 @@ mercied = 0
 FL_UndyneDifficultyCounter += 1
 if (FL_UndyneDifficultyCounter == 1)
 {
-    FL_UndyneDeathHP = 1500
-    if (FL_MonsterKidSavedStatus == MonsterKidSavedStatus.SavedByPlayer)
-        FL_UndyneDeathHP = 1400
+	FL_UndyneDeathHP = 1500
+	if (FL_MonsterKidSavedStatus == MonsterKidSavedStatus.SavedByPlayer)
+		FL_UndyneDeathHP = 1400
 }
 if (FL_UndyneDifficultyCounter == 2)
-    global.faceemotion = 1
+	global.faceemotion = 1
 if (FL_UndyneDifficultyCounter == 3)
-    global.faceemotion = 4
+	global.faceemotion = 4
 if (FL_UndyneDifficultyCounter > 3)
-    global.faceemotion = 5
+	global.faceemotion = 5
 global.monsterhp[myself] = FL_UndyneDeathHP
 ht = 200
 wd = 250

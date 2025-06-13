@@ -12,4 +12,4 @@ direction = 0
 talkedto = 0
 image_speed = 0
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    instance_destroy()
+	instance_destroy()

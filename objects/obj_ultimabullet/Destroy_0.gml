@@ -1,2 +1,2 @@
 with (trail)
-    instance_destroy()
+	instance_destroy()

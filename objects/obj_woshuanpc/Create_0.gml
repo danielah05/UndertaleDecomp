@@ -12,6 +12,6 @@ direction = 270
 talkedto = 0
 image_speed = 0
 if (scr_enemynpc2() != 1)
-    instance_destroy()
+	instance_destroy()
 if (room == room_water_trashzone1 && FL_DatedAlphys >= 9 && FL_TruePacifist == false)
-    instance_destroy()
+	instance_destroy()

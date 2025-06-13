@@ -9,23 +9,23 @@ function scr_writetext(_msc, _message, _face_choice, _typer)
 	global.facechoice = 0
 	global.msc = _msc
 	if (_message != "x")
-	    global.msg[0] = _message
+		global.msg[0] = _message
 	if (_face_choice != 0)
-	    global.facechoice = _face_choice
+		global.facechoice = _face_choice
 	if (global.inbattle == false)
 	{
-	    global.typer = 5
-	    if (_typer != 0)
-	        global.typer = _typer
-	    instance_create(0, 0, obj_dialoguer)
+		global.typer = 5
+		if (_typer != 0)
+			global.typer = _typer
+		instance_create(0, 0, obj_dialoguer)
 	}
 	if (global.inbattle == true)
 	{
-	    with (OBJ_WRITER)
-	        halt = 3
-	    global.typer = 1
-	    if (_typer != 0)
-	        global.typer = _typer
-	    instance_create(global.idealborder[0], global.idealborder[2], OBJ_WRITER)
+		with (OBJ_WRITER)
+			halt = 3
+		global.typer = 1
+		if (_typer != 0)
+			global.typer = _typer
+		instance_create(global.idealborder[0], global.idealborder[2], OBJ_WRITER)
 	}
 }

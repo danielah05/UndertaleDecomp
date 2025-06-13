@@ -1,2 +1,2 @@
 with (snoozer)
-    instance_destroy()
+	instance_destroy()

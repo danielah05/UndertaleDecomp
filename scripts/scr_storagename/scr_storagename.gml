@@ -4,10 +4,10 @@
 function scr_storagename(_box_flag_offset)
 {
 	for (i = _box_flag_offset; i < (_box_flag_offset + DimensionalBoxSize); i += 1)
-	    global.itemname[(i - _box_flag_offset)] = " "
+		global.itemname[(i - _box_flag_offset)] = " "
 	for (i = 0; i < 11; i += 1)
 	{
-	    itemid = global.flag[(_box_flag_offset + i)]
-	    scr_itemnamelist()
+		itemid = global.flag[(_box_flag_offset + i)]
+		scr_itemnamelist()
 	}
 }

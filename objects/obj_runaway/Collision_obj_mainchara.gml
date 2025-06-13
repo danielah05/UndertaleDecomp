@@ -1,2 +1,2 @@
 with (mykid)
-    myinteract = 1
+	myinteract = 1

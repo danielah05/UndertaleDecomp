@@ -22,28 +22,28 @@ timerb = 660
 global.xbox_disconnect_counter++
 disconnect_message = 0
 if (global.xbox_disconnect_counter > 8)
-    disconnect_message = 1
+	disconnect_message = 1
 if (floor(random(20)) == 1 && global.seriousbattle == 0 && global.kills == 0 && room < room_fire_hotelbed)
-    disconnect_message = 2
+	disconnect_message = 2
 if (room >= room_truelab_hall1 && room <= room_truelab_power)
-    disconnect_message = 3
+	disconnect_message = 3
 if (room >= room_f_start && room <= room_f_phrase)
-    disconnect_message = 4
+	disconnect_message = 4
 if (room == room_papdate)
-    disconnect_message = 5
+	disconnect_message = 5
 if (disconnect_message == 1)
-    sub_message = xbox_controller_connect_2
+	sub_message = xbox_controller_connect_2
 if (disconnect_message == 2)
 {
-    main_message = xbox_controller_connect_3
-    sub_message = xbox_controller_connect_4
+	main_message = xbox_controller_connect_3
+	sub_message = xbox_controller_connect_4
 }
 if (disconnect_message == 3)
-    sub_message = xbox_controller_connect_5
+	sub_message = xbox_controller_connect_5
 if (disconnect_message == 4)
 {
-    main_message = xbox_controller_connect_7
-    sub_message = " "
+	main_message = xbox_controller_connect_7
+	sub_message = " "
 }
 if (disconnect_message == 5)
-    sub_message = xbox_controller_connect_6
+	sub_message = xbox_controller_connect_6

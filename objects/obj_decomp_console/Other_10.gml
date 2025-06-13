@@ -41,7 +41,7 @@ command_register("game_restart", "Restarts the game");
 
 var roomNameHints = array_create(0);
 for (var i = 0; i < room_last; i++)
-    roomNameHints[i] = room_get_name(i);
+	roomNameHints[i] = room_get_name(i);
 	
 array_sort(roomNameHints, true);
 

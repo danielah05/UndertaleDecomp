@@ -32,10 +32,10 @@ function scr_load()
 	ossafe_file_text_readln(myfileid)
 	for (i = 0; i < InventorySize; i += 1)
 	{
-	    global.item[i] = ossafe_file_text_read_real(myfileid)
-	    ossafe_file_text_readln(myfileid)
-	    global.phone[i] = ossafe_file_text_read_real(myfileid)
-	    ossafe_file_text_readln(myfileid)
+		global.item[i] = ossafe_file_text_read_real(myfileid)
+		ossafe_file_text_readln(myfileid)
+		global.phone[i] = ossafe_file_text_read_real(myfileid)
+		ossafe_file_text_readln(myfileid)
 	}
 	global.weapon = ossafe_file_text_read_real(myfileid)
 	ossafe_file_text_readln(myfileid)
@@ -43,15 +43,15 @@ function scr_load()
 	ossafe_file_text_readln(myfileid)
 	for (i = 0; i < 512; i += 1)
 	{
-	    global.flag[i] = ossafe_file_text_read_real(myfileid)
-	    ossafe_file_text_readln(myfileid)
+		global.flag[i] = ossafe_file_text_read_real(myfileid)
+		ossafe_file_text_readln(myfileid)
 	}
 	global.plot = ossafe_file_text_read_real(myfileid)
 	ossafe_file_text_readln(myfileid)
 	for (i = 0; i < 3; i += 1)
 	{
-	    global.menuchoice[i] = ossafe_file_text_read_real(myfileid)
-	    ossafe_file_text_readln(myfileid)
+		global.menuchoice[i] = ossafe_file_text_read_real(myfileid)
+		ossafe_file_text_readln(myfileid)
 	}
 	FL_CurrentNapstablookSong = 0
 	global.currentsong = ossafe_file_text_read_real(myfileid)
@@ -62,10 +62,10 @@ function scr_load()
 	ossafe_file_text_readln(myfileid)
 	if (os_type == os_xboxone)
 	{
-	    global.xbox_disconnect_counter = ossafe_file_text_read_real(myfileid)
-	    ossafe_file_text_readln(myfileid)
-	    global.xbox_coins_donated = ossafe_file_text_read_real(myfileid)
-	    ossafe_file_text_readln(myfileid)
+		global.xbox_disconnect_counter = ossafe_file_text_read_real(myfileid)
+		ossafe_file_text_readln(myfileid)
+		global.xbox_coins_donated = ossafe_file_text_read_real(myfileid)
+		ossafe_file_text_readln(myfileid)
 	}
 	global.lastsavedkills = global.kills
 	global.lastsavedtime = obj_time.time
@@ -75,9 +75,9 @@ function scr_load()
 	global.en = global.maxen
 	scr_tempsave()
 	if (global.currentroom < room_tundra_library)
-	    global.area = 0
+		global.area = 0
 	if (global.currentroom >= room_tundra_library)
-	    global.area = 1
+		global.area = 1
 	FL_PlayRainSound = false
 	FL_RainSoundVolume = 0
 	FL_RainDeepVolume = 0
@@ -85,5 +85,5 @@ function scr_load()
 	FL_RainDeepSoundHandle = 0
 	scr_dogcheck()
 	if (dogcheck == 1)
-	    room_goto(global.currentroom)
+		room_goto(global.currentroom)
 }

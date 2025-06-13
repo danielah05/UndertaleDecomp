@@ -5,9 +5,9 @@ rectaur = 0
 active = false
 if (FL_DatedAlphys < 12)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }
 else
-    active = true
+	active = true
 con = 0

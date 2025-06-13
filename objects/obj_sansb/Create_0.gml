@@ -1,5 +1,5 @@
 if (global.plot < 201)
-    global.plot = 201
+	global.plot = 201
 scr_monstersetup()
 image_speed = 0
 part1 = obj_sansb_body
@@ -42,23 +42,23 @@ part = 0
 skip = false
 if (skip == false)
 {
-    birdnoise = caster_load("music/birdnoise.ogg")
-    caster_loop(birdnoise, 1, 1)
+	birdnoise = caster_load("music/birdnoise.ogg")
+	caster_loop(birdnoise, 1, 1)
 }
 if (skip == true)
 {
-    con = -1
-    with (mypart1)
-        bounce = 1
-    obj_borderparent.visible = true
-    global.msg[0] = scr_gettext("obj_sansb_90")
-    global.mnfight = 3
-    global.myfight = 0
-    global.faceemotion = 0
-    normalfight = 1
-    obj_heart.visible = true
-    FL_FightingSans = true
-    caster_loop(global.batmusic, 0.95, 0.95)
+	con = -1
+	with (mypart1)
+		bounce = 1
+	obj_borderparent.visible = true
+	global.msg[0] = scr_gettext("obj_sansb_90")
+	global.mnfight = 3
+	global.myfight = 0
+	global.faceemotion = 0
+	normalfight = 1
+	obj_heart.visible = true
+	FL_FightingSans = true
+	caster_loop(global.batmusic, 0.95, 0.95)
 }
 drama = 0
 mercy_death = 0

@@ -10,62 +10,62 @@ scrollspeed = size
 xhome = xstart
 if (global.entrance == 1)
 {
-    if (x < 0)
-    {
-        x += 350
-        xhome += 350
-    }
-    if (x > 320)
-    {
-        x -= 350
-        xhome -= 350
-    }
-    if (x < 0)
-    {
-        x += 350
-        xhome += 350
-    }
-    if (x > 320)
-    {
-        x -= 350
-        xhome -= 350
-    }
-    if (x < 0)
-    {
-        x += 350
-        xhome += 350
-    }
-    if (x > 320)
-    {
-        x -= 350
-        xhome -= 350
-    }
-    if (x < 0)
-    {
-        x += 350
-        xhome += 350
-    }
-    if (x > 320)
-    {
-        x -= 350
-        xhome -= 350
-    }
+	if (x < 0)
+	{
+		x += 350
+		xhome += 350
+	}
+	if (x > 320)
+	{
+		x -= 350
+		xhome -= 350
+	}
+	if (x < 0)
+	{
+		x += 350
+		xhome += 350
+	}
+	if (x > 320)
+	{
+		x -= 350
+		xhome -= 350
+	}
+	if (x < 0)
+	{
+		x += 350
+		xhome += 350
+	}
+	if (x > 320)
+	{
+		x -= 350
+		xhome -= 350
+	}
+	if (x < 0)
+	{
+		x += 350
+		xhome += 350
+	}
+	if (x > 320)
+	{
+		x -= 350
+		xhome -= 350
+	}
 }
 if (global.entrance == 2)
 {
-    repeat (5)
-    {
-        if (x < (room_width - view_wview_get(0)))
-        {
-            x += 350
-            xhome += 350
-        }
-        if (x > (room_width - view_wview_get(0)))
-        {
-            x -= 350
-            xhome -= 350
-        }
-    }
+	repeat (5)
+	{
+		if (x < (room_width - view_wview_get(0)))
+		{
+			x += 350
+			xhome += 350
+		}
+		if (x > (room_width - view_wview_get(0)))
+		{
+			x -= 350
+			xhome -= 350
+		}
+	}
 }
 x = xhome
 obj_mainchara.x = rememberx

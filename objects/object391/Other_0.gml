@@ -1,2 +1,2 @@
 if (x < (-sprite_width))
-    global.monster[myself] = false
+	global.monster[myself] = false

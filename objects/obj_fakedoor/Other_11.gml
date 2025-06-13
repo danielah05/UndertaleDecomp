@@ -4,10 +4,10 @@ open = 1
 visible = true
 obj_mainchara.cutscene = true
 with (instance_position((x + 10), (y + 20), obj_solidtall_2))
-    instance_destroy()
+	instance_destroy()
 scr_shake(2, 2, 2)
 global.interact = 1
 alarm[5] = 30
 myinteract = 0
 with (obj_piano)
-    can_interact = 0
+	can_interact = 0

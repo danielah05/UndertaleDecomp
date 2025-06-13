@@ -5,6 +5,6 @@ rando = 0
 randofactor = 25
 finalrando = 0
 if (id == instance_find(object_index, 1))
-    kingrando = 1
+	kingrando = 1
 else
-    kingrando = 0
+	kingrando = 0

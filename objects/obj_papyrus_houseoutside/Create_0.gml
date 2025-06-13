@@ -1,7 +1,7 @@
 if (FL_PapyrusStatus == PapyrusStatus.Killed)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }
 dsprite = spr_papyrus_d
 usprite = spr_papyrus_u
@@ -21,8 +21,8 @@ con = 0
 rid = 0
 if (FL_PapyrusDateCounter >= 4 && FL_TruePacifist == false)
 {
-    instance_create(x, y, obj_papyrus_room)
-    instance_destroy()
+	instance_create(x, y, obj_papyrus_room)
+	instance_destroy()
 }
 if (FL_PapyrusDateCounter != 1)
-    instance_destroy()
+	instance_destroy()

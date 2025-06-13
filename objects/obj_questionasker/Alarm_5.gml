@@ -2,8 +2,8 @@ dmgamt = ceil((global.hp / 2))
 global.hp -= dmgamt
 if (global.hp <= 1)
 {
-    global.hp = 1
-    q = 8
+	global.hp = 1
+	q = 8
 }
 snd_play(snd_hurt1)
 global.hshake = 2

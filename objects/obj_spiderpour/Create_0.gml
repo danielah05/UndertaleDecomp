@@ -6,4 +6,4 @@ vspeed = 3
 hspeed = -1
 gravity_direction = 320
 if (obj_spiderb_body.purple > 80)
-    visible = false
+	visible = false

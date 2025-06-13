@@ -15,9 +15,9 @@ i = 0
 num = 2
 repeat num
 {
-    kid[i] = instance_create(x, y, obj_bulletbomb)
-    greg = degtorad(((i * 360) / num))
-    kid[i].x = ((x + (sin(greg) * sf2)) - 14)
-    kid[i].y = ((y + (cos(greg) * sf2)) - 15)
-    i += 1
+	kid[i] = instance_create(x, y, obj_bulletbomb)
+	greg = degtorad(((i * 360) / num))
+	kid[i].x = ((x + (sin(greg) * sf2)) - 14)
+	kid[i].y = ((y + (cos(greg) * sf2)) - 15)
+	i += 1
 }

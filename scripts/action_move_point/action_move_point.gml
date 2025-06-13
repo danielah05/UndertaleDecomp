@@ -10,8 +10,8 @@ function action_move_point(_x, _y, _speed)
 	var yy = _y
 	if global.__argument_relative
 	{
-	    xx += x
-	    yy += y
+		xx += x
+		yy += y
 	}
 	move_towards_point(xx, yy, _speed)
 }

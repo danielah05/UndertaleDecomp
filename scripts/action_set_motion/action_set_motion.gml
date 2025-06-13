@@ -9,8 +9,8 @@ function action_set_motion(_direction, _speed)
 	var spd = _speed
 	if global.__argument_relative
 	{
-	    dir += direction
-	    spd += speed
+		dir += direction
+		spd += speed
 	}
 	direction = dir
 	speed = spd

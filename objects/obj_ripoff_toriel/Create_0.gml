@@ -4,7 +4,7 @@ global.faceemotion = 15
 part1 = obj_torielbody
 mypart1 = instance_create(x, y, part1)
 with (part1)
-    depth = 16
+	depth = 16
 mypart1.pause = 0
 alarm[9] = 8
 hurtanim = 0

@@ -14,7 +14,7 @@ phone = 0
 fader = 0
 if (room == room_basement3 || room == room_basement4)
 {
-    facing = Direction.Up
-    direction = 90
-    sprite_index = spr_toriel_u
+	facing = Direction.Up
+	direction = 90
+	sprite_index = spr_toriel_u
 }

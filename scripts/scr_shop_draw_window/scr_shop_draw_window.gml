@@ -7,9 +7,9 @@ function scr_shop_draw_window()
 	draw_set_color(c_black)
 	if divided
 	{
-	    ossafe_fill_rectangle(4, 124, (divider_x - 1), 236)
-	    ossafe_fill_rectangle((divider_x + 4), 124, 316, 236)
+		ossafe_fill_rectangle(4, 124, (divider_x - 1), 236)
+		ossafe_fill_rectangle((divider_x + 4), 124, 316, 236)
 	}
 	else
-	    ossafe_fill_rectangle(4, 124, 316, 236)
+		ossafe_fill_rectangle(4, 124, 316, 236)
 }

@@ -4,7 +4,7 @@ vspeed = -4
 friction = 0.1
 sum = scr_monstersum()
 if (sum > 1)
-    vspeed = 4.2
+	vspeed = 4.2
 sinr = 0
 c = 0
 dmg = 6

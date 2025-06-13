@@ -1,7 +1,7 @@
 timer = -30
 death = 0
 if ossafe_file_exists("system_information_963")
-    death = 1
+	death = 1
 doreground = instance_create(x, y, obj_npc_marker)
 doreground.sprite_index = spr_myroom_doreground
 doreground.visible = true

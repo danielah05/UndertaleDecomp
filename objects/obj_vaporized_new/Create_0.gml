@@ -6,6 +6,6 @@ finishedreading = 0
 line = 0
 scr_newvapordata(NewMonsterVapor.Aaron) // Daniela: Aaron is here as its number 0
 if (myvapor == 0)
-    snd_play(snd_vaporized)
+	snd_play(snd_vaporized)
 fun = 8
 spec = 0

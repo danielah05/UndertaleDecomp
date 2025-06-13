@@ -1,7 +1,7 @@
 if (memorymode == 0)
-    instance_destroy()
+	instance_destroy()
 if (memorymode == 1)
 {
-    active = false
-    visible = false
+	active = false
+	visible = false
 }

@@ -7,7 +7,7 @@ function scr_onscreen(_x_border, _y_border)
 	onscreen = false
 	if (x > (view_xview_get(view_current) - _x_border) && x < ((view_xview_get(view_current) + view_wview_get(view_current)) + _x_border))
 	{
-	    if (y < ((view_hview_get(view_current) + view_yview_get(view_current)) + _y_border) && y > (view_yview_get(view_current) - _y_border))
-	        onscreen = true
+		if (y < ((view_hview_get(view_current) + view_yview_get(view_current)) + _y_border) && y > (view_yview_get(view_current) - _y_border))
+			onscreen = true
 	}
 }

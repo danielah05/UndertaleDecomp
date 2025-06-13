@@ -3,7 +3,7 @@ stayy = (ystart - view_yview_get(0))
 on = 1
 ang = (1 + (random(2) * choose(1, -1)))
 if (ang > 0)
-    ang /= 2
+	ang /= 2
 tx = 0
 stringer = scr_gettext("mettnews_ticker_1")
 stringer += scr_gettext("mettnews_ticker_2")

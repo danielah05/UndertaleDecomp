@@ -14,4 +14,4 @@ image_speed = 0
 fun = false
 sansmode = 0
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    instance_destroy()
+	instance_destroy()

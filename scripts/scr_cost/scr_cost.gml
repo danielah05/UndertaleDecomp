@@ -1,7 +1,7 @@
 function scr_cost()
 {
 	if (global.gold >= argument0)
-	    afford = 1
+		afford = 1
 	else
-	    afford = 0
+		afford = 0
 }

@@ -4,4 +4,4 @@ alarm[0] = 1
 active = false
 siner = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()

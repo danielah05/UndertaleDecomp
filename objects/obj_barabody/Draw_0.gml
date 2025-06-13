@@ -9,11 +9,11 @@ draw_sprite_ext(spr_barashoes, 0, (x + 64), shoesy, (2 + (sin((siner / 4)) * 0.1
 draw_sprite_ext(bodypic, 0, x, (armory + (sin((siner / 4)) * 2)), 2, 2, 0, c_white, 1)
 draw_sprite_ext(headpic, 0, x, (heady + (sin((siner / 4)) * 4)), 2, 2, 0, c_white, 1)
 if (pause == 0)
-    siner += 1
+	siner += 1
 if (pause == 1)
-    x = (parent.x + 28)
+	x = (parent.x + 28)
 if (shaker > 0 && pause == 0)
 {
-    siner += 0.5
-    x += sin((siner / 2))
+	siner += 0.5
+	x += sin((siner / 2))
 }

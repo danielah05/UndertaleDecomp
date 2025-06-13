@@ -1,8 +1,8 @@
 image_speed = 0
 if (room == room_shop1)
-    x = (obj_shop1.shx + 27)
+	x = (obj_shop1.shx + 27)
 else
-    instance_destroy()
+	instance_destroy()
 y = 50
 global.faceemotion = 0
 an = 0
@@ -14,4 +14,4 @@ facespr[4] = spr_shopkeeper1_face4
 facespr[5] = spr_shopkeeper1_face5
 facespr[6] = spr_shopkeeper1_face6
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    instance_destroy()
+	instance_destroy()

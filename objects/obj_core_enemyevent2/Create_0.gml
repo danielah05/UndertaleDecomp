@@ -3,10 +3,10 @@ image_xscale = 6
 con = 0
 if (FL_TruePacifist == true || FL_DisableRandomEncounters == true || global.plot > 198)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }
 if (FL_GotAlphysAdvice4 == 1)
-    instance_destroy()
+	instance_destroy()
 else
-    con = 1
+	con = 1

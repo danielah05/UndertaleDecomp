@@ -1,6 +1,6 @@
 true_battle = 1
 with (obj_mewmew_body)
-    true_battle = 1
+	true_battle = 1
 true_con = 5
 global.myfight = 0
 global.mnfight = 1

@@ -1,5 +1,5 @@
 if (FL_TorielStatus == TorielStatus.Killed)
-    instance_destroy()
+	instance_destroy()
 myinteract = 0
 image_xscale = 1
 image_yscale = 1

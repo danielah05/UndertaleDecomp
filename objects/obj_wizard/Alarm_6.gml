@@ -2,19 +2,19 @@ blcon = instance_create((x + 125), y, obj_blconsm)
 gg = floor(random(3))
 mycommand = round(random(100))
 if (mycommand < 20)
-    global.msg[0] = scr_gettext("obj_wizard_281")
+	global.msg[0] = scr_gettext("obj_wizard_281")
 if (mycommand >= 20)
-    global.msg[0] = scr_gettext("obj_wizard_283")
+	global.msg[0] = scr_gettext("obj_wizard_283")
 if (mycommand >= 40)
-    global.msg[0] = scr_gettext("obj_wizard_285")
+	global.msg[0] = scr_gettext("obj_wizard_285")
 if (mycommand >= 60)
-    global.msg[0] = scr_gettext("obj_wizard_287")
+	global.msg[0] = scr_gettext("obj_wizard_287")
 if (mycommand >= 80)
-    global.msg[0] = scr_gettext("obj_wizard_289")
+	global.msg[0] = scr_gettext("obj_wizard_289")
 if (mercymod == 300)
 {
-    mercymod = 299
-    global.msg[0] = scr_gettext("obj_wizard_294")
+	mercymod = 299
+	global.msg[0] = scr_gettext("obj_wizard_294")
 }
 global.msg[1] = scr_gettext("obj_wizard_297")
 global.typer = 2

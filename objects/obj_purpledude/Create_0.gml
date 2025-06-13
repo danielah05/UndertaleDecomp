@@ -13,15 +13,15 @@ talkedto = 0
 image_speed = 0
 con = 0
 if (global.plot < 110)
-    instance_destroy()
+	instance_destroy()
 if (scr_murderlv() >= MurderLevel.Lv8PapyrusKilled && FL_SparedSpecific == 0)
-    y = 900
+	y = 900
 if (global.entrance == 24)
 {
-    global.interact = 1
-    con = 20
-    visible = false
-    obj_mainchara.visible = false
-    obj_mainchara.x = x
-    obj_mainchara.y = (y - 15)
+	global.interact = 1
+	con = 20
+	visible = false
+	obj_mainchara.visible = false
+	obj_mainchara.x = x
+	obj_mainchara.y = (y - 15)
 }

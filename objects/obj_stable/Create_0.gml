@@ -15,11 +15,11 @@ open = 0
 scr_depth()
 mysolid = instance_create(214, 52, obj_solidsmall)
 if (FL_StableStatus > 0)
-    open = 1
+	open = 1
 if (FL_StableStatus > 3)
 {
-    open = 2
-    with (mysolid)
-        instance_destroy()
+	open = 2
+	with (mysolid)
+		instance_destroy()
 }
 con = 0

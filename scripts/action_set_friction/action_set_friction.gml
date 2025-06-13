@@ -6,6 +6,6 @@ function action_set_friction(_value)
 {
 	var val = _value
 	if global.__argument_relative
-	    val += friction
+		val += friction
 	friction = val
 }

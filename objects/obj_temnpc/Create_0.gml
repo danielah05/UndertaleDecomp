@@ -12,6 +12,6 @@ direction = 180
 talkedto = 0
 image_speed = 0
 if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
-    instance_destroy()
+	instance_destroy()
 if (x == 145 || x == 205 || x == 450)
-    direction = 0
+	direction = 0

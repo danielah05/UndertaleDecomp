@@ -12,6 +12,6 @@ direction = 0
 talkedto = 0
 image_speed = 0
 if (FL_TruePacifist == true && room == room_fire_restaurant)
-    instance_destroy()
+	instance_destroy()
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    instance_destroy()
+	instance_destroy()

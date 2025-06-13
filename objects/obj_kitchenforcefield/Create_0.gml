@@ -8,8 +8,8 @@ disable = 0
 sold = 0
 if (global.plot >= 185)
 {
-    if (room == room_fire_prelab)
-        instance_destroy()
-    if (room == room_fire_elevator_r3)
-        instance_destroy()
+	if (room == room_fire_prelab)
+		instance_destroy()
+	if (room == room_fire_elevator_r3)
+		instance_destroy()
 }

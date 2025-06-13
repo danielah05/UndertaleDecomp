@@ -8,11 +8,11 @@ function action_create_object(_object_handle, _x, _y)
 {
 	if (!object_exists(_object_handle))
 	{
-	    show_message(("creating instance for non-existent object" + string(id)))
-	    return 0;
+		show_message(("creating instance for non-existent object" + string(id)))
+		return 0;
 	}
 	if global.__argument_relative
-	    instance_create((x + _x), (y + _y), _object_handle)
+		instance_create((x + _x), (y + _y), _object_handle)
 	else
-	    instance_create(_x, _y, _object_handle)
+		instance_create(_x, _y, _object_handle)
 }

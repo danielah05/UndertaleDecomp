@@ -3,4 +3,4 @@ friction = -0.05
 alarm[2] = 4
 dmg = 5
 if (global.hp < 7)
-    dmg = 2
+	dmg = 2

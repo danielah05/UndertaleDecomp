@@ -15,10 +15,10 @@ image_speed = 0
 fun = false
 if (FL_TruePacifist == true)
 {
-    direction = 270
-    instance_create(216, 122, obj_npc_room)
+	direction = 270
+	instance_create(216, 122, obj_npc_room)
 }
 if (FL_TruePacifist == false && room == room_water_blookyard)
-    instance_destroy()
+	instance_destroy()
 if (scr_murderlv() >= MurderLevel.Lv10GladDummyKilled)
-    instance_destroy()
+	instance_destroy()

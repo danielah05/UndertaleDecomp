@@ -20,19 +20,19 @@ global.battlephase = 0
 global.soul_rescue = 0
 if (global.fplot == 0)
 {
-    ossafe_ini_open("undertale.ini")
-    ini_write_real("FFFFF", "P", 1)
-    ossafe_ini_close()
-    ossafe_savedata_save()
+	ossafe_ini_open("undertale.ini")
+	ini_write_real("FFFFF", "P", 1)
+	ossafe_ini_close()
+	ossafe_savedata_save()
 }
 if (global.fplot > 1)
 {
-    global.battlephase = (global.fplot - 1)
-    global.soul_rescue = (global.fplot - 1)
-    introskip = 1
-    fadevalue = 0
-    with (obj_floweyx_tv)
-        tvmode = 26
+	global.battlephase = (global.fplot - 1)
+	global.soul_rescue = (global.fplot - 1)
+	introskip = 1
+	fadevalue = 0
+	with (obj_floweyx_tv)
+		tvmode = 26
 }
 flx = 0
 fly = 0
@@ -146,6 +146,6 @@ destroyercon = 0
 dcon = 0
 fileset = 2
 if (global.language == "ja")
-    writerx = 135
+	writerx = 135
 else
-    writerx = 170
+	writerx = 170

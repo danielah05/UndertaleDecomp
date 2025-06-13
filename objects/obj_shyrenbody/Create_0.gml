@@ -5,4 +5,4 @@ siny = 0
 yo = y
 creator = 328173821312
 if instance_exists(obj_shyren)
-    creator = obj_shyren
+	creator = obj_shyren

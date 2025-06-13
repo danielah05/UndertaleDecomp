@@ -1,2 +1,2 @@
 if (FL_TruePacifist == false)
-    instance_destroy()
+	instance_destroy()

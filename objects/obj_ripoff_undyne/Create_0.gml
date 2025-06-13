@@ -9,9 +9,9 @@ mypart1.noanim = 1
 mypart1.spearalpha = 0
 mypart1.goof = 0
 with (mypart1)
-    pause = 0
+	pause = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 alarm[9] = 8
 hurtanim = 0
 hurtsound = snd_vulkinhurt
@@ -27,9 +27,9 @@ shb = 0
 lesson = 15
 if (obj_heart.sprite_index == spr_heart)
 {
-    obj_heart.sprite_index = spr_heartgreen
-    obj_heart.movement = 3
-    green = 0
+	obj_heart.sprite_index = spr_heartgreen
+	obj_heart.movement = 3
+	green = 0
 }
 darkify = 0
 greenlock = 0
@@ -42,6 +42,6 @@ talkt = 0
 saved = 0
 st = instance_create((x + 20), (y - 30), obj_strangetangle)
 with (st)
-    depth = 14
+	depth = 14
 ht = 200
 wd = 100

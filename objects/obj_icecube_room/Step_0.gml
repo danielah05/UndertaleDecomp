@@ -1,2 +1,2 @@
 if (x > room_width)
-    x = (xstart - 60)
+	x = (xstart - 60)

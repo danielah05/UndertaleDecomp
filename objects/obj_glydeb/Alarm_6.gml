@@ -3,31 +3,31 @@ gg = floor(random(3))
 mycommand = round(random(100))
 global.msg[0] = scr_gettext("obj_glydeb_148")
 if (mycommand < 75)
-    global.msg[0] = scr_gettext("obj_glydeb_149")
+	global.msg[0] = scr_gettext("obj_glydeb_149")
 if (mycommand < 50)
-    global.msg[0] = scr_gettext("obj_glydeb_150")
+	global.msg[0] = scr_gettext("obj_glydeb_150")
 if (mycommand < 25)
-    global.msg[0] = scr_gettext("obj_glydeb_151")
+	global.msg[0] = scr_gettext("obj_glydeb_151")
 if (whatiheard == 1)
 {
-    if (boo >= 2)
-        global.msg[0] = scr_gettext("obj_glydeb_160")
-    else
-        global.msg[0] = scr_gettext("obj_glydeb_159")
+	if (boo >= 2)
+		global.msg[0] = scr_gettext("obj_glydeb_160")
+	else
+		global.msg[0] = scr_gettext("obj_glydeb_159")
 }
 if (whatiheard == 3)
 {
-    global.msg[0] = scr_gettext("obj_glydeb_165")
-    if (applaud >= 2)
-        global.msg[0] = scr_gettext("obj_glydeb_168")
+	global.msg[0] = scr_gettext("obj_glydeb_165")
+	if (applaud >= 2)
+		global.msg[0] = scr_gettext("obj_glydeb_168")
 }
 if (whatiheard == 4)
 {
-    global.msg[0] = scr_gettext("obj_glydeb_174")
-    if (nothing == 1)
-        global.msg[0] = scr_gettext("obj_glydeb_175")
-    if (nothing == 2)
-        global.msg[0] = scr_gettext("obj_glydeb_176")
+	global.msg[0] = scr_gettext("obj_glydeb_174")
+	if (nothing == 1)
+		global.msg[0] = scr_gettext("obj_glydeb_175")
+	if (nothing == 2)
+		global.msg[0] = scr_gettext("obj_glydeb_176")
 }
 global.msg[1] = scr_gettext("obj_glydeb_181")
 global.typer = 2

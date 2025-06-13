@@ -1,10 +1,10 @@
 if (x < 320)
-    side = 1
+	side = 1
 if (x > 320)
 {
-    side = -1
-    sprite_index = spr_muscbul1_r
-    x -= (sprite_width - 2)
+	side = -1
+	sprite_index = spr_muscbul1_r
+	x -= (sprite_width - 2)
 }
 xs = x
 offset = 0

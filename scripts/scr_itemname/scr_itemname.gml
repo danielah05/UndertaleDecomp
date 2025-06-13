@@ -4,7 +4,7 @@ function scr_itemname()
 {
 	for (i = 0; i < InventorySize; i += 1)
 	{
-	    itemid = global.item[i]
-	    scr_itemnamelist()
+		itemid = global.item[i]
+		scr_itemnamelist()
 	}
 }

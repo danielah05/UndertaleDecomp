@@ -1,7 +1,7 @@
 if (FL_PapyrusStatus == PapyrusStatus.Killed)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }
 dsprite = spr_papyrus_d
 usprite = spr_papyrus_u
@@ -20,6 +20,6 @@ fun = false
 intro = 0
 if (FL_PapyrusDateCounter >= 4)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }

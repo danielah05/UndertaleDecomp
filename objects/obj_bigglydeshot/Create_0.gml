@@ -11,4 +11,4 @@ tab = 0
 phrase = scr_gettext(("obj_bigglydeshot_word_" + string(floor(random(7)))))
 dmg = 9
 if instance_exists(obj_glydeb)
-    dmg = global.monsteratk[obj_glydeb.myself]
+	dmg = global.monsteratk[obj_glydeb.myself]

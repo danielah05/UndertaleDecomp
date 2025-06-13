@@ -13,17 +13,17 @@ function SCR_THATCH()
 	global.bulletappearance = argument10
 	for (i = 0; i <= bulletnumber; i += 1)
 	{
-	    global.bulletvariable[6] += argument2
-	    global.bulletvariable[7] += (argument8 * i)
-	    iii = instance_create((x + (i * xdiff)), (y + (i * ydiff)), blt_thatch)
-	    with (iii)
-	        dmg = 5
-	    global.bulletvariable[6] -= (argument2 * 2)
-	    global.bulletvariable[7] -= ((argument8 * i) * 2)
-	    iii = instance_create((x + (i * xdiff)), (y + (i * ydiff)), blt_thatch)
-	    with (iii)
-	        dmg = 5
-	    global.bulletvariable[6] = argument6
-	    global.bulletvariable[7] = argument7
+		global.bulletvariable[6] += argument2
+		global.bulletvariable[7] += (argument8 * i)
+		iii = instance_create((x + (i * xdiff)), (y + (i * ydiff)), blt_thatch)
+		with (iii)
+			dmg = 5
+		global.bulletvariable[6] -= (argument2 * 2)
+		global.bulletvariable[7] -= ((argument8 * i) * 2)
+		iii = instance_create((x + (i * xdiff)), (y + (i * ydiff)), blt_thatch)
+		with (iii)
+			dmg = 5
+		global.bulletvariable[6] = argument6
+		global.bulletvariable[7] = argument7
 	}
 }

@@ -15,10 +15,10 @@ con = 0
 touched = false
 gone = 0
 if (FL_SansDated2 > SansDated2.None)
-    gone = 1
+	gone = 1
 if (FL_PapyrusStatus == PapyrusStatus.Killed)
-    gone = 1
+	gone = 1
 if (global.plot >= 200)
-    gone = 1
+	gone = 1
 if (gone == 1)
-    instance_destroy()
+	instance_destroy()

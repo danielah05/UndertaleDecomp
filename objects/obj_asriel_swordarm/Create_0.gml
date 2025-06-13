@@ -8,7 +8,7 @@ flip = 1
 alarm[0] = 1
 visible = false
 if (instance_find(object_index, 0) == id)
-    flip = 0
+	flip = 0
 relx = (x - obj_asriel_swordmaster.x)
 sm = obj_asriel_swordmaster
 skip = false

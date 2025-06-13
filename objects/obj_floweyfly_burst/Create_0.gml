@@ -8,5 +8,5 @@ vspeed = (random(1) - random(1))
 image_speed = 0
 image_index = random(40)
 if audio_is_playing(snd_swallow)
-    snd_stop(snd_swallow)
+	snd_stop(snd_swallow)
 snd_play(snd_swallow)

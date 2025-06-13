@@ -19,6 +19,6 @@ sh[6] = guy_r3
 sh[7] = guy_r4
 for (i = 0; i < 8; i += 1)
 {
-    shx[i] = sh[i].x
-    shy[i] = sh[i].y
+	shx[i] = sh[i].x
+	shy[i] = sh[i].y
 }

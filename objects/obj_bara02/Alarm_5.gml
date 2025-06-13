@@ -1,7 +1,7 @@
 with (blconwd)
-    instance_destroy()
+	instance_destroy()
 with (blcon)
-    instance_destroy()
+	instance_destroy()
 talked = false
 global.mnfight = 2
 global.border = 16

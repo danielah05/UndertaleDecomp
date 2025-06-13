@@ -7,7 +7,7 @@ function object_get_depth(_object_handle)
 	var objID = _object_handle
 	var ret = 0
 	/* if (objID >= 0 && objID < array_length(global.__objectID2Depth))
-	    ret = global.__objectID2Depth[objID] */
+		ret = global.__objectID2Depth[objID] */
 		
 	if (objID >= 0 && objID < array_length(global.__objectDepths))
 		ret = global.__objectDepths[objID];

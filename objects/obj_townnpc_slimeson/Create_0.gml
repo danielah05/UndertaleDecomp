@@ -12,6 +12,6 @@ direction = 0
 talkedto = 0
 image_speed = 0
 if (FL_PapyrusStatus == PapyrusStatus.Killed || scr_deaddog() == 1)
-    instance_destroy()
+	instance_destroy()
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    instance_destroy()
+	instance_destroy()

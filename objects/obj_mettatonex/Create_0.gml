@@ -7,13 +7,13 @@ scr_monstersetup()
 image_speed = 0
 if instance_exists(obj_mettb_body)
 {
-    part1 = obj_mettb_body
-    mypart1 = obj_mettb_body
+	part1 = obj_mettb_body
+	mypart1 = obj_mettb_body
 }
 else
 {
-    part1 = obj_mettb_body
-    mypart1 = instance_create(240, 116, part1)
+	part1 = obj_mettb_body
+	mypart1 = instance_create(240, 116, part1)
 }
 mypart1.depth = 10
 alarm[9] = 8
@@ -34,8 +34,8 @@ con = 0
 i = 0
 repeat (99)
 {
-    global.failure[i] = 0
-    i += 1
+	global.failure[i] = 0
+	i += 1
 }
 global.attacktype = 26
 global.specialdam[0] = 0
@@ -46,4 +46,4 @@ qualify = 0
 ht = 200
 wd = 200
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()

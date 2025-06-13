@@ -1,38 +1,38 @@
 event_inherited()
 if instance_exists(obj_face_sans)
 {
-    with (obj_face_sans)
-        instance_destroy()
+	with (obj_face_sans)
+		instance_destroy()
 }
 if instance_exists(obj_face_undyne)
 {
-    with (obj_face_undyne)
-        instance_destroy()
+	with (obj_face_undyne)
+		instance_destroy()
 }
 if instance_exists(obj_face_papyrus)
 {
-    with (obj_face_papyrus)
-        instance_destroy()
+	with (obj_face_papyrus)
+		instance_destroy()
 }
 if instance_exists(obj_face_asgore)
 {
-    with (obj_face_asgore)
-        instance_destroy()
+	with (obj_face_asgore)
+		instance_destroy()
 }
 if instance_exists(obj_face_torieltalk)
 {
-    with (obj_face_torieltalk)
-        instance_destroy()
+	with (obj_face_torieltalk)
+		instance_destroy()
 }
 if instance_exists(obj_face_torielblink)
 {
-    with (obj_face_torielblink)
-        instance_destroy()
+	with (obj_face_torielblink)
+		instance_destroy()
 }
 if instance_exists(obj_torbody)
 {
-    with (obj_torbody)
-        instance_destroy()
+	with (obj_torbody)
+		instance_destroy()
 }
 image_speed = 0.25
 u[0] = spr_alphysface_0
@@ -63,11 +63,11 @@ u[24] = spr_alphysface_24
 u[25] = spr_alphysface_25
 sprite_index = u[global.faceemotion]
 if (FL_AlphysExpression == 1)
-    sprite_index = u[(global.faceemotion + 10)]
+	sprite_index = u[(global.faceemotion + 10)]
 if (FL_AlphysExpression == 2)
-    sprite_index = u[(global.faceemotion + 15)]
+	sprite_index = u[(global.faceemotion + 15)]
 if (FL_AlphysExpression == 4)
 {
-    image_index = global.faceemotion
-    sprite_index = spr_alphysface_new
+	image_index = global.faceemotion
+	sprite_index = spr_alphysface_new
 }

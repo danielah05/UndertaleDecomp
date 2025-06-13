@@ -1,4 +1,4 @@
 if (x < (xstart - 260))
-    instance_destroy()
+	instance_destroy()
 if (x > (xstart + 260))
-    instance_destroy()
+	instance_destroy()

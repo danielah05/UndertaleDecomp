@@ -6,7 +6,7 @@ wd = sprite_get_width(sprite_index)
 myvapor = global.vaporspeed
 if (myvapor == 0)
 {
-    if (ht >= 70 && ht < 180)
-        snd_play(snd_vaporized)
+	if (ht >= 70 && ht < 180)
+		snd_play(snd_vaporized)
 }
 action_set_alarm(2, 0)

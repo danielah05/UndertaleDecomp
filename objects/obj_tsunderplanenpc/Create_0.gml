@@ -13,13 +13,13 @@ talkedto = 0
 image_speed = 0
 if (room == room_fire_walkandbranch)
 {
-    if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    {
-        ff = instance_create(80, 100, obj_kitchenforcefield)
-        ff.image_yscale = 3
-    }
+	if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
+	{
+		ff = instance_create(80, 100, obj_kitchenforcefield)
+		ff.image_yscale = 3
+	}
 }
 if (scr_enemynpc3() != 1)
-    instance_destroy()
+	instance_destroy()
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    instance_destroy()
+	instance_destroy()

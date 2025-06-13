@@ -5,4 +5,4 @@ thisbullet.startspeed = startspeed
 thisbullet.rotdir = rotdir
 thisbullet.dmg = dmg
 if (l < limit)
-    alarm[4] = 6
+	alarm[4] = 6

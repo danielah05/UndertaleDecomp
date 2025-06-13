@@ -13,14 +13,14 @@ talkedto = 0
 image_speed = 0
 con = 0
 if (FL_SansDated != 1)
-    instance_destroy()
+	instance_destroy()
 else
 {
-    con = 1
-    visible = true
-    rimshot = caster_load("music/rimshot.ogg")
-    whoopee = caster_load("music/whoopee.ogg")
-    mystery = caster_load("music/mysteriousroom2.ogg")
+	con = 1
+	visible = true
+	rimshot = caster_load("music/rimshot.ogg")
+	whoopee = caster_load("music/whoopee.ogg")
+	mystery = caster_load("music/mysteriousroom2.ogg")
 }
 scr_depth()
 burg = 0

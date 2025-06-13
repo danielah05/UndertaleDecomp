@@ -10,7 +10,7 @@ st.depth = -10
 st.sprite_index = spr_starpattern
 st.image_speed = 0.2
 if (room == room_water11)
-    sprite_index = spr_starcheckeredit2
+	sprite_index = spr_starcheckeredit2
 buffer = 0
 alarm[0] = 2
 image_speed = 0.1

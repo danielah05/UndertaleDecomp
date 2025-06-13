@@ -1,2 +1,2 @@
 if (counter < 10)
-    instance_destroy()
+	instance_destroy()

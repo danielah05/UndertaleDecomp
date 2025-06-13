@@ -1,2 +1,2 @@
 if (global.debug == true)
-    fighto += 1
+	fighto += 1

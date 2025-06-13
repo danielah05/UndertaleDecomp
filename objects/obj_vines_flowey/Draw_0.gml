@@ -1,5 +1,5 @@
 if (frozen == false)
-    siner += 1
+	siner += 1
 growth = (1 + (sin((siner / 6)) * 0.05))
 growth2 = (1 + (cos((siner / 6)) * 0.05))
 growth3 = (1 - (sin((siner / 7)) * 0.05))

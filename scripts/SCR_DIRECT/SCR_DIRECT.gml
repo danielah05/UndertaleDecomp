@@ -12,7 +12,7 @@ function SCR_DIRECT()
 	global.bulletappearance = argument9
 	for (i = 0; i <= bulletnumber; i += 1)
 	{
-	    iii = instance_create(x, y, blt_direct)
-	    iii.dmg = global.monsteratk[myself]
+		iii = instance_create(x, y, blt_direct)
+		iii.dmg = global.monsteratk[myself]
 	}
 }

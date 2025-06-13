@@ -1,25 +1,25 @@
 timer += 1
 if (timer == 15)
-    alarm[0] = 5
+	alarm[0] = 5
 if (timer < 15)
 {
-    ss += (random(1) - random(0.8))
-    rr += (random(0.8) - random(1))
-    ssin = (sin((ss / 3)) * 5)
-    rsin = (sin((rr / 3)) * 5)
+	ss += (random(1) - random(0.8))
+	rr += (random(0.8) - random(1))
+	ssin = (sin((ss / 3)) * 5)
+	rsin = (sin((rr / 3)) * 5)
 }
 else
 {
-    ssini = lengthdir_x(5, point_direction(x, y, (obj_heart.x + 8), (obj_heart.y + 8)))
-    rsini = lengthdir_y(5, point_direction(x, y, (obj_heart.x + 8), (obj_heart.y + 8)))
-    if (rsin < (rsini - 1))
-        rsin += 1
-    if (rsin > (rsini + 1))
-        rsin -= 1
-    if (ssin < (ssini - 1))
-        ssin += 1
-    if (ssin > (ssini + 1))
-        ssin -= 1
+	ssini = lengthdir_x(5, point_direction(x, y, (obj_heart.x + 8), (obj_heart.y + 8)))
+	rsini = lengthdir_y(5, point_direction(x, y, (obj_heart.x + 8), (obj_heart.y + 8)))
+	if (rsin < (rsini - 1))
+		rsin += 1
+	if (rsin > (rsini + 1))
+		rsin -= 1
+	if (ssin < (ssini - 1))
+		ssin += 1
+	if (ssin > (ssini + 1))
+		ssin -= 1
 }
 siner += 1
 sz = (sin((siner / 4)) * 0.2)

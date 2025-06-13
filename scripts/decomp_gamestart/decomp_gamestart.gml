@@ -1,10 +1,10 @@
 function decomp_gamestart()
 {
 	if (!trophy_init())
-    {
-        if (obj_time.trophy_ts < 0)
-            obj_time.trophy_ts = current_time;
-    }
+	{
+		if (obj_time.trophy_ts < 0)
+			obj_time.trophy_ts = current_time;
+	}
 	
 	load_decomp_vars();
 	save_decomp_vars();

@@ -20,15 +20,15 @@ curf = ini_read_real("EndF", "EndF", 0)
 ossafe_ini_close()
 if (curf == 0)
 {
-    horror = caster_load("music/yourbestfriend_3.ogg")
-    caster_loop(horror, 0.7, 1)
-    asriel = instance_create(272, 16, obj_asriel_body)
-    a_con = 1
-    alarm[4] = 30
+	horror = caster_load("music/yourbestfriend_3.ogg")
+	caster_loop(horror, 0.7, 1)
+	asriel = instance_create(272, 16, obj_asriel_body)
+	a_con = 1
+	alarm[4] = 30
 }
 else
 {
-    a_con = 7
-    a2 = id
+	a_con = 7
+	a2 = id
 }
 do_room_goto = false

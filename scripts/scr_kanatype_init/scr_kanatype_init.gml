@@ -1,7 +1,7 @@
 function scr_kanatype_init()
 {
 	if variable_global_exists("kanatype_lookup_4ch")
-	    return;
+		return;
 	global.kanatype_lookup_4ch = ds_map_create()
 	ds_map_set(global.kanatype_lookup_4ch, "ltsu", "っ")
 	ds_map_set(global.kanatype_lookup_4ch, "xtsu", "っ")

@@ -1,2 +1,2 @@
 if (global.debug == true)
-    con += 1
+	con += 1

@@ -4,9 +4,9 @@ heartx = 0
 hearty = 0
 trigger = 0
 if (global.plot > 160)
-    trigger = 1
+	trigger = 1
 if (global.plot > 167)
-    trigger = 2
+	trigger = 2
 dirdir = 0
 ourx = 0
 oury = 0

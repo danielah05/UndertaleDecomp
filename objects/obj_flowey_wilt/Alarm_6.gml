@@ -3,10 +3,10 @@ image_index = 6
 x = (xstart - shudder)
 shudder *= -1
 if (shudder > 0)
-    shudder -= 1
+	shudder -= 1
 else
-    shudder += 1
+	shudder += 1
 if (shudder != 0)
-    alarm[6] = 8
+	alarm[6] = 8
 else
-    doomcon = 1
+	doomcon = 1

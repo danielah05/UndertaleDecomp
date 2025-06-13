@@ -5,6 +5,6 @@ scr_setfont(fnt_main)
 draw_set_halign(fa_right)
 var yy = (y + 40)
 if (global.language == "ja")
-    yy -= 32
+	yy -= 32
 draw_text((x - 10), yy, string_hash_to_newline(scr_gettext("obj_crimegraph_55")))
 draw_set_halign(fa_left)

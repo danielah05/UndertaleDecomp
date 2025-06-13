@@ -13,8 +13,8 @@ talkedto = 0
 image_speed = 0
 con = 0
 if (y > 420)
-    sprite_index = spr_watercomputer
+	sprite_index = spr_watercomputer
 if (y > 500)
-    sprite_index = spr_rustbike
+	sprite_index = spr_rustbike
 con = 0
 scr_depth()

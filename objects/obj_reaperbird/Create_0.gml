@@ -1,5 +1,5 @@
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 scr_monstersetup()
 image_speed = 0
 part1 = obj_reaperbird_body
