@@ -1,5 +1,5 @@
 with (funwriter)
-    instance_destroy()
+	instance_destroy()
 global.typer = 7
 blcon = instance_create((x + sprite_width), y, obj_blconwdflowey)
 conversation = 12

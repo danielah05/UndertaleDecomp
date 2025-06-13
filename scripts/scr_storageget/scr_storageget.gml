@@ -6,21 +6,21 @@ function scr_storageget()
 	global.flag[(argument1 + 10)] = 999
 	while (loop == 1)
 	{
-	    if (global.flag[(i + argument1)] == 0)
-	    {
-	        global.flag[(i + argument1)] = argument0
-	        break
-	    }
-	    else if (i == 10)
-	    {
-	        scr_itemnospace()
-	        break
-	    }
-	    else
-	    {
-	        i += 1
-	        continue
-	    }
+		if (global.flag[(i + argument1)] == 0)
+		{
+			global.flag[(i + argument1)] = argument0
+			break
+		}
+		else if (i == 10)
+		{
+			scr_itemnospace()
+			break
+		}
+		else
+		{
+			i += 1
+			continue
+		}
 	}
 	scr_itemnameb()
 	scr_storagename(300)

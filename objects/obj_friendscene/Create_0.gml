@@ -2,14 +2,14 @@ timer = 0
 skip = false
 if (skip == false)
 {
-    con = 0
-    ahit = instance_create(116, 16, obj_asgore_firehit)
-    alarm[4] = 250
+	con = 0
+	ahit = instance_create(116, 16, obj_asgore_firehit)
+	alarm[4] = 250
 }
 if (skip == true)
-    con = 1
+	con = 1
 if (skip == 2)
-    con = 85
+	con = 85
 sidecon = 0
 gowhite = 0
 wht = 0

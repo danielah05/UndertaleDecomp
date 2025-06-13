@@ -6,4 +6,4 @@ size = 0.25
 dmg = 8
 sum = scr_monstersum()
 if (sum > 1)
-    speed = 0.7
+	speed = 0.7

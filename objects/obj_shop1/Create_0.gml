@@ -1,14 +1,14 @@
 murder = 0
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    murder = 1
+	murder = 1
 instance_create(0, 0, obj_fader)
 vol = 0.8
 if (FL_TruePacifist == false)
 {
-    shopmus = caster_load("music/shop.ogg")
-    caster_loop(shopmus, vol, 0.93)
-    if (murder == 1)
-        caster_set_pitch(shopmus, 0.2)
+	shopmus = caster_load("music/shop.ogg")
+	caster_loop(shopmus, vol, 0.93)
+	if (murder == 1)
+		caster_set_pitch(shopmus, 0.2)
 }
 menumax = 3
 menu = 0
@@ -32,18 +32,18 @@ itemcost[0] = 50
 itemcost[1] = 50
 itemcost[2] = 15
 if (global.plot > 100)
-    itemcost[2] = 30
+	itemcost[2] = 30
 if (global.plot > 121)
-    itemcost[2] = 45
+	itemcost[2] = 45
 if (global.plot > 199)
-    itemcost[2] = 70
+	itemcost[2] = 70
 itemcost[3] = 25
 if (murder == 1)
 {
-    itemcost[0] = 0
-    itemcost[1] = 0
-    itemcost[2] = 0
-    itemcost[3] = 0
+	itemcost[0] = 0
+	itemcost[1] = 0
+	itemcost[2] = 0
+	itemcost[3] = 0
 }
 minimenuy = 120
 global.typer = 23
@@ -65,6 +65,6 @@ facespr[5] = spr_shopkeeper1_face5
 facespr[6] = spr_shopkeeper1_face6
 if (murder == 1)
 {
-    with (obj_shopeyes1)
-        instance_destroy()
+	with (obj_shopeyes1)
+		instance_destroy()
 }

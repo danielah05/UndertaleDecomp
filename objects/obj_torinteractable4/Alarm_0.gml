@@ -1,7 +1,7 @@
 myinteract = 3
 global.msc = 214
 if (talkedto > 0)
-    global.msc = 215
+	global.msc = 215
 global.typer = 4
 global.facechoice = 1
 global.faceemotion = 2

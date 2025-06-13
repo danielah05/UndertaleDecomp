@@ -1,2 +1,2 @@
 with (obj_dmgwriter)
-    instance_destroy()
+	instance_destroy()

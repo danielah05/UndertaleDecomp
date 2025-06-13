@@ -13,12 +13,12 @@ view_xview_set(0, rememberview)
 x = xhome
 if (obj_mainchara.x > (room_width - 90))
 {
-    repeat (5)
-    {
-        if (x > room_width)
-        {
-            x -= 320
-            xhome -= 320
-        }
-    }
+	repeat (5)
+	{
+		if (x > room_width)
+		{
+			x -= 320
+			xhome -= 320
+		}
+	}
 }

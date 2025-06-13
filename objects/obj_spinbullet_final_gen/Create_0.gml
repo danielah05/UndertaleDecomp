@@ -12,17 +12,17 @@ radius = 50
 counter = 0
 spinbullet[0] = 999999
 for (i = 0; i <= maxnum; i += 1)
-    spinbullet[i] = 847873482423472378
+	spinbullet[i] = 847873482423472378
 if ((centery + radius) > room_height)
 {
-    centery -= ((centery + radius) - room_height)
-    y = centery
-    add_dir = (20 + random(140))
+	centery -= ((centery + radius) - room_height)
+	y = centery
+	add_dir = (20 + random(140))
 }
 memx = 0
 memy = 0
 if instance_exists(obj_vsflowey_heart)
 {
-    memx = obj_vsflowey_heart.x
-    memy = obj_vsflowey_heart.y
+	memx = obj_vsflowey_heart.x
+	memy = obj_vsflowey_heart.y
 }

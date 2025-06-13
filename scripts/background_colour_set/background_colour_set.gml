@@ -7,7 +7,7 @@ function background_colour_set(_color)
 	var __newcol = _color
 	var __colinfo = __background_get_colour_element()
 	if (__colinfo[0] == -1)
-	    return 0;
+		return 0;
 	layer_background_blend(__colinfo[0], __newcol)
 	return __newcol;
 }

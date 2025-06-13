@@ -11,8 +11,8 @@ sound_enable = snd_sparkle1
 var n = 0
 while (global.msg[n] != "%%%")
 {
-    mystring[n] = global.msg[n]
-    n++
+	mystring[n] = global.msg[n]
+	n++
 }
 originalstring = scr_replace_buttons_pc(mystring[0])
 alarm[0] = textspeed

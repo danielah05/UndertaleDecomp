@@ -1,4 +1,4 @@
 if (global.plot > 119 || FL_MonsterKidSavedStatus > 0)
-    instance_destroy()
+	instance_destroy()
 else
-    con = 1
+	con = 1

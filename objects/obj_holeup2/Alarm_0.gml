@@ -5,4 +5,4 @@ hspeed = 0
 obj_mainchara.vspeed = -10
 alarm[2] = 41
 if (obj_mainchara.y > 550)
-    alarm[2] += 11
+	alarm[2] += 11

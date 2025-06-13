@@ -4,6 +4,6 @@ toriel.sprite_index = spr_toriel_l
 toriel = direction == 180
 with (obj_mainchara)
 {
-    x = 38
-    y = 144
+	x = 38
+	y = 144
 }

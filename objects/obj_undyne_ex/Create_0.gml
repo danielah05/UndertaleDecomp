@@ -16,7 +16,7 @@ joketold = 0
 sha = 0
 siner = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 green = 0
 darkify = 0
 con = 0

@@ -1,2 +1,2 @@
 if (visible == true)
-    event_inherited()
+	event_inherited()

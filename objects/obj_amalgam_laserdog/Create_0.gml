@@ -8,8 +8,8 @@ x = (global.idealborder[1] - sprite_width)
 skip = false
 if (skip == true)
 {
-    con = 4
-    image_index = 7
+	con = 4
+	image_index = 7
 }
 nowx = x
 nowy = y

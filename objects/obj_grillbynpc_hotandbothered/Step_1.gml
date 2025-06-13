@@ -1,2 +1,2 @@
 if (fun == false)
-    scr_npc_anim()
+	scr_npc_anim()

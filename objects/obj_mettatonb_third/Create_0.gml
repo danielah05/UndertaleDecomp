@@ -20,8 +20,8 @@ skip = false
 right = 0
 if instance_exists(obj_battlebg)
 {
-    with (obj_battlebg)
-        instance_destroy()
+	with (obj_battlebg)
+		instance_destroy()
 }
 x -= 100
 y -= 100
@@ -36,8 +36,8 @@ writer = 9
 i = 0
 repeat (99)
 {
-    global.failure[i] = 0
-    i += 1
+	global.failure[i] = 0
+	i += 1
 }
 global.attacktype = 26
 global.specialdam[0] = 0

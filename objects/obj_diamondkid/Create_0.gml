@@ -12,8 +12,8 @@ direction = 0
 talkedto = 0
 image_speed = 0
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    instance_destroy()
+	instance_destroy()
 if (FL_CompletedShootPuzzle4 == 0)
-    instance_destroy()
+	instance_destroy()
 if (x > 160)
-    sprite_index = spr_diamondtallboy
+	sprite_index = spr_diamondtallboy

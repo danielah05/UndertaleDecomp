@@ -7,4 +7,4 @@ q = 0
 buffer = 0
 doom = 0
 with (obj_screen)
-    messed = 1
+	messed = 1

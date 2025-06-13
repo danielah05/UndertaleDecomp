@@ -11,4 +11,4 @@ factor = 0
 dmg = 0
 draedmode = true
 if (global.osflavor >= OSFlavors.Console)
-    draedmode = true
+	draedmode = true

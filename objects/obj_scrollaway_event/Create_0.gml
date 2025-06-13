@@ -6,4 +6,4 @@ l3 = 999990
 con = 0
 tspeed = 0
 if instance_exists(obj_mettboss_event)
-    sixty = obj_mettboss_event.sixty
+	sixty = obj_mettboss_event.sixty

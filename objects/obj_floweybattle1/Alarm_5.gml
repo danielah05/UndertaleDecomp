@@ -1,5 +1,5 @@
 with (blconwriter)
-    instance_destroy()
+	instance_destroy()
 global.msc = 0
 global.msg[0] = scr_gettext("obj_floweybattle1_268")
 global.msg[1] = scr_gettext("obj_floweybattle1_269")
@@ -19,8 +19,8 @@ image_speed = 0
 conversation = 9.4
 for (i = 0; i != 5; i += 1)
 {
-    ddd = instance_find(obj_friendlypellet, i)
-    ddd.x = ddd.blonicx
-    ddd.y = ddd.blonicy
-    ddd.attackyou = 1
+	ddd = instance_find(obj_friendlypellet, i)
+	ddd.x = ddd.blonicx
+	ddd.y = ddd.blonicy
+	ddd.attackyou = 1
 }

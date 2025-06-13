@@ -1,7 +1,7 @@
 for (var i = 12; i > 0; i--)
 {
-    xprev[i] = xprev[(i - 1)]
-    yprev[i] = yprev[(i - 1)]
+	xprev[i] = xprev[(i - 1)]
+	yprev[i] = yprev[(i - 1)]
 }
 xprev[0] = x
 yprev[0] = y

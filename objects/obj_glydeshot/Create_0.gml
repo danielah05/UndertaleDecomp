@@ -7,4 +7,4 @@ speed = 7
 friction = random(-0.1)
 dmg = 9
 if instance_exists(obj_glydeb)
-    dmg = global.monsteratk[obj_glydeb.myself]
+	dmg = global.monsteratk[obj_glydeb.myself]

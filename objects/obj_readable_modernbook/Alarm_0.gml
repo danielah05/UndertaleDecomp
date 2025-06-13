@@ -10,5 +10,5 @@ global.msg[2] = scr_gettext("obj_readable_modernbook_62")
 global.msg[3] = scr_gettext("obj_readable_modernbook_63")
 read += 1
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    global.msg[0] = scr_gettext("obj_readable_modernbook_68")
+	global.msg[0] = scr_gettext("obj_readable_modernbook_68")
 mydialoguer = instance_create(0, 0, obj_dialoguer)

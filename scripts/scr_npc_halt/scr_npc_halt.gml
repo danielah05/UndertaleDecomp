@@ -9,11 +9,11 @@ function scr_npc_halt(_direction)
 	vspeed = 0
 	npcdir = 0
 	if (_direction == "u")
-	    sprite_index = usprite
+		sprite_index = usprite
 	if (_direction == "d")
-	    sprite_index = dsprite
+		sprite_index = dsprite
 	if (_direction == "l")
-	    sprite_index = lsprite
+		sprite_index = lsprite
 	if (_direction == "r")
-	    sprite_index = rsprite
+		sprite_index = rsprite
 }

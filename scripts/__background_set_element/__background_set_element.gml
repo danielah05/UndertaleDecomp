@@ -48,51 +48,51 @@ function __background_set_element(_background_index, _visible, _foreground, _spr
 	var __collayer = -1
 	for (var __i = 0; __i < 8; __i++)
 	{
-	    __slots[__i] = -1
-	    __isforeground[__i] = 0
+		__slots[__i] = -1
+		__isforeground[__i] = 0
 	}
 	for (__i = 0; __i < __layerlistlength; __i++)
 	{
-	    var __layername = layer_get_name(__layerlist[__i])
-	    if (string_pos(__fgstring, __layername) > 0)
-	    {
-	        var __slotchr = string_char_at(__layername, (__fglen + 1))
-	        if (__slotchr == "")
-	        {
-	        }
-	        else
-	        {
-	            var __slot = real(__slotchr)
-	            __slots[__slot] = __layerlist[__i]
-	            __isforeground[__slot] = 1
-	        }
-	    }
-	    else if (string_pos(__bgstring, __layername) > 0)
-	    {
-	        __slotchr = string_char_at(__layername, (__bglen + 1))
-	        if (__slotchr == "")
-	        {
-	        }
-	        else
-	        {
-	            __slot = real(__slotchr)
-	            __slots[__slot] = __layerlist[__i]
-	            __isforeground[__slot] = 0
-	        }
-	    }
-	    else if (string_pos(__colstring, __layername) > 0)
-	    {
-	        __collayer = __layerlist[__i]
-	        layer_depth(__layerlist[__i], __farthestdepth)
-	    }
-	    else
-	    {
-	        var __currdepth = layer_get_depth(__layerlist[__i])
-	        if (__currdepth < __nearestdepth)
-	            __nearestdepth = __currdepth
-	        if (__currdepth > __farthestdepth)
-	            __farthestdepth = __currdepth
-	    }
+		var __layername = layer_get_name(__layerlist[__i])
+		if (string_pos(__fgstring, __layername) > 0)
+		{
+			var __slotchr = string_char_at(__layername, (__fglen + 1))
+			if (__slotchr == "")
+			{
+			}
+			else
+			{
+				var __slot = real(__slotchr)
+				__slots[__slot] = __layerlist[__i]
+				__isforeground[__slot] = 1
+			}
+		}
+		else if (string_pos(__bgstring, __layername) > 0)
+		{
+			__slotchr = string_char_at(__layername, (__bglen + 1))
+			if (__slotchr == "")
+			{
+			}
+			else
+			{
+				__slot = real(__slotchr)
+				__slots[__slot] = __layerlist[__i]
+				__isforeground[__slot] = 0
+			}
+		}
+		else if (string_pos(__colstring, __layername) > 0)
+		{
+			__collayer = __layerlist[__i]
+			layer_depth(__layerlist[__i], __farthestdepth)
+		}
+		else
+		{
+			var __currdepth = layer_get_depth(__layerlist[__i])
+			if (__currdepth < __nearestdepth)
+				__nearestdepth = __currdepth
+			if (__currdepth > __farthestdepth)
+				__farthestdepth = __currdepth
+		}
 	}
 	__farthestdepth += (__depthinc + 1000)
 	__nearestdepth -= __depthinc
@@ -100,39 +100,39 @@ function __background_set_element(_background_index, _visible, _foreground, _spr
 	__nearestdepth = min(__nearestdepth, -2147482000)
 	for (__i = 0; __i < 8; __i++)
 	{
-	    if (__slots[__i] != -1)
-	    {
-	        var __depth = 0
-	        if (__isforeground[__i] == 1)
-	            __depth = (__nearestdepth - (__i * __depthinc))
-	        else
-	            __depth = ((__farthestdepth - __depthinc) - (__slot * __depthinc))
-	        layer_depth(__slots[__i], __depth)
-	    }
+		if (__slots[__i] != -1)
+		{
+			var __depth = 0
+			if (__isforeground[__i] == 1)
+				__depth = (__nearestdepth - (__i * __depthinc))
+			else
+				__depth = ((__farthestdepth - __depthinc) - (__slot * __depthinc))
+			layer_depth(__slots[__i], __depth)
+		}
 	}
 	if (__collayer != -1)
-	    layer_depth(__collayer, __farthestdepth)
+		layer_depth(__collayer, __farthestdepth)
 	if (__bind == -1)
 	{
-	    __layername = __colstring
-	    var __layerdepth = __farthestdepth
+		__layername = __colstring
+		var __layerdepth = __farthestdepth
 	}
 	else if (__fore == 1)
 	{
-	    __layername = (__fgstring + string(__bind))
-	    __layerdepth = (__nearestdepth - (__bind * __depthinc))
+		__layername = (__fgstring + string(__bind))
+		__layerdepth = (__nearestdepth - (__bind * __depthinc))
 	}
 	else
 	{
-	    __layername = (__bgstring + string(__bind))
-	    __layerdepth = ((__farthestdepth - __depthinc) - (__bind * __depthinc))
+		__layername = (__bgstring + string(__bind))
+		__layerdepth = ((__farthestdepth - __depthinc) - (__bind * __depthinc))
 	}
 	if (__bind == -1)
-	    var __layerid = __collayer
+		var __layerid = __collayer
 	else
-	    __layerid = __slots[__bind]
+		__layerid = __slots[__bind]
 	if (__layerid != -1)
-	    layer_destroy(__layerid)
+		layer_destroy(__layerid)
 	__layerid = layer_create(__layerdepth, __layername)
 	layer_x(__layerid, __x)
 	layer_y(__layerid, __y)

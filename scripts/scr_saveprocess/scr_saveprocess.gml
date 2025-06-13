@@ -33,10 +33,10 @@ function scr_saveprocess()
 	ossafe_file_text_writeln(myfileid)
 	for (i = 0; i < InventorySize; i += 1)
 	{
-	    ossafe_file_text_write_real(myfileid, global.item[i])
-	    ossafe_file_text_writeln(myfileid)
-	    ossafe_file_text_write_real(myfileid, global.phone[i])
-	    ossafe_file_text_writeln(myfileid)
+		ossafe_file_text_write_real(myfileid, global.item[i])
+		ossafe_file_text_writeln(myfileid)
+		ossafe_file_text_write_real(myfileid, global.phone[i])
+		ossafe_file_text_writeln(myfileid)
 	}
 	ossafe_file_text_write_real(myfileid, global.weapon)
 	ossafe_file_text_writeln(myfileid)
@@ -44,15 +44,15 @@ function scr_saveprocess()
 	ossafe_file_text_writeln(myfileid)
 	for (i = 0; i < 512; i += 1)
 	{
-	    ossafe_file_text_write_real(myfileid, global.flag[i])
-	    ossafe_file_text_writeln(myfileid)
+		ossafe_file_text_write_real(myfileid, global.flag[i])
+		ossafe_file_text_writeln(myfileid)
 	}
 	ossafe_file_text_write_real(myfileid, global.plot)
 	ossafe_file_text_writeln(myfileid)
 	for (i = 0; i < 3; i += 1)
 	{
-	    ossafe_file_text_write_real(myfileid, global.menuchoice[i])
-	    ossafe_file_text_writeln(myfileid)
+		ossafe_file_text_write_real(myfileid, global.menuchoice[i])
+		ossafe_file_text_writeln(myfileid)
 	}
 	ossafe_file_text_write_real(myfileid, global.currentsong)
 	ossafe_file_text_writeln(myfileid)
@@ -61,11 +61,11 @@ function scr_saveprocess()
 	ossafe_file_text_write_real(myfileid, obj_time.time)
 	if (os_type == os_xboxone)
 	{
-	    ossafe_file_text_writeln(myfileid)
-	    ossafe_file_text_write_real(myfileid, global.xbox_disconnect_counter)
-	    global.xbox_coins_donated = FL_DogShrineXboxDonatedCoins
-	    ossafe_file_text_writeln(myfileid)
-	    ossafe_file_text_write_real(myfileid, global.xbox_coins_donated)
+		ossafe_file_text_writeln(myfileid)
+		ossafe_file_text_write_real(myfileid, global.xbox_disconnect_counter)
+		global.xbox_coins_donated = FL_DogShrineXboxDonatedCoins
+		ossafe_file_text_writeln(myfileid)
+		ossafe_file_text_write_real(myfileid, global.xbox_coins_donated)
 	}
 	ossafe_file_text_close(myfileid)
 }

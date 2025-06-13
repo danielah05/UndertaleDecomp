@@ -1,5 +1,5 @@
 if (view_xview_get(0) >= 0)
-    x = (200 + floor((view_xview_get(0) - (view_xview_get(0) * scrollspeed))))
+	x = (200 + floor((view_xview_get(0) - (view_xview_get(0) * scrollspeed))))
 gg = (room_width - view_wview_get(0))
 if (view_xview_get(0) >= gg)
-    x = (200 + floor((gg - (gg * scrollspeed))))
+	x = (200 + floor((gg - (gg * scrollspeed))))

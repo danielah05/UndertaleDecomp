@@ -5,8 +5,8 @@ function caster_is_playing(_sound_handle)
 	return audio_is_playing(_sound_handle);
 	/* Old Code - Vultu 
 	if audio_is_playing(_sound_index)
-	    return 1;
+		return 1;
 	else
-	    return 0;
+		return 0;
 	*/
 }

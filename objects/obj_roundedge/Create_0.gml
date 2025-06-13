@@ -12,6 +12,6 @@ ftimer = 0
 falpha = 0
 if (FL_ButItRefused > 0)
 {
-    ftimer = 9999
-    image_alpha = 0.5
+	ftimer = 9999
+	image_alpha = 0.5
 }

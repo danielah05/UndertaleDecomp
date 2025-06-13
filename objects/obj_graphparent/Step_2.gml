@@ -1,2 +1,2 @@
 if (die == 1)
-    instance_destroy()
+	instance_destroy()

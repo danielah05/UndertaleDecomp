@@ -7,7 +7,7 @@ image_xscale = size
 image_yscale = size
 if (size > 1)
 {
-    image_alpha -= 0.15
-    if (image_alpha < 0.2)
-        instance_destroy()
+	image_alpha -= 0.15
+	if (image_alpha < 0.2)
+		instance_destroy()
 }

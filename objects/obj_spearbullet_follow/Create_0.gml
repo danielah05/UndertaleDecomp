@@ -12,4 +12,4 @@ friction = 0.2
 dmg = 7
 deactivate = 0
 if instance_exists(obj_undyne_ex)
-    dmg = 11
+	dmg = 11

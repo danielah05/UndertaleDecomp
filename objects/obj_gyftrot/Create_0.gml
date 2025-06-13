@@ -1,7 +1,7 @@
 scr_monstersetup(0, 0, 0, 0, 0)
 image_speed = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 part1 = obj_gyftrothead
 part2 = obj_gyftrotbody
 part3 = obj_gyftrotgift
@@ -21,13 +21,13 @@ gift[0] = floor(random(7))
 gift[1] = floor(random(7))
 gift[2] = floor(random(7))
 if (gift[1] == gift[0])
-    gift[1] += 1
+	gift[1] += 1
 if (gift[2] == gift[0])
-    gift[2] += 1
+	gift[2] += 1
 if (gift[2] == gift[1])
-    gift[2] = 0
+	gift[2] = 0
 if (gift[2] == gift[0])
-    gift[2] += 1
+	gift[2] += 1
 mypart3 = instance_create(x, y, part3)
 mypart3.gift = gift[0]
 mypart4 = instance_create(x, y, part3)

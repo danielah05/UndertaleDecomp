@@ -10,4 +10,4 @@ saved_yscale = image_yscale
 saved_visible = visible
 saved = 1
 if (saved_active == 0)
-    instance_destroy()
+	instance_destroy()

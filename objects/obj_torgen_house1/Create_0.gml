@@ -1,2 +1,2 @@
 if (FL_TorielStatus == TorielStatus.RuinsLeaveAttempt)
-    alarm[1] = 2
+	alarm[1] = 2

@@ -15,4 +15,4 @@ w = 0
 v = 0
 xxx = 0
 if (room == room_fire_conveyorlaser)
-    visible = false
+	visible = false

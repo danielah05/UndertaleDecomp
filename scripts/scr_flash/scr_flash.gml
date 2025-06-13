@@ -7,11 +7,11 @@ function scr_flash(_fade_speed, _amount, _color)
 {
 	var __arg0 = _fade_speed;
 	if (_fade_speed == 0)
-	    __arg0 = 0.2
+		__arg0 = 0.2
 	if (_amount == 0)
-	    __arg0 = 1
+		__arg0 = 1
 	if (_color == 0)
-	    __arg0 = c_white
+		__arg0 = c_white
 	g = instance_create(x, y, obj_flasher)
 	g.color = _color
 	g.amt = _amount

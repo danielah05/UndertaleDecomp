@@ -19,8 +19,8 @@ wd = 100
 pop = scr_monstersum()
 if (pop == 1)
 {
-    mercymod = 200
-    if instance_exists(mypart1)
-        mypart1.sad = 1
+	mercymod = 200
+	if instance_exists(mypart1)
+		mypart1.sad = 1
 }
 sad = 0

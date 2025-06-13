@@ -16,4 +16,4 @@ bb = 0
 bbsiner = 0
 innate_karma = 10
 with (obj_sansb)
-    p_power = 1
+	p_power = 1

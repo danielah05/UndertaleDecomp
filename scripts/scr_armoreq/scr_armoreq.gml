@@ -5,37 +5,37 @@
 function scr_armoreq(_itemIndex, _armorItem)
 {
 	if (global.armor == Items.CowboyHat)
-	    global.wstrength -= 5
+		global.wstrength -= 5
 	if (global.armor == Items.TemyArmor)
-	    global.wstrength -= 10
+		global.wstrength -= 10
 	if (_itemIndex >= 0)
-	    global.item[_itemIndex] = global.armor
+		global.item[_itemIndex] = global.armor
 	global.armor = _armorItem
 	if (global.armor == Items.Bandage)
-	    global.adef = 0
+		global.adef = 0
 	if (global.armor == Items.FadedRibbon)
-	    global.adef = 3
+		global.adef = 3
 	if (global.armor == Items.ManlyBandanna)
-	    global.adef = 7
+		global.adef = 7
 	if (global.armor == Items.OldTutu)
-	    global.adef = 10
+		global.adef = 10
 	if (global.armor == Items.ButtyGlasses)
-	    global.adef = 5
+		global.adef = 5
 	if (global.armor == Items.StainedApron)
-	    global.adef = 11
+		global.adef = 11
 	if (global.armor == Items.CowboyHat)
 	{
-	    global.adef = 12
-	    global.wstrength += 5
+		global.adef = 12
+		global.wstrength += 5
 	}
 	if (global.armor == Items.HeartLocket)
-	    global.adef = 15
+		global.adef = 15
 	if (global.armor == Items.TheLocket)
-	    global.adef = 99
+		global.adef = 99
 	if (global.armor == Items.TemyArmor)
 	{
-	    global.adef = 20
-	    global.wstrength += 10
+		global.adef = 20
+		global.wstrength += 10
 	}
 	scr_itemnameb()
 	scr_itemname()

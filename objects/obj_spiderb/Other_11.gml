@@ -1,4 +1,4 @@
 with (blcon)
-    instance_destroy()
+	instance_destroy()
 talked = false
 global.mnfight = 2

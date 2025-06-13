@@ -1,7 +1,7 @@
 with (ruff)
-    instance_destroy()
+	instance_destroy()
 with (obj_toroverworld3)
-    visible = true
+	visible = true
 conversation = 5
 global.faceemotion = 1
 obj_mainchara.visible = true

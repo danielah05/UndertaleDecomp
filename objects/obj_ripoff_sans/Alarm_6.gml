@@ -3,17 +3,17 @@ blcon.sprite_index = spr_blconsm2
 gg = floor(random(3))
 mycommand = round(random(100))
 if (talkt == 0)
-    global.msg[0] = scr_gettext("obj_ripoff_sans_212")
+	global.msg[0] = scr_gettext("obj_ripoff_sans_212")
 if (talkt == 1)
-    global.msg[0] = scr_gettext("obj_ripoff_sans_213")
+	global.msg[0] = scr_gettext("obj_ripoff_sans_213")
 if (talkt == 2)
-    global.msg[0] = scr_gettext("obj_ripoff_sans_214")
+	global.msg[0] = scr_gettext("obj_ripoff_sans_214")
 if (talkt == 2)
-    talkt = 0
+	talkt = 0
 if (talkt == 1)
-    talkt = 2
+	talkt = 2
 if (talkt == 0)
-    talkt = 1
+	talkt = 1
 global.msg[1] = scr_gettext("obj_ripoff_sans_244")
 global.typer = 2
 blconwd = instance_create((blcon.x + 15), (blcon.y + 10), OBJ_NOMSCWRITER)

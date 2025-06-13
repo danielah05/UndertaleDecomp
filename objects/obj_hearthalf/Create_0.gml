@@ -6,9 +6,9 @@ x = 314
 y = 300
 for (i = 0; i < 5; i += 1)
 {
-    xpos[i] = x
-    ypos[i] = y
-    peg_alpha[i] = 0
+	xpos[i] = x
+	ypos[i] = y
+	peg_alpha[i] = 0
 }
 xpos[0] = (x - 50)
 xpos[2] = (x + 50)

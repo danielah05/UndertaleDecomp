@@ -5,9 +5,9 @@ function scr_musfaderesume(_fade_speed)
 {
 	if instance_exists(obj_musfadepause)
 	{
-	    obj_musfadepause.resume = 1
-	    if (_fade_speed == 0)
-	        _fade_speed = 0.05
-	    obj_musfadepause.fadespeed = _fade_speed
+		obj_musfadepause.resume = 1
+		if (_fade_speed == 0)
+			_fade_speed = 0.05
+		obj_musfadepause.fadespeed = _fade_speed
 	}
 }

@@ -6,6 +6,6 @@ offx = 0
 offy = 0
 if (global.osflavor != OSFlavors.PC)
 {
-    offx = -1
-    offy = -1
+	offx = -1
+	offy = -1
 }

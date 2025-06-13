@@ -1,7 +1,7 @@
 buffer_wait = 2
 global.interact = 1
 for (i = 0; i < 11; i += 1)
-    conditionmet[i] = 0
+	conditionmet[i] = 0
 condition[0] = scr_gettext("obj_ds3_donationlist_5")
 condition[1] = scr_gettext("obj_ds3_donationlist_6")
 condition[2] = scr_gettext("obj_ds3_donationlist_7")

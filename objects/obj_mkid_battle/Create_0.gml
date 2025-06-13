@@ -20,4 +20,4 @@ mercymod = 999999
 con = 0
 FL_AnimationIndex = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()

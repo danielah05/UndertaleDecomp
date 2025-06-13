@@ -19,4 +19,4 @@ y = (obj_mainchara.y - 1)
 shakehand = 0
 murder = 0
 if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
-    murder = 1
+	murder = 1

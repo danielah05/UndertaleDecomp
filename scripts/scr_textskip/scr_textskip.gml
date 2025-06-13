@@ -4,11 +4,11 @@ function scr_textskip()
 {
 	if instance_exists(OBJ_WRITER)
 	{
-	    if (control_check_pressed(CancelButton))
-	    {
-	        with (OBJ_WRITER)
-	            stringpos = string_length(originalstring)
-	        control_clear(CancelButton)
-	    }
+		if (control_check_pressed(CancelButton))
+		{
+			with (OBJ_WRITER)
+				stringpos = string_length(originalstring)
+			control_clear(CancelButton)
+		}
 	}
 }

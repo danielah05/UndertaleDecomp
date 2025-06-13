@@ -10,4 +10,4 @@ fader = 0
 size = 1
 bigscale = 2
 if (global.language == "ja")
-    bigscale = 1.5
+	bigscale = 1.5

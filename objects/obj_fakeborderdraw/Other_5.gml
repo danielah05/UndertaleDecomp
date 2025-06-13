@@ -1,2 +1,2 @@
 if (draedmode == false)
-    sprite_delete(gr)
+	sprite_delete(gr)

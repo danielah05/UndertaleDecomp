@@ -7,6 +7,6 @@ alarm[1] = typespeed
 active = true
 if (tchar != " ")
 {
-    snd_stop(snd_txtasr2)
-    snd_play(snd_txtasr2)
+	snd_stop(snd_txtasr2)
+	snd_play(snd_txtasr2)
 }

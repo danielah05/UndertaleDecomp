@@ -1,6 +1,6 @@
 scr_monstersetup()
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 x -= 40
 image_speed = 0
 part1 = obj_asgoreb_body

@@ -13,8 +13,8 @@ talkedto = 0
 image_speed = 0
 dis = 0
 if (global.plot > 163)
-    dis = 1
+	dis = 1
 if (FL_KilledMuffet == 1)
-    dis = 1
+	dis = 1
 if (dis == 1)
-    instance_destroy()
+	instance_destroy()

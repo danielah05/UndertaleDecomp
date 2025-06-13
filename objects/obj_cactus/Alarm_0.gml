@@ -2,7 +2,7 @@ myinteract = 3
 global.msc = 0
 global.msg[0] = scr_gettext("obj_cactus_55")
 if FL_TruePacifist
-    global.msg[0] = scr_gettext("obj_cactus_58")
+	global.msg[0] = scr_gettext("obj_cactus_58")
 global.typer = 5
 global.facechoice = 0
 global.faceemotion = 0

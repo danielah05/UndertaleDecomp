@@ -9,11 +9,11 @@ p[7] = caster_load("music/paino/piano8.ogg")
 p[8] = caster_load("music/paino/piano9.ogg")
 p[9] = caster_load("music/paino/pianoA.ogg")
 for (i = 0; i < 30; i += 1)
-    pp[i] = -1
+	pp[i] = -1
 for (i = 0; i < 10; i += 1)
 {
-    justplayed[i] = 0
-    played[i] = 0
+	justplayed[i] = 0
+	played[i] = 0
 }
 num = 0
 global.interact = 1

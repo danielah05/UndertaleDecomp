@@ -1,8 +1,8 @@
 bg_siner = 0
 if (caster_is_playing(global.currentsong) != 1 && FL_TruePacifist == false)
 {
-    global.currentsong = mus_wind
-    caster_loop(global.currentsong, 0.5, 0.5)
+	global.currentsong = mus_wind
+	caster_loop(global.currentsong, 0.5, 0.5)
 }
 door = instance_create(135, 18, obj_dogshrine_door)
 door.depth = 910000
@@ -50,14 +50,14 @@ ox[13] = 257
 oy[13] = 109
 for (i = 0; i < 2; i += 1)
 {
-    oo[i] = scr_marker(ox[i], oy[i], op[i])
-    with (oo[i])
-        depth = 900000
+	oo[i] = scr_marker(ox[i], oy[i], op[i])
+	with (oo[i])
+		depth = 900000
 }
 for (i = 2; i < 14; i += 1)
 {
-    oo[i] = instance_create(ox[i], oy[i], obj_sign_room)
-    oo[i].sprite_index = op[i]
-    with (oo[i])
-        scr_depth()
+	oo[i] = instance_create(ox[i], oy[i], obj_sign_room)
+	oo[i].sprite_index = op[i]
+	with (oo[i])
+		scr_depth()
 }

@@ -1,2 +1,2 @@
 with (obj_target)
-    fade = 1
+	fade = 1

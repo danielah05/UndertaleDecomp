@@ -8,5 +8,5 @@ friction = global.bulletvariable[5]
 instance_create(x, y, blt_gen)
 action_set_motion(mydirection, mydirectionalspeed)
 if (sprite_index == spr_dirbullet)
-    image_speed = 0
+	image_speed = 0
 action_set_relative(0)

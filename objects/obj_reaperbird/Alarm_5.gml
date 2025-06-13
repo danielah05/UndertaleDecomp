@@ -1,10 +1,10 @@
 with (blconwd)
-    instance_destroy()
+	instance_destroy()
 with (obj_blconsm)
-    instance_destroy()
+	instance_destroy()
 with (OBJ_WRITER)
-    instance_destroy()
+	instance_destroy()
 with (blcon)
-    instance_destroy()
+	instance_destroy()
 talked = false
 global.mnfight = 2

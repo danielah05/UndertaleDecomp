@@ -1,6 +1,6 @@
 x += 180
 for (i = 0; i < 10; i += 1)
-    type[i] = 1
+	type[i] = 1
 type[0] = 1
 type[1] = choose(1, 2)
 type[2] = 2

@@ -16,5 +16,5 @@ action_set_motion(mydirection, ((mydirectionalspeed + (random(myrandomspeed) * 2
 action_set_relative(0)
 direction += ((random(mydirectionrandom) * 2) - mydirectionrandom)
 if (sprite_index == spr_dirbullet)
-    image_speed = 0
+	image_speed = 0
 action_set_relative(0)

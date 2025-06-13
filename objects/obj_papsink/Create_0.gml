@@ -14,4 +14,4 @@ image_speed = 0
 conversation = 0
 dogsong = caster_load("music/dogappear.ogg")
 if (FL_PapyrusSinkEventOccured == 1)
-    image_index = 1
+	image_index = 1

@@ -12,4 +12,4 @@ direction = 0
 talkedto = 0
 image_speed = 0
 if (room == room_fire_hotellobby)
-    sprite_index = spr_ficus_lobby
+	sprite_index = spr_ficus_lobby

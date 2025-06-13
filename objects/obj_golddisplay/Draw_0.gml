@@ -12,4 +12,4 @@ draw_text(((30 + xx) + f), (90 + yy), string_hash_to_newline(scr_gettext("obj_go
 scr_itemroom()
 draw_text(((30 + xx) + f), (110 + yy), string_hash_to_newline(scr_gettext("obj_golddisplay_44", string(itemhold))))
 if (instance_exists(OBJ_WRITER) == false)
-    instance_destroy()
+	instance_destroy()

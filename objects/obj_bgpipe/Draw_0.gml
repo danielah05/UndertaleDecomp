@@ -1,5 +1,5 @@
 if (frozen == false)
-    siner += 1
+	siner += 1
 msin = (sin((siner / 9)) * 2)
 ysin = (cos((siner / 8)) * 1)
 growth = (sin((siner / 7)) * 0.012)

@@ -1,5 +1,5 @@
 with (glove[4])
-    instance_destroy()
+	instance_destroy()
 glove[4] = instance_create(x, y, obj_6glove_act)
 gloveang[4] = (1440 / maxnum)
 glove[4].ang = gloveang[4]

@@ -1,2 +1,2 @@
 if (global.plot > plotrating)
-    instance_destroy()
+	instance_destroy()

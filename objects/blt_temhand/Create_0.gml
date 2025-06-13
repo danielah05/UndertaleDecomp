@@ -1,15 +1,15 @@
 if instance_exists(obj_tembody)
-    obj_tembody.atk = 1
+	obj_tembody.atk = 1
 i = 0
 repeat (10)
 {
-    temdir[i] = 0
-    temtim[i] = 0
-    temx1[i] = 0
-    temx2[i] = 0
-    temy1[i] = 0
-    temy2[i] = 0
-    i += 1
+	temdir[i] = 0
+	temtim[i] = 0
+	temx1[i] = 0
+	temx2[i] = 0
+	temy1[i] = 0
+	temy2[i] = 0
+	i += 1
 }
 speed = 4
 temx1[0] = x

@@ -1,5 +1,5 @@
 caster_free(cym)
 if (room == room_ruinsexit)
-    room_goto(room_undertale)
+	room_goto(room_undertale)
 if (room == room_castle_exit)
-    room_goto(room_undertale_end)
+	room_goto(room_undertale_end)

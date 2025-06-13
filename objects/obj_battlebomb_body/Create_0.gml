@@ -9,7 +9,7 @@ coolwidth = 30
 got = 0
 myspeed = 10
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 defuse = 0
 image_speed = 0.1
 movetimer = 0

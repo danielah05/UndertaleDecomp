@@ -1,5 +1,5 @@
 con = 0
 if (global.plot > 167)
-    instance_destroy()
+	instance_destroy()
 else
-    con = 1
+	con = 1

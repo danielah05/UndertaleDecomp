@@ -16,11 +16,11 @@ view_xview_set(0, -180)
 td = 0
 var text_x = 15
 if (global.language == "ja")
-    text_x = -2
+	text_x = -2
 t3 = instance_create(text_x, 140, obj_creditsword)
 t3.text = scr_gettext("castroll_name_toriel")
 if (global.language == "ja")
-    t3.text_xofs = -3
+	t3.text_xofs = -3
 t3.text2 = scr_gettext("castroll_by_toby")
 scr_loadendsong()
 caster_stop(global.endsong[5])

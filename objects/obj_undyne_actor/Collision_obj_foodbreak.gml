@@ -1,2 +1,2 @@
 if (other.active == false)
-    other.active = true
+	other.active = true

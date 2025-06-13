@@ -5,6 +5,6 @@ onner = 0
 doom = 0
 if (global.plot > 164)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }

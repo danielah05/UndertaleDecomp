@@ -5,6 +5,6 @@ mb.size = (size - 0.1)
 mb.siner = (siner + 1)
 if (mb.num > 0)
 {
-    with (mb)
-        alarm[0] = 1
+	with (mb)
+		alarm[0] = 1
 }

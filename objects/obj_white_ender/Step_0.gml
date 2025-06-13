@@ -1,4 +1,4 @@
 if (delay > 0)
-    delay--
+	delay--
 else if (global.savedata_async_id == -1)
-    ossafe_game_end()
+	ossafe_game_end()

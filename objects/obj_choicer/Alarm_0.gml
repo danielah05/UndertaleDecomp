@@ -1,4 +1,4 @@
 with (creator)
-    scr_msgup()
+	scr_msgup()
 with (obj_choicer)
-    instance_destroy()
+	instance_destroy()

@@ -2,9 +2,9 @@ x = 321
 y = 307
 for (i = 0; i < 5; i += 1)
 {
-    xpos[i] = x
-    ypos[i] = y
-    peg_alpha[i] = 0
+	xpos[i] = x
+	ypos[i] = y
+	peg_alpha[i] = 0
 }
 xpos[0] = (x - 50)
 ypos[0] = -60
@@ -29,10 +29,10 @@ curbullet = 0
 maxbullet = 0
 for (i = 0; i < 255; i += 1)
 {
-    bullettime[i] = 0
-    bulletpos[i] = 0
-    bulletspeed[i] = 0
-    bullettype[i] = 0
+	bullettime[i] = 0
+	bulletpos[i] = 0
+	bulletspeed[i] = 0
+	bullettype[i] = 0
 }
 type = 0
 active = true

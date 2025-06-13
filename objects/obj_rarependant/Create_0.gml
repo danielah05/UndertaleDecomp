@@ -12,9 +12,9 @@ direction = 270
 talkedto = 0
 image_speed = 0
 if (FL_TruePacifist == true)
-    FL_GotArtifact = 1
+	FL_GotArtifact = 1
 if (FL_GotArtifact == 1)
-    image_index = 1
+	image_index = 1
 dogsong = caster_load("music/dogsong.ogg")
 con = 0
 anti_buffer = 0

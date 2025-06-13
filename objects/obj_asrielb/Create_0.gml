@@ -27,7 +27,7 @@ say = 0
 FL_AnimationIndex = 0
 turns = (FL_AsrielTurnCounter - 3)
 if (turns < 0)
-    turns = 0
+	turns = 0
 trcon = 0
 ht = 200
 wd = 100

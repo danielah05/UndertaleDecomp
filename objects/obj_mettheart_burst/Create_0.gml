@@ -6,4 +6,4 @@ global.turntimer = 40
 alarm[1] = 1
 another = 0
 with (obj_mettattackgen)
-    dark = 0
+	dark = 0

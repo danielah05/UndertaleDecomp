@@ -2,13 +2,13 @@ direction = point_direction(x, y, (obj_heart.x + 8), (obj_heart.y + 8))
 image_angle = direction
 if (ystart < (obj_heart.y + 8))
 {
-    image_angle += (((x - obj_heart.x) + 8) / 1.5)
-    overall += 1
+	image_angle += (((x - obj_heart.x) + 8) / 1.5)
+	overall += 1
 }
 if (ystart > (obj_heart.y + 8))
 {
-    image_angle -= (((x - obj_heart.x) + 8) / 1.5)
-    overall -= 1
+	image_angle -= (((x - obj_heart.x) + 8) / 1.5)
+	overall -= 1
 }
 direction = image_angle
 siner += 1

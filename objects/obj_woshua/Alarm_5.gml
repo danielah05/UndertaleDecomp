@@ -1,11 +1,11 @@
 with (blconwd)
-    instance_destroy()
+	instance_destroy()
 with (blcon)
-    instance_destroy()
+	instance_destroy()
 with (blconwd2)
-    instance_destroy()
+	instance_destroy()
 with (blcontweet)
-    instance_destroy()
+	instance_destroy()
 talked = false
 whatiheard = -1
 global.mnfight = 2

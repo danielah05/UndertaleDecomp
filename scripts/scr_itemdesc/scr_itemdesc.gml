@@ -7,14 +7,14 @@ function scr_itemdesc(_item_id)
 	var i = 0
 	while 1
 	{
-	    var desc = scr_gettext(((("item_desc_" + string(_item_id)) + "_") + string(i)))
-	    if (string_length(desc) == 0)
-	        break
-	    else
-	    {
-	        global.msg[i] = desc
-	        i++
-	        continue
-	    }
+		var desc = scr_gettext(((("item_desc_" + string(_item_id)) + "_") + string(i)))
+		if (string_length(desc) == 0)
+			break
+		else
+		{
+			global.msg[i] = desc
+			i++
+			continue
+		}
 	}
 }

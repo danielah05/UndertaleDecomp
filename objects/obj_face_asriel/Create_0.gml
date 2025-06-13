@@ -2,8 +2,8 @@ event_inherited()
 image_speed = 0.25
 if instance_exists(obj_face_papyrus)
 {
-    with (obj_face_papyrus)
-        instance_destroy()
+	with (obj_face_papyrus)
+		instance_destroy()
 }
 u[0] = spr_face_asriel0
 u[1] = spr_face_asriel1

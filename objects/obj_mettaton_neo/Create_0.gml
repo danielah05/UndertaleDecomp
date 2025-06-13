@@ -17,5 +17,5 @@ shb = 0
 ht = 240
 wd = 200
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 con = 0

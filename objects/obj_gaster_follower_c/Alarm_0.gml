@@ -10,8 +10,8 @@ global.msg[3] = scr_gettext("obj_gaster_follower_c_98")
 global.msg[4] = scr_gettext("obj_gaster_follower_c_99")
 if (talkedto >= 1)
 {
-    global.msg[0] = scr_gettext("obj_gaster_follower_c_103")
-    global.msg[1] = scr_gettext("obj_gaster_follower_c_104")
+	global.msg[0] = scr_gettext("obj_gaster_follower_c_103")
+	global.msg[1] = scr_gettext("obj_gaster_follower_c_104")
 }
 mydialoguer = instance_create(0, 0, obj_dialoguer)
 talkedto += 1

@@ -6,7 +6,7 @@ snd_play(snd_chug)
 i += 1
 if (i < 20)
 {
-    alarm[1] = 1
-    if (spec == 2)
-        alarm[1] = 2
+	alarm[1] = 1
+	if (spec == 2)
+		alarm[1] = 2
 }

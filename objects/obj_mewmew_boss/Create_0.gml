@@ -14,7 +14,7 @@ mercymod = -400
 image_speed = 0
 depth = 15
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 ht = sprite_height
 wd = sprite_width
 mercer = 0
@@ -49,5 +49,5 @@ heart_hurt_msg_con = 0
 prev_hit = 0
 prev_pet = 0
 if (global.tempvalue[14] == 1)
-    event_user(3)
+	event_user(3)
 FL_FightingAsriel = false

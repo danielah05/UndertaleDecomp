@@ -6,12 +6,12 @@ function scr_recover(_hp)
 	recovered = _hp
 	maxedout = 0
 	if (global.hp < global.maxhp)
-	    global.hp += _hp
+		global.hp += _hp
 	else
-	    maxedout = 1
+		maxedout = 1
 	if (global.hp >= global.maxhp && maxedout == 0)
 	{
-	    global.hp = global.maxhp
-	    maxedout = 1
+		global.hp = global.maxhp
+		maxedout = 1
 	}
 }

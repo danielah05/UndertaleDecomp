@@ -6,6 +6,6 @@ dingus = 1
 global.msc = 0
 var xx = 100
 if (global.language == "ja")
-    xx = 88
+	xx = 88
 instance_create(xx, 300, obj_flowey_writer)
 alarm[7] = 160

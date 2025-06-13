@@ -4,9 +4,9 @@ function scr_phonename()
 {
 	for (i = 0; i < InventorySize; i += 1)
 	{
-	    itemid = global.phone[i]
-	    global.phonename[i] = scr_gettext(("phonename_" + string(itemid)))
-	    if (itemid == PhoneName.PapyrusPhone && FL_IncludeUndyneInPapyrusCalls > 0)
-	        global.phonename[i] = scr_gettext("phonename_210b")
+		itemid = global.phone[i]
+		global.phonename[i] = scr_gettext(("phonename_" + string(itemid)))
+		if (itemid == PhoneName.PapyrusPhone && FL_IncludeUndyneInPapyrusCalls > 0)
+			global.phonename[i] = scr_gettext("phonename_210b")
 	}
 }

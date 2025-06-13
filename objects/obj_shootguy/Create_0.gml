@@ -15,27 +15,27 @@ idealammo = 0
 restart = false
 rstype = 0
 if (room == room_fire_shootguy_1 && FL_CompletedShootPuzzle2 == true)
-    win = 1
+	win = 1
 if (room == room_fire_shootguy_2 && FL_CompletedShootPuzzle1 == true)
-    win = 1
+	win = 1
 if (room == room_fire_shootguy_3 && FL_CompletedShootPuzzle3 == true)
-    win = 1
+	win = 1
 if (room == room_fire_shootguy_4 && FL_CompletedShootPuzzle4 == true)
-    win = 1
+	win = 1
 if (room == room_fire_shootguy_5 && FL_CompletedShootPuzzleCore == true)
-    win = 1
+	win = 1
 if (room == room_fire_shootguy_3)
 {
-    gridu = 40
-    gridl = 120
-    gridr = 220
-    gridd = 120
+	gridu = 40
+	gridl = 120
+	gridr = 220
+	gridd = 120
 }
 if (room == room_fire_shootguy_4)
 {
-    gridu = 20
-    gridl = 120
-    gridr = 220
-    gridd = 120
+	gridu = 20
+	gridl = 120
+	gridr = 220
+	gridd = 120
 }
 alarm[1] = 1

@@ -1,14 +1,14 @@
 murder = 0
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    murder = 1
+	murder = 1
 instance_create(0, 0, obj_fader)
 vol = 0.8
 if (FL_TruePacifist == false)
 {
-    shopmus = caster_load("music/date.ogg")
-    caster_loop(shopmus, vol, 1)
-    if (murder == 1)
-        caster_set_pitch(shopmus, 0.25)
+	shopmus = caster_load("music/date.ogg")
+	caster_loop(shopmus, vol, 1)
+	if (murder == 1)
+		caster_set_pitch(shopmus, 0.25)
 }
 menumax = 3
 menu = 0
@@ -34,10 +34,10 @@ itemcost[2] = 350
 itemcost[3] = 600
 if (murder == 1)
 {
-    itemcost[0] = 0
-    itemcost[1] = 0
-    itemcost[2] = 0
-    itemcost[3] = 0
+	itemcost[0] = 0
+	itemcost[1] = 0
+	itemcost[2] = 0
+	itemcost[3] = 0
 }
 minimenuy = 120
 global.typer = 23
@@ -57,7 +57,7 @@ bwe = 0
 catty = obj_shopkeeper_catty
 bratty = obj_shopkeeper_bratty
 if (murder == 1)
-    obj_shopkeeper_catty.visible = false
+	obj_shopkeeper_catty.visible = false
 if (murder == 1)
-    obj_shopkeeper_bratty.visible = false
+	obj_shopkeeper_bratty.visible = false
 con = 0

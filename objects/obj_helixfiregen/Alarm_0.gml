@@ -12,4 +12,4 @@ hl2.vspeed = (5.5 + selfspeed2)
 alarm[0] = 2
 count += 1
 if (count > 15)
-    instance_destroy()
+	instance_destroy()

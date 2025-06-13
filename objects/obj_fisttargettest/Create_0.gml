@@ -8,17 +8,17 @@ factor = choose(20, 40, 60)
 factor += 30
 if (lr == 0)
 {
-    event_user(4)
-    wherex = (-80 + factor)
-    event_user(4)
-    wherex = (-80 + (factor * 2))
-    event_user(4)
+	event_user(4)
+	wherex = (-80 + factor)
+	event_user(4)
+	wherex = (-80 + (factor * 2))
+	event_user(4)
 }
 if (lr == 1)
 {
-    event_user(5)
-    wherex = (-80 + factor)
-    event_user(5)
-    wherex = (-80 + (factor * 2))
-    event_user(5)
+	event_user(5)
+	wherex = (-80 + factor)
+	event_user(5)
+	wherex = (-80 + (factor * 2))
+	event_user(5)
 }

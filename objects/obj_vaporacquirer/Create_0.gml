@@ -8,7 +8,7 @@ fileplace = ("data/monster/" + sprite_get_name(sprite_index))
 file = ossafe_file_text_open_write(fileplace)
 if instance_exists(obj_dmgwriter)
 {
-    with (obj_dmgwriter)
-        instance_destroy()
+	with (obj_dmgwriter)
+		instance_destroy()
 }
 action_set_alarm(2, 0)

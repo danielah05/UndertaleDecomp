@@ -20,8 +20,8 @@ skip = false
 right = 0
 if instance_exists(obj_battlebg)
 {
-    with (obj_battlebg)
-        instance_destroy()
+	with (obj_battlebg)
+		instance_destroy()
 }
 x -= 100
 y -= 100

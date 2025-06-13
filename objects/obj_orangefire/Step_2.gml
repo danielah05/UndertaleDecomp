@@ -1,7 +1,7 @@
 if (instance_exists(parent) == false)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }
 x = (parent.x + rememberx)
 y = (parent.y + remembery)

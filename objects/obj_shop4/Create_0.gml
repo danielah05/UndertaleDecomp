@@ -1,18 +1,18 @@
 murder = 0
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
 {
-    murder = 1
-    if (FL_BurgerPantsStatus < BurgerPantsStatus.Talked)
-        FL_BurgerPantsStatus = BurgerPantsStatus.Talked
+	murder = 1
+	if (FL_BurgerPantsStatus < BurgerPantsStatus.Talked)
+		FL_BurgerPantsStatus = BurgerPantsStatus.Talked
 }
 instance_create(0, 0, obj_fader)
 vol = 0.8
 if (FL_TruePacifist == false)
 {
-    shopmus = caster_load("music/shop.ogg")
-    caster_loop(shopmus, vol, 0.7)
-    if (murder == 1)
-        caster_set_pitch(shopmus, 0.4)
+	shopmus = caster_load("music/shop.ogg")
+	caster_loop(shopmus, vol, 0.7)
+	if (murder == 1)
+		caster_set_pitch(shopmus, 0.4)
 }
 menumax = 3
 menu = 0

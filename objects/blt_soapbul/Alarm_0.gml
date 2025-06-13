@@ -3,6 +3,6 @@ my.dmg = (dmg - 2)
 alarm[0] = 7
 if (offset == 1)
 {
-    speed = 5
-    alarm[0] = 10
+	speed = 5
+	alarm[0] = 10
 }

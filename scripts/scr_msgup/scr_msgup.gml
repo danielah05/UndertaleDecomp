@@ -13,8 +13,8 @@ function scr_msgup()
 	n = 0
 	while (global.msg[n] != "%%%")
 	{
-	    mystring[n] = global.msg[n]
-	    n += 1
+		mystring[n] = global.msg[n]
+		n += 1
 	}
 	originalstring = scr_replace_buttons_pc(mystring[0])
 	halt = 0

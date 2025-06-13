@@ -33,11 +33,11 @@ cr = caster_load("music/create.ogg")
 powersfx = caster_load("music/sfx/sfx_spellcast.ogg")
 sn = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 if (FL_ButItRefused > 0 && FL_TruePacifist == false)
 {
-    specialnormal = 0
-    aligncon = 0
+	specialnormal = 0
+	aligncon = 0
 }
 darker = 0
 darker_x = 0
@@ -46,4 +46,4 @@ h_mode = 0
 transform = 0
 stetch = 0
 if (FL_ButItRefused > 0)
-    aimage = 1
+	aimage = 1

@@ -1,8 +1,8 @@
 i = 0
 repeat (99)
 {
-    global.failure[i] = 0
-    i += 1
+	global.failure[i] = 0
+	i += 1
 }
 global.attacktype = 26
 global.testhp = 20

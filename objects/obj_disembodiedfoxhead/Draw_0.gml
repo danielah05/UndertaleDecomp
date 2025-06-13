@@ -1,14 +1,14 @@
 if (myinteract > 0 && instance_exists(OBJ_WRITER))
 {
-    if (OBJ_WRITER.halt == 0)
-        animanim += 0.2
-    siner += 0.5
+	if (OBJ_WRITER.halt == 0)
+		animanim += 0.2
+	siner += 0.5
 }
 else
 {
-    animanim = 0
-    if ((sin((siner / 2)) * 2) < 1.9)
-        siner += 0.5
+	animanim = 0
+	if ((sin((siner / 2)) * 2) < 1.9)
+		siner += 0.5
 }
 ss = (sin((siner / 2)) * 2)
 draw_set_color(c_black)

@@ -1,8 +1,8 @@
 if (global.plot >= 42)
-    instance_destroy()
+	instance_destroy()
 else
 {
-    image_yscale = 9999
-    conversation = 0
-    x -= 2
+	image_yscale = 9999
+	conversation = 0
+	x -= 2
 }

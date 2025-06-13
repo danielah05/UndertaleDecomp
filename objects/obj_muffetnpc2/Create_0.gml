@@ -12,11 +12,11 @@ direction = 0
 talkedto = 0
 image_speed = 0
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    instance_destroy()
+	instance_destroy()
 kk = 0
 if (FL_KilledMuffet != 0)
-    kk = 1
+	kk = 1
 if (global.plot < 165)
-    kk = 1
+	kk = 1
 if (kk == 1)
-    instance_destroy()
+	instance_destroy()

@@ -5,7 +5,7 @@ alarm[0] = 10
 visible = true
 if (scr_monstersum() == 1)
 {
-    alarm[0] = 60
-    alarm[2] = 60
-    global.turntimer = 170
+	alarm[0] = 60
+	alarm[2] = 60
+	global.turntimer = 170
 }

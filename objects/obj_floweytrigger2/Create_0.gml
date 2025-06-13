@@ -9,21 +9,21 @@ c = ini_read_real("Flowey", "SPECIALK", 0)
 d = ini_read_real("Flowey", "alter2", 0)
 ossafe_ini_close()
 if (a > 0 || b > 0 || c > 0)
-    q = 1
+	q = 1
 if (scr_murderlv() >= MurderLevel.Lv2TorielKilled)
-    q = 0
+	q = 0
 if (d > 0)
-    q = 1
+	q = 1
 if (q == 1)
 {
-    with (obj_floweytalker1)
-        instance_destroy()
-    instance_destroy()
+	with (obj_floweytalker1)
+		instance_destroy()
+	instance_destroy()
 }
 if (global.plot > 27)
 {
-    with (obj_floweytalker1)
-        instance_destroy()
-    instance_destroy()
+	with (obj_floweytalker1)
+		instance_destroy()
+	instance_destroy()
 }
 dingus = 0

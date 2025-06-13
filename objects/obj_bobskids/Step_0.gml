@@ -7,7 +7,7 @@ outer = (sin((outersin / 12)) * 20)
 gg = collision_rectangle(((x - (sprite_width / 2)) + 2), (y + 4), ((x + (sprite_width / 2)) - 2), (y - 4), obj_heartshot, 0, 1)
 if (gg != noone)
 {
-    with (gg)
-        instance_destroy()
-    instance_destroy()
+	with (gg)
+		instance_destroy()
+	instance_destroy()
 }

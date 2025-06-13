@@ -9,5 +9,5 @@ function scr_npcsetup(_movement_type)
 	movementtype = _movement_type
 	facing = -1
 	if (movementtype == 2)
-	    facing = Direction.Down
+		facing = Direction.Down
 }

@@ -1,2 +1,2 @@
 if (con == 0)
-    con = 1
+	con = 1

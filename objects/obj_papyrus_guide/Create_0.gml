@@ -1,7 +1,7 @@
 if (FL_PapyrusStatus == PapyrusStatus.Killed)
 {
-    instance_destroy()
-    return;
+	instance_destroy()
+	return;
 }
 dsprite = spr_papyrus_d
 usprite = spr_papyrus_u
@@ -23,13 +23,13 @@ workout = 0
 intro = 0
 if (global.entrance == 2)
 {
-    spot = 5
-    x = 26
-    y -= 80
-    solid = 0
-    vspeed = 6
-    sprite_index = spr_papyrus_d
-    image_speed = 0.25
+	spot = 5
+	x = 26
+	y -= 80
+	solid = 0
+	vspeed = 6
+	sprite_index = spr_papyrus_d
+	image_speed = 0.25
 }
 if (FL_PapyrusDateCounter >= 4)
-    instance_destroy()
+	instance_destroy()

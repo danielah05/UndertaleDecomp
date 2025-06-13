@@ -11,6 +11,6 @@ rolltime = 0
 timeincrease = 0
 murder = 0
 if (FL_TundraKillsCounter >= 16)
-    murder = 1
+	murder = 1
 if (murder == 1)
-    instance_destroy()
+	instance_destroy()

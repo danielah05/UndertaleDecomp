@@ -651,9 +651,9 @@ enum Items
 
 enum NapstablookStatus
 {
-    NotSet,
-    Spared,
-    Killed
+	NotSet,
+	Spared,
+	Killed
 }
 
 enum DummyStatus 

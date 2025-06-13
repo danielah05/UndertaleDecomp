@@ -6,6 +6,6 @@ global.faceemotion = 0
 global.msg[0] = scr_gettext("obj_xmastree_60")
 global.msg[1] = scr_gettext("obj_xmastree_61")
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
-    global.msg[0] = scr_gettext("obj_xmastree_65")
+	global.msg[0] = scr_gettext("obj_xmastree_65")
 mydialoguer = instance_create(0, 0, obj_dialoguer)
 talkedto += 1

@@ -5,5 +5,5 @@ global.facechoice = 0
 global.faceemotion = 0
 global.msg[0] = scr_gettext("obj_mettwallhole_58")
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
-    global.msg[0] = scr_gettext("obj_mettwallhole_61")
+	global.msg[0] = scr_gettext("obj_mettwallhole_61")
 mydialoguer = instance_create(0, 0, obj_dialoguer)

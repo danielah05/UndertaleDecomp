@@ -14,20 +14,20 @@ function draw_self_border_true(_xOffset, _yOffset)
 	ww = (((x + w) - obj_rborder.x) - 1)
 	hh = (((y + h) - global.idealborder[3]) - 1)
 	if (ll > 0)
-	    l += ll
+		l += ll
 	if (tt > 0)
-	    t += tt
+		t += tt
 	if (ww > 0)
-	    w -= ww
+		w -= ww
 	if (hh > 0)
-	    h -= hh
+		h -= hh
 	w = round(w)
 	h = round(h)
 	l = round(l)
 	t = round(t)
 	if ((w + offx) > 0 && (h + offy) > 0)
 	{
-	    if (l < w && t < h)
-	        draw_sprite_part(sprite_index, image_index, l, t, ((w - l) + offx), ((h - t) + offy), ((x + l) - offx), ((y + t) - offy))
+		if (l < w && t < h)
+			draw_sprite_part(sprite_index, image_index, l, t, ((w - l) + offx), ((h - t) + offy), ((x + l) - offx), ((y + t) - offy))
 	}
 }

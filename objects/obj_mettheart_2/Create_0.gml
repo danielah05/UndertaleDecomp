@@ -14,12 +14,12 @@ i = 0
 num = 8
 repeat num
 {
-    kid[i] = instance_create(x, y, obj_bulletblocker)
-    greg = degtorad(((i * 360) / num))
-    if instance_exists(kid[i])
-    {
-        kid[i].x = ((x + (sin(greg) * sf2)) - 10)
-        kid[i].y = ((y + (cos(greg) * sf2)) - 10)
-    }
-    i += 1
+	kid[i] = instance_create(x, y, obj_bulletblocker)
+	greg = degtorad(((i * 360) / num))
+	if instance_exists(kid[i])
+	{
+		kid[i].x = ((x + (sin(greg) * sf2)) - 10)
+		kid[i].y = ((y + (cos(greg) * sf2)) - 10)
+	}
+	i += 1
 }

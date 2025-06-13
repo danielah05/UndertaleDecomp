@@ -9,8 +9,8 @@ function action_set_gravity(_direction, _value)
 	var val = _value
 	if global.__argument_relative
 	{
-	    dir += gravity_direction
-	    val += gravity
+		dir += gravity_direction
+		val += gravity
 	}
 	gravity = val
 	gravity_direction = dir

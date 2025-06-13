@@ -13,8 +13,8 @@ party[3] = (rot / 3)
 partrot[3] = rot
 for (i = 0; i < 4; i += 1)
 {
-    opartx[i] = partx[i]
-    oparty[i] = party[i]
-    opartrot[i] = partrot[i]
+	opartx[i] = partx[i]
+	oparty[i] = party[i]
+	opartrot[i] = partrot[i]
 }
 fakegrav = 0.5

@@ -6,5 +6,5 @@ function scr_conshakeinit()
 	conshakey = view_yview_get(0)
 	consiner = 0
 	if instance_exists(obj_mainchara)
-	    obj_mainchara.cutscene = true
+		obj_mainchara.cutscene = true
 }

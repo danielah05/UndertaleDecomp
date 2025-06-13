@@ -7,9 +7,9 @@ function scr_itemcheck(_item)
 	itemcount = 0
 	for (i = 0; i < InventorySize; i += 1)
 	{
-	    if (global.item[i] == _item)
-	        haveit = true
-	    if (global.item[i] == _item)
-	        itemcount += 1
+		if (global.item[i] == _item)
+			haveit = true
+		if (global.item[i] == _item)
+			itemcount += 1
 	}
 }

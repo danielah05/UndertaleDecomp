@@ -1,5 +1,5 @@
 if (global.plot >= 35)
-    instance_destroy()
+	instance_destroy()
 broken = 0
 image_speed = 0.2
 hspeed = 1

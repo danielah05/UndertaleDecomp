@@ -5,9 +5,9 @@ gravity_direction = 270
 gravity = 0.06
 if (y > 200)
 {
-    image_yscale = -2
-    gravity = (-gravity)
-    vspeed = (-vspeed)
+	image_yscale = -2
+	gravity = (-gravity)
+	vspeed = (-vspeed)
 }
 siner = 0
 shake = 0

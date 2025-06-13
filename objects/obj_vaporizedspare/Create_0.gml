@@ -6,7 +6,7 @@ ht = sprite_get_height(sprite_index)
 wd = sprite_get_width(sprite_index)
 myvapor = global.vaporspeed
 if (myvapor == 0)
-    snd_play(snd_vaporized)
+	snd_play(snd_vaporized)
 fileplace = ("data/monster/" + string(global.monstersprite))
 file = ossafe_file_text_open_read(fileplace)
 action_set_alarm(2, 0)

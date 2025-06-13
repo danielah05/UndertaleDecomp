@@ -1,2 +1,2 @@
 if (boxactive == 1)
-    caster_free(musicbox)
+	caster_free(musicbox)

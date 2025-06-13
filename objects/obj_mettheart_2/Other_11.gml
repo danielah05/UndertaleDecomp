@@ -6,6 +6,6 @@ mtb.homex = xstart
 mtb.homey = ystart
 with (obj_mettb_body)
 {
-    if (noarm == 0)
-        event_user(2)
+	if (noarm == 0)
+		event_user(2)
 }

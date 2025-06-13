@@ -25,11 +25,11 @@ legs = part[6]
 legs.sprite_index = spr_undyneb_legs
 for (i = 0; i < 7; i += 1)
 {
-    part[i].depth = (depth + i)
-    part[i].visible = true
-    part[i].image_speed = 0
-    part[i].image_xscale = 2
-    part[i].image_yscale = 2
+	part[i].depth = (depth + i)
+	part[i].visible = true
+	part[i].image_speed = 0
+	part[i].image_xscale = 2
+	part[i].image_yscale = 2
 }
 hair.image_speed = 0.25
 movetype = 0

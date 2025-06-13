@@ -1,5 +1,5 @@
 con = 0
 if (FL_HaveWater == 0)
-    instance_destroy()
+	instance_destroy()
 else
-    alarm[1] = 3
+	alarm[1] = 3

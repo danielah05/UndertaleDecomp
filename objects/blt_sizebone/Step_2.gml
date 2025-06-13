@@ -1,2 +1,2 @@
 if (global.turntimer < 0 && active == true)
-    instance_destroy()
+	instance_destroy()

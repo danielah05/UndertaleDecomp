@@ -1,7 +1,7 @@
 myinteract = 3
 global.msc = 516
 if (room == room_fire_spidershop)
-    global.msc = 744
+	global.msc = 744
 global.typer = 5
 global.facechoice = 0
 global.faceemotion = 0

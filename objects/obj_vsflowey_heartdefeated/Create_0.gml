@@ -4,15 +4,15 @@ bb = sprite_create_from_screen_x(0, 0, 640, 480, false, false, 0, 0)
 caster_free(all)
 with (all)
 {
-    x = -500
-    y = -500
+	x = -500
+	y = -500
 }
 with (obj_flowey_writer)
-    instance_destroy()
+	instance_destroy()
 with (all)
 {
-    if (object_index != obj_time && object_index != obj_vsflowey_heartdefeated)
-        instance_destroy()
+	if (object_index != obj_time && object_index != obj_vsflowey_heartdefeated)
+		instance_destroy()
 }
 x = remx
 y = remy

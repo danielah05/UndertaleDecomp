@@ -15,4 +15,4 @@ pit = 1.4
 vol = 0.8
 hyperboys = 0
 if (room == room_truelab_castle_elevator)
-    hyperboys = 1
+	hyperboys = 1

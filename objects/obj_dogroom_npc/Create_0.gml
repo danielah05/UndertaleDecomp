@@ -12,4 +12,4 @@ direction = 270
 talkedto = 0
 image_speed = 0
 if (FL_LesserDogStatus == DogStatus.Killed)
-    instance_destroy()
+	instance_destroy()

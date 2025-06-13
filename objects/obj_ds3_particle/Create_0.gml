@@ -7,4 +7,4 @@ friction = 0.2
 gravity_direction = random(360)
 gravity = 0.3
 if (instance_count >= 5000)
-    instance_destroy()
+	instance_destroy()

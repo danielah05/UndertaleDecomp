@@ -1,7 +1,7 @@
 scr_monstersetup(0, 0, 0, 0, 0)
 image_speed = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 part1 = obj_undynebody2
 mypart1 = instance_create(x, y, part1)
 alarm[9] = 8

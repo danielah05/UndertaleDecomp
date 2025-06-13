@@ -36,7 +36,7 @@ itemuse = 0
 murder = 0
 if (scr_murderlv() >= MurderLevel.Lv12UndyneEXKilled)
 {
-    murder = 1
-    global.monsterdef[myself] = -800
-    mercymod = -90000
+	murder = 1
+	global.monsterdef[myself] = -800
+	mercymod = -90000
 }

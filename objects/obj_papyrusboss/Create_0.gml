@@ -1,7 +1,7 @@
 scr_monstersetup(0, 0, 0, 0, 0)
 image_speed = 0
 with (obj_battlebg)
-    instance_destroy()
+	instance_destroy()
 gen = 4
 part1 = obj_papyrusbody
 mypart1 = instance_create(x, y, part1)
@@ -40,31 +40,31 @@ hearthp2 = global.hp
 xxtalk = 0
 if (FL_PapyrusStatus < PapyrusStatus.Spared)
 {
-    truefight = 1
-    conversation = 1
+	truefight = 1
+	conversation = 1
 }
 if (FL_PapyrusStatus == PapyrusStatus.DefeatedTwice)
-    FL_PapyrusStatus = PapyrusStatus.DefeatedThrice
+	FL_PapyrusStatus = PapyrusStatus.DefeatedThrice
 if (FL_PapyrusStatus == PapyrusStatus.DefeatedOnce)
-    FL_PapyrusStatus = PapyrusStatus.DefeatedTwice
+	FL_PapyrusStatus = PapyrusStatus.DefeatedTwice
 if (FL_PapyrusStatus == PapyrusStatus.Spared)
-    FL_PapyrusStatus = PapyrusStatus.DefeatedOnce
+	FL_PapyrusStatus = PapyrusStatus.DefeatedOnce
 FL_FoughtPapyrus = true
 blcon_textofs = 15
 if (global.language == "ja")
-    blcon_textofs += 11
+	blcon_textofs += 11
 ht = sprite_height
 wd = sprite_width
 murder = 0
 if (scr_murderlv() >= MurderLevel.Lv7TundraKills)
 {
-    murder = 1
-    FL_NeutralPapyrusSpared = true
-    global.monsterdef[myself] = -20000
-    dontcancel = 0
-    alarm[8] = -2
-    bonetalk3 = 2
-    mercymod = 8000
+	murder = 1
+	FL_NeutralPapyrusSpared = true
+	global.monsterdef[myself] = -20000
+	dontcancel = 0
+	alarm[8] = -2
+	bonetalk3 = 2
+	mercymod = 8000
 }
 blcon = 8589458454 // Vultu: TODO: What is this??
 blconwd = 584589485934

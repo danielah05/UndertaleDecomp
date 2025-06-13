@@ -8,8 +8,8 @@ jumpno += 1
 y = ystart
 if (jumpno == 3)
 {
-    vspeed = -12
-    hspeed = ((xstart - x) / 18)
+	vspeed = -12
+	hspeed = ((xstart - x) / 18)
 }
 air = 0
 larm.hspeed = (hspeed / 0.93)

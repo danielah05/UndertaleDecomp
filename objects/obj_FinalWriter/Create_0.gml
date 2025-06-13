@@ -1,6 +1,6 @@
 wx = 90
 if (global.language == "ja")
-    wx -= 16
+	wx -= 16
 wy = 280
 scr_setfont(-1)
 draw_set_color(c_white)

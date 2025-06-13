@@ -5,6 +5,6 @@ function scr_musfadepause(_fade_speed)
 {
 	g = instance_create(0, 0, obj_musfadepause)
 	if (_fade_speed == 0)
-	    _fade_speed = 0.05
+		_fade_speed = 0.05
 	g.fadespeed = _fade_speed
 }

@@ -6,6 +6,6 @@ global.faceemotion = 0
 global.msg[0] = scr_gettext("obj_doublesans_75")
 global.msg[1] = scr_gettext("obj_doublesans_76")
 if (obj_sans_room.talkedto >= 2)
-    global.msg[0] = scr_gettext("obj_doublesans_77")
+	global.msg[0] = scr_gettext("obj_doublesans_77")
 mydialoguer = instance_create(0, 0, obj_dialoguer)
 talkedto += 1
