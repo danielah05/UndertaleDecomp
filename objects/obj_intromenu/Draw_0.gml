@@ -66,7 +66,6 @@ if (naming == 3)
 	
 	draw_set_halign(fa_center);
 	draw_text(160, 1, "Press [C] to view Decomp Settings");
-	draw_text(160, 224, "Decomp by Vultumast and Daniela");
 	draw_text(160, 232, (("UNDERTALE v" + version) + " (C) Toby Fox 2015-2022"));
 	draw_set_halign(fa_left);
 }
