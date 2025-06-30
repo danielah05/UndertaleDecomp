@@ -208,3 +208,6 @@ global.music_array = [
 	mus_waterquiet,
 	mus_decomp_settings
 ];
+
+// basic decomp qwertz support
+keyboard_set_map(ord("Y"), ord("Z"));

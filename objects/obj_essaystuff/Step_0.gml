@@ -4,6 +4,10 @@ if (cantype == 1)
 {
 	var newchar = ""
 	var backspace = 0
+	
+	// temp disable decomp qwertz support
+	keyboard_unset_map();
+	
 	if keyboard_check_pressed(vk_anykey)
 	{
 		var exc = 0
