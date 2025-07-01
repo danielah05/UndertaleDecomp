@@ -20,6 +20,10 @@ function trophy_unlock(_trophy_id)
 		if (trophy_get_state(trophy_id))
 			return;
 			
+		// make sure overlays dont happen
+		if instance_exists(obj_faketrophy)
+			instance_destroy(obj_faketrophy);
+			
 		with (instance_create_depth(3, 3, 10000, obj_faketrophy))
 		{
 			var info = trophy_get_info(trophy_id);
