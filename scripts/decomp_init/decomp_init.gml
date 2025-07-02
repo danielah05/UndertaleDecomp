@@ -16,7 +16,8 @@ global.decomp_vars = {
 	BattleIconRandomOverride : 0,
 	FixInputLatency : true,
 	WristProtector : true,
-	ForceSoSorry : false
+	ForceSoSorry : false,
+	QwertzInput : true
 }
 
 #macro trace show_debug_message
@@ -208,6 +209,3 @@ global.music_array = [
 	mus_waterquiet,
 	mus_decomp_settings
 ];
-
-// basic decomp qwertz support
-keyboard_set_map(ord("Y"), ord("Z"));

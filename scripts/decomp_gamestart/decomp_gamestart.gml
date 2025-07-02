@@ -12,6 +12,10 @@ function decomp_gamestart()
 	load_trophies();
 	save_trophies();
 	
+	// Daniela: this is here for qwertz support
+	if (global.decomp_vars.QwertzInput && !global.decomp_vars.VanillaMode)
+		keyboard_set_map(ord("Y"), ord("Z"));
+	
 	// Daniela: force set master volume here on game start to fix bug
 	audio_set_master_gain(0, global.decomp_vars.MasterVolume / 100.0);
 	

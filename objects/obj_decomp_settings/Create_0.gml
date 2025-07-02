@@ -92,6 +92,17 @@ function wipeSaveData()
 		
 	SCR_GAMESTART();
 }
+
+function setQWERTZLayout(_value)
+{
+	if (_value.value == true  && !global.decomp_vars.VanillaMode)
+		keyboard_set_map(ord("Y"), ord("Z"));
+	else
+	{
+		control_clear(InteractButton); // Daniela: clear the interact button first or else controls get screwed up
+		keyboard_unset_map();
+	}
+}
 #endregion
 
 event_user(1);

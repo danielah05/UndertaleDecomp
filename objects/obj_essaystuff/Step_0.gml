@@ -5,8 +5,9 @@ if (cantype == 1)
 	var newchar = ""
 	var backspace = 0
 	
-	// temp disable decomp qwertz support
-	keyboard_unset_map();
+	// Daniela: temporarily disable qwertz support to allow writing the letter Y in the essay
+	if (global.decomp_vars.QwertzInput && !global.decomp_vars.VanillaMode)
+		keyboard_unset_map();
 	
 	if keyboard_check_pressed(vk_anykey)
 	{
