@@ -3,6 +3,7 @@ if (!global.decomp_vars.VanillaMode)
 {
 	switch room
 	{
+		// RUINS
 		case room_ruins4:
 			var lay_id = layer_get_id("Tiles_Depth_1000000_2")
 			var map_id = layer_tilemap_get_id(lay_id);
@@ -37,5 +38,9 @@ if (!global.decomp_vars.VanillaMode)
 			data = tile_set_index(ts_ruinseasynam3, 90);
 			tilemap_set(map_id, data, 17, 8);
 		break;
+		
+		// SNOWDIN
+		case room_tundra_grillby:
+			instance_create_layer(55, 90, "Instances_Depth_0", obj_solidsmall);
 	}
 }
