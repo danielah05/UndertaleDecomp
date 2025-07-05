@@ -40,8 +40,6 @@ if (!File.Exists(decompPath))
     return;
 }
 
-StartProgressBarUpdater();
-
 var decompFolder = Path.GetDirectoryName(decompPath);
 
 var dataWinPath = FilePath;
@@ -81,6 +79,8 @@ logFile.WriteLine($"UTMT version used: {UTMT_VERSION}");
 // DUMP TEXTURES
 
 SetProgressBar(null, "Exporting Textures", 0, Data.TexturePageItems.Count);
+StartProgressBarUpdater();
+
 TextureWorker worker = new TextureWorker();
 await DumpSprites();
 await DumpFonts();
@@ -297,6 +297,8 @@ mappingsFile.WriteLine($"### Matched Audio ###");
 audioMatched.Where(x => x.Value != null).ForEach(x => mappingsFile.WriteLine($"{x.Key} => {x.Value}"));
 
 // COPY FILES
+StopProgressBarUpdater();
+HideProgressBar();
 
 var confirmImport = ScriptQuestion(
     "Assets prepared for import:\n" +
@@ -311,8 +313,6 @@ var confirmImport = ScriptQuestion(
 );
 
 if (!confirmImport) {
-    StopProgressBarUpdater();
-    HideProgressBar();
     logFile.Close();
     mappingsFile.Close();
     return;
@@ -349,6 +349,7 @@ audioMatched = audioMatched
 int totalCount = fontsMatched.Count + spriteFramesMatched.Count + spriteLayersMatched.Count + audioMatched.Count;
 
 SetProgressBar(null, "Importing assets", 0, totalCount);
+StartProgressBarUpdater();
 
 int missingSources =
     fontsMatched.Values.Count(x => !File.Exists(x)) +
@@ -426,9 +427,8 @@ void DumpSprite(UndertaleSprite sprite)
             UndertaleTexturePageItem tex = sprite.Textures[i].Texture;
             worker.ExportAsPNG(tex, Path.Combine(spriteFolder, sprite.Name.Content + "_" + i + ".png"), includePadding: true);
         }
+        IncrementProgressParallel();
     }
-
-    AddProgressParallel(sprite.Textures.Count);
 }
 
 void DumpFont(UndertaleFont font)
