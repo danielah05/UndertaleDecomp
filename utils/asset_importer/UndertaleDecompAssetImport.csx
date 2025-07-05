@@ -20,13 +20,13 @@ EnsureDataLoaded();
 Directory.SetCurrentDirectory(Path.GetDirectoryName(ScriptPath));
 
 string decompPath = null;
-var projectFilePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "NXTale.yyp"));
+var projectFilePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "NXTALE.yyp"));
 
 if (File.Exists(projectFilePath))
     decompPath = projectFilePath;
 
 if (decompPath == null)
-    decompPath = PromptLoadFile("NXTale.yyp", "Undertale Decomp|NXTale.yyp");
+    decompPath = PromptLoadFile("NXTALE.yyp", "Undertale Decomp|NXTALE.yyp");
 
 if (string.IsNullOrEmpty(decompPath))
 {
