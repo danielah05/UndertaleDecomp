@@ -1,10 +1,10 @@
 // The code used to dump the assets is a modified version of the code
 // from UndertaleModTool's ExportAll*.csx scripts
 
-using System.Drawing;
+using ImageMagick;
 using System;
 using System.IO;
-using System.Drawing;
+using ImageMagick.Drawing;
 using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
@@ -39,8 +39,6 @@ if (!File.Exists(decompPath))
     ScriptError("Path to Decomp is not valid!");
     return;
 }
-
-StartProgressBarUpdater();
 
 var decompFolder = Path.GetDirectoryName(decompPath);
 
@@ -81,6 +79,8 @@ logFile.WriteLine($"UTMT version used: {UTMT_VERSION}");
 // DUMP TEXTURES
 
 SetProgressBar(null, "Exporting Textures", 0, Data.TexturePageItems.Count);
+StartProgressBarUpdater();
+
 TextureWorker worker = new TextureWorker();
 await DumpSprites();
 await DumpFonts();
@@ -297,6 +297,8 @@ mappingsFile.WriteLine($"### Matched Audio ###");
 audioMatched.Where(x => x.Value != null).ForEach(x => mappingsFile.WriteLine($"{x.Key} => {x.Value}"));
 
 // COPY FILES
+StopProgressBarUpdater();
+HideProgressBar();
 
 var confirmImport = ScriptQuestion(
     "Assets prepared for import:\n" +
@@ -311,8 +313,6 @@ var confirmImport = ScriptQuestion(
 );
 
 if (!confirmImport) {
-    StopProgressBarUpdater();
-    HideProgressBar();
     logFile.Close();
     mappingsFile.Close();
     return;
@@ -349,6 +349,7 @@ audioMatched = audioMatched
 int totalCount = fontsMatched.Count + spriteFramesMatched.Count + spriteLayersMatched.Count + audioMatched.Count;
 
 SetProgressBar(null, "Importing assets", 0, totalCount);
+StartProgressBarUpdater();
 
 int missingSources =
     fontsMatched.Values.Count(x => !File.Exists(x)) +
@@ -426,9 +427,8 @@ void DumpSprite(UndertaleSprite sprite)
             UndertaleTexturePageItem tex = sprite.Textures[i].Texture;
             worker.ExportAsPNG(tex, Path.Combine(spriteFolder, sprite.Name.Content + "_" + i + ".png"), includePadding: true);
         }
+        IncrementProgressParallel();
     }
-
-    AddProgressParallel(sprite.Textures.Count);
 }
 
 void DumpFont(UndertaleFont font)
@@ -566,17 +566,17 @@ bool ProcessTileset(string imagePath)
         imageId == "bg_icecave" ||
         imageId == "bg_endtileset";
 
-    Bitmap source;
+    MagickImage source;
 
-    using (var image = Image.FromFile(imagePath))
+    using (var image = new MagickImage(imagePath))
     {
-        source = new Bitmap(image);
+        source = new MagickImage(image);
 
         if (!noAutomaticPadding)
             source = source.PadToTileSize(tileSize);
     }
 
-    Bitmap? destination = null;
+    MagickImage? destination = null;
 
     static (int X, int Y) TileAt(int x, int y) => new(x * tileSize, y * tileSize);
 
@@ -774,76 +774,58 @@ bool ProcessTileset(string imagePath)
                 .SwapAndCopyTiles(TileAt(0, 0), TileAt(5, 0), tileSize);
             break;
     }
-    
+
     if (destination != null)
     {
-        destination.Save(imagePath);
+        destination.Write(imagePath);
         AddProgressParallel(1);
         return true;
     }
     return false;
 }
 
-static Bitmap PadToTileSize(this Bitmap source, int tileSize)
+static MagickImage PadToTileSize(this MagickImage source, int tileSize)
 {
-    if (source.Size.Width % tileSize == 0 && source.Size.Height % tileSize == 0)
+    if (source.Width % tileSize == 0 && source.Height % tileSize == 0)
         return source;
 
-    int paddedWidth = (int)(Math.Ceiling(source.Size.Width / (float)tileSize) * tileSize);
-    int paddedHeight = (int)(Math.Ceiling(source.Size.Height / (float)tileSize) * tileSize);
+    uint paddedWidth = (uint)(Math.Ceiling(source.Width / (float)tileSize) * tileSize);
+    uint paddedHeight = (uint)(Math.Ceiling(source.Height / (float)tileSize) * tileSize);
 
-    Bitmap destination = new Bitmap(paddedWidth, paddedHeight);
+    var destination = new MagickImage("xc:transparent", paddedWidth, paddedHeight);
+    destination.Composite(source, 0, 0, CompositeOperator.Over);
+    return destination;
+}
 
-    using (Graphics graphics = Graphics.FromImage(destination))
-    {
-        graphics.DrawImage(source, 0, 0);
-    }
+static MagickImage PadImage(this MagickImage source, int top, int right, int bottom, int left)
+{
+    MagickImage destination = new MagickImage("xc:transparent", (uint)(source.Width + left + right), (uint)(source.Height + top + bottom));
+
+    destination.Composite(source, left, top, CompositeOperator.Over);
 
     return destination;
 }
 
-static Bitmap PadImage(this Bitmap source, int top, int right, int bottom, int left)
+static MagickImage SwapAndCopyTiles(this MagickImage source, (int X, int Y) first, (int X, int Y) second, int tileSize)
 {
-    Bitmap destination = new Bitmap(source.Size.Width + left + right, source.Size.Height + top + bottom);
+    MagickImage destination = new MagickImage(source);
 
-    using (Graphics graphics = Graphics.FromImage(destination))
-    {
-        graphics.Clear(Color.Transparent);
-    }
+    var tile1 = new MagickImage(source);
+    tile1.Crop(new MagickGeometry(first.X, first.Y, (uint)tileSize, (uint)tileSize));
 
-    using (Graphics graphics = Graphics.FromImage(destination))
-    {
-        graphics.DrawImage(source, left, top);
-    }
+    var tile2 = new MagickImage(source);
+    tile2.Crop(new MagickGeometry(second.X, second.Y, (uint)tileSize, (uint)tileSize));
+
+    destination.Composite(tile2, first.X, first.Y, CompositeOperator.Copy);
+    destination.Composite(tile1, second.X, second.Y, CompositeOperator.Copy);
 
     return destination;
 }
 
-static Bitmap SwapAndCopyTiles(this Bitmap source, (int X, int Y) first, (int X, int Y) second, int tileSize)
+static MagickImage ClearTile(this MagickImage source, (int X, int Y) position, int tileSize)
 {
-    Bitmap destination = new(source);
-
-    using (Graphics graphics = Graphics.FromImage(destination))
-    {
-        graphics.CompositingMode = System.Drawing.Drawing2D.CompositingMode.SourceCopy;
-        graphics.DrawImage(source, new Rectangle(first.X, first.Y, tileSize, tileSize), new Rectangle(second.X, second.Y, tileSize, tileSize), GraphicsUnit.Pixel);
-        graphics.DrawImage(source, new Rectangle(second.X, second.Y, tileSize, tileSize), new Rectangle(first.X, first.Y, tileSize, tileSize), GraphicsUnit.Pixel);
-    }
-
-    return destination;
-}
-
-static Bitmap ClearTile(this Bitmap source, (int X, int Y) position, int tileSize)
-{
-    Bitmap destination = new(source);
-
-    for (int x = 0; x < tileSize; x++)
-    {
-        for (int y = 0; y < tileSize; y++)
-        {
-            destination.SetPixel(x, y, Color.Transparent);
-        }
-    }
-
+    MagickImage destination = new MagickImage(source);
+    var transparent = new MagickImage("xc:transparent", (uint)tileSize, (uint)tileSize);
+    destination.Composite(transparent, position.X, position.Y, CompositeOperator.Copy);
     return destination;
 }
