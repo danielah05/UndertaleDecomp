@@ -37,7 +37,7 @@ Developers who own a copy of the game should then be able to import the assets f
 ## How do I use this?
 1. You will need to own a copy of UNDERTALE, can be any version but the XBOX version is HIGHLY recommended!<br>
 2. Clone the repo.
-3. Setup the decomp by importing the games assets by running the setup script ``setup.bat`` (Windows) or ``setup.sh`` (Linux) inside the root directory of the decomp.
+3. Setup the decomp by importing the games assets by running the setup script ``setup.bat`` (Windows) or ``setup.sh`` (MacOS/Linux) inside the root directory of the decomp.
 4. Once the script is done running, simply open ``NXTALE.yyp`` inside of Gamemaker Studio 2 (latest beta!)
 
 ## Dependencies (Native Linux Build)
@@ -72,4 +72,5 @@ MrPorkchop - Made the Icon<br>
 [Nyako](https://github.com/NyakoFox)<br>
 [Sadie](https://github.com/zulc22)<br>
 [AveryMadness](https://github.com/AveryMadness)<br>
-[Eliandro](https://github.com/Eliandro4)
+[Eliandro](https://github.com/Eliandro4)<br>
+[TheEssem](https://github.com/TheEssem)
