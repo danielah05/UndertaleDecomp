@@ -37,10 +37,8 @@ Developers who own a copy of the game should then be able to import the assets f
 ## How do I use this?
 1. You will need to own a copy of UNDERTALE, can be any version but the XBOX version is HIGHLY recommended!<br>
 2. Clone the repo.
-3. Download the latest version of [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) (GUI, NOT CLI), you will need it to run the asset extractor script.<br>
-4. In the place you extracted the games data to, locate the ``data.win`` or ``game.win`` file and load it with UndertaleModTool.<br>
-5. After loading the file, in UndertaleModTool, go to ``Scripts -> Run other script...`` and load the ``UndertaleDecompAssetImport.csx`` script that can be found in the ``utils\asset_importer`` folder.<br>
-6. Once the script is done running, just simply open ``NXTale.yyp`` inside of Gamemaker Studio 2 (latest beta!)
+3. Setup the decomp by importing the games assets by running the setup script ``setup.bat`` (Windows) or ``setup.sh`` (Linux) inside the root directory of the decomp.
+4. Once the script is done running, simply open ``NXTALE.yyp`` inside of Gamemaker Studio 2 (latest beta!)
 
 ## Dependencies (Native Linux Build)
 ```libcurl-gnutls lib32-libcurl-gnutls lib32-libpulse lib32-alsa-lib lib32-openal lib32-glu lib32-openssl-1.0```
@@ -73,4 +71,5 @@ MrPorkchop - Made the Icon<br>
 [EphraimBane](https://github.com/EphraimBane)<br>
 [Nyako](https://github.com/NyakoFox)<br>
 [Sadie](https://github.com/zulc22)<br>
-[AveryMadness](https://github.com/AveryMadness)
+[AveryMadness](https://github.com/AveryMadness)<br>
+[Eliandro](https://github.com/Eliandro4)

@@ -26,3 +26,7 @@ tilesets/*/*
 # IDE / text editor folders
 
 .vscode/
+
+# UTMT CLI stuff
+UTMT_CLI_*/
+UTMT_CLI_*.zip
