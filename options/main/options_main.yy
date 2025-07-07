@@ -1,5 +1,5 @@
 {
-  "$GMMainOptions":"v4",
+  "$GMMainOptions":"v5",
   "%Name":"Main",
   "name":"Main",
   "option_allow_instance_change":true,
@@ -14,6 +14,7 @@
   "option_legacy_json_parsing":true,
   "option_legacy_number_conversion":true,
   "option_legacy_other_behaviour":true,
+  "option_legacy_primitive_drawing":true,
   "option_mips_for_3d_textures":false,
   "option_remove_unused_assets":false,
   "option_sci_usesci":false,
