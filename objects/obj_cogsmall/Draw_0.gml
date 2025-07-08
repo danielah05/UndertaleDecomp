@@ -10,7 +10,7 @@ for (i = 0; i < cogno; i += 1)
 {
 	draw_set_color(c_maroon)
 	if (image_xscale < 2)
-		draw_circle(((x + (0.3 * image_xscale)) + (lengthdir_x(8, (((i / cogno) * 360) + siner)) * image_xscale)), ((y + (0.3 * image_yscale)) + (lengthdir_y(8, (((i / cogno) * 360) + siner)) * image_yscale)), (2 * image_xscale), 0)
+		draw_circle(((x - (0.3 * image_xscale)) + (lengthdir_x(8, (((i / cogno) * 360) + siner)) * image_xscale)), ((y - (0.3 * image_yscale)) + (lengthdir_y(8, (((i / cogno) * 360) + siner)) * image_yscale)), (2 * image_xscale), 0)
 	if (image_xscale >= 2)
 		draw_circle(((x - (0.4 * image_xscale)) + (lengthdir_x(8, (((i / cogno) * 360) + siner)) * image_xscale)), ((y - (0.4 * image_yscale)) + (lengthdir_y(8, (((i / cogno) * 360) + siner)) * image_yscale)), (2 * image_xscale), 0)
 }
