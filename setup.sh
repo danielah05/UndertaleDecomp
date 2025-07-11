@@ -62,7 +62,7 @@ zipverify() {
 # if cli folder already exists, just run assetimport
 if [ -d "utils/$utmtZip" ]; then
     # if utmt cli exists but checksum is invalid, redownload it
-    if ! echo "utmtCLI256sum utils/$utmtZip/UndertaleModCli" | sha256sum -c -; then
+    if ! echo "$utmtCLI256sum utils/$utmtZip/UndertaleModCli" | sha256sum -c -; then
         echo "redownloading cli..."
         rm -rf "utils/$utmtZip"
         zipverify;

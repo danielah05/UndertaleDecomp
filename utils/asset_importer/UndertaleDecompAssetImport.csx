@@ -79,6 +79,7 @@ logFile.WriteLine($"UTMT version used: {UTMT_VERSION}");
 // DUMP TEXTURES
 
 SetProgressBar(null, "Exporting Textures", 0, Data.TexturePageItems.Count);
+SetProgress(0); // CLI FIX
 StartProgressBarUpdater();
 
 TextureWorker worker = new TextureWorker();
@@ -103,6 +104,7 @@ logFile.WriteLine($"Exported {Data.TexturePageItems.Count} textures");
 // DUMP AUDIO
 
 SetProgressBar(null, "Exporting Sounds", 0, Data.Sounds.Count);
+SetProgress(0); // CLI FIX
 
 await Task.Run(DumpSounds);
 
@@ -112,6 +114,7 @@ logFile.WriteLine($"Exporting {Data.Sounds.Count} sounds");
 
 var tilesetsExpected = 37;
 SetProgressBar(null, "Patching tileset sprites", 0, tilesetsExpected);
+SetProgress(0); // CLI FIX
 
 void PatchTilesets() {
     var allSprites = Enumerable.Empty<string>()
@@ -141,6 +144,7 @@ var fontsSkipped = new List<string>(); // Not used right now, but added for comp
 var fontsMatched = new Dictionary<string, string?>();
 
 SetProgressBar(null, "Matching fonts", 0, fontsRequired.Count);
+SetProgress(0); // CLI FIX
 
 foreach (var font in fontsRequired)
 {
@@ -179,6 +183,7 @@ var spriteFramesRequired = new Dictionary<string, List<string>>();
 var spriteLayersRequired = new Dictionary<string, List<string>>();
 
 SetProgressBar(null, "Matching sprites", 0, spriteManifests.Count);
+SetProgress(0); // CLI FIX
 
 async Task MatchSprites()
 {
@@ -265,6 +270,7 @@ var audioSkipped = new List<string>();
 var audioMatched = new Dictionary<string, string?>();
 
 SetProgressBar(null, "Matching audio", 0, audioManifests.Count);
+SetProgress(0); // CLI FIX
 
 async Task MatchSounds()
 {
@@ -293,7 +299,7 @@ mappingsFile.WriteLine($"### Skipped Audio ###");
 audioSkipped.ForEach(x => mappingsFile.WriteLine($"{x}"));
 mappingsFile.WriteLine($"### Unmatched Audio ###");
 audioMatched.Where(x => x.Value == null).ForEach(x => mappingsFile.WriteLine($"{x.Key}"));
-mappingsFile.WriteLine($"### Matched Audio ###");
+mappingsFile.WriteLine($"### Matched Audio ###\n");
 audioMatched.Where(x => x.Value != null).ForEach(x => mappingsFile.WriteLine($"{x.Key} => {x.Value}"));
 
 // COPY FILES
@@ -349,6 +355,7 @@ audioMatched = audioMatched
 int totalCount = fontsMatched.Count + spriteFramesMatched.Count + spriteLayersMatched.Count + audioMatched.Count;
 
 SetProgressBar(null, "Importing assets", 0, totalCount);
+SetProgress(0); // CLI FIX
 StartProgressBarUpdater();
 
 int missingSources =
