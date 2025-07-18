@@ -1,10 +1,10 @@
 // The code used to dump the assets is a modified version of the code
 // from UndertaleModTool's ExportAll*.csx scripts
 
-using System.Drawing;
+using ImageMagick;
 using System;
 using System.IO;
-using System.Drawing;
+using ImageMagick.Drawing;
 using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,13 +20,13 @@ EnsureDataLoaded();
 Directory.SetCurrentDirectory(Path.GetDirectoryName(ScriptPath));
 
 string decompPath = null;
-var projectFilePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "NXTale.yyp"));
+var projectFilePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "NXTALE.yyp"));
 
 if (File.Exists(projectFilePath))
     decompPath = projectFilePath;
 
 if (decompPath == null)
-    decompPath = PromptLoadFile("NXTale.yyp", "Undertale Decomp|NXTale.yyp");
+    decompPath = PromptLoadFile("NXTALE.yyp", "Undertale Decomp|NXTALE.yyp");
 
 if (string.IsNullOrEmpty(decompPath))
 {
@@ -39,8 +39,6 @@ if (!File.Exists(decompPath))
     ScriptError("Path to Decomp is not valid!");
     return;
 }
-
-StartProgressBarUpdater();
 
 var decompFolder = Path.GetDirectoryName(decompPath);
 
@@ -81,6 +79,9 @@ logFile.WriteLine($"UTMT version used: {UTMT_VERSION}");
 // DUMP TEXTURES
 
 SetProgressBar(null, "Exporting Textures", 0, Data.TexturePageItems.Count);
+SetProgress(0); // CLI FIX
+StartProgressBarUpdater();
+
 TextureWorker worker = new TextureWorker();
 await DumpSprites();
 await DumpFonts();
@@ -103,6 +104,7 @@ logFile.WriteLine($"Exported {Data.TexturePageItems.Count} textures");
 // DUMP AUDIO
 
 SetProgressBar(null, "Exporting Sounds", 0, Data.Sounds.Count);
+SetProgress(0); // CLI FIX
 
 await Task.Run(DumpSounds);
 
@@ -111,20 +113,21 @@ logFile.WriteLine($"Exporting {Data.Sounds.Count} sounds");
 // MATCH FONTS
 
 var fontsRequired = Directory
-    .GetFiles(Path.Combine(decompFolder, "fonts"), "*.yy", SearchOption.AllDirectories)
-    .Select(x => x[..^3] + ".png")
-    .ToList();
+.GetFiles(Path.Combine(decompFolder, "fonts"), "*.yy", SearchOption.AllDirectories)
+.Select(x => x[..^3] + ".png")
+.ToList();
 
 var fontsAvailable = Enumerable.Empty<string>()
-    .Concat(Directory.GetFiles(fontFolder, "*.png"))
-    .Concat(Directory.GetFiles(externalFonts, "*.png"))
-    .ToList();
+.Concat(Directory.GetFiles(fontFolder, "*.png"))
+.Concat(Directory.GetFiles(externalFonts, "*.png"))
+.ToList();
 
 var fontsSkipped = new List<string>(); // Not used right now, but added for completeness
 
 var fontsMatched = new Dictionary<string, string?>();
 
 SetProgressBar(null, "Matching fonts", 0, fontsRequired.Count);
+SetProgress(0); // CLI FIX
 
 foreach (var font in fontsRequired)
 {
@@ -149,20 +152,21 @@ fontsMatched.Where(x => x.Value != null).ForEach(x => mappingsFile.WriteLine($"{
 // SPRITE MATCHING
 
 var spriteManifests = Directory
-    .GetFiles(Path.Combine(decompFolder, "sprites"), "*.yy", SearchOption.AllDirectories)
-    .ToList();
+.GetFiles(Path.Combine(decompFolder, "sprites"), "*.yy", SearchOption.AllDirectories)
+.ToList();
 
 var spritesAvailable = Enumerable.Empty<string>()
-    .Concat(Directory.GetFiles(spriteFolder, "*.png"))
-    .Concat(Directory.GetFiles(backgroundFolder, "*.png"))
-    .Concat(Directory.GetFiles(externalSprites, "*.png"))
-    .ToList();
+.Concat(Directory.GetFiles(spriteFolder, "*.png"))
+.Concat(Directory.GetFiles(backgroundFolder, "*.png"))
+.Concat(Directory.GetFiles(externalSprites, "*.png"))
+.ToList();
 
 var spritesSkipped = new List<string>();
 var spriteFramesRequired = new Dictionary<string, List<string>>();
 var spriteLayersRequired = new Dictionary<string, List<string>>();
 
 SetProgressBar(null, "Matching sprites", 0, spriteManifests.Count);
+SetProgress(0); // CLI FIX
 
 async Task MatchSprites()
 {
@@ -204,7 +208,7 @@ foreach ((var path, var frames) in spriteFramesRequired)
 
         var framePath = Path.Combine(Path.GetDirectoryName(path), $"{frame}.png");
         spriteFramesMatched[framePath] = sprite;
-        
+
         // Layers are in {layers}/{frame_uuid}/{layer_uuid}.png
         var layerPath = Path.Combine(Path.GetDirectoryName(path), "layers", frame, $"{spriteLayersRequired[path][0]}.png");
         spriteLayersMatched[layerPath] = sprite;
@@ -232,23 +236,24 @@ spriteLayersMatched.Where(x => x.Value != null).ForEach(x => mappingsFile.WriteL
 // AUDIO MATCHING
 
 var audioManifests = Directory
-    .GetFiles(Path.Combine(decompFolder, "sounds"), "*.yy", SearchOption.AllDirectories)
-    .ToList();
+.GetFiles(Path.Combine(decompFolder, "sounds"), "*.yy", SearchOption.AllDirectories)
+.ToList();
 
 var audioAvailable = Enumerable.Empty<string>()
-    .Concat(Directory.GetFiles(soundFolder, "*.mp3"))
-    .Concat(Directory.GetFiles(soundFolder, "*.wav"))
-    .Concat(Directory.GetFiles(soundFolder, "*.ogg"))
-    .Concat(Directory.GetFiles(externalSounds, "*.mp3"))
-    .Concat(Directory.GetFiles(externalSounds, "*.wav"))
-    .Concat(Directory.GetFiles(externalSounds, "*.ogg"))
-    .ToList();
+.Concat(Directory.GetFiles(soundFolder, "*.mp3"))
+.Concat(Directory.GetFiles(soundFolder, "*.wav"))
+.Concat(Directory.GetFiles(soundFolder, "*.ogg"))
+.Concat(Directory.GetFiles(externalSounds, "*.mp3"))
+.Concat(Directory.GetFiles(externalSounds, "*.wav"))
+.Concat(Directory.GetFiles(externalSounds, "*.ogg"))
+.ToList();
 
 var audioSkipped = new List<string>();
 
 var audioMatched = new Dictionary<string, string?>();
 
 SetProgressBar(null, "Matching audio", 0, audioManifests.Count);
+SetProgress(0); // CLI FIX
 
 async Task MatchSounds()
 {
@@ -277,10 +282,12 @@ mappingsFile.WriteLine($"### Skipped Audio ###");
 audioSkipped.ForEach(x => mappingsFile.WriteLine($"{x}"));
 mappingsFile.WriteLine($"### Unmatched Audio ###");
 audioMatched.Where(x => x.Value == null).ForEach(x => mappingsFile.WriteLine($"{x.Key}"));
-mappingsFile.WriteLine($"### Matched Audio ###");
+mappingsFile.WriteLine($"### Matched Audio ###\n");
 audioMatched.Where(x => x.Value != null).ForEach(x => mappingsFile.WriteLine($"{x.Key} => {x.Value}"));
 
 // COPY FILES
+StopProgressBarUpdater();
+HideProgressBar();
 
 var confirmImport = ScriptQuestion(
     "Assets prepared for import:\n" +
@@ -295,8 +302,6 @@ var confirmImport = ScriptQuestion(
 );
 
 if (!confirmImport) {
-    StopProgressBarUpdater();
-    HideProgressBar();
     logFile.Close();
     mappingsFile.Close();
     return;
@@ -311,34 +316,36 @@ logFile.WriteLine($"Using {placeholderSprite} as placeholder sprite texture");
 logFile.WriteLine($"Using {placeholderAudio} as placeholder audio file");
 
 fontsMatched = fontsMatched
-    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderFont))
-    .Where(x => x.Value != null)
-    .ToDictionary(x => x.Key, x => x.Value);
+.Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderFont))
+.Where(x => x.Value != null)
+.ToDictionary(x => x.Key, x => x.Value);
 
 spriteFramesMatched = spriteFramesMatched
-    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderSprite))
-    .Where(x => x.Value != null)
-    .ToDictionary(x => x.Key, x => x.Value);
+.Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderSprite))
+.Where(x => x.Value != null)
+.ToDictionary(x => x.Key, x => x.Value);
 
 spriteLayersMatched = spriteLayersMatched
-    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderSprite))
-    .Where(x => x.Value != null)
-    .ToDictionary(x => x.Key, x => x.Value);
+.Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderSprite))
+.Where(x => x.Value != null)
+.ToDictionary(x => x.Key, x => x.Value);
 
 audioMatched = audioMatched
-    .Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderAudio))
-    .Where(x => x.Value != null)
-    .ToDictionary(x => x.Key, x => x.Value);
+.Select(x => new KeyValuePair<string, string>(x.Key, x.Value ?? placeholderAudio))
+.Where(x => x.Value != null)
+.ToDictionary(x => x.Key, x => x.Value);
 
 int totalCount = fontsMatched.Count + spriteFramesMatched.Count + spriteLayersMatched.Count + audioMatched.Count;
 
 SetProgressBar(null, "Importing assets", 0, totalCount);
+SetProgress(0); // CLI FIX
+StartProgressBarUpdater();
 
 int missingSources =
-    fontsMatched.Values.Count(x => !File.Exists(x)) +
-    spriteFramesMatched.Values.Count(x => !File.Exists(x)) +
-    spriteLayersMatched.Values.Count(x => !File.Exists(x)) +
-    audioMatched.Values.Count(x => !File.Exists(x));
+fontsMatched.Values.Count(x => !File.Exists(x)) +
+spriteFramesMatched.Values.Count(x => !File.Exists(x)) +
+spriteLayersMatched.Values.Count(x => !File.Exists(x)) +
+audioMatched.Values.Count(x => !File.Exists(x));
 
 if (missingSources > 0)
 {
@@ -410,9 +417,8 @@ void DumpSprite(UndertaleSprite sprite)
             UndertaleTexturePageItem tex = sprite.Textures[i].Texture;
             worker.ExportAsPNG(tex, Path.Combine(spriteFolder, sprite.Name.Content + "_" + i + ".png"), includePadding: true);
         }
+        IncrementProgressParallel();
     }
-
-    AddProgressParallel(sprite.Textures.Count);
 }
 
 void DumpFont(UndertaleFont font)
@@ -496,31 +502,31 @@ IList<UndertaleEmbeddedAudio> GetAudioGroupData(UndertaleSound sound)
     if (!File.Exists(groupFilePath))
         return null; // Doesn't exist.
 
-    try
-    {
-        UndertaleData data = null;
-        // version check to make sure stuff doesnt break on 8.0.0 and above
-        if (UTMT_VERSION >= new Version(0, 8, 0, 0))
+        try
         {
-            Action<string, bool> warningHandler = (warning, _) => ScriptMessage("A warning occured while trying to load " + audioGroupName + ":\n" + warning);
-            using (var stream = new FileStream(groupFilePath, FileMode.Open, FileAccess.Read))
+            UndertaleData data = null;
+            // version check to make sure stuff doesnt break on 8.0.0 and above
+            if (UTMT_VERSION >= new Version(0, 8, 0, 0))
+            {
+                Action<string, bool> warningHandler = (warning, _) => ScriptMessage("A warning occured while trying to load " + audioGroupName + ":\n" + warning);
+                using (var stream = new FileStream(groupFilePath, FileMode.Open, FileAccess.Read))
                 data = (UndertaleData)typeof(UndertaleIO).GetMethod("Read", System.Reflection.BindingFlags.Static).Invoke(null, new object[] { stream, warningHandler });
-        }
-        else
-        {
-            Action<string> warningHandler = (warning) => ScriptMessage("A warning occured while trying to load " + audioGroupName + ":\n" + warning);
-            using (var stream = new FileStream(groupFilePath, FileMode.Open, FileAccess.Read))
+            }
+            else
+            {
+                Action<string> warningHandler = (warning) => ScriptMessage("A warning occured while trying to load " + audioGroupName + ":\n" + warning);
+                using (var stream = new FileStream(groupFilePath, FileMode.Open, FileAccess.Read))
                 data = (UndertaleData)typeof(UndertaleIO).GetMethod("Read", System.Reflection.BindingFlags.Static).Invoke(null, new object[] { stream, warningHandler });
-        }
+            }
 
-        loadedAudioGroups[audioGroupName] = data.EmbeddedAudio;
-        return data.EmbeddedAudio;
-    }
-    catch (Exception e)
-    {
-        ScriptMessage("An error occured while trying to load " + audioGroupName + ":\n" + e.Message);
-        return null;
-    }
+            loadedAudioGroups[audioGroupName] = data.EmbeddedAudio;
+            return data.EmbeddedAudio;
+        }
+        catch (Exception e)
+        {
+            ScriptMessage("An error occured while trying to load " + audioGroupName + ":\n" + e.Message);
+            return null;
+        }
 }
 
 byte[] GetSoundData(UndertaleSound sound)
