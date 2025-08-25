@@ -34,6 +34,6 @@ EXIT /B 0
 	set /P "datafilepath=Enter direct path of data.win: "
 
 	cd UTMT_CLI_Windows
-	UndertaleModCli.exe load "%datafilepath%" -s "../asset_importer/UndertaleDecompAssetImport.csx"
+	UndertaleModCli.exe load "%datafilepath%" -s "../utils/asset_importer/UndertaleDecompAssetImport.csx"
 	pause
 EXIT /B 0
