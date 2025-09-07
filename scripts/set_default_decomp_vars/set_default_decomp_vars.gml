@@ -19,4 +19,5 @@ function set_default_decomp_vars()
 	global.decomp_vars.WristProtector = true;
 	global.decomp_vars.ForceSoSorry = false;
 	global.decomp_vars.QwertzInput = true;
+	global.decomp_vars.FlashyFloweyFight = false; 
 }

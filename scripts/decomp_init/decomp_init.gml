@@ -17,7 +17,8 @@ global.decomp_vars = {
 	FixInputLatency : true,
 	WristProtector : true,
 	ForceSoSorry : false,
-	QwertzInput : true
+	QwertzInput : true,
+	FlashyFloweyFight: false 
 }
 
 #macro trace show_debug_message

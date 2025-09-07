@@ -31,6 +31,12 @@ array_push(categories, new menu_category("Battle", "General Battle Settings",
 		new menu_checkbox_option("Demo Heart Fracture Delay", "DemoHeartFracture", "Restores the 500ms delay when the heart fractures", global.decomp_vars.DemoHeartFracture, true),
 		new menu_slider_option("Heart Fracture Delay", "DemoHeartFractureDelay", "Delay amount (in ms) for the heart fracture", global.decomp_vars.DemoHeartFractureDelay, 500, 250, 1000, 1, 10)
 	]));
+	
+array_push(categories, new menu_category("Accessibility", "Ease of Access Settings",
+	[
+	new menu_checkbox_option("Remove Flashing from Flowey Fight","FlashyFloweyFight","Removes red flashing lights and Strobe effect on Flowey's body during the fight", global.decomp_vars.FlashyFloweyFight,false)
+]));
+	
 array_push(categories, new menu_category("Save Data", "Save Data Settings", 
 	[
 		new menu_holdbutton_option("Wipe Trophy Data", "Hold to wipe all trophy data", 30 * 3, wipeTrophyData),
