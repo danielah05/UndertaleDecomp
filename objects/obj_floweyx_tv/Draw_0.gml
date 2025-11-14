@@ -6,15 +6,22 @@ if (tvmode == 0)
 		animspeed = (-animspeed)
 	if (anim < (animchoice - 1))
 		animspeed = (-animspeed)
-	animtimer += 1
-	if (animtimer > 100)
-	{
-		draw_sprite_ext(spr_noise, random(3), ((x + 20) + random(4)), ((y + 50) + random(4)), ((size + 0.8) + random(0.1)), ((size + random(0.1)) + 0.4), 0, c_white, 1)
-		animchoice = round(random(100))
-		anim = animchoice
-		if (animtimer > 106)
-			animtimer = 0
-	}
+    if(global.decomp_vars.DrawTVNoiseAnim)
+    {	
+        animtimer += 1
+        if (animtimer > 100)
+        {
+            draw_sprite_ext(spr_noise, random(3), ((x + 20) + random(4)), ((y + 50) + random(4)), ((size + 0.8) + random(0.1)), ((size + random(0.1)) + 0.4), 0, c_white, 1)
+            animchoice = round(random(100))
+            anim = animchoice
+            if (animtimer > 106)
+                animtimer = 0
+        }
+    }
+    else 
+    {    
+       draw_sprite_ext(spr_noise, random(3), ((x + 20) + random(4)), ((y + 50) + random(4)), ((size + 0.8) + random(0.1)), ((size + random(0.1)) + 0.4), 0, c_white, 1) 
+    }
 	draw_sprite(sprite_index, image_index, x, (y + (sin((siner / 3)) * 1)))
 	siner += 1
 }
