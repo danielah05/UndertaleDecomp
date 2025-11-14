@@ -34,7 +34,7 @@ array_push(categories, new menu_category("Battle", "General Battle Settings",
 	
 array_push(categories, new menu_category("Accessibility", "Ease of Access Settings",
 	[
-	new menu_checkbox_option("Remove Flashing from Flowey Fight","FlashyFloweyFight","Removes red flashing lights and Strobe effect on Flowey's body during the fight", global.decomp_vars.FlashyFloweyFight,false)
+	new menu_checkbox_option("Controls the TV Noise from Flowey Fight","DrawTVNoiseAnim","Enable to turn on the TV Noise during the Flowey Fight", global.decomp_vars.DrawTVNoiseAnim,false)
 ]));
 	
 array_push(categories, new menu_category("Save Data", "Save Data Settings", 
